@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://catisnotfound.github.io/feed/index.html</loc>
     
     <lastmod>2024-06-12</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://catisnotfound.github.io/feed/index.html</loc>
+    <loc>https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2024-06-12</lastmod>
     
@@ -234,14 +234,14 @@
   </url>
   
   <url>
-    <loc>https://catisnotfound.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://catisnotfound.github.io/tags/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://catisnotfound.github.io/tags/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://catisnotfound.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
