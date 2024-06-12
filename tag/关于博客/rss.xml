@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>CatIsNotFound • Posts by &#34;关于博客&#34; tag</title>
+        <link>https://CatIsNotFound.github.io</link>
+        <description>一个基于 Hexo 框架的个人博客网站</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 11 Jun 2024 19:58:21 +0800</pubDate>
+        <lastBuildDate>Tue, 11 Jun 2024 19:58:21 +0800</lastBuildDate>
+        <category>Linux 学习</category>
+        <category>更新日志</category>
+        <category>关于博客</category>
+        <category>Git</category>
+        <category>博客搭建</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>软件安利</category>
+        <category>Windows 软件</category>
+        <category>脚本</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+            <title>关于我的博客</title>
+            <link>https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+            <category>关于博客</category>
+            <pubDate>Tue, 11 Jun 2024 19:58:21 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。&lt;/p&gt;
+&lt;h1 id=&#34;我是谁？&#34;&gt;&lt;a href=&#34;#我是谁？&#34; class=&#34;headerlink&#34; title=&#34;我是谁？&#34;&gt;&lt;/a&gt;我是谁？&lt;/h1&gt;&lt;p&gt;我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。&lt;/p&gt;
+&lt;h1 id=&#34;为什么要有自己的博客？&#34;&gt;&lt;a href=&#34;#为什么要有自己的博客？&#34; class=&#34;headerlink&#34; title=&#34;为什么要有自己的博客？&#34;&gt;&lt;/a&gt;为什么要有自己的博客？&lt;/h1&gt;&lt;p&gt;简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。&lt;/p&gt;
+&lt;h1 id=&#34;博客何时更新？&#34;&gt;&lt;a href=&#34;#博客何时更新？&#34; class=&#34;headerlink&#34; title=&#34;博客何时更新？&#34;&gt;&lt;/a&gt;博客何时更新？&lt;/h1&gt;&lt;p&gt;博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。&lt;/p&gt;
+&lt;p&gt;目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）&lt;/p&gt;
+&lt;p&gt;回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新&lt;strong&gt;（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;博客有什么类型的内容吗？&#34;&gt;&lt;a href=&#34;#博客有什么类型的内容吗？&#34; class=&#34;headerlink&#34; title=&#34;博客有什么类型的内容吗？&#34;&gt;&lt;/a&gt;博客有什么类型的内容吗？&lt;/h1&gt;&lt;p&gt;见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。&lt;/p&gt;
+&lt;p&gt;当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O&lt;/p&gt;
+&lt;h1 id=&#34;如何订阅我的-RSS-频道？&#34;&gt;&lt;a href=&#34;#如何订阅我的-RSS-频道？&#34; class=&#34;headerlink&#34; title=&#34;如何订阅我的 RSS 频道？&#34;&gt;&lt;/a&gt;如何订阅我的 RSS 频道？&lt;/h1&gt;&lt;p&gt;你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：&lt;/p&gt;
+&lt;a class=&#34;button  regular&#34; href=&#39;/feed&#39; title=&#39;RSS 订阅&#39;&gt;&lt;i class=&#39;fa-solid fa-rss&#39;&gt;&lt;/i&gt; RSS 订阅&lt;/a&gt;
+
+&lt;h1 id=&#34;如何找到我？&#34;&gt;&lt;a href=&#34;#如何找到我？&#34; class=&#34;headerlink&#34; title=&#34;如何找到我？&#34;&gt;&lt;/a&gt;如何找到我？&lt;/h1&gt;&lt;p&gt;你可以通过以下几个平台来私信我：&lt;/p&gt;
+&lt;a class=&#34;button  regular&#34; href=&#39;https://www.zhihu.com/people/catisnotfound&#39; title=&#39;知乎主页&#39;&gt;&lt;i class=&#39;fa-brands fa-zhihu&#39;&gt;&lt;/i&gt; 知乎主页&lt;/a&gt;
+
+&lt;a class=&#34;button  regular&#34; href=&#39;https://space.bilibili.com/1896645285&#39; title=&#39;B 站主页&#39;&gt;&lt;i class=&#39;fa-brands fa-bilibili&#39;&gt;&lt;/i&gt; B 站主页&lt;/a&gt;
+
+&lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/CatIsNotFound&#39; title=&#39;GitHub&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
+&lt;p&gt;或者你可以通过其它私人途径来联系我：&lt;/p&gt;
+&lt;img  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/QQ.jpg&#34;
+                      alt=&#34;QQ&#34; width=&#34;300px&#34;
+                &gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</guid>
+            <title>关于我和博客</title>
+            <link>https://catisnotfound.github.io/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</link>
+            <category>关于博客</category>
+            <pubDate>Tue, 23 Apr 2024 14:05:56 +0800</pubDate>
+            <description><![CDATA[ 
+  &lt;div class=&#34;note-large red&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;文章已过时&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请&lt;a href=&#34;/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/&#34;&gt;点击此处&lt;/a&gt;已查看最新内容。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o&lt;/p&gt;
+&lt;h2 id=&#34;我是谁？&#34;&gt;&lt;a href=&#34;#我是谁？&#34; class=&#34;headerlink&#34; title=&#34;我是谁？&#34;&gt;&lt;/a&gt;我是谁？&lt;/h2&gt;&lt;p&gt;我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。&lt;/p&gt;
+&lt;h2 id=&#34;为什么要有自己的博客？&#34;&gt;&lt;a href=&#34;#为什么要有自己的博客？&#34; class=&#34;headerlink&#34; title=&#34;为什么要有自己的博客？&#34;&gt;&lt;/a&gt;为什么要有自己的博客？&lt;/h2&gt;&lt;p&gt;简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。&lt;/p&gt;
+&lt;h2 id=&#34;博客何时更新？&#34;&gt;&lt;a href=&#34;#博客何时更新？&#34; class=&#34;headerlink&#34; title=&#34;博客何时更新？&#34;&gt;&lt;/a&gt;博客何时更新？&lt;/h2&gt;&lt;p&gt;今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。&lt;/p&gt;
+&lt;p&gt;回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（&lt;strong&gt;文章可能不会同步更新~ o(*￣▽￣*)o&lt;/strong&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;博客有什么类型的内容吗？&#34;&gt;&lt;a href=&#34;#博客有什么类型的内容吗？&#34; class=&#34;headerlink&#34; title=&#34;博客有什么类型的内容吗？&#34;&gt;&lt;/a&gt;博客有什么类型的内容吗？&lt;/h2&gt;&lt;p&gt;见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。&lt;/p&gt;
+&lt;p&gt;当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O&lt;/p&gt;
+&lt;h2 id=&#34;如何找到我？&#34;&gt;&lt;a href=&#34;#如何找到我？&#34; class=&#34;headerlink&#34; title=&#34;如何找到我？&#34;&gt;&lt;/a&gt;如何找到我？&lt;/h2&gt;&lt;p&gt;你可以通过以下几个平台来私信我：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0&#34; &gt;bilibili &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.zhihu.com/people/catisnotfound&#34; &gt;知乎 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jianshu.com/u/7ef34e5bf13f&#34; &gt;简书 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;mailto:1636879962@qq.com&#34; &gt;个人邮箱 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
