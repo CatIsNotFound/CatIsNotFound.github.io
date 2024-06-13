@@ -430,6 +430,58 @@
       </tags>
   </entry>
   <entry>
+    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
+    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
+    <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
+<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
+<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0423/Snipaste_2024-04-23_18-48-23.jpg"
+                      alt="暗色"
+                ><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0423/Snipaste_2024-04-23_18-47-15.jpg"
+                      alt="亮色"
+                ></p>
+</li>
+<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
+<ul>
+<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
+<li>其中的【说说】会在此留下所有关于作者的一些话</li>
+</ul>
+</li>
+<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0423/music.jpg"
+                      alt="音乐"
+                ></p>
+</li>
+<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
+</li>
+<li><p>目前暂未完成的目标：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
+<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
+<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
+</ul>
+</li>
+</ul>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
+<blockquote>
+<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
     <url>/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[
@@ -749,58 +801,6 @@
 ]]></content>
       <tags>
         <tag>关于博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
-    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
-    <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
-<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
-<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0423/Snipaste_2024-04-23_18-48-23.jpg"
-                      alt="暗色"
-                ><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0423/Snipaste_2024-04-23_18-47-15.jpg"
-                      alt="亮色"
-                ></p>
-</li>
-<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
-<ul>
-<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
-<li>其中的【说说】会在此留下所有关于作者的一些话</li>
-</ul>
-</li>
-<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0423/music.jpg"
-                      alt="音乐"
-                ></p>
-</li>
-<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
-</li>
-<li><p>目前暂未完成的目标：</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
-<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
-<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
-</ul>
-</li>
-</ul>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
-<blockquote>
-<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>更新日志</category>
-      </categories>
-      <tags>
-        <tag>更新日志</tag>
       </tags>
   </entry>
   <entry>
@@ -1133,221 +1133,6 @@
       </categories>
       <tags>
         <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
-    <url>/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
-
-    </div>
-    <div class="notel-content">
-      <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
-<p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
-
-    </div>
-  </div>
-
-<h1 id="桌面布局"><a href="#桌面布局" class="headerlink" title="桌面布局"></a>桌面布局</h1><p>请根据如下图的标识一一对应。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/1.jpg"
-                      alt="桌面"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/3.jpg"
-                      alt="快捷菜单"
-                ></p>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p><strong>Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。</strong></p>
-<p>这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 <code>gnome-shell</code> 插件来实现）</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/2.jpg"
-                     
-                ></p>
-
-    </div>
-  </div>
-
-<h1 id="桌面小技巧"><a href="#桌面小技巧" class="headerlink" title="桌面小技巧"></a>桌面小技巧</h1><p>以下是关于 GNOME 相关操作的小技巧，不包含所有。</p>
-<h2 id="有用的键盘快捷键"><a href="#有用的键盘快捷键" class="headerlink" title="有用的键盘快捷键"></a>有用的键盘快捷键</h2><blockquote>
-<p>以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。</p>
-</blockquote>
-<p><kbd><i class="fa-brands fa-windows"></i></kbd> 类</p>
-<ul>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd>：打开【概览】界面</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd>：打开【所有程序】界面</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>S</kbd>：打开右上角处的【快捷菜单】</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>D</kbd>：快速显示桌面，再按一次复原</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>L</kbd>：锁定屏幕</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Tab</kbd>：切换应用</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd>：将窗口移动到左半屏，再按一次将恢复原位</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd>：将窗口移动到右半屏，再按一次将恢复原位</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>↑</kbd>：将窗口最大化，再按一次将取消最大化</li>
-</ul>
-<p><kbd>Alt</kbd> 类：</p>
-<ul>
-<li><kbd>Alt</kbd> + <kbd>Tab</kbd>：切换应用</li>
-<li><kbd>Alt</kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
-<li><kbd>Alt</kbd> + <kbd>Esc</kbd>：切换应用（比前两个快捷键更好用👍）</li>
-<li><kbd>Alt</kbd> + <kbd>F2</kbd>：打开【运行】命令，快速运行一个命令</li>
-</ul>
-<p><kbd>Ctrl</kbd> 类：</p>
-<ul>
-<li><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：快速打开终端</li>
-</ul>
-<h2 id="Dock-栏（快捷栏）"><a href="#Dock-栏（快捷栏）" class="headerlink" title="Dock 栏（快捷栏）"></a>Dock 栏（快捷栏）</h2><h3 id="利用快捷键启动应用"><a href="#利用快捷键启动应用" class="headerlink" title="利用快捷键启动应用"></a>利用快捷键启动应用</h3><p>Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands fa-windows"></i></kbd> + 数字键以打开快捷栏中的所对应的应用程序。</p>
-<p>每个应用图标左上角的以 ①②③ 表示对应的序号。<br>例如：打开 Firefox 浏览器，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>1</kbd> 即可</p>
-<p>若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/4.jpg"
-                      alt="在快捷栏中启动应用"
-                ></p>
-<h3 id="固定应用到-Dock-栏（快捷栏）"><a href="#固定应用到-Dock-栏（快捷栏）" class="headerlink" title="固定应用到 Dock 栏（快捷栏）"></a>固定应用到 Dock 栏（快捷栏）</h3><h4 id="1-通过右键菜单"><a href="#1-通过右键菜单" class="headerlink" title="1. 通过右键菜单"></a>1. 通过右键菜单</h4><p>你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/5.jpg"
-                      alt="固定应用"
-                ></p>
-<h4 id="2-通过鼠标拖拽"><a href="#2-通过鼠标拖拽" class="headerlink" title="2. 通过鼠标拖拽"></a>2. 通过鼠标拖拽</h4><p>你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；</p>
-<p>反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 </p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/1.gif"
-                      alt="固定应用程序"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/2.gif"
-                      alt="取消固定应用程序"
-                ></p>
-<hr>
-<p>在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；</p>
-<p>反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/3.gif"
-                      alt="在桌面中固定"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/4.gif"
-                      alt="在桌面中解除固定"
-                ></p>
-<h2 id="窗口（Window）"><a href="#窗口（Window）" class="headerlink" title="窗口（Window）"></a>窗口（Window）</h2><h3 id="左右分屏"><a href="#左右分屏" class="headerlink" title="左右分屏"></a>左右分屏</h3><p>与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/6.gif"
-                      alt="左右分屏"
-                ></p>
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-solid fa-lightbulb"></i><p>提示：</p>
-<p>在此处操作中，可以使用快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd> 或 <kbd> <i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd> 来使窗口快速移动到左半屏或右半屏</p>
-
-  </div>
-
-<h3 id="上下分屏"><a href="#上下分屏" class="headerlink" title="上下分屏"></a>上下分屏</h3><p>与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/7.gif"
-                      alt="上下分屏"
-                ></p>
-<h2 id="工作区（Workspace）"><a href="#工作区（Workspace）" class="headerlink" title="工作区（Workspace）"></a>工作区（Workspace）</h2><p>工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：</p>
-<h3 id="创建、删除、切换工作区"><a href="#创建、删除、切换工作区" class="headerlink" title="创建、删除、切换工作区"></a>创建、删除、切换工作区</h3><p>不多描述，直接看图</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/long1.gif"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/long2.gif"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/long3.gif"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/long4.gif"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/long5.gif"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0503/long6.gif"
-                     
-                ></p>
-<p>下列为比较好用的快捷键（即上图中所提及到的操作）：</p>
-<ul>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↑</kbd>：上一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↓</kbd>：下一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：第一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：最后一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：将窗口移动到上一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：将窗口移动到下一个工作区</p>
-</li>
-</ul>
-<hr>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
-
-    </div>
-    <div class="notel-content">
-      <p>以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)</p>
-
-    </div>
-  </div>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux 学习</tag>
       </tags>
   </entry>
   <entry>
@@ -2267,6 +2052,352 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
+    <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
+    <url>/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
+
+    </div>
+    <div class="notel-content">
+      <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
+<p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
+
+    </div>
+  </div>
+
+<h1 id="桌面布局"><a href="#桌面布局" class="headerlink" title="桌面布局"></a>桌面布局</h1><p>请根据如下图的标识一一对应。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/1.jpg"
+                      alt="桌面"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/3.jpg"
+                      alt="快捷菜单"
+                ></p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p><strong>Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。</strong></p>
+<p>这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 <code>gnome-shell</code> 插件来实现）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/2.jpg"
+                     
+                ></p>
+
+    </div>
+  </div>
+
+<h1 id="桌面小技巧"><a href="#桌面小技巧" class="headerlink" title="桌面小技巧"></a>桌面小技巧</h1><p>以下是关于 GNOME 相关操作的小技巧，不包含所有。</p>
+<h2 id="有用的键盘快捷键"><a href="#有用的键盘快捷键" class="headerlink" title="有用的键盘快捷键"></a>有用的键盘快捷键</h2><blockquote>
+<p>以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。</p>
+</blockquote>
+<p><kbd><i class="fa-brands fa-windows"></i></kbd> 类</p>
+<ul>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd>：打开【概览】界面</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd>：打开【所有程序】界面</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>S</kbd>：打开右上角处的【快捷菜单】</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>D</kbd>：快速显示桌面，再按一次复原</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>L</kbd>：锁定屏幕</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Tab</kbd>：切换应用</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd>：将窗口移动到左半屏，再按一次将恢复原位</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd>：将窗口移动到右半屏，再按一次将恢复原位</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>↑</kbd>：将窗口最大化，再按一次将取消最大化</li>
+</ul>
+<p><kbd>Alt</kbd> 类：</p>
+<ul>
+<li><kbd>Alt</kbd> + <kbd>Tab</kbd>：切换应用</li>
+<li><kbd>Alt</kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
+<li><kbd>Alt</kbd> + <kbd>Esc</kbd>：切换应用（比前两个快捷键更好用👍）</li>
+<li><kbd>Alt</kbd> + <kbd>F2</kbd>：打开【运行】命令，快速运行一个命令</li>
+</ul>
+<p><kbd>Ctrl</kbd> 类：</p>
+<ul>
+<li><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：快速打开终端</li>
+</ul>
+<h2 id="Dock-栏（快捷栏）"><a href="#Dock-栏（快捷栏）" class="headerlink" title="Dock 栏（快捷栏）"></a>Dock 栏（快捷栏）</h2><h3 id="利用快捷键启动应用"><a href="#利用快捷键启动应用" class="headerlink" title="利用快捷键启动应用"></a>利用快捷键启动应用</h3><p>Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands fa-windows"></i></kbd> + 数字键以打开快捷栏中的所对应的应用程序。</p>
+<p>每个应用图标左上角的以 ①②③ 表示对应的序号。<br>例如：打开 Firefox 浏览器，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>1</kbd> 即可</p>
+<p>若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/4.jpg"
+                      alt="在快捷栏中启动应用"
+                ></p>
+<h3 id="固定应用到-Dock-栏（快捷栏）"><a href="#固定应用到-Dock-栏（快捷栏）" class="headerlink" title="固定应用到 Dock 栏（快捷栏）"></a>固定应用到 Dock 栏（快捷栏）</h3><h4 id="1-通过右键菜单"><a href="#1-通过右键菜单" class="headerlink" title="1. 通过右键菜单"></a>1. 通过右键菜单</h4><p>你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/5.jpg"
+                      alt="固定应用"
+                ></p>
+<h4 id="2-通过鼠标拖拽"><a href="#2-通过鼠标拖拽" class="headerlink" title="2. 通过鼠标拖拽"></a>2. 通过鼠标拖拽</h4><p>你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；</p>
+<p>反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 </p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/1.gif"
+                      alt="固定应用程序"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/2.gif"
+                      alt="取消固定应用程序"
+                ></p>
+<hr>
+<p>在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；</p>
+<p>反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/3.gif"
+                      alt="在桌面中固定"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/4.gif"
+                      alt="在桌面中解除固定"
+                ></p>
+<h2 id="窗口（Window）"><a href="#窗口（Window）" class="headerlink" title="窗口（Window）"></a>窗口（Window）</h2><h3 id="左右分屏"><a href="#左右分屏" class="headerlink" title="左右分屏"></a>左右分屏</h3><p>与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/6.gif"
+                      alt="左右分屏"
+                ></p>
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-solid fa-lightbulb"></i><p>提示：</p>
+<p>在此处操作中，可以使用快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd> 或 <kbd> <i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd> 来使窗口快速移动到左半屏或右半屏</p>
+
+  </div>
+
+<h3 id="上下分屏"><a href="#上下分屏" class="headerlink" title="上下分屏"></a>上下分屏</h3><p>与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/7.gif"
+                      alt="上下分屏"
+                ></p>
+<h2 id="工作区（Workspace）"><a href="#工作区（Workspace）" class="headerlink" title="工作区（Workspace）"></a>工作区（Workspace）</h2><p>工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：</p>
+<h3 id="创建、删除、切换工作区"><a href="#创建、删除、切换工作区" class="headerlink" title="创建、删除、切换工作区"></a>创建、删除、切换工作区</h3><p>不多描述，直接看图</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/long1.gif"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/long2.gif"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/long3.gif"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/long4.gif"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/long5.gif"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0503/long6.gif"
+                     
+                ></p>
+<p>下列为比较好用的快捷键（即上图中所提及到的操作）：</p>
+<ul>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↑</kbd>：上一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↓</kbd>：下一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：第一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：最后一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：将窗口移动到上一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：将窗口移动到下一个工作区</p>
+</li>
+</ul>
+<hr>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+
+    </div>
+    <div class="notel-content">
+      <p>以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)</p>
+
+    </div>
+  </div>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>Linux 学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
+    <url>/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。</p>
+<h1 id="备份博客存档"><a href="#备份博客存档" class="headerlink" title="备份博客存档"></a>备份博客存档</h1><p>首先，在利用手机之前，首先就是在自己的电脑上<strong>备份自己的博客</strong>。</p>
+<p>（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）</p>
+<p>在此，请直接在 Github 上<a href="https://github.com/new"><strong>新建一个公共仓库（Public Repository）</strong></a>，将自己的博客上传到 Github 中。</p>
+<p>假设：你已在 Github 上新建了一个名为 <code>blogBackup</code> 的公共仓库，那么你应当在命令行下，执行如下命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;20210412&quot;</span> <span class="comment"># 此处建议填写上传时间，如：20210412&quot;</span></span><br><span class="line">git remote add origin https://github.com/yourname/blogBackup.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>注意：请将第4行中的 Git 仓库地址替换自己实际的 Github 仓库地址。</strong></p>
+<p>当你完成以上这些命令后，请回到你新建好的 Github 公共仓库以确认上传成功。</p>
+<h1 id="WeBlog"><a href="#WeBlog" class="headerlink" title="WeBlog"></a>WeBlog</h1>
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>软件简介</p>
+
+    </div>
+    <div class="notel-content">
+      <p>WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。</p>
+
+    </div>
+  </div>
+
+<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p><strong>注意：WeBlog 目前仅支持 Android 系统</strong></p>
+<p>请直接点击下面链接，选择 Arm64 架构的安装包下载并安装。</p>
+<a class="button  center large" href='https://github.com/PangBaiWork/WeBlog/releases' title='点击这里下载软件'><i class='fa-brands fa-github'></i> 点击这里下载软件</a>
+
+<h2 id="导入博客"><a href="#导入博客" class="headerlink" title="导入博客"></a>导入博客</h2><p>打开 WeBlog 后，<strong>请务必安装 Hexo 框架及外部存储权限申请</strong>。</p>
+<p>在主页上点击 <code>拉取项目</code>，输入你的 Github 上的仓库地址。</p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这里并非填你的 Github Pages 仓库地址，而是填写你的<strong>备份博客的仓库地址</strong> （类似于：<code>https://github.com/yourname/blogBackup.git</code>，否则无法识别到 Hexo 博客项目。</p>
+
+    </div>
+  </div>
+
+<p>接着，在选择文件夹时，<strong>请一定要新建一个空的文件夹</strong>，否则无法拉取 Github 仓库项目。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0527/1.jpg"
+                     
+                ></p>
+<p>最后，请耐心等待加载，一般需要几分钟才能完成克隆。</p>
+<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p><strong>1. 定位你的博客文章目录</strong></p>
+<p>在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 <code>source</code> → <code>_posts</code> 文件夹，在此目录下，你将看到你之前所写的所有博客文章。</p>
+<p><strong>2. 新建博客文章</strong></p>
+<p>点击右下角的 <code>+</code> 号，按照提示填写文章基本信息即可完成创建。</p>
+<p>或者直接在终端下执行如下命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0527/2.jpg"
+                     
+                ></p>
+<p><strong>3. 尽情写作吧！</strong></p>
+<h2 id="好用的脚本文件"><a href="#好用的脚本文件" class="headerlink" title="好用的脚本文件"></a>好用的脚本文件</h2><p>为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 <code>.scripts</code> 文件夹下添加 Shell 脚本，以便减少不必要的操作。</p>
+<ul>
+<li><code>update-to-github-pages.sh</code>：用于将本地博客更新到 Github Pages 仓库。</li>
+</ul>
+<p>注意：这将会一次性将博客的所有文件上传到 Github Pages 仓库，并覆盖掉原有的文件。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>backup-your-blog.sh</code>：用于将博客存档上传到 Github 仓库中。</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment"># 这将会自动生成当前日期作为备份的备注。如：20210412</span></span><br><span class="line">git commit -m <span class="string">&quot;<span class="subst">$(date +%Y%m%d)</span>&quot;</span> </span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>setup-your-git.sh</code>：用于配置 Git 全局参数。<strong>（建议导入博客后，执行一次）</strong></li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@gmail.com&quot;</span></span><br><span class="line">git config --global --add safe.directory <span class="variable">$PWD</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这里需要修改 <code>yourname</code> 和 <code>youremail@gmail.com</code> 为你的实际用户名和邮箱。</p>
+<p>当你不确定是否配置成功时，可以尝试在终端下单独执行如下命令查看参数是否生效。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name</span><br><span class="line">git config --global user.email</span><br><span class="line">git config --global safe.directory</span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><div class="tabs" id="tab-question_answer"><ul class="nav-tabs"><li class="tab active"><a class="#question_answer-1">💡 常见问题一</a></li><li class="tab"><a class="#question_answer-2">💡 常见问题二</a></li><li class="tab"><a class="#question_answer-3">💡 常见问题三</a></li></ul><div class="tab-content"><div class="tab-pane active" id="question_answer-1"><p>Q：为什么拉取项目后，打开自建的文件夹仍是空的？</p>
+<p>A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0513/6.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0513/7.jpg"
+                     
+                ></p></div><div class="tab-pane" id="question_answer-2"><p>Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？</p>
+<p>即使用【实时预览】时，直接出现 <code>The LivePreview is ended.</code> 提示。</p>
+<p>A：在解决此问题前，请先查看你的项目源目录下是否有 <code>node_modules</code> 目录。一般情况下，当你备份博客存档时，<code>node_modules</code> 目录往往不会被上传到 Github 仓库。</p>
+<p>请直接从底部界面向上滑动，打开终端，并执行 <code>npm install</code> 命令，等待安装依赖即可。</p></div><div class="tab-pane" id="question_answer-3"><p>Q：执行 <code>npm install</code> 命令时报错？</p>
+<p>A：在确认此问题前，请按照如下方式排查：</p>
+<p>方法一：检查你的项目源目录是否有 <code>package.json</code> 文件。</p>
+<p>若你的项目源目录下没有 <code>package.json</code> 文件，则需要执行 <code>npm init</code> 命令，并按照提示输入相关信息。</p>
+<p>方法二：将 <code>node_modules</code> 目录复制到你的项目目录中。</p>
+<p>为了方便操作，这里作者建议：直接在你的项目源目录下新建一个 <code>install.sh</code> 文件并编辑，</p>
+<p>这里假设你的 Github 仓库名为 <code>blogBackup</code>，<strong>注意替换自己的 Github 仓库地址。</strong></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># install.sh</span></span><br><span class="line"><span class="comment"># 一次性执行脚本</span></span><br><span class="line"><span class="comment"># 可直接克隆博客存档到本地项目中</span></span><br><span class="line"><span class="comment"># 用于解决无法安装 Hexo 依赖问题</span></span><br><span class="line">BLOG_DIR=<span class="variable">$PWD</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/blogBackup ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在克隆……&quot;</span></span><br><span class="line">    git <span class="built_in">clone</span> https://github.com/yourname/blogBackup.git <span class="comment"># 此处需替换为你的 Github 仓库地址</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在合并……&quot;</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line">    git pull</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 无法拉取仓库！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [  ! -d node_modules ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在安装依赖....&quot;</span></span><br><span class="line">    npm install</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 下载/安装依赖失败！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cp</span> -r node_modules <span class="variable">$BLOG_DIR</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 注意：</span></span><br><span class="line"><span class="comment"># 其中的第10行的git仓库地址替换为实际的仓库地址。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若需要调试于终端之上，请执行：</span></span><br><span class="line"><span class="comment"># bash ./.scripts/install.sh</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0527/3.jpg"
+                     
+                ></p>
+<p>完成脚本执行后，执行 <code>npm list</code> 查看是否包含 <code>hexo</code> 依赖即可。</p></div></div></div>
+
+<hr>
+<p>以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>博客搭建</tag>
+        <tag>软件安利</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【软件安利】安利几款在 Microsoft Store 上的软件</title>
     <url>/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。</p>
@@ -2469,137 +2600,6 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
-    <url>/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。</p>
-<h1 id="备份博客存档"><a href="#备份博客存档" class="headerlink" title="备份博客存档"></a>备份博客存档</h1><p>首先，在利用手机之前，首先就是在自己的电脑上<strong>备份自己的博客</strong>。</p>
-<p>（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）</p>
-<p>在此，请直接在 Github 上<a href="https://github.com/new"><strong>新建一个公共仓库（Public Repository）</strong></a>，将自己的博客上传到 Github 中。</p>
-<p>假设：你已在 Github 上新建了一个名为 <code>blogBackup</code> 的公共仓库，那么你应当在命令行下，执行如下命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;20210412&quot;</span> <span class="comment"># 此处建议填写上传时间，如：20210412&quot;</span></span><br><span class="line">git remote add origin https://github.com/yourname/blogBackup.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>注意：请将第4行中的 Git 仓库地址替换自己实际的 Github 仓库地址。</strong></p>
-<p>当你完成以上这些命令后，请回到你新建好的 Github 公共仓库以确认上传成功。</p>
-<h1 id="WeBlog"><a href="#WeBlog" class="headerlink" title="WeBlog"></a>WeBlog</h1>
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>软件简介</p>
-
-    </div>
-    <div class="notel-content">
-      <p>WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。</p>
-
-    </div>
-  </div>
-
-<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p><strong>注意：WeBlog 目前仅支持 Android 系统</strong></p>
-<p>请直接点击下面链接，选择 Arm64 架构的安装包下载并安装。</p>
-<a class="button  center large" href='https://github.com/PangBaiWork/WeBlog/releases' title='点击这里下载软件'><i class='fa-brands fa-github'></i> 点击这里下载软件</a>
-
-<h2 id="导入博客"><a href="#导入博客" class="headerlink" title="导入博客"></a>导入博客</h2><p>打开 WeBlog 后，<strong>请务必安装 Hexo 框架及外部存储权限申请</strong>。</p>
-<p>在主页上点击 <code>拉取项目</code>，输入你的 Github 上的仓库地址。</p>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>这里并非填你的 Github Pages 仓库地址，而是填写你的<strong>备份博客的仓库地址</strong> （类似于：<code>https://github.com/yourname/blogBackup.git</code>，否则无法识别到 Hexo 博客项目。</p>
-
-    </div>
-  </div>
-
-<p>接着，在选择文件夹时，<strong>请一定要新建一个空的文件夹</strong>，否则无法拉取 Github 仓库项目。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0527/1.jpg"
-                     
-                ></p>
-<p>最后，请耐心等待加载，一般需要几分钟才能完成克隆。</p>
-<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p><strong>1. 定位你的博客文章目录</strong></p>
-<p>在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 <code>source</code> → <code>_posts</code> 文件夹，在此目录下，你将看到你之前所写的所有博客文章。</p>
-<p><strong>2. 新建博客文章</strong></p>
-<p>点击右下角的 <code>+</code> 号，按照提示填写文章基本信息即可完成创建。</p>
-<p>或者直接在终端下执行如下命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0527/2.jpg"
-                     
-                ></p>
-<p><strong>3. 尽情写作吧！</strong></p>
-<h2 id="好用的脚本文件"><a href="#好用的脚本文件" class="headerlink" title="好用的脚本文件"></a>好用的脚本文件</h2><p>为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 <code>.scripts</code> 文件夹下添加 Shell 脚本，以便减少不必要的操作。</p>
-<ul>
-<li><code>update-to-github-pages.sh</code>：用于将本地博客更新到 Github Pages 仓库。</li>
-</ul>
-<p>注意：这将会一次性将博客的所有文件上传到 Github Pages 仓库，并覆盖掉原有的文件。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><code>backup-your-blog.sh</code>：用于将博客存档上传到 Github 仓库中。</li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment"># 这将会自动生成当前日期作为备份的备注。如：20210412</span></span><br><span class="line">git commit -m <span class="string">&quot;<span class="subst">$(date +%Y%m%d)</span>&quot;</span> </span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><code>setup-your-git.sh</code>：用于配置 Git 全局参数。<strong>（建议导入博客后，执行一次）</strong></li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@gmail.com&quot;</span></span><br><span class="line">git config --global --add safe.directory <span class="variable">$PWD</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这里需要修改 <code>yourname</code> 和 <code>youremail@gmail.com</code> 为你的实际用户名和邮箱。</p>
-<p>当你不确定是否配置成功时，可以尝试在终端下单独执行如下命令查看参数是否生效。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name</span><br><span class="line">git config --global user.email</span><br><span class="line">git config --global safe.directory</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><div class="tabs" id="tab-question_answer"><ul class="nav-tabs"><li class="tab active"><a class="#question_answer-1">💡 常见问题一</a></li><li class="tab"><a class="#question_answer-2">💡 常见问题二</a></li><li class="tab"><a class="#question_answer-3">💡 常见问题三</a></li></ul><div class="tab-content"><div class="tab-pane active" id="question_answer-1"><p>Q：为什么拉取项目后，打开自建的文件夹仍是空的？</p>
-<p>A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0513/6.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0513/7.jpg"
-                     
-                ></p></div><div class="tab-pane" id="question_answer-2"><p>Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？</p>
-<p>即使用【实时预览】时，直接出现 <code>The LivePreview is ended.</code> 提示。</p>
-<p>A：在解决此问题前，请先查看你的项目源目录下是否有 <code>node_modules</code> 目录。一般情况下，当你备份博客存档时，<code>node_modules</code> 目录往往不会被上传到 Github 仓库。</p>
-<p>请直接从底部界面向上滑动，打开终端，并执行 <code>npm install</code> 命令，等待安装依赖即可。</p></div><div class="tab-pane" id="question_answer-3"><p>Q：执行 <code>npm install</code> 命令时报错？</p>
-<p>A：在确认此问题前，请按照如下方式排查：</p>
-<p>方法一：检查你的项目源目录是否有 <code>package.json</code> 文件。</p>
-<p>若你的项目源目录下没有 <code>package.json</code> 文件，则需要执行 <code>npm init</code> 命令，并按照提示输入相关信息。</p>
-<p>方法二：将 <code>node_modules</code> 目录复制到你的项目目录中。</p>
-<p>为了方便操作，这里作者建议：直接在你的项目源目录下新建一个 <code>install.sh</code> 文件并编辑，</p>
-<p>这里假设你的 Github 仓库名为 <code>blogBackup</code>，<strong>注意替换自己的 Github 仓库地址。</strong></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># install.sh</span></span><br><span class="line"><span class="comment"># 一次性执行脚本</span></span><br><span class="line"><span class="comment"># 可直接克隆博客存档到本地项目中</span></span><br><span class="line"><span class="comment"># 用于解决无法安装 Hexo 依赖问题</span></span><br><span class="line">BLOG_DIR=<span class="variable">$PWD</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/blogBackup ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在克隆……&quot;</span></span><br><span class="line">    git <span class="built_in">clone</span> https://github.com/yourname/blogBackup.git <span class="comment"># 此处需替换为你的 Github 仓库地址</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在合并……&quot;</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line">    git pull</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 无法拉取仓库！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [  ! -d node_modules ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在安装依赖....&quot;</span></span><br><span class="line">    npm install</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 下载/安装依赖失败！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cp</span> -r node_modules <span class="variable">$BLOG_DIR</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 注意：</span></span><br><span class="line"><span class="comment"># 其中的第10行的git仓库地址替换为实际的仓库地址。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若需要调试于终端之上，请执行：</span></span><br><span class="line"><span class="comment"># bash ./.scripts/install.sh</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0527/3.jpg"
-                     
-                ></p>
-<p>完成脚本执行后，执行 <code>npm list</code> 查看是否包含 <code>hexo</code> 依赖即可。</p></div></div></div>
-
-<hr>
-<p>以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>博客搭建</tag>
-        <tag>软件安利</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>[Ver 1.2] CatIsNotFound 更新日志</title>
     <url>/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
     <content><![CDATA[
@@ -2693,184 +2693,6 @@ B -- False --> 执行语句2
       </categories>
       <tags>
         <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
-    <url>/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[
-  <div class="note-large regular">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>WSL 简介</p>
-
-    </div>
-    <div class="notel-content">
-      <p>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。</p>
-
-    </div>
-  </div>
-
-<h1 id="WSL-适合谁？"><a href="#WSL-适合谁？" class="headerlink" title="WSL 适合谁？"></a>WSL 适合谁？</h1><ul>
-<li>Linux 新手、Linux 初学者</li>
-<li>需要大量命令行操作</li>
-<li>需要 Linux 开发、Linux 运维等……</li>
-</ul>
-<h1 id="WSL-的优势"><a href="#WSL-的优势" class="headerlink" title="WSL 的优势"></a>WSL 的优势</h1><p>在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：</p>
-<ul>
-<li>安装&#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。</li>
-<li>管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。</li>
-<li>独立存储：你可以将文件独立存储于 Linux 文件系统中。</li>
-<li>在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。</li>
-</ul>
-<h1 id="安装-WSL"><a href="#安装-WSL" class="headerlink" title="安装 WSL"></a>安装 WSL</h1>
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）</p>
-<p>请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>R</code> 打开【运行】窗口，并执行 <code>winver</code> 查看操作系统内部版本号。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0606/1.jpg"
-                      alt="查看操作系统内部版本号" style="width: 50%"
-                >
-
-    </div>
-  </div>
-
-<p>你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。</p>
-<a class="button  regular" href='https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&gl=CN' title='WSL 下载安装'><i class='fa-brands fa-microsoft'></i> WSL 下载安装</a>
-
-<a class="button  regular" href='https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&gl=CN' title='Ubuntu 24.04 LTS 下载安装'><i class='fa-brands fa-linux'></i> Ubuntu 24.04 LTS 下载安装</a>
-
-<p>当你完成如上安装之后，接下来，请直接按下 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>X</code> 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl.exe <span class="literal">--install</span> <span class="literal">--no-distribution</span></span><br></pre></td></tr></table></figure></div>
-
-<p>安装完成后，请直接重启自己的电脑。</p>
-<p>之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。</p>
-<p>安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please create a default UNIX user account. The username does not need to match your Windows username.</span><br><span class="line">For more information visit: https://aka.ms/wslusers</span><br><span class="line">Enter new UNIX username:   输入你的用户名</span><br><span class="line">New password:              设置密码，此处输入的密码是隐藏的</span><br><span class="line">Retype new password:       再次设置密码，同上</span><br><span class="line">passwd: password updated successfully</span><br><span class="line">Installation successful!</span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：</p>
-<p>打开 Powershell，并以 <code>root</code> 用户身份运行，命令如下：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>若需要指定一个发行版，请直接执行：<code>wsl -d &lt;发行版名称&gt; -u root</code></p>
-</blockquote>
-<p>然后再在终端中输入以下命令，即可重置密码。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">passwd &lt;用户名&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>其中的 <code>&lt;用户名&gt;</code> 即为你设置的用户名。</p>
-
-    </div>
-  </div>
-
-<h1 id="WSL-使用方法与技巧"><a href="#WSL-使用方法与技巧" class="headerlink" title="WSL 使用方法与技巧"></a>WSL 使用方法与技巧</h1><h2 id="命令行操作"><a href="#命令行操作" class="headerlink" title="命令行操作"></a>命令行操作</h2><p>WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：</p>
-<p><strong>（1）如何安装 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>其中，<code>&lt;发行版名称&gt;</code> 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（2）查看所有当前可用的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--online</span></span><br></pre></td></tr></table></figure></div>
-
-<p>或者，使用 <code>wsl -l -o</code> 代替。</p>
-<p><strong>（3）列出所有 Linux 发行版的运行状态</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--verbose</span></span><br></pre></td></tr></table></figure></div>
-
-<p>或者，使用 <code>wsl -l -v</code> 代替。</p>
-<p><strong>（4）启动默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl</span><br></pre></td></tr></table></figure></div>
-
-<p>若需要指定一个发行版，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（5）停止默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
-
-<p>若需要指定一个发行版，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--terminate</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（6）设置默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--set-default</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="图形化操作"><a href="#图形化操作" class="headerlink" title="图形化操作"></a>图形化操作</h2><p>如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。</p>
-<p><strong>WSL Tray Monitor - WSL 系统托盘监控工具</strong></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&gl=CN' title='WSL Tray Monitor 下载安装'><i class='fa-brands fa-windows'></i> WSL Tray Monitor 下载安装</a>
-
-<p>你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。</p>
-<p>在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0606/3.jpg"
-                      alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%"
-                >
-
-<p><strong>WSL Toolbox - 图形化管理 WSL 的工具箱</strong></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&gl=CN' title='WSL Toolbox 下载安装'><i class='fa-brands fa-windows'></i> WSL Toolbox 下载安装</a>
-
-<p>WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。</p>
-<p>但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0606/2.jpg"
-                      alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%"
-                >
-
-<h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0606/4.jpg"
-                      alt="在资源管理器中访问 Linux" style="width: 80%"
-                >
-
-<h2 id="使用-Visual-Studio-Code-开发"><a href="#使用-Visual-Studio-Code-开发" class="headerlink" title="使用 Visual Studio Code 开发"></a>使用 Visual Studio Code 开发</h2><p>如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。</p>
-<p>你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/0606/5.jpg"
-                      alt="在 WSL 中打开项目"
-                ></p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。</p>
-
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
-
-    </div>
-    <div class="notel-content">
-      <ul>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/install" >https://learn.microsoft.com/zh-cn/windows/wsl/install <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-
-    </div>
-  </div>
-
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux 学习</tag>
-        <tag>Windows 软件</tag>
       </tags>
   </entry>
   <entry>
@@ -3224,34 +3046,181 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>关于我的博客</title>
-    <url>/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
-<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
-<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
-<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
-<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
-<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
+    <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
+    <url>/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[
+  <div class="note-large regular">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>WSL 简介</p>
 
-<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
-<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
+    </div>
+    <div class="notel-content">
+      <p>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。</p>
 
-<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
+    </div>
+  </div>
 
-<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
-<p>或者你可以通过其它私人途径来联系我：</p>
+<h1 id="WSL-适合谁？"><a href="#WSL-适合谁？" class="headerlink" title="WSL 适合谁？"></a>WSL 适合谁？</h1><ul>
+<li>Linux 新手、Linux 初学者</li>
+<li>需要大量命令行操作</li>
+<li>需要 Linux 开发、Linux 运维等……</li>
+</ul>
+<h1 id="WSL-的优势"><a href="#WSL-的优势" class="headerlink" title="WSL 的优势"></a>WSL 的优势</h1><p>在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：</p>
+<ul>
+<li>安装&#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。</li>
+<li>管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。</li>
+<li>独立存储：你可以将文件独立存储于 Linux 文件系统中。</li>
+<li>在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。</li>
+</ul>
+<h1 id="安装-WSL"><a href="#安装-WSL" class="headerlink" title="安装 WSL"></a>安装 WSL</h1>
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）</p>
+<p>请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>R</code> 打开【运行】窗口，并执行 <code>winver</code> 查看操作系统内部版本号。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/QQ.jpg"
-                      alt="QQ" width="300px"
-                >]]></content>
+                     data-src="/images/0606/1.jpg"
+                      alt="查看操作系统内部版本号" style="width: 50%"
+                >
+
+    </div>
+  </div>
+
+<p>你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。</p>
+<a class="button  regular" href='https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&gl=CN' title='WSL 下载安装'><i class='fa-brands fa-microsoft'></i> WSL 下载安装</a>
+
+<a class="button  regular" href='https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&gl=CN' title='Ubuntu 24.04 LTS 下载安装'><i class='fa-brands fa-linux'></i> Ubuntu 24.04 LTS 下载安装</a>
+
+<p>当你完成如上安装之后，接下来，请直接按下 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>X</code> 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl.exe <span class="literal">--install</span> <span class="literal">--no-distribution</span></span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，请直接重启自己的电脑。</p>
+<p>之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。</p>
+<p>安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please create a default UNIX user account. The username does not need to match your Windows username.</span><br><span class="line">For more information visit: https://aka.ms/wslusers</span><br><span class="line">Enter new UNIX username:   输入你的用户名</span><br><span class="line">New password:              设置密码，此处输入的密码是隐藏的</span><br><span class="line">Retype new password:       再次设置密码，同上</span><br><span class="line">passwd: password updated successfully</span><br><span class="line">Installation successful!</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：</p>
+<p>打开 Powershell，并以 <code>root</code> 用户身份运行，命令如下：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>若需要指定一个发行版，请直接执行：<code>wsl -d &lt;发行版名称&gt; -u root</code></p>
+</blockquote>
+<p>然后再在终端中输入以下命令，即可重置密码。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">passwd &lt;用户名&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中的 <code>&lt;用户名&gt;</code> 即为你设置的用户名。</p>
+
+    </div>
+  </div>
+
+<h1 id="WSL-使用方法与技巧"><a href="#WSL-使用方法与技巧" class="headerlink" title="WSL 使用方法与技巧"></a>WSL 使用方法与技巧</h1><h2 id="命令行操作"><a href="#命令行操作" class="headerlink" title="命令行操作"></a>命令行操作</h2><p>WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：</p>
+<p><strong>（1）如何安装 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中，<code>&lt;发行版名称&gt;</code> 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（2）查看所有当前可用的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--online</span></span><br></pre></td></tr></table></figure></div>
+
+<p>或者，使用 <code>wsl -l -o</code> 代替。</p>
+<p><strong>（3）列出所有 Linux 发行版的运行状态</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--verbose</span></span><br></pre></td></tr></table></figure></div>
+
+<p>或者，使用 <code>wsl -l -v</code> 代替。</p>
+<p><strong>（4）启动默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl</span><br></pre></td></tr></table></figure></div>
+
+<p>若需要指定一个发行版，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（5）停止默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
+
+<p>若需要指定一个发行版，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--terminate</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（6）设置默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--set-default</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="图形化操作"><a href="#图形化操作" class="headerlink" title="图形化操作"></a>图形化操作</h2><p>如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。</p>
+<p><strong>WSL Tray Monitor - WSL 系统托盘监控工具</strong></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&gl=CN' title='WSL Tray Monitor 下载安装'><i class='fa-brands fa-windows'></i> WSL Tray Monitor 下载安装</a>
+
+<p>你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。</p>
+<p>在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0606/3.jpg"
+                      alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%"
+                >
+
+<p><strong>WSL Toolbox - 图形化管理 WSL 的工具箱</strong></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&gl=CN' title='WSL Toolbox 下载安装'><i class='fa-brands fa-windows'></i> WSL Toolbox 下载安装</a>
+
+<p>WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。</p>
+<p>但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0606/2.jpg"
+                      alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%"
+                >
+
+<h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0606/4.jpg"
+                      alt="在资源管理器中访问 Linux" style="width: 80%"
+                >
+
+<h2 id="使用-Visual-Studio-Code-开发"><a href="#使用-Visual-Studio-Code-开发" class="headerlink" title="使用 Visual Studio Code 开发"></a>使用 Visual Studio Code 开发</h2><p>如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。</p>
+<p>你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/0606/5.jpg"
+                      alt="在 WSL 中打开项目"
+                ></p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。</p>
+
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
+
+    </div>
+    <div class="notel-content">
+      <ul>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/install" >https://learn.microsoft.com/zh-cn/windows/wsl/install <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+
+    </div>
+  </div>
+
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
       <tags>
-        <tag>关于博客</tag>
+        <tag>Linux 学习</tag>
+        <tag>Windows 软件</tag>
       </tags>
   </entry>
   <entry>
@@ -3511,6 +3480,37 @@ B -- False --> 执行语句2
       <tags>
         <tag>Linux 学习</tag>
         <tag>脚本</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我的博客</title>
+    <url>/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
+<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
+<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
+<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
+<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
+<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
+
+<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
+<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
+
+<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
+
+<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
+<p>或者你可以通过其它私人途径来联系我：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/QQ.jpg"
+                      alt="QQ" width="300px"
+                >]]></content>
+      <tags>
+        <tag>关于博客</tag>
       </tags>
   </entry>
   <entry>
