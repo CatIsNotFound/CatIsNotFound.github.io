@@ -1,6 +1,6 @@
+https://catisnotfound.github.io/playlist/index.html
 https://catisnotfound.github.io/feed/index.html
 https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/
-https://catisnotfound.github.io/playlist/index.html
 https://catisnotfound.github.io/essays/index.html
 https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/
 https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/
@@ -25,8 +25,8 @@ https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9
 https://catisnotfound.github.io/
 https://catisnotfound.github.io/tags/Linux-%E5%AD%A6%E4%B9%A0/
 https://catisnotfound.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/
-https://catisnotfound.github.io/tags/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/
 https://catisnotfound.github.io/tags/Git/
+https://catisnotfound.github.io/tags/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/
 https://catisnotfound.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://catisnotfound.github.io/tags/Python/
 https://catisnotfound.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/

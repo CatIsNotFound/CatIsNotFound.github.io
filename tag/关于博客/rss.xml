@@ -9,8 +9,8 @@
         <lastBuildDate>Tue, 11 Jun 2024 19:58:21 +0800</lastBuildDate>
         <category>Linux 学习</category>
         <category>更新日志</category>
-        <category>关于博客</category>
         <category>Git</category>
+        <category>关于博客</category>
         <category>博客搭建</category>
         <category>Python</category>
         <category>学习笔记</category>
@@ -41,12 +41,7 @@
 
 &lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/CatIsNotFound&#39; title=&#39;GitHub&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
 &lt;p&gt;或者你可以通过其它私人途径来联系我：&lt;/p&gt;
-&lt;img  
-                     lazyload
-                     src=&#34;/images/loading.svg&#34;
-                     data-src=&#34;/images/QQ.jpg&#34;
-                      alt=&#34;QQ&#34; width=&#34;300px&#34;
-                &gt; ]]></description>
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/QQ.jpg&#34; alt=&#34;QQ&#34; width=&#34;300px&#34;&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</guid>
