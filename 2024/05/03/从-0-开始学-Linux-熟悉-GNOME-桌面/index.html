@@ -1010,44 +1010,32 @@
 
         
             
-    <div id="giscus-container"></div>
-    <script data-swup-reload-script defer>
-        async function loadGiscus() {
-            const giscusConfig = {
-                'src': 'https://giscus.app/client.js',
-                'data-repo': 'CatIsNotFound/CatIsNotFound.github.io',
-                'data-repo-id': 'R_kgDOLwYNHg',
-                'data-category': 'Announcement',
-                'data-category-id': 'DIC_kwDOLwYNHs4CgGzZ',
-                'data-mapping': 'title',
-                'data-strict': '0',
-                'data-reactions-enabled': '1',
-                'data-emit-metadata': '1',
-                'data-theme': 'preferred_color_scheme',
-                'data-lang': 'zh-CN',
-                'data-input-position': 'bottom',
-                'data-loading': 'lazy',
-                'crossorigin': 'anonymous',
-                'async': true
-            }
-            const giscusScript = document.createElement('script');
-            for (const key in giscusConfig) {
-                giscusScript.setAttribute(key, giscusConfig[key]);
-            }
-            document.getElementById('giscus-container').appendChild(giscusScript);
-        }
-        if ('true') {
-            let loadGiscusTimeout = setTimeout(() => {
-                loadGiscus();
-                clearTimeout(loadGiscusTimeout);
-            }, 1000);
-        } else {
-            document.addEventListener('DOMContentLoaded', loadGiscus);
-        }
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://waline-1-u8595044.deta.app/',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          requiredMeta: ['nick', 'mail'],
+          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/bmoji','https://unpkg.com/@waline/emojis@1.2.0/weibo','https://unpkg.com/@waline/emojis@1.2.0/qq','https://unpkg.com/@waline/emojis@1.2.0/soul-emoji','https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
     </script>
 
 
-        
+
         
     
 </div>
