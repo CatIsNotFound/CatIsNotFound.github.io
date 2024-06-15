@@ -5,13 +5,13 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 15 Jun 2024 13:32:59 +0800</pubDate>
-        <lastBuildDate>Sat, 15 Jun 2024 13:32:59 +0800</lastBuildDate>
+        <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Jun 2024 16:32:59 +0800</lastBuildDate>
         <category>Linux 学习</category>
         <category>更新日志</category>
+        <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
-        <category>关于博客</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>软件安利</category>
@@ -25,7 +25,7 @@
             <link>https://catisnotfound.github.io/2024/06/15/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
             <category>博客日常</category>
             <category>Android</category>
-            <pubDate>Sat, 15 Jun 2024 13:32:59 +0800</pubDate>
+            <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
   &lt;div class=&#34;note-large regular&#34;&gt;
