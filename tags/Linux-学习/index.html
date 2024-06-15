@@ -239,152 +239,730 @@
 
 
 <body>
-@import '../common/variables'
+<div class="progress-bar-container">
+    
 
-.page-container
-  position relative
-  box-sizing border-box
-  width 100%
-  height auto
-  background var(--background-color)
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
 
-  +redefine-tablet()
-    padding-right 0 !important
 
-  .main-content-container
-    padding-top $navbar-height
-    position relative
-    transition padding 0.2s ease
+<main class="page-container" id="swup">
 
-    .navbar-shrink &
-      padding-top $navbar-shrink-height
-      transition padding 0.2s ease
+    
 
-      +redefine-tablet()
-        padding-top: ($navbar-shrink-height * 0.9)
+    <div class="main-content-container">
 
-      +redefine-mobile()
-        padding-top: $navbar-shrink-height * 0.8
 
-    +redefine-tablet()
-      padding-top: $navbar-height * 0.9
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
 
-    +redefine-mobile()
-      padding-top: $navbar-height * 0.8
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                CatIsNotFound
+                
+            </a>
+        </div>
 
-    .main-content-header
-      position fixed
-      top 0
-      right 0
-      width 100%
-      height $navbar-height
-      z-index $z-index-5
-      box-sizing border-box
-      transition-t('transform, padding-left, height', '0, 0, 0', '0.3, 0.2, 0.2', 'ease-out, linear, ease')
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
 
-      &.hide
-        transform translateY(-105%)
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
 
-      .navbar-shrink &
-        height $navbar-shrink-height
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
 
-        +redefine-tablet()
-          height: ($navbar-shrink-height * 0.9)
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-list fa-fw"></i>
+                                    分类
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
 
-        +redefine-mobile()
-          height: $navbar-shrink-height * 0.8
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B">
+                                                    📔 技术教程
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA">
+                                                    ⛺ 博客搭建
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9">
+                                                    📱 软件安利
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+                                                    📖 学习笔记
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/masonry">
+                                                    🖼️ 壁纸库
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories">
+                                                    📚 所有分类
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
 
-      +redefine-tablet()
-        height: $navbar-height * 0.9
-        padding-left 0 !important
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/status"
+                                        >
+                                    <i class="fa-solid fa-chart-bar fa-fw"></i>
+                                    状态
+                                    
+                                </a>
 
-      +redefine-mobile()
-        height: $navbar-height * 0.8
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
 
-    .main-content-body
-      box-sizing border-box
-      width 100%
-      display flex
-      justify-content center
-      padding $spacing-unit 0
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/essays"
+                                        >
+                                    <i class="fa-solid fa-comment-dots fa-fw"></i>
+                                    留言板
+                                    
+                                </a>
 
-      +redefine-tablet()
-        padding ($spacing-unit * 0.8) 0
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
 
-      +redefine-mobile()
-        border none !important
-        padding-top 0
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    链接
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
 
-      .main-content
-        position relative
-        box-sizing border-box
-        width $main-content-width
-        max-width $content-max-width
-        height 100%
-        transition-t('max-width, width', '0, 0', '0.2, 0.2', 'ease, ease')
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">
+                                                    GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">
+                                                    ZHIHU
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">
+                                                    BILIBILI
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        +redefine-tablet()
-          width $main-content-width-tablet
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
 
-        +redefine-mobile()
-          width $main-content-width-mobile
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
 
-        &.has-toc
-          max-width $has-toc-content-max-width !important
+                        
+                    </li>
+            
+                
+                    
 
-      .main-content-footer
-        width 100%
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-Categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
 
-  .post-tools
-    position fixed
-    top: $navbar-height + $spacing-unit
-    right $spacing-unit
-    transition-t('top', '0', '0.2', 'ease')
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Categories">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B">📔 技术教程</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA">⛺ 博客搭建</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9">📱 软件安利</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">📖 学习笔记</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/masonry">🖼️ 壁纸库</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories">📚 所有分类</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
 
-    .navbar-shrink &
-      top: $navbar-shrink-height + $spacing-unit
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/status"
+                        >
+                            <span>
+                                状态
+                            </span>
+                            
+                                <i class="fa-solid fa-chart-bar fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
 
-      +redefine-tablet()
-        top ($navbar-shrink-height * 0.9) + $spacing-unit
+                        
+                    </li>
+            
+                
+                    
 
-      +redefine-mobile()
-        top: ($navbar-shrink-height * 0.8 + $spacing-unit)
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/essays"
+                        >
+                            <span>
+                                留言板
+                            </span>
+                            
+                                <i class="fa-solid fa-comment-dots fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
 
-    +redefine-tablet()
-      top: ($navbar-height * 0.9 + $spacing-unit)
-      right 10px
-      transform scale(0.82)
-      transform-origin right top
+                        
+                    </li>
+            
+                
+                    
 
-    +redefine-mobile()
-      display none
-      top: ($navbar-height * 0.8 + $spacing-unit)
-      right 5px
-      transform scale(0.72)
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-Links"
+                        >
+                            <span>
+                                链接
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
 
-  .right-side-tools-container
-    position fixed
-    bottom 5%
-    right $spacing-unit
-    opacity 1
-    transition opacity 0.2s ease
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">ZHIHU</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">BILIBILI</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
 
-    &.hide
-      opacity 0
-      pointer-events none
-      transition opacity 0.2s ease
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>存档</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>标签</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>分类</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/masonry"
+                        >
+                            <span>壁纸库</span>
+                            <i class="fa-solid fa-image fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
 
-    +redefine-mobile()
-      right 12px
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">12</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">6</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">18</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
 
-.transition-fade
-  transition 0.4s
-  opacity 1
+    <div class="window-mask"></div>
 
-html.is-animating
-  .transition-fade
-    opacity 0
-    transition 0.4s
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="tag-container">
+	<div class="tag-name">
+		<i class="fa-solid fa-tag"></i>&nbsp;Linux 学习
+	</div>
+	<div class="tag-post-list">
+		
+<div class="archive-list-container">
+    
+        <section class="archive-item mb-spacing-unit last:mb-0">
+            <div class="archive-item-header flex flex-row items-center mb-2">
+                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
+                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">6</span>
+            </div>
+            
+            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
+                
+                    
+                    
+                         <!-- Close the previous LI if not the first item -->
+                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-09'>
+                    
+                    <a href="/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/" class="block overflow-hidden w-fit">
+                        <span class="article-title my-0.5 text-2xl">从 0 开始学 Linux：Bash Shell 脚本入门</span>
+                    </a>
+                    
+                
+                    
+                    
+                    <a href="/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" class="block overflow-hidden w-fit">
+                        <span class="article-title my-0.5 text-2xl">从 0 开始学 Linux：Bash Shell 快速入门</span>
+                    </a>
+                    
+                
+                    
+                    
+                        
+                            </li>
+                         <!-- Close the previous LI if not the first item -->
+                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-06'>
+                    
+                    <a href="/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/" class="block overflow-hidden w-fit">
+                        <span class="article-title my-0.5 text-2xl">WSL：一个适用于 Windows 的 Linux 子系统</span>
+                    </a>
+                    
+                
+                    
+                    
+                        
+                            </li>
+                         <!-- Close the previous LI if not the first item -->
+                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='05-03'>
+                    
+                    <a href="/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/" class="block overflow-hidden w-fit">
+                        <span class="article-title my-0.5 text-2xl">从 0 开始学 Linux：熟悉 GNOME 桌面</span>
+                    </a>
+                    
+                
+                    
+                    
+                        
+                            </li>
+                         <!-- Close the previous LI if not the first item -->
+                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='04-26'>
+                    
+                    <a href="/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/" class="block overflow-hidden w-fit">
+                        <span class="article-title my-0.5 text-2xl">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</span>
+                    </a>
+                    
+                
+                    
+                    
+                        
+                            </li>
+                         <!-- Close the previous LI if not the first item -->
+                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='04-25'>
+                    
+                    <a href="/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/" class="block overflow-hidden w-fit">
+                        <span class="article-title my-0.5 text-2xl">Linux Shell 基础命令速查表（非完整版）</span>
+                    </a>
+                    
+                
+                </li> <!-- Ensure the last item is properly closed -->
+            </ul>
+        </section>
+    
+</div>
+
+	</div>
+</div>
+
+<div class="tag-paginator">
+	<div class="paginator">
+    <span class="page-number current">1</span>
+</div>
+
+</div>
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">CatIsNotFound</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共 18 篇文章
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.6.2</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/Swup.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/SwupSlideTheme.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/SwupProgressPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/SwupScrollPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/SwupPreloadPlugin.min.js"></script>
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
 
 
 
@@ -434,5 +1012,17 @@ html.is-animating
 <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/libs/APlayer.min.js"></script>
 <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.2/js/plugins/aplayer.js"></script>
 
-</body>
+<script>
+    if(!('loading' in HTMLImageElement.prototype)) {
+        const srp = document.createElement('script');
+        srp.src = 'https://cdn.jsdelivr.net/npm/lazysizes@5.1.1/lazysizes.min.js';
+        document.body.append(srp);
+        const imgs = document.querySelectorAll('img');
+        imgs.forEach(el => {
+            el.setAttribute('data-src', el.getAttribute('src'));
+            el.removeAttribute('src');
+            el.classList.add('lazyload');
+    })
+}
+</script></body>
 </html>
