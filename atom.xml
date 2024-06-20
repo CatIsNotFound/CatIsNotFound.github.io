@@ -9,17 +9,17 @@
     <category term="关于博客" />
     <category term="Git" />
     <category term="博客搭建" />
+    <category term="Windows 软件" />
+    <category term="脚本" />
+    <category term="系统安装" />
+    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
     <category term="软件安利" />
-    <category term="Windows 软件" />
-    <category term="脚本" />
-    <category term="博客日常" />
-    <category term="Android" />
     <entry>
-        <id>https://catisnotfound.github.io/2024/06/15/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</id>
-        <title>【博客日常】 虚拟机安装 Android x86 系统</title>
-        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/15/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/"/>
+        <id>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</id>
+        <title>【系统安装日常】虚拟机安装 Android x86 系统</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/"/>
         <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -162,7 +162,7 @@
 &lt;h1 id=&#34;体验感受&#34;&gt;&lt;a href=&#34;#体验感受&#34; class=&#34;headerlink&#34; title=&#34;体验感受&#34;&gt;&lt;/a&gt;体验感受&lt;/h1&gt;&lt;p&gt;Android x86 系统的体验与原生版本的 Android 系统差别不大，但由于&lt;strong&gt;系统是运行在虚拟机中，所以性能上有所损失&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。&lt;/p&gt;
 </content>
-        <category term="博客日常" />
+        <category term="系统安装" />
         <category term="Android" />
         <updated>2024-06-15T08:32:59.000Z</updated>
     </entry>
@@ -2294,8 +2294,8 @@ B -- False --&gt; 执行语句2
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
-        <category term="软件安利" />
         <category term="Windows 软件" />
+        <category term="软件安利" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
