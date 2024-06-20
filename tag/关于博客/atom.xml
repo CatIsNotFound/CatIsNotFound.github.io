@@ -9,12 +9,12 @@
     <category term="关于博客" />
     <category term="Git" />
     <category term="博客搭建" />
-    <category term="Windows 软件" />
     <category term="脚本" />
-    <category term="系统安装" />
-    <category term="Android" />
+    <category term="Windows 软件" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="系统安装" />
+    <category term="Android" />
     <category term="软件安利" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
@@ -38,7 +38,12 @@
 
 &lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/CatIsNotFound&#39; title=&#39;GitHub&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
 &lt;p&gt;或者你可以通过其它私人途径来联系我：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/QQ.jpg&#34; alt=&#34;QQ&#34; width=&#34;300px&#34;&gt;</content>
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/QQ.jpg&#34;
+                      alt=&#34;QQ&#34; width=&#34;300px&#34;
+                &gt;</content>
         <category term="关于博客" />
         <updated>2024-06-11T11:58:21.000Z</updated>
     </entry>

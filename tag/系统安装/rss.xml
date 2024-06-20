@@ -12,16 +12,16 @@
         <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
-        <category>Windows 软件</category>
         <category>脚本</category>
-        <category>系统安装</category>
-        <category>Android</category>
+        <category>Windows 软件</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>系统安装</category>
+        <category>Android</category>
         <category>软件安利</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</guid>
-            <title>【系统安装日常】虚拟机安装 Android x86 系统</title>
+            <title>系统安装日常：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
             <category>系统安装</category>
             <category>Android</category>
@@ -34,7 +34,12 @@
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;img loading=&#34;lazy&#34; src=&#34;https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg&#34; alt=&#34;Android x86&#34; width=&#34;500&#34; /&gt;
+      &lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg&#34;
+                      alt=&#34;Android x86&#34; width=&#34;500&#34; 
+                &gt;
 
 &lt;p&gt;这是一个将 Android 开源项目移植到 x86 平台的项目，以前称为“支持 android x86 的补丁托管”。 最初的计划是托管来自开源社区的 android x86 支持的不同补丁。在我们创建项目几个月后，我们发现我们可以做的不仅仅是托管补丁。因此，我们决定创建代码库 在不同的 x86 平台上提供支持，并设置 Git 服务器来托管它。&lt;/p&gt;
 
@@ -68,13 +73,33 @@
 &lt;p&gt;这里本文仅以 VMware 虚拟机的形式安装 Android x86 系统，具体步骤如下：&lt;/p&gt;
 &lt;h2 id=&#34;第一步：创建虚拟机&#34;&gt;&lt;a href=&#34;#第一步：创建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;第一步：创建虚拟机&#34;&gt;&lt;/a&gt;第一步：创建虚拟机&lt;/h2&gt;&lt;p&gt;这里不过多阐述，这里直接按照提示设置个 2GB 内存，32GB 硬盘的虚拟机就可以了。（当然可以更改其它配置）&lt;/p&gt;
 &lt;p&gt;需要注意的是，在设置客户机操作系统时，选择 linux → 其他 Linux 5.x 内核 64 位&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/0.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/0.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;a href=&#34;#第二步：安装系统到本地硬盘&#34; class=&#34;headerlink&#34; title=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;/a&gt;第二步：安装系统到本地硬盘&lt;/h2&gt;&lt;p&gt;启动虚拟机后，出现如下图所示，请选择【Installlation - Install Android-×86 to hard disk】。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下图的提示中，通过方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;，选择 &lt;code&gt;Create/Modify partitions&lt;/code&gt;，即创建一个分区。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在此步选择 &lt;code&gt;No&lt;/code&gt;，进入 cfdisk 工具。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下图操作中，请使用方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;、&lt;code&gt;←&lt;/code&gt;、&lt;code&gt;→&lt;/code&gt; 以及 &lt;code&gt;Enter&lt;/code&gt; 键，按照如下顺序依次设置：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：这是针对虚拟机的分区设置&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -85,36 +110,101 @@
 &lt;li&gt;选择 &lt;code&gt;Quit&lt;/code&gt;，退出 cfdisk 工具。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;如下图为分区设置完成后的样子。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/4.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在分区设置完成后，请直接选择【sda1】分区以进行格式化分区。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/5.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下两张图中，首先先选择 &lt;code&gt;ext4&lt;/code&gt; 文件系统，然后再选择 &lt;code&gt;Yes&lt;/code&gt;，确认格式化。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/6.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/6.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待格式化完成后即可。&lt;/p&gt;
 &lt;p&gt;弹出如下图所示的提示时，选择 &lt;code&gt;Yes&lt;/code&gt;；&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/8.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下图的问题中，继续选择 &lt;code&gt;Yes&lt;/code&gt;，此步将会在 &lt;code&gt;/system&lt;/code&gt; 分区中安装 Grub 引导程序。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/9.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待安装完成后，选择 【Reboot】 重启虚拟机。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/10.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/10.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;第三步：配置启动项&#34;&gt;&lt;a href=&#34;#第三步：配置启动项&#34; class=&#34;headerlink&#34; title=&#34;第三步：配置启动项&#34;&gt;&lt;/a&gt;第三步：配置启动项&lt;/h2&gt;&lt;p&gt;当系统初次进入 Grub 程序时，请先选择第二项以进入 Debug 模式。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/11.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待进入 Debug 模式后，请多次按下 &lt;code&gt;Enter&lt;/code&gt; 键，这将会换行出现 &lt;code&gt;:/android # &lt;/code&gt; 的提示符。请输入如下命令以编辑菜单项。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vi /mnt/grub/menu.lst&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/12.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在编辑器中，找到如下图所示的标注，并在此处添加 &lt;code&gt;nomodeset&lt;/code&gt; 参数。&lt;/p&gt;
 &lt;p&gt;最后，请依次按下 &lt;code&gt;Esc&lt;/code&gt;，并输入 &lt;code&gt;:wq&lt;/code&gt; 最后再按下 &lt;code&gt;Enter&lt;/code&gt; 键即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/13.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;退出编辑器后，请直接按下键盘快捷键 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Delete&lt;/code&gt; 键，以直接重启。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;：在 VMware 虚拟机中，&lt;strong&gt;你需要按下 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Insert&lt;/code&gt; 键&lt;/strong&gt;才能避免在 Windows 中弹出安全选项。&lt;/p&gt;
 &lt;h2 id=&#34;第四步：完成初次配置&#34;&gt;&lt;a href=&#34;#第四步：完成初次配置&#34; class=&#34;headerlink&#34; title=&#34;第四步：完成初次配置&#34;&gt;&lt;/a&gt;第四步：完成初次配置&lt;/h2&gt;&lt;p&gt;当系统重启后，在 grub 启动菜单上选择第一项以启动 Android x86 系统。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/11.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待启动，就会出现如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/14.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/14.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;然后，根据如下图进行初次配置：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/15.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/15.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large red&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -123,7 +213,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;配置 Wifi 界面时，请先跳过此步。否则 Google 将会自动检查更新。&lt;strong&gt;（在国内的网络环境下，这一步非常容易耗时）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/16.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/16.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -136,15 +231,30 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在 Android x86 系统中，默认情况下是没有网络连接的，你需要手动转到【设置】→ 【WLAN】，并连接即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/17.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/17.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;如上图所示，若你使用的是 VMware 虚拟机，仅需连接虚拟 WIFI 即可上网。&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
 
 &lt;h1 id=&#34;桌面展示&#34;&gt;&lt;a href=&#34;#桌面展示&#34; class=&#34;headerlink&#34; title=&#34;桌面展示&#34;&gt;&lt;/a&gt;桌面展示&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，提供了两种主屏幕页面展示，一个是适用于平板电脑或手机的 🏠 &lt;i&gt;QuickStep&lt;/i&gt;，另一个则是适合电脑 PC 的任务栏。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/18.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/0614/19.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/18.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/0614/19.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h1 id=&#34;键盘快捷键&#34;&gt;&lt;a href=&#34;#键盘快捷键&#34; class=&#34;headerlink&#34; title=&#34;键盘快捷键&#34;&gt;&lt;/a&gt;键盘快捷键&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，有一些常用的快捷键，如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; &lt;code&gt;Win&lt;/code&gt;：⚪ 回到桌面&lt;/p&gt;
