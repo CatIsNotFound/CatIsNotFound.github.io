@@ -7,8 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Sun, 02 Jun 2024 20:00:00 +0800</pubDate>
         <lastBuildDate>Sun, 02 Jun 2024 20:00:00 +0800</lastBuildDate>
-        <category>更新日志</category>
         <category>Linux 学习</category>
+        <category>更新日志</category>
         <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
@@ -36,6 +36,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;评论系统是博客中不可或缺的一部分，它能够让读者与作者互动，提高博客的互动性。目前针对 Hexo 博客，Waline 评论系统是目前比较流行的评论系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/2024/0602/waline.jpg&#34;&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;

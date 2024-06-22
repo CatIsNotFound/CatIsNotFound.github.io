@@ -5,10 +5,10 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 22 Jun 2024 14:08:00 +0800</pubDate>
-        <lastBuildDate>Sat, 22 Jun 2024 14:08:00 +0800</lastBuildDate>
-        <category>更新日志</category>
+        <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
+        <lastBuildDate>Sat, 22 Jun 2024 14:08:24 +0800</lastBuildDate>
         <category>Linux 学习</category>
+        <category>更新日志</category>
         <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
@@ -27,7 +27,7 @@
             <link>https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</link>
             <category>Windows</category>
             <category>系统安装</category>
-            <pubDate>Sat, 22 Jun 2024 14:08:00 +0800</pubDate>
+            <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -1083,6 +1083,7 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：&lt;a href=&#34;../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/&#34;&gt;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1209,6 +1210,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;

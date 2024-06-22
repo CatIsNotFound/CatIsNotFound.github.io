@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
-    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
-    <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
-<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
-<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img src="/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg" alt="暗色"><br><img src="/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg" alt="亮色"></p>
-</li>
-<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
-<ul>
-<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
-<li>其中的【说说】会在此留下所有关于作者的一些话</li>
-</ul>
-</li>
-<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img src="/images/2024/0423/music.jpg" alt="音乐"></p>
-</li>
-<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
-</li>
-<li><p>目前暂未完成的目标：</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
-<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
-<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
-</ul>
-</li>
-</ul>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
-<blockquote>
-<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>更新日志</category>
-      </categories>
-      <tags>
-        <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux Shell 基础命令速查表（非完整版）</title>
     <url>/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
     <content><![CDATA[
@@ -467,40 +430,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于我和博客</title>
-    <url>/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-exclamation-triangle"></i><p>文章已过时</p>
-
-    </div>
-    <div class="notel-content">
-      <p>本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请<a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">点击此处</a>已查看最新内容。</p>
-
-    </div>
-  </div>
-
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o</p>
-<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。</p>
-<h2 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h2><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h2 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h2><p>今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（<strong>文章可能不会同步更新~ o(*￣▽￣*)o</strong>）</p>
-<h2 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h2><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h2 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h2><p>你可以通过以下几个平台来私信我：</p>
-<ul>
-<li><a class="link"   href="https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0" >bilibili <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.zhihu.com/people/catisnotfound" >知乎 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.jianshu.com/u/7ef34e5bf13f" >简书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="mailto:1636879962@qq.com" >个人邮箱 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>关于博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
     <url>/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[
@@ -511,6 +440,7 @@
     </div>
     <div class="notel-content">
       <p>本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。</p>
+<p><img src="/images/2024/0426/13.jpg"></p>
 
     </div>
   </div>
@@ -674,57 +604,74 @@
       </tags>
   </entry>
   <entry>
-    <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
-    <url>/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，</p>
-<p>关于个人博客，可以利用 Github Page 来搭建自己的个人博客。</p>
-<h2 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h2><h3 id="1-注册-Github"><a href="#1-注册-Github" class="headerlink" title="1. 注册 Github"></a>1. 注册 Github</h3><p>既然提到了 Github Page ，首先就得<a class="link"   href="https://github.com/signup" >注册自己的 Github 账号 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
+    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
+    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
+    <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
+<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
+<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img src="/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg" alt="暗色"><br><img src="/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg" alt="亮色"></p>
+</li>
+<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
+<ul>
+<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
+<li>其中的【说说】会在此留下所有关于作者的一些话</li>
+</ul>
+</li>
+<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img src="/images/2024/0423/music.jpg" alt="音乐"></p>
+</li>
+<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
+</li>
+<li><p>目前暂未完成的目标：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
+<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
+<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
+</ul>
+</li>
+</ul>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
 <blockquote>
-<p>如果 Github 界面打不开，建议使用 <a class="link"   href="https://steampp.net/" >Watt Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>😃，（不仅可以加速 Steam、橙子、育碧，同时也能加速 Github）</p>
-<p>注册一个 Github 账号只需要邮箱，并且进行邮箱验证就能快速完成！ヾ(•ω•&#96;)o</p>
+<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
 </blockquote>
-<h3 id="2-创建自己的仓库"><a href="#2-创建自己的仓库" class="headerlink" title="2. 创建自己的仓库"></a>2. 创建自己的仓库</h3><p>注册之后，接下来就要创建自己的仓库，<br>首先点击【New】，如下图：</p>
-<p><img src="/images/2024/042301/1.jpg" alt="1.jpg"></p>
-<p>其次，创建仓库时，<strong>仓库名一定要以<code>[你的用户名].github.io</code> 为名，</strong> 默认下都会将其设为 Github Page，之后就能完成创建。具体看下图：</p>
-<p><img src="/images/2024/042301/2.jpg" alt="2.jpg"></p>
-<p>创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）<br><img src="/images/2024/042301/2.1.jpg" alt="2.1.jpg"></p>
-<h3 id="3-选择框架"><a href="#3-选择框架" class="headerlink" title="3. 选择框架"></a>3. 选择框架</h3><p>当你做完上述步骤后，你可以直接访问自己的网页，如下图：<br><img src="/images/2024/042301/3.0.jpg" alt="3.0.jpg"></p>
-<p>接下来就是选择网页框架。这里就以 Hexo 为例，这里就只需要用到 <code>git</code> 和 <code>node.js</code> 两个依赖软件了，关于详细地安装步骤，请直接参照<a class="link"   href="https://hexo.io/zh-cn/docs/" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>即可</p>
-<p>完成后的搭建，大概是长这样的：</p>
-<p><img src="/images/2024/042301/3.jpg" alt="3.jpg"></p>
-<p>当然，这还不够，你还可以给它更换一个更好看的主题，这里作者就用了 Redefine 主题，大概就是长这样的(*^_^*)：</p>
-<p><img src="/images/2024/042301/4.jpg" alt="4.jpg"></p>
-
-  <div class="note-large blue">
+]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我和博客</title>
+    <url>/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[
+  <div class="note-large red">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>跳转提示</p>
+      <i class="notel-icon fa-solid fa-solid fa-exclamation-triangle"></i><p>文章已过时</p>
 
     </div>
     <div class="notel-content">
-      <p>关于怎么配置这个主题，</p>
-<p>请跳转到：<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）：如何详细配置 Hexo 使用 Rendefine 主题美化博客】</a></p>
+      <p>本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请<a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">点击此处</a>已查看最新内容。</p>
 
     </div>
   </div>
 
-<p>最后简单的做个配置，最终呈现了这样的效果：</p>
-<p><img src="/images/2024/042301/5.jpg" alt="5.jpg"></p>
-<h3 id="4-上传到-Github"><a href="#4-上传到-Github" class="headerlink" title="4. 上传到 Github"></a>4. 上传到 Github</h3><p>接下来，将本地上制作好的内容上传到 Github 仓库中。关于怎么上传部署 Github Pages，<a class="link"   href="https://hexo.io/zh-cn/docs/github-pages" >请点击查看关于 Hexo 上传部署到 Github Pages 的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>首次执行，需要下列的所有命令：</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone [你的Github仓库地址]</span><br><span class="line">cp -r [你的博客名称]/* [Github仓库名称] # 注意两个路径之间留下至少一个空格</span><br><span class="line">cd [Github仓库名称]</span><br><span class="line">git config --global user.name &quot;[你的Github昵称]&quot;</span><br><span class="line">git config --global user.email &quot;[你注册 Github 时所用的邮箱]&quot;</span><br><span class="line">git remote add origin [你的Github仓库地址]</span><br><span class="line">git add *</span><br><span class="line">git commit -m &quot;这里随便写点什么&quot; # 此行指令可不写</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure></div>
-
-<p>等待上传完成即可(*^_^*)</p>
-<hr>
-<h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>下一篇将继续详细【<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">配置 Hexo，以及如何使用 Redefine 主题美化博客</a>】</p>
-<p>本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)</p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o</p>
+<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。</p>
+<h2 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h2><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h2 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h2><p>今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（<strong>文章可能不会同步更新~ o(*￣▽￣*)o</strong>）</p>
+<h2 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h2><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h2 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h2><p>你可以通过以下几个平台来私信我：</p>
+<ul>
+<li><a class="link"   href="https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0" >bilibili <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.zhihu.com/people/catisnotfound" >知乎 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.jianshu.com/u/7ef34e5bf13f" >简书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="mailto:1636879962@qq.com" >个人邮箱 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
 ]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
       <tags>
-        <tag>Git</tag>
-        <tag>博客搭建</tag>
-        <tag>Hexo</tag>
+        <tag>关于博客</tag>
       </tags>
   </entry>
   <entry>
@@ -800,9 +747,65 @@
       </tags>
   </entry>
   <entry>
+    <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
+    <url>/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，</p>
+<p>关于个人博客，可以利用 Github Page 来搭建自己的个人博客。</p>
+<p><img src="/images/2024/042301/5.jpg"></p>
+<h2 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h2><h3 id="1-注册-Github"><a href="#1-注册-Github" class="headerlink" title="1. 注册 Github"></a>1. 注册 Github</h3><p>既然提到了 Github Page ，首先就得<a class="link"   href="https://github.com/signup" >注册自己的 Github 账号 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
+<blockquote>
+<p>如果 Github 界面打不开，建议使用 <a class="link"   href="https://steampp.net/" >Watt Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>😃，（不仅可以加速 Steam、橙子、育碧，同时也能加速 Github）</p>
+<p>注册一个 Github 账号只需要邮箱，并且进行邮箱验证就能快速完成！ヾ(•ω•&#96;)o</p>
+</blockquote>
+<h3 id="2-创建自己的仓库"><a href="#2-创建自己的仓库" class="headerlink" title="2. 创建自己的仓库"></a>2. 创建自己的仓库</h3><p>注册之后，接下来就要创建自己的仓库，<br>首先点击【New】，如下图：</p>
+<p><img src="/images/2024/042301/1.jpg" alt="1.jpg"></p>
+<p>其次，创建仓库时，<strong>仓库名一定要以<code>[你的用户名].github.io</code> 为名，</strong> 默认下都会将其设为 Github Page，之后就能完成创建。具体看下图：</p>
+<p><img src="/images/2024/042301/2.jpg" alt="2.jpg"></p>
+<p>创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）<br><img src="/images/2024/042301/2.1.jpg" alt="2.1.jpg"></p>
+<h3 id="3-选择框架"><a href="#3-选择框架" class="headerlink" title="3. 选择框架"></a>3. 选择框架</h3><p>当你做完上述步骤后，你可以直接访问自己的网页，如下图：<br><img src="/images/2024/042301/3.0.jpg" alt="3.0.jpg"></p>
+<p>接下来就是选择网页框架。这里就以 Hexo 为例，这里就只需要用到 <code>git</code> 和 <code>node.js</code> 两个依赖软件了，关于详细地安装步骤，请直接参照<a class="link"   href="https://hexo.io/zh-cn/docs/" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>即可</p>
+<p>完成后的搭建，大概是长这样的：</p>
+<p><img src="/images/2024/042301/3.jpg" alt="3.jpg"></p>
+<p>当然，这还不够，你还可以给它更换一个更好看的主题，这里作者就用了 Redefine 主题，大概就是长这样的(*^_^*)：</p>
+<p><img src="/images/2024/042301/4.jpg" alt="4.jpg"></p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>跳转提示</p>
+
+    </div>
+    <div class="notel-content">
+      <p>关于怎么配置这个主题，</p>
+<p>请跳转到：<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）：如何详细配置 Hexo 使用 Rendefine 主题美化博客】</a></p>
+
+    </div>
+  </div>
+
+<p>最后简单的做个配置，最终呈现了这样的效果：</p>
+<p><img src="/images/2024/042301/5.jpg" alt="5.jpg"></p>
+<h3 id="4-上传到-Github"><a href="#4-上传到-Github" class="headerlink" title="4. 上传到 Github"></a>4. 上传到 Github</h3><p>接下来，将本地上制作好的内容上传到 Github 仓库中。关于怎么上传部署 Github Pages，<a class="link"   href="https://hexo.io/zh-cn/docs/github-pages" >请点击查看关于 Hexo 上传部署到 Github Pages 的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>首次执行，需要下列的所有命令：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone [你的Github仓库地址]</span><br><span class="line">cp -r [你的博客名称]/* [Github仓库名称] # 注意两个路径之间留下至少一个空格</span><br><span class="line">cd [Github仓库名称]</span><br><span class="line">git config --global user.name &quot;[你的Github昵称]&quot;</span><br><span class="line">git config --global user.email &quot;[你注册 Github 时所用的邮箱]&quot;</span><br><span class="line">git remote add origin [你的Github仓库地址]</span><br><span class="line">git add *</span><br><span class="line">git commit -m &quot;这里随便写点什么&quot; # 此行指令可不写</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure></div>
+
+<p>等待上传完成即可(*^_^*)</p>
+<hr>
+<h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>下一篇将继续详细【<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">配置 Hexo，以及如何使用 Redefine 主题美化博客</a>】</p>
+<p>本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>博客搭建</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客</title>
     <url>/2024/04/24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>在这上一篇<a href="../../23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2">【搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客】</a>文章中，我们已经完成了搭建。在这篇文章中，将会详细地讲述搭建后关于 Hexo 的配置以及如何自定义自己的 <a class="link"   href="https://redefine.ohevan.com/" >Redefine 主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
+<p>![&#x2F;images&#x2F;2024&#x2F;0424&#x2F;banner.jpg]</p>
 <h2 id="Hexo-配置"><a href="#Hexo-配置" class="headerlink" title="Hexo 配置"></a>Hexo 配置</h2><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><p>打开项目目录下的 <code>_config.yml</code> 文件，请找到如下内容并修改如下：</p>
 <div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> 						<span class="comment"># 必填，输入网站标题</span></span><br><span class="line"><span class="attr">subtitle:</span> 					<span class="comment"># 此处可不填，子标题</span></span><br><span class="line"><span class="attr">description:</span> 				<span class="comment"># 此处可不填，网站简介</span></span><br><span class="line"><span class="attr">keywords:</span> 					<span class="comment"># 此处可不填，关键词</span></span><br><span class="line"><span class="attr">author:</span>  					<span class="comment"># 必填，作者名称</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span>				<span class="comment"># 必填，使用的语言，这里应填为 `zh-CN` </span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;Asia/Shanghai&#x27;</span>	<span class="comment"># 必填，时区，在国内建议选择上海时间</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://&lt;你的</span> <span class="string">Github</span> <span class="string">用户名&gt;.github.io</span> 	<span class="comment"># 必填，Github Page 的地址</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure></div>
 
@@ -1860,6 +1863,7 @@ B -- False --> 执行语句2
     <div class="notel-content">
       <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
 <p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
+<p><img src="/images/2024/0426/13.jpg"></p>
 
     </div>
   </div>
@@ -1998,6 +2002,7 @@ B -- False --> 执行语句2
     </div>
     <div class="notel-content">
       <p>WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。</p>
+<p><img src="/images/2024/0527/banner.jpg"></p>
 
     </div>
   </div>
@@ -2090,6 +2095,7 @@ B -- False --> 执行语句2
     <url>/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。</p>
 <p>如果你有更好的推荐，请在评论区补充。O(∩_∩)O</p>
+<p><img src="https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg"></p>
 <h1 id="一、桌面美化类"><a href="#一、桌面美化类" class="headerlink" title="一、桌面美化类"></a>一、桌面美化类</h1><h2 id="TranslucentTB（任务栏）👍👍👍"><a href="#TranslucentTB（任务栏）👍👍👍" class="headerlink" title="TranslucentTB（任务栏）👍👍👍"></a>TranslucentTB（任务栏）👍👍👍</h2><p><img src="/images/2024/0527/0.jpg"><br><img src="/images/2024/0527/00.jpg"></p>
 <a class="button  center large" href='https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
 
@@ -2269,12 +2275,13 @@ B -- False --> 执行语句2
     </div>
     <div class="notel-content">
       <p>仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。</p>
+<p><img src="/images/2024/0620/cover.jpg"></p>
 
     </div>
   </div>
 
 <h1 id="新增内容"><a href="#新增内容" class="headerlink" title="新增内容"></a>新增内容</h1><h2 id="博客-Logo"><a href="#博客-Logo" class="headerlink" title="博客 Logo"></a>博客 Logo</h2><p>在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。</p>
-<p><img src="/images/2024/logo.png" alt="Logo"></p>
+<p><img src="/images/logo.png" alt="Logo"></p>
 <p><strong>如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。</strong></p>
 <h1 id="页面更新"><a href="#页面更新" class="headerlink" title="页面更新"></a>页面更新</h1><p>很显然，这次的博客站点更新了一些页面，下面将简要介绍：</p>
 <h2 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h2><ul>
@@ -3092,6 +3099,32 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
+    <title>关于我的博客</title>
+    <url>/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
+<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
+<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
+<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
+<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
+<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
+
+<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
+<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
+
+<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
+
+<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
+<p>或者你可以通过其它私人途径来联系我：</p>
+<img src="/images/2024/QQ.jpg" alt="QQ" width="300px">]]></content>
+      <tags>
+        <tag>关于博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建个人博客（四）：如何实现评论系统</title>
     <url>/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[
@@ -3102,6 +3135,7 @@ B -- False --> 执行语句2
     </div>
     <div class="notel-content">
       <p>评论系统是博客中不可或缺的一部分，它能够让读者与作者互动，提高博客的互动性。目前针对 Hexo 博客，Waline 评论系统是目前比较流行的评论系统。</p>
+<p><img src="/images/2024/0602/waline.jpg"></p>
 
     </div>
   </div>
@@ -3263,32 +3297,6 @@ B -- False --> 执行语句2
       <tags>
         <tag>博客搭建</tag>
         <tag>Waline</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我的博客</title>
-    <url>/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
-<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
-<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
-<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
-<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
-<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
-
-<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
-<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
-
-<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
-
-<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
-<p>或者你可以通过其它私人途径来联系我：</p>
-<img src="/images/2024/QQ.jpg" alt="QQ" width="300px">]]></content>
-      <tags>
-        <tag>关于博客</tag>
       </tags>
   </entry>
   <entry>

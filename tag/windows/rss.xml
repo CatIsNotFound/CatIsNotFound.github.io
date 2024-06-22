@@ -5,10 +5,10 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 22 Jun 2024 14:08:00 +0800</pubDate>
-        <lastBuildDate>Sat, 22 Jun 2024 14:08:00 +0800</lastBuildDate>
-        <category>更新日志</category>
+        <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
+        <lastBuildDate>Sat, 22 Jun 2024 14:08:24 +0800</lastBuildDate>
         <category>Linux 学习</category>
+        <category>更新日志</category>
         <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
@@ -27,7 +27,7 @@
             <link>https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</link>
             <category>Windows</category>
             <category>系统安装</category>
-            <pubDate>Sat, 22 Jun 2024 14:08:00 +0800</pubDate>
+            <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -324,6 +324,7 @@
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;一、桌面美化类&#34;&gt;&lt;a href=&#34;#一、桌面美化类&#34; class=&#34;headerlink&#34; title=&#34;一、桌面美化类&#34;&gt;&lt;/a&gt;一、桌面美化类&lt;/h1&gt;&lt;h2 id=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;a href=&#34;#TranslucentTB（任务栏）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;/a&gt;TranslucentTB（任务栏）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;/images/2024/0527/0.jpg&#34;&gt;&lt;br&gt;&lt;img src=&#34;/images/2024/0527/00.jpg&#34;&gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&amp;rtc=1&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 

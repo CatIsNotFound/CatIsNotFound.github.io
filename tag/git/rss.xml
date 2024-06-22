@@ -7,8 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
         <lastBuildDate>Mon, 27 May 2024 10:18:00 +0800</lastBuildDate>
-        <category>更新日志</category>
         <category>Linux 学习</category>
+        <category>更新日志</category>
         <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
@@ -47,6 +47,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/2024/0527/banner.jpg&#34;&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -204,6 +205,7 @@
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
 &lt;p&gt;关于个人博客，可以利用 Github Page 来搭建自己的个人博客。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/2024/042301/5.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;怎么做？&#34;&gt;&lt;a href=&#34;#怎么做？&#34; class=&#34;headerlink&#34; title=&#34;怎么做？&#34;&gt;&lt;/a&gt;怎么做？&lt;/h2&gt;&lt;h3 id=&#34;1-注册-Github&#34;&gt;&lt;a href=&#34;#1-注册-Github&#34; class=&#34;headerlink&#34; title=&#34;1. 注册 Github&#34;&gt;&lt;/a&gt;1. 注册 Github&lt;/h3&gt;&lt;p&gt;既然提到了 Github Page ，首先就得&lt;a class=&#34;link&#34;   href=&#34;https://github.com/signup&#34; &gt;注册自己的 Github 账号 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果 Github 界面打不开，建议使用 &lt;a class=&#34;link&#34;   href=&#34;https://steampp.net/&#34; &gt;Watt Toolkit &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;😃，（不仅可以加速 Steam、橙子、育碧，同时也能加速 Github）&lt;/p&gt;
