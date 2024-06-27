@@ -4,7 +4,7 @@
     <title>CatIsNotFound • Posts by &#34;更新日志&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-20T04:31:43.000Z</updated>
-    <category term="Linux 学习" />
+    <category term="Linux" />
     <category term="更新日志" />
     <category term="关于博客" />
     <category term="Git" />
@@ -22,7 +22,7 @@
         <id>https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
         <title>[Ver 1.3] CatIsNotFound 更新日志</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-        <content type="html">
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最前&lt;/p&gt;
@@ -91,7 +91,7 @@
         <id>https://catisnotfound.github.io/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
         <title>[Ver 1.2] CatIsNotFound 更新日志</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-        <content type="html">
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最前&lt;/p&gt;
@@ -164,7 +164,7 @@
         <id>https://catisnotfound.github.io/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</id>
         <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/"/>
-        <content type="html">&lt;h2 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h2&gt;&lt;p&gt;这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h2 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h2&gt;&lt;p&gt;这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)&lt;/p&gt;
 &lt;h2 id=&#34;What’s-New&#34;&gt;&lt;a href=&#34;#What’s-New&#34; class=&#34;headerlink&#34; title=&#34;What’s New&#34;&gt;&lt;/a&gt;What’s New&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;

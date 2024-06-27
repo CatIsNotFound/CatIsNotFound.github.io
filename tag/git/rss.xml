@@ -7,7 +7,7 @@
         <language>zh-CN</language>
         <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
         <lastBuildDate>Mon, 27 May 2024 10:18:00 +0800</lastBuildDate>
-        <category>Linux 学习</category>
+        <category>Linux</category>
         <category>更新日志</category>
         <category>关于博客</category>
         <category>Git</category>
@@ -30,7 +30,7 @@
             <category>Hexo</category>
             <category>软件安利</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）&lt;/p&gt;
 &lt;p&gt;在此，请直接在 Github 上&lt;a href=&#34;https://github.com/new&#34;&gt;&lt;strong&gt;新建一个公共仓库（Public Repository）&lt;/strong&gt;&lt;/a&gt;，将自己的博客上传到 Github 中。&lt;/p&gt;
@@ -132,7 +132,7 @@
             <link>https://catisnotfound.github.io/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</link>
             <category>Git</category>
             <pubDate>Tue, 23 Apr 2024 19:09:08 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。&lt;/p&gt;
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。&lt;/p&gt;
 &lt;h2 id=&#34;下载-Git&#34;&gt;&lt;a href=&#34;#下载-Git&#34; class=&#34;headerlink&#34; title=&#34;下载 Git&#34;&gt;&lt;/a&gt;下载 Git&lt;/h2&gt;&lt;p&gt;首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Linux: 根据不同的发行版，在终端中输入对应的安装命令即可&lt;/p&gt;
@@ -203,7 +203,7 @@
             <category>博客搭建</category>
             <category>Hexo</category>
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
 &lt;p&gt;关于个人博客，可以利用 Github Page 来搭建自己的个人博客。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/2024/042301/5.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;怎么做？&#34;&gt;&lt;a href=&#34;#怎么做？&#34; class=&#34;headerlink&#34; title=&#34;怎么做？&#34;&gt;&lt;/a&gt;怎么做？&lt;/h2&gt;&lt;h3 id=&#34;1-注册-Github&#34;&gt;&lt;a href=&#34;#1-注册-Github&#34; class=&#34;headerlink&#34; title=&#34;1. 注册 Github&#34;&gt;&lt;/a&gt;1. 注册 Github&lt;/h3&gt;&lt;p&gt;既然提到了 Github Page ，首先就得&lt;a class=&#34;link&#34;   href=&#34;https://github.com/signup&#34; &gt;注册自己的 Github 账号 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
