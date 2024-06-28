@@ -5,22 +5,97 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 02 Jun 2024 20:00:00 +0800</pubDate>
-        <lastBuildDate>Sun, 02 Jun 2024 20:00:00 +0800</lastBuildDate>
+        <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
+        <lastBuildDate>Thu, 20 Jun 2024 12:31:43 +0800</lastBuildDate>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>新手向</category>
         <category>博客搭建</category>
         <category>软件安利</category>
         <category>Git</category>
         <category>Hexo</category>
-        <category>Windows</category>
+        <category>Android</category>
         <category>Linux</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>Windows</category>
         <category>更新日志</category>
         <category>关于博客</category>
-        <category>脚本</category>
+        <category>linux</category>
+        <category>发行版推荐</category>
         <category>Waline</category>
+        <category>脚本</category>
         <category>系统安装</category>
-        <category>Android</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
+            <title>[Ver 1.3] CatIsNotFound 更新日志</title>
+            <link>https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
+            <category>更新日志</category>
+            <category>Waline</category>
+            <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最前&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/cover.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;新增内容&#34;&gt;&lt;a href=&#34;#新增内容&#34; class=&#34;headerlink&#34; title=&#34;新增内容&#34;&gt;&lt;/a&gt;新增内容&lt;/h1&gt;&lt;h2 id=&#34;博客-Logo&#34;&gt;&lt;a href=&#34;#博客-Logo&#34; class=&#34;headerlink&#34; title=&#34;博客 Logo&#34;&gt;&lt;/a&gt;博客 Logo&lt;/h2&gt;&lt;p&gt;在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/logo.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;页面更新&#34;&gt;&lt;a href=&#34;#页面更新&#34; class=&#34;headerlink&#34; title=&#34;页面更新&#34;&gt;&lt;/a&gt;页面更新&lt;/h1&gt;&lt;p&gt;很显然，这次的博客站点更新了一些页面，下面将简要介绍：&lt;/p&gt;
+&lt;h2 id=&#34;首页&#34;&gt;&lt;a href=&#34;#首页&#34; class=&#34;headerlink&#34; title=&#34;首页&#34;&gt;&lt;/a&gt;首页&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;首页页面下不仅仅只是更新了背景图和轮播文字（打字机效果），还简要地将侧边导航栏、个人信息栏、文章列表做了对调，使得更倾向于先看文章标题及摘要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/1.jpg&#34; alt=&#34;首页2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文章页面&#34;&gt;&lt;a href=&#34;#文章页面&#34; class=&#34;headerlink&#34; title=&#34;文章页面&#34;&gt;&lt;/a&gt;文章页面&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;文章页面底部新增 &lt;strong&gt;[表情反应]&lt;/strong&gt; 界面，你可以在对应文章的下方选择你的表情反应；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/2.jpg&#34; alt=&#34;表情反应&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;关于评论&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;你可以在此站点上发表评论，但由于 Waline 评论系统的限制，你将无法正常收到任何邮件通知。因此，若遇到问题或有任何建议，请直接通过电子邮件、知乎、B站私信等方式联系本人。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;未来计划&#34;&gt;&lt;a href=&#34;#未来计划&#34; class=&#34;headerlink&#34; title=&#34;未来计划&#34;&gt;&lt;/a&gt;未来计划&lt;/h1&gt;&lt;p&gt;与之前的更新日志一样，本站点的未来计划也很简单：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;继续完善博客站点的功能，包括文章分类、标签、搜索功能等；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;更新日志链接&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;关于 Redefine 主题的更新内容，请直接访问以下链接：&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
             <title>搭建个人博客（四）：如何实现评论系统</title>

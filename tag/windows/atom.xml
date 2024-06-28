@@ -6,18 +6,23 @@
     <updated>2024-06-22T06:08:24.000Z</updated>
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
     <category term="博客搭建" />
     <category term="软件安利" />
     <category term="Git" />
     <category term="Hexo" />
-    <category term="Windows" />
+    <category term="Android" />
     <category term="Linux" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="Windows" />
     <category term="更新日志" />
     <category term="关于博客" />
-    <category term="脚本" />
+    <category term="linux" />
+    <category term="发行版推荐" />
     <category term="Waline" />
+    <category term="脚本" />
     <category term="系统安装" />
-    <category term="Android" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</id>
         <title>系统安装日常：简单快速安装 Windows 11/10</title>
@@ -158,6 +163,7 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
+        <category term="新手向" />
         <category term="Windows" />
         <category term="系统安装" />
         <updated>2024-06-22T06:08:24.000Z</updated>
@@ -308,8 +314,9 @@
   &lt;/div&gt;
 
 </content>
-        <category term="Windows" />
+        <category term="新手向" />
         <category term="Linux" />
+        <category term="Windows" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
     <entry>
@@ -403,6 +410,7 @@
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
         <updated>2024-05-25T16:30:20.000Z</updated>

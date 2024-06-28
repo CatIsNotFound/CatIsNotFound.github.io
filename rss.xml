@@ -5,26 +5,103 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
-        <lastBuildDate>Sat, 22 Jun 2024 14:08:24 +0800</lastBuildDate>
+        <pubDate>Fri, 28 Jun 2024 14:49:42 +0800</pubDate>
+        <lastBuildDate>Fri, 28 Jun 2024 14:49:42 +0800</lastBuildDate>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>新手向</category>
         <category>博客搭建</category>
         <category>软件安利</category>
         <category>Git</category>
         <category>Hexo</category>
-        <category>Windows</category>
+        <category>Android</category>
         <category>Linux</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>Windows</category>
         <category>更新日志</category>
         <category>关于博客</category>
-        <category>脚本</category>
+        <category>linux</category>
+        <category>发行版推荐</category>
         <category>Waline</category>
+        <category>脚本</category>
         <category>系统安装</category>
-        <category>Android</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/06/28/Linux-%E6%96%B0%E6%89%8B%E6%8E%A8%E8%8D%90%E5%90%91-%E9%80%82%E5%90%88%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E7%9A%84-Linux-%E5%8F%91%E8%A1%8C%E7%89%88/</guid>
+            <title>[Linux 新手推荐向] 适合新手小白的 Linux 发行版</title>
+            <link>https://catisnotfound.github.io/2024/06/28/Linux-%E6%96%B0%E6%89%8B%E6%8E%A8%E8%8D%90%E5%90%91-%E9%80%82%E5%90%88%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E7%9A%84-Linux-%E5%8F%91%E8%A1%8C%E7%89%88/</link>
+            <category>新手向</category>
+            <category>linux</category>
+            <category>发行版推荐</category>
+            <pubDate>Fri, 28 Jun 2024 14:49:42 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Linux 是一个开源的操作系统，无论是个人使用还是服务器部署，都需要一款适合自己的发行版。&lt;/p&gt;
+&lt;p&gt;如果你是一位 Linux 新手，那么你可以从这里开始，了解适合小白&amp;#x2F;新手的几款 Linux 发行版。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/cover.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;国内-Linux-发行版推荐&#34;&gt;&lt;a href=&#34;#国内-Linux-发行版推荐&#34; class=&#34;headerlink&#34; title=&#34;国内 Linux 发行版推荐&#34;&gt;&lt;/a&gt;国内 Linux 发行版推荐&lt;/h1&gt;&lt;p&gt;如果你是经常使用办公软件或只是单纯的娱乐爱好者，那么你可以看看国内的 Linux 发行版：&lt;/p&gt;
+&lt;h2 id=&#34;1-Deepin&#34;&gt;&lt;a href=&#34;#1-Deepin&#34; class=&#34;headerlink&#34; title=&#34;1. Deepin&#34;&gt;&lt;/a&gt;1. Deepin&lt;/h2&gt;&lt;p&gt;对于个人而言，这是最为推荐的 Linux 发行版之一，而且也是整个国产 Linux 系统中最为流行的 Linux 发行版。&lt;/p&gt;
+&lt;p&gt;推荐它的理由有以下几点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;界面简洁、美观。&lt;/li&gt;
+&lt;li&gt;自带的软件生态丰富。（包含常用的社交软件、办公软件、开发工具等）&lt;/li&gt;
+&lt;li&gt;拥有较为完善的用户交流社区。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://www.deepin.org/download/&#39; title=&#39;Deepin 官网下载&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; Deepin 官网下载&lt;/a&gt; 
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/deepin.png&#34; alt=&#34;deepin&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-Ubuntu-Kylin&#34;&gt;&lt;a href=&#34;#2-Ubuntu-Kylin&#34; class=&#34;headerlink&#34; title=&#34;2. Ubuntu Kylin&#34;&gt;&lt;/a&gt;2. Ubuntu Kylin&lt;/h2&gt;&lt;p&gt;优麒麟（Ubuntu Kylin）是一款基于 Ubuntu 的 Linux 发行版，使用 UKUI 的桌面环境（基于 Mate 桌面环境）。&lt;/p&gt;
+&lt;p&gt;它也是一款比较适合国人的 Linux 发行版，拥有自带的软件生态，易于安装。同样有较为完善的用户交流社区。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://www.ubuntukylin.com/downloads/&#39; title=&#39;Ubuntu Kylin 官网下载&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; Ubuntu Kylin 官网下载&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/ubuntukylin.png&#34; alt=&#34;Ubuntu kylin&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;国外-Linux-发行版推荐&#34;&gt;&lt;a href=&#34;#国外-Linux-发行版推荐&#34; class=&#34;headerlink&#34; title=&#34;国外 Linux 发行版推荐&#34;&gt;&lt;/a&gt;国外 Linux 发行版推荐&lt;/h1&gt;&lt;p&gt;以下是几个比较推荐的国外 Linux 发行版：&lt;/p&gt;
+&lt;h2 id=&#34;1-Linux-Mint&#34;&gt;&lt;a href=&#34;#1-Linux-Mint&#34; class=&#34;headerlink&#34; title=&#34;1. Linux Mint&#34;&gt;&lt;/a&gt;1. Linux Mint&lt;/h2&gt;&lt;p&gt;如果以上的国内 Linux 发行版还不能满足，那么这是最值得推荐的发行版之一。同时这也是最适合小白&amp;#x2F;新手的发行版。&lt;/p&gt;
+&lt;p&gt;Linux Mint 是一款基于 Ubuntu 的 Linux 发行版，它是一个轻量级的 Linux 发行版。它具有即开即用、易于上手、功能丰富、可靠性高等特点。&lt;/p&gt;
+&lt;p&gt;它的桌面默认为 Cinnamon 桌面环境，它有着简洁、美观、功能丰富的界面（类似于 Windows 7 的界面布局）。同样地，它也支持 Mate、Xfce 等桌面环境。&lt;/p&gt;
+&lt;p&gt;如果你是一位 Linux 新手，那么 Linux Mint 是一个不错的选择。👍&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://www.linuxmint.com/download.php&#39; title=&#39;Linux Mint 官网下载&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; Linux Mint 官网下载&lt;/a&gt; 
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/mint.png&#34; alt=&#34;Linux mint 21&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-Manjaro&#34;&gt;&lt;a href=&#34;#2-Manjaro&#34; class=&#34;headerlink&#34; title=&#34;2. Manjaro&#34;&gt;&lt;/a&gt;2. Manjaro&lt;/h2&gt;&lt;p&gt;如果你厌倦了 Debian 系的发行版，那么基于 Arch Linux 系的 Manjaro 是一个不错的选择。&lt;/p&gt;
+&lt;p&gt;Manjaro 是一款基于 Arch Linux 的 Linux 发行版，它是一个轻量级的 Linux 发行版，拥有简洁、美观、功能丰富的界面。&lt;/p&gt;
+&lt;p&gt;它支持 KDE、GNOME、XFCE、MATE、CINNAMON、i3 等桌面环境。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://manjaro.org/download/&#39; title=&#39;Manjaro 官网下载&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; Manjaro 官网下载&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/manjaro.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-Kali-Linux&#34;&gt;&lt;a href=&#34;#3-Kali-Linux&#34; class=&#34;headerlink&#34; title=&#34;3. Kali Linux&#34;&gt;&lt;/a&gt;3. Kali Linux&lt;/h2&gt;&lt;p&gt;如果你对黑客技术感兴趣，那么 Kali Linux 是一个不错的选择。👍&lt;/p&gt;
+&lt;p&gt;Kali Linux 是一款基于 Debian 的 Linux 发行版，它是一个功能丰富、可靠性高的 Linux 发行版。&lt;/p&gt;
+&lt;p&gt;它默认使用 XFCE 桌面环境，它还支持 KDE、GNOME、MATE、CINNAMON 等桌面环境。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://www.kali.org/downloads/&#39; title=&#39;Kali Linux 官网下载&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; Kali Linux 官网下载&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/kali.png&#34; alt=&#34;kali linux&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-Zorin-OS&#34;&gt;&lt;a href=&#34;#4-Zorin-OS&#34; class=&#34;headerlink&#34; title=&#34;4. Zorin OS&#34;&gt;&lt;/a&gt;4. Zorin OS&lt;/h2&gt;&lt;p&gt;如果厌倦了 Ubuntu 自带的 Snap 包管理器，那么你可以尝试 Ubuntu 的替代品 Zorin OS。&lt;/p&gt;
+&lt;p&gt;Zorin OS 是一款基于 Ubuntu 的 Linux 发行版，同样也是一个轻量级发行版、具有即开即用、易于上手的特点。&lt;/p&gt;
+&lt;p&gt;桌面环境默认为 GNOME 桌面环境，它有着简洁、美观、功能丰富的界面布局。&lt;/p&gt;
+&lt;p&gt;Zorin OS 提供了 Professional 和 Core 两个版本，Core 版本仅包含基本的桌面环境、软件、驱动程序，适合于小白用户。而 Professional 版本则包含了多款专业软件、新的桌面布局（如：Chrome OS、MacOS、Windows 11 等）、新的桌面外观等。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://zorin.com/os/download/&#39; title=&#39;Zorin OS 官网下载&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; Zorin OS 官网下载&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/zorin.png&#34; alt=&#34;zorinos 17 core&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;如果你还有更多值得小白尝试的 Linux 发行版，欢迎在评论区进行讨论。O(∩_∩)O&lt;/p&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;参考链接&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://www.sysgeek.cn/linux-distro-beginners/&#34; &gt;https://www.sysgeek.cn/linux-distro-beginners/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://www.linuxmi.com/2022-10-top-linux.html&#34; &gt;https://www.linuxmi.com/2022-10-top-linux.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</guid>
             <title>系统安装日常：简单快速安装 Windows 11/10</title>
             <link>https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</link>
+            <category>新手向</category>
             <category>Windows</category>
             <category>系统安装</category>
             <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
@@ -170,6 +247,7 @@
             <title>[Ver 1.3] CatIsNotFound 更新日志</title>
             <link>https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
             <category>更新日志</category>
+            <category>Waline</category>
             <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -238,8 +316,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</guid>
             <title>系统安装日常：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
-            <category>系统安装</category>
+            <category>新手向</category>
             <category>Android</category>
+            <category>系统安装</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
@@ -414,6 +493,7 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</link>
+            <category>新手向</category>
             <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
@@ -670,6 +750,7 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
+            <category>新手向</category>
             <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:10:00 +0800</pubDate>
@@ -1017,8 +1098,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
-            <category>Windows</category>
+            <category>新手向</category>
             <category>Linux</category>
+            <category>Windows</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -1414,6 +1496,7 @@
             <link>https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
             <category>Python</category>
             <category>学习笔记</category>
+            <category>新手向</category>
             <pubDate>Mon, 27 May 2024 12:42:38 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -2329,6 +2412,7 @@ B -- False --&gt; 执行语句2
             <category>软件安利</category>
             <category>Git</category>
             <category>Hexo</category>
+            <category>Android</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
@@ -2430,6 +2514,7 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
@@ -2525,7 +2610,10 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
+            <category>新手向</category>
             <category>Linux</category>
+            <category>GNOME</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
