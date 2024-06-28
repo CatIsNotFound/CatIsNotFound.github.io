@@ -4,16 +4,16 @@
     <title>CatIsNotFound • Posts by &#34;关于博客&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-11T11:58:21.000Z</updated>
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Hexo" />
+    <category term="Windows" />
     <category term="Linux" />
     <category term="更新日志" />
     <category term="关于博客" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="软件安利" />
-    <category term="Windows" />
     <category term="脚本" />
     <category term="Waline" />
     <category term="系统安装" />
@@ -40,7 +40,7 @@
 
 &lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/CatIsNotFound&#39; title=&#39;GitHub&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
 &lt;p&gt;或者你可以通过其它私人途径来联系我：&lt;/p&gt;
-&lt;img src=&#34;/images/2024/QQ.jpg&#34; alt=&#34;QQ&#34; width=&#34;300px&#34;&gt;</content>
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/QQ.jpg&#34; alt=&#34;QQ&#34; width=&#34;300px&#34;&gt;</content>
         <category term="关于博客" />
         <updated>2024-06-11T11:58:21.000Z</updated>
     </entry>
