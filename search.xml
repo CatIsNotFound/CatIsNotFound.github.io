@@ -430,149 +430,6 @@
       </tags>
   </entry>
   <entry>
-    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
-    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
-<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
-<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg" alt="暗色"><br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg" alt="亮色"></p>
-</li>
-<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
-<ul>
-<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
-<li>其中的【说说】会在此留下所有关于作者的一些话</li>
-</ul>
-</li>
-<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img loading="lazy" src="/images/2024/0423/music.jpg" alt="音乐"></p>
-</li>
-<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
-</li>
-<li><p>目前暂未完成的目标：</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
-<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
-<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
-</ul>
-</li>
-</ul>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
-<blockquote>
-<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>更新日志</category>
-      </categories>
-      <tags>
-        <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我和博客</title>
-    <url>/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-exclamation-triangle"></i><p>文章已过时</p>
-
-    </div>
-    <div class="notel-content">
-      <p>本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请<a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">点击此处</a>已查看最新内容。</p>
-
-    </div>
-  </div>
-
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o</p>
-<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。</p>
-<h2 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h2><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h2 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h2><p>今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（<strong>文章可能不会同步更新~ o(*￣▽￣*)o</strong>）</p>
-<h2 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h2><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h2 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h2><p>你可以通过以下几个平台来私信我：</p>
-<ul>
-<li><a class="link"   href="https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0" >bilibili <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.zhihu.com/people/catisnotfound" >知乎 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.jianshu.com/u/7ef34e5bf13f" >简书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="mailto:1636879962@qq.com" >个人邮箱 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>关于博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在命令行下使用 Git？</title>
-    <url>/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。</p>
-<h2 id="下载-Git"><a href="#下载-Git" class="headerlink" title="下载 Git"></a>下载 Git</h2><p>首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：</p>
-<ul>
-<li><p>Linux: 根据不同的发行版，在终端中输入对应的安装命令即可</p>
-<div class="tabs" id="tab-install_git"><ul class="nav-tabs"><li class="tab active"><a class="#install_git-1">Debian(Ubuntu)</a></li><li class="tab"><a class="#install_git-2">Arch Linux</a></li><li class="tab"><a class="#install_git-3">Fedora(Redhat)</a></li><li class="tab"><a class="#install_git-4">CentOS(7.9及以下)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="install_git-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -Sy git </span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-3"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dnf install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-4"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install git -y</span><br></pre></td></tr></table></figure></div></div></div></div>
-</li>
-<li><p>Windows &#x2F; MacOS: <a class="link"   href="https://git-scm.com/downloads" >https://git-scm.com/downloads <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</li>
-</ul>
-<p>要检查 Git 安装是否完成，只需执行命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="简单使用-Git"><a href="#简单使用-Git" class="headerlink" title="简单使用 Git"></a>简单使用 Git</h2><p>关于此处，你可以直接通过如下图进行速查：</p>
-<p><img loading="lazy" src="https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg" alt="Git 常用命令速查表"></p>
-<p>以下是较为常用的 Git 命令：</p>
-<p>首先最为简单的事，就是从 Github 等其它代码托管平台上<strong>克隆项目</strong></p>
-<p>克隆源代码项目：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
-
-<p>安装完成后，首先第一件事：就是需要先配置用户和邮箱。</p>
-<p>配置用户：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name [你的名字]</span><br></pre></td></tr></table></figure></div>
-
-<p>配置邮箱：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email [你的邮箱]</span><br></pre></td></tr></table></figure></div>
-
-<p>要初始化一个自己的 Git 项目，执行如下：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init [你的项目名]</span><br></pre></td></tr></table></figure></div>
-
-<p>当然，你也可以选择在当前目录下初始化你的 Git，只需执行：<code>git init</code></p>
-<p>将文件添加到分支中：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add *</span><br><span class="line">git add .</span><br><span class="line">git add [指定的文件或目录]</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>这里的 <code>*</code> , <code>.</code> 都代表当前目录下所有需要添加或修改的文件</p>
-</blockquote>
-<p>将文件从分支中删除：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r [指定目录]        <span class="comment"># 删除目录及其所有子文件</span></span><br><span class="line">git <span class="built_in">rm</span> [指定文件或目录]     <span class="comment"># 删除文件</span></span><br><span class="line">git <span class="built_in">rm</span> -r *                <span class="comment"># 删除所有</span></span><br></pre></td></tr></table></figure></div>
-
-<p>查看所有已添加到分支里的文件</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git ls-files</span><br></pre></td></tr></table></figure></div>
-
-<p>为分支里的文件进行提交（commit：提交时需要用到的标记）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&#x27;[内容]&#x27;</span></span><br><span class="line">git commit -am <span class="string">&#x27;[内容]&#x27;</span>  <span class="comment"># 添加并提交</span></span><br><span class="line">git commit --amend -m <span class="string">&#x27;[内容]&#x27;</span> <span class="comment"># 反复修改并提交 </span></span><br></pre></td></tr></table></figure></div>
-
-<p>查看当前的分支状态：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-
-<p>关于分支（branch）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git show-branch     <span class="comment"># 查看当前分支历史</span></span><br><span class="line">git show-branch -a  <span class="comment"># 查看当前分支的所有历史</span></span><br><span class="line">git branch          <span class="comment"># 查看当前存在的分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有存在的分支</span></span><br><span class="line">git branch -M main  <span class="comment"># 新建一个 main 分支</span></span><br><span class="line">git branch -m main main_copy <span class="comment"># 将 main 分支改名为 main_copy</span></span><br></pre></td></tr></table></figure></div>
-
-<p>添加远程仓库（Github、Gitlab、Gitee……）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
-
-<p>上传&#x2F;推流到远程仓库：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin master   <span class="comment"># 将本地分支推流到远程分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p>从远程仓库中获取&#x2F;合并到本地分支：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin master  <span class="comment"># 获取远程分支master并merge到本地分支</span></span><br><span class="line">git merge origin/master     <span class="comment"># 从远程分支中合并到本地分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p>更多进阶的命令，可以查看 <a class="link"   href="https://www.runoob.com/note/56524" >Git 常用命令大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，内容更加详细(*^_^*)。</p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
     <url>/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
@@ -747,6 +604,78 @@
       </tags>
   </entry>
   <entry>
+    <title>如何在命令行下使用 Git？</title>
+    <url>/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。</p>
+<h2 id="下载-Git"><a href="#下载-Git" class="headerlink" title="下载 Git"></a>下载 Git</h2><p>首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：</p>
+<ul>
+<li><p>Linux: 根据不同的发行版，在终端中输入对应的安装命令即可</p>
+<div class="tabs" id="tab-install_git"><ul class="nav-tabs"><li class="tab active"><a class="#install_git-1">Debian(Ubuntu)</a></li><li class="tab"><a class="#install_git-2">Arch Linux</a></li><li class="tab"><a class="#install_git-3">Fedora(Redhat)</a></li><li class="tab"><a class="#install_git-4">CentOS(7.9及以下)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="install_git-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -Sy git </span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-3"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dnf install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-4"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install git -y</span><br></pre></td></tr></table></figure></div></div></div></div>
+</li>
+<li><p>Windows &#x2F; MacOS: <a class="link"   href="https://git-scm.com/downloads" >https://git-scm.com/downloads <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+</ul>
+<p>要检查 Git 安装是否完成，只需执行命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="简单使用-Git"><a href="#简单使用-Git" class="headerlink" title="简单使用 Git"></a>简单使用 Git</h2><p>关于此处，你可以直接通过如下图进行速查：</p>
+<p><img loading="lazy" src="https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg" alt="Git 常用命令速查表"></p>
+<p>以下是较为常用的 Git 命令：</p>
+<p>首先最为简单的事，就是从 Github 等其它代码托管平台上<strong>克隆项目</strong></p>
+<p>克隆源代码项目：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，首先第一件事：就是需要先配置用户和邮箱。</p>
+<p>配置用户：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name [你的名字]</span><br></pre></td></tr></table></figure></div>
+
+<p>配置邮箱：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email [你的邮箱]</span><br></pre></td></tr></table></figure></div>
+
+<p>要初始化一个自己的 Git 项目，执行如下：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init [你的项目名]</span><br></pre></td></tr></table></figure></div>
+
+<p>当然，你也可以选择在当前目录下初始化你的 Git，只需执行：<code>git init</code></p>
+<p>将文件添加到分支中：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add *</span><br><span class="line">git add .</span><br><span class="line">git add [指定的文件或目录]</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>这里的 <code>*</code> , <code>.</code> 都代表当前目录下所有需要添加或修改的文件</p>
+</blockquote>
+<p>将文件从分支中删除：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r [指定目录]        <span class="comment"># 删除目录及其所有子文件</span></span><br><span class="line">git <span class="built_in">rm</span> [指定文件或目录]     <span class="comment"># 删除文件</span></span><br><span class="line">git <span class="built_in">rm</span> -r *                <span class="comment"># 删除所有</span></span><br></pre></td></tr></table></figure></div>
+
+<p>查看所有已添加到分支里的文件</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git ls-files</span><br></pre></td></tr></table></figure></div>
+
+<p>为分支里的文件进行提交（commit：提交时需要用到的标记）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&#x27;[内容]&#x27;</span></span><br><span class="line">git commit -am <span class="string">&#x27;[内容]&#x27;</span>  <span class="comment"># 添加并提交</span></span><br><span class="line">git commit --amend -m <span class="string">&#x27;[内容]&#x27;</span> <span class="comment"># 反复修改并提交 </span></span><br></pre></td></tr></table></figure></div>
+
+<p>查看当前的分支状态：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p>关于分支（branch）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git show-branch     <span class="comment"># 查看当前分支历史</span></span><br><span class="line">git show-branch -a  <span class="comment"># 查看当前分支的所有历史</span></span><br><span class="line">git branch          <span class="comment"># 查看当前存在的分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有存在的分支</span></span><br><span class="line">git branch -M main  <span class="comment"># 新建一个 main 分支</span></span><br><span class="line">git branch -m main main_copy <span class="comment"># 将 main 分支改名为 main_copy</span></span><br></pre></td></tr></table></figure></div>
+
+<p>添加远程仓库（Github、Gitlab、Gitee……）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
+
+<p>上传&#x2F;推流到远程仓库：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin master   <span class="comment"># 将本地分支推流到远程分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p>从远程仓库中获取&#x2F;合并到本地分支：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin master  <span class="comment"># 获取远程分支master并merge到本地分支</span></span><br><span class="line">git merge origin/master     <span class="comment"># 从远程分支中合并到本地分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p>更多进阶的命令，可以查看 <a class="link"   href="https://www.runoob.com/note/56524" >Git 常用命令大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，内容更加详细(*^_^*)。</p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
     <url>/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，</p>
@@ -799,6 +728,77 @@
         <tag>Git</tag>
         <tag>博客搭建</tag>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我和博客</title>
+    <url>/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-exclamation-triangle"></i><p>文章已过时</p>
+
+    </div>
+    <div class="notel-content">
+      <p>本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请<a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">点击此处</a>已查看最新内容。</p>
+
+    </div>
+  </div>
+
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o</p>
+<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。</p>
+<h2 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h2><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h2 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h2><p>今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（<strong>文章可能不会同步更新~ o(*￣▽￣*)o</strong>）</p>
+<h2 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h2><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h2 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h2><p>你可以通过以下几个平台来私信我：</p>
+<ul>
+<li><a class="link"   href="https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0" >bilibili <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.zhihu.com/people/catisnotfound" >知乎 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.jianshu.com/u/7ef34e5bf13f" >简书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="mailto:1636879962@qq.com" >个人邮箱 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>关于博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
+    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
+<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
+<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg" alt="暗色"><br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg" alt="亮色"></p>
+</li>
+<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
+<ul>
+<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
+<li>其中的【说说】会在此留下所有关于作者的一些话</li>
+</ul>
+</li>
+<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img loading="lazy" src="/images/2024/0423/music.jpg" alt="音乐"></p>
+</li>
+<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
+</li>
+<li><p>目前暂未完成的目标：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
+<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
+<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
+</ul>
+</li>
+</ul>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
+<blockquote>
+<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
       </tags>
   </entry>
   <entry>
