@@ -5,24 +5,24 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-28T06:49:42.000Z</updated>
     <category term="Linux" />
-    <category term="关于博客" />
     <category term="更新日志" />
+    <category term="关于博客" />
     <category term="Git" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="linux" />
-    <category term="新手向" />
-    <category term="发行版推荐" />
-    <category term="Waline" />
-    <category term="Windows" />
-    <category term="脚本" />
-    <category term="系统安装" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
     <category term="GNOME" />
     <category term="桌面环境" />
     <category term="软件安利" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="linux" />
+    <category term="发行版推荐" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="系统安装" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/28/Linux-%E6%96%B0%E6%89%8B%E6%8E%A8%E8%8D%90%E5%90%91-%E9%80%82%E5%90%88%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E7%9A%84-Linux-%E5%8F%91%E8%A1%8C%E7%89%88/</id>
         <title>[Linux 新手推荐向] 适合新手小白的 Linux 发行版</title>
@@ -124,8 +124,8 @@
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
-        <category term="linux" />
         <category term="新手向" />
+        <category term="linux" />
         <category term="发行版推荐" />
         <updated>2024-06-28T06:49:42.000Z</updated>
     </entry>
@@ -781,8 +781,8 @@
 &lt;p&gt;对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。&lt;/p&gt;
 </content>
         <category term="新手向" />
-        <category term="系统安装" />
         <category term="Android" />
+        <category term="系统安装" />
         <updated>2024-06-15T08:32:59.000Z</updated>
     </entry>
     <entry>
@@ -2831,9 +2831,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
+        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -2968,8 +2968,8 @@ B -- False --&gt; 执行语句2
         <category term="Git" />
         <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="Android" />
         <category term="软件安利" />
+        <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
     <entry>
@@ -3174,8 +3174,8 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
         <category term="新手向" />
-        <category term="Windows" />
         <category term="软件安利" />
+        <category term="Windows" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
