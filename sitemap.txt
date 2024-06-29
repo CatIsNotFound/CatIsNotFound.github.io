@@ -29,8 +29,8 @@ https://catisnotfound.github.io/tags/index.html
 https://catisnotfound.github.io/categories/index.html
 https://catisnotfound.github.io/
 https://catisnotfound.github.io/tags/Linux/
-https://catisnotfound.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/
 https://catisnotfound.github.io/tags/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/
+https://catisnotfound.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/
 https://catisnotfound.github.io/tags/Git/
 https://catisnotfound.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://catisnotfound.github.io/tags/Hexo/
