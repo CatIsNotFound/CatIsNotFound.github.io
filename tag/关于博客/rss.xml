@@ -13,19 +13,19 @@
         <category>Git</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Python</category>
-        <category>学习笔记</category>
-        <category>新手向</category>
-        <category>软件安利</category>
-        <category>Android</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>Windows</category>
         <category>linux</category>
+        <category>新手向</category>
         <category>发行版推荐</category>
         <category>Waline</category>
+        <category>Windows</category>
         <category>脚本</category>
         <category>系统安装</category>
+        <category>Android</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>软件安利</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
             <title>关于我的博客</title>
@@ -50,7 +50,12 @@
 
 &lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/CatIsNotFound&#39; title=&#39;GitHub&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
 &lt;p&gt;或者你可以通过其它私人途径来联系我：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/QQ.jpg&#34; alt=&#34;QQ&#34; width=&#34;300px&#34;&gt; ]]></description>
+&lt;img  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/QQ.jpg&#34;
+                      alt=&#34;QQ&#34; width=&#34;300px&#34;
+                &gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</guid>
