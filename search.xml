@@ -2640,102 +2640,6 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>[Ver 1.2] CatIsNotFound 更新日志</title>
-    <url>/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
-
-    </div>
-    <div class="notel-content">
-      <p>经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。</p>
-
-    </div>
-  </div>
-
-<h1 id="页面新增"><a href="#页面新增" class="headerlink" title="页面新增"></a>页面新增</h1><ul>
-<li><p>新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 </p>
-<a class="button  center large" href='/status' title='前往【状态】页面'><i class='fa-solid fa-pager'></i> 前往【状态】页面</a>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0602/status.jpg"
-                     
-                ></p>
-</li>
-<li><p>新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 </p>
-<a class="button  center large" href='/masonry' title='前往【壁纸库】页面'><i class='fa-solid fa-pager'></i> 前往【壁纸库】页面</a>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0602/wallpaper.jpg"
-                     
-                ></p>
-</li>
-</ul>
-<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><ul>
-<li>博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0602/comment.jpg"
-                     
-                ></p>
-<ul>
-<li><p>首页封面部分已作出改变：</p>
-<ul>
-<li><p>亮色&#x2F;暗色主题壁纸已全部更换</p>
-</li>
-<li><p>轮播文字已被替换</p>
-</li>
-<li><p>右下角链接处已进行修改</p>
-</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0602/cover.jpg"
-                     
-                ></p>
-</li>
-<li><p>Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。<a class="button  regular" href='https://github.com/EvanNotFound/hexo-theme-redefine/releases' title='前往 Release 页面'><i class='fa-brands fa-github'></i> 前往 Release 页面</a></p>
-</li>
-</ul>
-<h1 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h1><p>关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。</p>
-<ul>
-<li><p><input disabled="" type="checkbox"> 
-<strong>更新发布文章</strong>：20 篇。鉴于在4月份制定的<strong>在五月底发布至少 15 篇文章</strong>的计划未完成，所以还需继续发布更多新的文章；</p>
-</li>
-<li><p><input disabled="" type="checkbox"> 
-<strong>新增更多分类</strong>：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；</p>
-</li>
-<li><p><input disabled="" type="checkbox"> 
-<strong>多平台发展</strong>：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；</p>
-</li>
-</ul>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
-
-    </div>
-    <div class="notel-content">
-      <p>最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)</p>
-<p>最后，希望这个博客站点越来越好！🎉🎉🎉</p>
-
-    </div>
-  </div>
-]]></content>
-      <categories>
-        <category>更新日志</category>
-      </categories>
-      <tags>
-        <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>[Linux 新手推荐向] 适合新手小白的 Linux 发行版</title>
     <url>/2024/06/28/Linux-%E6%96%B0%E6%89%8B%E6%8E%A8%E8%8D%90%E5%90%91-%E9%80%82%E5%90%88%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E7%9A%84-Linux-%E5%8F%91%E8%A1%8C%E7%89%88/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Linux 是一个开源的操作系统，无论是个人使用还是服务器部署，都需要一款适合自己的发行版。</p>
@@ -2842,6 +2746,195 @@ B -- False --> 执行语句2
         <tag>新手向</tag>
         <tag>linux</tag>
         <tag>发行版推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Ver 1.2] CatIsNotFound 更新日志</title>
+    <url>/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
+
+    </div>
+    <div class="notel-content">
+      <p>经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。</p>
+
+    </div>
+  </div>
+
+<h1 id="页面新增"><a href="#页面新增" class="headerlink" title="页面新增"></a>页面新增</h1><ul>
+<li><p>新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 </p>
+<a class="button  center large" href='/status' title='前往【状态】页面'><i class='fa-solid fa-pager'></i> 前往【状态】页面</a>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0602/status.jpg"
+                     
+                ></p>
+</li>
+<li><p>新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 </p>
+<a class="button  center large" href='/masonry' title='前往【壁纸库】页面'><i class='fa-solid fa-pager'></i> 前往【壁纸库】页面</a>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0602/wallpaper.jpg"
+                     
+                ></p>
+</li>
+</ul>
+<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><ul>
+<li>博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0602/comment.jpg"
+                     
+                ></p>
+<ul>
+<li><p>首页封面部分已作出改变：</p>
+<ul>
+<li><p>亮色&#x2F;暗色主题壁纸已全部更换</p>
+</li>
+<li><p>轮播文字已被替换</p>
+</li>
+<li><p>右下角链接处已进行修改</p>
+</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0602/cover.jpg"
+                     
+                ></p>
+</li>
+<li><p>Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。<a class="button  regular" href='https://github.com/EvanNotFound/hexo-theme-redefine/releases' title='前往 Release 页面'><i class='fa-brands fa-github'></i> 前往 Release 页面</a></p>
+</li>
+</ul>
+<h1 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h1><p>关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。</p>
+<ul>
+<li><p><input disabled="" type="checkbox"> 
+<strong>更新发布文章</strong>：20 篇。鉴于在4月份制定的<strong>在五月底发布至少 15 篇文章</strong>的计划未完成，所以还需继续发布更多新的文章；</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+<strong>新增更多分类</strong>：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+<strong>多平台发展</strong>：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；</p>
+</li>
+</ul>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+
+    </div>
+    <div class="notel-content">
+      <p>最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)</p>
+<p>最后，希望这个博客站点越来越好！🎉🎉🎉</p>
+
+    </div>
+  </div>
+]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Ver 1.3] CatIsNotFound 更新日志</title>
+    <url>/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
+
+    </div>
+    <div class="notel-content">
+      <p>仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0620/cover.jpg"
+                     
+                ></p>
+
+    </div>
+  </div>
+
+<h1 id="新增内容"><a href="#新增内容" class="headerlink" title="新增内容"></a>新增内容</h1><h2 id="博客-Logo"><a href="#博客-Logo" class="headerlink" title="博客 Logo"></a>博客 Logo</h2><p>在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/logo.png"
+                      alt="Logo"
+                ></p>
+<p><strong>如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。</strong></p>
+<h1 id="页面更新"><a href="#页面更新" class="headerlink" title="页面更新"></a>页面更新</h1><p>很显然，这次的博客站点更新了一些页面，下面将简要介绍：</p>
+<h2 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h2><ul>
+<li><p>首页页面下不仅仅只是更新了背景图和轮播文字（打字机效果），还简要地将侧边导航栏、个人信息栏、文章列表做了对调，使得更倾向于先看文章标题及摘要。</p>
+</li>
+<li><p>同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；</p>
+</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0620/1.jpg"
+                      alt="首页2"
+                ></p>
+<h2 id="文章页面"><a href="#文章页面" class="headerlink" title="文章页面"></a>文章页面</h2><ul>
+<li><p>文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；</p>
+</li>
+<li><p>文章页面底部新增 <strong>[表情反应]</strong> 界面，你可以在对应文章的下方选择你的表情反应；</p>
+</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/0620/2.jpg"
+                      alt="表情反应"
+                ></p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-info-circle"></i><p>关于评论</p>
+
+    </div>
+    <div class="notel-content">
+      <p>你可以在此站点上发表评论，但由于 Waline 评论系统的限制，你将无法正常收到任何邮件通知。因此，若遇到问题或有任何建议，请直接通过电子邮件、知乎、B站私信等方式联系本人。</p>
+
+    </div>
+  </div>
+
+<h1 id="未来计划"><a href="#未来计划" class="headerlink" title="未来计划"></a>未来计划</h1><p>与之前的更新日志一样，本站点的未来计划也很简单：</p>
+<ul>
+<li><p>继续完善博客站点的功能，包括文章分类、标签、搜索功能等；</p>
+</li>
+<li><p>继续创作博客文章，目前暂未达到 20 篇博客文章了。<del>（即使有一部分是水出来的，bushi😅）</del></p>
+</li>
+</ul>
+
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-info-circle"></i><p>更新日志链接</p>
+
+    </div>
+    <div class="notel-content">
+      <p>关于 Redefine 主题的更新内容，请直接访问以下链接：</p>
+<p>🔗 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine/releases" >https://github.com/EvanNotFound/hexo-theme-redefine/releases <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+
+    </div>
+  </div>]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
+        <tag>Waline</tag>
       </tags>
   </entry>
   <entry>
@@ -3029,96 +3122,263 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>[Ver 1.3] CatIsNotFound 更新日志</title>
-    <url>/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
+    <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
+    <url>/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。</p>
+<p>本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：</p>
+<a class="button  large center" href='/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门' title='从 0 开始学 Linux：Bash Shell 快速入门'><i class='fa-solid fa-link'></i> 从 0 开始学 Linux：Bash Shell 快速入门</a>
 
-    </div>
-    <div class="notel-content">
-      <p>仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0620/cover.jpg"
-                     
-                ></p>
 
-    </div>
-  </div>
+<h1 id="脚本文件"><a href="#脚本文件" class="headerlink" title="脚本文件"></a>脚本文件</h1><p>脚本文件以 <code>.sh</code> 结尾，并包含一系列命令。</p>
+<p>若要运行脚本，需为脚本文件添加可执行权限并执行，也可以通过 <code>bash</code> 命令以执行。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x &lt;脚本文件路径&gt;</span><br><span class="line">./&lt;脚本文件路径&gt;</span><br></pre></td></tr></table></figure></div>
 
-<h1 id="新增内容"><a href="#新增内容" class="headerlink" title="新增内容"></a>新增内容</h1><h2 id="博客-Logo"><a href="#博客-Logo" class="headerlink" title="博客 Logo"></a>博客 Logo</h2><p>在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/logo.png"
-                      alt="Logo"
-                ></p>
-<p><strong>如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。</strong></p>
-<h1 id="页面更新"><a href="#页面更新" class="headerlink" title="页面更新"></a>页面更新</h1><p>很显然，这次的博客站点更新了一些页面，下面将简要介绍：</p>
-<h2 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h2><ul>
-<li><p>首页页面下不仅仅只是更新了背景图和轮播文字（打字机效果），还简要地将侧边导航栏、个人信息栏、文章列表做了对调，使得更倾向于先看文章标题及摘要。</p>
-</li>
-<li><p>同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；</p>
-</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0620/1.jpg"
-                      alt="首页2"
-                ></p>
-<h2 id="文章页面"><a href="#文章页面" class="headerlink" title="文章页面"></a>文章页面</h2><ul>
-<li><p>文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；</p>
-</li>
-<li><p>文章页面底部新增 <strong>[表情反应]</strong> 界面，你可以在对应文章的下方选择你的表情反应；</p>
-</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/0620/2.jpg"
-                      alt="表情反应"
-                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">bash &lt;脚本文件路径&gt;</span><br></pre></td></tr></table></figure></div>
 
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-info-circle"></i><p>关于评论</p>
+<h1 id="定义解释器"><a href="#定义解释器" class="headerlink" title="定义解释器"></a>定义解释器</h1><p>脚本文件第一行必须指定脚本的解释器，即 <code>/bin/bash</code>。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br></pre></td></tr></table></figure></div>
 
-    </div>
-    <div class="notel-content">
-      <p>你可以在此站点上发表评论，但由于 Waline 评论系统的限制，你将无法正常收到任何邮件通知。因此，若遇到问题或有任何建议，请直接通过电子邮件、知乎、B站私信等方式联系本人。</p>
+<p>当然，你也可以指定其它的 Shell 解释器，如 <code>/bin/sh</code>、<code>/bin/zsh</code>等。甚至，你还可以使用 Python 解释器以执行 Python 脚本。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/python</span></span><br></pre></td></tr></table></figure></div>
 
-    </div>
-  </div>
+<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>注释以 <code>#</code> 开头，表示后面的内容为注释。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br></pre></td></tr></table></figure></div>
 
-<h1 id="未来计划"><a href="#未来计划" class="headerlink" title="未来计划"></a>未来计划</h1><p>与之前的更新日志一样，本站点的未来计划也很简单：</p>
+<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><p>变量是存储数据的容器，可以用来保存字符串、数字、列表等数据。</p>
+<h2 id="定义变量"><a href="#定义变量" class="headerlink" title="定义变量"></a>定义变量</h2><p>变量名只能包含字母、数字和下划线，且不能以数字开头。</p>
+<p>你可以利用 ` … ` 来包裹命令，或者用 <code>$(command)</code> 定义变量。其中的 <code>command</code> 为执行的命令，将输出结果赋值给变量。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">name=<span class="string">&quot;John&quot;</span></span><br><span class="line">age=30</span><br><span class="line"><span class="built_in">pwd</span>=`<span class="built_in">pwd</span>` <span class="comment"># 获取当前目录路径</span></span><br><span class="line">file_list=$(<span class="built_in">ls</span>) <span class="comment"># 获取当前目录下的文件列表</span></span><br><span class="line">list=<span class="string">&quot;1 4 7 10&quot;</span> <span class="comment"># 列表，用空格分隔</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出变量</span></span><br><span class="line"><span class="built_in">echo</span> name=<span class="variable">$name</span></span><br><span class="line"><span class="built_in">echo</span> age=<span class="variable">$age</span></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">pwd</span>=<span class="variable">$pwd</span></span><br><span class="line"><span class="built_in">echo</span> file_list=<span class="variable">$file_list</span></span><br><span class="line"><span class="comment"># 循环输出列表</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;List:&quot;</span></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="variable">$list</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$num</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="利用用户输入赋值"><a href="#利用用户输入赋值" class="headerlink" title="利用用户输入赋值"></a>利用用户输入赋值</h2><p>你可以利用 <code>read</code> 命令从用户输入中获取值并赋值给变量。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 利用 read 命令获取用户输入并赋值给变量</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter your name: &quot;</span> name</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Your name is <span class="variable">$name</span>.&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><code>-p</code> 参数表示提示用户输入，<code>name</code> 为用户所赋值的变量。</p>
+<h2 id="特殊变量"><a href="#特殊变量" class="headerlink" title="特殊变量"></a>特殊变量</h2><p>在 Bash 中，有一些特殊的变量，可以用来获取系统信息等，大致如下：</p>
 <ul>
-<li><p>继续完善博客站点的功能，包括文章分类、标签、搜索功能等；</p>
+<li><code>$0</code>： 当前脚本的文件名。</li>
+<li><code>$n</code>： 传递给脚本或函数的参数。<strong>其中，<code>n</code> 需要代替为对应的参数序号。</strong></li>
+<li><code>$#</code>： 传递给脚本或函数的参数个数。</li>
+<li><code>$*</code>： 传递给脚本或函数的所有参数。</li>
+<li><code>$@</code>： 传递给脚本或函数的所有参数，每个参数以空格分隔。</li>
+<li><code>$?</code>： 上个命令的退出状态。<code>0</code> 表示命令成功，否则表示失败。</li>
+<li><code>$$</code>： 当前 Shell 进程的进程 ID。</li>
+<li><code>$!</code>： 当前 Shell 最后运行的后台进程的进程 ID。</li>
+<li><code>$HOME</code>： 当前用户的主目录。</li>
+<li><code>$PWD</code>： 当前工作目录。</li>
+<li><code>$OLDPWD</code>： 上一个工作目录。</li>
+<li><code>$UID</code>： 当前用户的 UID。</li>
+<li><code>$EUID</code>： 当前用户的有效 UID。</li>
+<li><code>$USER</code>： 当前用户的用户名。</li>
+<li><code>$GROUPS</code>： 当前用户的组列表。</li>
+<li><code>$PATH</code>： 查找命令的路径。</li>
+</ul>
+<h2 id="运算变量"><a href="#运算变量" class="headerlink" title="运算变量"></a>运算变量</h2><p>变量还可以用来执行简单的运算。</p>
+<p>你可以利用 <code>expr</code> 命令进行基本的运算，也可以利用 <code>$((...))</code> 或 <code>$[...]</code> 进行更复杂的运算。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">num1=10</span><br><span class="line">num2=5</span><br><span class="line"></span><br><span class="line"><span class="comment"># 运算</span></span><br><span class="line">result1=$((num1 + num2))</span><br><span class="line">result2=$[num1 - num2]</span><br><span class="line">result3=`<span class="built_in">expr</span> <span class="variable">$num1</span> \* <span class="variable">$num2</span>`</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出结果</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 + num2 = <span class="variable">$result1</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 - num2 = <span class="variable">$result2</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 * num2 = <span class="variable">$result3</span>&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>使用 <code>*</code> 运算符时，需要使用反转义符 <code>\</code> 来转义。即 <code>\*</code> 而不是 <code>*</code>。</p>
+
+  </div>
+
+<h1 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h1><p>条件语句可以根据条件执行不同的代码块。</p>
+<h2 id="语句结构"><a href="#语句结构" class="headerlink" title="语句结构"></a>语句结构</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># if 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if-else 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if-elif-else 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件1&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块1&gt;</span><br><span class="line"><span class="keyword">elif</span> [ &lt;条件2&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块2&gt;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    &lt;代码块3&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p>条件语句中可以使用以下运算符：</p>
+<ul>
+<li><code>-eq</code>：等于 <code>equals</code>。</li>
+<li><code>-ne</code>：不等于 <code>not equal</code>。</li>
+<li><code>-gt</code>：大于 <code>greater than</code>。</li>
+<li><code>-lt</code>：小于 <code>less than</code>。</li>
+<li><code>-ge</code>：大于等于 <code>greater than or equal</code>。</li>
+<li><code>-le</code>：小于等于 <code>less than or equal</code>。</li>
+</ul>
+<p>这里假设 <code>x</code> 和 <code>y</code> 分别等于 <code>10</code> 和 <code>20</code>，则：</p>
+<table>
+<thead>
+<tr>
+<th align="center">示例</th>
+<th align="center">结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>[ $x -eq $y ]</code></td>
+<td align="center"><code>false</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -ne $y ]</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -gt $y ]</code></td>
+<td align="center"><code>false</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -lt $y ]</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -ge $y ]</code></td>
+<td align="center"><code>false</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -le $y ]</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+</tbody></table>
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>这里的 <code>-eq</code> 等运算符前后都需要有空格。且 <code>-eq</code> 等运算符只能用于数字比较，<strong>不能用于字符串比较</strong>。</p>
+
+  </div>
+
+<h2 id="字符串比较"><a href="#字符串比较" class="headerlink" title="字符串比较"></a>字符串比较</h2><p>条件语句也可以比较字符串。通常，字符串比较使用 <code>==</code> 、 <code>!=</code>、<code>=~</code> 等运算符。</p>
+<ul>
+<li><p>字符串相等关系可以使用 <code>==</code> 运算符，表示任意字符串相等关系。</p>
 </li>
-<li><p>继续创作博客文章，目前暂未达到 20 篇博客文章了。<del>（即使有一部分是水出来的，bushi😅）</del></p>
+<li><p>字符串包含关系可以使用 <code>=~</code> 或者 <code>*string*</code> 运算符，表示任意字符串包含关系。</p>
+</li>
+<li><p>字符串不匹配关系可以使用 <code>!=</code> 运算符，表示任意字符串不匹配关系。</p>
+</li>
+<li><p>字符串不包含关系可以使用 <code>!=</code> 运算符和 <code>*</code> 运算符，表示任意字符串不包含关系。</p>
 </li>
 </ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">str1=<span class="string">&quot;helloworld&quot;</span></span><br><span class="line">str2=<span class="string">&quot;owo&quot;</span></span><br><span class="line">str3=<span class="string">&quot;world&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串比较</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$str1</span> == <span class="variable">$str3</span> ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str1 is equal to str2&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串包含</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> =~ <span class="variable">$str2</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str2 is included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> == *<span class="variable">$str3</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str3 is included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串不匹配</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> != <span class="variable">$str2</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str1 is not equal to str2&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串不包含</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str2</span> != *<span class="variable">$str3</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str2 is not included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
 
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-info-circle"></i><p>更新日志链接</p>
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>条件语句还可以使用逻辑运算符 <code>&amp;&amp;</code> 和 <code>||</code> 来组合多个条件。</p>
+<ul>
+<li><code>&amp;&amp;</code>： 逻辑与 <code>and</code>。</li>
+<li><code>||</code>： 逻辑或 <code>or</code>。</li>
+</ul>
+<p>示例：判断 <code>var1</code> 和 <code>var2</code> 是否都在 <code>vars</code> 列表中， <code>var2</code> 或 <code>var3</code> 两者之中是否有一元素在 <code>vars</code> 列表中。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">var1=<span class="string">&quot;apple&quot;</span></span><br><span class="line">var2=<span class="string">&quot;banana&quot;</span></span><br><span class="line">var3=<span class="string">&quot;orange&quot;</span></span><br><span class="line">vars=<span class="string">&quot;[apple banana cherry]&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$var1</span> =~ <span class="variable">$vars</span> ]] &amp;&amp; [[ <span class="variable">$var2</span> == *<span class="variable">$vars</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;var1 and var2 are in vars&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$var2</span> =~ <span class="variable">$vars</span> ]] || [[ <span class="variable">$var3</span> =~ <span class="variable">$vars</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;var2 or var3 are in vars&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
 
-    </div>
-    <div class="notel-content">
-      <p>关于 Redefine 主题的更新内容，请直接访问以下链接：</p>
-<p>🔗 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine/releases" >https://github.com/EvanNotFound/hexo-theme-redefine/releases <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p>示例 1：判断 <code>~/apt/history.log</code> 文件是否存在，若不存在，则复制 <code>/var/log/apt/history.log</code> 文件到 <code>~/apt/history.log</code> 中。</p>
+<p>注意：你还需要判断 <code>~/apt</code> 目录是否存在。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 判断 ~/apt 目录是否存在</span></span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/apt ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">mkdir</span> ~/apt</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 判断 ~/apt/history.log 文件是否存在</span></span><br><span class="line"><span class="keyword">if</span> [ ! -f ~/apt/history.log ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">cp</span> /var/log/apt/history.log ~/apt/history.log</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
 
-    </div>
-  </div>]]></content>
+<p>示例 2：判断当前用户是否为 <code>root</code>，若不是，则提示用户输入密码。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># 判断当前用户是否为 root</span></span><br><span class="line"><span class="comment"># 方法一：利用 $UID 变量，若等于 0，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$UID</span> -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 方法二：利用 $EUID 变量，若等于 0，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$EUID</span> -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 方法三：利用 $USER 变量，若等于 root，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$USER</span> != <span class="string">&quot;root&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+
+<h1 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h1><p>循环语句可以重复执行代码块。</p>
+<h2 id="语句结构-1"><a href="#语句结构-1" class="headerlink" title="语句结构"></a>语句结构</h2><p>在使用 <code>for</code> 循环时，变量的取值可以是列表、范围或命令的输出结果。</p>
+<p>其中的 <code>&lt;命令&gt;</code> 可以用反引号 ` … ` 包裹，也可以用 <code>$()</code> 包裹。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> &lt;值1&gt; &lt;值2&gt;...; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> &#123;&lt;值1&gt;..&lt;值2&gt;&#125;; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> [`&lt;命令&gt;` || $(&lt;命令&gt;)]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># while 循环</span></span><br><span class="line"><span class="keyword">while</span> [ &lt;条件&gt; ]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># until 循环</span></span><br><span class="line"><span class="keyword">until</span> [ &lt;条件&gt; ]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="循环控制"><a href="#循环控制" class="headerlink" title="循环控制"></a>循环控制</h2><p>循环语句还可以控制循环的次数。</p>
+<ul>
+<li><code>break</code>： 跳出循环。</li>
+<li><code>continue</code>： 跳过当前循环，继续下一次循环。</li>
+</ul>
+<h2 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h2><p>示例 1：打印 1 到 10 的偶数。当遇到 6 时，跳出循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> &#123;1..10&#125;; <span class="keyword">do</span></span><br><span class="line">    <span class="keyword">if</span> [ $((i%<span class="number">2</span>)) -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$i</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p>若你对 Java 熟悉，你可能还会发现 <code>for</code> 循环的语法类似于 Java 中的 <code>for</code> 循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> ((i=<span class="number">1</span>; i&lt;<span class="number">10</span>; i+=<span class="number">2</span>)); <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$i</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 2：打印 1 到 10 的所有偶数，当遇到 6 时，跳过当前循环，继续下一次循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># while 循环</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">while</span> [ <span class="variable">$count</span> -lt 10 ]; <span class="keyword">do</span></span><br><span class="line">    count=$((count+<span class="number">2</span>))</span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">continue</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$count</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 3：打印 1 到 10 的所有偶数，当遇到 4 时，跳过当前循环；当遇到 6 时，跳出循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># until 循环</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">until</span> [ <span class="variable">$count</span> -eq 10 ]; <span class="keyword">do</span></span><br><span class="line">    count=$((count+<span class="number">1</span>))</span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 4 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">continue</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$count</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="选择语句"><a href="#选择语句" class="headerlink" title="选择语句"></a>选择语句</h1><p>选择语句可以根据用户的选择执行不同的代码块。</p>
+<h2 id="语句结构-2"><a href="#语句结构-2" class="headerlink" title="语句结构"></a>语句结构</h2><p><code>select</code> 语句可以让用户从列表、范围、命令输出结果中选择一个值，并赋值给变量。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="keyword">select</span> &lt;变量&gt; <span class="keyword">in</span> [&lt;值1&gt; &lt;值2&gt;... || &#123;&lt;值1&gt;..&lt;值2&gt;&#125;]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> &lt;变量&gt; <span class="keyword">in</span> [`<span class="built_in">command</span>` || $(<span class="built_in">command</span>)]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p><code>case</code> 语句也可以根据变量的值执行不同的代码块。使用 <code>case</code> 语句时需要注意以下几点：</p>
+<ol>
+<li><code>case</code> 语句必须与 <code>esac</code> 配对使用。</li>
+<li><code>case</code> 语句中的 <code>in</code> 必须与 <code>)</code> 配对使用。</li>
+<li><code>case</code> 语句中的 <code>;;</code> 必须与 <code>)</code> 配对使用。</li>
+<li><code>case</code> 语句中的 <code>*)</code> 表示其他情况。</li>
+</ol>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">case</span> &lt;变量&gt; <span class="keyword">in</span></span><br><span class="line">    &lt;值1&gt;)</span><br><span class="line">        &lt;代码块1&gt;</span><br><span class="line">        ;;</span><br><span class="line">    &lt;值2&gt;)</span><br><span class="line">        &lt;代码块2&gt;</span><br><span class="line">        ;;</span><br><span class="line">    *)</span><br><span class="line">        &lt;代码块3&gt;</span><br><span class="line">        ;;</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small red icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>选择语句只能在交互式 Shell 中使用，如 <code>bash</code> 或 <code>zsh</code>。</p>
+<p>注意每条命令的结尾必须以 <code>;;</code> 结尾，表示选择结束。</p>
+
+  </div>
+
+<h2 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h2><p>示例 1：提示用户输入数字，并根据输入执行不同的操作。</p>
+<ul>
+<li>输入 <code>start</code> 时启动服务器；</li>
+<li>输入 <code>stop</code> 时停止服务器；</li>
+<li>输入 <code>restart</code> 时重启服务器；</li>
+<li>输入 <code>exit</code> 时退出脚本。</li>
+<li>输入其他内容时显示错误信息。</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please select an option:&quot;</span></span><br><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please select an option:&quot;</span></span><br><span class="line"><span class="keyword">select</span> option <span class="keyword">in</span> start stop restart <span class="built_in">exit</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="keyword">case</span> <span class="variable">$option</span> <span class="keyword">in</span></span><br><span class="line">        start)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Starting the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        stop)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Stopping the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        restart)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Restarting the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        <span class="built_in">exit</span>)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Exit...&quot;</span></span><br><span class="line">            <span class="built_in">break</span></span><br><span class="line">            ;;</span><br><span class="line">        *)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Invalid option&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">    <span class="keyword">esac</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>当执行 <code>select</code> 语句时，脚本会持续循环，直到用户输入 <code>exit</code> 选项才能退出循环。</p>
+<p>若用户需要直接退出程序，按下 <code>Ctrl+C</code> 即可。</p>
+
+  </div>
+
+<p>示例 2：提示用户输入数字，并根据输入执行不同的操作。</p>
+<ol>
+<li>输入 <code>1</code> 时，打印 <code>You entered 1</code>。</li>
+<li>输入 <code>2</code> 时，打印 <code>You entered 2</code>。</li>
+<li>输入 <code>3</code> 时，打印 <code>You entered 3</code>。</li>
+<li>输入其他值时，打印 <code>Invalid input</code>。</li>
+</ol>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># case 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please enter a number:&quot;</span></span><br><span class="line"><span class="built_in">read</span> num</span><br><span class="line"><span class="keyword">case</span> <span class="variable">$num</span> <span class="keyword">in</span></span><br><span class="line">    1)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 1&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    2)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 2&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    3)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 3&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    *)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;Invalid input&quot;</span></span><br><span class="line">        ;;</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><p>函数可以将一系列命令封装成一个整体，可以重复使用。</p>
+<h2 id="语法结构"><a href="#语法结构" class="headerlink" title="语法结构"></a>语法结构</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> &lt;函数名 1&gt;() &#123;</span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line">    <span class="built_in">return</span> &lt;返回值&gt;  <span class="comment"># 可选语句，但必须在函数体最后一行</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 或者可以省略 function 关键字</span></span><br><span class="line">&lt;函数名 2&gt;() &#123;</span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line">    &lt;函数名 1&gt; [&lt;参数&gt;]   <span class="comment"># 可以调用其他函数</span></span><br><span class="line">    <span class="built_in">return</span> &lt;返回值&gt;    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line">&lt;函数名&gt;</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong> 关于函数定义，你需要注意以下几点：</p>
+<ol>
+<li><p>函数定义时，函数名只能包含字母、数字和下划线，且不能以数字开头。</p>
+</li>
+<li><p>函数调用时，函数名后面可以加上参数，参数之间用空格分隔。</p>
+</li>
+<li><p>函数定义时，函数体必须用花括号 <code>{}</code> 包裹。</p>
+</li>
+<li><p>函数定义时，函数体内的变量作用域为局部变量，函数执行结束后，局部变量会被销毁。</p>
+</li>
+<li><p>函数可以返回值，使用 <code>return</code> 语句。但必须将 <code>return</code> 语句置于函数体最后一行。否则，函数将立即结束。</p>
+</li>
+<li><p>函数可以调用其他函数。</p>
+</li>
+</ol>
+
+  </div>
+
+<h2 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h2><p>示例 1：定义一个函数 <code>hello()</code>，要求用户输入姓名，并打印 <code>Hello, &lt;姓名&gt;!</code>。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">hello</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello, <span class="variable">$1</span>!&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter your name: &quot;</span> name</span><br><span class="line">hello <span class="variable">$name</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 2：定义一个函数 <code>times()</code> 和一个函数 <code>sum()</code>，要求用户输入一个数字，并打印 <code>The sum is &lt;结果&gt;</code>。</p>
+<p>参考输入输出：</p>
+<ul>
+<li><code>3</code> –&gt; <code>The sum is 6</code></li>
+<li><code>5</code> –&gt; <code>The sum is 120</code></li>
+<li><code>10</code> –&gt; <code>The sum is 3628800</code></li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="function"><span class="title">times</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> $(( <span class="variable">$1</span> * <span class="variable">$2</span> )) <span class="comment"># 即 $total * $i，计算阶乘</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">sum</span></span>() &#123;</span><br><span class="line">    total=1</span><br><span class="line">    <span class="keyword">for</span> (( i=<span class="number">1</span>; i&lt;=<span class="variable">$1</span>; i++ )); <span class="keyword">do</span></span><br><span class="line">        total=`<span class="built_in">times</span> <span class="variable">$total</span> <span class="variable">$i</span>`  <span class="comment"># 调用 times 函数，计算阶乘</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;The sum is <span class="variable">$total</span>&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter a number: &quot;</span> num</span><br><span class="line"><span class="built_in">sum</span> <span class="variable">$num</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 3：定义一个函数 <code>install_packages()</code>，要求用户输入软件包名，并安装指定的软件包。定义一个函数 <code>package_manager()</code>，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。</p>
+<p>注意：针对 Arch Linux 使用的 <code>pacman</code> 的命令有所不同，需要进行单独修改。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">install_packages</span></span>() &#123;</span><br><span class="line">    <span class="comment"># 假如没有输入软件包名</span></span><br><span class="line">    <span class="keyword">if</span> [ ! <span class="variable">$2</span> ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;Error: Please enter a package name.&quot;</span></span><br><span class="line">        <span class="built_in">return</span> 1</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="comment"># 假如使用的是 pacman</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$1</span> == pacman ];<span class="keyword">then</span></span><br><span class="line">        sudo pacman -S <span class="variable">$2</span> --noconfirm</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        sudo <span class="variable">$1</span> install <span class="variable">$2</span> -y</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">package_manager</span></span>() &#123;</span><br><span class="line">    <span class="keyword">for</span> manager <span class="keyword">in</span> apt dnf pacman yum zypper; <span class="keyword">do</span></span><br><span class="line">        <span class="built_in">which</span> <span class="variable">$manager</span> &amp;&gt; /dev/null</span><br><span class="line">        <span class="comment"># 假如对应的包管理工具存在，则安装软件包</span></span><br><span class="line">        <span class="keyword">if</span> [ $? -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Using <span class="variable">$manager</span> to install <span class="variable">$1</span>&quot;</span></span><br><span class="line">            install_packages <span class="variable">$manager</span> <span class="variable">$1</span> </span><br><span class="line">            <span class="built_in">return</span> 0</span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;No package manager found&quot;</span></span><br><span class="line">    <span class="built_in">return</span> 1</span><br><span class="line">&#125;</span><br><span class="line">    </span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter a package name: &quot;</span> package</span><br><span class="line">package_manager <span class="variable">$package</span></span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
-        <category>更新日志</category>
+        <category>技术教程</category>
       </categories>
       <tags>
-        <tag>更新日志</tag>
-        <tag>Waline</tag>
+        <tag>Linux</tag>
+        <tag>新手向</tag>
+        <tag>脚本</tag>
       </tags>
   </entry>
   <entry>
@@ -3473,37 +3733,6 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>关于我的博客</title>
-    <url>/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
-<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
-<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
-<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
-<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
-<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
-
-<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
-<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
-
-<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
-
-<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
-<p>或者你可以通过其它私人途径来联系我：</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2024/QQ.jpg"
-                      alt="QQ" width="300px"
-                >]]></content>
-      <tags>
-        <tag>关于博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建个人博客（四）：如何实现评论系统</title>
     <url>/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
@@ -3731,6 +3960,37 @@ B -- False --> 执行语句2
       <tags>
         <tag>博客搭建</tag>
         <tag>Waline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我的博客</title>
+    <url>/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
+<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
+<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
+<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
+<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
+<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
+
+<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
+<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
+
+<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
+
+<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
+<p>或者你可以通过其它私人途径来联系我：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2024/QQ.jpg"
+                      alt="QQ" width="300px"
+                >]]></content>
+      <tags>
+        <tag>关于博客</tag>
       </tags>
   </entry>
   <entry>
@@ -4039,266 +4299,6 @@ B -- False --> 执行语句2
         <tag>新手向</tag>
         <tag>Windows</tag>
         <tag>系统安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
-    <url>/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。</p>
-<p>本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：</p>
-<a class="button  large center" href='/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门' title='从 0 开始学 Linux：Bash Shell 快速入门'><i class='fa-solid fa-link'></i> 从 0 开始学 Linux：Bash Shell 快速入门</a>
-
-
-<h1 id="脚本文件"><a href="#脚本文件" class="headerlink" title="脚本文件"></a>脚本文件</h1><p>脚本文件以 <code>.sh</code> 结尾，并包含一系列命令。</p>
-<p>若要运行脚本，需为脚本文件添加可执行权限并执行，也可以通过 <code>bash</code> 命令以执行。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x &lt;脚本文件路径&gt;</span><br><span class="line">./&lt;脚本文件路径&gt;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">bash &lt;脚本文件路径&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h1 id="定义解释器"><a href="#定义解释器" class="headerlink" title="定义解释器"></a>定义解释器</h1><p>脚本文件第一行必须指定脚本的解释器，即 <code>/bin/bash</code>。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br></pre></td></tr></table></figure></div>
-
-<p>当然，你也可以指定其它的 Shell 解释器，如 <code>/bin/sh</code>、<code>/bin/zsh</code>等。甚至，你还可以使用 Python 解释器以执行 Python 脚本。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/python</span></span><br></pre></td></tr></table></figure></div>
-
-<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>注释以 <code>#</code> 开头，表示后面的内容为注释。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br></pre></td></tr></table></figure></div>
-
-<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><p>变量是存储数据的容器，可以用来保存字符串、数字、列表等数据。</p>
-<h2 id="定义变量"><a href="#定义变量" class="headerlink" title="定义变量"></a>定义变量</h2><p>变量名只能包含字母、数字和下划线，且不能以数字开头。</p>
-<p>你可以利用 ` … ` 来包裹命令，或者用 <code>$(command)</code> 定义变量。其中的 <code>command</code> 为执行的命令，将输出结果赋值给变量。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">name=<span class="string">&quot;John&quot;</span></span><br><span class="line">age=30</span><br><span class="line"><span class="built_in">pwd</span>=`<span class="built_in">pwd</span>` <span class="comment"># 获取当前目录路径</span></span><br><span class="line">file_list=$(<span class="built_in">ls</span>) <span class="comment"># 获取当前目录下的文件列表</span></span><br><span class="line">list=<span class="string">&quot;1 4 7 10&quot;</span> <span class="comment"># 列表，用空格分隔</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出变量</span></span><br><span class="line"><span class="built_in">echo</span> name=<span class="variable">$name</span></span><br><span class="line"><span class="built_in">echo</span> age=<span class="variable">$age</span></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">pwd</span>=<span class="variable">$pwd</span></span><br><span class="line"><span class="built_in">echo</span> file_list=<span class="variable">$file_list</span></span><br><span class="line"><span class="comment"># 循环输出列表</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;List:&quot;</span></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="variable">$list</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$num</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="利用用户输入赋值"><a href="#利用用户输入赋值" class="headerlink" title="利用用户输入赋值"></a>利用用户输入赋值</h2><p>你可以利用 <code>read</code> 命令从用户输入中获取值并赋值给变量。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 利用 read 命令获取用户输入并赋值给变量</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter your name: &quot;</span> name</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Your name is <span class="variable">$name</span>.&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p><code>-p</code> 参数表示提示用户输入，<code>name</code> 为用户所赋值的变量。</p>
-<h2 id="特殊变量"><a href="#特殊变量" class="headerlink" title="特殊变量"></a>特殊变量</h2><p>在 Bash 中，有一些特殊的变量，可以用来获取系统信息等，大致如下：</p>
-<ul>
-<li><code>$0</code>： 当前脚本的文件名。</li>
-<li><code>$n</code>： 传递给脚本或函数的参数。<strong>其中，<code>n</code> 需要代替为对应的参数序号。</strong></li>
-<li><code>$#</code>： 传递给脚本或函数的参数个数。</li>
-<li><code>$*</code>： 传递给脚本或函数的所有参数。</li>
-<li><code>$@</code>： 传递给脚本或函数的所有参数，每个参数以空格分隔。</li>
-<li><code>$?</code>： 上个命令的退出状态。<code>0</code> 表示命令成功，否则表示失败。</li>
-<li><code>$$</code>： 当前 Shell 进程的进程 ID。</li>
-<li><code>$!</code>： 当前 Shell 最后运行的后台进程的进程 ID。</li>
-<li><code>$HOME</code>： 当前用户的主目录。</li>
-<li><code>$PWD</code>： 当前工作目录。</li>
-<li><code>$OLDPWD</code>： 上一个工作目录。</li>
-<li><code>$UID</code>： 当前用户的 UID。</li>
-<li><code>$EUID</code>： 当前用户的有效 UID。</li>
-<li><code>$USER</code>： 当前用户的用户名。</li>
-<li><code>$GROUPS</code>： 当前用户的组列表。</li>
-<li><code>$PATH</code>： 查找命令的路径。</li>
-</ul>
-<h2 id="运算变量"><a href="#运算变量" class="headerlink" title="运算变量"></a>运算变量</h2><p>变量还可以用来执行简单的运算。</p>
-<p>你可以利用 <code>expr</code> 命令进行基本的运算，也可以利用 <code>$((...))</code> 或 <code>$[...]</code> 进行更复杂的运算。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">num1=10</span><br><span class="line">num2=5</span><br><span class="line"></span><br><span class="line"><span class="comment"># 运算</span></span><br><span class="line">result1=$((num1 + num2))</span><br><span class="line">result2=$[num1 - num2]</span><br><span class="line">result3=`<span class="built_in">expr</span> <span class="variable">$num1</span> \* <span class="variable">$num2</span>`</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出结果</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 + num2 = <span class="variable">$result1</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 - num2 = <span class="variable">$result2</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 * num2 = <span class="variable">$result3</span>&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
-<p>使用 <code>*</code> 运算符时，需要使用反转义符 <code>\</code> 来转义。即 <code>\*</code> 而不是 <code>*</code>。</p>
-
-  </div>
-
-<h1 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h1><p>条件语句可以根据条件执行不同的代码块。</p>
-<h2 id="语句结构"><a href="#语句结构" class="headerlink" title="语句结构"></a>语句结构</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># if 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if-else 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if-elif-else 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件1&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块1&gt;</span><br><span class="line"><span class="keyword">elif</span> [ &lt;条件2&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块2&gt;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    &lt;代码块3&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p>条件语句中可以使用以下运算符：</p>
-<ul>
-<li><code>-eq</code>：等于 <code>equals</code>。</li>
-<li><code>-ne</code>：不等于 <code>not equal</code>。</li>
-<li><code>-gt</code>：大于 <code>greater than</code>。</li>
-<li><code>-lt</code>：小于 <code>less than</code>。</li>
-<li><code>-ge</code>：大于等于 <code>greater than or equal</code>。</li>
-<li><code>-le</code>：小于等于 <code>less than or equal</code>。</li>
-</ul>
-<p>这里假设 <code>x</code> 和 <code>y</code> 分别等于 <code>10</code> 和 <code>20</code>，则：</p>
-<table>
-<thead>
-<tr>
-<th align="center">示例</th>
-<th align="center">结果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><code>[ $x -eq $y ]</code></td>
-<td align="center"><code>false</code></td>
-</tr>
-<tr>
-<td align="center"><code>[ $x -ne $y ]</code></td>
-<td align="center"><code>true</code></td>
-</tr>
-<tr>
-<td align="center"><code>[ $x -gt $y ]</code></td>
-<td align="center"><code>false</code></td>
-</tr>
-<tr>
-<td align="center"><code>[ $x -lt $y ]</code></td>
-<td align="center"><code>true</code></td>
-</tr>
-<tr>
-<td align="center"><code>[ $x -ge $y ]</code></td>
-<td align="center"><code>false</code></td>
-</tr>
-<tr>
-<td align="center"><code>[ $x -le $y ]</code></td>
-<td align="center"><code>true</code></td>
-</tr>
-</tbody></table>
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
-<p>这里的 <code>-eq</code> 等运算符前后都需要有空格。且 <code>-eq</code> 等运算符只能用于数字比较，<strong>不能用于字符串比较</strong>。</p>
-
-  </div>
-
-<h2 id="字符串比较"><a href="#字符串比较" class="headerlink" title="字符串比较"></a>字符串比较</h2><p>条件语句也可以比较字符串。通常，字符串比较使用 <code>==</code> 、 <code>!=</code>、<code>=~</code> 等运算符。</p>
-<ul>
-<li><p>字符串相等关系可以使用 <code>==</code> 运算符，表示任意字符串相等关系。</p>
-</li>
-<li><p>字符串包含关系可以使用 <code>=~</code> 或者 <code>*string*</code> 运算符，表示任意字符串包含关系。</p>
-</li>
-<li><p>字符串不匹配关系可以使用 <code>!=</code> 运算符，表示任意字符串不匹配关系。</p>
-</li>
-<li><p>字符串不包含关系可以使用 <code>!=</code> 运算符和 <code>*</code> 运算符，表示任意字符串不包含关系。</p>
-</li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">str1=<span class="string">&quot;helloworld&quot;</span></span><br><span class="line">str2=<span class="string">&quot;owo&quot;</span></span><br><span class="line">str3=<span class="string">&quot;world&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串比较</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$str1</span> == <span class="variable">$str3</span> ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str1 is equal to str2&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串包含</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> =~ <span class="variable">$str2</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str2 is included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> == *<span class="variable">$str3</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str3 is included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串不匹配</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> != <span class="variable">$str2</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str1 is not equal to str2&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串不包含</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str2</span> != *<span class="variable">$str3</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str2 is not included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>条件语句还可以使用逻辑运算符 <code>&amp;&amp;</code> 和 <code>||</code> 来组合多个条件。</p>
-<ul>
-<li><code>&amp;&amp;</code>： 逻辑与 <code>and</code>。</li>
-<li><code>||</code>： 逻辑或 <code>or</code>。</li>
-</ul>
-<p>示例：判断 <code>var1</code> 和 <code>var2</code> 是否都在 <code>vars</code> 列表中， <code>var2</code> 或 <code>var3</code> 两者之中是否有一元素在 <code>vars</code> 列表中。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">var1=<span class="string">&quot;apple&quot;</span></span><br><span class="line">var2=<span class="string">&quot;banana&quot;</span></span><br><span class="line">var3=<span class="string">&quot;orange&quot;</span></span><br><span class="line">vars=<span class="string">&quot;[apple banana cherry]&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$var1</span> =~ <span class="variable">$vars</span> ]] &amp;&amp; [[ <span class="variable">$var2</span> == *<span class="variable">$vars</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;var1 and var2 are in vars&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$var2</span> =~ <span class="variable">$vars</span> ]] || [[ <span class="variable">$var3</span> =~ <span class="variable">$vars</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;var2 or var3 are in vars&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p>示例 1：判断 <code>~/apt/history.log</code> 文件是否存在，若不存在，则复制 <code>/var/log/apt/history.log</code> 文件到 <code>~/apt/history.log</code> 中。</p>
-<p>注意：你还需要判断 <code>~/apt</code> 目录是否存在。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 判断 ~/apt 目录是否存在</span></span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/apt ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">mkdir</span> ~/apt</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 判断 ~/apt/history.log 文件是否存在</span></span><br><span class="line"><span class="keyword">if</span> [ ! -f ~/apt/history.log ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">cp</span> /var/log/apt/history.log ~/apt/history.log</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
-
-<p>示例 2：判断当前用户是否为 <code>root</code>，若不是，则提示用户输入密码。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># 判断当前用户是否为 root</span></span><br><span class="line"><span class="comment"># 方法一：利用 $UID 变量，若等于 0，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$UID</span> -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 方法二：利用 $EUID 变量，若等于 0，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$EUID</span> -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 方法三：利用 $USER 变量，若等于 root，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$USER</span> != <span class="string">&quot;root&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
-
-
-<h1 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h1><p>循环语句可以重复执行代码块。</p>
-<h2 id="语句结构-1"><a href="#语句结构-1" class="headerlink" title="语句结构"></a>语句结构</h2><p>在使用 <code>for</code> 循环时，变量的取值可以是列表、范围或命令的输出结果。</p>
-<p>其中的 <code>&lt;命令&gt;</code> 可以用反引号 ` … ` 包裹，也可以用 <code>$()</code> 包裹。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> &lt;值1&gt; &lt;值2&gt;...; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> &#123;&lt;值1&gt;..&lt;值2&gt;&#125;; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> [`&lt;命令&gt;` || $(&lt;命令&gt;)]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># while 循环</span></span><br><span class="line"><span class="keyword">while</span> [ &lt;条件&gt; ]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># until 循环</span></span><br><span class="line"><span class="keyword">until</span> [ &lt;条件&gt; ]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="循环控制"><a href="#循环控制" class="headerlink" title="循环控制"></a>循环控制</h2><p>循环语句还可以控制循环的次数。</p>
-<ul>
-<li><code>break</code>： 跳出循环。</li>
-<li><code>continue</code>： 跳过当前循环，继续下一次循环。</li>
-</ul>
-<h2 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h2><p>示例 1：打印 1 到 10 的偶数。当遇到 6 时，跳出循环。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> &#123;1..10&#125;; <span class="keyword">do</span></span><br><span class="line">    <span class="keyword">if</span> [ $((i%<span class="number">2</span>)) -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$i</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<p>若你对 Java 熟悉，你可能还会发现 <code>for</code> 循环的语法类似于 Java 中的 <code>for</code> 循环。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> ((i=<span class="number">1</span>; i&lt;<span class="number">10</span>; i+=<span class="number">2</span>)); <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$i</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<p>示例 2：打印 1 到 10 的所有偶数，当遇到 6 时，跳过当前循环，继续下一次循环。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># while 循环</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">while</span> [ <span class="variable">$count</span> -lt 10 ]; <span class="keyword">do</span></span><br><span class="line">    count=$((count+<span class="number">2</span>))</span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">continue</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$count</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<p>示例 3：打印 1 到 10 的所有偶数，当遇到 4 时，跳过当前循环；当遇到 6 时，跳出循环。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># until 循环</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">until</span> [ <span class="variable">$count</span> -eq 10 ]; <span class="keyword">do</span></span><br><span class="line">    count=$((count+<span class="number">1</span>))</span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 4 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">continue</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$count</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<h1 id="选择语句"><a href="#选择语句" class="headerlink" title="选择语句"></a>选择语句</h1><p>选择语句可以根据用户的选择执行不同的代码块。</p>
-<h2 id="语句结构-2"><a href="#语句结构-2" class="headerlink" title="语句结构"></a>语句结构</h2><p><code>select</code> 语句可以让用户从列表、范围、命令输出结果中选择一个值，并赋值给变量。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="keyword">select</span> &lt;变量&gt; <span class="keyword">in</span> [&lt;值1&gt; &lt;值2&gt;... || &#123;&lt;值1&gt;..&lt;值2&gt;&#125;]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> &lt;变量&gt; <span class="keyword">in</span> [`<span class="built_in">command</span>` || $(<span class="built_in">command</span>)]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-<p><code>case</code> 语句也可以根据变量的值执行不同的代码块。使用 <code>case</code> 语句时需要注意以下几点：</p>
-<ol>
-<li><code>case</code> 语句必须与 <code>esac</code> 配对使用。</li>
-<li><code>case</code> 语句中的 <code>in</code> 必须与 <code>)</code> 配对使用。</li>
-<li><code>case</code> 语句中的 <code>;;</code> 必须与 <code>)</code> 配对使用。</li>
-<li><code>case</code> 语句中的 <code>*)</code> 表示其他情况。</li>
-</ol>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">case</span> &lt;变量&gt; <span class="keyword">in</span></span><br><span class="line">    &lt;值1&gt;)</span><br><span class="line">        &lt;代码块1&gt;</span><br><span class="line">        ;;</span><br><span class="line">    &lt;值2&gt;)</span><br><span class="line">        &lt;代码块2&gt;</span><br><span class="line">        ;;</span><br><span class="line">    *)</span><br><span class="line">        &lt;代码块3&gt;</span><br><span class="line">        ;;</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note p-4 mb-4 rounded-small red icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
-<p>选择语句只能在交互式 Shell 中使用，如 <code>bash</code> 或 <code>zsh</code>。</p>
-<p>注意每条命令的结尾必须以 <code>;;</code> 结尾，表示选择结束。</p>
-
-  </div>
-
-<h2 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h2><p>示例 1：提示用户输入数字，并根据输入执行不同的操作。</p>
-<ul>
-<li>输入 <code>start</code> 时启动服务器；</li>
-<li>输入 <code>stop</code> 时停止服务器；</li>
-<li>输入 <code>restart</code> 时重启服务器；</li>
-<li>输入 <code>exit</code> 时退出脚本。</li>
-<li>输入其他内容时显示错误信息。</li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please select an option:&quot;</span></span><br><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please select an option:&quot;</span></span><br><span class="line"><span class="keyword">select</span> option <span class="keyword">in</span> start stop restart <span class="built_in">exit</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="keyword">case</span> <span class="variable">$option</span> <span class="keyword">in</span></span><br><span class="line">        start)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Starting the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        stop)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Stopping the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        restart)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Restarting the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        <span class="built_in">exit</span>)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Exit...&quot;</span></span><br><span class="line">            <span class="built_in">break</span></span><br><span class="line">            ;;</span><br><span class="line">        *)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Invalid option&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">    <span class="keyword">esac</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
-<p>当执行 <code>select</code> 语句时，脚本会持续循环，直到用户输入 <code>exit</code> 选项才能退出循环。</p>
-<p>若用户需要直接退出程序，按下 <code>Ctrl+C</code> 即可。</p>
-
-  </div>
-
-<p>示例 2：提示用户输入数字，并根据输入执行不同的操作。</p>
-<ol>
-<li>输入 <code>1</code> 时，打印 <code>You entered 1</code>。</li>
-<li>输入 <code>2</code> 时，打印 <code>You entered 2</code>。</li>
-<li>输入 <code>3</code> 时，打印 <code>You entered 3</code>。</li>
-<li>输入其他值时，打印 <code>Invalid input</code>。</li>
-</ol>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># case 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please enter a number:&quot;</span></span><br><span class="line"><span class="built_in">read</span> num</span><br><span class="line"><span class="keyword">case</span> <span class="variable">$num</span> <span class="keyword">in</span></span><br><span class="line">    1)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 1&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    2)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 2&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    3)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 3&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    *)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;Invalid input&quot;</span></span><br><span class="line">        ;;</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure></div>
-
-<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><p>函数可以将一系列命令封装成一个整体，可以重复使用。</p>
-<h2 id="语法结构"><a href="#语法结构" class="headerlink" title="语法结构"></a>语法结构</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> &lt;函数名 1&gt;() &#123;</span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line">    <span class="built_in">return</span> &lt;返回值&gt;  <span class="comment"># 可选语句，但必须在函数体最后一行</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 或者可以省略 function 关键字</span></span><br><span class="line">&lt;函数名 2&gt;() &#123;</span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line">    &lt;函数名 1&gt; [&lt;参数&gt;]   <span class="comment"># 可以调用其他函数</span></span><br><span class="line">    <span class="built_in">return</span> &lt;返回值&gt;    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line">&lt;函数名&gt;</span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong> 关于函数定义，你需要注意以下几点：</p>
-<ol>
-<li><p>函数定义时，函数名只能包含字母、数字和下划线，且不能以数字开头。</p>
-</li>
-<li><p>函数调用时，函数名后面可以加上参数，参数之间用空格分隔。</p>
-</li>
-<li><p>函数定义时，函数体必须用花括号 <code>{}</code> 包裹。</p>
-</li>
-<li><p>函数定义时，函数体内的变量作用域为局部变量，函数执行结束后，局部变量会被销毁。</p>
-</li>
-<li><p>函数可以返回值，使用 <code>return</code> 语句。但必须将 <code>return</code> 语句置于函数体最后一行。否则，函数将立即结束。</p>
-</li>
-<li><p>函数可以调用其他函数。</p>
-</li>
-</ol>
-
-  </div>
-
-<h2 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h2><p>示例 1：定义一个函数 <code>hello()</code>，要求用户输入姓名，并打印 <code>Hello, &lt;姓名&gt;!</code>。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">hello</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello, <span class="variable">$1</span>!&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter your name: &quot;</span> name</span><br><span class="line">hello <span class="variable">$name</span></span><br></pre></td></tr></table></figure></div>
-
-<p>示例 2：定义一个函数 <code>times()</code> 和一个函数 <code>sum()</code>，要求用户输入一个数字，并打印 <code>The sum is &lt;结果&gt;</code>。</p>
-<p>参考输入输出：</p>
-<ul>
-<li><code>3</code> –&gt; <code>The sum is 6</code></li>
-<li><code>5</code> –&gt; <code>The sum is 120</code></li>
-<li><code>10</code> –&gt; <code>The sum is 3628800</code></li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="function"><span class="title">times</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> $(( <span class="variable">$1</span> * <span class="variable">$2</span> )) <span class="comment"># 即 $total * $i，计算阶乘</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">sum</span></span>() &#123;</span><br><span class="line">    total=1</span><br><span class="line">    <span class="keyword">for</span> (( i=<span class="number">1</span>; i&lt;=<span class="variable">$1</span>; i++ )); <span class="keyword">do</span></span><br><span class="line">        total=`<span class="built_in">times</span> <span class="variable">$total</span> <span class="variable">$i</span>`  <span class="comment"># 调用 times 函数，计算阶乘</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;The sum is <span class="variable">$total</span>&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter a number: &quot;</span> num</span><br><span class="line"><span class="built_in">sum</span> <span class="variable">$num</span></span><br></pre></td></tr></table></figure></div>
-
-<p>示例 3：定义一个函数 <code>install_packages()</code>，要求用户输入软件包名，并安装指定的软件包。定义一个函数 <code>package_manager()</code>，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。</p>
-<p>注意：针对 Arch Linux 使用的 <code>pacman</code> 的命令有所不同，需要进行单独修改。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">install_packages</span></span>() &#123;</span><br><span class="line">    <span class="comment"># 假如没有输入软件包名</span></span><br><span class="line">    <span class="keyword">if</span> [ ! <span class="variable">$2</span> ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;Error: Please enter a package name.&quot;</span></span><br><span class="line">        <span class="built_in">return</span> 1</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="comment"># 假如使用的是 pacman</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$1</span> == pacman ];<span class="keyword">then</span></span><br><span class="line">        sudo pacman -S <span class="variable">$2</span> --noconfirm</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        sudo <span class="variable">$1</span> install <span class="variable">$2</span> -y</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">package_manager</span></span>() &#123;</span><br><span class="line">    <span class="keyword">for</span> manager <span class="keyword">in</span> apt dnf pacman yum zypper; <span class="keyword">do</span></span><br><span class="line">        <span class="built_in">which</span> <span class="variable">$manager</span> &amp;&gt; /dev/null</span><br><span class="line">        <span class="comment"># 假如对应的包管理工具存在，则安装软件包</span></span><br><span class="line">        <span class="keyword">if</span> [ $? -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Using <span class="variable">$manager</span> to install <span class="variable">$1</span>&quot;</span></span><br><span class="line">            install_packages <span class="variable">$manager</span> <span class="variable">$1</span> </span><br><span class="line">            <span class="built_in">return</span> 0</span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;No package manager found&quot;</span></span><br><span class="line">    <span class="built_in">return</span> 1</span><br><span class="line">&#125;</span><br><span class="line">    </span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter a package name: &quot;</span> package</span><br><span class="line">package_manager <span class="variable">$package</span></span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>新手向</tag>
-        <tag>脚本</tag>
       </tags>
   </entry>
   <entry>
