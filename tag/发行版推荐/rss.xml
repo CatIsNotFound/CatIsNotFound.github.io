@@ -8,18 +8,18 @@
         <pubDate>Fri, 28 Jun 2024 14:49:42 +0800</pubDate>
         <lastBuildDate>Fri, 28 Jun 2024 14:49:42 +0800</lastBuildDate>
         <category>Linux</category>
+        <category>更新日志</category>
+        <category>关于博客</category>
         <category>Git</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>关于博客</category>
-        <category>更新日志</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
         <category>软件安利</category>
         <category>Android</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
         <category>Windows</category>
         <category>linux</category>
         <category>发行版推荐</category>
@@ -36,7 +36,7 @@
             <pubDate>Fri, 28 Jun 2024 14:49:42 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Linux 是一个开源的操作系统，无论是个人使用还是服务器部署，都需要一款适合自己的发行版。&lt;/p&gt;
 &lt;p&gt;如果你是一位 Linux 新手，那么你可以从这里开始，了解适合小白&amp;#x2F;新手的几款 Linux 发行版。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0628/cover.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://images3.alphacoders.com/823/82347.jpg&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;国内-Linux-发行版推荐&#34;&gt;&lt;a href=&#34;#国内-Linux-发行版推荐&#34; class=&#34;headerlink&#34; title=&#34;国内 Linux 发行版推荐&#34;&gt;&lt;/a&gt;国内 Linux 发行版推荐&lt;/h1&gt;&lt;p&gt;如果你是经常使用办公软件或只是单纯的娱乐爱好者，那么你可以看看国内的 Linux 发行版：&lt;/p&gt;
 &lt;h2 id=&#34;1-Deepin&#34;&gt;&lt;a href=&#34;#1-Deepin&#34; class=&#34;headerlink&#34; title=&#34;1. Deepin&#34;&gt;&lt;/a&gt;1. Deepin&lt;/h2&gt;&lt;p&gt;对于个人而言，这是最为推荐的 Linux 发行版之一，而且也是整个国产 Linux 系统中最为流行的 Linux 发行版。&lt;/p&gt;
 &lt;p&gt;推荐它的理由有以下几点：&lt;/p&gt;
