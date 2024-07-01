@@ -4,22 +4,20 @@
     <title>CatIsNotFound • Posts by &#34;关于博客&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-11T11:58:21.000Z</updated>
-    <category term="Linux" />
-    <category term="更新日志" />
-    <category term="关于博客" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="GNOME" />
-    <category term="桌面环境" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="博客搭建" />
     <category term="软件安利" />
+    <category term="Git" />
+    <category term="Hexo" />
     <category term="Android" />
+    <category term="Linux" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
     <category term="Windows" />
-    <category term="linux" />
-    <category term="发行版推荐" />
+    <category term="更新日志" />
+    <category term="关于博客" />
     <category term="Waline" />
     <category term="脚本" />
     <category term="系统安装" />
@@ -27,7 +25,7 @@
         <id>https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
         <title>关于我的博客</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。&lt;/p&gt;
 &lt;h1 id=&#34;我是谁？&#34;&gt;&lt;a href=&#34;#我是谁？&#34; class=&#34;headerlink&#34; title=&#34;我是谁？&#34;&gt;&lt;/a&gt;我是谁？&lt;/h1&gt;&lt;p&gt;我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。&lt;/p&gt;
 &lt;h1 id=&#34;为什么要有自己的博客？&#34;&gt;&lt;a href=&#34;#为什么要有自己的博客？&#34; class=&#34;headerlink&#34; title=&#34;为什么要有自己的博客？&#34;&gt;&lt;/a&gt;为什么要有自己的博客？&lt;/h1&gt;&lt;p&gt;简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。&lt;/p&gt;
 &lt;h1 id=&#34;博客何时更新？&#34;&gt;&lt;a href=&#34;#博客何时更新？&#34; class=&#34;headerlink&#34; title=&#34;博客何时更新？&#34;&gt;&lt;/a&gt;博客何时更新？&lt;/h1&gt;&lt;p&gt;博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。&lt;/p&gt;
@@ -45,7 +43,7 @@
 
 &lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/CatIsNotFound&#39; title=&#39;GitHub&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
 &lt;p&gt;或者你可以通过其它私人途径来联系我：&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/QQ.jpg&#34;
@@ -58,7 +56,7 @@
         <id>https://catisnotfound.github.io/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</id>
         <title>关于我和博客</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large red&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;文章已过时&lt;/p&gt;

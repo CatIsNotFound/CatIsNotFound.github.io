@@ -4,22 +4,20 @@
     <title>CatIsNotFound • Posts by &#34;技术教程&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-22T06:08:24.000Z</updated>
-    <category term="Linux" />
-    <category term="更新日志" />
-    <category term="关于博客" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="GNOME" />
-    <category term="桌面环境" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="博客搭建" />
     <category term="软件安利" />
+    <category term="Git" />
+    <category term="Hexo" />
     <category term="Android" />
+    <category term="Linux" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
     <category term="Windows" />
-    <category term="linux" />
-    <category term="发行版推荐" />
+    <category term="更新日志" />
+    <category term="关于博客" />
     <category term="Waline" />
     <category term="脚本" />
     <category term="系统安装" />
@@ -27,7 +25,7 @@
         <id>https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</id>
         <title>系统安装日常：简单快速安装 Windows 11/10</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
@@ -35,7 +33,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;本文主要面向小白，若对于没有安装系统经验，那么本文将能够帮助您快速安装 Windows 11。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://news-cdn.softpedia.com/images/news2/microsoft-releases-new-windows-11-teaser-confirming-leaked-wallpapers-are-real-533302-2.jpg&#34;
@@ -71,7 +69,7 @@
 &lt;li&gt;请先按下 &lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; Windows + X 组合键，在菜单中选择 [设备管理器]。&lt;/li&gt;
 &lt;li&gt;在如下图所示中，请直接双击展开 [安全设备] 即可查看&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/0.2.jpg&#34;
@@ -82,7 +80,7 @@
 &lt;li&gt;请先按下 &lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; Windows + R 组合键，弹出 [运行] 窗口，输入 &lt;code&gt;tpm.msc&lt;/code&gt; 并点击 [确定]。&lt;/li&gt;
 &lt;li&gt;在如下图所示中，可以直接查看。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/0.1.jpg&#34;
@@ -97,7 +95,7 @@
 
 &lt;a class=&#34;button  center large&#34; href=&#39;https://www.microsoft.com/zh-cn/software-download/windows10&#39; title=&#39;微软官方下载 Windows 10&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 微软官方下载 Windows 10&lt;/a&gt;
 
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/0.3.jpg&#34;
@@ -113,20 +111,20 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;安装-Windows-11&#34;&gt;&lt;a href=&#34;#安装-Windows-11&#34; class=&#34;headerlink&#34; title=&#34;安装 Windows 11&#34;&gt;&lt;/a&gt;安装 Windows 11&lt;/h1&gt;&lt;p&gt;以下是关于安装 Windows 11 的详细步骤：&lt;/p&gt;
 &lt;h2 id=&#34;U-盘启动&#34;&gt;&lt;a href=&#34;#U-盘启动&#34; class=&#34;headerlink&#34; title=&#34;U 盘启动&#34;&gt;&lt;/a&gt;U 盘启动&lt;/h2&gt;&lt;p&gt;假如你的电脑上已经安装好 Windows 10 或 Windows 8 等早期版本的系统，那么你可以直接打开[系统设置]，依次选择：[更新和安全]→[恢复]→[高级启动]→[立即重新启动]&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/0.4.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;接下来，请按照如下图指示进行选择：&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/0.5.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/0.6.jpg&#34;
@@ -135,87 +133,87 @@
 &lt;p&gt;等待电脑重启后，即可以 U 盘启动进入 Windows 11 安装程序。&lt;/p&gt;
 &lt;h2 id=&#34;安装过程&#34;&gt;&lt;a href=&#34;#安装过程&#34; class=&#34;headerlink&#34; title=&#34;安装过程&#34;&gt;&lt;/a&gt;安装过程&lt;/h2&gt;&lt;p&gt;这里以安装 Windows 11 23H2 版本为例，其他版本的 Windows 11 或 Windows 10 系统的安装过程大致相同。&lt;/p&gt;
 &lt;p&gt;请按照如下一组图的指引以完成整个安装：&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/1.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/2.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/3.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/4.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/5.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/6.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/7.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/8.png&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：选择系统盘时，系统盘的容量大小必须大于或等于 52 GB 才能安装。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/9.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/10.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/11.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/12.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/13.png&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;当完成重启后，你将会进入初次设置（如下图），请按照提示进行设置。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/14.png&#34;
@@ -233,50 +231,50 @@
 &lt;p&gt;以下是关于如何跳过联网的步骤：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;首先按下 &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;F10&lt;/kbd&gt; 组合键，打开 [命令提示符] 窗口。&lt;/li&gt;
-&lt;li&gt;在当前窗口下输入 &lt;code&gt;oobe\bypassnro&lt;/code&gt; 并回车，系统将会重启。&lt;br&gt;&lt;img  
+&lt;li&gt;在当前窗口下输入 &lt;code&gt;oobe\bypassnro&lt;/code&gt; 并回车，系统将会重启。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/16.png&#34;
                      
                 &gt;&lt;/li&gt;
-&lt;li&gt;重启后，请再次走一遍初始设置。此时，当走到如下图时，请选择 [我没有 Internet 连接] 选项，即可跳过联网部分&lt;br&gt;&lt;img  
+&lt;li&gt;重启后，请再次走一遍初始设置。此时，当走到如下图时，请选择 [我没有 Internet 连接] 选项，即可跳过联网部分&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/17.png&#34;
                      
                 &gt;&lt;/li&gt;
-&lt;li&gt;最后，请按照图中的提示继续设置即可。&lt;br&gt;&lt;img  
+&lt;li&gt;最后，请按照图中的提示继续设置即可。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/18.png&#34;
                      
                 &gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/19.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/20.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/21.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/22.png&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/23.png&#34;
@@ -287,21 +285,21 @@
   &lt;/div&gt;
 
 &lt;p&gt;当做好以上设置后，将会进入到安装阶段。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/24.png&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;等待安装完成后，若出现如下图，请选择 [下一步] 按钮；&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/25.png&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;至此，所有的安装过程已全部完成。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0622/26.png&#34;
@@ -332,7 +330,7 @@
         <id>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</id>
         <title>系统安装日常：虚拟机安装 Android x86 系统</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -340,7 +338,7 @@
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;img  
+      &lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg&#34;
@@ -379,28 +377,28 @@
 &lt;p&gt;这里本文仅以 VMware 虚拟机的形式安装 Android x86 系统，具体步骤如下：&lt;/p&gt;
 &lt;h2 id=&#34;第一步：创建虚拟机&#34;&gt;&lt;a href=&#34;#第一步：创建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;第一步：创建虚拟机&#34;&gt;&lt;/a&gt;第一步：创建虚拟机&lt;/h2&gt;&lt;p&gt;这里不过多阐述，这里直接按照提示设置个 2GB 内存，32GB 硬盘的虚拟机就可以了。（当然可以更改其它配置）&lt;/p&gt;
 &lt;p&gt;需要注意的是，在设置客户机操作系统时，选择 linux → 其他 Linux 5.x 内核 64 位&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/0.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;a href=&#34;#第二步：安装系统到本地硬盘&#34; class=&#34;headerlink&#34; title=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;/a&gt;第二步：安装系统到本地硬盘&lt;/h2&gt;&lt;p&gt;启动虚拟机后，出现如下图所示，请选择【Installlation - Install Android-×86 to hard disk】。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/1.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;在如下图的提示中，通过方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;，选择 &lt;code&gt;Create/Modify partitions&lt;/code&gt;，即创建一个分区。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/2.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;在此步选择 &lt;code&gt;No&lt;/code&gt;，进入 cfdisk 工具。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/3.jpg&#34;
@@ -416,27 +414,27 @@
 &lt;li&gt;选择 &lt;code&gt;Quit&lt;/code&gt;，退出 cfdisk 工具。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;如下图为分区设置完成后的样子。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/4.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;在分区设置完成后，请直接选择【sda1】分区以进行格式化分区。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/5.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;在如下两张图中，首先先选择 &lt;code&gt;ext4&lt;/code&gt; 文件系统，然后再选择 &lt;code&gt;Yes&lt;/code&gt;，确认格式化。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/6.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/7.jpg&#34;
@@ -444,28 +442,28 @@
                 &gt;&lt;/p&gt;
 &lt;p&gt;等待格式化完成后即可。&lt;/p&gt;
 &lt;p&gt;弹出如下图所示的提示时，选择 &lt;code&gt;Yes&lt;/code&gt;；&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/8.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;在如下图的问题中，继续选择 &lt;code&gt;Yes&lt;/code&gt;，此步将会在 &lt;code&gt;/system&lt;/code&gt; 分区中安装 Grub 引导程序。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/9.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;等待安装完成后，选择 【Reboot】 重启虚拟机。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/10.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;第三步：配置启动项&#34;&gt;&lt;a href=&#34;#第三步：配置启动项&#34; class=&#34;headerlink&#34; title=&#34;第三步：配置启动项&#34;&gt;&lt;/a&gt;第三步：配置启动项&lt;/h2&gt;&lt;p&gt;当系统初次进入 Grub 程序时，请先选择第二项以进入 Debug 模式。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/11.jpg&#34;
@@ -474,7 +472,7 @@
 &lt;p&gt;等待进入 Debug 模式后，请多次按下 &lt;code&gt;Enter&lt;/code&gt; 键，这将会换行出现 &lt;code&gt;:/android # &lt;/code&gt; 的提示符。请输入如下命令以编辑菜单项。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vi /mnt/grub/menu.lst&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/12.jpg&#34;
@@ -482,7 +480,7 @@
                 &gt;&lt;/p&gt;
 &lt;p&gt;在编辑器中，找到如下图所示的标注，并在此处添加 &lt;code&gt;nomodeset&lt;/code&gt; 参数。&lt;/p&gt;
 &lt;p&gt;最后，请依次按下 &lt;code&gt;Esc&lt;/code&gt;，并输入 &lt;code&gt;:wq&lt;/code&gt; 最后再按下 &lt;code&gt;Enter&lt;/code&gt; 键即可。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/13.jpg&#34;
@@ -491,21 +489,21 @@
 &lt;p&gt;退出编辑器后，请直接按下键盘快捷键 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Delete&lt;/code&gt; 键，以直接重启。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;：在 VMware 虚拟机中，&lt;strong&gt;你需要按下 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Insert&lt;/code&gt; 键&lt;/strong&gt;才能避免在 Windows 中弹出安全选项。&lt;/p&gt;
 &lt;h2 id=&#34;第四步：完成初次配置&#34;&gt;&lt;a href=&#34;#第四步：完成初次配置&#34; class=&#34;headerlink&#34; title=&#34;第四步：完成初次配置&#34;&gt;&lt;/a&gt;第四步：完成初次配置&lt;/h2&gt;&lt;p&gt;当系统重启后，在 grub 启动菜单上选择第一项以启动 Android x86 系统。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/11.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;等待启动，就会出现如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/14.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;然后，根据如下图进行初次配置：&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/15.jpg&#34;
@@ -519,7 +517,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;配置 Wifi 界面时，请先跳过此步。否则 Google 将会自动检查更新。&lt;strong&gt;（在国内的网络环境下，这一步非常容易耗时）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/16.jpg&#34;
@@ -537,7 +535,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在 Android x86 系统中，默认情况下是没有网络连接的，你需要手动转到【设置】→ 【WLAN】，并连接即可。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/17.jpg&#34;
@@ -549,13 +547,13 @@
   &lt;/div&gt;
 
 &lt;h1 id=&#34;桌面展示&#34;&gt;&lt;a href=&#34;#桌面展示&#34; class=&#34;headerlink&#34; title=&#34;桌面展示&#34;&gt;&lt;/a&gt;桌面展示&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，提供了两种主屏幕页面展示，一个是适用于平板电脑或手机的 🏠 &lt;i&gt;QuickStep&lt;/i&gt;，另一个则是适合电脑 PC 的任务栏。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/18.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0614/19.jpg&#34;
@@ -593,7 +591,7 @@
         <id>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</id>
         <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
 &lt;p&gt;本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：&lt;/p&gt;
 &lt;a class=&#34;button  large center&#34; href=&#39;/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门&#39; title=&#39;从 0 开始学 Linux：Bash Shell 快速入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：Bash Shell 快速入门&lt;/a&gt;
 
@@ -841,8 +839,8 @@
 &lt;p&gt;示例 3：定义一个函数 &lt;code&gt;install_packages()&lt;/code&gt;，要求用户输入软件包名，并安装指定的软件包。定义一个函数 &lt;code&gt;package_manager()&lt;/code&gt;，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。&lt;/p&gt;
 &lt;p&gt;注意：针对 Arch Linux 使用的 &lt;code&gt;pacman&lt;/code&gt; 的命令有所不同，需要进行单独修改。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 定义函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;install_packages&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如没有输入软件包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please enter a package name.&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如使用的是 pacman&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; == pacman ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        sudo pacman -S &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; --noconfirm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        sudo &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; install &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;package_manager&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; manager &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; apt dnf pacman yum zypper; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;which&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &amp;amp;&amp;gt; /dev/null&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# 假如对应的包管理工具存在，则安装软件包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -eq 0 ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Using &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; to install &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            install_packages &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;No package manager found&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 调用函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;read&lt;/span&gt; -p &lt;span class=&#34;string&#34;&gt;&amp;quot;Please enter a package name: &amp;quot;&lt;/span&gt; package&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;package_manager &lt;span class=&#34;variable&#34;&gt;$package&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;</content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="脚本" />
         <updated>2024-06-09T05:15:33.000Z</updated>
     </entry>
@@ -850,7 +848,7 @@
         <id>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</id>
         <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
 &lt;p&gt;文中出现的命令块中的 &lt;code&gt;[Content]&lt;/code&gt; 表示可选内容，即可以省略。&lt;code&gt;&amp;lt;Content&amp;gt;&lt;/code&gt; 表示必填内容，不可省略。&lt;/p&gt;
 &lt;p&gt;命令块示例：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install &amp;lt;软件包&amp;gt; [-y]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
@@ -1189,8 +1187,8 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="脚本" />
         <updated>2024-06-09T05:10:00.000Z</updated>
     </entry>
@@ -1198,14 +1196,14 @@
         <id>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</id>
         <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;WSL 简介&lt;/p&gt;
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;p&gt;适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。&lt;br&gt;&lt;img  
+      &lt;p&gt;适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0606/R-C.jpg&#34;
@@ -1236,7 +1234,7 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）&lt;/p&gt;
 &lt;p&gt;请在下载安装前，通过 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;code&gt;R&lt;/code&gt; 打开【运行】窗口，并执行 &lt;code&gt;winver&lt;/code&gt; 查看操作系统内部版本号。&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0606/1.jpg&#34;
@@ -1317,7 +1315,7 @@
 
 &lt;p&gt;你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。&lt;/p&gt;
 &lt;p&gt;在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0606/3.jpg&#34;
@@ -1329,7 +1327,7 @@
 
 &lt;p&gt;WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。&lt;/p&gt;
 &lt;p&gt;但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0606/2.jpg&#34;
@@ -1337,7 +1335,7 @@
                 &gt;
 
 &lt;h2 id=&#34;文件管理&#34;&gt;&lt;a href=&#34;#文件管理&#34; class=&#34;headerlink&#34; title=&#34;文件管理&#34;&gt;&lt;/a&gt;文件管理&lt;/h2&gt;&lt;p&gt;你可以在 Windows 资源管理器中访问 &lt;i class=&#34;fa-brands fa-linux&#34;&gt;Linux&lt;/i&gt;，如下图：&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0606/4.jpg&#34;
@@ -1346,7 +1344,7 @@
 
 &lt;h2 id=&#34;使用-Visual-Studio-Code-开发&#34;&gt;&lt;a href=&#34;#使用-Visual-Studio-Code-开发&#34; class=&#34;headerlink&#34; title=&#34;使用 Visual Studio Code 开发&#34;&gt;&lt;/a&gt;使用 Visual Studio Code 开发&lt;/h2&gt;&lt;p&gt;如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。&lt;/p&gt;
 &lt;p&gt;你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0606/5.jpg&#34;
@@ -1370,8 +1368,8 @@
   &lt;/div&gt;
 
 </content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="Windows" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -1379,7 +1377,7 @@
         <id>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</id>
         <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
@@ -1388,7 +1386,7 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：&lt;a href=&#34;../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/&#34;&gt;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/13.jpg&#34;
@@ -1399,13 +1397,13 @@
   &lt;/div&gt;
 
 &lt;h1 id=&#34;桌面布局&#34;&gt;&lt;a href=&#34;#桌面布局&#34; class=&#34;headerlink&#34; title=&#34;桌面布局&#34;&gt;&lt;/a&gt;桌面布局&lt;/h1&gt;&lt;p&gt;请根据如下图的标识一一对应。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/1.jpg&#34;
                       alt=&#34;桌面&#34;
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/3.jpg&#34;
@@ -1420,7 +1418,7 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;&lt;strong&gt;Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 &lt;code&gt;gnome-shell&lt;/code&gt; 插件来实现）&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/2.jpg&#34;
@@ -1461,14 +1459,14 @@
 &lt;h2 id=&#34;Dock-栏（快捷栏）&#34;&gt;&lt;a href=&#34;#Dock-栏（快捷栏）&#34; class=&#34;headerlink&#34; title=&#34;Dock 栏（快捷栏）&#34;&gt;&lt;/a&gt;Dock 栏（快捷栏）&lt;/h2&gt;&lt;h3 id=&#34;利用快捷键启动应用&#34;&gt;&lt;a href=&#34;#利用快捷键启动应用&#34; class=&#34;headerlink&#34; title=&#34;利用快捷键启动应用&#34;&gt;&lt;/a&gt;利用快捷键启动应用&lt;/h3&gt;&lt;p&gt;Ubuntu 桌面默认自带的任务栏，可直接利用 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + 数字键以打开快捷栏中的所对应的应用程序。&lt;/p&gt;
 &lt;p&gt;每个应用图标左上角的以 ①②③ 表示对应的序号。&lt;br&gt;例如：打开 Firefox 浏览器，只需按下快捷键 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;1&lt;/kbd&gt; 即可&lt;/p&gt;
 &lt;p&gt;若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; 即可。如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/4.jpg&#34;
                       alt=&#34;在快捷栏中启动应用&#34;
                 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;固定应用到-Dock-栏（快捷栏）&#34;&gt;&lt;a href=&#34;#固定应用到-Dock-栏（快捷栏）&#34; class=&#34;headerlink&#34; title=&#34;固定应用到 Dock 栏（快捷栏）&#34;&gt;&lt;/a&gt;固定应用到 Dock 栏（快捷栏）&lt;/h3&gt;&lt;h4 id=&#34;1-通过右键菜单&#34;&gt;&lt;a href=&#34;#1-通过右键菜单&#34; class=&#34;headerlink&#34; title=&#34;1. 通过右键菜单&#34;&gt;&lt;/a&gt;1. 通过右键菜单&lt;/h4&gt;&lt;p&gt;你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt; 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/5.jpg&#34;
@@ -1476,13 +1474,13 @@
                 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-通过鼠标拖拽&#34;&gt;&lt;a href=&#34;#2-通过鼠标拖拽&#34; class=&#34;headerlink&#34; title=&#34;2. 通过鼠标拖拽&#34;&gt;&lt;/a&gt;2. 通过鼠标拖拽&lt;/h4&gt;&lt;p&gt;你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；&lt;/p&gt;
 &lt;p&gt;反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 &lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/1.gif&#34;
                       alt=&#34;固定应用程序&#34;
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/2.gif&#34;
@@ -1491,20 +1489,20 @@
 &lt;hr&gt;
 &lt;p&gt;在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；&lt;/p&gt;
 &lt;p&gt;反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/3.gif&#34;
                       alt=&#34;在桌面中固定&#34;
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/4.gif&#34;
                       alt=&#34;在桌面中解除固定&#34;
                 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;窗口（Window）&#34;&gt;&lt;a href=&#34;#窗口（Window）&#34; class=&#34;headerlink&#34; title=&#34;窗口（Window）&#34;&gt;&lt;/a&gt;窗口（Window）&lt;/h2&gt;&lt;h3 id=&#34;左右分屏&#34;&gt;&lt;a href=&#34;#左右分屏&#34; class=&#34;headerlink&#34; title=&#34;左右分屏&#34;&gt;&lt;/a&gt;左右分屏&lt;/h3&gt;&lt;p&gt;与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/6.gif&#34;
@@ -1518,7 +1516,7 @@
   &lt;/div&gt;
 
 &lt;h3 id=&#34;上下分屏&#34;&gt;&lt;a href=&#34;#上下分屏&#34; class=&#34;headerlink&#34; title=&#34;上下分屏&#34;&gt;&lt;/a&gt;上下分屏&lt;/h3&gt;&lt;p&gt;与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/7.gif&#34;
@@ -1526,37 +1524,37 @@
                 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;工作区（Workspace）&#34;&gt;&lt;a href=&#34;#工作区（Workspace）&#34; class=&#34;headerlink&#34; title=&#34;工作区（Workspace）&#34;&gt;&lt;/a&gt;工作区（Workspace）&lt;/h2&gt;&lt;p&gt;工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：&lt;/p&gt;
 &lt;h3 id=&#34;创建、删除、切换工作区&#34;&gt;&lt;a href=&#34;#创建、删除、切换工作区&#34; class=&#34;headerlink&#34; title=&#34;创建、删除、切换工作区&#34;&gt;&lt;/a&gt;创建、删除、切换工作区&lt;/h3&gt;&lt;p&gt;不多描述，直接看图&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/long1.gif&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/long2.gif&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/long3.gif&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/long4.gif&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/long5.gif&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0503/long6.gif&#34;
@@ -1590,17 +1588,17 @@
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
+        <category term="新手向" />
         <category term="Linux" />
         <category term="GNOME" />
         <category term="桌面环境" />
-        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
         <id>https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</id>
         <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
@@ -1608,7 +1606,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/13.jpg&#34;
@@ -1633,7 +1631,7 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img  
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.vmware.com/favicon.ico&#34;
@@ -1642,7 +1640,7 @@
 &lt;td&gt;Windows、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img  
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.virtualbox.org/favicon.ico&#34;
@@ -1651,7 +1649,7 @@
 &lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img  
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.vmware.com/favicon.ico&#34;
@@ -1660,7 +1658,7 @@
 &lt;td&gt;Mac&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img  
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png&#34;
@@ -1669,7 +1667,7 @@
 &lt;td&gt;Mac&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img  
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.qemu.org/assets/favicons/favicon-32x32.png&#34;
@@ -1678,7 +1676,7 @@
 &lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img  
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://learn.microsoft.com/favicon.ico&#34;
@@ -1706,7 +1704,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;安装方式-2&#34;&gt;&lt;a href=&#34;#安装方式-2&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;若选择此方式，作者建议使用如下工具将镜像文件安装到 U 盘中：&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.ventoy.net/favicon.ico&#34;
@@ -1714,7 +1712,7 @@
                 &gt;
 
 &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://rufus.ie/favicon.ico&#34;
@@ -1722,7 +1720,7 @@
                 &gt;
 
 &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://etcher.balena.io/images/2024/favicon.png&#34;
@@ -1750,7 +1748,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;安装-Linux-系统&#34;&gt;&lt;a href=&#34;#安装-Linux-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Linux 系统&#34;&gt;&lt;/a&gt;安装 Linux 系统&lt;/h1&gt;&lt;h2 id=&#34;下载镜像&#34;&gt;&lt;a href=&#34;#下载镜像&#34; class=&#34;headerlink&#34; title=&#34;下载镜像&#34;&gt;&lt;/a&gt;下载镜像&lt;/h2&gt;&lt;p&gt;在写这篇文章之前，若你已经下载并安装完环境后，接下来只需要在对应的 Linux 发行版中下载镜像即可。（通常为 &lt;code&gt;*.iso&lt;/code&gt; 格式的镜像文件）&lt;/p&gt;
-&lt;img  
+&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png&#34;
@@ -1779,77 +1777,77 @@
 
 &lt;h2 id=&#34;新建虚拟机&#34;&gt;&lt;a href=&#34;#新建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;新建虚拟机&#34;&gt;&lt;/a&gt;新建虚拟机&lt;/h2&gt;&lt;p&gt;这里以 VMware Workstation 17 为例，&lt;/p&gt;
 &lt;p&gt;首先，在主页上点击【创建虚拟机】；接下来，就按照下面的图一步一步创建即可(*^_^*)（这非常简单）&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/1.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/2.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/3.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/4.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/5.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/6.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/7.jpg&#34;
                      
                 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/8.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;完成上述创建后，直接按照如下图提示，开启虚拟机即可&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/9.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;安装-Ubuntu-系统&#34;&gt;&lt;a href=&#34;#安装-Ubuntu-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Ubuntu 系统&#34;&gt;&lt;/a&gt;安装 Ubuntu 系统&lt;/h2&gt;&lt;p&gt;一般情况下，在安装 Ubuntu 系统时，将会启动 Grub 引导，此时选择第一项【Try or Install Ubuntu】，等待启动 Ubuntu。&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/10.jpg&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;等待完成后，后面仅需按照图中的提示做好初次配置即可开始安装 Ubuntu 系统。虚拟机下仅需设置好用户和密码即可。其余操作仅需点【下一步】即可&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/11.gif&#34;
                      
                 &gt;&lt;/p&gt;
 &lt;p&gt;若安装完成后，选择重启时将会出现如下图，此时仅需按下回车键即可完成&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/12.jpg&#34;
@@ -1863,7 +1861,7 @@
 &lt;p&gt;完成安装后，将系统注销重新登录之后即可生效&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;检查-Ubuntu-版本&#34;&gt;&lt;a href=&#34;#检查-Ubuntu-版本&#34; class=&#34;headerlink&#34; title=&#34;检查 Ubuntu 版本&#34;&gt;&lt;/a&gt;检查 Ubuntu 版本&lt;/h2&gt;&lt;p&gt;按照如下图的操作，查看 Ubuntu 版本号即可&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;/images/2024/0426/14.gif&#34;
@@ -1891,7 +1889,7 @@
         <id>https://catisnotfound.github.io/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</id>
         <title>Linux Shell 基础命令速查表（非完整版）</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;观前须知&lt;/p&gt;
@@ -2317,7 +2315,7 @@
         <id>https://catisnotfound.github.io/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</id>
         <title>如何在命令行下使用 Git？</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;/assets/js/Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;p&gt;Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。&lt;/p&gt;
 &lt;h2 id=&#34;下载-Git&#34;&gt;&lt;a href=&#34;#下载-Git&#34; class=&#34;headerlink&#34; title=&#34;下载 Git&#34;&gt;&lt;/a&gt;下载 Git&lt;/h2&gt;&lt;p&gt;首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Linux: 根据不同的发行版，在终端中输入对应的安装命令即可&lt;/p&gt;
@@ -2330,7 +2328,7 @@
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;简单使用-Git&#34;&gt;&lt;a href=&#34;#简单使用-Git&#34; class=&#34;headerlink&#34; title=&#34;简单使用 Git&#34;&gt;&lt;/a&gt;简单使用 Git&lt;/h2&gt;&lt;p&gt;关于此处，你可以直接通过如下图进行速查：&lt;/p&gt;
-&lt;p&gt;&lt;img  
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
                      lazyload
                      src=&#34;/images/loading.svg&#34;
                      data-src=&#34;https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg&#34;
