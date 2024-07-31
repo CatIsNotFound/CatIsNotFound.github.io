@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;更新日志&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-06-20T04:31:43.000Z</updated>
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="Windows" />
+    <category term="Linux" />
+    <category term="新手向" />
+    <category term="脚本" />
+    <category term="博客搭建" />
+    <category term="关于博客" />
+    <category term="系统安装" />
+    <category term="Android" />
+    <category term="Git" />
+    <category term="Hexo" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="软件安利" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
+        <title>[Ver 1.3] CatIsNotFound 更新日志</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最前&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/cover.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;新增内容&#34;&gt;&lt;a href=&#34;#新增内容&#34; class=&#34;headerlink&#34; title=&#34;新增内容&#34;&gt;&lt;/a&gt;新增内容&lt;/h1&gt;&lt;h2 id=&#34;博客-Logo&#34;&gt;&lt;a href=&#34;#博客-Logo&#34; class=&#34;headerlink&#34; title=&#34;博客 Logo&#34;&gt;&lt;/a&gt;博客 Logo&lt;/h2&gt;&lt;p&gt;在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/logo.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;页面更新&#34;&gt;&lt;a href=&#34;#页面更新&#34; class=&#34;headerlink&#34; title=&#34;页面更新&#34;&gt;&lt;/a&gt;页面更新&lt;/h1&gt;&lt;p&gt;很显然，这次的博客站点更新了一些页面，下面将简要介绍：&lt;/p&gt;
+&lt;h2 id=&#34;首页&#34;&gt;&lt;a href=&#34;#首页&#34; class=&#34;headerlink&#34; title=&#34;首页&#34;&gt;&lt;/a&gt;首页&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;首页页面下不仅仅只是更新了背景图和轮播文字（打字机效果），还简要地将侧边导航栏、个人信息栏、文章列表做了对调，使得更倾向于先看文章标题及摘要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/1.jpg&#34; alt=&#34;首页2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文章页面&#34;&gt;&lt;a href=&#34;#文章页面&#34; class=&#34;headerlink&#34; title=&#34;文章页面&#34;&gt;&lt;/a&gt;文章页面&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;文章页面底部新增 &lt;strong&gt;[表情反应]&lt;/strong&gt; 界面，你可以在对应文章的下方选择你的表情反应；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/2.jpg&#34; alt=&#34;表情反应&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;关于评论&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;你可以在此站点上发表评论，但由于 Waline 评论系统的限制，你将无法正常收到任何邮件通知。因此，若遇到问题或有任何建议，请直接通过电子邮件、知乎、B站私信等方式联系本人。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;未来计划&#34;&gt;&lt;a href=&#34;#未来计划&#34; class=&#34;headerlink&#34; title=&#34;未来计划&#34;&gt;&lt;/a&gt;未来计划&lt;/h1&gt;&lt;p&gt;与之前的更新日志一样，本站点的未来计划也很简单：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;继续完善博客站点的功能，包括文章分类、标签、搜索功能等；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;更新日志链接&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;关于 Redefine 主题的更新内容，请直接访问以下链接：&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;</content>
+        <category term="更新日志" />
+        <category term="Waline" />
+        <updated>2024-06-20T04:31:43.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://catisnotfound.github.io/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
+        <title>[Ver 1.2] CatIsNotFound 更新日志</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最前&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;页面新增&#34;&gt;&lt;a href=&#34;#页面新增&#34; class=&#34;headerlink&#34; title=&#34;页面新增&#34;&gt;&lt;/a&gt;页面新增&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 &lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/status&#39; title=&#39;前往【状态】页面&#39;&gt;&lt;i class=&#39;fa-solid fa-pager&#39;&gt;&lt;/i&gt; 前往【状态】页面&lt;/a&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/status.jpg&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 &lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/masonry&#39; title=&#39;前往【壁纸库】页面&#39;&gt;&lt;i class=&#39;fa-solid fa-pager&#39;&gt;&lt;/i&gt; 前往【壁纸库】页面&lt;/a&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/wallpaper.jpg&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;杂项&#34;&gt;&lt;a href=&#34;#杂项&#34; class=&#34;headerlink&#34; title=&#34;杂项&#34;&gt;&lt;/a&gt;杂项&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/comment.jpg&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;首页封面部分已作出改变：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;亮色&amp;#x2F;暗色主题壁纸已全部更换&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;轮播文字已被替换&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;右下角链接处已进行修改&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。&lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#39; title=&#39;前往 Release 页面&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; 前往 Release 页面&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;更新计划&#34;&gt;&lt;a href=&#34;#更新计划&#34; class=&#34;headerlink&#34; title=&#34;更新计划&#34;&gt;&lt;/a&gt;更新计划&lt;/h1&gt;&lt;p&gt;关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 
+&lt;strong&gt;更新发布文章&lt;/strong&gt;：20 篇。鉴于在4月份制定的&lt;strong&gt;在五月底发布至少 15 篇文章&lt;/strong&gt;的计划未完成，所以还需继续发布更多新的文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 
+&lt;strong&gt;新增更多分类&lt;/strong&gt;：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 
+&lt;strong&gt;多平台发展&lt;/strong&gt;：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最后&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)&lt;/p&gt;
+&lt;p&gt;最后，希望这个博客站点越来越好！🎉🎉🎉&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+</content>
+        <category term="更新日志" />
+        <updated>2024-06-02T04:50:08.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://catisnotfound.github.io/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</id>
+        <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h2 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h2&gt;&lt;p&gt;这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)&lt;/p&gt;
+&lt;h2 id=&#34;What’s-New&#34;&gt;&lt;a href=&#34;#What’s-New&#34; class=&#34;headerlink&#34; title=&#34;What’s New&#34;&gt;&lt;/a&gt;What’s New&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸&lt;/li&gt;
+&lt;li&gt;其中的【说说】会在此留下所有关于作者的一些话&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;支持在线播放音乐，目前已存放 11 首纯音乐，&lt;strong&gt;但需要手动才能开启&lt;/strong&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/music.jpg&#34; alt=&#34;音乐&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;目前暂未完成的目标：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;评论&lt;/strong&gt;：基于 Waline 可以支持为不同的文章进行评论&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;文章&lt;/strong&gt;：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;其它&lt;/strong&gt;：还有其它杂项的功能或组件需要加入到博客中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h2&gt;&lt;p&gt;目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;另外关于我是如何配置博客的，请看&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;【搭建个人博客（二）】&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="更新日志" />
+        <updated>2024-04-23T10:54:46.000Z</updated>
+    </entry>
+</feed>

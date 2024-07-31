@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="个人博客">
+    
+    <meta name="author" content="CatIsNotFound">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://CatIsNotFound.github.io/2024/04/25/linux-shell-命令速查表/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="此文章主要用于查询 Linux 相关命令，可用于快速查询">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux Shell 基础命令速查表（非完整版）">
+<meta property="og:url" content="https://catisnotfound.github.io/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/index.html">
+<meta property="og:site_name" content="CatIsNotFound">
+<meta property="og:description" content="此文章主要用于查询 Linux 相关命令，可用于快速查询">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-04-25T05:25:08.000Z">
+<meta property="article:modified_time" content="2024-07-31T06:46:48.567Z">
+<meta property="article:author" content="CatIsNotFound">
+<meta property="article:tag" content="Linux">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+    <meta name="theme-color" content="#0d569f">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Linux Shell 基础命令速查表（非完整版） -
+        
+        CatIsNotFound
+    </title>
+
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fonts/Chillax/chillax.css">
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/assets/build/styles.css">
+    
+
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fonts/Geist/geist.css">
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    
+        <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/anime.min.js"></script>
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"catisnotfound.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["许久未更","偶尔一更","定期更新","随时更新","每周必更","频繁更新","每日必更"]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":false,"recommendation":{"enable":false,"title":"自动推荐","limit":3,"mobile_limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#0d569f","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://files.codelife.cc/wallpaper/wallspic/20240426856744.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp","dark":"https://files.codelife.cc/wallhaven/full/ox/wallhaven-ox19m9.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp"},"title":"CatIsNotFound","subtitle":{"text":["随时记录，随时创作~","Always record, always create~","一路向前，一切随缘~","Keep Forward, keep together~","永不放弃，永不退缩~","Never give up, never give in~","不断前进，不断奋斗~","Keep Forward, keep fighting~","不断更新，一心向前~","Always be updating, always be forward~","时代变迁，我们追随~","Time changes, we follow~","时光飞逝，我们不变~","Time flies, we don’t change~"],"hitokoto":{"enable":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#101010","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/CatIsNotFound","instagram":null,"zhihu":"https://www.zhihu.com/people/catisnotfound","twitter":null,"email":"liaoxink0756@foxmail.com","bilibili":"https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0","fa-solid fa-rss":"/feed"},"qrs":{"weixin":null,"fa-brands fa-qq":"/images/QQ.jpg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.6.4","navbar":{"auto_hide":false,"color":{"left":"#006cc5","right":"#7ecee9","transparency":30},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"Categories":{"icon":"fa-regular fa-list","submenus":{"📔 技术教程":"/categories/技术教程","⛺ 博客搭建":"/categories/博客搭建","📱 软件安利":"/categories/软件安利","📖 学习笔记":"/categories/学习笔记","📚 所有分类":"/categories"}},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Links":{"icon":"fa-regular fa-link","submenus":{"✨ RSS":"/feed","💻 Github":"https://github.com/CatIsNotFound","💭 Zhihu":"https://www.zhihu.com/people/catisnotfound","📺 Bilibili":"https://space.bilibili.com/1896645285"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"right","first_item":"info","announcement":"随时记录，随时创作~","show_on_mobile":true,"links":{"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"壁纸":{"icon":"fa-solid fa-images","path":"/masonry"},"RSS":{"icon":"fa-solid fa-rss","path":"/feed"},"统计":{"icon":"fa-solid fa-chart-bar","path":"/status"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2024/04/23 18:00:00"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/regular.min.css">
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+    <style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        CatIsNotFound
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+        var animation = anime.timeline({loop: true})
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [40,0],
+                translateZ: 0,
+                opacity: [0,1],
+                filter: ['blur(5px)', 'blur(0px)'], // Starting from blurred to unblurred
+                easing: "easeOutExpo",
+                duration: 1400,
+                delay: (el, i) => 300 + 30 * i,
+            }).add({
+                targets: '.ml13 .letter',
+                translateY: [0,-40],
+                opacity: [1,0],
+                filter: ['blur(0px)', 'blur(5px)'], // Ending from unblurred to blurred
+                easing: "easeInExpo",
+                duration: 1200,
+                delay: (el, i) => 100 + 30 * i,
+                complete: function() {
+                    hidePreloader(); // Call hidePreloader after the animation completes
+                }
+            });
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                CatIsNotFound
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/myfeed"
+                                        >
+                                    <i class="fa-solid fa-comment-dots fa-fw"></i>
+                                    动态
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-list fa-fw"></i>
+                                    分类
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B">
+                                                    📔 技术教程
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA">
+                                                    ⛺ 博客搭建
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9">
+                                                    📱 软件安利
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+                                                    📖 学习笔记
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories">
+                                                    📚 所有分类
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags"
+                                        >
+                                    <i class="fa-regular fa-tags fa-fw"></i>
+                                    标签
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    链接
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/feed">
+                                                    ✨ RSS
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">
+                                                    💻 GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">
+                                                    💭 ZHIHU
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">
+                                                    📺 BILIBILI
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/myfeed"
+                        >
+                            <span>
+                                动态
+                            </span>
+                            
+                                <i class="fa-solid fa-comment-dots fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-Categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Categories">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B">📔 技术教程</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA">⛺ 博客搭建</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9">📱 软件安利</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">📖 学习笔记</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories">📚 所有分类</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags"
+                        >
+                            <span>
+                                标签
+                            </span>
+                            
+                                <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-Links"
+                        >
+                            <span>
+                                链接
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/feed">✨ RSS</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">💻 GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">💭 ZHIHU</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">📺 BILIBILI</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>归档</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/masonry"
+                        >
+                            <span>壁纸</span>
+                            <i class="fa-solid fa-images fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/feed"
+                        >
+                            <span>RSS</span>
+                            <i class="fa-solid fa-rss fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/status"
+                        >
+                            <span>统计</span>
+                            <i class="fa-solid fa-chart-bar fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">17</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">20</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="https://tecnoguia.net/wp-content/uploads/2021/08/Descripcion-general-de-los-sistemas-operativos-Linux-6.jpg" alt="Linux Shell 基础命令速查表（非完整版）" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">Linux Shell 基础命令速查表（非完整版）</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="https://avatars.githubusercontent.com/u/162785971?v=4">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">CatIsNotFound</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">定期更新</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-04-25 13:25:08</span>
+        <span class="mobile">2024-04-25 13:25:08</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-07-31 14:46:48</span>
+            <span class="mobile">2024-07-31 14:46:48</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">技术教程</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Linux/">Linux</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>观前须知</p>
+
+    </div>
+    <div class="notel-content">
+      <p>此文章将以表格的形式呈现，若需要更为直观的 Linux 命令，请直接查看 <a class="link"   target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-tutorial.html" >Linux 教程 | 菜鸟教程 (runoob.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><strong>表格注释：</strong> 💡 &#x3D; 提示，❗ &#x3D; 注意（需要安装的软件包）</p>
+
+    </div>
+  </div>
+
+<h3 id="终端与用户"><a href="#终端与用户" class="headerlink" title="终端与用户"></a>终端与用户</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">用户名</td>
+<td align="left"><code>whoami</code></td>
+<td>显示当前登录的用户</td>
+</tr>
+<tr>
+<td align="center">正在登录的用户</td>
+<td align="left">1. <code>who</code><br />2. <code>w</code></td>
+<td>1. 查看当前正在登录的用户<br />2. 详细查看当前登录的用户</td>
+</tr>
+<tr>
+<td align="center">上次登录</td>
+<td align="left"><code>last</code></td>
+<td>查看上次当前用户的详细信息</td>
+</tr>
+<tr>
+<td align="center">主机名</td>
+<td align="left">1. <code>hostname</code><br />2. <code>hostname -s</code></td>
+<td>1. 显示完整的主机名<br />2. 显示简单的主机名</td>
+</tr>
+<tr>
+<td align="center">关于主机</td>
+<td align="left">1. <code>hostnamectl</code><br />2. <code>hostnamectl set-hostname &lt;hostname&gt;</code></td>
+<td>1. 显示当前主机信息<br />2. 设置主机名<br /><strong>❗：普通用户下需提权</strong></td>
+</tr>
+<tr>
+<td align="center">提升权限（<strong>管理员权限</strong>）</td>
+<td align="left"><code>sudo &lt;command&gt;</code></td>
+<td>以<strong>管理员身份</strong>执行命令<br /><strong>❗：在该用户为管理员的前提下才可用</strong></td>
+</tr>
+<tr>
+<td align="center">切换其它用户</td>
+<td align="left">1. <code>su &lt;用户名&gt;</code><br />2. <code>su</code><br />3. <code>sudo su</code><br />4. <code>sudo su -</code></td>
+<td>1. 切换指定用户<br />2. 切换至 root 用户<br />3. 当不知道 root 用户密码的情况下，使用管理员权限切换至 root 用户<br />4. 使用管理员权限切换至 root 用户并<strong>切换 Shell 环境</strong><br />💡：若需查看当前使用的 Shell 环境，<br />执行：<code>echo $SHELL</code></td>
+</tr>
+<tr>
+<td align="center">输出内容</td>
+<td align="left">1. <code>echo Hello world</code><br />2. <code>echo &quot;Hello world&quot;</code><br />3. <code>echo -n &quot;Hello world&quot;</code><br />4. <code>echo -e &quot;Hello\nworld&quot;</code></td>
+<td>1. 直接输出 Hello world<br />2. 与上一条一致，但看起来更直观<br />3. 输出不换行<br />4. 输出时解释反转义符（如：<code>\n</code> 表示换行）</td>
+</tr>
+<tr>
+<td align="center">命令变量</td>
+<td align="left">1. <code>alias</code><br/>2. <code>alias n=&#39;command&#39;</code><br />3. <code>unalias n</code></td>
+<td>1. 显示所有已被定义的变量<br />2. 定义一个新变量 n，以代替某个指令<br />3. 删除新变量 n</td>
+</tr>
+<tr>
+<td align="center">指令搜索</td>
+<td align="left"><code>which &lt;command&gt;</code></td>
+<td>搜索指定指令所在的路径</td>
+</tr>
+<tr>
+<td align="center">指令搜索</td>
+<td align="left"><code>whereis &lt;keyword&gt;</code></td>
+<td>搜索二进制文件、帮助文件等</td>
+</tr>
+<tr>
+<td align="center">帮助手册</td>
+<td align="left">1. <code>man &lt;command&gt;</code><br />2. <code>man -k &lt;keyword&gt;</code><br />3. <code>man -K &lt;keyword&gt;</code></td>
+<td>1. 查看关于<code>&lt;command&gt;</code>的帮助<br />2. 搜索帮助<br />3. 全局搜索帮助</td>
+</tr>
+<tr>
+<td align="center">指令历史记录</td>
+<td align="left">1. <code>history</code><br />2. <code>history n</code><br />3. <code>history -c</code><br />4. <code>history -d n</code></td>
+<td>1. 查看最近的历史记录<br />2. 显示最近 n 条记录<br />3. 清除所有记录<br />4. 删除第 n 条记录</td>
+</tr>
+<tr>
+<td align="center">快速执行命令</td>
+<td align="left">1. <code>!!</code><br />2. <code>!n</code><br />3. <code>!keyword</code></td>
+<td>1. 执行上一条指令<br />2. 执行第 n 条指令<br />3. 执行上一条包含 <code>keyword</code> 的指令<br />💡：使用<kbd>Ctrl</kbd>+<kbd>R</kbd> 可直接进行指令回溯</td>
+</tr>
+<tr>
+<td align="center">更改用户密码</td>
+<td align="left">1. <code>passwd &lt;user_name&gt;</code><br />2. <code>passwd</code></td>
+<td>1. 修改指定用户密码<br />2. 修改当前用户密码</td>
+</tr>
+<tr>
+<td align="center">启动桌面环境</td>
+<td align="left"><code>startx</code></td>
+<td>启动 X.org 桌面环境（GNOME 桌面环境）</td>
+</tr>
+<tr>
+<td align="center">清屏</td>
+<td align="left"><code>clear</code></td>
+<td>快捷键：<kbd>Ctrl</kbd>+<kbd>L</kbd></td>
+</tr>
+<tr>
+<td align="center">注销用户</td>
+<td align="left"><code>logout</code></td>
+<td>快捷键：<kbd>Ctrl</kbd>+<kbd>D</kbd></td>
+</tr>
+<tr>
+<td align="center">注销或退出终端</td>
+<td align="left"><code>exit</code></td>
+<td>❗：<strong>在装有桌面环境的主机下执行，只会关闭终端窗口；使用远程连接时，则会直接断开连接</strong></td>
+</tr>
+</tbody></table>
+<h3 id="目录与文件管理"><a href="#目录与文件管理" class="headerlink" title="目录与文件管理"></a>目录与文件管理</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">查看当前路径</td>
+<td align="left"><code>pwd</code></td>
+<td>查看当前的工作路径</td>
+</tr>
+<tr>
+<td align="center">切换工作路径</td>
+<td align="left">1. <code>cd &lt;DIR&gt;</code><br/>2. <code>cd</code><br />3. <code>cd -</code></td>
+<td>1. 指定一个目录<br />2. <strong>切换至主目录（家目录）</strong><br />3. 回到之前访问过的目录</td>
+</tr>
+<tr>
+<td align="center">查看路径下的内容</td>
+<td align="left">1. <code>ls</code> <br />2. <code>ls &lt;DIR1&gt; [DIR2] ...</code><br />3. <code>ls -l</code> &#x2F; <code>ll</code><br/>4. <code>ls -h</code><br/>5. <code>ls -a</code><br/>6. <code>ls -R</code><br/>7. <code>ls -d</code><br />8. <code>ls -Z</code><br />9. <code>ls -1</code></td>
+<td>1. 查看当前路径下的内容<br />2. 查看指定单个或多个路径下的内容<br />3. 以详细列表形式显示文件内容<br/>4. 显示能看得懂的文件大小<br/>5. 显示所有内容（<strong>包含隐藏目录或文件</strong>）<br/>6. 完整显示目录下的所有文件（<strong>递归查看</strong>）<br/>7. 将目录像其它文件一样列出，而不是列出它们的内容<br />8. 显示对应的 SELinux 标签<br />9. 显示一行一个文件或目录</td>
+</tr>
+<tr>
+<td align="center">新建目录</td>
+<td align="left">1. <code>mkdir &lt;dir1&gt; [dir2]...</code><br/>2. <code>-p</code></td>
+<td>1. 新建单个或多个空目录<br/>2. 递归新建单个或多个空目录</td>
+</tr>
+<tr>
+<td align="center">删除空目录</td>
+<td align="left">1. <code>rmdir &lt;dir1&gt; [dir2]...</code><br />2. <code>-p</code></td>
+<td>1. 删除指定的<strong>空目录</strong><br />2. 删除父目录及内部的所有<strong>空目录</strong></td>
+</tr>
+<tr>
+<td align="center">新建文件</td>
+<td align="left"><code>touch &lt;file1&gt; [file2]...</code></td>
+<td>新建一个或多个空白的文件</td>
+</tr>
+<tr>
+<td align="center">复制文件目录</td>
+<td align="left">1. <code>cp &lt;file1&gt; &lt;file2/dir&gt;</code><br />2. <code>-r</code><br />3. <code>-p</code><br />4. <code>-v</code><br />5. <code>-a</code></td>
+<td>1. 将文件复制到目标路径<br />2. 递归复制（复制目录）<br />3. 复制时再复制权限<br />4. 显示复制过程<br />5. 此选项通常在复制目录时使用，它保留链接、文件属性，并复制目录下的所有内容。</td>
+</tr>
+<tr>
+<td align="center">删除文件目录</td>
+<td align="left">1. <code>rm &lt;file1&gt; [file2]...</code><br />2. <code>-r</code> &#x2F; <code>-R</code><br />3. <code>-f</code><br />4. <code>-rf </code></td>
+<td>1. 删除单个或多个目录或文件，可能需确认<br />2. 递归删除<strong>（包括目录）</strong><br />3. 强制性删除，<strong>跳过确认</strong><br />4. 强制性递归删除该目录或文件<strong>（❗ 谨慎操作）</strong></td>
+</tr>
+<tr>
+<td align="center">移动 &#x2F; 重命名文件目录</td>
+<td align="left">1. <code>mv file1 /doc</code><br />2. <code>mv a.file b.txt</code></td>
+<td>1. 将当前目录下的 <code>file1</code> 文件移动到 <code>/doc</code> 目录下<br />2. 将当前目录下的 <code>a.file</code> 文件重命名为 <code>b.txt</code></td>
+</tr>
+<tr>
+<td align="center">文件类型</td>
+<td align="left"><code>file &lt;file1&gt; [file2]...</code></td>
+<td>查看单个或多个文件类型</td>
+</tr>
+<tr>
+<td align="center">文件属性</td>
+<td align="left"><code>stat &lt;file1&gt; [file2]</code></td>
+<td>查看单个或多个文件的详细属性</td>
+</tr>
+<tr>
+<td align="center">链接（快捷方式）</td>
+<td align="left">1. <code>ln &lt;file&gt; &lt;link&gt;</code><br />2. <code> ln -s &lt;file&gt; &lt;link&gt;</code></td>
+<td>1. 创建一个<strong>硬</strong>链接<br />❗：删除源文件后<strong>仍可用</strong>，<strong>但不能在目录上创建</strong>）<br />2. 创建一个<strong>软</strong>链接<br />❗：删除源文件后<strong>不可用</strong></td>
+</tr>
+<tr>
+<td align="center">以树目录显示内容</td>
+<td align="left"><code>tree &lt;dir&gt;</code></td>
+<td>❗：其它 Linux 发行版需下载安装 <code>tree</code> 软件包即可</td>
+</tr>
+</tbody></table>
+<h3 id="文件操作编辑"><a href="#文件操作编辑" class="headerlink" title="文件操作编辑"></a>文件操作编辑</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">显示&#x2F;编辑文件内容</td>
+<td align="left">1. <code>cat &lt;file1&gt; [file2]...</code><br />2. <code>cat -n &lt;file&gt;</code><br />2. <code>cat &gt; &lt;file&gt;</code><br />3. <code>cat &gt;&gt; &lt;file&gt;</code></td>
+<td>1. 显示完整的文件内容<br />2. 带行号显示文件里的内容<br />3. 以行编辑模式下编辑文件并将其<strong>覆盖写入</strong>到文件中<br />4. 以行编辑模式下编辑文件并将其<strong>追加写入</strong>到文件中</td>
+</tr>
+<tr>
+<td align="center">显示头部文件内容</td>
+<td align="left">1. <code>head &lt;file1&gt; [file2]...</code><br/>2. <code>head -n x &lt;file1&gt; [file2]... </code></td>
+<td>1. 默认查看前 10 行<br/>2. 查看前 x 行</td>
+</tr>
+<tr>
+<td align="center">显示尾部文件内容</td>
+<td align="left">1. <code>tail &lt;file1&gt; [file2]...</code><br/>2. <code>tail -n x &lt;file1&gt; [file2]...</code><br />3. <code>tail -f &lt;file1&gt; [file2]...</code></td>
+<td>1. 默认查看尾 10 行<br/>2. 查看尾 x 行<br />3. 监视文件的内容（常用于查看日志）</td>
+</tr>
+<tr>
+<td align="center">翻页信息</td>
+<td align="left">1. <code>&lt;command&gt; | more</code><br />2. <code>&lt;command&gt; | less</code><br />3. <code>more &lt;file&gt;</code><br />4. <code>less &lt;file&gt;</code></td>
+<td>1. <code>more</code> 仅支持向下翻页，不支持向上翻页<br />2. <code>less</code> 都支持向上向下翻页</td>
+</tr>
+<tr>
+<td align="center">统计字数、行数、单词数</td>
+<td align="left">1. <code>wc &lt;file1&gt; [file2]...</code><br />2. <code>-l</code><br />3. <code>-m</code><br />4. <code>-w</code></td>
+<td>1. 统计所有<br />2. 统计行数<br />3. 统计字数<br />4. 统计词数</td>
+</tr>
+<tr>
+<td align="center">比较两个文件的不同</td>
+<td align="left"><code>diff &lt;file1&gt; &lt;file2&gt;</code></td>
+<td>比较 <code>file1</code> 与 <code>file2</code> 的不同</td>
+</tr>
+<tr>
+<td align="center">行筛选工具</td>
+<td align="left">1. <code>&lt;command&gt; | grep &lt;String&gt;</code><br />2. <code>grep &lt;keyword&gt; &lt;file1&gt; [file2] </code></td>
+<td>1. 通过此方法可直接筛选所包含的行并输出<br />2. 在单个或多个文件中查找行内包含的关键字并输出</td>
+</tr>
+<tr>
+<td align="center">将输出结果写入文件</td>
+<td align="left">1. <code>&lt;command&gt; &gt; &lt;file&gt;</code><br />2. <code>&lt;command&gt; &gt;&gt; &lt;file&gt;</code><br /></td>
+<td>1. 将命令的执行结果<strong>覆盖写入</strong>至文件中<br />2. 将命令的执行结果<strong>追加写入</strong>至文件中<br /></td>
+</tr>
+<tr>
+<td align="center">以行编辑模式下编辑文件</td>
+<td align="left">1. <code>tee &lt;file&gt;</code><br />2. <code>tee -a &lt;file&gt;</code></td>
+<td>1. 将写入的内容<strong>覆盖保存</strong>到文件中<br />2. 将写入的内容<strong>追加保存</strong>到文件中<br />💡：使用行编辑模式下可直接在行内编辑并回车，编辑完成后，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束编辑并保存<br /></td>
+</tr>
+<tr>
+<td align="center">vim 文本编辑器 &#x2F; nano 文本编辑器</td>
+<td align="left">1. <code>vi [file]</code> &#x2F; <code>vim [file]</code><br />2. <code>nano [file]</code></td>
+<td>1. 使用 vi &#x2F; vim 文本编辑器打开或新建文件<br />其中，vim 编辑器为 vi 的加强版<br />❗：部分 Linux 发行版默认未安装 <code>vim</code> 软件包<br /><br />2. 使用 nano 文本编辑器打开或新建文件</td>
+</tr>
+<tr>
+<td align="center">tar 压缩包</td>
+<td align="left">1. <code>tar -xvf &lt;file.tar&gt; [-C &lt;dir&gt;]</code><br />2. <code>tar -xzvf &lt;file.tar.gz/file.tgz&gt; [-C &lt;dir&gt;]</code><br />3. <code> tar -cvf &lt;file.tar&gt; &lt;压缩目标&gt;</code><br />4. <code>tar -czvf &lt;file.tar.gz&gt;/&lt;file.tgz&gt;</code></td>
+<td>1. 解压 tar 包<br />     · <code>-C</code>：指定解压目录<br />     · <code>-x</code>：解压压缩包<br />     · <code>-v</code>：显示压缩或解压进度<br />     · <code>-f</code>：指定存档文件<br />2. 解压 tar.gz &#x2F; tgz 包<br />     · <code>-z</code>：使用 gzip 格式<br />3. 压缩目录或文件为 tar 包<br />     · <code>-c</code>：创建压缩包<br />4. 压缩目录或文件为 tar.gz &#x2F; tgz 包</td>
+</tr>
+<tr>
+<td align="center">zip 压缩包</td>
+<td align="left">1. <code>zip &lt;file.zip&gt; -r &lt;dir/file&gt; [-P &lt;压缩密码&gt; -&lt;0-9&gt;] </code><br />2. <code>unzip &lt;file.zip&gt; [-d &lt;dir&gt; ]</code></td>
+<td>1. 压缩目录或文件为 zip 包<br />    · <code>-r</code>：递归打包（常用于打包目录下的所有文件）<br />    · <code>-P</code>：设置压缩密码<br />    · <code>-&lt;0-9&gt;</code>： 表示压缩质量级别，默认值为 6。级别越高，压缩质量越好；级别越低，压缩速度越快<br />2. 解压 zip 包到当前目录<br />    · <code>-d</code>：指定解压目录</td>
+</tr>
+</tbody></table>
+<h3 id="系统与硬件管理"><a href="#系统与硬件管理" class="headerlink" title="系统与硬件管理"></a>系统与硬件管理</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">主机信息</td>
+<td align="left"><code>hostnamectl</code></td>
+<td>查看当前主机的所有信息</td>
+</tr>
+<tr>
+<td align="center">显示系统信息</td>
+<td align="left">1. <code>uname</code><br />2. <code> uname -a</code><br />3. <code>uname -m</code><br />4. <code>uname -n</code><br />5. <code>neofetch</code><br />6. <code>screenfetch</code></td>
+<td>1. 使用的内核<br />2. 显示所有系统信息<br />3. 使用的物理架构<br />4. 主机名称<br />5. 查看主机信息<br />（需安装 <code>neofetch</code> 软件包）<br />6. 查看主机信息<br />（需安装 <code>screenfetch</code> 软件包）</td>
+</tr>
+<tr>
+<td align="center">日期时间格式 &#x2F; 时区</td>
+<td align="left">1. <code>date</code><br/>2. <code>date +&lt;format&gt;</code><br />3. <code>timedatectl</code></td>
+<td>1. 显示现在的日期时间<br />2. 自定义显示日期时间格式（如：<code>%F</code>,<code>%T</code>）<br />3. 查看当前的日期时间、时区等详细信息</td>
+</tr>
+<tr>
+<td align="center">系统管理</td>
+<td align="left">1. <code>systemctl</code><br />2. <code>systemctl [is-active / is-enabled] &lt;SERVICE&gt;</code><br />3. <code>systemctl [start / stop / enable / disable / restart / reload / status] &lt;SERVICE&gt;</code><br /></td>
+<td>1. 用于查看系统下的所有设备、挂载、服务、接口等信息<br />2. 分别查看服务是否运行？是否开机自启？<br />3. 分别管理服务的<strong>启动、关闭、允许开机自启、禁用开机自启、重启、重新加载配置、查看状态</strong>服务</td>
+</tr>
+<tr>
+<td align="center">显示启动状态</td>
+<td align="left"><code>uptime</code></td>
+<td>简要显示电脑的启动状态、登录用户数等</td>
+</tr>
+<tr>
+<td align="center">任务管理器</td>
+<td align="left">1. <code>top</code><br />2. <code>htop</code></td>
+<td>1. 管理所有正在运行的进程<br />2. 需要额外安装 <code>htop</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">查看指定目录所占空间</td>
+<td align="left">1. <code>du</code><br />2. <code>du -sh &lt;文件/目录&gt;</code></td>
+<td>1. 在当前目录下<strong>递归查看</strong>所有文件及目录的大小<br />2. 在指定目录或文件下查看大小</td>
+</tr>
+<tr>
+<td align="center">查看磁盘分区情况</td>
+<td align="left"><code>df -h</code></td>
+<td>查看所有磁盘分区的大小、占用情况、挂载点等</td>
+</tr>
+<tr>
+<td align="center">磁盘分区</td>
+<td align="left"><code>fdisk</code><br /><code>parted</code><br /><code>cfdisk</code></td>
+<td>磁盘分区工具</td>
+</tr>
+<tr>
+<td align="center">查看磁盘信息</td>
+<td align="left"><code>lsblk</code></td>
+<td>显示所有块设备的大小及挂载点</td>
+</tr>
+<tr>
+<td align="center">查看 CPU 信息</td>
+<td align="left"><code>lscpu</code></td>
+<td>显示 CPU 的详细信息</td>
+</tr>
+<tr>
+<td align="center">查看电池</td>
+<td align="left"><code>lspower</code></td>
+<td>显示电池电量及当前使用电池状态</td>
+</tr>
+<tr>
+<td align="center">内存使用情况</td>
+<td align="left"><code>free -h</code></td>
+<td>查看当前的内存使用情况</td>
+</tr>
+<tr>
+<td align="center">关机</td>
+<td align="left"><code>poweroff</code> &#x2F; <code>shutdown now</code></td>
+<td>关闭电源</td>
+</tr>
+<tr>
+<td align="center">重启</td>
+<td align="left"><code>reboot</code></td>
+<td>按下 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> 也可重启</td>
+</tr>
+<tr>
+<td align="center">电源管理</td>
+<td align="left"><code>halt [-p / -f / --reboot]</code><br /></td>
+<td>1. <code>halt</code>：挂起电源<br />2. <code>-p</code>：关机<br />3. <code>--reboot</code>：重启<br />4. <code>-f</code>：强制性操作<strong>（❗ 谨慎操作）</strong></td>
+</tr>
+<tr>
+<td align="center">运行选项</td>
+<td align="left"><code>init &lt;X&gt;</code></td>
+<td>其中的 <code>&lt;X&gt;</code> 表示运行级别，具体如下：<br />- <code>0</code> ：关机<br />- <code>1</code>：进入紧急模式<br />- <code>2</code>：多用户模式<br />- <code>3</code>：带网络的多用户模式<br />- <code>4</code>：未定义 <em>没什么用</em><br />- <code>5</code>：图形界面<br />- <code>6</code>：重启</td>
+</tr>
+</tbody></table>
+<h3 id="网络与传输"><a href="#网络与传输" class="headerlink" title="网络与传输"></a>网络与传输</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">网络配置</td>
+<td align="left">1. <code>nmcli</code><br />2. <code>nmtui</code></td>
+<td>1. 命令行下查看所有网络配置<br />2. 图形化界面管理网络配置<br />❗：需要安装 <code>network-manager</code>  软件包</td>
+</tr>
+<tr>
+<td align="center">测试网络连通</td>
+<td align="left">1. <code>ping &lt;IP / Hostname&gt;</code><br />2. <code>ping -c 4 &lt;IP / Hostname&gt;</code></td>
+<td>1. 测试指定 IP 地址或域名是否连通<br />2. 发送 4 个数据包以测试连通性</td>
+</tr>
+<tr>
+<td align="center">测试远程网络</td>
+<td align="left">1. <code>curl ifconfig.io</code><br />2. <code>curl ifconfig.io/all</code><br />3. <code>curl ifconfig.io/all.json -o all.json</code></td>
+<td>1. 从 <code>ifconfig.io</code> 网站上获取 IP 地址<br />2. 从 <code>ifconfig.io</code> 网站中获取所有信息<br />3. 从 <code>ifconfig.io</code> 网站中下载并保存 JSON 格式的信息</td>
+</tr>
+<tr>
+<td align="center">显示网络状态</td>
+<td align="left">1. <code>netstat -an</code><br /><br />2. <code>netstat -at</code><br />3. <code>netstat -au</code><br />4. <code>netstat -apu</code><br />5. <code>netstat -i</code><br />6. <code>netstat -r</code><br />7. <code>netstat -ap | grep [SERVICE]</code><br />8. <code>netstat -anlp | grep [PORT_NUMBER]</code></td>
+<td>1. 查看当前系统网络状态的所有连接信息<br />2. 查看所有 TCP 端口信息<br />3. 查看 UDP 连接信息<br />4. 查看 UDP 连接端口号使用信息<br />5. 查看网卡状态信息<br />6. 查看网络路由表状态信息<br />7. 搜索某个服务所对应的连接信息<br />8. 查看运行在指定端口的进程<br />❗：若无法执行，需安装 <code>net-tools</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">IP 路由表</td>
+<td align="left"><code>route</code> &#x2F; <code>ip route</code></td>
+<td>查看 IP 路由表<br />❗：需安装 <code>net-tools</code> 、<code>iproute2</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">查看物理网卡 IP 地址</td>
+<td align="left"><code>ip addr</code></td>
+<td>此命令可直接简写为 <code>ip a</code><br />❗：需安装 <code>iproute2</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">查看物理网卡配置</td>
+<td align="left">1. <code>ifconfig</code><br/>2. <code>ifconfig &lt;网卡名&gt;</code><br/><br /></td>
+<td>1. 显示所有网卡配置<br/>2. 显示指定网卡配置<br />❗：需安装 <code>net-tools</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">文件下载工具</td>
+<td align="left"><code>wget &lt;file_url&gt;</code></td>
+<td>从某个 url 中下载文件到当前工作路径</td>
+</tr>
+<tr>
+<td align="center">SSH 连接</td>
+<td align="left"><code>ssh username@&lt;hostname / ip地址&gt; [-p &lt;22 / 指定端口号&gt;]</code></td>
+<td>使用 SSH 方式连接远程主机，<br /><code>22</code> 为 SSH 默认端口</td>
+</tr>
+<tr>
+<td align="center">SSH 密钥</td>
+<td align="left">1. <code>ssh-keygen</code><br />2. <code>ssh-keygen -t [dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]</code></td>
+<td>1. 生成一个新的密钥<br />2. 指定生成某个类型的密钥（常用 RSA 密钥）</td>
+</tr>
+<tr>
+<td align="center">传输文件工具</td>
+<td align="left">1. <code>scp [&lt;用户名&gt;@&lt;主机名/IP地址&gt;:]&lt;需传输的文件目录&gt; &lt;用户名&gt;@&lt;主机名/IP地址&gt;:&lt;目标目录&gt;</code><br />2. <code>scp user@hostA:~/a.txt user@hostB:~/doc</code><br />3. <code>scp test.txt user@hostA:/doc</code></td>
+<td>1. 将其中一台主机中的文件或目录传输到另一台主机的目录中<br />2. 将主机<code>hostA</code>下的主目录里的 <code>a.txt</code> 文件传输到主机 <code>hostB</code> 下的 <code>~/doc</code> 目录中<br />3. 将自己主机下的当前目录里的 <code>test.txt</code> 文件传输到主机 <code>hostA</code> 下的<code>/doc</code> 目录中</td>
+</tr>
+</tbody></table>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> Linux Shell 基础命令速查表（非完整版）</li>
+        <li><strong>作者:</strong> CatIsNotFound</li>
+        <li><strong>创建于
+                :</strong> 2024-04-25 13:25:08</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-07-31 14:46:48
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://catisnotfound.github.io/2024/04/25/Linux-Shell-命令速查表/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Linux/">#Linux</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/04/24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://waline-1-u8595044.deta.app/',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: true,
+          requiredMeta: ['nick', 'mail'],
+          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/bmoji','https://unpkg.com/@waline/emojis@1.2.0/weibo','https://unpkg.com/@waline/emojis@1.2.0/qq','https://unpkg.com/@waline/emojis@1.2.0/soul-emoji','https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">Linux Shell 基础命令速查表（非完整版）</div>
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%88%E7%AB%AF%E4%B8%8E%E7%94%A8%E6%88%B7"><span class="nav-text">终端与用户</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95%E4%B8%8E%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="nav-text">目录与文件管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E7%BC%96%E8%BE%91"><span class="nav-text">文件操作编辑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E4%B8%8E%E7%A1%AC%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="nav-text">系统与硬件管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BC%A0%E8%BE%93"><span class="nav-text">网络与传输</span></a></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">CatIsNotFound</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共 20 篇文章
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.6.4</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/Swup.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupSlideTheme.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupProgressPlugin.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupScrollPlugin.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupPreloadPlugin.min.js"></script>
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+<script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/imageViewer.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/utils.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/main.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/layouts/navbarShrink.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/scrollTopBottom.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/lightDarkSwitch.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/layouts/categoryList.js"></script>
+
+
+    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/localSearch.js"></script>
+
+
+
+    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/codeBlock.js"></script>
+
+
+
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/runtime.js"></script>
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/odometer.min.js"></script>
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/assets/odometer-theme-minimal.css">
+
+
+
+  <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/Typed.min.js"></script>
+  <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/typed.js"></script>
+
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/mermaid.min.js"></script>
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/mermaid.js"></script>
+
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/minimasonry.min.js"></script>
+    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/masonry.js"></script>
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/tocToggle.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/layouts/toc.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/tabs.js"></script>
+    
+</div>
+
+
+<script>
+    if(!('loading' in HTMLImageElement.prototype)) {
+        const srp = document.createElement('script');
+        srp.src = 'https://cdn.jsdelivr.net/npm/lazysizes@5.1.1/lazysizes.min.js';
+        document.body.append(srp);
+        const imgs = document.querySelectorAll('img');
+        imgs.forEach(el => {
+            el.setAttribute('data-src', el.getAttribute('src'));
+            el.removeAttribute('src');
+            el.classList.add('lazyload');
+    })
+}
+</script></body>
+</html>

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;gnome&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-05-03T15:59:02.000Z</updated>
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="Windows" />
+    <category term="Linux" />
+    <category term="新手向" />
+    <category term="脚本" />
+    <category term="博客搭建" />
+    <category term="关于博客" />
+    <category term="系统安装" />
+    <category term="Android" />
+    <category term="Git" />
+    <category term="Hexo" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="软件安利" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</id>
+        <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：&lt;a href=&#34;../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/&#34;&gt;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;桌面布局&#34;&gt;&lt;a href=&#34;#桌面布局&#34; class=&#34;headerlink&#34; title=&#34;桌面布局&#34;&gt;&lt;/a&gt;桌面布局&lt;/h1&gt;&lt;p&gt;请根据如下图的标识一一对应。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/1.jpg&#34; alt=&#34;桌面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/3.jpg&#34; alt=&#34;快捷菜单&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large red&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;&lt;strong&gt;Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 &lt;code&gt;gnome-shell&lt;/code&gt; 插件来实现）&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/2.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;桌面小技巧&#34;&gt;&lt;a href=&#34;#桌面小技巧&#34; class=&#34;headerlink&#34; title=&#34;桌面小技巧&#34;&gt;&lt;/a&gt;桌面小技巧&lt;/h1&gt;&lt;p&gt;以下是关于 GNOME 相关操作的小技巧，不包含所有。&lt;/p&gt;
+&lt;h2 id=&#34;有用的键盘快捷键&#34;&gt;&lt;a href=&#34;#有用的键盘快捷键&#34; class=&#34;headerlink&#34; title=&#34;有用的键盘快捷键&#34;&gt;&lt;/a&gt;有用的键盘快捷键&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; 类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt;：打开【概览】界面&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt;：打开【所有程序】界面&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;：打开右上角处的【快捷菜单】&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt;：快速显示桌面，再按一次复原&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;L&lt;/kbd&gt;：锁定屏幕&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt;：切换应用&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;`&lt;/kbd&gt;：切换窗口（配合上一个快捷键操作）&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;←&lt;/kbd&gt;：将窗口移动到左半屏，再按一次将恢复原位&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;→&lt;/kbd&gt;：将窗口移动到右半屏，再按一次将恢复原位&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;↑&lt;/kbd&gt;：将窗口最大化，再按一次将取消最大化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; 类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt;：切换应用&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;`&lt;/kbd&gt;：切换窗口（配合上一个快捷键操作）&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Esc&lt;/kbd&gt;：切换应用（比前两个快捷键更好用👍）&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F2&lt;/kbd&gt;：打开【运行】命令，快速运行一个命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; 类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;T&lt;/kbd&gt;：快速打开终端&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Dock-栏（快捷栏）&#34;&gt;&lt;a href=&#34;#Dock-栏（快捷栏）&#34; class=&#34;headerlink&#34; title=&#34;Dock 栏（快捷栏）&#34;&gt;&lt;/a&gt;Dock 栏（快捷栏）&lt;/h2&gt;&lt;h3 id=&#34;利用快捷键启动应用&#34;&gt;&lt;a href=&#34;#利用快捷键启动应用&#34; class=&#34;headerlink&#34; title=&#34;利用快捷键启动应用&#34;&gt;&lt;/a&gt;利用快捷键启动应用&lt;/h3&gt;&lt;p&gt;Ubuntu 桌面默认自带的任务栏，可直接利用 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + 数字键以打开快捷栏中的所对应的应用程序。&lt;/p&gt;
+&lt;p&gt;每个应用图标左上角的以 ①②③ 表示对应的序号。&lt;br&gt;例如：打开 Firefox 浏览器，只需按下快捷键 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;1&lt;/kbd&gt; 即可&lt;/p&gt;
+&lt;p&gt;若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; 即可。如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/4.jpg&#34; alt=&#34;在快捷栏中启动应用&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;固定应用到-Dock-栏（快捷栏）&#34;&gt;&lt;a href=&#34;#固定应用到-Dock-栏（快捷栏）&#34; class=&#34;headerlink&#34; title=&#34;固定应用到 Dock 栏（快捷栏）&#34;&gt;&lt;/a&gt;固定应用到 Dock 栏（快捷栏）&lt;/h3&gt;&lt;h4 id=&#34;1-通过右键菜单&#34;&gt;&lt;a href=&#34;#1-通过右键菜单&#34; class=&#34;headerlink&#34; title=&#34;1. 通过右键菜单&#34;&gt;&lt;/a&gt;1. 通过右键菜单&lt;/h4&gt;&lt;p&gt;你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt; 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/5.jpg&#34; alt=&#34;固定应用&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-通过鼠标拖拽&#34;&gt;&lt;a href=&#34;#2-通过鼠标拖拽&#34; class=&#34;headerlink&#34; title=&#34;2. 通过鼠标拖拽&#34;&gt;&lt;/a&gt;2. 通过鼠标拖拽&lt;/h4&gt;&lt;p&gt;你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；&lt;/p&gt;
+&lt;p&gt;反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 &lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/1.gif&#34; alt=&#34;固定应用程序&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/2.gif&#34; alt=&#34;取消固定应用程序&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；&lt;/p&gt;
+&lt;p&gt;反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/3.gif&#34; alt=&#34;在桌面中固定&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/4.gif&#34; alt=&#34;在桌面中解除固定&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;窗口（Window）&#34;&gt;&lt;a href=&#34;#窗口（Window）&#34; class=&#34;headerlink&#34; title=&#34;窗口（Window）&#34;&gt;&lt;/a&gt;窗口（Window）&lt;/h2&gt;&lt;h3 id=&#34;左右分屏&#34;&gt;&lt;a href=&#34;#左右分屏&#34; class=&#34;headerlink&#34; title=&#34;左右分屏&#34;&gt;&lt;/a&gt;左右分屏&lt;/h3&gt;&lt;p&gt;与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/6.gif&#34; alt=&#34;左右分屏&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note p-4 mb-4 rounded-small yellow icon-padding&#34;&gt;
+    &lt;i class=&#34;note-icon fa-solid fa-solid fa-solid fa-lightbulb&#34;&gt;&lt;/i&gt;&lt;p&gt;提示：&lt;/p&gt;
+&lt;p&gt;在此处操作中，可以使用快捷键  &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;←&lt;/kbd&gt; 或 &lt;kbd&gt; &lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;→&lt;/kbd&gt; 来使窗口快速移动到左半屏或右半屏&lt;/p&gt;
+
+  &lt;/div&gt;
+
+&lt;h3 id=&#34;上下分屏&#34;&gt;&lt;a href=&#34;#上下分屏&#34; class=&#34;headerlink&#34; title=&#34;上下分屏&#34;&gt;&lt;/a&gt;上下分屏&lt;/h3&gt;&lt;p&gt;与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/7.gif&#34; alt=&#34;上下分屏&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;工作区（Workspace）&#34;&gt;&lt;a href=&#34;#工作区（Workspace）&#34; class=&#34;headerlink&#34; title=&#34;工作区（Workspace）&#34;&gt;&lt;/a&gt;工作区（Workspace）&lt;/h2&gt;&lt;p&gt;工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：&lt;/p&gt;
+&lt;h3 id=&#34;创建、删除、切换工作区&#34;&gt;&lt;a href=&#34;#创建、删除、切换工作区&#34; class=&#34;headerlink&#34; title=&#34;创建、删除、切换工作区&#34;&gt;&lt;/a&gt;创建、删除、切换工作区&lt;/h3&gt;&lt;p&gt;不多描述，直接看图&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long1.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long2.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long3.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long4.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long5.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long6.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下列为比较好用的快捷键（即上图中所提及到的操作）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;↑&lt;/kbd&gt;：上一个工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;↓&lt;/kbd&gt;：下一个工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;←&lt;/kbd&gt;：第一个工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;→&lt;/kbd&gt;：最后一个工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;←&lt;/kbd&gt;：将窗口移动到上一个工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;→&lt;/kbd&gt;：将窗口移动到下一个工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最后&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+</content>
+        <category term="Linux" />
+        <category term="新手向" />
+        <category term="GNOME" />
+        <category term="桌面环境" />
+        <updated>2024-05-03T15:59:02.000Z</updated>
+    </entry>
+</feed>

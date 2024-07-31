@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="个人博客">
+    
+    <meta name="author" content="CatIsNotFound">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://CatIsNotFound.github.io/2024/04/24/搭建个人博客（二）：如何详细配置-hexo-使用-rendefine-主题美化博客/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="在这篇文章中，将会详细地讲述搭建后关于 Hexo 的配置以及如何自定义自己的 Redefine 主题。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客">
+<meta property="og:url" content="https://catisnotfound.github.io/2024/04/24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="CatIsNotFound">
+<meta property="og:description" content="在这篇文章中，将会详细地讲述搭建后关于 Hexo 的配置以及如何自定义自己的 Redefine 主题。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/1.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/2.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/3.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/7.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/4.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/5.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0424/6.jpg">
+<meta property="article:published_time" content="2024-04-24T06:44:21.000Z">
+<meta property="article:modified_time" content="2024-06-11T07:53:03.000Z">
+<meta property="article:author" content="CatIsNotFound">
+<meta property="article:tag" content="博客搭建">
+<meta property="article:tag" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://catisnotfound.github.io/images/2024/0424/1.jpg">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/logo.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+    <meta name="theme-color" content="#0d569f">
+    <link rel="shortcut icon" href="/images/logo.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客 -
+        
+        CatIsNotFound
+    </title>
+
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fonts/Chillax/chillax.css">
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/assets/build/styles.css">
+    
+
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fonts/Geist/geist.css">
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    
+        <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/anime.min.js"></script>
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"catisnotfound.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["许久未更","偶尔一更","定期更新","随时更新","每周必更","频繁更新","每日必更"]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":false,"recommendation":{"enable":false,"title":"自动推荐","limit":3,"mobile_limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#0d569f","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://files.codelife.cc/wallpaper/wallspic/20240426856744.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp","dark":"https://files.codelife.cc/wallhaven/full/ox/wallhaven-ox19m9.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp"},"title":"CatIsNotFound","subtitle":{"text":["随时记录，随时创作~","Always record, always create~","一路向前，一切随缘~","Keep Forward, keep together~","永不放弃，永不退缩~","Never give up, never give in~","不断前进，不断奋斗~","Keep Forward, keep fighting~","不断更新，一心向前~","Always be updating, always be forward~","时代变迁，我们追随~","Time changes, we follow~","时光飞逝，我们不变~","Time flies, we don’t change~"],"hitokoto":{"enable":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#101010","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/CatIsNotFound","instagram":null,"zhihu":"https://www.zhihu.com/people/catisnotfound","twitter":null,"email":"liaoxink0756@foxmail.com","bilibili":"https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0","fa-solid fa-rss":"/feed"},"qrs":{"weixin":null,"fa-brands fa-qq":"/images/QQ.jpg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.6.4","navbar":{"auto_hide":false,"color":{"left":"#006cc5","right":"#7ecee9","transparency":30},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"Categories":{"icon":"fa-regular fa-list","submenus":{"📔 技术教程":"/categories/技术教程","⛺ 博客搭建":"/categories/博客搭建","📱 软件安利":"/categories/软件安利","📖 学习笔记":"/categories/学习笔记","📚 所有分类":"/categories"}},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Links":{"icon":"fa-regular fa-link","submenus":{"✨ RSS":"/feed","💻 Github":"https://github.com/CatIsNotFound","💭 Zhihu":"https://www.zhihu.com/people/catisnotfound","📺 Bilibili":"https://space.bilibili.com/1896645285"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"right","first_item":"info","announcement":"随时记录，随时创作~","show_on_mobile":true,"links":{"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"壁纸":{"icon":"fa-solid fa-images","path":"/masonry"},"RSS":{"icon":"fa-solid fa-rss","path":"/feed"},"统计":{"icon":"fa-solid fa-chart-bar","path":"/status"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2024/04/23 18:00:00"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/fontawesome/regular.min.css">
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+    <style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        CatIsNotFound
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+        var animation = anime.timeline({loop: true})
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [40,0],
+                translateZ: 0,
+                opacity: [0,1],
+                filter: ['blur(5px)', 'blur(0px)'], // Starting from blurred to unblurred
+                easing: "easeOutExpo",
+                duration: 1400,
+                delay: (el, i) => 300 + 30 * i,
+            }).add({
+                targets: '.ml13 .letter',
+                translateY: [0,-40],
+                opacity: [1,0],
+                filter: ['blur(0px)', 'blur(5px)'], // Ending from unblurred to blurred
+                easing: "easeInExpo",
+                duration: 1200,
+                delay: (el, i) => 100 + 30 * i,
+                complete: function() {
+                    hidePreloader(); // Call hidePreloader after the animation completes
+                }
+            });
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                CatIsNotFound
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/myfeed"
+                                        >
+                                    <i class="fa-solid fa-comment-dots fa-fw"></i>
+                                    动态
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-list fa-fw"></i>
+                                    分类
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B">
+                                                    📔 技术教程
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA">
+                                                    ⛺ 博客搭建
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9">
+                                                    📱 软件安利
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">
+                                                    📖 学习笔记
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories">
+                                                    📚 所有分类
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags"
+                                        >
+                                    <i class="fa-regular fa-tags fa-fw"></i>
+                                    标签
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    链接
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/feed">
+                                                    ✨ RSS
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">
+                                                    💻 GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">
+                                                    💭 ZHIHU
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">
+                                                    📺 BILIBILI
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/myfeed"
+                        >
+                            <span>
+                                动态
+                            </span>
+                            
+                                <i class="fa-solid fa-comment-dots fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-Categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Categories">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B">📔 技术教程</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA">⛺ 博客搭建</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9">📱 软件安利</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0">📖 学习笔记</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories">📚 所有分类</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags"
+                        >
+                            <span>
+                                标签
+                            </span>
+                            
+                                <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-Links"
+                        >
+                            <span>
+                                链接
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/feed">✨ RSS</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">💻 GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">💭 ZHIHU</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">📺 BILIBILI</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>归档</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/masonry"
+                        >
+                            <span>壁纸</span>
+                            <i class="fa-solid fa-images fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/feed"
+                        >
+                            <span>RSS</span>
+                            <i class="fa-solid fa-rss fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/status"
+                        >
+                            <span>统计</span>
+                            <i class="fa-solid fa-chart-bar fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">17</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">20</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="/images/2024/0424/banner.jpg" alt="搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="https://avatars.githubusercontent.com/u/162785971?v=4">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">CatIsNotFound</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">定期更新</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-04-24 14:44:21</span>
+        <span class="mobile">2024-04-24 14:44:21</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-06-11 15:53:03</span>
+            <span class="mobile">2024-06-11 15:53:03</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Hexo/">Hexo</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>在这上一篇<a href="../../23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2">【搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客】</a>文章中，我们已经完成了搭建。在这篇文章中，将会详细地讲述搭建后关于 Hexo 的配置以及如何自定义自己的 <a class="link"   target="_blank" rel="noopener" href="https://redefine.ohevan.com/" >Redefine 主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
+<p>![&#x2F;images&#x2F;2024&#x2F;0424&#x2F;banner.jpg]</p>
+<h2 id="Hexo-配置"><a href="#Hexo-配置" class="headerlink" title="Hexo 配置"></a>Hexo 配置</h2><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><p>打开项目目录下的 <code>_config.yml</code> 文件，请找到如下内容并修改如下：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> 						<span class="comment"># 必填，输入网站标题</span></span><br><span class="line"><span class="attr">subtitle:</span> 					<span class="comment"># 此处可不填，子标题</span></span><br><span class="line"><span class="attr">description:</span> 				<span class="comment"># 此处可不填，网站简介</span></span><br><span class="line"><span class="attr">keywords:</span> 					<span class="comment"># 此处可不填，关键词</span></span><br><span class="line"><span class="attr">author:</span>  					<span class="comment"># 必填，作者名称</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span>				<span class="comment"># 必填，使用的语言，这里应填为 `zh-CN` </span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;Asia/Shanghai&#x27;</span>	<span class="comment"># 必填，时区，在国内建议选择上海时间</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://&lt;你的</span> <span class="string">Github</span> <span class="string">用户名&gt;.github.io</span> 	<span class="comment"># 必填，Github Page 的地址</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="如何更换默认主题"><a href="#如何更换默认主题" class="headerlink" title="如何更换默认主题"></a>如何更换默认主题</h3><p>在完成 Hexo 搭建时，如果需要更换默认主题，仅需在项目根目录下的 <code>_config.yml</code> 文件中找到并修改如下：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span>	<span class="comment"># 请在此处修改主题名称，比如：redefine</span></span><br></pre></td></tr></table></figure></div>
+
+<p>当然，你可以在 <em><a class="link"   target="_blank" rel="noopener" href="https://hexo.io/themes/" >https://hexo.io/themes/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></em> 上选择其它主题，这篇就以使用 <a class="link"   target="_blank" rel="noopener" href="https://redefine.ohevan.com/" >Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 主题为例。 </p>
+<h3 id="Deploy-设置"><a href="#Deploy-设置" class="headerlink" title="Deploy 设置"></a>Deploy 设置</h3><p>关于这个，它可以方便我们一次性将写好的博客及配置好的主题打包上传到 Github，以自动同步 Github Page 中，具体需在 <code>_config.yml</code> 文件下找到并修改如下：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="comment"># 必填，Github 仓库地址</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/&lt;Github</span> <span class="string">用户名&gt;/&lt;Github</span> <span class="string">用户名&gt;.github.io.git</span> </span><br><span class="line">  <span class="attr">branch:</span> <span class="string">&#x27;main&#x27;</span>	<span class="comment"># 决定上传到哪个节点下，这里默认选择 &#x27;main&#x27;</span></span><br><span class="line">  <span class="attr">token:</span> 			<span class="comment"># 可不填</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>完成这些配置后，需做好如下命令：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clear</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></div>
+
+<p>若执行时出现以下信息时，需要手动输入用户名及邮箱</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Username for &#x27;https://github.com&#x27;: CatIsNotFound # 输入 Github 用户名</span><br><span class="line">Password for &#x27;https://CatIsNotFound@github.com&#x27;: # 从 Github 中粘贴自己生成的 Token</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>如何获取 Token？</p>
+
+    </div>
+    <div class="notel-content">
+      <ol>
+<li><p>要想获取 Token，首先进入此链接 <a class="link"   target="_blank" rel="noopener" href="https://github.com/settings/tokens/new" >New Personal Access Token (Classic) (github.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li><p>根据如下图所示操作：<br><img loading="lazy" src="/images/2024/0424/1.jpg"></p>
+</li>
+<li><p>完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：<br><img loading="lazy" src="/images/2024/0424/2.jpg"></p>
+<p>上图中的绿色框为所需要的 Token​。</p>
+</li>
+</ol>
+  <div class="note p-4 mb-4 rounded-small danger icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-circle-info"></i><p><strong>需要注意：</strong></p>
+<p>​	每次仅会显示一次完整的 Token，下一次刷新页面后将会完全隐藏，建议生成后做好备份！</p>
+
+  </div>
+
+    </div>
+  </div>
+
+<p>若已经完成了上传，只需要在 github 上刷新即可查看到上传的内容是否类似如下：</p>
+<p><img loading="lazy" src="/images/2024/0424/3.jpg"></p>
+<h2 id="Redefine-美化主题配置"><a href="#Redefine-美化主题配置" class="headerlink" title="Redefine 美化主题配置"></a>Redefine 美化主题配置</h2><h3 id="一、安装和测试主题："><a href="#一、安装和测试主题：" class="headerlink" title="一、安装和测试主题："></a>一、安装和测试主题：</h3><h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h4><p><a href="#%E5%A6%82%E4%BD%95%E6%9B%B4%E6%8D%A2%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98">点击此处查看如何更换主题</a>，这里不再赘述</p>
+<h4 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h4><p>在项目根目录下，新建一个 <code>_config.redefine.yml</code> 文件，并复制如下内容：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br><span class="line">458</span><br><span class="line">459</span><br><span class="line">460</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># THEME REDEFINE CONFIGURATION FILE V2</span></span><br><span class="line"><span class="comment"># BY EVANNOTFOUND</span></span><br><span class="line"><span class="comment"># GITHUB: https://github.com/EvanNotFound/hexo-theme-redefine</span></span><br><span class="line"><span class="comment"># DOCUMENTATION: https://redefine-docs.ohevan.com</span></span><br><span class="line"><span class="comment"># DEMO: https://redefine.ohevan.com</span></span><br><span class="line"><span class="comment"># &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># BASIC INFORMATION &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/basic/info</span></span><br><span class="line"><span class="attr">info:</span></span><br><span class="line">  <span class="comment"># Site title</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">Theme</span> <span class="string">Redefine</span></span><br><span class="line">  <span class="comment"># Author name</span></span><br><span class="line">  <span class="attr">author:</span> <span class="string">The</span> <span class="string">Redefine</span> <span class="string">Team</span></span><br><span class="line">  <span class="comment"># Site URL</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://redefine.ohevan.com</span></span><br><span class="line"><span class="comment"># BASIC INFORMATION &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># IMAGE CONFIGURATION &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/basic/defaults</span></span><br><span class="line"><span class="attr">defaults:</span></span><br><span class="line">  <span class="comment"># Favicon</span></span><br><span class="line">  <span class="attr">favicon:</span> <span class="string">/images/2024/redefine-favicon.svg</span></span><br><span class="line">  <span class="comment"># Site logo</span></span><br><span class="line">  <span class="attr">logo:</span> </span><br><span class="line">  <span class="comment"># Site avatar</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">/images/2024/redefine-avatar.svg</span></span><br><span class="line"><span class="comment"># IMAGE CONFIGURATION &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># COLORS &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/basic/colors</span></span><br><span class="line"><span class="attr">colors:</span></span><br><span class="line">  <span class="comment">#Primary color</span></span><br><span class="line">  <span class="attr">primary:</span> <span class="string">&quot;#A31F34&quot;</span></span><br><span class="line">  <span class="comment"># Secondary color (TBD)</span></span><br><span class="line">  <span class="attr">secondary:</span></span><br><span class="line">  <span class="comment"># Default theme mode initial value (will be overwritten by prefer-color-scheme)</span></span><br><span class="line">  <span class="attr">default_mode:</span> <span class="string">light</span> <span class="comment"># light, dark</span></span><br><span class="line"><span class="comment"># COLORS &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># SITE CUSTOMIZATION &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/basic/global</span></span><br><span class="line"><span class="attr">global:</span></span><br><span class="line">  <span class="comment"># Custom fonts</span></span><br><span class="line">  <span class="attr">fonts:</span></span><br><span class="line">    <span class="comment"># Chinese fonts</span></span><br><span class="line">    <span class="attr">chinese:</span> </span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable custom chinese fonts</span></span><br><span class="line">      <span class="attr">family:</span>  <span class="comment"># Font family</span></span><br><span class="line">      <span class="attr">url:</span>  <span class="comment"># Font URL to CSS file</span></span><br><span class="line">    <span class="comment"># English fonts</span></span><br><span class="line">    <span class="attr">english:</span> </span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable custom english fonts</span></span><br><span class="line">      <span class="attr">family:</span>  <span class="comment"># Font family</span></span><br><span class="line">      <span class="attr">url:</span>  <span class="comment"># Font URL to CSS file</span></span><br><span class="line">  <span class="comment"># Content max width</span></span><br><span class="line">  <span class="attr">content_max_width:</span> <span class="string">1000px</span></span><br><span class="line">  <span class="comment"># Sidebar width</span></span><br><span class="line">  <span class="attr">sidebar_width:</span> <span class="string">210px</span></span><br><span class="line">  <span class="comment"># Effects on mouse hover</span></span><br><span class="line">  <span class="attr">hover:</span></span><br><span class="line">    <span class="attr">shadow:</span> <span class="literal">true</span> <span class="comment"># shadow effect</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="literal">false</span> <span class="comment"># scale effect</span></span><br><span class="line">  <span class="comment"># Scroll progress</span></span><br><span class="line">  <span class="attr">scroll_progress:</span></span><br><span class="line">    <span class="attr">bar:</span> <span class="literal">false</span> <span class="comment"># progress bar</span></span><br><span class="line">    <span class="attr">percentage:</span> <span class="literal">true</span> <span class="comment"># percentage</span></span><br><span class="line">  <span class="comment"># Website counter</span></span><br><span class="line">  <span class="attr">website_counter:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://cn.vercount.one/js</span> <span class="comment"># counter API URL (no need to change)</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># enable website counter or not</span></span><br><span class="line">    <span class="attr">site_pv:</span> <span class="literal">true</span> <span class="comment"># site page view</span></span><br><span class="line">    <span class="attr">site_uv:</span> <span class="literal">true</span> <span class="comment"># site unique visitor</span></span><br><span class="line">    <span class="attr">post_pv:</span> <span class="literal">true</span> <span class="comment"># post page view</span></span><br><span class="line">  <span class="comment"># Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax</span></span><br><span class="line">  <span class="attr">single_page:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Whether to enable Preloader.</span></span><br><span class="line">  <span class="attr">preloader:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Whether to enable open graph</span></span><br><span class="line">  <span class="attr">open_graph:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Google Analytics</span></span><br><span class="line">  <span class="attr">google_analytics:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable Google Analytics</span></span><br><span class="line">    <span class="attr">id:</span>  <span class="comment"># Google Analytics Measurement ID</span></span><br><span class="line"><span class="comment"># SITE CUSTOMIZATION &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line">    </span><br><span class="line"></span><br><span class="line"><span class="comment"># FONTAWESOME &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/basic/fontawesome</span></span><br><span class="line"><span class="attr">fontawesome:</span> <span class="comment"># Pro v6.2.1</span></span><br><span class="line">  <span class="comment"># Thin version</span></span><br><span class="line">  <span class="attr">thin:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Light version</span></span><br><span class="line">  <span class="attr">light:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Duotone version</span></span><br><span class="line">  <span class="attr">duotone:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Sharp Solid version</span></span><br><span class="line">  <span class="attr">sharp_solid:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># FONTAWESOME &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># HOME BANNER &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/home/home_banner</span></span><br><span class="line"><span class="attr">home_banner:</span></span><br><span class="line">  <span class="comment"># Whether to enable home banner</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># style of home banner</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">fixed</span> <span class="comment"># static or fixed</span></span><br><span class="line">  <span class="comment"># Home banner image</span></span><br><span class="line">  <span class="attr">image:</span> </span><br><span class="line">    <span class="attr">light:</span> <span class="string">/images/2024/wallhaven-wqery6-light.webp</span> <span class="comment"># light mode</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">/images/2024/wallhaven-wqery6-dark.webp</span> <span class="comment"># dark mode</span></span><br><span class="line">  <span class="comment"># Home banner title</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">Theme</span> <span class="string">Redefine</span></span><br><span class="line">  <span class="comment"># Home banner subtitle</span></span><br><span class="line">  <span class="attr">subtitle:</span></span><br><span class="line">    <span class="attr">text:</span> [] <span class="comment"># subtitle text, array</span></span><br><span class="line">    <span class="attr">hitokoto:</span>  <span class="comment"># 一言配置</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable hitokoto</span></span><br><span class="line">      <span class="attr">api:</span> <span class="string">https://v1.hitokoto.cn</span> <span class="comment"># API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0</span></span><br><span class="line">    <span class="attr">typing_speed:</span> <span class="number">100</span> <span class="comment"># Typing speed (ms)</span></span><br><span class="line">    <span class="attr">backing_speed:</span> <span class="number">80</span> <span class="comment"># Backing speed (ms)</span></span><br><span class="line">    <span class="attr">starting_delay:</span> <span class="number">500</span> <span class="comment"># Start delay (ms)</span></span><br><span class="line">    <span class="attr">backing_delay:</span> <span class="number">1500</span> <span class="comment"># Backing delay (ms)</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="literal">true</span> <span class="comment"># Whether to loop</span></span><br><span class="line">    <span class="attr">smart_backspace:</span> <span class="literal">true</span> <span class="comment"># Whether to smart backspace</span></span><br><span class="line">  <span class="comment"># Color of home banner text</span></span><br><span class="line">  <span class="attr">text_color:</span> </span><br><span class="line">    <span class="attr">light:</span> <span class="string">&quot;#fff&quot;</span> <span class="comment"># light mode</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">&quot;#d1d1b6&quot;</span> <span class="comment"># dark mode</span></span><br><span class="line">  <span class="comment"># Specific style of the text</span></span><br><span class="line">  <span class="attr">text_style:</span> </span><br><span class="line">    <span class="comment"># Title font size</span></span><br><span class="line">    <span class="attr">title_size:</span> <span class="number">2.</span><span class="string">8rem</span></span><br><span class="line">    <span class="comment"># Subtitle font size</span></span><br><span class="line">    <span class="attr">subtitle_size:</span> <span class="number">1.</span><span class="string">5rem</span></span><br><span class="line">    <span class="comment"># Line height between title and subtitle</span></span><br><span class="line">    <span class="attr">line_height:</span> <span class="number">1.2</span></span><br><span class="line">  <span class="comment"># Home banner custom font</span></span><br><span class="line">  <span class="attr">custom_font:</span> </span><br><span class="line">    <span class="comment"># Whether to enable custom font</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># Font family</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="comment"># URL to font CSS file</span></span><br><span class="line">    <span class="attr">url:</span></span><br><span class="line">  <span class="comment"># Home banner social links</span></span><br><span class="line">  <span class="attr">social_links:</span></span><br><span class="line">    <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># Social links style</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">default</span> <span class="comment"># default, reverse, center</span></span><br><span class="line">    <span class="comment"># Social links</span></span><br><span class="line">    <span class="attr">links:</span></span><br><span class="line">      <span class="attr">github:</span>  <span class="comment"># your GitHub URL</span></span><br><span class="line">      <span class="attr">instagram:</span> <span class="comment"># your Instagram URL</span></span><br><span class="line">      <span class="attr">zhihu:</span>  <span class="comment"># your ZhiHu URL</span></span><br><span class="line">      <span class="attr">twitter:</span>  <span class="comment"># your twitter URL</span></span><br><span class="line">      <span class="attr">email:</span>  <span class="comment"># your email</span></span><br><span class="line">      <span class="comment"># ...... # you can add more</span></span><br><span class="line">    <span class="comment"># Social links with QRcode drawers</span></span><br><span class="line">    <span class="attr">qrs:</span></span><br><span class="line">      <span class="attr">weixin:</span>  <span class="comment"># your Wechat QRcode image URL</span></span><br><span class="line">      <span class="comment"># ...... # you can add more</span></span><br><span class="line"><span class="comment"># HOME BANNER &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># NAVIGATION BAR &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/home/navbar</span></span><br><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="comment"># Auto hide navbar</span></span><br><span class="line">  <span class="attr">auto_hide:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Navbar background color</span></span><br><span class="line">  <span class="attr">color:</span></span><br><span class="line">    <span class="attr">left:</span> <span class="string">&quot;#f78736&quot;</span> <span class="comment">#left side </span></span><br><span class="line">    <span class="attr">right:</span> <span class="string">&quot;#367df7&quot;</span>  <span class="comment">#right side</span></span><br><span class="line">    <span class="attr">transparency:</span> <span class="number">35</span> <span class="comment">#percent (10-99)</span></span><br><span class="line">  <span class="comment"># Navbar width (usually no need to modify)</span></span><br><span class="line">  <span class="attr">width:</span></span><br><span class="line">    <span class="attr">home:</span> <span class="string">1200px</span> <span class="comment">#home page</span></span><br><span class="line">    <span class="attr">pages:</span> <span class="string">1000px</span> <span class="comment">#other pages</span></span><br><span class="line">  <span class="comment"># Navbar links</span></span><br><span class="line">  <span class="attr">links:</span></span><br><span class="line">    <span class="attr">Home:</span> </span><br><span class="line">      <span class="attr">path:</span> <span class="string">/</span> </span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-house</span> <span class="comment"># can be empty</span></span><br><span class="line">    <span class="comment"># Archives: </span></span><br><span class="line">    <span class="comment">#   path: /archives </span></span><br><span class="line">    <span class="comment">#   icon: fa-regular fa-archive # can be empty</span></span><br><span class="line">    <span class="comment"># Status: </span></span><br><span class="line">    <span class="comment">#   path: https://status.ohevan.com/</span></span><br><span class="line">    <span class="comment">#   icon: fa-regular fa-chart-bar</span></span><br><span class="line">    <span class="comment"># About: </span></span><br><span class="line">    <span class="comment">#   icon: fa-regular fa-user</span></span><br><span class="line">    <span class="comment">#   submenus:</span></span><br><span class="line">    <span class="comment">#     Me: /about</span></span><br><span class="line">    <span class="comment">#     Github: https://github.com/EvanNotFound/hexo-theme-redefine</span></span><br><span class="line">    <span class="comment">#     Blog: https://ohevan.com</span></span><br><span class="line">    <span class="comment">#     Friends: /friends</span></span><br><span class="line">    <span class="comment"># Links: </span></span><br><span class="line">    <span class="comment">#   icon: fa-regular fa-link</span></span><br><span class="line">    <span class="comment">#   submenus:</span></span><br><span class="line">    <span class="comment">#     Link1: /link1</span></span><br><span class="line">    <span class="comment">#     Link2: /link2</span></span><br><span class="line">    <span class="comment">#     Link3: /link3</span></span><br><span class="line">    <span class="comment"># ...... # you can add more</span></span><br><span class="line">  <span class="comment"># Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb</span></span><br><span class="line">  <span class="attr">search:</span></span><br><span class="line">    <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># Preload search data when the page loads</span></span><br><span class="line">    <span class="attr">preload:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># NAVIGATION BAR &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># HOME PAGE ARTICLE SETTINGS &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/home/home</span></span><br><span class="line"><span class="attr">home:</span></span><br><span class="line">  <span class="comment"># Sidebar settings</span></span><br><span class="line">  <span class="attr">sidebar:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># Whether to enable sidebar</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">left</span> <span class="comment"># Sidebar position. left, right</span></span><br><span class="line">    <span class="attr">first_item:</span> <span class="string">menu</span> <span class="comment"># First item in sidebar. menu, info</span></span><br><span class="line">    <span class="attr">announcement:</span> <span class="comment"># Announcement text</span></span><br><span class="line">    <span class="attr">show_on_mobile:</span> <span class="literal">true</span> <span class="comment"># Whether to show sidebar navigation on mobile sheet menu</span></span><br><span class="line">    <span class="attr">links:</span></span><br><span class="line">      <span class="comment"># Archives: </span></span><br><span class="line">      <span class="comment">#   path: /archives </span></span><br><span class="line">      <span class="comment">#   icon: fa-regular fa-archive # can be empty</span></span><br><span class="line">      <span class="comment"># Tags: </span></span><br><span class="line">      <span class="comment">#   path: /tags </span></span><br><span class="line">      <span class="comment">#   icon: fa-regular fa-tags # can be empty</span></span><br><span class="line">      <span class="comment"># Categories: </span></span><br><span class="line">      <span class="comment">#   path: /categories </span></span><br><span class="line">      <span class="comment">#   icon: fa-regular fa-folder # can be empty</span></span><br><span class="line">      <span class="comment"># ...... # you can add more</span></span><br><span class="line">  <span class="comment"># Article date format</span></span><br><span class="line">  <span class="attr">article_date_format:</span> <span class="string">auto</span> <span class="comment"># auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.</span></span><br><span class="line">  <span class="comment"># Article categories visibility</span></span><br><span class="line">  <span class="attr">categories:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">3</span> <span class="comment"># Max number of categories to display</span></span><br><span class="line">  <span class="comment"># Article tags visibility</span></span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">3</span>  <span class="comment"># Max number of tags to display</span></span><br><span class="line"><span class="comment"># HOME PAGE ARTICLE SETTINGS &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># ARTICLE &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/posts/articles</span></span><br><span class="line"><span class="attr">articles:</span></span><br><span class="line">  <span class="comment"># Set the styles of the article</span></span><br><span class="line">  <span class="attr">style:</span></span><br><span class="line">    <span class="attr">font_size:</span> <span class="string">16px</span> <span class="comment"># Font size</span></span><br><span class="line">    <span class="attr">line_height:</span> <span class="number">1.5</span> <span class="comment"># Line height</span></span><br><span class="line">    <span class="attr">image_border_radius:</span> <span class="string">14px</span> <span class="comment"># image border radius</span></span><br><span class="line">    <span class="attr">image_alignment:</span> <span class="string">center</span> <span class="comment"># image alignment. left, center</span></span><br><span class="line">    <span class="attr">image_caption:</span> <span class="literal">false</span> <span class="comment"># Whether to display image caption</span></span><br><span class="line">    <span class="attr">link_icon:</span> <span class="literal">true</span> <span class="comment"># Whether to display link icon</span></span><br><span class="line">    <span class="attr">title_alignment:</span> <span class="string">left</span> <span class="comment"># Title alignment. left, center</span></span><br><span class="line">    <span class="attr">headings_top_spacing:</span> <span class="comment"># Top spacing for headings from h1-h6</span></span><br><span class="line">      <span class="attr">h1:</span> <span class="string">5rem</span></span><br><span class="line">      <span class="attr">h2:</span> <span class="string">4rem</span></span><br><span class="line">      <span class="attr">h3:</span> <span class="number">2.</span><span class="string">8rem</span></span><br><span class="line">      <span class="attr">h4:</span> <span class="number">2.</span><span class="string">5rem</span></span><br><span class="line">      <span class="attr">h5:</span> <span class="number">2.</span><span class="string">2rem</span></span><br><span class="line">      <span class="attr">h6:</span> <span class="string">2rem</span></span><br><span class="line">  <span class="comment"># Word count. Requires hexo-wordcount (npm install hexo-wordcount). See https://github.com/willin/hexo-wordcount</span></span><br><span class="line">  <span class="attr">word_count:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">count:</span> <span class="literal">true</span> <span class="comment"># Whether to display word count</span></span><br><span class="line">    <span class="attr">min2read:</span> <span class="literal">true</span> <span class="comment"># Whether to display reading time</span></span><br><span class="line">  <span class="comment"># Author label</span></span><br><span class="line">  <span class="attr">author_label:</span> </span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">auto:</span> <span class="literal">false</span> <span class="comment"># Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...</span></span><br><span class="line">    <span class="attr">list:</span> []</span><br><span class="line">  <span class="comment"># Code block settings</span></span><br><span class="line">  <span class="attr">code_block:</span></span><br><span class="line">    <span class="attr">copy:</span> <span class="literal">true</span> <span class="comment"># Whether to enable code block copy button</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">mac</span> <span class="comment"># mac | simple</span></span><br><span class="line">    <span class="attr">font:</span> <span class="comment"># Custom font</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable</span></span><br><span class="line">      <span class="attr">family:</span> <span class="comment"># Font family</span></span><br><span class="line">      <span class="attr">url:</span> <span class="comment"># Font URL to CSS file</span></span><br><span class="line">  <span class="comment"># Table of contents settings</span></span><br><span class="line">  <span class="attr">toc:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># Whether to enable TOC</span></span><br><span class="line">    <span class="attr">max_depth:</span> <span class="number">3</span> <span class="comment"># TOC depth</span></span><br><span class="line">    <span class="attr">number:</span> <span class="literal">false</span> <span class="comment"># Whether to add number to TOC automatically</span></span><br><span class="line">    <span class="attr">expand:</span> <span class="literal">true</span> <span class="comment"># Whether to expand TOC</span></span><br><span class="line">    <span class="attr">init_open:</span> <span class="literal">true</span> <span class="comment"># Open toc by default</span></span><br><span class="line">  <span class="comment"># Whether to enable copyright notice</span></span><br><span class="line">  <span class="attr">copyright:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">default:</span> <span class="string">cc_by_nc_sa</span> <span class="comment"># Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain</span></span><br><span class="line">  <span class="comment"># Whether to enable lazyload for images</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.</span></span><br><span class="line">  <span class="attr">recommendation:</span></span><br><span class="line">    <span class="comment"># Whether to enable article recommendation</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># Article recommendation title</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">推荐阅读</span></span><br><span class="line">    <span class="comment"># Max number of articles to display</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">3</span></span><br><span class="line">    <span class="comment"># Max number of articles to display mobile</span></span><br><span class="line">    <span class="attr">mobile_limit:</span> <span class="number">2</span></span><br><span class="line">    <span class="comment"># Placeholder image</span></span><br><span class="line">    <span class="attr">placeholder:</span> <span class="string">/images/2024/wallhaven-wqery6-light.webp</span></span><br><span class="line">    <span class="comment"># Skip directory</span></span><br><span class="line">    <span class="attr">skip_dirs:</span> []</span><br><span class="line"><span class="comment"># ARTICLE &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># COMMENT &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/posts/comment</span></span><br><span class="line"><span class="attr">comment:</span></span><br><span class="line">  <span class="comment"># Whether to enable comment</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Comment system</span></span><br><span class="line">  <span class="attr">system:</span> <span class="string">waline</span> <span class="comment"># waline, gitalk, twikoo, giscus</span></span><br><span class="line">  <span class="comment"># System configuration</span></span><br><span class="line">  <span class="attr">config:</span></span><br><span class="line">    <span class="comment"># Waline comment system. See https://waline.js.org/</span></span><br><span class="line">    <span class="attr">waline:</span></span><br><span class="line">      <span class="attr">serverUrl:</span> <span class="string">https://example.example.com</span> <span class="comment"># Waline server URL. e.g. https://example.example.com</span></span><br><span class="line">      <span class="attr">lang:</span> <span class="string">zh-CN</span> <span class="comment"># Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html</span></span><br><span class="line">      <span class="attr">emoji:</span> [] <span class="comment"># Waline emojis, see https://waline.js.org/guide/features/emoji.html</span></span><br><span class="line">      <span class="attr">recaptchaV3Key:</span> <span class="string">wasd</span> <span class="comment"># Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key</span></span><br><span class="line">      <span class="attr">turnstileKey:</span> <span class="comment"># Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey</span></span><br><span class="line">    <span class="comment"># Gitalk comment system. See https://github.com/gitalk/gitalk</span></span><br><span class="line">    <span class="attr">gitalk:</span></span><br><span class="line">      <span class="attr">clientID:</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">      <span class="attr">clientSecret:</span> <span class="comment"># GitHub Application Client Secret</span></span><br><span class="line">      <span class="attr">repo:</span> <span class="comment"># GitHub repository</span></span><br><span class="line">      <span class="attr">owner:</span> <span class="comment"># GitHub repository owner</span></span><br><span class="line">      <span class="attr">proxy:</span> <span class="comment"># GitHub repository proxy</span></span><br><span class="line">    <span class="comment"># Twikoo comment system. See https://twikoo.js.org/</span></span><br><span class="line">    <span class="attr">twikoo:</span></span><br><span class="line">      <span class="attr">version:</span> <span class="number">1.6</span><span class="number">.10</span> <span class="comment"># Twikoo version, do not modify if you dont know what it is</span></span><br><span class="line">      <span class="attr">server_url:</span> <span class="comment"># Twikoo server URL. e.g. https://example.example.com</span></span><br><span class="line">      <span class="attr">region:</span> <span class="comment"># Twikoo region. can be empty</span></span><br><span class="line">    <span class="comment"># Giscus comment system. See https://giscus.app/</span></span><br><span class="line">    <span class="attr">giscus:</span></span><br><span class="line">      <span class="attr">repo:</span> <span class="comment"># Github repository name e.g. EvanNotFound/hexo-theme-redefine</span></span><br><span class="line">      <span class="attr">repo_id:</span> <span class="comment"># Github repository id</span></span><br><span class="line">      <span class="attr">category:</span> <span class="comment"># Github discussion category</span></span><br><span class="line">      <span class="attr">category_id:</span> <span class="comment"># Github discussion category id</span></span><br><span class="line">      <span class="attr">mapping:</span> <span class="string">pathname</span> <span class="comment"># Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes</span></span><br><span class="line">      <span class="attr">strict:</span> <span class="number">0</span> <span class="comment"># Whether to enable strict mode. e.g. 0, 1</span></span><br><span class="line">      <span class="attr">reactions_enabled:</span> <span class="number">1</span> <span class="comment"># Whether to enable reactions. e.g. 0, 1</span></span><br><span class="line">      <span class="attr">emit_metadata:</span> <span class="number">0</span> <span class="comment"># Whether to emit metadata. e.g. 0, 1</span></span><br><span class="line">      <span class="attr">lang:</span> <span class="string">en</span> <span class="comment"># Giscus language. e.g. en, zh-CN, zh-TW</span></span><br><span class="line">      <span class="attr">input_position:</span> <span class="string">bottom</span> <span class="comment"># Place the comment box above/below the comments. e.g. top, bottom</span></span><br><span class="line">      <span class="attr">loading:</span> <span class="string">lazy</span> <span class="comment"># Load the comments lazily</span></span><br><span class="line"><span class="comment"># COMMENT &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># FOOTER &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/footer</span></span><br><span class="line"><span class="attr">footer:</span></span><br><span class="line">  <span class="comment"># Show website running time</span></span><br><span class="line">  <span class="attr">runtime:</span> <span class="literal">true</span> <span class="comment"># show website running time or not</span></span><br><span class="line">  <span class="comment"># Icon in footer, write fontawesome icon code here</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">&#x27;&lt;i class=&quot;fa-solid fa-heart fa-beat&quot; style=&quot;--fa-animation-duration: 0.5s; color: #f54545&quot;&gt;&lt;/i&gt;&#x27;</span></span><br><span class="line">  <span class="comment"># The start time of the website, format: YYYY/MM/DD HH:mm:ss</span></span><br><span class="line">  <span class="attr">start:</span> <span class="number">2022</span><span class="string">/8/17</span> <span class="number">11</span><span class="string">:45:14</span></span><br><span class="line">  <span class="comment"># Site statistics</span></span><br><span class="line">  <span class="attr">statistics:</span> <span class="literal">true</span> <span class="comment"># show site statistics or not (total articles, total words)</span></span><br><span class="line">  <span class="comment"># Footer message</span></span><br><span class="line">  <span class="attr">customize:</span></span><br><span class="line">  <span class="comment"># ICP record number. See https://beian.miit.gov.cn/</span></span><br><span class="line">  <span class="attr">icp:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">number:</span> <span class="comment"># ICP record number</span></span><br><span class="line">    <span class="attr">url:</span> <span class="comment"># ICP record url</span></span><br><span class="line"><span class="comment"># FOOTER &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># INJECT &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/inject</span></span><br><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="comment"># Whether to enable inject</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Inject custom head html code</span></span><br><span class="line">  <span class="attr">head:</span> </span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">  <span class="comment"># Inject custom footer html code</span></span><br><span class="line">  <span class="attr">footer:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line"><span class="comment"># INJECT &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># PLUGINS &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/plugins</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="comment"># RSS feed. Requires hexo-generator-feed (npm i hexo-generator-feed). See https://github.com/hexojs/hexo-generator-feed</span></span><br><span class="line">  <span class="attr">feed:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable</span></span><br><span class="line">  <span class="comment"># Aplayer. See https://github.com/DIYgod/APlayer</span></span><br><span class="line">  <span class="attr">aplayer:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">fixed</span> <span class="comment"># fixed, mini</span></span><br><span class="line">    <span class="attr">audios:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="comment"># audio name</span></span><br><span class="line">        <span class="attr">artist:</span> <span class="comment"># audio artist</span></span><br><span class="line">        <span class="attr">url:</span> <span class="comment"># audio url</span></span><br><span class="line">        <span class="attr">cover:</span> <span class="comment"># audio cover url</span></span><br><span class="line">        <span class="attr">lrc:</span> <span class="comment"># audio cover lrc</span></span><br><span class="line"><span class="comment">#      - name: # audio name</span></span><br><span class="line"><span class="comment">#        artist: # audio artist</span></span><br><span class="line"><span class="comment">#        url: # audio url</span></span><br><span class="line"><span class="comment">#        cover: # audio cover url</span></span><br><span class="line"><span class="comment">#        lrc: # audio cover lrc</span></span><br><span class="line">      <span class="comment"># .... you can add more audios here</span></span><br><span class="line">  <span class="comment"># Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/</span></span><br><span class="line">  <span class="attr">mermaid:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># enable mermaid or not</span></span><br><span class="line">    <span class="attr">version:</span> <span class="string">&quot;9.3.0&quot;</span> <span class="comment"># default v9.3.0</span></span><br><span class="line"><span class="comment"># PLUGINS &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># PAGE TEMPLATES &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/page_templates</span></span><br><span class="line"><span class="attr">page_templates:</span></span><br><span class="line">  <span class="comment"># Friend Links page column number</span></span><br><span class="line">  <span class="attr">friends_column:</span> <span class="number">2</span></span><br><span class="line">  <span class="comment"># Tags page style</span></span><br><span class="line">  <span class="attr">tags_style:</span> <span class="string">blur</span> <span class="comment"># blur, cloud</span></span><br><span class="line"><span class="comment"># PAGE TEMPLATES &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># CDN &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/cdn</span></span><br><span class="line"><span class="attr">cdn:</span></span><br><span class="line">  <span class="comment"># Whether to enable CDN</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># CDN Provider</span></span><br><span class="line">  <span class="attr">provider:</span> <span class="string">staticfile</span> <span class="comment"># staticfile, bootcdn, cdnjs, jsdelivr, unpkg, custom</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># format example: https://cdn.custom.com/hexo-theme-redefine/$&#123;version&#125;/source/$&#123;path&#125;</span></span><br><span class="line">  <span class="comment"># The $&#123;path&#125; must be in the source folder of the theme</span></span><br><span class="line">  <span class="attr">custom_url:</span> </span><br><span class="line"><span class="comment"># CDN &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># DEVELOPER MODE &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; start</span></span><br><span class="line"><span class="comment"># Docs: https://redefine-docs.ohevan.com/developer</span></span><br><span class="line"><span class="attr">developer:</span></span><br><span class="line">  <span class="comment"># Whether to enable developer mode (only for developers who want to modify the theme source code, not for ordinary users)</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># DEVELOPER MODE &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; end</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="测试主题"><a href="#测试主题" class="headerlink" title="测试主题"></a>测试主题</h4><p>完成如上配置后，首先请保证你的文件目录存放位置是否正确，具体如下：</p>
+<p><img loading="lazy" src="/images/2024/0424/7.jpg"></p>
+<p>仅需在终端下执行如下命令，即可看到切换好的主题：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、配置主题"><a href="#二、配置主题" class="headerlink" title="二、配置主题"></a>二、配置主题</h3><p>以下配置均在 <code>_config.redefine.yml</code> 文件中完成，具体可参见<a class="link"   target="_blank" rel="noopener" href="https://redefine-docs.ohevan.com/basic" >官方配置教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，这里就仅仅介绍部分比较需要配置的部分了</p>
+<blockquote>
+<p>PS：这里不是作者偷懒，是因为配置项太多了，实在有点没有啥精力讲完。</p>
+</blockquote>
+<h4 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h4><p>首先，你需要为自己的网站设置好标题、作者名以及其它的必要信息，具体可以看我的配置：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">info:</span></span><br><span class="line">  <span class="comment"># 站点名称</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">CatIsNotFound</span></span><br><span class="line">  <span class="comment"># 作者名称</span></span><br><span class="line">  <span class="attr">author:</span> <span class="string">CatIsNotFound</span></span><br><span class="line">  <span class="comment"># 此处指向自己的 Github Page 链接</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://catisnotfound.github.io/</span> </span><br><span class="line">  </span><br><span class="line"><span class="attr">defaults:</span></span><br><span class="line">  <span class="comment"># Favicon</span></span><br><span class="line">  <span class="attr">favicon:</span> <span class="string">/images/2024/redefine-favicon.svg</span> <span class="comment"># 默认的图标，暂时不改</span></span><br><span class="line">  <span class="comment"># Site logo</span></span><br><span class="line">  <span class="attr">logo:</span> 			<span class="comment"># 目前作者暂时没有设计博客图标，可以先空着</span></span><br><span class="line">  <span class="comment"># Site avatar</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">&lt;建议直接从</span> <span class="string">GitHub</span> <span class="string">上获取自己的头像链接&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="attr">colors:</span></span><br><span class="line">  <span class="comment"># 这里可以选择网站的主色调，建议使用取色器来选择</span></span><br><span class="line">  <span class="attr">primary:</span> <span class="string">&quot;#A31F34&quot;</span></span><br><span class="line">  <span class="comment"># 此处可不选，因为作用不大</span></span><br><span class="line">  <span class="attr">secondary:</span></span><br><span class="line">  <span class="comment"># 这里的默认主题可以选择亮色或暗色</span></span><br><span class="line">  <span class="attr">default_mode:</span> <span class="string">light</span> <span class="comment"># light, dark</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="首页-Banner"><a href="#首页-Banner" class="headerlink" title="首页 Banner"></a>首页 Banner</h4><p>通过如下图一个个比较</p>
+<p><img loading="lazy" src="/images/2024/0424/4.jpg"></p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">home_banner:</span></span><br><span class="line">  <span class="comment"># 选择是否显示首页 Banner</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 样式选择默认</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">fixed</span> <span class="comment"># static or fixed</span></span><br><span class="line">  <span class="comment"># 首页 Banner 图片，这里选择了在线的 URL</span></span><br><span class="line">  <span class="attr">image:</span> </span><br><span class="line">    <span class="attr">light:</span> <span class="string">https://files.codelife.cc/wallhaven/full/g7/wallhaven-g75r7d.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp</span> <span class="comment"># 亮色模式下显示第一张图片</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">https://files.codelife.cc/wallpaper/wallspic/167264.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp</span> <span class="comment"># 暗色模式下显示另一种图片</span></span><br><span class="line">  <span class="comment"># 网站标题</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">&lt;你的网站标题&gt;</span></span><br><span class="line">  <span class="comment"># 子标题</span></span><br><span class="line">  <span class="attr">subtitle:</span></span><br><span class="line">    <span class="comment"># 这里可以选择轮换文本内容</span></span><br><span class="line">    <span class="attr">text:</span> [</span><br><span class="line">      <span class="string">&#x27;随心所欲地享受每一天\(￣︶￣*\))&#x27;</span>, </span><br><span class="line">      <span class="string">&#x27;随时随地，浏览记录O(∩_∩)O&#x27;</span>, </span><br><span class="line">      <span class="string">&#x27;如果喜欢，建议给个支持( •̀ ω •́ )✧&#x27;</span>,</span><br><span class="line">      <span class="string">&#x27;喜欢的话，留个言好嘛(oﾟvﾟ)ノ&#x27;</span>,</span><br><span class="line">      <span class="string">&#x27;你有建议？反馈作者(●^◡^●)&#x27;</span>,</span><br><span class="line">      <span class="string">&#x27;欢迎来到我的博客(｡･∀･)ﾉﾞ&#x27;</span>,</span><br><span class="line">      <span class="string">&#x27;文字正在不断轮换(*￣3￣)╭&#x27;</span>,</span><br><span class="line">      <span class="string">&#x27;正在努力更新博客(ง •_•)ง&#x27;</span>,</span><br><span class="line">      <span class="string">&#x27;正在不断努力改善博客中ε=( o｀ω′)ノ&#x27;</span></span><br><span class="line">      ] <span class="comment"># 通过列表的形式，按顺序轮换文字</span></span><br><span class="line">    <span class="comment"># 这里也可使用附加的插件，但个人觉得不大好用</span></span><br><span class="line">    <span class="attr">hitokoto:</span>  <span class="comment"># 一言配置</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># Whether to enable hitokoto</span></span><br><span class="line">      <span class="attr">api:</span> <span class="string">https://v1.hitokoto.cn</span> <span class="comment"># API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0</span></span><br><span class="line">    <span class="attr">typing_speed:</span> <span class="number">150</span> <span class="comment"># Typing speed (ms)</span></span><br><span class="line">    <span class="attr">backing_speed:</span> <span class="number">30</span> <span class="comment"># Backing speed (ms)</span></span><br><span class="line">    <span class="attr">starting_delay:</span> <span class="number">1000</span> <span class="comment"># Start delay (ms)</span></span><br><span class="line">    <span class="attr">backing_delay:</span> <span class="number">3000</span> <span class="comment"># Backing delay (ms)</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="literal">true</span> <span class="comment"># Whether to loop</span></span><br><span class="line">    <span class="attr">smart_backspace:</span> <span class="literal">true</span> <span class="comment"># Whether to smart backspace</span></span><br><span class="line">  <span class="comment"># 设置亮/暗色模式下文本的颜色</span></span><br><span class="line">  <span class="attr">text_color:</span> </span><br><span class="line">    <span class="attr">light:</span> <span class="string">&quot;#101010&quot;</span> <span class="comment"># light mode</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">&quot;#d1d1b6&quot;</span> <span class="comment"># dark mode</span></span><br><span class="line">  <span class="comment"># 后面可以保持默认</span></span><br><span class="line">  <span class="attr">text_style:</span> </span><br><span class="line">    <span class="comment"># Title font size</span></span><br><span class="line">    <span class="attr">title_size:</span> <span class="number">2.</span><span class="string">8rem</span></span><br><span class="line">    <span class="comment"># Subtitle font size</span></span><br><span class="line">    <span class="attr">subtitle_size:</span> <span class="number">1.</span><span class="string">5rem</span></span><br><span class="line">    <span class="comment"># Line height between title and subtitle</span></span><br><span class="line">    <span class="attr">line_height:</span> <span class="number">1.2</span></span><br><span class="line">  <span class="comment"># 设置自定义字体</span></span><br><span class="line">  <span class="attr">custom_font:</span> </span><br><span class="line">    <span class="comment"># Whether to enable custom font</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># Font family</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="comment"># URL to font CSS file</span></span><br><span class="line">    <span class="attr">url:</span></span><br><span class="line">  <span class="comment"># 这里可以设置自己的个人社交链接</span></span><br><span class="line">  <span class="attr">social_links:</span></span><br><span class="line">    <span class="comment"># 是否显示自己的个人链接</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># 选择展示的样式</span></span><br><span class="line">    <span class="attr">style:</span> <span class="string">default</span> <span class="comment"># default, reverse, center</span></span><br><span class="line">    <span class="comment"># 具体的社交链接</span></span><br><span class="line">    <span class="attr">links:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">https://github.com/CatIsNotFound</span> <span class="comment"># your GitHub URL</span></span><br><span class="line">      <span class="attr">bilibili:</span> <span class="string">https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0</span> <span class="comment"># My Bilibili</span></span><br><span class="line">      <span class="attr">zhihu:</span>  <span class="string">https://www.zhihu.com/people/catisnotfound</span> <span class="comment"># your ZhiHu URL</span></span><br><span class="line">      <span class="attr">twitter:</span>  <span class="comment"># your twitter URL</span></span><br><span class="line">      <span class="attr">email:</span>  <span class="string">liaoxinkai0408@outlook.com</span> <span class="comment"># your email</span></span><br><span class="line">      <span class="attr">instagram:</span> <span class="comment"># your Instagram URL</span></span><br><span class="line">      <span class="comment"># ...... # you can add more</span></span><br><span class="line">    <span class="comment"># 还可以通过二维码的形式来显示，这里最好用在线 URL 会好一点</span></span><br><span class="line">    <span class="attr">qrs:</span></span><br><span class="line">      <span class="attr">weixin:</span>  <span class="comment"># your Wechat QRcode image URL</span></span><br><span class="line">      <span class="comment"># ...... # you can add more</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h4><p><img loading="lazy" src="/images/2024/0424/5.jpg"></p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="comment"># 是否自动隐藏导航栏</span></span><br><span class="line">  <span class="attr">auto_hide:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 导航栏的背景颜色</span></span><br><span class="line">  <span class="attr">color:</span></span><br><span class="line">    <span class="attr">left:</span> <span class="string">&quot;#f78736&quot;</span> <span class="comment">#left side </span></span><br><span class="line">    <span class="attr">right:</span> <span class="string">&quot;#367df7&quot;</span>  <span class="comment">#right side</span></span><br><span class="line">    <span class="attr">transparency:</span> <span class="number">35</span> <span class="comment">#percent (10-99)</span></span><br><span class="line">  <span class="comment"># 导航栏的宽度</span></span><br><span class="line">  <span class="attr">width:</span></span><br><span class="line">    <span class="attr">home:</span> <span class="string">1200px</span> <span class="comment">#home page</span></span><br><span class="line">    <span class="attr">pages:</span> <span class="string">1000px</span> <span class="comment">#other pages</span></span><br><span class="line">  <span class="comment"># 设置导航栏的链接</span></span><br><span class="line">  <span class="attr">links:</span></span><br><span class="line">    <span class="attr">Home:</span> </span><br><span class="line">      <span class="attr">path:</span> <span class="string">/</span> </span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-house</span> <span class="comment"># can be empty</span></span><br><span class="line">    <span class="attr">Archives:</span> </span><br><span class="line">      <span class="attr">path:</span> <span class="string">/archives</span> </span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-archive</span> <span class="comment"># can be empty</span></span><br><span class="line">    <span class="attr">Categories:</span></span><br><span class="line">      <span class="attr">path:</span> <span class="string">/categories</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-list</span></span><br><span class="line">    <span class="attr">ShuoShuo:</span> </span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-comment-dots</span></span><br><span class="line">      <span class="attr">path:</span> <span class="string">/shuoshuo</span></span><br><span class="line">    <span class="attr">Links:</span> </span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-link</span></span><br><span class="line">      <span class="attr">submenus:</span></span><br><span class="line">        <span class="attr">Github:</span> <span class="string">https://github.com/CatIsNotFound</span></span><br><span class="line">        <span class="attr">Zhihu:</span> <span class="string">https://www.zhihu.com/people/catisnotfound</span></span><br><span class="line">        <span class="attr">Bilibili:</span> <span class="string">https://space.bilibili.com/1896645285</span></span><br><span class="line">    <span class="attr">Github:</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-brands</span> <span class="string">fa-github</span></span><br><span class="line">      <span class="attr">path:</span> <span class="string">https://github.com/CatIsNotFound/CatIsNotFound.github.io</span></span><br><span class="line">  <span class="comment"># 搜索功能</span></span><br><span class="line">  <span class="attr">search:</span></span><br><span class="line">    <span class="comment"># 是否显示搜索按钮</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># 页面加载时是否先加载搜索数据</span></span><br><span class="line">    <span class="attr">preload:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="侧边栏"><a href="#侧边栏" class="headerlink" title="侧边栏"></a>侧边栏</h4><p><img loading="lazy" src="/images/2024/0424/6.jpg"></p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">home:</span></span><br><span class="line">  <span class="comment"># 侧边栏</span></span><br><span class="line">  <span class="attr">sidebar:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 是否显示侧边栏</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">left</span> <span class="comment"># 显示位置，只能为 left 或 right</span></span><br><span class="line">    <span class="attr">first_item:</span> <span class="string">menu</span> <span class="comment"># 优先显示菜单还是作者信息. menu, info</span></span><br><span class="line">    <span class="attr">announcement:</span> <span class="comment"># Announcement text</span></span><br><span class="line">    <span class="attr">show_on_mobile:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">links:</span></span><br><span class="line">      <span class="attr">Archives:</span> </span><br><span class="line">        <span class="attr">path:</span> <span class="string">/archives</span> </span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-archive</span> <span class="comment"># 图标可以为空</span></span><br><span class="line">      <span class="attr">Gallery:</span></span><br><span class="line">        <span class="attr">path:</span> <span class="string">/masonry</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-image</span></span><br><span class="line">      <span class="attr">Tags:</span> </span><br><span class="line">        <span class="attr">path:</span> <span class="string">/tags</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-tags</span> </span><br><span class="line">      <span class="attr">Categories:</span> </span><br><span class="line">        <span class="attr">path:</span> <span class="string">/categories</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fa-regular</span> <span class="string">fa-folder</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-triangle-exclamation"></i><p>需要注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>​	这里的 <code>/masonry</code> 、<code>/tags</code>、<code>/categories</code>、<code>/shuoshuo</code> 均需要自己创建，若需创建，仅需在终端中执行如下：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new page masonry</span><br><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br><span class="line">hexo new page shuoshuo</span><br></pre></td></tr></table></figure></div>
+
+<p>关于相对应的模块，请根据自己的需求，查看<a href="#%E4%B8%89%E3%80%81%E8%AE%BE%E5%AE%9A%E6%A8%A1%E5%9D%97">下一节：设定模块</a>。</p>
+
+    </div>
+  </div>
+
+<h3 id="三、设定模块"><a href="#三、设定模块" class="headerlink" title="三、设定模块"></a>三、设定模块</h3><h4 id="1-Tags-标签、Categories-分类"><a href="#1-Tags-标签、Categories-分类" class="headerlink" title="1. Tags 标签、Categories 分类"></a>1. Tags 标签、Categories 分类</h4><h5 id="创建标签、分类页面"><a href="#创建标签、分类页面" class="headerlink" title="创建标签、分类页面"></a>创建标签、分类页面</h5><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="更改样式"><a href="#更改样式" class="headerlink" title="更改样式"></a>更改样式</h5><p>在 <code>_config.redefine.yml</code> 文件中的 <code>page_templates</code> 配置项里面更改 <code>tags_style</code>。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">page_templates:</span><br><span class="line"><span class="meta prompt_">  # </span><span class="language-bash">Tags page style</span></span><br><span class="line">  tags_style: blur # blur, cloud</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="2-相册-瀑布流"><a href="#2-相册-瀑布流" class="headerlink" title="2. 相册 &#x2F; 瀑布流"></a>2. 相册 &#x2F; 瀑布流</h4><h5 id="创建相册页面"><a href="#创建相册页面" class="headerlink" title="创建相册页面"></a>创建相册页面</h5><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new page masonry</span><br><span class="line">hexo new page gallery</span><br><span class="line">hexo new page photos</span><br></pre></td></tr></table></figure></div>
+
+<p>以上三个名称均可被匹配成同一页面</p>
+<h5 id="如何编辑相册页面"><a href="#如何编辑相册页面" class="headerlink" title="如何编辑相册页面"></a>如何编辑相册页面</h5><p>在你的 Hexo 项目的 <code>source</code> 文件夹里增加 <code>_data</code> 文件夹（如果已有则跳过）</p>
+<p>在 <code>_data</code> 文件夹下新增 <code>masonry.yml</code> 文件。</p>
+<p>在 <code>masonry.yml</code> 文件里面按照如下格式配置相册信息：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">image:</span> <span class="string">图片</span> <span class="string">URL</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">图片标题</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">Lorem</span> <span class="string">ipsum</span> <span class="string">dolor</span> <span class="string">sit</span> <span class="string">amet,</span> <span class="string">consectetur</span> <span class="string">adipiscing</span> <span class="string">elit.</span> <span class="string">Donec</span> <span class="string">euismod</span></span><br><span class="line"> </span><br><span class="line"><span class="bullet">-</span> <span class="attr">image:</span> <span class="string">https://picsum.photos/id/12/2500/1800</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">Lorem</span> <span class="string">ipsum</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">Lorem</span> <span class="string">ipsum</span> <span class="string">dolor</span> <span class="string">sit</span> <span class="string">amet</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="3-说说"><a href="#3-说说" class="headerlink" title="3. 说说"></a>3. 说说</h4><h5 id="创建说说页面"><a href="#创建说说页面" class="headerlink" title="创建说说页面"></a>创建说说页面</h5><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page shuoshuo</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="如何编辑说说"><a href="#如何编辑说说" class="headerlink" title="如何编辑说说"></a>如何编辑说说</h5><p>在你的 Hexo 项目的 <code>source</code> 文件夹里增加 <code>_data</code> 文件夹（如果已有则跳过）</p>
+<p>在 <code>_data</code> 文件夹下新增 <code>essays.yml</code> 文件。</p>
+<p>在 <code>essays.yml</code> 文件里面按照如下格式配置相册信息：</p>
+<div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">content:</span> <span class="string">各位如果有什么建议，欢迎各位通过知乎、B站、Github</span> <span class="string">私聊作者😊</span></span><br><span class="line">  <span class="attr">date:</span> <span class="number">2024-04-24 00:20:00</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">content:</span> <span class="string">|</span></span><br><span class="line"><span class="string">    这里是【说说】，在这里都是关于我的所有感悟和留言(*^_^*)</span></span><br><span class="line"><span class="string">    如果你是第一个来看我博客的访客，可以在此处留言哦</span></span><br><span class="line"><span class="string">    目前暂时没有过多的内容，后期会尽可能多更新点博客(ง •_•)ง</span></span><br><span class="line"><span class="string"></span>  <span class="attr">date:</span> <span class="number">2024-04-24 00:20:00</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="4-评论"><a href="#4-评论" class="headerlink" title="4. 评论"></a>4. 评论</h4><p>关于这一块，个人通过官方文档研究了各种各样的方法，最终找到了最佳的方法(*^_^*)，具体参考方法如下：</p>
+<ol>
+<li><p>通过 <a class="link"   target="_blank" rel="noopener" href="https://waline.js.org/guide/deploy/deta.html" >Deta 部署 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 评论系统，只需要注册 Deta 账号并下载安装即可完成。</p>
+ 
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-circle-info"></i><p><strong>需要注意的是:</strong></p>
+<p>其中的 <code>serverUrl</code> 是在 <a class="link"   target="_blank" rel="noopener" href="https://deta.space/" >https://deta.space/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 首页上打开 Waline 应用，点击后会打开部署后的网站地址。将其填入 <code>serverUrl</code> 配置中，即可完成全部配置</p>
+
+  </div>
+</li>
+<li><p>在 <code>_config.redefine.yml</code> 文件下找到如下内容并修改你获得到的 <code>serverUrl</code></p>
+ <div class="highlight-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">comment:</span></span><br><span class="line">  <span class="attr">config:</span></span><br><span class="line">    <span class="attr">waline:</span></span><br><span class="line">      <span class="attr">serverUrl:</span> <span class="string">https://example.example.com</span> <span class="comment">#你拿到的 serverUrl</span></span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<p>这是以上的所有内容，后期还会继续在本文中补充 (*^_^*)~</p>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> 搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客</li>
+        <li><strong>作者:</strong> CatIsNotFound</li>
+        <li><strong>创建于
+                :</strong> 2024-04-24 14:44:21</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-06-11 15:53:03
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://catisnotfound.github.io/2024/04/24/搭建个人博客（二）：如何详细配置-Hexo-使用-Rendefine-主题美化博客/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">#博客搭建</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Hexo/">#Hexo</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">Linux Shell 基础命令速查表（非完整版）</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">如何在命令行下使用 Git？</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://waline-1-u8595044.deta.app/',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: true,
+          requiredMeta: ['nick', 'mail'],
+          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/bmoji','https://unpkg.com/@waline/emojis@1.2.0/weibo','https://unpkg.com/@waline/emojis@1.2.0/qq','https://unpkg.com/@waline/emojis@1.2.0/soul-emoji','https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E8%BF%B0"><span class="nav-text">概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-%E9%85%8D%E7%BD%AE"><span class="nav-text">Hexo 配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE"><span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%9B%B4%E6%8D%A2%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98"><span class="nav-text">如何更换默认主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-%E8%AE%BE%E7%BD%AE"><span class="nav-text">Deploy 设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95"><span class="nav-text">测试</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redefine-%E7%BE%8E%E5%8C%96%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="nav-text">Redefine 美化主题配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%AE%89%E8%A3%85%E5%92%8C%E6%B5%8B%E8%AF%95%E4%B8%BB%E9%A2%98%EF%BC%9A"><span class="nav-text">一、安装和测试主题：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98"><span class="nav-text">二、配置主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E8%AE%BE%E5%AE%9A%E6%A8%A1%E5%9D%97"><span class="nav-text">三、设定模块</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">CatIsNotFound</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共 20 篇文章
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.6.4</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/Swup.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupSlideTheme.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupProgressPlugin.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupScrollPlugin.min.js"></script><script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/SwupPreloadPlugin.min.js"></script>
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+<script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/imageViewer.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/utils.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/main.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/layouts/navbarShrink.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/scrollTopBottom.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/lightDarkSwitch.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/layouts/categoryList.js"></script>
+
+
+    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/localSearch.js"></script>
+
+
+
+    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/codeBlock.js"></script>
+
+
+
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/runtime.js"></script>
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/odometer.min.js"></script>
+    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/assets/odometer-theme-minimal.css">
+
+
+
+  <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/Typed.min.js"></script>
+  <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/typed.js"></script>
+
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/mermaid.min.js"></script>
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/mermaid.js"></script>
+
+
+
+    <script src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/libs/minimasonry.min.js"></script>
+    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/masonry.js"></script>
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/tools/tocToggle.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/layouts/toc.js"></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.6.4/files/source/js/plugins/tabs.js"></script>
+    
+</div>
+
+
+<script>
+    if(!('loading' in HTMLImageElement.prototype)) {
+        const srp = document.createElement('script');
+        srp.src = 'https://cdn.jsdelivr.net/npm/lazysizes@5.1.1/lazysizes.min.js';
+        document.body.append(srp);
+        const imgs = document.querySelectorAll('img');
+        imgs.forEach(el => {
+            el.setAttribute('data-src', el.getAttribute('src'));
+            el.removeAttribute('src');
+            el.classList.add('lazyload');
+    })
+}
+</script></body>
+</html>

@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;waline&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-06-20T04:31:43.000Z</updated>
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="Windows" />
+    <category term="Linux" />
+    <category term="新手向" />
+    <category term="脚本" />
+    <category term="博客搭建" />
+    <category term="关于博客" />
+    <category term="系统安装" />
+    <category term="Android" />
+    <category term="Git" />
+    <category term="Hexo" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="软件安利" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
+        <title>[Ver 1.3] CatIsNotFound 更新日志</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;写在最前&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/cover.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;新增内容&#34;&gt;&lt;a href=&#34;#新增内容&#34; class=&#34;headerlink&#34; title=&#34;新增内容&#34;&gt;&lt;/a&gt;新增内容&lt;/h1&gt;&lt;h2 id=&#34;博客-Logo&#34;&gt;&lt;a href=&#34;#博客-Logo&#34; class=&#34;headerlink&#34; title=&#34;博客 Logo&#34;&gt;&lt;/a&gt;博客 Logo&lt;/h2&gt;&lt;p&gt;在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/logo.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;页面更新&#34;&gt;&lt;a href=&#34;#页面更新&#34; class=&#34;headerlink&#34; title=&#34;页面更新&#34;&gt;&lt;/a&gt;页面更新&lt;/h1&gt;&lt;p&gt;很显然，这次的博客站点更新了一些页面，下面将简要介绍：&lt;/p&gt;
+&lt;h2 id=&#34;首页&#34;&gt;&lt;a href=&#34;#首页&#34; class=&#34;headerlink&#34; title=&#34;首页&#34;&gt;&lt;/a&gt;首页&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;首页页面下不仅仅只是更新了背景图和轮播文字（打字机效果），还简要地将侧边导航栏、个人信息栏、文章列表做了对调，使得更倾向于先看文章标题及摘要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/1.jpg&#34; alt=&#34;首页2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文章页面&#34;&gt;&lt;a href=&#34;#文章页面&#34; class=&#34;headerlink&#34; title=&#34;文章页面&#34;&gt;&lt;/a&gt;文章页面&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;文章页面底部新增 &lt;strong&gt;[表情反应]&lt;/strong&gt; 界面，你可以在对应文章的下方选择你的表情反应；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/2.jpg&#34; alt=&#34;表情反应&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;关于评论&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;你可以在此站点上发表评论，但由于 Waline 评论系统的限制，你将无法正常收到任何邮件通知。因此，若遇到问题或有任何建议，请直接通过电子邮件、知乎、B站私信等方式联系本人。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;未来计划&#34;&gt;&lt;a href=&#34;#未来计划&#34; class=&#34;headerlink&#34; title=&#34;未来计划&#34;&gt;&lt;/a&gt;未来计划&lt;/h1&gt;&lt;p&gt;与之前的更新日志一样，本站点的未来计划也很简单：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;继续完善博客站点的功能，包括文章分类、标签、搜索功能等；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;更新日志链接&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;关于 Redefine 主题的更新内容，请直接访问以下链接：&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;</content>
+        <category term="更新日志" />
+        <category term="Waline" />
+        <updated>2024-06-20T04:31:43.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</id>
+        <title>搭建个人博客（四）：如何实现评论系统</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+  &lt;div class=&#34;note-large default&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-comment&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;评论系统是博客中不可或缺的一部分，它能够让读者与作者互动，提高博客的互动性。目前针对 Hexo 博客，Waline 评论系统是目前比较流行的评论系统。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/waline.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;观前注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;在开始部署之前，假如之前还未部署过 Hexo 博客，请直接跳转到 &lt;a href=&#34;/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&#34; title=&#34;搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客&#34;&gt;搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客&lt;/a&gt; 进行部署。&lt;/p&gt;
+&lt;p&gt;其次，本文主要针对于 Redifine 主题的评论系统部署，&lt;strong&gt;其他主题的评论系统部署方式可能有所不同&lt;/strong&gt;，具体请参考对应主题的说明文档。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+
+&lt;h1 id=&#34;Deta-部署评论系统&#34;&gt;&lt;a href=&#34;#Deta-部署评论系统&#34; class=&#34;headerlink&#34; title=&#34;Deta 部署评论系统&#34;&gt;&lt;/a&gt;Deta 部署评论系统&lt;/h1&gt;&lt;p&gt;本文根据 Deta 部署 Waline 评论系统，其他部署方式请参考 Waline 官方文档。&lt;/p&gt;
+&lt;h2 id=&#34;1-注册-Deta-账号&#34;&gt;&lt;a href=&#34;#1-注册-Deta-账号&#34; class=&#34;headerlink&#34; title=&#34;1. 注册 Deta 账号&#34;&gt;&lt;/a&gt;1. 注册 Deta 账号&lt;/h2&gt;&lt;a class=&#34;button  large center&#34; href=&#39;https://deta.sh/signup&#39; title=&#39;注册 Deta 账号&#39;&gt;&lt;i class=&#39;fa-solid fa-sign-in-alt&#39;&gt;&lt;/i&gt; 注册 Deta 账号&lt;/a&gt;
+
+&lt;p&gt;在部署之前，你需要先注册 Deta 账号。&lt;/p&gt;
+&lt;h2 id=&#34;2-安装-Waline-插件&#34;&gt;&lt;a href=&#34;#2-安装-Waline-插件&#34; class=&#34;headerlink&#34; title=&#34;2. 安装 Waline 插件&#34;&gt;&lt;/a&gt;2. 安装 Waline 插件&lt;/h2&gt;&lt;a class=&#34;button  large center&#34; href=&#39;https://deta.space/discovery/@lizheming/waline&#39; title=&#39;Install Waline to Deta&#39;&gt;&lt;i class=&#39;fa-solid fa-cloud-upload-alt&#39;&gt;&lt;/i&gt; Install Waline to Deta&lt;/a&gt;
+
+&lt;p&gt;请先点击上方按钮，然后再如下页面中，选择 &lt;code&gt;Install on Space&lt;/code&gt; 按钮，等待一段时间后就能完成安装。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://waline.js.org/assets/deta-b3wwcCqL.png&#34; alt=&#34;Deta 主页&#34;&gt;&lt;/p&gt;
+&lt;p&gt;之后，你将能直接在你的 Space 中看到 Waline 评论系统。&lt;/p&gt;
+&lt;a class=&#34;button  regular center&#34; href=&#39;https://deta.space&#39; title=&#39;访问你的 Deta Space&#39;&gt;&lt;i class=&#39;fa-solid fa-cloud&#39;&gt;&lt;/i&gt; 访问你的 Deta Space&lt;/a&gt;
+
+&lt;p&gt;在自己的 Deta Space 中，鼠标移动到 Waline，点击这里左上角的设置按钮图标，点击 &lt;code&gt;Open App&lt;/code&gt; 选项，查看能否成功访问到 App 页面。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/1.jpg&#34; alt=&#34;&#34; style=&#34;zoom:50%;&#34; /&gt;
+
+&lt;h2 id=&#34;3-配置-Waline-到你的博客&#34;&gt;&lt;a href=&#34;#3-配置-Waline-到你的博客&#34; class=&#34;headerlink&#34; title=&#34;3. 配置 Waline 到你的博客&#34;&gt;&lt;/a&gt;3. 配置 Waline 到你的博客&lt;/h2&gt;&lt;p&gt;请先在自己的 Deta Space 中，点击 Waline 左上角的设置按钮图标，然后点击 &lt;code&gt;Open Settings&lt;/code&gt; 选项。&lt;/p&gt;
+&lt;p&gt;在如下图的 &lt;code&gt;Domains&lt;/code&gt; 选项卡中，复制蓝色字中的域名。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/3.jpg&#34; alt=&#34;&#34; style=&#34;zoom:75%;&#34; /&gt;
+
+&lt;p&gt;之后，请在你的博客仓库的根目录下，找到 &lt;code&gt;_config.redefine.yml&lt;/code&gt; 文件，找到如下内容，并修改其对应的 &lt;code&gt;serverUrl&lt;/code&gt; 选项即可。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;警告&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;不同的主题，配置的方式有所不同。如果你使用的是其他主题，请自行参考对应主题的说明文档。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Yaml&#34;&gt;&lt;figure class=&#34;iseeu highlight yaml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# COMMENT &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Docs: https://redefine-docs.ohevan.com/posts/comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;config:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# Waline comment system. See https://waline.js.org/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;waline:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;serverUrl:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;https://**************&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;# 在 * 处粘贴你的 Deta 域名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;lang:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;zh-CN&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;# Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;4-测试你的评论&#34;&gt;&lt;a href=&#34;#4-测试你的评论&#34; class=&#34;headerlink&#34; title=&#34;4. 测试你的评论&#34;&gt;&lt;/a&gt;4. 测试你的评论&lt;/h2&gt;&lt;p&gt;请在你的本地上运行 &lt;code&gt;npx hexo server&lt;/code&gt; 命令，然后访问你的博客。在任意一篇文章页面下方，进行评论吧！&lt;/p&gt;
+&lt;a class=&#34;button  large center&#34; href=&#39;http://localhost:4000&#39; title=&#39;访问我的个人网站&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 访问我的个人网站&lt;/a&gt;
+
+&lt;h1 id=&#34;查看-管理评论&#34;&gt;&lt;a href=&#34;#查看-管理评论&#34; class=&#34;headerlink&#34; title=&#34;查看&amp;#x2F;管理评论&#34;&gt;&lt;/a&gt;查看&amp;#x2F;管理评论&lt;/h1&gt;&lt;p&gt;关于此内容，若你已经完成部署且成功发出评论后，你可以按照以下方式查看或管理评论。当然你还可以设置邮箱提醒功能，当有访客评论你的文章时，你将会收到邮件提醒。&lt;/p&gt;
+&lt;h2 id=&#34;在-Waline-中管理-查看评论&#34;&gt;&lt;a href=&#34;#在-Waline-中管理-查看评论&#34; class=&#34;headerlink&#34; title=&#34;在 Waline 中管理&amp;#x2F;查看评论&#34;&gt;&lt;/a&gt;在 Waline 中管理&amp;#x2F;查看评论&lt;/h2&gt;&lt;p&gt;首先进入你的博客，在任意一篇文章页面下方，点击 &lt;code&gt;登录&lt;/code&gt; 按钮，在弹出的登录页面里，请使用 Github 账号以快捷登录。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/2.jpg&#34; alt=&#34;&#34; style=&#34;zoom:60%;&#34; /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/6.jpg&#34; alt=&#34;&#34; style=&#34;zoom:60%;&#34; /&gt;
+
+&lt;p&gt;登录成功后，你可以直接点击左上角的【管理】→ 【评论】，以查看所有评论。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/7.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+
+&lt;p&gt;你还可以点击左上角的【管理】→ 【用户】，以管理用户。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/8.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+
+&lt;h2 id=&#34;在-Deta-中查看评论&#34;&gt;&lt;a href=&#34;#在-Deta-中查看评论&#34; class=&#34;headerlink&#34; title=&#34;在 Deta 中查看评论&#34;&gt;&lt;/a&gt;在 Deta 中查看评论&lt;/h2&gt;&lt;p&gt;首先进入你的 Deta Space，点击 Waline 应用，然后点击 &lt;code&gt;View App Data&lt;/code&gt; 按钮，在此页面中，你可以看到所有评论的详细信息。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/4.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+
+&lt;p&gt;其中，该页面中，有以下两个表 &lt;code&gt;Comment&lt;/code&gt; 和 &lt;code&gt;Users&lt;/code&gt; 表，分别存储了评论信息和用户信息。&lt;/p&gt;
+&lt;p&gt;以下是每个表内对应列的含义：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Comment&lt;/code&gt; 表：&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;key&lt;/code&gt;: 评论的唯一标识符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;comment&lt;/code&gt;: 评论内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;insertAt&lt;/code&gt;: 评论时间&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ip&lt;/code&gt;: 评论者 IP 地址&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;likes&lt;/code&gt;: 点赞数（默认为空）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail&lt;/code&gt;: 评论者邮箱&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nick&lt;/code&gt;: 评论者昵称&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;objectId&lt;/code&gt;: 评论所属文章的唯一标识符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;status&lt;/code&gt;: 评论状态（默认 &lt;code&gt;approved&lt;/code&gt; 表示正常）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ua&lt;/code&gt;: 评论者浏览器信息&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;url&lt;/code&gt;: 当前评论文章页面的 URL&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;user_id&lt;/code&gt;: 评论者的唯一标识符&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Users&lt;/code&gt; 表：&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;key&lt;/code&gt;: 用户的唯一标识符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;avatar&lt;/code&gt;: 用户头像 URL&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;display_name&lt;/code&gt;: 用户昵称&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;email&lt;/code&gt;: 用户邮箱&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;label&lt;/code&gt;: 用户标签（默认为空）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;objectId&lt;/code&gt;: 用户唯一标识符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;password&lt;/code&gt;: 用户密码（已被加密）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;qq&lt;/code&gt;: 第三方授权 QQ 号（用户若已绑定 QQ）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;type&lt;/code&gt;: 用户类型（默认 &lt;code&gt;guest&lt;/code&gt; 表示普通用户）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;url&lt;/code&gt;: 用户主页 URL&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;github&lt;/code&gt;: 第三方授权 GitHub 账号（用户若已绑定 GitHub）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;附加功能&#34;&gt;&lt;a href=&#34;#附加功能&#34; class=&#34;headerlink&#34; title=&#34;附加功能&#34;&gt;&lt;/a&gt;附加功能&lt;/h1&gt;&lt;h2 id=&#34;邮件提醒&#34;&gt;&lt;a href=&#34;#邮件提醒&#34; class=&#34;headerlink&#34; title=&#34;邮件提醒&#34;&gt;&lt;/a&gt;邮件提醒&lt;/h2&gt;&lt;p&gt;Waline 评论系统支持邮件提醒功能，当其它访客访问你的博客时，并且在某篇文章的评论区留言时，会收到邮件提醒。&lt;/p&gt;
+&lt;p&gt;为了实现这个功能，你需要在 Deta Space 中，找到 Waline 应用，然后点击 &lt;code&gt;Open Settings&lt;/code&gt; 按钮，在 &lt;code&gt;Configuraion&lt;/code&gt; 选项卡中，找到如下变量并输入对应的值即可。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/5.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+
+&lt;p&gt;邮件通知需要配置以下环境变量：（&lt;strong&gt;以下变量均为必填&lt;/strong&gt;）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SMTP_SERVICE&lt;/code&gt;: SMTP 邮件发送服务提供商。&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-info-circle&#34;&gt;&lt;/i&gt;&lt;p&gt;提示&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;你可以点击下方的按钮，在这里找到 SMTP 邮件发送服务提供商的列表，并查看所有支持的运营商。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  large center&#34; href=&#39;https://github.com/nodemailer/nodemailer/blob/master/lib/well-known/services.json&#39; title=&#39;点击此处查看 SMTP 邮件发送服务提供商列表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 点击此处查看 SMTP 邮件发送服务提供商列表&lt;/a&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SMTP_HOST&lt;/code&gt;: SMTP 服务器地址（必填）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SMTP_PORT&lt;/code&gt;: SMTP 服务器端口（必填）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SMTP_USER&lt;/code&gt;: SMTP 邮件发送服务的用户名，一般为登录邮箱。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SMTP_PASS&lt;/code&gt;: SMTP 邮件发送服务的密码，一般为邮箱登录密码，部分邮箱(例如 163、qq)需要使用授权码。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SITE_NAME&lt;/code&gt;: 网站名称，用于在消息中显示。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SITE_URL&lt;/code&gt;: 网站地址，用于在消息中显示。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AUTHOR_EMAIL&lt;/code&gt;: 博主邮箱，用来接收新评论通知。如果是博主发布的评论则不进行提醒通知。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;配置完以上配置后，使用鼠标滚轮滚到最底，并点击 &lt;code&gt;Save Change&lt;/code&gt; 按钮，若左上角提示 &lt;code&gt;Presets saved&lt;/code&gt; 则表示配置成功。&lt;/p&gt;
+&lt;p&gt;接下来，只需要回到你的博客网站，使用任意其它用户的身份在评论区留言，其它访客访问你的博客时，你将会收到邮件提醒。&lt;/p&gt;
+&lt;h2 id=&#34;Emoji-表情&#34;&gt;&lt;a href=&#34;#Emoji-表情&#34; class=&#34;headerlink&#34; title=&#34;Emoji 表情&#34;&gt;&lt;/a&gt;Emoji 表情&lt;/h2&gt;&lt;p&gt;你可以像如下图所示的那样，在你的博客中加入 Emoji 表情。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/comment.jpg&#34; alt=&#34;&#34; style=&#34;zoom:85%;&#34; /&gt;
+
+&lt;p&gt;如果你需要进行添加 Emoji 表情，请直接在 &lt;code&gt;_config.redefine.yml&lt;/code&gt; 文件中，找到 &lt;code&gt;emoji&lt;/code&gt; 选项，并添加对应的 URL 即可。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Yml&#34;&gt;&lt;figure class=&#34;iseeu highlight yml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# COMMENT &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Docs: https://redefine-docs.ohevan.com/posts/comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;config:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# Waline comment system. See https://waline.js.org/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;waline:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;emoji:&lt;/span&gt; [&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/bmoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/weibo&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/qq&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/soul-emoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/tw-emoji&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      ] &lt;span class=&#34;comment&#34;&gt;# 请以数组的方式添加 Emoji 表情的 URL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;关于 Emoji 表情的更多信息，请&lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;参考 Waline 官方文档 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;参考链接&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://redefine-docs.ohevan.com/posts/comment&#34; &gt;https://redefine-docs.ohevan.com/posts/comment &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/get-started/&#34; &gt;https://waline.js.org/guide/get-started/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/deploy/deta.html&#34; &gt;https://waline.js.org/guide/deploy/deta.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;https://waline.js.org/guide/features/emoji.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/notification.html&#34; &gt;https://waline.js.org/guide/features/notification.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+</content>
+        <category term="Waline" />
+        <category term="博客搭建" />
+        <updated>2024-06-02T12:00:00.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>CatIsNotFound • Posts by &#34;android&#34; tag</title>
+        <link>https://CatIsNotFound.github.io</link>
+        <description>一个基于 Hexo 框架的个人博客网站</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Jun 2024 16:32:59 +0800</lastBuildDate>
+        <category>更新日志</category>
+        <category>Waline</category>
+        <category>Windows</category>
+        <category>Linux</category>
+        <category>新手向</category>
+        <category>脚本</category>
+        <category>博客搭建</category>
+        <category>关于博客</category>
+        <category>系统安装</category>
+        <category>Android</category>
+        <category>Git</category>
+        <category>Hexo</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>软件安利</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</guid>
+            <title>系统安装日常：虚拟机安装 Android x86 系统</title>
+            <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
+            <category>新手向</category>
+            <category>系统安装</category>
+            <category>Android</category>
+            <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
+
+  &lt;div class=&#34;note-large regular&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;Android x86 项目简介&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;img loading=&#34;lazy&#34; src=&#34;https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg&#34; alt=&#34;Android x86&#34; width=&#34;500&#34; /&gt;
+
+&lt;p&gt;这是一个将 Android 开源项目移植到 x86 平台的项目，以前称为“支持 android x86 的补丁托管”。 最初的计划是托管来自开源社区的 android x86 支持的不同补丁。在我们创建项目几个月后，我们发现我们可以做的不仅仅是托管补丁。因此，我们决定创建代码库 在不同的 x86 平台上提供支持，并设置 Git 服务器来托管它。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;在阅读此文前，如果你是需要在自己的电脑上体验原生版本的 Android 系统，那么 Android x86 系统是一个备选方案。&lt;/p&gt;
+&lt;p&gt;但是如果你需要获得更好的性能，那么你可以来试试体验 Bliss OS（基于 Android x86 系统的改良版）。&lt;/p&gt;
+&lt;p&gt;关于 Bliss OS，你可以访问官方网站：&lt;a class=&#34;link&#34;   href=&#34;https://blissos.org/&#34; &gt;https://blissos.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;下载-Android-x86-系统&#34;&gt;&lt;a href=&#34;#下载-Android-x86-系统&#34; class=&#34;headerlink&#34; title=&#34;下载 Android x86 系统&#34;&gt;&lt;/a&gt;下载 Android x86 系统&lt;/h1&gt;&lt;p&gt;你可以通过以下途径来下载 Android x86 系统，具体取决于你的网络环境：&lt;/p&gt;
+&lt;p&gt;官方途径：&lt;/p&gt;
+&lt;a class=&#34;button  regular&#34; href=&#39;https://www.android-x86.org/releases.html&#39; title=&#39;官方下载&#39;&gt;&lt;i class=&#39;fas fa-download&#39;&gt;&lt;/i&gt; 官方下载&lt;/a&gt;
+
+&lt;p&gt;其它的官方途径：&lt;/p&gt;
+&lt;a class=&#34;button  regular&#34; href=&#39;https://sourceforge.net/projects/android-x86/files/&#39; title=&#39;SourceForge 下载&#39;&gt;&lt;i class=&#39;fas fa-download&#39;&gt;&lt;/i&gt; SourceForge 下载&lt;/a&gt;
+
+&lt;a class=&#34;button  regular&#34; href=&#39;https://www.fosshub.com/Android-x86.html&#39; title=&#39;FossHub 下载&#39;&gt;&lt;i class=&#39;fas fa-download&#39;&gt;&lt;/i&gt; FossHub 下载&lt;/a&gt;
+
+&lt;p&gt;如果以上两种下载链接都无法下载，请直接以下按钮以进行下载：&lt;/p&gt;
+
+  &lt;div class=&#34;note p-4 mb-4 rounded-small danger icon-padding&#34;&gt;
+    &lt;i class=&#34;note-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此版本仅提供 Android 9.0 r2 镜像（到 2024 年 6 月 15 日为止为最新版本镜像），其它版本还需自行在外网上寻找。&lt;/p&gt;
+&lt;p&gt;下载链接已奉献上：&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  regular&#34; href=&#39;https://www.filehorse.com/download-android-x86-32/&#39; title=&#39;Android x86 9.0 r2 镜像&#39;&gt;&lt;i class=&#39;fa-brands fa-android&#39;&gt;&lt;/i&gt; Android x86 9.0 r2 镜像&lt;/a&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;安装-Android-x86-系统&#34;&gt;&lt;a href=&#34;#安装-Android-x86-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Android x86 系统&#34;&gt;&lt;/a&gt;安装 Android x86 系统&lt;/h1&gt;&lt;p&gt;下载完 Android x86 系统镜像后，你可以使用 Rufus 等工具将其刻录到 U 盘中，然后使用 U 盘启动进入安装程序。本文不在此基础上展开。&lt;/p&gt;
+&lt;p&gt;这里本文仅以 VMware 虚拟机的形式安装 Android x86 系统，具体步骤如下：&lt;/p&gt;
+&lt;h2 id=&#34;第一步：创建虚拟机&#34;&gt;&lt;a href=&#34;#第一步：创建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;第一步：创建虚拟机&#34;&gt;&lt;/a&gt;第一步：创建虚拟机&lt;/h2&gt;&lt;p&gt;这里不过多阐述，这里直接按照提示设置个 2GB 内存，32GB 硬盘的虚拟机就可以了。（当然可以更改其它配置）&lt;/p&gt;
+&lt;p&gt;需要注意的是，在设置客户机操作系统时，选择 linux → 其他 Linux 5.x 内核 64 位&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/0.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;a href=&#34;#第二步：安装系统到本地硬盘&#34; class=&#34;headerlink&#34; title=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;/a&gt;第二步：安装系统到本地硬盘&lt;/h2&gt;&lt;p&gt;启动虚拟机后，出现如下图所示，请选择【Installlation - Install Android-×86 to hard disk】。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在如下图的提示中，通过方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;，选择 &lt;code&gt;Create/Modify partitions&lt;/code&gt;，即创建一个分区。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在此步选择 &lt;code&gt;No&lt;/code&gt;，进入 cfdisk 工具。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在如下图操作中，请使用方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;、&lt;code&gt;←&lt;/code&gt;、&lt;code&gt;→&lt;/code&gt; 以及 &lt;code&gt;Enter&lt;/code&gt; 键，按照如下顺序依次设置：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：这是针对虚拟机的分区设置&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选择 &lt;code&gt;New&lt;/code&gt;，创建一个新分区；&lt;/li&gt;
+&lt;li&gt;选择 &lt;code&gt;Primary&lt;/code&gt;，设置为主分区，空间大小可使用默认；&lt;strong&gt;（注意：1 GB &amp;#x3D; 1024 MB）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;选择 &lt;code&gt;Bootable&lt;/code&gt;，设置为启动分区，此时 &lt;code&gt;Flags&lt;/code&gt; 一列会显示 &lt;code&gt;Boot&lt;/code&gt; 字样； &lt;/li&gt;
+&lt;li&gt;选择 &lt;code&gt;Write&lt;/code&gt;，确认分区设置；&lt;/li&gt;
+&lt;li&gt;选择 &lt;code&gt;Quit&lt;/code&gt;，退出 cfdisk 工具。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如下图为分区设置完成后的样子。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在分区设置完成后，请直接选择【sda1】分区以进行格式化分区。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在如下两张图中，首先先选择 &lt;code&gt;ext4&lt;/code&gt; 文件系统，然后再选择 &lt;code&gt;Yes&lt;/code&gt;，确认格式化。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/6.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待格式化完成后即可。&lt;/p&gt;
+&lt;p&gt;弹出如下图所示的提示时，选择 &lt;code&gt;Yes&lt;/code&gt;；&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在如下图的问题中，继续选择 &lt;code&gt;Yes&lt;/code&gt;，此步将会在 &lt;code&gt;/system&lt;/code&gt; 分区中安装 Grub 引导程序。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待安装完成后，选择 【Reboot】 重启虚拟机。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/10.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第三步：配置启动项&#34;&gt;&lt;a href=&#34;#第三步：配置启动项&#34; class=&#34;headerlink&#34; title=&#34;第三步：配置启动项&#34;&gt;&lt;/a&gt;第三步：配置启动项&lt;/h2&gt;&lt;p&gt;当系统初次进入 Grub 程序时，请先选择第二项以进入 Debug 模式。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待进入 Debug 模式后，请多次按下 &lt;code&gt;Enter&lt;/code&gt; 键，这将会换行出现 &lt;code&gt;:/android # &lt;/code&gt; 的提示符。请输入如下命令以编辑菜单项。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vi /mnt/grub/menu.lst&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在编辑器中，找到如下图所示的标注，并在此处添加 &lt;code&gt;nomodeset&lt;/code&gt; 参数。&lt;/p&gt;
+&lt;p&gt;最后，请依次按下 &lt;code&gt;Esc&lt;/code&gt;，并输入 &lt;code&gt;:wq&lt;/code&gt; 最后再按下 &lt;code&gt;Enter&lt;/code&gt; 键即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;退出编辑器后，请直接按下键盘快捷键 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Delete&lt;/code&gt; 键，以直接重启。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;：在 VMware 虚拟机中，&lt;strong&gt;你需要按下 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Insert&lt;/code&gt; 键&lt;/strong&gt;才能避免在 Windows 中弹出安全选项。&lt;/p&gt;
+&lt;h2 id=&#34;第四步：完成初次配置&#34;&gt;&lt;a href=&#34;#第四步：完成初次配置&#34; class=&#34;headerlink&#34; title=&#34;第四步：完成初次配置&#34;&gt;&lt;/a&gt;第四步：完成初次配置&lt;/h2&gt;&lt;p&gt;当系统重启后，在 grub 启动菜单上选择第一项以启动 Android x86 系统。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待启动，就会出现如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/14.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后，根据如下图进行初次配置：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/15.jpg&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large red&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;配置 Wifi 界面时，请先跳过此步。否则 Google 将会自动检查更新。&lt;strong&gt;（在国内的网络环境下，这一步非常容易耗时）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/16.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-lightbulb&#34;&gt;&lt;/i&gt;&lt;p&gt;如何连接网络？&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;在 Android x86 系统中，默认情况下是没有网络连接的，你需要手动转到【设置】→ 【WLAN】，并连接即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/17.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如上图所示，若你使用的是 VMware 虚拟机，仅需连接虚拟 WIFI 即可上网。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;桌面展示&#34;&gt;&lt;a href=&#34;#桌面展示&#34; class=&#34;headerlink&#34; title=&#34;桌面展示&#34;&gt;&lt;/a&gt;桌面展示&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，提供了两种主屏幕页面展示，一个是适用于平板电脑或手机的 🏠 &lt;i&gt;QuickStep&lt;/i&gt;，另一个则是适合电脑 PC 的任务栏。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/18.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/19.jpg&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;键盘快捷键&#34;&gt;&lt;a href=&#34;#键盘快捷键&#34; class=&#34;headerlink&#34; title=&#34;键盘快捷键&#34;&gt;&lt;/a&gt;键盘快捷键&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，有一些常用的快捷键，如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; &lt;code&gt;Win&lt;/code&gt;：⚪ 回到桌面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; &lt;code&gt;Win&lt;/code&gt; + &lt;code&gt;Backspace&lt;/code&gt; ：◀ 返回到上一页&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;⬜ 切换应用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Tab&lt;/code&gt;：切换应用窗口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;Tab&lt;/code&gt;：反向切换引用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;💡&lt;strong&gt;Tips：&lt;/strong&gt;先按下 &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Tab&lt;/code&gt; 快捷键选择一个应用窗口，松开 &lt;code&gt;Tab&lt;/code&gt; 键并保持 &lt;code&gt;Alt&lt;/code&gt; 键不放，最后再按住 &lt;code&gt;Backspace&lt;/code&gt; 键，即可关闭当前应用窗口。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Delete&lt;/code&gt;：弹出电源选项，其中还包含【屏幕截图】功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在虚拟机中，你需要按下 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Insert&lt;/code&gt; 键，以避免在 Windows 中弹出安全选项。&lt;/p&gt;
+&lt;h1 id=&#34;体验感受&#34;&gt;&lt;a href=&#34;#体验感受&#34; class=&#34;headerlink&#34; title=&#34;体验感受&#34;&gt;&lt;/a&gt;体验感受&lt;/h1&gt;&lt;p&gt;Android x86 系统的体验与原生版本的 Android 系统差别不大，但由于&lt;strong&gt;系统是运行在虚拟机中，所以性能上有所损失&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
+            <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
+            <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
+            <category>博客搭建</category>
+            <category>Android</category>
+            <category>Git</category>
+            <category>Hexo</category>
+            <category>软件安利</category>
+            <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
+&lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）&lt;/p&gt;
+&lt;p&gt;在此，请直接在 Github 上&lt;a href=&#34;https://github.com/new&#34;&gt;&lt;strong&gt;新建一个公共仓库（Public Repository）&lt;/strong&gt;&lt;/a&gt;，将自己的博客上传到 Github 中。&lt;/p&gt;
+&lt;p&gt;假设：你已在 Github 上新建了一个名为 &lt;code&gt;blogBackup&lt;/code&gt; 的公共仓库，那么你应当在命令行下，执行如下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git init&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git add .&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git commit -m &lt;span class=&#34;string&#34;&gt;&amp;quot;20210412&amp;quot;&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;# 此处建议填写上传时间，如：20210412&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git remote add origin https://github.com/yourname/blogBackup.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git push -u origin master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：请将第4行中的 Git 仓库地址替换自己实际的 Github 仓库地址。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当你完成以上这些命令后，请回到你新建好的 Github 公共仓库以确认上传成功。&lt;/p&gt;
+&lt;h1 id=&#34;WeBlog&#34;&gt;&lt;a href=&#34;#WeBlog&#34; class=&#34;headerlink&#34; title=&#34;WeBlog&#34;&gt;&lt;/a&gt;WeBlog&lt;/h1&gt;
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;软件简介&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/banner.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;下载安装&#34;&gt;&lt;a href=&#34;#下载安装&#34; class=&#34;headerlink&#34; title=&#34;下载安装&#34;&gt;&lt;/a&gt;下载安装&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;注意：WeBlog 目前仅支持 Android 系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;请直接点击下面链接，选择 Arm64 架构的安装包下载并安装。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/PangBaiWork/WeBlog/releases&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
+
+&lt;h2 id=&#34;导入博客&#34;&gt;&lt;a href=&#34;#导入博客&#34; class=&#34;headerlink&#34; title=&#34;导入博客&#34;&gt;&lt;/a&gt;导入博客&lt;/h2&gt;&lt;p&gt;打开 WeBlog 后，&lt;strong&gt;请务必安装 Hexo 框架及外部存储权限申请&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在主页上点击 &lt;code&gt;拉取项目&lt;/code&gt;，输入你的 Github 上的仓库地址。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large red&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;这里并非填你的 Github Pages 仓库地址，而是填写你的&lt;strong&gt;备份博客的仓库地址&lt;/strong&gt; （类似于：&lt;code&gt;https://github.com/yourname/blogBackup.git&lt;/code&gt;，否则无法识别到 Hexo 博客项目。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;接着，在选择文件夹时，&lt;strong&gt;请一定要新建一个空的文件夹&lt;/strong&gt;，否则无法拉取 Github 仓库项目。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最后，请耐心等待加载，一般需要几分钟才能完成克隆。&lt;/p&gt;
+&lt;h2 id=&#34;写博客&#34;&gt;&lt;a href=&#34;#写博客&#34; class=&#34;headerlink&#34; title=&#34;写博客&#34;&gt;&lt;/a&gt;写博客&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1. 定位你的博客文章目录&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 &lt;code&gt;source&lt;/code&gt; → &lt;code&gt;_posts&lt;/code&gt; 文件夹，在此目录下，你将看到你之前所写的所有博客文章。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 新建博客文章&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;点击右下角的 &lt;code&gt;+&lt;/code&gt; 号，按照提示填写文章基本信息即可完成创建。&lt;/p&gt;
+&lt;p&gt;或者直接在终端下执行如下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;文章标题&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 尽情写作吧！&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;好用的脚本文件&#34;&gt;&lt;a href=&#34;#好用的脚本文件&#34; class=&#34;headerlink&#34; title=&#34;好用的脚本文件&#34;&gt;&lt;/a&gt;好用的脚本文件&lt;/h2&gt;&lt;p&gt;为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 &lt;code&gt;.scripts&lt;/code&gt; 文件夹下添加 Shell 脚本，以便减少不必要的操作。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;update-to-github-pages.sh&lt;/code&gt;：用于将本地博客更新到 Github Pages 仓库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：这将会一次性将博客的所有文件上传到 Github Pages 仓库，并覆盖掉原有的文件。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo clean&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;backup-your-blog.sh&lt;/code&gt;：用于将博客存档上传到 Github 仓库中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git add .&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 这将会自动生成当前日期作为备份的备注。如：20210412&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git commit -m &lt;span class=&#34;string&#34;&gt;&amp;quot;&lt;span class=&#34;subst&#34;&gt;$(date +%Y%m%d)&lt;/span&gt;&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git push -u origin master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;setup-your-git.sh&lt;/code&gt;：用于配置 Git 全局参数。&lt;strong&gt;（建议导入博客后，执行一次）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name &lt;span class=&#34;string&#34;&gt;&amp;quot;yourname&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email &lt;span class=&#34;string&#34;&gt;&amp;quot;youremail@gmail.com&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global --add safe.directory &lt;span class=&#34;variable&#34;&gt;$PWD&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;这里需要修改 &lt;code&gt;yourname&lt;/code&gt; 和 &lt;code&gt;youremail@gmail.com&lt;/code&gt; 为你的实际用户名和邮箱。&lt;/p&gt;
+&lt;p&gt;当你不确定是否配置成功时，可以尝试在终端下单独执行如下命令查看参数是否生效。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global safe.directory&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h1 id=&#34;常见问题&#34;&gt;&lt;a href=&#34;#常见问题&#34; class=&#34;headerlink&#34; title=&#34;常见问题&#34;&gt;&lt;/a&gt;常见问题&lt;/h1&gt;&lt;div class=&#34;tabs&#34; id=&#34;tab-question_answer&#34;&gt;&lt;ul class=&#34;nav-tabs&#34;&gt;&lt;li class=&#34;tab active&#34;&gt;&lt;a class=&#34;#question_answer-1&#34;&gt;💡 常见问题一&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-2&#34;&gt;💡 常见问题二&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-3&#34;&gt;💡 常见问题三&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&#34;tab-content&#34;&gt;&lt;div class=&#34;tab-pane active&#34; id=&#34;question_answer-1&#34;&gt;&lt;p&gt;Q：为什么拉取项目后，打开自建的文件夹仍是空的？&lt;/p&gt;
+&lt;p&gt;A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/6.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/7.jpg&#34;&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
+&lt;p&gt;即使用【实时预览】时，直接出现 &lt;code&gt;The LivePreview is ended.&lt;/code&gt; 提示。&lt;/p&gt;
+&lt;p&gt;A：在解决此问题前，请先查看你的项目源目录下是否有 &lt;code&gt;node_modules&lt;/code&gt; 目录。一般情况下，当你备份博客存档时，&lt;code&gt;node_modules&lt;/code&gt; 目录往往不会被上传到 Github 仓库。&lt;/p&gt;
+&lt;p&gt;请直接从底部界面向上滑动，打开终端，并执行 &lt;code&gt;npm install&lt;/code&gt; 命令，等待安装依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-3&#34;&gt;&lt;p&gt;Q：执行 &lt;code&gt;npm install&lt;/code&gt; 命令时报错？&lt;/p&gt;
+&lt;p&gt;A：在确认此问题前，请按照如下方式排查：&lt;/p&gt;
+&lt;p&gt;方法一：检查你的项目源目录是否有 &lt;code&gt;package.json&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;若你的项目源目录下没有 &lt;code&gt;package.json&lt;/code&gt; 文件，则需要执行 &lt;code&gt;npm init&lt;/code&gt; 命令，并按照提示输入相关信息。&lt;/p&gt;
+&lt;p&gt;方法二：将 &lt;code&gt;node_modules&lt;/code&gt; 目录复制到你的项目目录中。&lt;/p&gt;
+&lt;p&gt;为了方便操作，这里作者建议：直接在你的项目源目录下新建一个 &lt;code&gt;install.sh&lt;/code&gt; 文件并编辑，&lt;/p&gt;
+&lt;p&gt;这里假设你的 Github 仓库名为 &lt;code&gt;blogBackup&lt;/code&gt;，&lt;strong&gt;注意替换自己的 Github 仓库地址。&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 一次性执行脚本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 可直接克隆博客存档到本地项目中&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 用于解决无法安装 Hexo 依赖问题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BLOG_DIR=&lt;span class=&#34;variable&#34;&gt;$PWD&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; ~&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! -d ~/blogBackup ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在克隆……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://github.com/yourname/blogBackup.git &lt;span class=&#34;comment&#34;&gt;# 此处需替换为你的 Github 仓库地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在合并……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git pull&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 无法拉取仓库！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [  ! -d node_modules ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在安装依赖....&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 下载/安装依赖失败！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cp&lt;/span&gt; -r node_modules &lt;span class=&#34;variable&#34;&gt;$BLOG_DIR&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 注意：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 其中的第10行的git仓库地址替换为实际的仓库地址。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 若需要调试于终端之上，请执行：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# bash ./.scripts/install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;完成脚本执行后，执行 &lt;code&gt;npm list&lt;/code&gt; 查看是否包含 &lt;code&gt;hexo&lt;/code&gt; 依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
