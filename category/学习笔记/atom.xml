@@ -4,28 +4,28 @@
     <title>CatIsNotFound • Posts by &#34;学习笔记&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-27T04:42:38.000Z</updated>
-    <category term="更新日志" />
-    <category term="Waline" />
-    <category term="Windows" />
-    <category term="Linux" />
-    <category term="新手向" />
-    <category term="脚本" />
-    <category term="博客搭建" />
     <category term="关于博客" />
-    <category term="系统安装" />
-    <category term="Android" />
+    <category term="Linux" />
+    <category term="更新日志" />
     <category term="Git" />
-    <category term="Hexo" />
     <category term="GNOME" />
     <category term="桌面环境" />
+    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
     <category term="软件安利" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="系统安装" />
     <entry>
         <id>https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</id>
         <title>Python 快速入门（学习笔记）</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+        <content type="html">
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;观前须知&lt;/p&gt;

@@ -7,32 +7,32 @@
         <language>zh-CN</language>
         <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
         <lastBuildDate>Sat, 22 Jun 2024 14:08:24 +0800</lastBuildDate>
-        <category>更新日志</category>
-        <category>Waline</category>
-        <category>Windows</category>
-        <category>Linux</category>
-        <category>新手向</category>
-        <category>脚本</category>
-        <category>博客搭建</category>
         <category>关于博客</category>
-        <category>系统安装</category>
-        <category>Android</category>
+        <category>Linux</category>
+        <category>更新日志</category>
         <category>Git</category>
-        <category>Hexo</category>
         <category>GNOME</category>
         <category>桌面环境</category>
+        <category>新手向</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>博客搭建</category>
         <category>软件安利</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>脚本</category>
+        <category>系统安装</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</guid>
             <title>系统安装日常：简单快速安装 Windows 11/10</title>
             <link>https://catisnotfound.github.io/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</link>
-            <category>Windows</category>
             <category>新手向</category>
+            <category>Windows</category>
             <category>系统安装</category>
             <pubDate>Sat, 22 Jun 2024 14:08:24 +0800</pubDate>
-            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;
+            <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
       &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
@@ -174,10 +174,10 @@
             <title>系统安装日常：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
             <category>新手向</category>
-            <category>系统安装</category>
             <category>Android</category>
+            <category>系统安装</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
-            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;

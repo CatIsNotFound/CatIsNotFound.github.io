@@ -4,28 +4,28 @@
     <title>CatIsNotFound • Posts by &#34;软件安利&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-25T16:30:20.000Z</updated>
-    <category term="更新日志" />
-    <category term="Waline" />
-    <category term="Windows" />
-    <category term="Linux" />
-    <category term="新手向" />
-    <category term="脚本" />
-    <category term="博客搭建" />
     <category term="关于博客" />
-    <category term="系统安装" />
-    <category term="Android" />
+    <category term="Linux" />
+    <category term="更新日志" />
     <category term="Git" />
-    <category term="Hexo" />
     <category term="GNOME" />
     <category term="桌面环境" />
+    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
     <category term="软件安利" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="系统安装" />
     <entry>
         <id>https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</id>
         <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
+        <content type="html">&lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;一、桌面美化类&#34;&gt;&lt;a href=&#34;#一、桌面美化类&#34; class=&#34;headerlink&#34; title=&#34;一、桌面美化类&#34;&gt;&lt;/a&gt;一、桌面美化类&lt;/h1&gt;&lt;h2 id=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;a href=&#34;#TranslucentTB（任务栏）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;/a&gt;TranslucentTB（任务栏）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/0.jpg&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/00.jpg&#34;&gt;&lt;/p&gt;
@@ -112,9 +112,9 @@
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
-        <category term="Windows" />
         <category term="新手向" />
         <category term="软件安利" />
+        <category term="Windows" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
 </feed>
