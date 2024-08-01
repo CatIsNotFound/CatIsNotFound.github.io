@@ -3,24 +3,80 @@
     <id>https://CatIsNotFound.github.io</id>
     <title>CatIsNotFound</title>
     <link href="https://CatIsNotFound.github.io" />
-    <updated>2024-06-20T04:31:43.000Z</updated>
+    <updated>2024-08-01T07:41:00.000Z</updated>
+    <category term="更新日志" />
+    <category term="Linux" />
+    <category term="关于博客" />
+    <category term="Git" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="Python" />
     <category term="学习笔记" />
     <category term="新手向" />
-    <category term="Linux" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
-    <category term="Git" />
-    <category term="Hexo" />
-    <category term="Android" />
     <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="更新日志" />
+    <category term="软件安利" />
+    <category term="Android" />
     <category term="Windows" />
-    <category term="关于博客" />
     <category term="Waline" />
     <category term="脚本" />
     <category term="系统安装" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</id>
+        <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/"/>
+        <content type="html">&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;本文章所提到的软件均为博主曾经使用过的软件，部分软件可能为收费版本，请自行通过官方渠道购买。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;现如今，大多数拥有电脑的人都正在使用 Windows 系统。下面，博主将推荐以下几款个人认为值得安利的电脑软件。&lt;/p&gt;
+&lt;p&gt;如果以下提到的软件你都曾经使用过或者不感兴趣，那么请去阅读上期的软件安利。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/05/26/软件安利-推荐几款在-Microsoft-Store-上的软件&#39; title=&#39;软件安利：安利几款在 Microsoft Store 上的软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 软件安利：安利几款在 Microsoft Store 上的软件&lt;/a&gt; 
+
+
+&lt;h1 id=&#34;1、Everything-文件搜索工具&#34;&gt;&lt;a href=&#34;#1、Everything-文件搜索工具&#34; class=&#34;headerlink&#34; title=&#34;1、Everything (文件搜索工具)&#34;&gt;&lt;/a&gt;1、Everything (文件搜索工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/everything.jpg&#34; alt=&#34;everything&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这是一款非常强大的文件搜索工具，它不仅可以快速搜索具体的文件，还能搜索文件中的关键字。它支持多种文件格式，包括图片、音频、视频、压缩包等。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.voidtools.com/&#34; &gt;https://www.voidtools.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2、Bandizip-压缩工具&#34;&gt;&lt;a href=&#34;#2、Bandizip-压缩工具&#34; class=&#34;headerlink&#34; title=&#34;2、Bandizip (压缩工具)&#34;&gt;&lt;/a&gt;2、Bandizip (压缩工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/bandizip.jpg&#34; alt=&#34;bandizip&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Bandizip 是一款非常好用的压缩工具，它支持多种压缩格式，包括 ZIP、RAR、7z、BZIP2、TAR 等压缩格式。对比 Windows 自带的压缩工具，Bandizip 的功能更加强大，而且界面简洁。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.bandisoft.com/bandizip/&#34; &gt;https://www.bandisoft.com/bandizip/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;3、Free-Download-Manager-下载管理器&#34;&gt;&lt;a href=&#34;#3、Free-Download-Manager-下载管理器&#34; class=&#34;headerlink&#34; title=&#34;3、Free Download Manager (下载管理器)&#34;&gt;&lt;/a&gt;3、Free Download Manager (下载管理器)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/fdm.jpg&#34; alt=&#34;freedownloadmanager&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果你曾经使用过迅雷、IDM 等下载管理器，那么建议去试试 Free Download Manager。它是一款开源免费的下载管理器，功能强大，界面简洁。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.freedownloadmanager.org/&#34; &gt;https://www.freedownloadmanager.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;4、Motrix-下载加速器&#34;&gt;&lt;a href=&#34;#4、Motrix-下载加速器&#34; class=&#34;headerlink&#34; title=&#34;4、Motrix (下载加速器)&#34;&gt;&lt;/a&gt;4、Motrix (下载加速器)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/motrix.jpg&#34; alt=&#34;motrix&#34;&gt;&lt;/p&gt;
+&lt;p&gt;同样地，如果你对 Free Download Manager 存在不满，那么可以试试 Motrix。它是一款开源免费的下载加速器，功能强大，界面简洁。同时还支持安装浏览器扩展，安装之后，仅需点击对应的下载链接并使用 Motrix 下载，就可以自动识别并下载。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://motrix.app/download&#34; &gt;https://motrix.app/download &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;5、图吧工具箱（硬件检测工具合集）&#34;&gt;&lt;a href=&#34;#5、图吧工具箱（硬件检测工具合集）&#34; class=&#34;headerlink&#34; title=&#34;5、图吧工具箱（硬件检测工具合集）&#34;&gt;&lt;/a&gt;5、图吧工具箱（硬件检测工具合集）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/tbtool.jpg&#34; alt=&#34;tbtool&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图吧工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为所有计算机硬件极客、DIY爱好者、各路大神及小白制作。集成大量常见硬件检测、评分工具，一键下载、方便使用。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.tbtool.cn/&#34; &gt;https://www.tbtool.cn/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;6、uTools（新一代效率工具平台）&#34;&gt;&lt;a href=&#34;#6、uTools（新一代效率工具平台）&#34; class=&#34;headerlink&#34; title=&#34;6、uTools（新一代效率工具平台）&#34;&gt;&lt;/a&gt;6、uTools（新一代效率工具平台）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/utools.jpg&#34; alt=&#34;utools&#34;&gt;&lt;/p&gt;
+&lt;p&gt;一款非常强大的效率工具软件，它不仅支持搜索本机中的应用、使用不同的搜索引擎搜索关键词，还支持通过下载各种所需插件，实现各种功能。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://u.tools/download/&#34; &gt;https://u.tools/download/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;7、ToDesk（远程控制软件）&#34;&gt;&lt;a href=&#34;#7、ToDesk（远程控制软件）&#34; class=&#34;headerlink&#34; title=&#34;7、ToDesk（远程控制软件）&#34;&gt;&lt;/a&gt;7、ToDesk（远程控制软件）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/todesk.jpg&#34; alt=&#34;todesk&#34;&gt;&lt;/p&gt;
+&lt;p&gt;ToDesk 是一款远程控制软件，它可以让你通过网络远程控制你的电脑，可以实现各种控制功能，包括键盘鼠标、屏幕、音频、摄像头、文件传输等。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.todesk.com/download/&#34; &gt;https://www.todesk.com/download/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;8、bitDock-极简工具栏&#34;&gt;&lt;a href=&#34;#8、bitDock-极简工具栏&#34; class=&#34;headerlink&#34; title=&#34;8、bitDock (极简工具栏)&#34;&gt;&lt;/a&gt;8、bitDock (极简工具栏)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/bitdock.png&#34; alt=&#34;bitdock&#34;&gt;&lt;/p&gt;
+&lt;p&gt;bitDock 是一款极简工具栏，它不仅可以通过鼠标拖拽的方式自定义添加你最常用的应用程序或文件夹，还拥有天气预报、搜索、截图、取色、日历时钟、天气等超过20款桌面插件，更容易美化自己的桌面。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://bitdock.com/download/&#34; &gt;https://bitdock.com/download/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;9、StartIsBack-经典开始菜单与任务栏&#34;&gt;&lt;a href=&#34;#9、StartIsBack-经典开始菜单与任务栏&#34; class=&#34;headerlink&#34; title=&#34;9、StartIsBack (经典开始菜单与任务栏)&#34;&gt;&lt;/a&gt;9、StartIsBack (经典开始菜单与任务栏)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/startisback.jpg&#34; alt=&#34;startisback&#34;&gt;&lt;/p&gt;
+&lt;p&gt;StartIsBack 是一款专为win8、win10、win11 用户设计的实用优化工具。startisback主要用来优化用户电脑开始菜单，使用户能快速找到自己最熟悉的按钮，并可以在各种电脑模式下自由切换，大大提高 Windows 用户事务处理效率。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://startisback.com/&#34; &gt;https://startisback.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;10、Geek-Uninstaller-软件卸载工具&#34;&gt;&lt;a href=&#34;#10、Geek-Uninstaller-软件卸载工具&#34; class=&#34;headerlink&#34; title=&#34;10、Geek Uninstaller (软件卸载工具)&#34;&gt;&lt;/a&gt;10、Geek Uninstaller (软件卸载工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/geek.jpg&#34; alt=&#34;geek&#34;&gt;&lt;/p&gt;
+&lt;p&gt;geek 即“极客”的意思，这是一款无比强大的卸载软件，它界面简单不复杂，体积小巧，无需安装，点开即可使用。geek就和它的名字一样，卸载任何软件都干脆利落，不管你是大佬还是流氓，统统一键卸载搞定，并且卸载完还会自动删除相应的注册表文件，不会拖泥带水。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://geekuninstaller.com/download&#34; &gt;https://geekuninstaller.com/download &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;11、CleanMyPC-系统清理工具&#34;&gt;&lt;a href=&#34;#11、CleanMyPC-系统清理工具&#34; class=&#34;headerlink&#34; title=&#34;11、CleanMyPC (系统清理工具)&#34;&gt;&lt;/a&gt;11、CleanMyPC (系统清理工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/cleanmypc.jpg&#34; alt=&#34;cleanmypc&#34;&gt;&lt;/p&gt;
+&lt;p&gt;CleanMyPC, 字面理解就是 “清理我的PC”，这是一款系统清理工具，界面简单，功能小巧，可以清理系统垃圾、卸载应用程序、修改启动项、清理浏览器隐私等。遇到删除不了的文件或文件夹，可以使用碎纸机来强制删除。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://macpaw.com/zh/download/cleanmypc&#34; &gt;https://macpaw.com/zh/download/cleanmypc &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;12、微软电脑管家（系统优化工具）&#34;&gt;&lt;a href=&#34;#12、微软电脑管家（系统优化工具）&#34; class=&#34;headerlink&#34; title=&#34;12、微软电脑管家（系统优化工具）&#34;&gt;&lt;/a&gt;12、微软电脑管家（系统优化工具）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/msconfig.jpg&#34; alt=&#34;msconfig&#34;&gt;&lt;/p&gt;
+&lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="新手向" />
+        <category term="软件安利" />
+        <category term="Windows" />
+        <updated>2024-08-01T07:41:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://catisnotfound.github.io/2024/06/20/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
         <title>[Ver 1.3] CatIsNotFound 更新日志</title>
@@ -520,8 +576,8 @@
 &lt;p&gt;示例 3：定义一个函数 &lt;code&gt;install_packages()&lt;/code&gt;，要求用户输入软件包名，并安装指定的软件包。定义一个函数 &lt;code&gt;package_manager()&lt;/code&gt;，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。&lt;/p&gt;
 &lt;p&gt;注意：针对 Arch Linux 使用的 &lt;code&gt;pacman&lt;/code&gt; 的命令有所不同，需要进行单独修改。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 定义函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;install_packages&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如没有输入软件包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please enter a package name.&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如使用的是 pacman&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; == pacman ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; pacman -S &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; --noconfirm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; install &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;package_manager&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; manager &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; apt dnf pacman yum zypper; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;which&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &amp;amp;&amp;gt; /dev/null&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# 假如对应的包管理工具存在，则安装软件包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -eq 0 ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Using &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; to install &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            install_packages &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;No package manager found&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 调用函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;read&lt;/span&gt; -p &lt;span class=&#34;string&#34;&gt;&amp;quot;Please enter a package name: &amp;quot;&lt;/span&gt; package&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;package_manager &lt;span class=&#34;variable&#34;&gt;$package&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;</content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="脚本" />
         <updated>2024-06-09T05:15:33.000Z</updated>
     </entry>
@@ -868,8 +924,8 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="脚本" />
         <updated>2024-06-09T05:10:00.000Z</updated>
     </entry>
@@ -1019,8 +1075,8 @@
   &lt;/div&gt;
 
 </content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="Windows" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -2282,10 +2338,10 @@ B -- False --&gt; 执行语句2
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
-        <category term="软件安利" />
         <category term="Git" />
+        <category term="博客搭建" />
         <category term="Hexo" />
+        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
@@ -2510,8 +2566,8 @@ B -- False --&gt; 执行语句2
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="GNOME" />
         <category term="桌面环境" />
         <updated>2024-05-03T15:59:02.000Z</updated>
@@ -3360,8 +3416,8 @@ B -- False --&gt; 执行语句2
 &lt;h2 id=&#34;写在后面&#34;&gt;&lt;a href=&#34;#写在后面&#34; class=&#34;headerlink&#34; title=&#34;写在后面&#34;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;下一篇将继续详细【&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;配置 Hexo，以及如何使用 Redefine 主题美化博客&lt;/a&gt;】&lt;/p&gt;
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
         <category term="Git" />
+        <category term="博客搭建" />
         <category term="Hexo" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>
