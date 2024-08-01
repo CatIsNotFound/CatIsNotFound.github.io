@@ -1,886 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于我和博客</title>
-    <url>/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-exclamation-triangle"></i><p>文章已过时</p>
-
-    </div>
-    <div class="notel-content">
-      <p>本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请<a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">点击此处</a>已查看最新内容。</p>
-
-    </div>
-  </div>
-
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o</p>
-<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。</p>
-<h2 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h2><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h2 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h2><p>今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（<strong>文章可能不会同步更新~ o(*￣▽￣*)o</strong>）</p>
-<h2 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h2><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h2 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h2><p>你可以通过以下几个平台来私信我：</p>
-<ul>
-<li><a class="link"   href="https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0" >bilibili <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.zhihu.com/people/catisnotfound" >知乎 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.jianshu.com/u/7ef34e5bf13f" >简书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="mailto:1636879962@qq.com" >个人邮箱 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>关于博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux Shell 基础命令速查表（非完整版）</title>
-    <url>/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>观前须知</p>
-
-    </div>
-    <div class="notel-content">
-      <p>此文章将以表格的形式呈现，若需要更为直观的 Linux 命令，请直接查看 <a class="link"   href="https://www.runoob.com/linux/linux-tutorial.html" >Linux 教程 | 菜鸟教程 (runoob.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><strong>表格注释：</strong> 💡 &#x3D; 提示，❗ &#x3D; 注意（需要安装的软件包）</p>
-
-    </div>
-  </div>
-
-<h3 id="终端与用户"><a href="#终端与用户" class="headerlink" title="终端与用户"></a>终端与用户</h3><table>
-<thead>
-<tr>
-<th align="center">名称</th>
-<th align="left">用法 &#x2F; 选项（简略）</th>
-<th>注释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">用户名</td>
-<td align="left"><code>whoami</code></td>
-<td>显示当前登录的用户</td>
-</tr>
-<tr>
-<td align="center">正在登录的用户</td>
-<td align="left">1. <code>who</code><br />2. <code>w</code></td>
-<td>1. 查看当前正在登录的用户<br />2. 详细查看当前登录的用户</td>
-</tr>
-<tr>
-<td align="center">上次登录</td>
-<td align="left"><code>last</code></td>
-<td>查看上次当前用户的详细信息</td>
-</tr>
-<tr>
-<td align="center">主机名</td>
-<td align="left">1. <code>hostname</code><br />2. <code>hostname -s</code></td>
-<td>1. 显示完整的主机名<br />2. 显示简单的主机名</td>
-</tr>
-<tr>
-<td align="center">关于主机</td>
-<td align="left">1. <code>hostnamectl</code><br />2. <code>hostnamectl set-hostname &lt;hostname&gt;</code></td>
-<td>1. 显示当前主机信息<br />2. 设置主机名<br /><strong>❗：普通用户下需提权</strong></td>
-</tr>
-<tr>
-<td align="center">提升权限（<strong>管理员权限</strong>）</td>
-<td align="left"><code>sudo &lt;command&gt;</code></td>
-<td>以<strong>管理员身份</strong>执行命令<br /><strong>❗：在该用户为管理员的前提下才可用</strong></td>
-</tr>
-<tr>
-<td align="center">切换其它用户</td>
-<td align="left">1. <code>su &lt;用户名&gt;</code><br />2. <code>su</code><br />3. <code>sudo su</code><br />4. <code>sudo su -</code></td>
-<td>1. 切换指定用户<br />2. 切换至 root 用户<br />3. 当不知道 root 用户密码的情况下，使用管理员权限切换至 root 用户<br />4. 使用管理员权限切换至 root 用户并<strong>切换 Shell 环境</strong><br />💡：若需查看当前使用的 Shell 环境，<br />执行：<code>echo $SHELL</code></td>
-</tr>
-<tr>
-<td align="center">输出内容</td>
-<td align="left">1. <code>echo Hello world</code><br />2. <code>echo &quot;Hello world&quot;</code><br />3. <code>echo -n &quot;Hello world&quot;</code><br />4. <code>echo -e &quot;Hello\nworld&quot;</code></td>
-<td>1. 直接输出 Hello world<br />2. 与上一条一致，但看起来更直观<br />3. 输出不换行<br />4. 输出时解释反转义符（如：<code>\n</code> 表示换行）</td>
-</tr>
-<tr>
-<td align="center">命令变量</td>
-<td align="left">1. <code>alias</code><br/>2. <code>alias n=&#39;command&#39;</code><br />3. <code>unalias n</code></td>
-<td>1. 显示所有已被定义的变量<br />2. 定义一个新变量 n，以代替某个指令<br />3. 删除新变量 n</td>
-</tr>
-<tr>
-<td align="center">指令搜索</td>
-<td align="left"><code>which &lt;command&gt;</code></td>
-<td>搜索指定指令所在的路径</td>
-</tr>
-<tr>
-<td align="center">指令搜索</td>
-<td align="left"><code>whereis &lt;keyword&gt;</code></td>
-<td>搜索二进制文件、帮助文件等</td>
-</tr>
-<tr>
-<td align="center">帮助手册</td>
-<td align="left">1. <code>man &lt;command&gt;</code><br />2. <code>man -k &lt;keyword&gt;</code><br />3. <code>man -K &lt;keyword&gt;</code></td>
-<td>1. 查看关于<code>&lt;command&gt;</code>的帮助<br />2. 搜索帮助<br />3. 全局搜索帮助</td>
-</tr>
-<tr>
-<td align="center">指令历史记录</td>
-<td align="left">1. <code>history</code><br />2. <code>history n</code><br />3. <code>history -c</code><br />4. <code>history -d n</code></td>
-<td>1. 查看最近的历史记录<br />2. 显示最近 n 条记录<br />3. 清除所有记录<br />4. 删除第 n 条记录</td>
-</tr>
-<tr>
-<td align="center">快速执行命令</td>
-<td align="left">1. <code>!!</code><br />2. <code>!n</code><br />3. <code>!keyword</code></td>
-<td>1. 执行上一条指令<br />2. 执行第 n 条指令<br />3. 执行上一条包含 <code>keyword</code> 的指令<br />💡：使用<kbd>Ctrl</kbd>+<kbd>R</kbd> 可直接进行指令回溯</td>
-</tr>
-<tr>
-<td align="center">更改用户密码</td>
-<td align="left">1. <code>passwd &lt;user_name&gt;</code><br />2. <code>passwd</code></td>
-<td>1. 修改指定用户密码<br />2. 修改当前用户密码</td>
-</tr>
-<tr>
-<td align="center">启动桌面环境</td>
-<td align="left"><code>startx</code></td>
-<td>启动 X.org 桌面环境（GNOME 桌面环境）</td>
-</tr>
-<tr>
-<td align="center">清屏</td>
-<td align="left"><code>clear</code></td>
-<td>快捷键：<kbd>Ctrl</kbd>+<kbd>L</kbd></td>
-</tr>
-<tr>
-<td align="center">注销用户</td>
-<td align="left"><code>logout</code></td>
-<td>快捷键：<kbd>Ctrl</kbd>+<kbd>D</kbd></td>
-</tr>
-<tr>
-<td align="center">注销或退出终端</td>
-<td align="left"><code>exit</code></td>
-<td>❗：<strong>在装有桌面环境的主机下执行，只会关闭终端窗口；使用远程连接时，则会直接断开连接</strong></td>
-</tr>
-</tbody></table>
-<h3 id="目录与文件管理"><a href="#目录与文件管理" class="headerlink" title="目录与文件管理"></a>目录与文件管理</h3><table>
-<thead>
-<tr>
-<th align="center">名称</th>
-<th align="left">用法 &#x2F; 选项（简略）</th>
-<th>注释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">查看当前路径</td>
-<td align="left"><code>pwd</code></td>
-<td>查看当前的工作路径</td>
-</tr>
-<tr>
-<td align="center">切换工作路径</td>
-<td align="left">1. <code>cd &lt;DIR&gt;</code><br/>2. <code>cd</code><br />3. <code>cd -</code></td>
-<td>1. 指定一个目录<br />2. <strong>切换至主目录（家目录）</strong><br />3. 回到之前访问过的目录</td>
-</tr>
-<tr>
-<td align="center">查看路径下的内容</td>
-<td align="left">1. <code>ls</code> <br />2. <code>ls &lt;DIR1&gt; [DIR2] ...</code><br />3. <code>ls -l</code> &#x2F; <code>ll</code><br/>4. <code>ls -h</code><br/>5. <code>ls -a</code><br/>6. <code>ls -R</code><br/>7. <code>ls -d</code><br />8. <code>ls -Z</code><br />9. <code>ls -1</code></td>
-<td>1. 查看当前路径下的内容<br />2. 查看指定单个或多个路径下的内容<br />3. 以详细列表形式显示文件内容<br/>4. 显示能看得懂的文件大小<br/>5. 显示所有内容（<strong>包含隐藏目录或文件</strong>）<br/>6. 完整显示目录下的所有文件（<strong>递归查看</strong>）<br/>7. 将目录像其它文件一样列出，而不是列出它们的内容<br />8. 显示对应的 SELinux 标签<br />9. 显示一行一个文件或目录</td>
-</tr>
-<tr>
-<td align="center">新建目录</td>
-<td align="left">1. <code>mkdir &lt;dir1&gt; [dir2]...</code><br/>2. <code>-p</code></td>
-<td>1. 新建单个或多个空目录<br/>2. 递归新建单个或多个空目录</td>
-</tr>
-<tr>
-<td align="center">删除空目录</td>
-<td align="left">1. <code>rmdir &lt;dir1&gt; [dir2]...</code><br />2. <code>-p</code></td>
-<td>1. 删除指定的<strong>空目录</strong><br />2. 删除父目录及内部的所有<strong>空目录</strong></td>
-</tr>
-<tr>
-<td align="center">新建文件</td>
-<td align="left"><code>touch &lt;file1&gt; [file2]...</code></td>
-<td>新建一个或多个空白的文件</td>
-</tr>
-<tr>
-<td align="center">复制文件目录</td>
-<td align="left">1. <code>cp &lt;file1&gt; &lt;file2/dir&gt;</code><br />2. <code>-r</code><br />3. <code>-p</code><br />4. <code>-v</code><br />5. <code>-a</code></td>
-<td>1. 将文件复制到目标路径<br />2. 递归复制（复制目录）<br />3. 复制时再复制权限<br />4. 显示复制过程<br />5. 此选项通常在复制目录时使用，它保留链接、文件属性，并复制目录下的所有内容。</td>
-</tr>
-<tr>
-<td align="center">删除文件目录</td>
-<td align="left">1. <code>rm &lt;file1&gt; [file2]...</code><br />2. <code>-r</code> &#x2F; <code>-R</code><br />3. <code>-f</code><br />4. <code>-rf </code></td>
-<td>1. 删除单个或多个目录或文件，可能需确认<br />2. 递归删除<strong>（包括目录）</strong><br />3. 强制性删除，<strong>跳过确认</strong><br />4. 强制性递归删除该目录或文件<strong>（❗ 谨慎操作）</strong></td>
-</tr>
-<tr>
-<td align="center">移动 &#x2F; 重命名文件目录</td>
-<td align="left">1. <code>mv file1 /doc</code><br />2. <code>mv a.file b.txt</code></td>
-<td>1. 将当前目录下的 <code>file1</code> 文件移动到 <code>/doc</code> 目录下<br />2. 将当前目录下的 <code>a.file</code> 文件重命名为 <code>b.txt</code></td>
-</tr>
-<tr>
-<td align="center">文件类型</td>
-<td align="left"><code>file &lt;file1&gt; [file2]...</code></td>
-<td>查看单个或多个文件类型</td>
-</tr>
-<tr>
-<td align="center">文件属性</td>
-<td align="left"><code>stat &lt;file1&gt; [file2]</code></td>
-<td>查看单个或多个文件的详细属性</td>
-</tr>
-<tr>
-<td align="center">链接（快捷方式）</td>
-<td align="left">1. <code>ln &lt;file&gt; &lt;link&gt;</code><br />2. <code> ln -s &lt;file&gt; &lt;link&gt;</code></td>
-<td>1. 创建一个<strong>硬</strong>链接<br />❗：删除源文件后<strong>仍可用</strong>，<strong>但不能在目录上创建</strong>）<br />2. 创建一个<strong>软</strong>链接<br />❗：删除源文件后<strong>不可用</strong></td>
-</tr>
-<tr>
-<td align="center">以树目录显示内容</td>
-<td align="left"><code>tree &lt;dir&gt;</code></td>
-<td>❗：其它 Linux 发行版需下载安装 <code>tree</code> 软件包即可</td>
-</tr>
-</tbody></table>
-<h3 id="文件操作编辑"><a href="#文件操作编辑" class="headerlink" title="文件操作编辑"></a>文件操作编辑</h3><table>
-<thead>
-<tr>
-<th align="center">名称</th>
-<th align="left">用法 &#x2F; 选项（简略）</th>
-<th>注释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">显示&#x2F;编辑文件内容</td>
-<td align="left">1. <code>cat &lt;file1&gt; [file2]...</code><br />2. <code>cat -n &lt;file&gt;</code><br />2. <code>cat &gt; &lt;file&gt;</code><br />3. <code>cat &gt;&gt; &lt;file&gt;</code></td>
-<td>1. 显示完整的文件内容<br />2. 带行号显示文件里的内容<br />3. 以行编辑模式下编辑文件并将其<strong>覆盖写入</strong>到文件中<br />4. 以行编辑模式下编辑文件并将其<strong>追加写入</strong>到文件中</td>
-</tr>
-<tr>
-<td align="center">显示头部文件内容</td>
-<td align="left">1. <code>head &lt;file1&gt; [file2]...</code><br/>2. <code>head -n x &lt;file1&gt; [file2]... </code></td>
-<td>1. 默认查看前 10 行<br/>2. 查看前 x 行</td>
-</tr>
-<tr>
-<td align="center">显示尾部文件内容</td>
-<td align="left">1. <code>tail &lt;file1&gt; [file2]...</code><br/>2. <code>tail -n x &lt;file1&gt; [file2]...</code><br />3. <code>tail -f &lt;file1&gt; [file2]...</code></td>
-<td>1. 默认查看尾 10 行<br/>2. 查看尾 x 行<br />3. 监视文件的内容（常用于查看日志）</td>
-</tr>
-<tr>
-<td align="center">翻页信息</td>
-<td align="left">1. <code>&lt;command&gt; | more</code><br />2. <code>&lt;command&gt; | less</code><br />3. <code>more &lt;file&gt;</code><br />4. <code>less &lt;file&gt;</code></td>
-<td>1. <code>more</code> 仅支持向下翻页，不支持向上翻页<br />2. <code>less</code> 都支持向上向下翻页</td>
-</tr>
-<tr>
-<td align="center">统计字数、行数、单词数</td>
-<td align="left">1. <code>wc &lt;file1&gt; [file2]...</code><br />2. <code>-l</code><br />3. <code>-m</code><br />4. <code>-w</code></td>
-<td>1. 统计所有<br />2. 统计行数<br />3. 统计字数<br />4. 统计词数</td>
-</tr>
-<tr>
-<td align="center">比较两个文件的不同</td>
-<td align="left"><code>diff &lt;file1&gt; &lt;file2&gt;</code></td>
-<td>比较 <code>file1</code> 与 <code>file2</code> 的不同</td>
-</tr>
-<tr>
-<td align="center">行筛选工具</td>
-<td align="left">1. <code>&lt;command&gt; | grep &lt;String&gt;</code><br />2. <code>grep &lt;keyword&gt; &lt;file1&gt; [file2] </code></td>
-<td>1. 通过此方法可直接筛选所包含的行并输出<br />2. 在单个或多个文件中查找行内包含的关键字并输出</td>
-</tr>
-<tr>
-<td align="center">将输出结果写入文件</td>
-<td align="left">1. <code>&lt;command&gt; &gt; &lt;file&gt;</code><br />2. <code>&lt;command&gt; &gt;&gt; &lt;file&gt;</code><br /></td>
-<td>1. 将命令的执行结果<strong>覆盖写入</strong>至文件中<br />2. 将命令的执行结果<strong>追加写入</strong>至文件中<br /></td>
-</tr>
-<tr>
-<td align="center">以行编辑模式下编辑文件</td>
-<td align="left">1. <code>tee &lt;file&gt;</code><br />2. <code>tee -a &lt;file&gt;</code></td>
-<td>1. 将写入的内容<strong>覆盖保存</strong>到文件中<br />2. 将写入的内容<strong>追加保存</strong>到文件中<br />💡：使用行编辑模式下可直接在行内编辑并回车，编辑完成后，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束编辑并保存<br /></td>
-</tr>
-<tr>
-<td align="center">vim 文本编辑器 &#x2F; nano 文本编辑器</td>
-<td align="left">1. <code>vi [file]</code> &#x2F; <code>vim [file]</code><br />2. <code>nano [file]</code></td>
-<td>1. 使用 vi &#x2F; vim 文本编辑器打开或新建文件<br />其中，vim 编辑器为 vi 的加强版<br />❗：部分 Linux 发行版默认未安装 <code>vim</code> 软件包<br /><br />2. 使用 nano 文本编辑器打开或新建文件</td>
-</tr>
-<tr>
-<td align="center">tar 压缩包</td>
-<td align="left">1. <code>tar -xvf &lt;file.tar&gt; [-C &lt;dir&gt;]</code><br />2. <code>tar -xzvf &lt;file.tar.gz/file.tgz&gt; [-C &lt;dir&gt;]</code><br />3. <code> tar -cvf &lt;file.tar&gt; &lt;压缩目标&gt;</code><br />4. <code>tar -czvf &lt;file.tar.gz&gt;/&lt;file.tgz&gt;</code></td>
-<td>1. 解压 tar 包<br />     · <code>-C</code>：指定解压目录<br />     · <code>-x</code>：解压压缩包<br />     · <code>-v</code>：显示压缩或解压进度<br />     · <code>-f</code>：指定存档文件<br />2. 解压 tar.gz &#x2F; tgz 包<br />     · <code>-z</code>：使用 gzip 格式<br />3. 压缩目录或文件为 tar 包<br />     · <code>-c</code>：创建压缩包<br />4. 压缩目录或文件为 tar.gz &#x2F; tgz 包</td>
-</tr>
-<tr>
-<td align="center">zip 压缩包</td>
-<td align="left">1. <code>zip &lt;file.zip&gt; -r &lt;dir/file&gt; [-P &lt;压缩密码&gt; -&lt;0-9&gt;] </code><br />2. <code>unzip &lt;file.zip&gt; [-d &lt;dir&gt; ]</code></td>
-<td>1. 压缩目录或文件为 zip 包<br />    · <code>-r</code>：递归打包（常用于打包目录下的所有文件）<br />    · <code>-P</code>：设置压缩密码<br />    · <code>-&lt;0-9&gt;</code>： 表示压缩质量级别，默认值为 6。级别越高，压缩质量越好；级别越低，压缩速度越快<br />2. 解压 zip 包到当前目录<br />    · <code>-d</code>：指定解压目录</td>
-</tr>
-</tbody></table>
-<h3 id="系统与硬件管理"><a href="#系统与硬件管理" class="headerlink" title="系统与硬件管理"></a>系统与硬件管理</h3><table>
-<thead>
-<tr>
-<th align="center">名称</th>
-<th align="left">用法 &#x2F; 选项（简略）</th>
-<th>注释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">主机信息</td>
-<td align="left"><code>hostnamectl</code></td>
-<td>查看当前主机的所有信息</td>
-</tr>
-<tr>
-<td align="center">显示系统信息</td>
-<td align="left">1. <code>uname</code><br />2. <code> uname -a</code><br />3. <code>uname -m</code><br />4. <code>uname -n</code><br />5. <code>neofetch</code><br />6. <code>screenfetch</code></td>
-<td>1. 使用的内核<br />2. 显示所有系统信息<br />3. 使用的物理架构<br />4. 主机名称<br />5. 查看主机信息<br />（需安装 <code>neofetch</code> 软件包）<br />6. 查看主机信息<br />（需安装 <code>screenfetch</code> 软件包）</td>
-</tr>
-<tr>
-<td align="center">日期时间格式 &#x2F; 时区</td>
-<td align="left">1. <code>date</code><br/>2. <code>date +&lt;format&gt;</code><br />3. <code>timedatectl</code></td>
-<td>1. 显示现在的日期时间<br />2. 自定义显示日期时间格式（如：<code>%F</code>,<code>%T</code>）<br />3. 查看当前的日期时间、时区等详细信息</td>
-</tr>
-<tr>
-<td align="center">系统管理</td>
-<td align="left">1. <code>systemctl</code><br />2. <code>systemctl [is-active / is-enabled] &lt;SERVICE&gt;</code><br />3. <code>systemctl [start / stop / enable / disable / restart / reload / status] &lt;SERVICE&gt;</code><br /></td>
-<td>1. 用于查看系统下的所有设备、挂载、服务、接口等信息<br />2. 分别查看服务是否运行？是否开机自启？<br />3. 分别管理服务的<strong>启动、关闭、允许开机自启、禁用开机自启、重启、重新加载配置、查看状态</strong>服务</td>
-</tr>
-<tr>
-<td align="center">显示启动状态</td>
-<td align="left"><code>uptime</code></td>
-<td>简要显示电脑的启动状态、登录用户数等</td>
-</tr>
-<tr>
-<td align="center">任务管理器</td>
-<td align="left">1. <code>top</code><br />2. <code>htop</code></td>
-<td>1. 管理所有正在运行的进程<br />2. 需要额外安装 <code>htop</code> 软件包</td>
-</tr>
-<tr>
-<td align="center">查看指定目录所占空间</td>
-<td align="left">1. <code>du</code><br />2. <code>du -sh &lt;文件/目录&gt;</code></td>
-<td>1. 在当前目录下<strong>递归查看</strong>所有文件及目录的大小<br />2. 在指定目录或文件下查看大小</td>
-</tr>
-<tr>
-<td align="center">查看磁盘分区情况</td>
-<td align="left"><code>df -h</code></td>
-<td>查看所有磁盘分区的大小、占用情况、挂载点等</td>
-</tr>
-<tr>
-<td align="center">磁盘分区</td>
-<td align="left"><code>fdisk</code><br /><code>parted</code><br /><code>cfdisk</code></td>
-<td>磁盘分区工具</td>
-</tr>
-<tr>
-<td align="center">查看磁盘信息</td>
-<td align="left"><code>lsblk</code></td>
-<td>显示所有块设备的大小及挂载点</td>
-</tr>
-<tr>
-<td align="center">查看 CPU 信息</td>
-<td align="left"><code>lscpu</code></td>
-<td>显示 CPU 的详细信息</td>
-</tr>
-<tr>
-<td align="center">查看电池</td>
-<td align="left"><code>lspower</code></td>
-<td>显示电池电量及当前使用电池状态</td>
-</tr>
-<tr>
-<td align="center">内存使用情况</td>
-<td align="left"><code>free -h</code></td>
-<td>查看当前的内存使用情况</td>
-</tr>
-<tr>
-<td align="center">关机</td>
-<td align="left"><code>poweroff</code> &#x2F; <code>shutdown now</code></td>
-<td>关闭电源</td>
-</tr>
-<tr>
-<td align="center">重启</td>
-<td align="left"><code>reboot</code></td>
-<td>按下 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> 也可重启</td>
-</tr>
-<tr>
-<td align="center">电源管理</td>
-<td align="left"><code>halt [-p / -f / --reboot]</code><br /></td>
-<td>1. <code>halt</code>：挂起电源<br />2. <code>-p</code>：关机<br />3. <code>--reboot</code>：重启<br />4. <code>-f</code>：强制性操作<strong>（❗ 谨慎操作）</strong></td>
-</tr>
-<tr>
-<td align="center">运行选项</td>
-<td align="left"><code>init &lt;X&gt;</code></td>
-<td>其中的 <code>&lt;X&gt;</code> 表示运行级别，具体如下：<br />- <code>0</code> ：关机<br />- <code>1</code>：进入紧急模式<br />- <code>2</code>：多用户模式<br />- <code>3</code>：带网络的多用户模式<br />- <code>4</code>：未定义 <em>没什么用</em><br />- <code>5</code>：图形界面<br />- <code>6</code>：重启</td>
-</tr>
-</tbody></table>
-<h3 id="网络与传输"><a href="#网络与传输" class="headerlink" title="网络与传输"></a>网络与传输</h3><table>
-<thead>
-<tr>
-<th align="center">名称</th>
-<th align="left">用法 &#x2F; 选项（简略）</th>
-<th>注释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">网络配置</td>
-<td align="left">1. <code>nmcli</code><br />2. <code>nmtui</code></td>
-<td>1. 命令行下查看所有网络配置<br />2. 图形化界面管理网络配置<br />❗：需要安装 <code>network-manager</code>  软件包</td>
-</tr>
-<tr>
-<td align="center">测试网络连通</td>
-<td align="left">1. <code>ping &lt;IP / Hostname&gt;</code><br />2. <code>ping -c 4 &lt;IP / Hostname&gt;</code></td>
-<td>1. 测试指定 IP 地址或域名是否连通<br />2. 发送 4 个数据包以测试连通性</td>
-</tr>
-<tr>
-<td align="center">测试远程网络</td>
-<td align="left">1. <code>curl ifconfig.io</code><br />2. <code>curl ifconfig.io/all</code><br />3. <code>curl ifconfig.io/all.json -o all.json</code></td>
-<td>1. 从 <code>ifconfig.io</code> 网站上获取 IP 地址<br />2. 从 <code>ifconfig.io</code> 网站中获取所有信息<br />3. 从 <code>ifconfig.io</code> 网站中下载并保存 JSON 格式的信息</td>
-</tr>
-<tr>
-<td align="center">显示网络状态</td>
-<td align="left">1. <code>netstat -an</code><br /><br />2. <code>netstat -at</code><br />3. <code>netstat -au</code><br />4. <code>netstat -apu</code><br />5. <code>netstat -i</code><br />6. <code>netstat -r</code><br />7. <code>netstat -ap | grep [SERVICE]</code><br />8. <code>netstat -anlp | grep [PORT_NUMBER]</code></td>
-<td>1. 查看当前系统网络状态的所有连接信息<br />2. 查看所有 TCP 端口信息<br />3. 查看 UDP 连接信息<br />4. 查看 UDP 连接端口号使用信息<br />5. 查看网卡状态信息<br />6. 查看网络路由表状态信息<br />7. 搜索某个服务所对应的连接信息<br />8. 查看运行在指定端口的进程<br />❗：若无法执行，需安装 <code>net-tools</code> 软件包</td>
-</tr>
-<tr>
-<td align="center">IP 路由表</td>
-<td align="left"><code>route</code> &#x2F; <code>ip route</code></td>
-<td>查看 IP 路由表<br />❗：需安装 <code>net-tools</code> 、<code>iproute2</code> 软件包</td>
-</tr>
-<tr>
-<td align="center">查看物理网卡 IP 地址</td>
-<td align="left"><code>ip addr</code></td>
-<td>此命令可直接简写为 <code>ip a</code><br />❗：需安装 <code>iproute2</code> 软件包</td>
-</tr>
-<tr>
-<td align="center">查看物理网卡配置</td>
-<td align="left">1. <code>ifconfig</code><br/>2. <code>ifconfig &lt;网卡名&gt;</code><br/><br /></td>
-<td>1. 显示所有网卡配置<br/>2. 显示指定网卡配置<br />❗：需安装 <code>net-tools</code> 软件包</td>
-</tr>
-<tr>
-<td align="center">文件下载工具</td>
-<td align="left"><code>wget &lt;file_url&gt;</code></td>
-<td>从某个 url 中下载文件到当前工作路径</td>
-</tr>
-<tr>
-<td align="center">SSH 连接</td>
-<td align="left"><code>ssh username@&lt;hostname / ip地址&gt; [-p &lt;22 / 指定端口号&gt;]</code></td>
-<td>使用 SSH 方式连接远程主机，<br /><code>22</code> 为 SSH 默认端口</td>
-</tr>
-<tr>
-<td align="center">SSH 密钥</td>
-<td align="left">1. <code>ssh-keygen</code><br />2. <code>ssh-keygen -t [dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]</code></td>
-<td>1. 生成一个新的密钥<br />2. 指定生成某个类型的密钥（常用 RSA 密钥）</td>
-</tr>
-<tr>
-<td align="center">传输文件工具</td>
-<td align="left">1. <code>scp [&lt;用户名&gt;@&lt;主机名/IP地址&gt;:]&lt;需传输的文件目录&gt; &lt;用户名&gt;@&lt;主机名/IP地址&gt;:&lt;目标目录&gt;</code><br />2. <code>scp user@hostA:~/a.txt user@hostB:~/doc</code><br />3. <code>scp test.txt user@hostA:/doc</code></td>
-<td>1. 将其中一台主机中的文件或目录传输到另一台主机的目录中<br />2. 将主机<code>hostA</code>下的主目录里的 <code>a.txt</code> 文件传输到主机 <code>hostB</code> 下的 <code>~/doc</code> 目录中<br />3. 将自己主机下的当前目录里的 <code>test.txt</code> 文件传输到主机 <code>hostA</code> 下的<code>/doc</code> 目录中</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
-    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
-    <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
-<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
-<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg" alt="暗色"><br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg" alt="亮色"></p>
-</li>
-<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
-<ul>
-<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
-<li>其中的【说说】会在此留下所有关于作者的一些话</li>
-</ul>
-</li>
-<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img loading="lazy" src="/images/2024/0423/music.jpg" alt="音乐"></p>
-</li>
-<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
-</li>
-<li><p>目前暂未完成的目标：</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
-<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
-<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
-</ul>
-</li>
-</ul>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
-<blockquote>
-<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>更新日志</category>
-      </categories>
-      <tags>
-        <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
-    <url>/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[
-  <div class="note-large regular">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
-
-    </div>
-    <div class="notel-content">
-      <p>本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。</p>
-<p><img loading="lazy" src="/images/2024/0426/13.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h1><p>根据不同的方式来安装相对应的环境，作为 0 基础的 Linux 入门新手，你可以根据 ⭐ 级别来参考并选择相对应的安装方式。</p>
-<h2 id="虚拟机环境-（⭐⭐⭐⭐⭐）"><a href="#虚拟机环境-（⭐⭐⭐⭐⭐）" class="headerlink" title="虚拟机环境 （⭐⭐⭐⭐⭐）"></a>虚拟机环境 （⭐⭐⭐⭐⭐）</h2><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>安全：虚拟机与真实的物理机完全隔离；</li>
-<li>便利：只需要一个安装镜像（通常以 <code>*.iso</code> 格式的文件）即可安装；</li>
-<li>即用即停：使用虚拟机时可直接暂停或恢复虚拟机。可以减少开启虚拟机的等待时间</li>
-</ul>
-<h3 id="安装方式"><a href="#安装方式" class="headerlink" title="安装方式"></a>安装方式</h3><p>请根据如下表所给的虚拟机软件中选择其中一个进行下载安装。</p>
-<table>
-<thead>
-<tr>
-<th align="center">软件</th>
-<th>可用的平台</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><img loading="lazy" src="https://www.vmware.com/favicon.ico" style="zoom:75%;" /> <a class="link"   href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html" >VMWare Workstation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-<td>Windows、Linux</td>
-</tr>
-<tr>
-<td align="center"><img loading="lazy" src="https://www.virtualbox.org/favicon.ico"> <a class="link"   href="https://www.virtualbox.org/wiki/Downloads" >Oracle VM VirtualBox <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-<td>Windows、Mac、Linux</td>
-</tr>
-<tr>
-<td align="center"><img loading="lazy" src="https://www.vmware.com/favicon.ico" style="zoom:75%;" /> <a class="link"   href="https://www.vmware.com/products/fusion/fusion-evaluation.html" >VMWare Fusion <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-<td>Mac</td>
-</tr>
-<tr>
-<td align="center"><img loading="lazy" src="https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png" style="zoom: 33%;" /> <a class="link"   href="https://www.parallels.com/products/desktop/" >Parallels Desktop <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-<td>Mac</td>
-</tr>
-<tr>
-<td align="center"><img loading="lazy" src="https://www.qemu.org/assets/favicons/favicon-32x32.png"> <a class="link"   href="https://www.qemu.org/download/" >QEMU <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-<td>Windows、Mac、Linux</td>
-</tr>
-<tr>
-<td align="center"><img loading="lazy" src="https://learn.microsoft.com/favicon.ico" style="zoom:25%;" /> <a class="link"   href="https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/" >Hyper-V <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-<td>Windows</td>
-</tr>
-</tbody></table>
-<p>Windows 用户建议选择 VMware Workstation；</p>
-<p>Linux 用户建议选择 Oracle VM VirtualBox；</p>
-<p>Mac 用户建议选择 Parallels Desktop。</p>
-<h2 id="Windows-Subsystem-Linux（WSL）（⭐⭐⭐⭐）"><a href="#Windows-Subsystem-Linux（WSL）（⭐⭐⭐⭐）" class="headerlink" title="Windows Subsystem Linux（WSL）（⭐⭐⭐⭐）"></a>Windows Subsystem Linux（WSL）（⭐⭐⭐⭐）</h2><h3 id="特点-1"><a href="#特点-1" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>运行于 Windows 系统上。</li>
-<li>安装非常简单，仅需安装发行版即可实现即开即用</li>
-<li>仅运行于终端中，不会占用过大的存储空间</li>
-</ul>
-<h3 id="安装方式-1"><a href="#安装方式-1" class="headerlink" title="安装方式"></a>安装方式</h3><p>你可以直接<a class="link"   href="https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R" >点击此处下载 WSL <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，打开网页后将会自动跳转到 Microsoft Store 中，只需点击下载安装即可</p>
-<p>关于相关的 WSL 教程，请直接点击下方按钮以跳转至此文章。</p>
-<a class="button  center large" href='/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统/' title='WSL：一个适用于 Windows 的 Linux 子系统'><i class='fas fa-link'></i> WSL：一个适用于 Windows 的 Linux 子系统</a>
-
-<h2 id="实机安装（双系统安装）（⭐⭐⭐）"><a href="#实机安装（双系统安装）（⭐⭐⭐）" class="headerlink" title="实机安装（双系统安装）（⭐⭐⭐）"></a>实机安装（双系统安装）（⭐⭐⭐）</h2><h3 id="特点-2"><a href="#特点-2" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>完全安装在真机环境上，体验原汁原味的系统</li>
-<li>上手难度较大，不利于新手操作</li>
-<li>安装前需要提前为新安装的 Linux 系统进行分区，配置较为麻烦，同时需要依靠 U 盘进行安装</li>
-</ul>
-<h3 id="安装方式-2"><a href="#安装方式-2" class="headerlink" title="安装方式"></a>安装方式</h3><ul>
-<li><p>若选择此方式，作者建议使用如下工具将镜像文件安装到 U 盘中：</p>
-<img loading="lazy" src="https://www.ventoy.net/favicon.ico"  />
-
-<p><a class="link"   href="https://www.ventoy.net/cn/download.html" >Ventoy <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件</p>
-<img loading="lazy" src="https://rufus.ie/favicon.ico"  />
-
-<p><a class="link"   href="https://rufus.ie/zh/" >Rufus <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款轻松创建 USB 启动盘的工具</p>
-<p><img loading="lazy" src="https://etcher.balena.io/images/2024/favicon.png"></p>
-<p><a class="link"   href="https://etcher.balena.io/" >balenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款更为简单的烧录软件</p>
-</li>
-<li><p>使用方式均为一样，仅需使用对应工具将需要存放的 ISO 镜像文件烧录即可。</p>
-</li>
-</ul>
-<h2 id="适用于安卓设备的软件-——-Termux（⭐⭐）"><a href="#适用于安卓设备的软件-——-Termux（⭐⭐）" class="headerlink" title="适用于安卓设备的软件 —— Termux（⭐⭐）"></a>适用于安卓设备的软件 —— Termux（⭐⭐）</h2>
-  <div class="note p-4 mb-4 rounded-small icon-padding">
-    <i class="note-icon fa-solid fa-circle-exclamation"></i><p><strong>注意：</strong>本篇中此方法不会具体展开介绍</p>
-
-  </div>
-
-<h3 id="特点-3"><a href="#特点-3" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>支持在 Android 手机上运行虚拟 Linux 系统</li>
-<li>相对适合没有电脑的情况下使用</li>
-<li>仅需安装 Termux 即可得到虚拟的 Linux 环境</li>
-</ul>
-<h3 id="安装方式-3"><a href="#安装方式-3" class="headerlink" title="安装方式"></a>安装方式</h3><ul>
-<li><p><a class="link"   href="https://github.com/termux/termux-app/releases/tag/v0.118.0" >Release v0.118.0 · termux&#x2F;termux-app (github.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>由于大多数手机为 ARM 架构，因此建议<a class="link"   href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk" >选择 ARM 版本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</li>
-</ul>
-<h1 id="安装-Linux-系统"><a href="#安装-Linux-系统" class="headerlink" title="安装 Linux 系统"></a>安装 Linux 系统</h1><h2 id="下载镜像"><a href="#下载镜像" class="headerlink" title="下载镜像"></a>下载镜像</h2><p>在写这篇文章之前，若你已经下载并安装完环境后，接下来只需要在对应的 Linux 发行版中下载镜像即可。（通常为 <code>*.iso</code> 格式的镜像文件）</p>
-<img loading="lazy" src="https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png"  />
-
-<p>这里将使用全球较为流行的 <a class="link"   href="https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso" >Ubuntu 24.04 LTS <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 镜像来安装 Linux。</p>
-
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-circle-info"></i><p>下载提示</p>
-
-    </div>
-    <div class="notel-content">
-      <p>若下载速度缓慢，这里已提供如下镜像站，可以加快下载速度：</p>
-<ul>
-<li><a class="link"   href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >清华源下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://mirror.nyist.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >南阳理工学院镜像站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://mirror.bjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >北京交通大学镜像站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://mirrors.xjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >西安交通大学镜像站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<p>请直接点击上方链接或者复制下载链接，即可开始下载镜像</p>
-
-    </div>
-  </div>
-
-<h2 id="新建虚拟机"><a href="#新建虚拟机" class="headerlink" title="新建虚拟机"></a>新建虚拟机</h2><p>这里以 VMware Workstation 17 为例，</p>
-<p>首先，在主页上点击【创建虚拟机】；接下来，就按照下面的图一步一步创建即可(*^_^*)（这非常简单）</p>
-<p><img loading="lazy" src="/images/2024/0426/1.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/2.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/3.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/4.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/5.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/6.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/7.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0426/8.jpg"></p>
-<p>完成上述创建后，直接按照如下图提示，开启虚拟机即可</p>
-<p><img loading="lazy" src="/images/2024/0426/9.jpg"></p>
-<h2 id="安装-Ubuntu-系统"><a href="#安装-Ubuntu-系统" class="headerlink" title="安装 Ubuntu 系统"></a>安装 Ubuntu 系统</h2><p>一般情况下，在安装 Ubuntu 系统时，将会启动 Grub 引导，此时选择第一项【Try or Install Ubuntu】，等待启动 Ubuntu。</p>
-<p><img loading="lazy" src="/images/2024/0426/10.jpg"></p>
-<p>等待完成后，后面仅需按照图中的提示做好初次配置即可开始安装 Ubuntu 系统。虚拟机下仅需设置好用户和密码即可。其余操作仅需点【下一步】即可</p>
-<p><img loading="lazy" src="/images/2024/0426/11.gif"></p>
-<p>若安装完成后，选择重启时将会出现如下图，此时仅需按下回车键即可完成</p>
-<p><img loading="lazy" src="/images/2024/0426/12.jpg"></p>
-<blockquote>
-<p><strong>※ 补充内容：安装 VMware Tools 工具</strong></p>
-<p>现如今，在 Ubuntu 及其它 Debian 系发行版下，可直接打开终端，并安装 <code>open-vm-tools</code> 工具包即可，具体命令如下：</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install open-vm-tools -y</span><br></pre></td></tr></table></figure></div>
-
-<p>完成安装后，将系统注销重新登录之后即可生效</p>
-</blockquote>
-<h2 id="检查-Ubuntu-版本"><a href="#检查-Ubuntu-版本" class="headerlink" title="检查 Ubuntu 版本"></a>检查 Ubuntu 版本</h2><p>按照如下图的操作，查看 Ubuntu 版本号即可</p>
-<p><img loading="lazy" src="/images/2024/0426/14.gif"></p>
-<p>🎉 至此，安装 Linux 系统已经完成！😉</p>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>跳转提示</p>
-
-    </div>
-    <div class="notel-content">
-      <p>🎉 你已完成了整个 Linux 的安装，若你对 Linux 系统不是非常熟悉，建议阅读以下文章：</p>
-<p><a class="button  center regular" href='/2024/05/03/从-0-开始学-Linux-熟悉-GNOME-桌面/' title='从 0 开始学 Linux：熟悉 GNOME 桌面'><i class='fas fa-link'></i> 从 0 开始学 Linux：熟悉 GNOME 桌面</a></p>
-<p><a class="button  center regular" href='/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门/' title='从 0 开始学 Linux：Bash Shell 快速入门'><i class='fas fa-link'></i> 从 0 开始学 Linux：Bash Shell 快速入门</a></p>
-
-    </div>
-  </div>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在命令行下使用 Git？</title>
-    <url>/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</url>
-    <content><![CDATA[<p>Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。</p>
-<h2 id="下载-Git"><a href="#下载-Git" class="headerlink" title="下载 Git"></a>下载 Git</h2><p>首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：</p>
-<ul>
-<li><p>Linux: 根据不同的发行版，在终端中输入对应的安装命令即可</p>
-<div class="tabs" id="tab-install_git"><ul class="nav-tabs"><li class="tab active"><a class="#install_git-1">Debian(Ubuntu)</a></li><li class="tab"><a class="#install_git-2">Arch Linux</a></li><li class="tab"><a class="#install_git-3">Fedora(Redhat)</a></li><li class="tab"><a class="#install_git-4">CentOS(7.9及以下)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="install_git-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -Sy git </span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-3"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dnf install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-4"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install git -y</span><br></pre></td></tr></table></figure></div></div></div></div>
-</li>
-<li><p>Windows &#x2F; MacOS: <a class="link"   href="https://git-scm.com/downloads" >https://git-scm.com/downloads <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</li>
-</ul>
-<p>要检查 Git 安装是否完成，只需执行命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="简单使用-Git"><a href="#简单使用-Git" class="headerlink" title="简单使用 Git"></a>简单使用 Git</h2><p>关于此处，你可以直接通过如下图进行速查：</p>
-<p><img loading="lazy" src="https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg" alt="Git 常用命令速查表"></p>
-<p>以下是较为常用的 Git 命令：</p>
-<p>首先最为简单的事，就是从 Github 等其它代码托管平台上<strong>克隆项目</strong></p>
-<p>克隆源代码项目：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
-
-<p>安装完成后，首先第一件事：就是需要先配置用户和邮箱。</p>
-<p>配置用户：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name [你的名字]</span><br></pre></td></tr></table></figure></div>
-
-<p>配置邮箱：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email [你的邮箱]</span><br></pre></td></tr></table></figure></div>
-
-<p>要初始化一个自己的 Git 项目，执行如下：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init [你的项目名]</span><br></pre></td></tr></table></figure></div>
-
-<p>当然，你也可以选择在当前目录下初始化你的 Git，只需执行：<code>git init</code></p>
-<p>将文件添加到分支中：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add *</span><br><span class="line">git add .</span><br><span class="line">git add [指定的文件或目录]</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>这里的 <code>*</code> , <code>.</code> 都代表当前目录下所有需要添加或修改的文件</p>
-</blockquote>
-<p>将文件从分支中删除：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r [指定目录]        <span class="comment"># 删除目录及其所有子文件</span></span><br><span class="line">git <span class="built_in">rm</span> [指定文件或目录]     <span class="comment"># 删除文件</span></span><br><span class="line">git <span class="built_in">rm</span> -r *                <span class="comment"># 删除所有</span></span><br></pre></td></tr></table></figure></div>
-
-<p>查看所有已添加到分支里的文件</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git ls-files</span><br></pre></td></tr></table></figure></div>
-
-<p>为分支里的文件进行提交（commit：提交时需要用到的标记）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&#x27;[内容]&#x27;</span></span><br><span class="line">git commit -am <span class="string">&#x27;[内容]&#x27;</span>  <span class="comment"># 添加并提交</span></span><br><span class="line">git commit --amend -m <span class="string">&#x27;[内容]&#x27;</span> <span class="comment"># 反复修改并提交 </span></span><br></pre></td></tr></table></figure></div>
-
-<p>查看当前的分支状态：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-
-<p>关于分支（branch）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git show-branch     <span class="comment"># 查看当前分支历史</span></span><br><span class="line">git show-branch -a  <span class="comment"># 查看当前分支的所有历史</span></span><br><span class="line">git branch          <span class="comment"># 查看当前存在的分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有存在的分支</span></span><br><span class="line">git branch -M main  <span class="comment"># 新建一个 main 分支</span></span><br><span class="line">git branch -m main main_copy <span class="comment"># 将 main 分支改名为 main_copy</span></span><br></pre></td></tr></table></figure></div>
-
-<p>添加远程仓库（Github、Gitlab、Gitee……）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
-
-<p>上传&#x2F;推流到远程仓库：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin master   <span class="comment"># 将本地分支推流到远程分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p>从远程仓库中获取&#x2F;合并到本地分支：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin master  <span class="comment"># 获取远程分支master并merge到本地分支</span></span><br><span class="line">git merge origin/master     <span class="comment"># 从远程分支中合并到本地分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p>更多进阶的命令，可以查看 <a class="link"   href="https://www.runoob.com/note/56524" >Git 常用命令大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，内容更加详细(*^_^*)。</p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
-    <url>/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
-
-    </div>
-    <div class="notel-content">
-      <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
-<p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
-<p><img loading="lazy" src="/images/2024/0426/13.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="桌面布局"><a href="#桌面布局" class="headerlink" title="桌面布局"></a>桌面布局</h1><p>请根据如下图的标识一一对应。</p>
-<p><img loading="lazy" src="/images/2024/0503/1.jpg" alt="桌面"></p>
-<p><img loading="lazy" src="/images/2024/0503/3.jpg" alt="快捷菜单"></p>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p><strong>Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。</strong></p>
-<p>这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 <code>gnome-shell</code> 插件来实现）</p>
-<p><img loading="lazy" src="/images/2024/0503/2.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="桌面小技巧"><a href="#桌面小技巧" class="headerlink" title="桌面小技巧"></a>桌面小技巧</h1><p>以下是关于 GNOME 相关操作的小技巧，不包含所有。</p>
-<h2 id="有用的键盘快捷键"><a href="#有用的键盘快捷键" class="headerlink" title="有用的键盘快捷键"></a>有用的键盘快捷键</h2><blockquote>
-<p>以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。</p>
-</blockquote>
-<p><kbd><i class="fa-brands fa-windows"></i></kbd> 类</p>
-<ul>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd>：打开【概览】界面</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd>：打开【所有程序】界面</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>S</kbd>：打开右上角处的【快捷菜单】</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>D</kbd>：快速显示桌面，再按一次复原</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>L</kbd>：锁定屏幕</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Tab</kbd>：切换应用</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd>：将窗口移动到左半屏，再按一次将恢复原位</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd>：将窗口移动到右半屏，再按一次将恢复原位</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>↑</kbd>：将窗口最大化，再按一次将取消最大化</li>
-</ul>
-<p><kbd>Alt</kbd> 类：</p>
-<ul>
-<li><kbd>Alt</kbd> + <kbd>Tab</kbd>：切换应用</li>
-<li><kbd>Alt</kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
-<li><kbd>Alt</kbd> + <kbd>Esc</kbd>：切换应用（比前两个快捷键更好用👍）</li>
-<li><kbd>Alt</kbd> + <kbd>F2</kbd>：打开【运行】命令，快速运行一个命令</li>
-</ul>
-<p><kbd>Ctrl</kbd> 类：</p>
-<ul>
-<li><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：快速打开终端</li>
-</ul>
-<h2 id="Dock-栏（快捷栏）"><a href="#Dock-栏（快捷栏）" class="headerlink" title="Dock 栏（快捷栏）"></a>Dock 栏（快捷栏）</h2><h3 id="利用快捷键启动应用"><a href="#利用快捷键启动应用" class="headerlink" title="利用快捷键启动应用"></a>利用快捷键启动应用</h3><p>Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands fa-windows"></i></kbd> + 数字键以打开快捷栏中的所对应的应用程序。</p>
-<p>每个应用图标左上角的以 ①②③ 表示对应的序号。<br>例如：打开 Firefox 浏览器，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>1</kbd> 即可</p>
-<p>若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：</p>
-<p><img loading="lazy" src="/images/2024/0503/4.jpg" alt="在快捷栏中启动应用"></p>
-<h3 id="固定应用到-Dock-栏（快捷栏）"><a href="#固定应用到-Dock-栏（快捷栏）" class="headerlink" title="固定应用到 Dock 栏（快捷栏）"></a>固定应用到 Dock 栏（快捷栏）</h3><h4 id="1-通过右键菜单"><a href="#1-通过右键菜单" class="headerlink" title="1. 通过右键菜单"></a>1. 通过右键菜单</h4><p>你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此</p>
-<p><img loading="lazy" src="/images/2024/0503/5.jpg" alt="固定应用"></p>
-<h4 id="2-通过鼠标拖拽"><a href="#2-通过鼠标拖拽" class="headerlink" title="2. 通过鼠标拖拽"></a>2. 通过鼠标拖拽</h4><p>你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；</p>
-<p>反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 </p>
-<p><img loading="lazy" src="/images/2024/0503/1.gif" alt="固定应用程序"></p>
-<p><img loading="lazy" src="/images/2024/0503/2.gif" alt="取消固定应用程序"></p>
-<hr>
-<p>在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；</p>
-<p>反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）</p>
-<p><img loading="lazy" src="/images/2024/0503/3.gif" alt="在桌面中固定"></p>
-<p><img loading="lazy" src="/images/2024/0503/4.gif" alt="在桌面中解除固定"></p>
-<h2 id="窗口（Window）"><a href="#窗口（Window）" class="headerlink" title="窗口（Window）"></a>窗口（Window）</h2><h3 id="左右分屏"><a href="#左右分屏" class="headerlink" title="左右分屏"></a>左右分屏</h3><p>与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。</p>
-<p><img loading="lazy" src="/images/2024/0503/6.gif" alt="左右分屏"></p>
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-solid fa-lightbulb"></i><p>提示：</p>
-<p>在此处操作中，可以使用快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd> 或 <kbd> <i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd> 来使窗口快速移动到左半屏或右半屏</p>
-
-  </div>
-
-<h3 id="上下分屏"><a href="#上下分屏" class="headerlink" title="上下分屏"></a>上下分屏</h3><p>与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o</p>
-<p><img loading="lazy" src="/images/2024/0503/7.gif" alt="上下分屏"></p>
-<h2 id="工作区（Workspace）"><a href="#工作区（Workspace）" class="headerlink" title="工作区（Workspace）"></a>工作区（Workspace）</h2><p>工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：</p>
-<h3 id="创建、删除、切换工作区"><a href="#创建、删除、切换工作区" class="headerlink" title="创建、删除、切换工作区"></a>创建、删除、切换工作区</h3><p>不多描述，直接看图</p>
-<p><img loading="lazy" src="/images/2024/0503/long1.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long2.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long3.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long4.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long5.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long6.gif"></p>
-<p>下列为比较好用的快捷键（即上图中所提及到的操作）：</p>
-<ul>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↑</kbd>：上一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↓</kbd>：下一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：第一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：最后一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：将窗口移动到上一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：将窗口移动到下一个工作区</p>
-</li>
-</ul>
-<hr>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
-
-    </div>
-    <div class="notel-content">
-      <p>以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)</p>
-
-    </div>
-  </div>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>GNOME</tag>
-        <tag>桌面环境</tag>
-        <tag>新手向</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python 快速入门（学习笔记）</title>
     <url>/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[
@@ -1792,9 +912,438 @@ B -- False --> 执行语句2
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>新手向</tag>
         <tag>Python</tag>
         <tag>学习笔记</tag>
+        <tag>新手向</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux Shell 基础命令速查表（非完整版）</title>
+    <url>/2024/04/25/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>观前须知</p>
+
+    </div>
+    <div class="notel-content">
+      <p>此文章将以表格的形式呈现，若需要更为直观的 Linux 命令，请直接查看 <a class="link"   href="https://www.runoob.com/linux/linux-tutorial.html" >Linux 教程 | 菜鸟教程 (runoob.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><strong>表格注释：</strong> 💡 &#x3D; 提示，❗ &#x3D; 注意（需要安装的软件包）</p>
+
+    </div>
+  </div>
+
+<h3 id="终端与用户"><a href="#终端与用户" class="headerlink" title="终端与用户"></a>终端与用户</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">用户名</td>
+<td align="left"><code>whoami</code></td>
+<td>显示当前登录的用户</td>
+</tr>
+<tr>
+<td align="center">正在登录的用户</td>
+<td align="left">1. <code>who</code><br />2. <code>w</code></td>
+<td>1. 查看当前正在登录的用户<br />2. 详细查看当前登录的用户</td>
+</tr>
+<tr>
+<td align="center">上次登录</td>
+<td align="left"><code>last</code></td>
+<td>查看上次当前用户的详细信息</td>
+</tr>
+<tr>
+<td align="center">主机名</td>
+<td align="left">1. <code>hostname</code><br />2. <code>hostname -s</code></td>
+<td>1. 显示完整的主机名<br />2. 显示简单的主机名</td>
+</tr>
+<tr>
+<td align="center">关于主机</td>
+<td align="left">1. <code>hostnamectl</code><br />2. <code>hostnamectl set-hostname &lt;hostname&gt;</code></td>
+<td>1. 显示当前主机信息<br />2. 设置主机名<br /><strong>❗：普通用户下需提权</strong></td>
+</tr>
+<tr>
+<td align="center">提升权限（<strong>管理员权限</strong>）</td>
+<td align="left"><code>sudo &lt;command&gt;</code></td>
+<td>以<strong>管理员身份</strong>执行命令<br /><strong>❗：在该用户为管理员的前提下才可用</strong></td>
+</tr>
+<tr>
+<td align="center">切换其它用户</td>
+<td align="left">1. <code>su &lt;用户名&gt;</code><br />2. <code>su</code><br />3. <code>sudo su</code><br />4. <code>sudo su -</code></td>
+<td>1. 切换指定用户<br />2. 切换至 root 用户<br />3. 当不知道 root 用户密码的情况下，使用管理员权限切换至 root 用户<br />4. 使用管理员权限切换至 root 用户并<strong>切换 Shell 环境</strong><br />💡：若需查看当前使用的 Shell 环境，<br />执行：<code>echo $SHELL</code></td>
+</tr>
+<tr>
+<td align="center">输出内容</td>
+<td align="left">1. <code>echo Hello world</code><br />2. <code>echo &quot;Hello world&quot;</code><br />3. <code>echo -n &quot;Hello world&quot;</code><br />4. <code>echo -e &quot;Hello\nworld&quot;</code></td>
+<td>1. 直接输出 Hello world<br />2. 与上一条一致，但看起来更直观<br />3. 输出不换行<br />4. 输出时解释反转义符（如：<code>\n</code> 表示换行）</td>
+</tr>
+<tr>
+<td align="center">命令变量</td>
+<td align="left">1. <code>alias</code><br/>2. <code>alias n=&#39;command&#39;</code><br />3. <code>unalias n</code></td>
+<td>1. 显示所有已被定义的变量<br />2. 定义一个新变量 n，以代替某个指令<br />3. 删除新变量 n</td>
+</tr>
+<tr>
+<td align="center">指令搜索</td>
+<td align="left"><code>which &lt;command&gt;</code></td>
+<td>搜索指定指令所在的路径</td>
+</tr>
+<tr>
+<td align="center">指令搜索</td>
+<td align="left"><code>whereis &lt;keyword&gt;</code></td>
+<td>搜索二进制文件、帮助文件等</td>
+</tr>
+<tr>
+<td align="center">帮助手册</td>
+<td align="left">1. <code>man &lt;command&gt;</code><br />2. <code>man -k &lt;keyword&gt;</code><br />3. <code>man -K &lt;keyword&gt;</code></td>
+<td>1. 查看关于<code>&lt;command&gt;</code>的帮助<br />2. 搜索帮助<br />3. 全局搜索帮助</td>
+</tr>
+<tr>
+<td align="center">指令历史记录</td>
+<td align="left">1. <code>history</code><br />2. <code>history n</code><br />3. <code>history -c</code><br />4. <code>history -d n</code></td>
+<td>1. 查看最近的历史记录<br />2. 显示最近 n 条记录<br />3. 清除所有记录<br />4. 删除第 n 条记录</td>
+</tr>
+<tr>
+<td align="center">快速执行命令</td>
+<td align="left">1. <code>!!</code><br />2. <code>!n</code><br />3. <code>!keyword</code></td>
+<td>1. 执行上一条指令<br />2. 执行第 n 条指令<br />3. 执行上一条包含 <code>keyword</code> 的指令<br />💡：使用<kbd>Ctrl</kbd>+<kbd>R</kbd> 可直接进行指令回溯</td>
+</tr>
+<tr>
+<td align="center">更改用户密码</td>
+<td align="left">1. <code>passwd &lt;user_name&gt;</code><br />2. <code>passwd</code></td>
+<td>1. 修改指定用户密码<br />2. 修改当前用户密码</td>
+</tr>
+<tr>
+<td align="center">启动桌面环境</td>
+<td align="left"><code>startx</code></td>
+<td>启动 X.org 桌面环境（GNOME 桌面环境）</td>
+</tr>
+<tr>
+<td align="center">清屏</td>
+<td align="left"><code>clear</code></td>
+<td>快捷键：<kbd>Ctrl</kbd>+<kbd>L</kbd></td>
+</tr>
+<tr>
+<td align="center">注销用户</td>
+<td align="left"><code>logout</code></td>
+<td>快捷键：<kbd>Ctrl</kbd>+<kbd>D</kbd></td>
+</tr>
+<tr>
+<td align="center">注销或退出终端</td>
+<td align="left"><code>exit</code></td>
+<td>❗：<strong>在装有桌面环境的主机下执行，只会关闭终端窗口；使用远程连接时，则会直接断开连接</strong></td>
+</tr>
+</tbody></table>
+<h3 id="目录与文件管理"><a href="#目录与文件管理" class="headerlink" title="目录与文件管理"></a>目录与文件管理</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">查看当前路径</td>
+<td align="left"><code>pwd</code></td>
+<td>查看当前的工作路径</td>
+</tr>
+<tr>
+<td align="center">切换工作路径</td>
+<td align="left">1. <code>cd &lt;DIR&gt;</code><br/>2. <code>cd</code><br />3. <code>cd -</code></td>
+<td>1. 指定一个目录<br />2. <strong>切换至主目录（家目录）</strong><br />3. 回到之前访问过的目录</td>
+</tr>
+<tr>
+<td align="center">查看路径下的内容</td>
+<td align="left">1. <code>ls</code> <br />2. <code>ls &lt;DIR1&gt; [DIR2] ...</code><br />3. <code>ls -l</code> &#x2F; <code>ll</code><br/>4. <code>ls -h</code><br/>5. <code>ls -a</code><br/>6. <code>ls -R</code><br/>7. <code>ls -d</code><br />8. <code>ls -Z</code><br />9. <code>ls -1</code></td>
+<td>1. 查看当前路径下的内容<br />2. 查看指定单个或多个路径下的内容<br />3. 以详细列表形式显示文件内容<br/>4. 显示能看得懂的文件大小<br/>5. 显示所有内容（<strong>包含隐藏目录或文件</strong>）<br/>6. 完整显示目录下的所有文件（<strong>递归查看</strong>）<br/>7. 将目录像其它文件一样列出，而不是列出它们的内容<br />8. 显示对应的 SELinux 标签<br />9. 显示一行一个文件或目录</td>
+</tr>
+<tr>
+<td align="center">新建目录</td>
+<td align="left">1. <code>mkdir &lt;dir1&gt; [dir2]...</code><br/>2. <code>-p</code></td>
+<td>1. 新建单个或多个空目录<br/>2. 递归新建单个或多个空目录</td>
+</tr>
+<tr>
+<td align="center">删除空目录</td>
+<td align="left">1. <code>rmdir &lt;dir1&gt; [dir2]...</code><br />2. <code>-p</code></td>
+<td>1. 删除指定的<strong>空目录</strong><br />2. 删除父目录及内部的所有<strong>空目录</strong></td>
+</tr>
+<tr>
+<td align="center">新建文件</td>
+<td align="left"><code>touch &lt;file1&gt; [file2]...</code></td>
+<td>新建一个或多个空白的文件</td>
+</tr>
+<tr>
+<td align="center">复制文件目录</td>
+<td align="left">1. <code>cp &lt;file1&gt; &lt;file2/dir&gt;</code><br />2. <code>-r</code><br />3. <code>-p</code><br />4. <code>-v</code><br />5. <code>-a</code></td>
+<td>1. 将文件复制到目标路径<br />2. 递归复制（复制目录）<br />3. 复制时再复制权限<br />4. 显示复制过程<br />5. 此选项通常在复制目录时使用，它保留链接、文件属性，并复制目录下的所有内容。</td>
+</tr>
+<tr>
+<td align="center">删除文件目录</td>
+<td align="left">1. <code>rm &lt;file1&gt; [file2]...</code><br />2. <code>-r</code> &#x2F; <code>-R</code><br />3. <code>-f</code><br />4. <code>-rf </code></td>
+<td>1. 删除单个或多个目录或文件，可能需确认<br />2. 递归删除<strong>（包括目录）</strong><br />3. 强制性删除，<strong>跳过确认</strong><br />4. 强制性递归删除该目录或文件<strong>（❗ 谨慎操作）</strong></td>
+</tr>
+<tr>
+<td align="center">移动 &#x2F; 重命名文件目录</td>
+<td align="left">1. <code>mv file1 /doc</code><br />2. <code>mv a.file b.txt</code></td>
+<td>1. 将当前目录下的 <code>file1</code> 文件移动到 <code>/doc</code> 目录下<br />2. 将当前目录下的 <code>a.file</code> 文件重命名为 <code>b.txt</code></td>
+</tr>
+<tr>
+<td align="center">文件类型</td>
+<td align="left"><code>file &lt;file1&gt; [file2]...</code></td>
+<td>查看单个或多个文件类型</td>
+</tr>
+<tr>
+<td align="center">文件属性</td>
+<td align="left"><code>stat &lt;file1&gt; [file2]</code></td>
+<td>查看单个或多个文件的详细属性</td>
+</tr>
+<tr>
+<td align="center">链接（快捷方式）</td>
+<td align="left">1. <code>ln &lt;file&gt; &lt;link&gt;</code><br />2. <code> ln -s &lt;file&gt; &lt;link&gt;</code></td>
+<td>1. 创建一个<strong>硬</strong>链接<br />❗：删除源文件后<strong>仍可用</strong>，<strong>但不能在目录上创建</strong>）<br />2. 创建一个<strong>软</strong>链接<br />❗：删除源文件后<strong>不可用</strong></td>
+</tr>
+<tr>
+<td align="center">以树目录显示内容</td>
+<td align="left"><code>tree &lt;dir&gt;</code></td>
+<td>❗：其它 Linux 发行版需下载安装 <code>tree</code> 软件包即可</td>
+</tr>
+</tbody></table>
+<h3 id="文件操作编辑"><a href="#文件操作编辑" class="headerlink" title="文件操作编辑"></a>文件操作编辑</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">显示&#x2F;编辑文件内容</td>
+<td align="left">1. <code>cat &lt;file1&gt; [file2]...</code><br />2. <code>cat -n &lt;file&gt;</code><br />2. <code>cat &gt; &lt;file&gt;</code><br />3. <code>cat &gt;&gt; &lt;file&gt;</code></td>
+<td>1. 显示完整的文件内容<br />2. 带行号显示文件里的内容<br />3. 以行编辑模式下编辑文件并将其<strong>覆盖写入</strong>到文件中<br />4. 以行编辑模式下编辑文件并将其<strong>追加写入</strong>到文件中</td>
+</tr>
+<tr>
+<td align="center">显示头部文件内容</td>
+<td align="left">1. <code>head &lt;file1&gt; [file2]...</code><br/>2. <code>head -n x &lt;file1&gt; [file2]... </code></td>
+<td>1. 默认查看前 10 行<br/>2. 查看前 x 行</td>
+</tr>
+<tr>
+<td align="center">显示尾部文件内容</td>
+<td align="left">1. <code>tail &lt;file1&gt; [file2]...</code><br/>2. <code>tail -n x &lt;file1&gt; [file2]...</code><br />3. <code>tail -f &lt;file1&gt; [file2]...</code></td>
+<td>1. 默认查看尾 10 行<br/>2. 查看尾 x 行<br />3. 监视文件的内容（常用于查看日志）</td>
+</tr>
+<tr>
+<td align="center">翻页信息</td>
+<td align="left">1. <code>&lt;command&gt; | more</code><br />2. <code>&lt;command&gt; | less</code><br />3. <code>more &lt;file&gt;</code><br />4. <code>less &lt;file&gt;</code></td>
+<td>1. <code>more</code> 仅支持向下翻页，不支持向上翻页<br />2. <code>less</code> 都支持向上向下翻页</td>
+</tr>
+<tr>
+<td align="center">统计字数、行数、单词数</td>
+<td align="left">1. <code>wc &lt;file1&gt; [file2]...</code><br />2. <code>-l</code><br />3. <code>-m</code><br />4. <code>-w</code></td>
+<td>1. 统计所有<br />2. 统计行数<br />3. 统计字数<br />4. 统计词数</td>
+</tr>
+<tr>
+<td align="center">比较两个文件的不同</td>
+<td align="left"><code>diff &lt;file1&gt; &lt;file2&gt;</code></td>
+<td>比较 <code>file1</code> 与 <code>file2</code> 的不同</td>
+</tr>
+<tr>
+<td align="center">行筛选工具</td>
+<td align="left">1. <code>&lt;command&gt; | grep &lt;String&gt;</code><br />2. <code>grep &lt;keyword&gt; &lt;file1&gt; [file2] </code></td>
+<td>1. 通过此方法可直接筛选所包含的行并输出<br />2. 在单个或多个文件中查找行内包含的关键字并输出</td>
+</tr>
+<tr>
+<td align="center">将输出结果写入文件</td>
+<td align="left">1. <code>&lt;command&gt; &gt; &lt;file&gt;</code><br />2. <code>&lt;command&gt; &gt;&gt; &lt;file&gt;</code><br /></td>
+<td>1. 将命令的执行结果<strong>覆盖写入</strong>至文件中<br />2. 将命令的执行结果<strong>追加写入</strong>至文件中<br /></td>
+</tr>
+<tr>
+<td align="center">以行编辑模式下编辑文件</td>
+<td align="left">1. <code>tee &lt;file&gt;</code><br />2. <code>tee -a &lt;file&gt;</code></td>
+<td>1. 将写入的内容<strong>覆盖保存</strong>到文件中<br />2. 将写入的内容<strong>追加保存</strong>到文件中<br />💡：使用行编辑模式下可直接在行内编辑并回车，编辑完成后，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束编辑并保存<br /></td>
+</tr>
+<tr>
+<td align="center">vim 文本编辑器 &#x2F; nano 文本编辑器</td>
+<td align="left">1. <code>vi [file]</code> &#x2F; <code>vim [file]</code><br />2. <code>nano [file]</code></td>
+<td>1. 使用 vi &#x2F; vim 文本编辑器打开或新建文件<br />其中，vim 编辑器为 vi 的加强版<br />❗：部分 Linux 发行版默认未安装 <code>vim</code> 软件包<br /><br />2. 使用 nano 文本编辑器打开或新建文件</td>
+</tr>
+<tr>
+<td align="center">tar 压缩包</td>
+<td align="left">1. <code>tar -xvf &lt;file.tar&gt; [-C &lt;dir&gt;]</code><br />2. <code>tar -xzvf &lt;file.tar.gz/file.tgz&gt; [-C &lt;dir&gt;]</code><br />3. <code> tar -cvf &lt;file.tar&gt; &lt;压缩目标&gt;</code><br />4. <code>tar -czvf &lt;file.tar.gz&gt;/&lt;file.tgz&gt;</code></td>
+<td>1. 解压 tar 包<br />     · <code>-C</code>：指定解压目录<br />     · <code>-x</code>：解压压缩包<br />     · <code>-v</code>：显示压缩或解压进度<br />     · <code>-f</code>：指定存档文件<br />2. 解压 tar.gz &#x2F; tgz 包<br />     · <code>-z</code>：使用 gzip 格式<br />3. 压缩目录或文件为 tar 包<br />     · <code>-c</code>：创建压缩包<br />4. 压缩目录或文件为 tar.gz &#x2F; tgz 包</td>
+</tr>
+<tr>
+<td align="center">zip 压缩包</td>
+<td align="left">1. <code>zip &lt;file.zip&gt; -r &lt;dir/file&gt; [-P &lt;压缩密码&gt; -&lt;0-9&gt;] </code><br />2. <code>unzip &lt;file.zip&gt; [-d &lt;dir&gt; ]</code></td>
+<td>1. 压缩目录或文件为 zip 包<br />    · <code>-r</code>：递归打包（常用于打包目录下的所有文件）<br />    · <code>-P</code>：设置压缩密码<br />    · <code>-&lt;0-9&gt;</code>： 表示压缩质量级别，默认值为 6。级别越高，压缩质量越好；级别越低，压缩速度越快<br />2. 解压 zip 包到当前目录<br />    · <code>-d</code>：指定解压目录</td>
+</tr>
+</tbody></table>
+<h3 id="系统与硬件管理"><a href="#系统与硬件管理" class="headerlink" title="系统与硬件管理"></a>系统与硬件管理</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">主机信息</td>
+<td align="left"><code>hostnamectl</code></td>
+<td>查看当前主机的所有信息</td>
+</tr>
+<tr>
+<td align="center">显示系统信息</td>
+<td align="left">1. <code>uname</code><br />2. <code> uname -a</code><br />3. <code>uname -m</code><br />4. <code>uname -n</code><br />5. <code>neofetch</code><br />6. <code>screenfetch</code></td>
+<td>1. 使用的内核<br />2. 显示所有系统信息<br />3. 使用的物理架构<br />4. 主机名称<br />5. 查看主机信息<br />（需安装 <code>neofetch</code> 软件包）<br />6. 查看主机信息<br />（需安装 <code>screenfetch</code> 软件包）</td>
+</tr>
+<tr>
+<td align="center">日期时间格式 &#x2F; 时区</td>
+<td align="left">1. <code>date</code><br/>2. <code>date +&lt;format&gt;</code><br />3. <code>timedatectl</code></td>
+<td>1. 显示现在的日期时间<br />2. 自定义显示日期时间格式（如：<code>%F</code>,<code>%T</code>）<br />3. 查看当前的日期时间、时区等详细信息</td>
+</tr>
+<tr>
+<td align="center">系统管理</td>
+<td align="left">1. <code>systemctl</code><br />2. <code>systemctl [is-active / is-enabled] &lt;SERVICE&gt;</code><br />3. <code>systemctl [start / stop / enable / disable / restart / reload / status] &lt;SERVICE&gt;</code><br /></td>
+<td>1. 用于查看系统下的所有设备、挂载、服务、接口等信息<br />2. 分别查看服务是否运行？是否开机自启？<br />3. 分别管理服务的<strong>启动、关闭、允许开机自启、禁用开机自启、重启、重新加载配置、查看状态</strong>服务</td>
+</tr>
+<tr>
+<td align="center">显示启动状态</td>
+<td align="left"><code>uptime</code></td>
+<td>简要显示电脑的启动状态、登录用户数等</td>
+</tr>
+<tr>
+<td align="center">任务管理器</td>
+<td align="left">1. <code>top</code><br />2. <code>htop</code></td>
+<td>1. 管理所有正在运行的进程<br />2. 需要额外安装 <code>htop</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">查看指定目录所占空间</td>
+<td align="left">1. <code>du</code><br />2. <code>du -sh &lt;文件/目录&gt;</code></td>
+<td>1. 在当前目录下<strong>递归查看</strong>所有文件及目录的大小<br />2. 在指定目录或文件下查看大小</td>
+</tr>
+<tr>
+<td align="center">查看磁盘分区情况</td>
+<td align="left"><code>df -h</code></td>
+<td>查看所有磁盘分区的大小、占用情况、挂载点等</td>
+</tr>
+<tr>
+<td align="center">磁盘分区</td>
+<td align="left"><code>fdisk</code><br /><code>parted</code><br /><code>cfdisk</code></td>
+<td>磁盘分区工具</td>
+</tr>
+<tr>
+<td align="center">查看磁盘信息</td>
+<td align="left"><code>lsblk</code></td>
+<td>显示所有块设备的大小及挂载点</td>
+</tr>
+<tr>
+<td align="center">查看 CPU 信息</td>
+<td align="left"><code>lscpu</code></td>
+<td>显示 CPU 的详细信息</td>
+</tr>
+<tr>
+<td align="center">查看电池</td>
+<td align="left"><code>lspower</code></td>
+<td>显示电池电量及当前使用电池状态</td>
+</tr>
+<tr>
+<td align="center">内存使用情况</td>
+<td align="left"><code>free -h</code></td>
+<td>查看当前的内存使用情况</td>
+</tr>
+<tr>
+<td align="center">关机</td>
+<td align="left"><code>poweroff</code> &#x2F; <code>shutdown now</code></td>
+<td>关闭电源</td>
+</tr>
+<tr>
+<td align="center">重启</td>
+<td align="left"><code>reboot</code></td>
+<td>按下 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> 也可重启</td>
+</tr>
+<tr>
+<td align="center">电源管理</td>
+<td align="left"><code>halt [-p / -f / --reboot]</code><br /></td>
+<td>1. <code>halt</code>：挂起电源<br />2. <code>-p</code>：关机<br />3. <code>--reboot</code>：重启<br />4. <code>-f</code>：强制性操作<strong>（❗ 谨慎操作）</strong></td>
+</tr>
+<tr>
+<td align="center">运行选项</td>
+<td align="left"><code>init &lt;X&gt;</code></td>
+<td>其中的 <code>&lt;X&gt;</code> 表示运行级别，具体如下：<br />- <code>0</code> ：关机<br />- <code>1</code>：进入紧急模式<br />- <code>2</code>：多用户模式<br />- <code>3</code>：带网络的多用户模式<br />- <code>4</code>：未定义 <em>没什么用</em><br />- <code>5</code>：图形界面<br />- <code>6</code>：重启</td>
+</tr>
+</tbody></table>
+<h3 id="网络与传输"><a href="#网络与传输" class="headerlink" title="网络与传输"></a>网络与传输</h3><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="left">用法 &#x2F; 选项（简略）</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">网络配置</td>
+<td align="left">1. <code>nmcli</code><br />2. <code>nmtui</code></td>
+<td>1. 命令行下查看所有网络配置<br />2. 图形化界面管理网络配置<br />❗：需要安装 <code>network-manager</code>  软件包</td>
+</tr>
+<tr>
+<td align="center">测试网络连通</td>
+<td align="left">1. <code>ping &lt;IP / Hostname&gt;</code><br />2. <code>ping -c 4 &lt;IP / Hostname&gt;</code></td>
+<td>1. 测试指定 IP 地址或域名是否连通<br />2. 发送 4 个数据包以测试连通性</td>
+</tr>
+<tr>
+<td align="center">测试远程网络</td>
+<td align="left">1. <code>curl ifconfig.io</code><br />2. <code>curl ifconfig.io/all</code><br />3. <code>curl ifconfig.io/all.json -o all.json</code></td>
+<td>1. 从 <code>ifconfig.io</code> 网站上获取 IP 地址<br />2. 从 <code>ifconfig.io</code> 网站中获取所有信息<br />3. 从 <code>ifconfig.io</code> 网站中下载并保存 JSON 格式的信息</td>
+</tr>
+<tr>
+<td align="center">显示网络状态</td>
+<td align="left">1. <code>netstat -an</code><br /><br />2. <code>netstat -at</code><br />3. <code>netstat -au</code><br />4. <code>netstat -apu</code><br />5. <code>netstat -i</code><br />6. <code>netstat -r</code><br />7. <code>netstat -ap | grep [SERVICE]</code><br />8. <code>netstat -anlp | grep [PORT_NUMBER]</code></td>
+<td>1. 查看当前系统网络状态的所有连接信息<br />2. 查看所有 TCP 端口信息<br />3. 查看 UDP 连接信息<br />4. 查看 UDP 连接端口号使用信息<br />5. 查看网卡状态信息<br />6. 查看网络路由表状态信息<br />7. 搜索某个服务所对应的连接信息<br />8. 查看运行在指定端口的进程<br />❗：若无法执行，需安装 <code>net-tools</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">IP 路由表</td>
+<td align="left"><code>route</code> &#x2F; <code>ip route</code></td>
+<td>查看 IP 路由表<br />❗：需安装 <code>net-tools</code> 、<code>iproute2</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">查看物理网卡 IP 地址</td>
+<td align="left"><code>ip addr</code></td>
+<td>此命令可直接简写为 <code>ip a</code><br />❗：需安装 <code>iproute2</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">查看物理网卡配置</td>
+<td align="left">1. <code>ifconfig</code><br/>2. <code>ifconfig &lt;网卡名&gt;</code><br/><br /></td>
+<td>1. 显示所有网卡配置<br/>2. 显示指定网卡配置<br />❗：需安装 <code>net-tools</code> 软件包</td>
+</tr>
+<tr>
+<td align="center">文件下载工具</td>
+<td align="left"><code>wget &lt;file_url&gt;</code></td>
+<td>从某个 url 中下载文件到当前工作路径</td>
+</tr>
+<tr>
+<td align="center">SSH 连接</td>
+<td align="left"><code>ssh username@&lt;hostname / ip地址&gt; [-p &lt;22 / 指定端口号&gt;]</code></td>
+<td>使用 SSH 方式连接远程主机，<br /><code>22</code> 为 SSH 默认端口</td>
+</tr>
+<tr>
+<td align="center">SSH 密钥</td>
+<td align="left">1. <code>ssh-keygen</code><br />2. <code>ssh-keygen -t [dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]</code></td>
+<td>1. 生成一个新的密钥<br />2. 指定生成某个类型的密钥（常用 RSA 密钥）</td>
+</tr>
+<tr>
+<td align="center">传输文件工具</td>
+<td align="left">1. <code>scp [&lt;用户名&gt;@&lt;主机名/IP地址&gt;:]&lt;需传输的文件目录&gt; &lt;用户名&gt;@&lt;主机名/IP地址&gt;:&lt;目标目录&gt;</code><br />2. <code>scp user@hostA:~/a.txt user@hostB:~/doc</code><br />3. <code>scp test.txt user@hostA:/doc</code></td>
+<td>1. 将其中一台主机中的文件或目录传输到另一台主机的目录中<br />2. 将主机<code>hostA</code>下的主目录里的 <code>a.txt</code> 文件传输到主机 <code>hostB</code> 下的 <code>~/doc</code> 目录中<br />3. 将自己主机下的当前目录里的 <code>test.txt</code> 文件传输到主机 <code>hostA</code> 下的<code>/doc</code> 目录中</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -1899,11 +1448,561 @@ B -- False --> 执行语句2
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Git</tag>
         <tag>博客搭建</tag>
         <tag>软件安利</tag>
+        <tag>Git</tag>
         <tag>Hexo</tag>
         <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
+    <url>/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
+
+    </div>
+    <div class="notel-content">
+      <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
+<p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
+<p><img loading="lazy" src="/images/2024/0426/13.jpg"></p>
+
+    </div>
+  </div>
+
+<h1 id="桌面布局"><a href="#桌面布局" class="headerlink" title="桌面布局"></a>桌面布局</h1><p>请根据如下图的标识一一对应。</p>
+<p><img loading="lazy" src="/images/2024/0503/1.jpg" alt="桌面"></p>
+<p><img loading="lazy" src="/images/2024/0503/3.jpg" alt="快捷菜单"></p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p><strong>Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。</strong></p>
+<p>这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 <code>gnome-shell</code> 插件来实现）</p>
+<p><img loading="lazy" src="/images/2024/0503/2.jpg"></p>
+
+    </div>
+  </div>
+
+<h1 id="桌面小技巧"><a href="#桌面小技巧" class="headerlink" title="桌面小技巧"></a>桌面小技巧</h1><p>以下是关于 GNOME 相关操作的小技巧，不包含所有。</p>
+<h2 id="有用的键盘快捷键"><a href="#有用的键盘快捷键" class="headerlink" title="有用的键盘快捷键"></a>有用的键盘快捷键</h2><blockquote>
+<p>以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。</p>
+</blockquote>
+<p><kbd><i class="fa-brands fa-windows"></i></kbd> 类</p>
+<ul>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd>：打开【概览】界面</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd>：打开【所有程序】界面</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>S</kbd>：打开右上角处的【快捷菜单】</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>D</kbd>：快速显示桌面，再按一次复原</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>L</kbd>：锁定屏幕</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Tab</kbd>：切换应用</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd>：将窗口移动到左半屏，再按一次将恢复原位</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd>：将窗口移动到右半屏，再按一次将恢复原位</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>↑</kbd>：将窗口最大化，再按一次将取消最大化</li>
+</ul>
+<p><kbd>Alt</kbd> 类：</p>
+<ul>
+<li><kbd>Alt</kbd> + <kbd>Tab</kbd>：切换应用</li>
+<li><kbd>Alt</kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
+<li><kbd>Alt</kbd> + <kbd>Esc</kbd>：切换应用（比前两个快捷键更好用👍）</li>
+<li><kbd>Alt</kbd> + <kbd>F2</kbd>：打开【运行】命令，快速运行一个命令</li>
+</ul>
+<p><kbd>Ctrl</kbd> 类：</p>
+<ul>
+<li><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：快速打开终端</li>
+</ul>
+<h2 id="Dock-栏（快捷栏）"><a href="#Dock-栏（快捷栏）" class="headerlink" title="Dock 栏（快捷栏）"></a>Dock 栏（快捷栏）</h2><h3 id="利用快捷键启动应用"><a href="#利用快捷键启动应用" class="headerlink" title="利用快捷键启动应用"></a>利用快捷键启动应用</h3><p>Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands fa-windows"></i></kbd> + 数字键以打开快捷栏中的所对应的应用程序。</p>
+<p>每个应用图标左上角的以 ①②③ 表示对应的序号。<br>例如：打开 Firefox 浏览器，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>1</kbd> 即可</p>
+<p>若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：</p>
+<p><img loading="lazy" src="/images/2024/0503/4.jpg" alt="在快捷栏中启动应用"></p>
+<h3 id="固定应用到-Dock-栏（快捷栏）"><a href="#固定应用到-Dock-栏（快捷栏）" class="headerlink" title="固定应用到 Dock 栏（快捷栏）"></a>固定应用到 Dock 栏（快捷栏）</h3><h4 id="1-通过右键菜单"><a href="#1-通过右键菜单" class="headerlink" title="1. 通过右键菜单"></a>1. 通过右键菜单</h4><p>你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此</p>
+<p><img loading="lazy" src="/images/2024/0503/5.jpg" alt="固定应用"></p>
+<h4 id="2-通过鼠标拖拽"><a href="#2-通过鼠标拖拽" class="headerlink" title="2. 通过鼠标拖拽"></a>2. 通过鼠标拖拽</h4><p>你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；</p>
+<p>反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 </p>
+<p><img loading="lazy" src="/images/2024/0503/1.gif" alt="固定应用程序"></p>
+<p><img loading="lazy" src="/images/2024/0503/2.gif" alt="取消固定应用程序"></p>
+<hr>
+<p>在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；</p>
+<p>反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）</p>
+<p><img loading="lazy" src="/images/2024/0503/3.gif" alt="在桌面中固定"></p>
+<p><img loading="lazy" src="/images/2024/0503/4.gif" alt="在桌面中解除固定"></p>
+<h2 id="窗口（Window）"><a href="#窗口（Window）" class="headerlink" title="窗口（Window）"></a>窗口（Window）</h2><h3 id="左右分屏"><a href="#左右分屏" class="headerlink" title="左右分屏"></a>左右分屏</h3><p>与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。</p>
+<p><img loading="lazy" src="/images/2024/0503/6.gif" alt="左右分屏"></p>
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-solid fa-lightbulb"></i><p>提示：</p>
+<p>在此处操作中，可以使用快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd> 或 <kbd> <i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd> 来使窗口快速移动到左半屏或右半屏</p>
+
+  </div>
+
+<h3 id="上下分屏"><a href="#上下分屏" class="headerlink" title="上下分屏"></a>上下分屏</h3><p>与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o</p>
+<p><img loading="lazy" src="/images/2024/0503/7.gif" alt="上下分屏"></p>
+<h2 id="工作区（Workspace）"><a href="#工作区（Workspace）" class="headerlink" title="工作区（Workspace）"></a>工作区（Workspace）</h2><p>工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：</p>
+<h3 id="创建、删除、切换工作区"><a href="#创建、删除、切换工作区" class="headerlink" title="创建、删除、切换工作区"></a>创建、删除、切换工作区</h3><p>不多描述，直接看图</p>
+<p><img loading="lazy" src="/images/2024/0503/long1.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long2.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long3.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long4.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long5.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long6.gif"></p>
+<p>下列为比较好用的快捷键（即上图中所提及到的操作）：</p>
+<ul>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↑</kbd>：上一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↓</kbd>：下一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：第一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：最后一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：将窗口移动到上一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：将窗口移动到下一个工作区</p>
+</li>
+</ul>
+<hr>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+
+    </div>
+    <div class="notel-content">
+      <p>以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)</p>
+
+    </div>
+  </div>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>新手向</tag>
+        <tag>Linux</tag>
+        <tag>GNOME</tag>
+        <tag>桌面环境</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
+    <url>/2024/04/23/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
+    <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
+<h2 id="What’s-New"><a href="#What’s-New" class="headerlink" title="What’s New"></a>What’s New</h2><ul>
+<li><p>使用 <a class="link"   href="https://hexo.io/zh-cn/" >Hexo 7.1.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 与 <a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >RendeFine 2.6.1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 框架搭建的个人博客，支持暗黑主题和亮色主题<br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg" alt="暗色"><br><img loading="lazy" src="/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg" alt="亮色"></p>
+</li>
+<li><p>新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容</p>
+<ul>
+<li>其中的【壁纸库】均是由博主抽空精心挑选的壁纸，可适用于电脑壁纸</li>
+<li>其中的【说说】会在此留下所有关于作者的一些话</li>
+</ul>
+</li>
+<li><p>支持在线播放音乐，目前已存放 11 首纯音乐，<strong>但需要手动才能开启</strong><br><img loading="lazy" src="/images/2024/0423/music.jpg" alt="音乐"></p>
+</li>
+<li><p>修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ</p>
+</li>
+<li><p>目前暂未完成的目标：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <strong>评论</strong>：基于 Waline 可以支持为不同的文章进行评论</li>
+<li><input disabled="" type="checkbox"> <strong>文章</strong>：文章数量过少，显得博客没有什么内容（尽量在这个月内超过 15 篇博客）</li>
+<li><input disabled="" type="checkbox"> <strong>其它</strong>：还有其它杂项的功能或组件需要加入到博客中</li>
+</ul>
+</li>
+</ul>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>目前只更新了这些内容，部分原来 Hexo 和 RendeFine 的功能在此博客没有完善，后续还会继续努力更新~(●’◡’●)~</p>
+<blockquote>
+<p>另外关于我是如何配置博客的，请看<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）】</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
+    <url>/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。</p>
+<p>如果你有更好的推荐，请在评论区补充。O(∩_∩)O</p>
+<p><img loading="lazy" src="https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg"></p>
+<h1 id="一、桌面美化类"><a href="#一、桌面美化类" class="headerlink" title="一、桌面美化类"></a>一、桌面美化类</h1><h2 id="TranslucentTB（任务栏）👍👍👍"><a href="#TranslucentTB（任务栏）👍👍👍" class="headerlink" title="TranslucentTB（任务栏）👍👍👍"></a>TranslucentTB（任务栏）👍👍👍</h2><p><img loading="lazy" src="/images/2024/0527/0.jpg"><br><img loading="lazy" src="/images/2024/0527/00.jpg"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+
+
+<p>一款轻量级的软件，几乎属于必装软件。可对任务栏透明、亚克力等视觉效果👍👍👍</p>
+<h2 id="Auto-Dark-Mode（自动调整暗色模式）👍👍👍"><a href="#Auto-Dark-Mode（自动调整暗色模式）👍👍👍" class="headerlink" title="Auto Dark Mode（自动调整暗色模式）👍👍👍"></a>Auto Dark Mode（自动调整暗色模式）👍👍👍</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&format=source"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jk4hzbvf435?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款非常值得使用的软件，通过指定的时间切换对应的亮色&#x2F;暗色模式。👍👍👍</p>
+<h2 id="Lively-Wallpaper（动态壁纸）"><a href="#Lively-Wallpaper（动态壁纸）" class="headerlink" title="Lively Wallpaper（动态壁纸）"></a>Lively Wallpaper（动态壁纸）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.38919.14416131676512756.6ed76f61-1d00-444e-8c7c-640e40e40e3d.3bf574c6-f408-40da-9060-0377b05d257c"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9ntm2qc6qws7?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>免费的开源应用程序，用于将 GIF、视频和网页设置桌面壁纸。但自带提供的资源不够多</p>
+<h2 id="巨应动态壁纸"><a href="#巨应动态壁纸" class="headerlink" title="巨应动态壁纸"></a>巨应动态壁纸</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.20026.13793298936975350.10fb033b-b789-4d87-bfa8-965afde0d284.da708f65-8dac-477a-bdcb-59ee1358157a"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9mv8gk87mz05?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>由巨应君出品的动态壁纸软件，简单易用，所以壁纸资源均为用户上传，比前者资源更加丰富。</p>
+<h2 id="WinDynamicDesktop-（自动切换壁纸）👍👍"><a href="#WinDynamicDesktop-（自动切换壁纸）👍👍" class="headerlink" title="WinDynamicDesktop （自动切换壁纸）👍👍"></a>WinDynamicDesktop （自动切换壁纸）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47353.13691964960975352.ebdd26a5-1288-4929-b507-92856eba093a.dce52c89-0296-4895-b862-7ef90e1d9bac"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nm8n7dq3z5f?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款根据时间来自动切换壁纸的软件，与 MacOS 中的动态壁纸功能类似。默认提供 MacOS 壁纸，也可直接从网络上下载并导入壁纸。</p>
+<h2 id="Sucrose-Wallpaper-Engine（动态壁纸引擎）"><a href="#Sucrose-Wallpaper-Engine（动态壁纸引擎）" class="headerlink" title="Sucrose Wallpaper Engine（动态壁纸引擎）"></a>Sucrose Wallpaper Engine（动态壁纸引擎）</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxgsJrvE99hQLXyECGkXk1ArGSmJ9VYqZaSddBVWke49Uw0s2OB.Z.LllE5x.JOg8UU7odjgeuSs9sxjQ2HHs0oM-&format=source"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jgpbhtjglcq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>Sucrose Wallpaper Engine是一款多功能的壁纸引擎，提供广泛的交互式主题，可为您的桌面带来活力。您可以根据个人喜好选择轻盈或暗黑主题。您可以简单或详细地创建自己的壁纸，并支持多屏幕和各种屏幕分辨率，以实现无缝体验。</p>
+<h2 id="backiee-壁纸工作室10"><a href="#backiee-壁纸工作室10" class="headerlink" title="backiee - 壁纸工作室10"></a>backiee - 壁纸工作室10</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9wzdncrfhzcd?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>探索超高分辨率壁纸，4K 到 8K 图像应有尽有。若不在意频繁出现的广告，这款静态壁纸软件值得入手！</p>
+<h2 id="桌面组件"><a href="#桌面组件" class="headerlink" title="桌面组件"></a>桌面组件</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.203.13783862513978754.e48e7830-cb9f-44f1-850a-3cf107117cbf.88ff213d-319c-42b9-87d9-8e1634cadd17?h=307"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9npr50gq7t53?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款功能强大，符合人体工程学的桌面组件系统。</p>
+<h1 id="二、实用工具类"><a href="#二、实用工具类" class="headerlink" title="二、实用工具类"></a>二、实用工具类</h1><h2 id="Snipaste-截图-贴图👍👍👍"><a href="#Snipaste-截图-贴图👍👍👍" class="headerlink" title="Snipaste 截图+贴图👍👍👍"></a>Snipaste 截图+贴图👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.52183.14503356220976813.c71d2a10-0aa3-486c-9563-2c363aaaab5e.88eb25a1-8c0b-4f52-be14-837fbf6e693b"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p1wxpkb68kx?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款比自带 Windows 截图功能还要强大的截图软件。</p>
+<h2 id="EarTrumpet-（音量合成器）👍👍👍"><a href="#EarTrumpet-（音量合成器）👍👍👍" class="headerlink" title="EarTrumpet （音量合成器）👍👍👍"></a>EarTrumpet （音量合成器）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.32184.13510798887629242.2534466d-5a17-4046-b21f-d818fb1bb888.d3e8f732-d5f3-48a1-87ae-77348809ef01"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nblggh516xp?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款功能非常强大的音量控制软件，可完全替代自带的旧版功能。</p>
+<h2 id="QuickLook-（快速预览）👍👍👍"><a href="#QuickLook-（快速预览）👍👍👍" class="headerlink" title="QuickLook （快速预览）👍👍👍"></a>QuickLook （快速预览）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.24917.14405803611253731.3006f567-a4f6-43d6-95fb-9033fa42fa41.f44af418-f702-4c8f-9bd8-6481698d8260?h=307"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nv4bs3l1h4s?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>通过按下空格键实现快速预览文件内容，与 Mac OS 类似的功能。</p>
+<h2 id="取色器"><a href="#取色器" class="headerlink" title="取色器"></a>取色器</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.28518.13874519524713515.e81c53d8-5dc9-4aa9-81be-5370864aac85.42a23282-72c9-472b-8213-e823ff2a7dc2?h=307"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9mzhgfqsrfhg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款体积小的实用工具，可通过鼠标选取屏幕中像素的颜色。</p>
+<h2 id="OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）"><a href="#OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）" class="headerlink" title="OP Auto Clicker - Auto Tap （鼠标自动连点器）"></a>OP Auto Clicker - Auto Tap （鼠标自动连点器）</h2><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36769.14022871430809239.289e742c-4a63-488b-8496-9eafa59010ed.42c74928-eede-4388-84b0-e0e52a90564b" alt="Microsoft Store" width="300" height="300">
+
+<a class="button  center large" href='https://apps.microsoft.com/detail/9n621dm2lvhq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款非常简单的鼠标自动连点器，通过按下 <kbd>F6</kbd> 键以开始&#x2F;结束连点。</p>
+<h2 id="Watt-Toolkit-（原-Steam-）"><a href="#Watt-Toolkit-（原-Steam-）" class="headerlink" title="Watt Toolkit （原 Steam++）"></a>Watt Toolkit （原 Steam++）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36037.13810726275500961.77b6bcf3-2a5a-49a2-bcb2-f0dbcd3eb149.21194914-d668-4a27-89ac-5165adc054d5"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9mtcfhs560ng?cid=msft_web_appsforwindows_chart&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款加速软件，支持 Steam、Github、Origin、Uplay、Spotify 等。目前除了部分库存游戏需要付费才能加速以外其它均免费。</p>
+<h2 id="AnLink-安联"><a href="#AnLink-安联" class="headerlink" title="AnLink 安联"></a>AnLink 安联</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.60495.13732987357972043.471d409a-fc09-491b-bc4d-284ddefa32c9.5ae47afa-2f8f-43a6-b04e-cc13d5a09453"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9np036014jtg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款支持使用 Android 手机连接到电脑的软件，免费无广告且非常实用，可安全便捷的在电脑上操作手机，支持使用 Wifi、USB连接。</p>
+<h2 id="Record-Screen（免费录制屏幕）"><a href="#Record-Screen（免费录制屏幕）" class="headerlink" title="Record Screen（免费录制屏幕）"></a>Record Screen（免费录制屏幕）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51561.14475286183431872.6e7283f6-df1b-481d-917a-85c0700f71e1.82811191-10f6-4fec-8db3-e8281ced72f2"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nzjndtlvkr1?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一个简单好用的录制软件，选择单个窗口或整个屏幕以进行录制，支持输出麦克风与电脑声音，并且录制后可以制作简单的剪辑。</p>
+<h1 id="三、文本编辑类"><a href="#三、文本编辑类" class="headerlink" title="三、文本编辑类"></a>三、文本编辑类</h1><h2 id="SiYuan（思源笔记）"><a href="#SiYuan（思源笔记）" class="headerlink" title="SiYuan（思源笔记）"></a>SiYuan（思源笔记）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51519.14604083850023553.a6b78602-3991-40fc-92ca-635e30a12e6d.55fe85e9-39a0-46f3-a499-f959f48fdb56"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p7hpmxp73k4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款隐私优先的个人知识管理系统，支持完全离线使用，同时也支持端到端加密同步。</p>
+<h2 id="Notepads-App（记事本）"><a href="#Notepads-App（记事本）" class="headerlink" title="Notepads App（记事本）"></a>Notepads App（记事本）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.30725.13628411695448126.ee0d4432-102e-40c0-a23c-510a46b12c35.3736f54b-cb73-4dfb-aecc-81baa5e20a48"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nhl4nsc67wm?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款极具现代感，轻便简介的文本编辑器，适合替代自带记事本的软件。</p>
+<h2 id="桌面记事本👍👍👍"><a href="#桌面记事本👍👍👍" class="headerlink" title="桌面记事本👍👍👍"></a>桌面记事本👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.707.14633965969460790.b0e27bde-c02b-4340-8b49-a6cf379c291c.56cc83d0-d80f-496c-9097-77d4cf9eb30a"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p5rdm9t8cr3?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款简洁且方便的桌面记事本，<strong>推荐将此软件固定到任务栏中以实现随时编辑</strong>。支持自动保存文本、语音识别、语音朗读、文本翻译、云文件上传下载同步等功能。支持预览 TXT、RTF、Markdown 等格式的文本。</p>
+<h2 id="Typedown-（Markdown-编辑器）👍👍"><a href="#Typedown-（Markdown-编辑器）👍👍" class="headerlink" title="Typedown （Markdown 编辑器）👍👍"></a>Typedown （Markdown 编辑器）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.50023.14085711452561131.8a83a482-2459-4160-8545-ae595b2298f8.c6b1fd0d-c400-4a4c-ad69-003ef694d413"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p8tcw4h2hb4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。</p>
+]]></content>
+      <categories>
+        <category>软件安利</category>
+      </categories>
+      <tags>
+        <tag>新手向</tag>
+        <tag>软件安利</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
+    <url>/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[
+  <div class="note-large regular">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
+
+    </div>
+    <div class="notel-content">
+      <p>本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。</p>
+<p><img loading="lazy" src="/images/2024/0426/13.jpg"></p>
+
+    </div>
+  </div>
+
+<h1 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h1><p>根据不同的方式来安装相对应的环境，作为 0 基础的 Linux 入门新手，你可以根据 ⭐ 级别来参考并选择相对应的安装方式。</p>
+<h2 id="虚拟机环境-（⭐⭐⭐⭐⭐）"><a href="#虚拟机环境-（⭐⭐⭐⭐⭐）" class="headerlink" title="虚拟机环境 （⭐⭐⭐⭐⭐）"></a>虚拟机环境 （⭐⭐⭐⭐⭐）</h2><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>安全：虚拟机与真实的物理机完全隔离；</li>
+<li>便利：只需要一个安装镜像（通常以 <code>*.iso</code> 格式的文件）即可安装；</li>
+<li>即用即停：使用虚拟机时可直接暂停或恢复虚拟机。可以减少开启虚拟机的等待时间</li>
+</ul>
+<h3 id="安装方式"><a href="#安装方式" class="headerlink" title="安装方式"></a>安装方式</h3><p>请根据如下表所给的虚拟机软件中选择其中一个进行下载安装。</p>
+<table>
+<thead>
+<tr>
+<th align="center">软件</th>
+<th>可用的平台</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><img loading="lazy" src="https://www.vmware.com/favicon.ico" style="zoom:75%;" /> <a class="link"   href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html" >VMWare Workstation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td>Windows、Linux</td>
+</tr>
+<tr>
+<td align="center"><img loading="lazy" src="https://www.virtualbox.org/favicon.ico"> <a class="link"   href="https://www.virtualbox.org/wiki/Downloads" >Oracle VM VirtualBox <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td>Windows、Mac、Linux</td>
+</tr>
+<tr>
+<td align="center"><img loading="lazy" src="https://www.vmware.com/favicon.ico" style="zoom:75%;" /> <a class="link"   href="https://www.vmware.com/products/fusion/fusion-evaluation.html" >VMWare Fusion <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td>Mac</td>
+</tr>
+<tr>
+<td align="center"><img loading="lazy" src="https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png" style="zoom: 33%;" /> <a class="link"   href="https://www.parallels.com/products/desktop/" >Parallels Desktop <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td>Mac</td>
+</tr>
+<tr>
+<td align="center"><img loading="lazy" src="https://www.qemu.org/assets/favicons/favicon-32x32.png"> <a class="link"   href="https://www.qemu.org/download/" >QEMU <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td>Windows、Mac、Linux</td>
+</tr>
+<tr>
+<td align="center"><img loading="lazy" src="https://learn.microsoft.com/favicon.ico" style="zoom:25%;" /> <a class="link"   href="https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/" >Hyper-V <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td>Windows</td>
+</tr>
+</tbody></table>
+<p>Windows 用户建议选择 VMware Workstation；</p>
+<p>Linux 用户建议选择 Oracle VM VirtualBox；</p>
+<p>Mac 用户建议选择 Parallels Desktop。</p>
+<h2 id="Windows-Subsystem-Linux（WSL）（⭐⭐⭐⭐）"><a href="#Windows-Subsystem-Linux（WSL）（⭐⭐⭐⭐）" class="headerlink" title="Windows Subsystem Linux（WSL）（⭐⭐⭐⭐）"></a>Windows Subsystem Linux（WSL）（⭐⭐⭐⭐）</h2><h3 id="特点-1"><a href="#特点-1" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>运行于 Windows 系统上。</li>
+<li>安装非常简单，仅需安装发行版即可实现即开即用</li>
+<li>仅运行于终端中，不会占用过大的存储空间</li>
+</ul>
+<h3 id="安装方式-1"><a href="#安装方式-1" class="headerlink" title="安装方式"></a>安装方式</h3><p>你可以直接<a class="link"   href="https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R" >点击此处下载 WSL <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，打开网页后将会自动跳转到 Microsoft Store 中，只需点击下载安装即可</p>
+<p>关于相关的 WSL 教程，请直接点击下方按钮以跳转至此文章。</p>
+<a class="button  center large" href='/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统/' title='WSL：一个适用于 Windows 的 Linux 子系统'><i class='fas fa-link'></i> WSL：一个适用于 Windows 的 Linux 子系统</a>
+
+<h2 id="实机安装（双系统安装）（⭐⭐⭐）"><a href="#实机安装（双系统安装）（⭐⭐⭐）" class="headerlink" title="实机安装（双系统安装）（⭐⭐⭐）"></a>实机安装（双系统安装）（⭐⭐⭐）</h2><h3 id="特点-2"><a href="#特点-2" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>完全安装在真机环境上，体验原汁原味的系统</li>
+<li>上手难度较大，不利于新手操作</li>
+<li>安装前需要提前为新安装的 Linux 系统进行分区，配置较为麻烦，同时需要依靠 U 盘进行安装</li>
+</ul>
+<h3 id="安装方式-2"><a href="#安装方式-2" class="headerlink" title="安装方式"></a>安装方式</h3><ul>
+<li><p>若选择此方式，作者建议使用如下工具将镜像文件安装到 U 盘中：</p>
+<img loading="lazy" src="https://www.ventoy.net/favicon.ico"  />
+
+<p><a class="link"   href="https://www.ventoy.net/cn/download.html" >Ventoy <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件</p>
+<img loading="lazy" src="https://rufus.ie/favicon.ico"  />
+
+<p><a class="link"   href="https://rufus.ie/zh/" >Rufus <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款轻松创建 USB 启动盘的工具</p>
+<p><img loading="lazy" src="https://etcher.balena.io/images/2024/favicon.png"></p>
+<p><a class="link"   href="https://etcher.balena.io/" >balenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款更为简单的烧录软件</p>
+</li>
+<li><p>使用方式均为一样，仅需使用对应工具将需要存放的 ISO 镜像文件烧录即可。</p>
+</li>
+</ul>
+<h2 id="适用于安卓设备的软件-——-Termux（⭐⭐）"><a href="#适用于安卓设备的软件-——-Termux（⭐⭐）" class="headerlink" title="适用于安卓设备的软件 —— Termux（⭐⭐）"></a>适用于安卓设备的软件 —— Termux（⭐⭐）</h2>
+  <div class="note p-4 mb-4 rounded-small icon-padding">
+    <i class="note-icon fa-solid fa-circle-exclamation"></i><p><strong>注意：</strong>本篇中此方法不会具体展开介绍</p>
+
+  </div>
+
+<h3 id="特点-3"><a href="#特点-3" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>支持在 Android 手机上运行虚拟 Linux 系统</li>
+<li>相对适合没有电脑的情况下使用</li>
+<li>仅需安装 Termux 即可得到虚拟的 Linux 环境</li>
+</ul>
+<h3 id="安装方式-3"><a href="#安装方式-3" class="headerlink" title="安装方式"></a>安装方式</h3><ul>
+<li><p><a class="link"   href="https://github.com/termux/termux-app/releases/tag/v0.118.0" >Release v0.118.0 · termux&#x2F;termux-app (github.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>由于大多数手机为 ARM 架构，因此建议<a class="link"   href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk" >选择 ARM 版本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+</ul>
+<h1 id="安装-Linux-系统"><a href="#安装-Linux-系统" class="headerlink" title="安装 Linux 系统"></a>安装 Linux 系统</h1><h2 id="下载镜像"><a href="#下载镜像" class="headerlink" title="下载镜像"></a>下载镜像</h2><p>在写这篇文章之前，若你已经下载并安装完环境后，接下来只需要在对应的 Linux 发行版中下载镜像即可。（通常为 <code>*.iso</code> 格式的镜像文件）</p>
+<img loading="lazy" src="https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png"  />
+
+<p>这里将使用全球较为流行的 <a class="link"   href="https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso" >Ubuntu 24.04 LTS <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 镜像来安装 Linux。</p>
+
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-circle-info"></i><p>下载提示</p>
+
+    </div>
+    <div class="notel-content">
+      <p>若下载速度缓慢，这里已提供如下镜像站，可以加快下载速度：</p>
+<ul>
+<li><a class="link"   href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >清华源下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://mirror.nyist.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >南阳理工学院镜像站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://mirror.bjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >北京交通大学镜像站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://mirrors.xjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso" >西安交通大学镜像站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<p>请直接点击上方链接或者复制下载链接，即可开始下载镜像</p>
+
+    </div>
+  </div>
+
+<h2 id="新建虚拟机"><a href="#新建虚拟机" class="headerlink" title="新建虚拟机"></a>新建虚拟机</h2><p>这里以 VMware Workstation 17 为例，</p>
+<p>首先，在主页上点击【创建虚拟机】；接下来，就按照下面的图一步一步创建即可(*^_^*)（这非常简单）</p>
+<p><img loading="lazy" src="/images/2024/0426/1.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/2.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/3.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/4.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/5.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/6.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/7.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0426/8.jpg"></p>
+<p>完成上述创建后，直接按照如下图提示，开启虚拟机即可</p>
+<p><img loading="lazy" src="/images/2024/0426/9.jpg"></p>
+<h2 id="安装-Ubuntu-系统"><a href="#安装-Ubuntu-系统" class="headerlink" title="安装 Ubuntu 系统"></a>安装 Ubuntu 系统</h2><p>一般情况下，在安装 Ubuntu 系统时，将会启动 Grub 引导，此时选择第一项【Try or Install Ubuntu】，等待启动 Ubuntu。</p>
+<p><img loading="lazy" src="/images/2024/0426/10.jpg"></p>
+<p>等待完成后，后面仅需按照图中的提示做好初次配置即可开始安装 Ubuntu 系统。虚拟机下仅需设置好用户和密码即可。其余操作仅需点【下一步】即可</p>
+<p><img loading="lazy" src="/images/2024/0426/11.gif"></p>
+<p>若安装完成后，选择重启时将会出现如下图，此时仅需按下回车键即可完成</p>
+<p><img loading="lazy" src="/images/2024/0426/12.jpg"></p>
+<blockquote>
+<p><strong>※ 补充内容：安装 VMware Tools 工具</strong></p>
+<p>现如今，在 Ubuntu 及其它 Debian 系发行版下，可直接打开终端，并安装 <code>open-vm-tools</code> 工具包即可，具体命令如下：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install open-vm-tools -y</span><br></pre></td></tr></table></figure></div>
+
+<p>完成安装后，将系统注销重新登录之后即可生效</p>
+</blockquote>
+<h2 id="检查-Ubuntu-版本"><a href="#检查-Ubuntu-版本" class="headerlink" title="检查 Ubuntu 版本"></a>检查 Ubuntu 版本</h2><p>按照如下图的操作，查看 Ubuntu 版本号即可</p>
+<p><img loading="lazy" src="/images/2024/0426/14.gif"></p>
+<p>🎉 至此，安装 Linux 系统已经完成！😉</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>跳转提示</p>
+
+    </div>
+    <div class="notel-content">
+      <p>🎉 你已完成了整个 Linux 的安装，若你对 Linux 系统不是非常熟悉，建议阅读以下文章：</p>
+<p><a class="button  center regular" href='/2024/05/03/从-0-开始学-Linux-熟悉-GNOME-桌面/' title='从 0 开始学 Linux：熟悉 GNOME 桌面'><i class='fas fa-link'></i> 从 0 开始学 Linux：熟悉 GNOME 桌面</a></p>
+<p><a class="button  center regular" href='/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门/' title='从 0 开始学 Linux：Bash Shell 快速入门'><i class='fas fa-link'></i> 从 0 开始学 Linux：Bash Shell 快速入门</a></p>
+
+    </div>
+  </div>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在命令行下使用 Git？</title>
+    <url>/2024/04/23/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</url>
+    <content><![CDATA[<p>Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。</p>
+<h2 id="下载-Git"><a href="#下载-Git" class="headerlink" title="下载 Git"></a>下载 Git</h2><p>首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：</p>
+<ul>
+<li><p>Linux: 根据不同的发行版，在终端中输入对应的安装命令即可</p>
+<div class="tabs" id="tab-install_git"><ul class="nav-tabs"><li class="tab active"><a class="#install_git-1">Debian(Ubuntu)</a></li><li class="tab"><a class="#install_git-2">Arch Linux</a></li><li class="tab"><a class="#install_git-3">Fedora(Redhat)</a></li><li class="tab"><a class="#install_git-4">CentOS(7.9及以下)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="install_git-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -Sy git </span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-3"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dnf install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-4"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install git -y</span><br></pre></td></tr></table></figure></div></div></div></div>
+</li>
+<li><p>Windows &#x2F; MacOS: <a class="link"   href="https://git-scm.com/downloads" >https://git-scm.com/downloads <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+</ul>
+<p>要检查 Git 安装是否完成，只需执行命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="简单使用-Git"><a href="#简单使用-Git" class="headerlink" title="简单使用 Git"></a>简单使用 Git</h2><p>关于此处，你可以直接通过如下图进行速查：</p>
+<p><img loading="lazy" src="https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg" alt="Git 常用命令速查表"></p>
+<p>以下是较为常用的 Git 命令：</p>
+<p>首先最为简单的事，就是从 Github 等其它代码托管平台上<strong>克隆项目</strong></p>
+<p>克隆源代码项目：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，首先第一件事：就是需要先配置用户和邮箱。</p>
+<p>配置用户：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name [你的名字]</span><br></pre></td></tr></table></figure></div>
+
+<p>配置邮箱：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email [你的邮箱]</span><br></pre></td></tr></table></figure></div>
+
+<p>要初始化一个自己的 Git 项目，执行如下：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init [你的项目名]</span><br></pre></td></tr></table></figure></div>
+
+<p>当然，你也可以选择在当前目录下初始化你的 Git，只需执行：<code>git init</code></p>
+<p>将文件添加到分支中：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add *</span><br><span class="line">git add .</span><br><span class="line">git add [指定的文件或目录]</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>这里的 <code>*</code> , <code>.</code> 都代表当前目录下所有需要添加或修改的文件</p>
+</blockquote>
+<p>将文件从分支中删除：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r [指定目录]        <span class="comment"># 删除目录及其所有子文件</span></span><br><span class="line">git <span class="built_in">rm</span> [指定文件或目录]     <span class="comment"># 删除文件</span></span><br><span class="line">git <span class="built_in">rm</span> -r *                <span class="comment"># 删除所有</span></span><br></pre></td></tr></table></figure></div>
+
+<p>查看所有已添加到分支里的文件</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git ls-files</span><br></pre></td></tr></table></figure></div>
+
+<p>为分支里的文件进行提交（commit：提交时需要用到的标记）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&#x27;[内容]&#x27;</span></span><br><span class="line">git commit -am <span class="string">&#x27;[内容]&#x27;</span>  <span class="comment"># 添加并提交</span></span><br><span class="line">git commit --amend -m <span class="string">&#x27;[内容]&#x27;</span> <span class="comment"># 反复修改并提交 </span></span><br></pre></td></tr></table></figure></div>
+
+<p>查看当前的分支状态：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p>关于分支（branch）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git show-branch     <span class="comment"># 查看当前分支历史</span></span><br><span class="line">git show-branch -a  <span class="comment"># 查看当前分支的所有历史</span></span><br><span class="line">git branch          <span class="comment"># 查看当前存在的分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有存在的分支</span></span><br><span class="line">git branch -M main  <span class="comment"># 新建一个 main 分支</span></span><br><span class="line">git branch -m main main_copy <span class="comment"># 将 main 分支改名为 main_copy</span></span><br></pre></td></tr></table></figure></div>
+
+<p>添加远程仓库（Github、Gitlab、Gitee……）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
+
+<p>上传&#x2F;推流到远程仓库：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin master   <span class="comment"># 将本地分支推流到远程分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p>从远程仓库中获取&#x2F;合并到本地分支：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin master  <span class="comment"># 获取远程分支master并merge到本地分支</span></span><br><span class="line">git merge origin/master     <span class="comment"># 从远程分支中合并到本地分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p>更多进阶的命令，可以查看 <a class="link"   href="https://www.runoob.com/note/56524" >Git 常用命令大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，内容更加详细(*^_^*)。</p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我和博客</title>
+    <url>/2024/04/23/%E5%85%B3%E4%BA%8E%E6%88%91%E5%92%8C%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-exclamation-triangle"></i><p>文章已过时</p>
+
+    </div>
+    <div class="notel-content">
+      <p>本文已于 2024 年 6 月 11 日过时，现已重新编辑并发布。请<a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">点击此处</a>已查看最新内容。</p>
+
+    </div>
+  </div>
+
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章暂时没有什么值得看的，后期会通过其它方式来丰富自己的内容~ o(*￣▽￣*)o</p>
+<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>我是一个平平无奇的大学生，今年即将就要毕业了，即将开始寻找自己的实习工作了。</p>
+<h2 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h2><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、分享自己的生活和自己的学习心得等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h2 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h2><p>今天才刚刚搭建好自己的博客网站，而且也注册了一些平台：B站、知乎，后续可能还会入驻一些平台。</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新（<strong>文章可能不会同步更新~ o(*￣▽￣*)o</strong>）</p>
+<h2 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h2><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h2 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h2><p>你可以通过以下几个平台来私信我：</p>
+<ul>
+<li><a class="link"   href="https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0" >bilibili <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.zhihu.com/people/catisnotfound" >知乎 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.jianshu.com/u/7ef34e5bf13f" >简书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="mailto:1636879962@qq.com" >个人邮箱 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>关于博客</tag>
       </tags>
   </entry>
   <entry>
@@ -1956,8 +2055,8 @@ B -- False --> 执行语句2
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Git</tag>
         <tag>博客搭建</tag>
+        <tag>Git</tag>
         <tag>Hexo</tag>
       </tags>
   </entry>
@@ -2096,102 +2195,79 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
-    <url>/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。</p>
-<p>如果你有更好的推荐，请在评论区补充。O(∩_∩)O</p>
-<p><img loading="lazy" src="https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg"></p>
-<h1 id="一、桌面美化类"><a href="#一、桌面美化类" class="headerlink" title="一、桌面美化类"></a>一、桌面美化类</h1><h2 id="TranslucentTB（任务栏）👍👍👍"><a href="#TranslucentTB（任务栏）👍👍👍" class="headerlink" title="TranslucentTB（任务栏）👍👍👍"></a>TranslucentTB（任务栏）👍👍👍</h2><p><img loading="lazy" src="/images/2024/0527/0.jpg"><br><img loading="lazy" src="/images/2024/0527/00.jpg"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+    <title>[Ver 1.2] CatIsNotFound 更新日志</title>
+    <url>/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
 
+    </div>
+    <div class="notel-content">
+      <p>经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。</p>
 
+    </div>
+  </div>
 
-<p>一款轻量级的软件，几乎属于必装软件。可对任务栏透明、亚克力等视觉效果👍👍👍</p>
-<h2 id="Auto-Dark-Mode（自动调整暗色模式）👍👍👍"><a href="#Auto-Dark-Mode（自动调整暗色模式）👍👍👍" class="headerlink" title="Auto Dark Mode（自动调整暗色模式）👍👍👍"></a>Auto Dark Mode（自动调整暗色模式）👍👍👍</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&format=source"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jk4hzbvf435?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+<h1 id="页面新增"><a href="#页面新增" class="headerlink" title="页面新增"></a>页面新增</h1><ul>
+<li><p>新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 </p>
+<a class="button  center large" href='/status' title='前往【状态】页面'><i class='fa-solid fa-pager'></i> 前往【状态】页面</a>
+<p><img loading="lazy" src="/images/2024/0602/status.jpg"></p>
+</li>
+<li><p>新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 </p>
+<a class="button  center large" href='/masonry' title='前往【壁纸库】页面'><i class='fa-solid fa-pager'></i> 前往【壁纸库】页面</a>
+<p><img loading="lazy" src="/images/2024/0602/wallpaper.jpg"></p>
+</li>
+</ul>
+<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><ul>
+<li>博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0602/comment.jpg"></p>
+<ul>
+<li><p>首页封面部分已作出改变：</p>
+<ul>
+<li><p>亮色&#x2F;暗色主题壁纸已全部更换</p>
+</li>
+<li><p>轮播文字已被替换</p>
+</li>
+<li><p>右下角链接处已进行修改</p>
+</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0602/cover.jpg"></p>
+</li>
+<li><p>Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。<a class="button  regular" href='https://github.com/EvanNotFound/hexo-theme-redefine/releases' title='前往 Release 页面'><i class='fa-brands fa-github'></i> 前往 Release 页面</a></p>
+</li>
+</ul>
+<h1 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h1><p>关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。</p>
+<ul>
+<li><p><input disabled="" type="checkbox"> 
+<strong>更新发布文章</strong>：20 篇。鉴于在4月份制定的<strong>在五月底发布至少 15 篇文章</strong>的计划未完成，所以还需继续发布更多新的文章；</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+<strong>新增更多分类</strong>：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+<strong>多平台发展</strong>：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；</p>
+</li>
+</ul>
 
-<p>一款非常值得使用的软件，通过指定的时间切换对应的亮色&#x2F;暗色模式。👍👍👍</p>
-<h2 id="Lively-Wallpaper（动态壁纸）"><a href="#Lively-Wallpaper（动态壁纸）" class="headerlink" title="Lively Wallpaper（动态壁纸）"></a>Lively Wallpaper（动态壁纸）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.38919.14416131676512756.6ed76f61-1d00-444e-8c7c-640e40e40e3d.3bf574c6-f408-40da-9060-0377b05d257c"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9ntm2qc6qws7?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
 
-<p>免费的开源应用程序，用于将 GIF、视频和网页设置桌面壁纸。但自带提供的资源不够多</p>
-<h2 id="巨应动态壁纸"><a href="#巨应动态壁纸" class="headerlink" title="巨应动态壁纸"></a>巨应动态壁纸</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.20026.13793298936975350.10fb033b-b789-4d87-bfa8-965afde0d284.da708f65-8dac-477a-bdcb-59ee1358157a"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9mv8gk87mz05?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+    </div>
+    <div class="notel-content">
+      <p>最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)</p>
+<p>最后，希望这个博客站点越来越好！🎉🎉🎉</p>
 
-<p>由巨应君出品的动态壁纸软件，简单易用，所以壁纸资源均为用户上传，比前者资源更加丰富。</p>
-<h2 id="WinDynamicDesktop-（自动切换壁纸）👍👍"><a href="#WinDynamicDesktop-（自动切换壁纸）👍👍" class="headerlink" title="WinDynamicDesktop （自动切换壁纸）👍👍"></a>WinDynamicDesktop （自动切换壁纸）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47353.13691964960975352.ebdd26a5-1288-4929-b507-92856eba093a.dce52c89-0296-4895-b862-7ef90e1d9bac"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nm8n7dq3z5f?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款根据时间来自动切换壁纸的软件，与 MacOS 中的动态壁纸功能类似。默认提供 MacOS 壁纸，也可直接从网络上下载并导入壁纸。</p>
-<h2 id="Sucrose-Wallpaper-Engine（动态壁纸引擎）"><a href="#Sucrose-Wallpaper-Engine（动态壁纸引擎）" class="headerlink" title="Sucrose Wallpaper Engine（动态壁纸引擎）"></a>Sucrose Wallpaper Engine（动态壁纸引擎）</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxgsJrvE99hQLXyECGkXk1ArGSmJ9VYqZaSddBVWke49Uw0s2OB.Z.LllE5x.JOg8UU7odjgeuSs9sxjQ2HHs0oM-&format=source"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jgpbhtjglcq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>Sucrose Wallpaper Engine是一款多功能的壁纸引擎，提供广泛的交互式主题，可为您的桌面带来活力。您可以根据个人喜好选择轻盈或暗黑主题。您可以简单或详细地创建自己的壁纸，并支持多屏幕和各种屏幕分辨率，以实现无缝体验。</p>
-<h2 id="backiee-壁纸工作室10"><a href="#backiee-壁纸工作室10" class="headerlink" title="backiee - 壁纸工作室10"></a>backiee - 壁纸工作室10</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9wzdncrfhzcd?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>探索超高分辨率壁纸，4K 到 8K 图像应有尽有。若不在意频繁出现的广告，这款静态壁纸软件值得入手！</p>
-<h2 id="桌面组件"><a href="#桌面组件" class="headerlink" title="桌面组件"></a>桌面组件</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.203.13783862513978754.e48e7830-cb9f-44f1-850a-3cf107117cbf.88ff213d-319c-42b9-87d9-8e1634cadd17?h=307"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9npr50gq7t53?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款功能强大，符合人体工程学的桌面组件系统。</p>
-<h1 id="二、实用工具类"><a href="#二、实用工具类" class="headerlink" title="二、实用工具类"></a>二、实用工具类</h1><h2 id="Snipaste-截图-贴图👍👍👍"><a href="#Snipaste-截图-贴图👍👍👍" class="headerlink" title="Snipaste 截图+贴图👍👍👍"></a>Snipaste 截图+贴图👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.52183.14503356220976813.c71d2a10-0aa3-486c-9563-2c363aaaab5e.88eb25a1-8c0b-4f52-be14-837fbf6e693b"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p1wxpkb68kx?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款比自带 Windows 截图功能还要强大的截图软件。</p>
-<h2 id="EarTrumpet-（音量合成器）👍👍👍"><a href="#EarTrumpet-（音量合成器）👍👍👍" class="headerlink" title="EarTrumpet （音量合成器）👍👍👍"></a>EarTrumpet （音量合成器）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.32184.13510798887629242.2534466d-5a17-4046-b21f-d818fb1bb888.d3e8f732-d5f3-48a1-87ae-77348809ef01"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nblggh516xp?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款功能非常强大的音量控制软件，可完全替代自带的旧版功能。</p>
-<h2 id="QuickLook-（快速预览）👍👍👍"><a href="#QuickLook-（快速预览）👍👍👍" class="headerlink" title="QuickLook （快速预览）👍👍👍"></a>QuickLook （快速预览）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.24917.14405803611253731.3006f567-a4f6-43d6-95fb-9033fa42fa41.f44af418-f702-4c8f-9bd8-6481698d8260?h=307"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nv4bs3l1h4s?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>通过按下空格键实现快速预览文件内容，与 Mac OS 类似的功能。</p>
-<h2 id="取色器"><a href="#取色器" class="headerlink" title="取色器"></a>取色器</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.28518.13874519524713515.e81c53d8-5dc9-4aa9-81be-5370864aac85.42a23282-72c9-472b-8213-e823ff2a7dc2?h=307"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9mzhgfqsrfhg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款体积小的实用工具，可通过鼠标选取屏幕中像素的颜色。</p>
-<h2 id="OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）"><a href="#OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）" class="headerlink" title="OP Auto Clicker - Auto Tap （鼠标自动连点器）"></a>OP Auto Clicker - Auto Tap （鼠标自动连点器）</h2><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36769.14022871430809239.289e742c-4a63-488b-8496-9eafa59010ed.42c74928-eede-4388-84b0-e0e52a90564b" alt="Microsoft Store" width="300" height="300">
-
-<a class="button  center large" href='https://apps.microsoft.com/detail/9n621dm2lvhq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款非常简单的鼠标自动连点器，通过按下 <kbd>F6</kbd> 键以开始&#x2F;结束连点。</p>
-<h2 id="Watt-Toolkit-（原-Steam-）"><a href="#Watt-Toolkit-（原-Steam-）" class="headerlink" title="Watt Toolkit （原 Steam++）"></a>Watt Toolkit （原 Steam++）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36037.13810726275500961.77b6bcf3-2a5a-49a2-bcb2-f0dbcd3eb149.21194914-d668-4a27-89ac-5165adc054d5"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9mtcfhs560ng?cid=msft_web_appsforwindows_chart&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款加速软件，支持 Steam、Github、Origin、Uplay、Spotify 等。目前除了部分库存游戏需要付费才能加速以外其它均免费。</p>
-<h2 id="AnLink-安联"><a href="#AnLink-安联" class="headerlink" title="AnLink 安联"></a>AnLink 安联</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.60495.13732987357972043.471d409a-fc09-491b-bc4d-284ddefa32c9.5ae47afa-2f8f-43a6-b04e-cc13d5a09453"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9np036014jtg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款支持使用 Android 手机连接到电脑的软件，免费无广告且非常实用，可安全便捷的在电脑上操作手机，支持使用 Wifi、USB连接。</p>
-<h2 id="Record-Screen（免费录制屏幕）"><a href="#Record-Screen（免费录制屏幕）" class="headerlink" title="Record Screen（免费录制屏幕）"></a>Record Screen（免费录制屏幕）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51561.14475286183431872.6e7283f6-df1b-481d-917a-85c0700f71e1.82811191-10f6-4fec-8db3-e8281ced72f2"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nzjndtlvkr1?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一个简单好用的录制软件，选择单个窗口或整个屏幕以进行录制，支持输出麦克风与电脑声音，并且录制后可以制作简单的剪辑。</p>
-<h1 id="三、文本编辑类"><a href="#三、文本编辑类" class="headerlink" title="三、文本编辑类"></a>三、文本编辑类</h1><h2 id="SiYuan（思源笔记）"><a href="#SiYuan（思源笔记）" class="headerlink" title="SiYuan（思源笔记）"></a>SiYuan（思源笔记）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51519.14604083850023553.a6b78602-3991-40fc-92ca-635e30a12e6d.55fe85e9-39a0-46f3-a499-f959f48fdb56"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p7hpmxp73k4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款隐私优先的个人知识管理系统，支持完全离线使用，同时也支持端到端加密同步。</p>
-<h2 id="Notepads-App（记事本）"><a href="#Notepads-App（记事本）" class="headerlink" title="Notepads App（记事本）"></a>Notepads App（记事本）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.30725.13628411695448126.ee0d4432-102e-40c0-a23c-510a46b12c35.3736f54b-cb73-4dfb-aecc-81baa5e20a48"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nhl4nsc67wm?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款极具现代感，轻便简介的文本编辑器，适合替代自带记事本的软件。</p>
-<h2 id="桌面记事本👍👍👍"><a href="#桌面记事本👍👍👍" class="headerlink" title="桌面记事本👍👍👍"></a>桌面记事本👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.707.14633965969460790.b0e27bde-c02b-4340-8b49-a6cf379c291c.56cc83d0-d80f-496c-9097-77d4cf9eb30a"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p5rdm9t8cr3?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款简洁且方便的桌面记事本，<strong>推荐将此软件固定到任务栏中以实现随时编辑</strong>。支持自动保存文本、语音识别、语音朗读、文本翻译、云文件上传下载同步等功能。支持预览 TXT、RTF、Markdown 等格式的文本。</p>
-<h2 id="Typedown-（Markdown-编辑器）👍👍"><a href="#Typedown-（Markdown-编辑器）👍👍" class="headerlink" title="Typedown （Markdown 编辑器）👍👍"></a>Typedown （Markdown 编辑器）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.50023.14085711452561131.8a83a482-2459-4160-8545-ae595b2298f8.c6b1fd0d-c400-4a4c-ad69-003ef694d413"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p8tcw4h2hb4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。</p>
+    </div>
+  </div>
 ]]></content>
       <categories>
-        <category>软件安利</category>
+        <category>更新日志</category>
       </categories>
       <tags>
-        <tag>新手向</tag>
-        <tag>软件安利</tag>
-        <tag>Windows</tag>
+        <tag>更新日志</tag>
       </tags>
   </entry>
   <entry>
@@ -2268,79 +2344,157 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>[Ver 1.2] CatIsNotFound 更新日志</title>
-    <url>/2024/06/02/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
+    <url>/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[
-  <div class="note-large blue">
+  <div class="note-large regular">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>WSL 简介</p>
 
     </div>
     <div class="notel-content">
-      <p>经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。</p>
+      <p>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。<br><img loading="lazy" src="/images/2024/0606/R-C.jpg"></p>
 
     </div>
   </div>
 
-<h1 id="页面新增"><a href="#页面新增" class="headerlink" title="页面新增"></a>页面新增</h1><ul>
-<li><p>新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 </p>
-<a class="button  center large" href='/status' title='前往【状态】页面'><i class='fa-solid fa-pager'></i> 前往【状态】页面</a>
-<p><img loading="lazy" src="/images/2024/0602/status.jpg"></p>
-</li>
-<li><p>新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 </p>
-<a class="button  center large" href='/masonry' title='前往【壁纸库】页面'><i class='fa-solid fa-pager'></i> 前往【壁纸库】页面</a>
-<p><img loading="lazy" src="/images/2024/0602/wallpaper.jpg"></p>
-</li>
+<h1 id="WSL-适合谁？"><a href="#WSL-适合谁？" class="headerlink" title="WSL 适合谁？"></a>WSL 适合谁？</h1><ul>
+<li>Linux 新手、Linux 初学者</li>
+<li>需要大量命令行操作</li>
+<li>需要 Linux 开发、Linux 运维等……</li>
 </ul>
-<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><ul>
-<li>博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。</li>
-</ul>
-<p><img loading="lazy" src="/images/2024/0602/comment.jpg"></p>
+<h1 id="WSL-的优势"><a href="#WSL-的优势" class="headerlink" title="WSL 的优势"></a>WSL 的优势</h1><p>在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：</p>
 <ul>
-<li><p>首页封面部分已作出改变：</p>
-<ul>
-<li><p>亮色&#x2F;暗色主题壁纸已全部更换</p>
-</li>
-<li><p>轮播文字已被替换</p>
-</li>
-<li><p>右下角链接处已进行修改</p>
-</li>
+<li>安装&#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。</li>
+<li>管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。</li>
+<li>独立存储：你可以将文件独立存储于 Linux 文件系统中。</li>
+<li>在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。</li>
 </ul>
-<p><img loading="lazy" src="/images/2024/0602/cover.jpg"></p>
-</li>
-<li><p>Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。<a class="button  regular" href='https://github.com/EvanNotFound/hexo-theme-redefine/releases' title='前往 Release 页面'><i class='fa-brands fa-github'></i> 前往 Release 页面</a></p>
-</li>
-</ul>
-<h1 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h1><p>关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。</p>
-<ul>
-<li><p><input disabled="" type="checkbox"> 
-<strong>更新发布文章</strong>：20 篇。鉴于在4月份制定的<strong>在五月底发布至少 15 篇文章</strong>的计划未完成，所以还需继续发布更多新的文章；</p>
-</li>
-<li><p><input disabled="" type="checkbox"> 
-<strong>新增更多分类</strong>：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；</p>
-</li>
-<li><p><input disabled="" type="checkbox"> 
-<strong>多平台发展</strong>：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；</p>
-</li>
-</ul>
-
-  <div class="note-large blue">
+<h1 id="安装-WSL"><a href="#安装-WSL" class="headerlink" title="安装 WSL"></a>安装 WSL</h1>
+  <div class="note-large yellow">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
 
     </div>
     <div class="notel-content">
-      <p>最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)</p>
-<p>最后，希望这个博客站点越来越好！🎉🎉🎉</p>
+      <p>WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）</p>
+<p>请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>R</code> 打开【运行】窗口，并执行 <code>winver</code> 查看操作系统内部版本号。</p>
+<img loading="lazy" src="/images/2024/0606/1.jpg" alt="查看操作系统内部版本号" style="width: 50%">
 
     </div>
   </div>
+
+<p>你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。</p>
+<a class="button  regular" href='https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&gl=CN' title='WSL 下载安装'><i class='fa-brands fa-microsoft'></i> WSL 下载安装</a>
+
+<a class="button  regular" href='https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&gl=CN' title='Ubuntu 24.04 LTS 下载安装'><i class='fa-brands fa-linux'></i> Ubuntu 24.04 LTS 下载安装</a>
+
+<p>当你完成如上安装之后，接下来，请直接按下 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>X</code> 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl.exe <span class="literal">--install</span> <span class="literal">--no-distribution</span></span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，请直接重启自己的电脑。</p>
+<p>之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。</p>
+<p>安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please create a default UNIX user account. The username does not need to match your Windows username.</span><br><span class="line">For more information visit: https://aka.ms/wslusers</span><br><span class="line">Enter new UNIX username:   输入你的用户名</span><br><span class="line">New password:              设置密码，此处输入的密码是隐藏的</span><br><span class="line">Retype new password:       再次设置密码，同上</span><br><span class="line">passwd: password updated successfully</span><br><span class="line">Installation successful!</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：</p>
+<p>打开 Powershell，并以 <code>root</code> 用户身份运行，命令如下：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>若需要指定一个发行版，请直接执行：<code>wsl -d &lt;发行版名称&gt; -u root</code></p>
+</blockquote>
+<p>然后再在终端中输入以下命令，即可重置密码。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">passwd &lt;用户名&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中的 <code>&lt;用户名&gt;</code> 即为你设置的用户名。</p>
+
+    </div>
+  </div>
+
+<h1 id="WSL-使用方法与技巧"><a href="#WSL-使用方法与技巧" class="headerlink" title="WSL 使用方法与技巧"></a>WSL 使用方法与技巧</h1><h2 id="命令行操作"><a href="#命令行操作" class="headerlink" title="命令行操作"></a>命令行操作</h2><p>WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：</p>
+<p><strong>（1）如何安装 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中，<code>&lt;发行版名称&gt;</code> 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（2）查看所有当前可用的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--online</span></span><br></pre></td></tr></table></figure></div>
+
+<p>或者，使用 <code>wsl -l -o</code> 代替。</p>
+<p><strong>（3）列出所有 Linux 发行版的运行状态</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--verbose</span></span><br></pre></td></tr></table></figure></div>
+
+<p>或者，使用 <code>wsl -l -v</code> 代替。</p>
+<p><strong>（4）启动默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl</span><br></pre></td></tr></table></figure></div>
+
+<p>若需要指定一个发行版，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（5）停止默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
+
+<p>若需要指定一个发行版，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--terminate</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（6）设置默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--set-default</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="图形化操作"><a href="#图形化操作" class="headerlink" title="图形化操作"></a>图形化操作</h2><p>如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。</p>
+<p><strong>WSL Tray Monitor - WSL 系统托盘监控工具</strong></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&gl=CN' title='WSL Tray Monitor 下载安装'><i class='fa-brands fa-windows'></i> WSL Tray Monitor 下载安装</a>
+
+<p>你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。</p>
+<p>在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。</p>
+<img loading="lazy" src="/images/2024/0606/3.jpg" alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%">
+
+<p><strong>WSL Toolbox - 图形化管理 WSL 的工具箱</strong></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&gl=CN' title='WSL Toolbox 下载安装'><i class='fa-brands fa-windows'></i> WSL Toolbox 下载安装</a>
+
+<p>WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。</p>
+<p>但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。</p>
+<img loading="lazy" src="/images/2024/0606/2.jpg" alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%">
+
+<h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：</p>
+<img loading="lazy" src="/images/2024/0606/4.jpg" alt="在资源管理器中访问 Linux" style="width: 80%">
+
+<h2 id="使用-Visual-Studio-Code-开发"><a href="#使用-Visual-Studio-Code-开发" class="headerlink" title="使用 Visual Studio Code 开发"></a>使用 Visual Studio Code 开发</h2><p>如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。</p>
+<p>你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。</p>
+<p><img loading="lazy" src="/images/2024/0606/5.jpg" alt="在 WSL 中打开项目"></p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。</p>
+
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
+
+    </div>
+    <div class="notel-content">
+      <ul>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/install" >https://learn.microsoft.com/zh-cn/windows/wsl/install <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+
+    </div>
+  </div>
+
 ]]></content>
       <categories>
-        <category>更新日志</category>
+        <category>技术教程</category>
       </categories>
       <tags>
-        <tag>更新日志</tag>
+        <tag>新手向</tag>
+        <tag>Linux</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -2689,163 +2843,9 @@ B -- False --> 执行语句2
         <category>技术教程</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>新手向</tag>
+        <tag>Linux</tag>
         <tag>脚本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
-    <url>/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[
-  <div class="note-large regular">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>WSL 简介</p>
-
-    </div>
-    <div class="notel-content">
-      <p>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。<br><img loading="lazy" src="/images/2024/0606/R-C.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="WSL-适合谁？"><a href="#WSL-适合谁？" class="headerlink" title="WSL 适合谁？"></a>WSL 适合谁？</h1><ul>
-<li>Linux 新手、Linux 初学者</li>
-<li>需要大量命令行操作</li>
-<li>需要 Linux 开发、Linux 运维等……</li>
-</ul>
-<h1 id="WSL-的优势"><a href="#WSL-的优势" class="headerlink" title="WSL 的优势"></a>WSL 的优势</h1><p>在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：</p>
-<ul>
-<li>安装&#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。</li>
-<li>管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。</li>
-<li>独立存储：你可以将文件独立存储于 Linux 文件系统中。</li>
-<li>在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。</li>
-</ul>
-<h1 id="安装-WSL"><a href="#安装-WSL" class="headerlink" title="安装 WSL"></a>安装 WSL</h1>
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）</p>
-<p>请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>R</code> 打开【运行】窗口，并执行 <code>winver</code> 查看操作系统内部版本号。</p>
-<img loading="lazy" src="/images/2024/0606/1.jpg" alt="查看操作系统内部版本号" style="width: 50%">
-
-    </div>
-  </div>
-
-<p>你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。</p>
-<a class="button  regular" href='https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&gl=CN' title='WSL 下载安装'><i class='fa-brands fa-microsoft'></i> WSL 下载安装</a>
-
-<a class="button  regular" href='https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&gl=CN' title='Ubuntu 24.04 LTS 下载安装'><i class='fa-brands fa-linux'></i> Ubuntu 24.04 LTS 下载安装</a>
-
-<p>当你完成如上安装之后，接下来，请直接按下 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>X</code> 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl.exe <span class="literal">--install</span> <span class="literal">--no-distribution</span></span><br></pre></td></tr></table></figure></div>
-
-<p>安装完成后，请直接重启自己的电脑。</p>
-<p>之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。</p>
-<p>安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please create a default UNIX user account. The username does not need to match your Windows username.</span><br><span class="line">For more information visit: https://aka.ms/wslusers</span><br><span class="line">Enter new UNIX username:   输入你的用户名</span><br><span class="line">New password:              设置密码，此处输入的密码是隐藏的</span><br><span class="line">Retype new password:       再次设置密码，同上</span><br><span class="line">passwd: password updated successfully</span><br><span class="line">Installation successful!</span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：</p>
-<p>打开 Powershell，并以 <code>root</code> 用户身份运行，命令如下：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>若需要指定一个发行版，请直接执行：<code>wsl -d &lt;发行版名称&gt; -u root</code></p>
-</blockquote>
-<p>然后再在终端中输入以下命令，即可重置密码。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">passwd &lt;用户名&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>其中的 <code>&lt;用户名&gt;</code> 即为你设置的用户名。</p>
-
-    </div>
-  </div>
-
-<h1 id="WSL-使用方法与技巧"><a href="#WSL-使用方法与技巧" class="headerlink" title="WSL 使用方法与技巧"></a>WSL 使用方法与技巧</h1><h2 id="命令行操作"><a href="#命令行操作" class="headerlink" title="命令行操作"></a>命令行操作</h2><p>WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：</p>
-<p><strong>（1）如何安装 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>其中，<code>&lt;发行版名称&gt;</code> 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（2）查看所有当前可用的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--online</span></span><br></pre></td></tr></table></figure></div>
-
-<p>或者，使用 <code>wsl -l -o</code> 代替。</p>
-<p><strong>（3）列出所有 Linux 发行版的运行状态</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--verbose</span></span><br></pre></td></tr></table></figure></div>
-
-<p>或者，使用 <code>wsl -l -v</code> 代替。</p>
-<p><strong>（4）启动默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl</span><br></pre></td></tr></table></figure></div>
-
-<p>若需要指定一个发行版，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（5）停止默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
-
-<p>若需要指定一个发行版，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--terminate</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（6）设置默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--set-default</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="图形化操作"><a href="#图形化操作" class="headerlink" title="图形化操作"></a>图形化操作</h2><p>如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。</p>
-<p><strong>WSL Tray Monitor - WSL 系统托盘监控工具</strong></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&gl=CN' title='WSL Tray Monitor 下载安装'><i class='fa-brands fa-windows'></i> WSL Tray Monitor 下载安装</a>
-
-<p>你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。</p>
-<p>在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。</p>
-<img loading="lazy" src="/images/2024/0606/3.jpg" alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%">
-
-<p><strong>WSL Toolbox - 图形化管理 WSL 的工具箱</strong></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&gl=CN' title='WSL Toolbox 下载安装'><i class='fa-brands fa-windows'></i> WSL Toolbox 下载安装</a>
-
-<p>WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。</p>
-<p>但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。</p>
-<img loading="lazy" src="/images/2024/0606/2.jpg" alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%">
-
-<h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：</p>
-<img loading="lazy" src="/images/2024/0606/4.jpg" alt="在资源管理器中访问 Linux" style="width: 80%">
-
-<h2 id="使用-Visual-Studio-Code-开发"><a href="#使用-Visual-Studio-Code-开发" class="headerlink" title="使用 Visual Studio Code 开发"></a>使用 Visual Studio Code 开发</h2><p>如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。</p>
-<p>你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。</p>
-<p><img loading="lazy" src="/images/2024/0606/5.jpg" alt="在 WSL 中打开项目"></p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。</p>
-
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
-
-    </div>
-    <div class="notel-content">
-      <ul>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/install" >https://learn.microsoft.com/zh-cn/windows/wsl/install <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-
-    </div>
-  </div>
-
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>新手向</tag>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -3129,9 +3129,163 @@ B -- False --> 执行语句2
         <category>技术教程</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>新手向</tag>
+        <tag>Linux</tag>
         <tag>脚本</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>系统安装日常：虚拟机安装 Android x86 系统</title>
+    <url>/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)</p>
+
+  <div class="note-large regular">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>Android x86 项目简介</p>
+
+    </div>
+    <div class="notel-content">
+      <img loading="lazy" src="https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg" alt="Android x86" width="500" />
+
+<p>这是一个将 Android 开源项目移植到 x86 平台的项目，以前称为“支持 android x86 的补丁托管”。 最初的计划是托管来自开源社区的 android x86 支持的不同补丁。在我们创建项目几个月后，我们发现我们可以做的不仅仅是托管补丁。因此，我们决定创建代码库 在不同的 x86 平台上提供支持，并设置 Git 服务器来托管它。</p>
+
+    </div>
+  </div>
+
+<p>在阅读此文前，如果你是需要在自己的电脑上体验原生版本的 Android 系统，那么 Android x86 系统是一个备选方案。</p>
+<p>但是如果你需要获得更好的性能，那么你可以来试试体验 Bliss OS（基于 Android x86 系统的改良版）。</p>
+<p>关于 Bliss OS，你可以访问官方网站：<a class="link"   href="https://blissos.org/" >https://blissos.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="下载-Android-x86-系统"><a href="#下载-Android-x86-系统" class="headerlink" title="下载 Android x86 系统"></a>下载 Android x86 系统</h1><p>你可以通过以下途径来下载 Android x86 系统，具体取决于你的网络环境：</p>
+<p>官方途径：</p>
+<a class="button  regular" href='https://www.android-x86.org/releases.html' title='官方下载'><i class='fas fa-download'></i> 官方下载</a>
+
+<p>其它的官方途径：</p>
+<a class="button  regular" href='https://sourceforge.net/projects/android-x86/files/' title='SourceForge 下载'><i class='fas fa-download'></i> SourceForge 下载</a>
+
+<a class="button  regular" href='https://www.fosshub.com/Android-x86.html' title='FossHub 下载'><i class='fas fa-download'></i> FossHub 下载</a>
+
+<p>如果以上两种下载链接都无法下载，请直接以下按钮以进行下载：</p>
+
+  <div class="note p-4 mb-4 rounded-small danger icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-circle-info"></i><p><strong>注意：</strong></p>
+<p>此版本仅提供 Android 9.0 r2 镜像（到 2024 年 6 月 15 日为止为最新版本镜像），其它版本还需自行在外网上寻找。</p>
+<p>下载链接已奉献上：</p>
+<p><br><br></p>
+<p><a class="button  regular" href='https://www.filehorse.com/download-android-x86-32/' title='Android x86 9.0 r2 镜像'><i class='fa-brands fa-android'></i> Android x86 9.0 r2 镜像</a></p>
+
+  </div>
+
+<h1 id="安装-Android-x86-系统"><a href="#安装-Android-x86-系统" class="headerlink" title="安装 Android x86 系统"></a>安装 Android x86 系统</h1><p>下载完 Android x86 系统镜像后，你可以使用 Rufus 等工具将其刻录到 U 盘中，然后使用 U 盘启动进入安装程序。本文不在此基础上展开。</p>
+<p>这里本文仅以 VMware 虚拟机的形式安装 Android x86 系统，具体步骤如下：</p>
+<h2 id="第一步：创建虚拟机"><a href="#第一步：创建虚拟机" class="headerlink" title="第一步：创建虚拟机"></a>第一步：创建虚拟机</h2><p>这里不过多阐述，这里直接按照提示设置个 2GB 内存，32GB 硬盘的虚拟机就可以了。（当然可以更改其它配置）</p>
+<p>需要注意的是，在设置客户机操作系统时，选择 linux → 其他 Linux 5.x 内核 64 位</p>
+<p><img loading="lazy" src="/images/2024/0614/0.jpg"></p>
+<h2 id="第二步：安装系统到本地硬盘"><a href="#第二步：安装系统到本地硬盘" class="headerlink" title="第二步：安装系统到本地硬盘"></a>第二步：安装系统到本地硬盘</h2><p>启动虚拟机后，出现如下图所示，请选择【Installlation - Install Android-×86 to hard disk】。</p>
+<p><img loading="lazy" src="/images/2024/0614/1.jpg"></p>
+<p>在如下图的提示中，通过方向键 <code>↑</code>、<code>↓</code>，选择 <code>Create/Modify partitions</code>，即创建一个分区。</p>
+<p><img loading="lazy" src="/images/2024/0614/2.jpg"></p>
+<p>在此步选择 <code>No</code>，进入 cfdisk 工具。</p>
+<p><img loading="lazy" src="/images/2024/0614/3.jpg"></p>
+<p>在如下图操作中，请使用方向键 <code>↑</code>、<code>↓</code>、<code>←</code>、<code>→</code> 以及 <code>Enter</code> 键，按照如下顺序依次设置：</p>
+<p><strong>注意：这是针对虚拟机的分区设置</strong></p>
+<ol>
+<li>选择 <code>New</code>，创建一个新分区；</li>
+<li>选择 <code>Primary</code>，设置为主分区，空间大小可使用默认；<strong>（注意：1 GB &#x3D; 1024 MB）</strong></li>
+<li>选择 <code>Bootable</code>，设置为启动分区，此时 <code>Flags</code> 一列会显示 <code>Boot</code> 字样； </li>
+<li>选择 <code>Write</code>，确认分区设置；</li>
+<li>选择 <code>Quit</code>，退出 cfdisk 工具。</li>
+</ol>
+<p>如下图为分区设置完成后的样子。</p>
+<p><img loading="lazy" src="/images/2024/0614/4.jpg"></p>
+<p>在分区设置完成后，请直接选择【sda1】分区以进行格式化分区。</p>
+<p><img loading="lazy" src="/images/2024/0614/5.jpg"></p>
+<p>在如下两张图中，首先先选择 <code>ext4</code> 文件系统，然后再选择 <code>Yes</code>，确认格式化。</p>
+<p><img loading="lazy" src="/images/2024/0614/6.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0614/7.jpg"></p>
+<p>等待格式化完成后即可。</p>
+<p>弹出如下图所示的提示时，选择 <code>Yes</code>；</p>
+<p><img loading="lazy" src="/images/2024/0614/8.jpg"></p>
+<p>在如下图的问题中，继续选择 <code>Yes</code>，此步将会在 <code>/system</code> 分区中安装 Grub 引导程序。</p>
+<p><img loading="lazy" src="/images/2024/0614/9.jpg"></p>
+<p>等待安装完成后，选择 【Reboot】 重启虚拟机。</p>
+<p><img loading="lazy" src="/images/2024/0614/10.jpg"></p>
+<h2 id="第三步：配置启动项"><a href="#第三步：配置启动项" class="headerlink" title="第三步：配置启动项"></a>第三步：配置启动项</h2><p>当系统初次进入 Grub 程序时，请先选择第二项以进入 Debug 模式。</p>
+<p><img loading="lazy" src="/images/2024/0614/11.jpg"></p>
+<p>等待进入 Debug 模式后，请多次按下 <code>Enter</code> 键，这将会换行出现 <code>:/android # </code> 的提示符。请输入如下命令以编辑菜单项。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">vi /mnt/grub/menu.lst</span><br></pre></td></tr></table></figure></div>
+
+<p><img loading="lazy" src="/images/2024/0614/12.jpg"></p>
+<p>在编辑器中，找到如下图所示的标注，并在此处添加 <code>nomodeset</code> 参数。</p>
+<p>最后，请依次按下 <code>Esc</code>，并输入 <code>:wq</code> 最后再按下 <code>Enter</code> 键即可。</p>
+<p><img loading="lazy" src="/images/2024/0614/13.jpg"></p>
+<p>退出编辑器后，请直接按下键盘快捷键 <code>Ctrl</code> + <code>Alt</code> + <code>Delete</code> 键，以直接重启。</p>
+<p><strong>需要注意的是</strong>：在 VMware 虚拟机中，<strong>你需要按下 <code>Ctrl</code> + <code>Alt</code> + <code>Insert</code> 键</strong>才能避免在 Windows 中弹出安全选项。</p>
+<h2 id="第四步：完成初次配置"><a href="#第四步：完成初次配置" class="headerlink" title="第四步：完成初次配置"></a>第四步：完成初次配置</h2><p>当系统重启后，在 grub 启动菜单上选择第一项以启动 Android x86 系统。</p>
+<p><img loading="lazy" src="/images/2024/0614/11.jpg"></p>
+<p>等待启动，就会出现如下图：</p>
+<p><img loading="lazy" src="/images/2024/0614/14.jpg"></p>
+<p>然后，根据如下图进行初次配置：</p>
+<p><img loading="lazy" src="/images/2024/0614/15.jpg"></p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>配置 Wifi 界面时，请先跳过此步。否则 Google 将会自动检查更新。<strong>（在国内的网络环境下，这一步非常容易耗时）</strong></p>
+<p><img loading="lazy" src="/images/2024/0614/16.jpg"></p>
+
+    </div>
+  </div>
+
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>如何连接网络？</p>
+
+    </div>
+    <div class="notel-content">
+      <p>在 Android x86 系统中，默认情况下是没有网络连接的，你需要手动转到【设置】→ 【WLAN】，并连接即可。</p>
+<p><img loading="lazy" src="/images/2024/0614/17.jpg"></p>
+<p>如上图所示，若你使用的是 VMware 虚拟机，仅需连接虚拟 WIFI 即可上网。</p>
+
+    </div>
+  </div>
+
+<h1 id="桌面展示"><a href="#桌面展示" class="headerlink" title="桌面展示"></a>桌面展示</h1><p>在 Android x86 系统中，提供了两种主屏幕页面展示，一个是适用于平板电脑或手机的 🏠 <i>QuickStep</i>，另一个则是适合电脑 PC 的任务栏。</p>
+<p><img loading="lazy" src="/images/2024/0614/18.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0614/19.jpg"></p>
+<h1 id="键盘快捷键"><a href="#键盘快捷键" class="headerlink" title="键盘快捷键"></a>键盘快捷键</h1><p>在 Android x86 系统中，有一些常用的快捷键，如下：</p>
+<ul>
+<li><p><i class="fa-brands fa-windows"></i> <code>Win</code>：⚪ 回到桌面</p>
+</li>
+<li><p><i class="fa-brands fa-windows"></i> <code>Win</code> + <code>Backspace</code> ：◀ 返回到上一页</p>
+</li>
+<li><p>⬜ 切换应用：</p>
+<ul>
+<li><p><code>Alt</code> + <code>Tab</code>：切换应用窗口</p>
+</li>
+<li><p><code>Alt</code> + <code>Shift</code> + <code>Tab</code>：反向切换引用</p>
+</li>
+<li><p>💡<strong>Tips：</strong>先按下 <code>Alt</code> + <code>Tab</code> 快捷键选择一个应用窗口，松开 <code>Tab</code> 键并保持 <code>Alt</code> 键不放，最后再按住 <code>Backspace</code> 键，即可关闭当前应用窗口。</p>
+</li>
+</ul>
+</li>
+<li><p><code>Ctrl</code> + <code>Alt</code> + <code>Delete</code>：弹出电源选项，其中还包含【屏幕截图】功能</p>
+</li>
+</ul>
+<p>在虚拟机中，你需要按下 <code>Ctrl</code> + <code>Alt</code> + <code>Insert</code> 键，以避免在 Windows 中弹出安全选项。</p>
+<h1 id="体验感受"><a href="#体验感受" class="headerlink" title="体验感受"></a>体验感受</h1><p>Android x86 系统的体验与原生版本的 Android 系统差别不大，但由于<strong>系统是运行在虚拟机中，所以性能上有所损失</strong>。</p>
+<p>对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。</p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>新手向</tag>
+        <tag>Android</tag>
+        <tag>系统安装</tag>
       </tags>
   </entry>
   <entry>
@@ -3307,308 +3461,6 @@ B -- False --> 执行语句2
       <tags>
         <tag>博客搭建</tag>
         <tag>Waline</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>系统安装日常：简单快速安装 Windows 11/10</title>
-    <url>/2024/06/22/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85-Windows-11/</url>
-    <content><![CDATA[
-  <div class="note-large regular">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
-
-    </div>
-    <div class="notel-content">
-      <p>本文主要面向小白，若对于没有安装系统经验，那么本文将能够帮助您快速安装 Windows 11。</p>
-<p><img loading="lazy" src="https://news-cdn.softpedia.com/images/news2/microsoft-releases-new-windows-11-teaser-confirming-leaked-wallpapers-are-real-533302-2.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="检查硬件配置"><a href="#检查硬件配置" class="headerlink" title="检查硬件配置"></a>检查硬件配置</h2><p>在开始安装之前，请先根据官网上的配置要求作好准备。以下是从官网上获取到的最低硬件配置要求。</p>
-<blockquote>
-<p>💻 <strong>硬件要求</strong></p>
-<ul>
-<li>处理器：1 千兆赫 (GHz) 或更快，在 兼容的 64 位处理器 或芯片上的系统上 (SoC) 。</li>
-<li>内存：4 GB (GB) 或更大。</li>
-<li>磁盘：64 GB 或更大的可用磁盘空间。</li>
-<li>显卡：与 DirectX 12 或更高版本兼容，具有 WDDM 2.0 驱动程序。</li>
-<li>系统固件：UEFI，支持安全启动。</li>
-<li>TPM：受信任的平台模块 (TPM) 版本 2.0。</li>
-<li>显示：高清 (720p) 显示器，9 英寸或更大监视器，每个颜色通道 8 位。</li>
-</ul>
-</blockquote>
-
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>TPM 2.0 检查方法</p>
-
-    </div>
-    <div class="notel-content">
-      <p>请确保你当前的主机或笔记本电脑支持 TPM 2.0 协议。若你不确定你的电脑是否能够安装 Windows 11，你可以通过以下两种方式以验证是否支持 TPM 2.0：</p>
-<p><strong>方法一：设备管理器</strong></p>
-<ol>
-<li>请先按下 <i class="fa-brands fa-windows"></i> Windows + X 组合键，在菜单中选择 [设备管理器]。</li>
-<li>在如下图所示中，请直接双击展开 [安全设备] 即可查看</li>
-</ol>
-<p><img loading="lazy" src="/images/2024/0622/0.2.jpg"></p>
-<p><strong>方法二：TPM 管理</strong></p>
-<ol>
-<li>请先按下 <i class="fa-brands fa-windows"></i> Windows + R 组合键，弹出 [运行] 窗口，输入 <code>tpm.msc</code> 并点击 [确定]。</li>
-<li>在如下图所示中，可以直接查看。</li>
-</ol>
-<p><img loading="lazy" src="/images/2024/0622/0.1.jpg"></p>
-
-    </div>
-  </div>
-
-<h2 id="安装-Windows-镜像"><a href="#安装-Windows-镜像" class="headerlink" title="安装 Windows 镜像"></a>安装 Windows 镜像</h2><p>网络上存在各种版本的镜像，这里推荐一个访问微软官方镜像，请直接点击下方按钮以直达官方下载链接：</p>
-<a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows11' title='微软官方下载 Windows 11'><i class='fas fa-link'></i> 微软官方下载 Windows 11</a>
-
-<a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows10' title='微软官方下载 Windows 10'><i class='fas fa-link'></i> 微软官方下载 Windows 10</a>
-
-<p><img loading="lazy" src="/images/2024/0622/0.3.jpg"></p>
-<h2 id="写入镜像到-U-盘"><a href="#写入镜像到-U-盘" class="headerlink" title="写入镜像到 U 盘"></a>写入镜像到 U 盘</h2><p>如果你需要将下载好的系统镜像安装到其它电脑上，那么建议您使用 U 盘作为安装介质。</p>
-<p>要求：请将镜像写入 U 盘（至少 16 GB），并确保 U 盘格式为 NTFS（推荐） 或 exFAT。</p>
-<p>以下是推荐使用的轻便版本的软件：</p>
-<ul>
-<li><a class="link"   href="https://rufus.ie/" >Rufus <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：适用于 Windows、macOS、Linux 的开源 U 盘启动器。</li>
-<li><a class="link"   href="https://www.balena.io/etcher/" >Balena Etcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：适用于 Windows、macOS、Linux 的开源镜像写入工具。</li>
-<li><a class="link"   href="https://www.ventoy.net/cn/download.html" >Ventoy <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件</li>
-</ul>
-<h1 id="安装-Windows-11"><a href="#安装-Windows-11" class="headerlink" title="安装 Windows 11"></a>安装 Windows 11</h1><p>以下是关于安装 Windows 11 的详细步骤：</p>
-<h2 id="U-盘启动"><a href="#U-盘启动" class="headerlink" title="U 盘启动"></a>U 盘启动</h2><p>假如你的电脑上已经安装好 Windows 10 或 Windows 8 等早期版本的系统，那么你可以直接打开[系统设置]，依次选择：[更新和安全]→[恢复]→[高级启动]→[立即重新启动]</p>
-<p><img loading="lazy" src="/images/2024/0622/0.4.jpg"></p>
-<p>接下来，请按照如下图指示进行选择：</p>
-<p><img loading="lazy" src="/images/2024/0622/0.5.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0622/0.6.jpg"></p>
-<p>等待电脑重启后，即可以 U 盘启动进入 Windows 11 安装程序。</p>
-<h2 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h2><p>这里以安装 Windows 11 23H2 版本为例，其他版本的 Windows 11 或 Windows 10 系统的安装过程大致相同。</p>
-<p>请按照如下一组图的指引以完成整个安装：</p>
-<p><img loading="lazy" src="/images/2024/0622/1.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/2.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/3.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/4.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/5.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/6.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/7.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/8.png"></p>
-<p><strong>注意：选择系统盘时，系统盘的容量大小必须大于或等于 52 GB 才能安装。</strong></p>
-<p><img loading="lazy" src="/images/2024/0622/9.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/10.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/11.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/12.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/13.png"></p>
-<p>当完成重启后，你将会进入初次设置（如下图），请按照提示进行设置。</p>
-<p><img loading="lazy" src="/images/2024/0622/14.png"></p>
-
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-info-circle"></i><p>如何跳过联网设置？</p>
-
-    </div>
-    <div class="notel-content">
-      <p>在安装 Windows 11 系统时，会<strong>强制要求需要联网并登录或注册微软账户</strong>才能继续。因此，为了跳过联网步骤，你可以按照如下图的方式进行设置。</p>
-<p><strong>注意：若跳过联网步骤，系统将会跳过联网激活步骤。</strong></p>
-<p>以下是关于如何跳过联网的步骤：</p>
-<ol>
-<li>首先按下 <kbd>Shift</kbd> + <kbd>F10</kbd> 组合键，打开 [命令提示符] 窗口。</li>
-<li>在当前窗口下输入 <code>oobe\bypassnro</code> 并回车，系统将会重启。<br><img loading="lazy" src="/images/2024/0622/16.png"></li>
-<li>重启后，请再次走一遍初始设置。此时，当走到如下图时，请选择 [我没有 Internet 连接] 选项，即可跳过联网部分<br><img loading="lazy" src="/images/2024/0622/17.png"></li>
-<li>最后，请按照图中的提示继续设置即可。<br><img loading="lazy" src="/images/2024/0622/18.png"></li>
-</ol>
-<p><img loading="lazy" src="/images/2024/0622/19.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/20.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/21.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/22.png"></p>
-<p><img loading="lazy" src="/images/2024/0622/23.png"></p>
-
-    </div>
-  </div>
-
-<p>当做好以上设置后，将会进入到安装阶段。</p>
-<p><img loading="lazy" src="/images/2024/0622/24.png"></p>
-<p>等待安装完成后，若出现如下图，请选择 [下一步] 按钮；</p>
-<p><img loading="lazy" src="/images/2024/0622/25.png"></p>
-<p>至此，所有的安装过程已全部完成。</p>
-<p><img loading="lazy" src="/images/2024/0622/26.png"></p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>以上是所有关于安装 Windows 11 的所有内容，若在安装过程中遇到问题，请不要犹豫，可以先查看官方文档，或者在 <a class="link"   href="https://answers.microsoft.com/zh-hans/windows/forum/all/windows-11" >Windows 11 官方论坛 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 进行提问。</p>
-
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
-
-    </div>
-    <div class="notel-content">
-      <ul>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/whats-new/windows-11-requirements" >Windows 11 系统要求 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://pcedu.pconline.com.cn/1684/16847709.html" >如何检查电脑是否支持 TPM 2.0 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://answer.baidu.com/answer/land?params=XkDfTj0H/4487c7dG2QLYpU5NESz0QNO6ddPFfMJ6P/wR1uOX7mU3NI0m763jrzhgef3bNkrytpFvVmQqK2Zlwy0MU5NIZnnY72p0iGfhFMloCaZOCERINfeMk2PAkERn4fckNYDJgs8BDDLCDYX7BaKVqXD1ZJ5/yyFHs6ERkrRrCjaqnlxSkYklT/Iox2higDdYATW1ddwnTO+fZWSlg==&from=dqa&lid=9bec2042003d7e52&word=windows11%E8%B7%B3%E8%BF%87%E8%81%94%E7%BD%91%E6%BF%80%E6%B4%BB" >Windows 11 如何跳过联网激活 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-
-    </div>
-  </div>]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>新手向</tag>
-        <tag>Windows</tag>
-        <tag>系统安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>系统安装日常：虚拟机安装 Android x86 系统</title>
-    <url>/2024/06/15/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%97%A5%E5%B8%B8-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)</p>
-
-  <div class="note-large regular">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>Android x86 项目简介</p>
-
-    </div>
-    <div class="notel-content">
-      <img loading="lazy" src="https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg" alt="Android x86" width="500" />
-
-<p>这是一个将 Android 开源项目移植到 x86 平台的项目，以前称为“支持 android x86 的补丁托管”。 最初的计划是托管来自开源社区的 android x86 支持的不同补丁。在我们创建项目几个月后，我们发现我们可以做的不仅仅是托管补丁。因此，我们决定创建代码库 在不同的 x86 平台上提供支持，并设置 Git 服务器来托管它。</p>
-
-    </div>
-  </div>
-
-<p>在阅读此文前，如果你是需要在自己的电脑上体验原生版本的 Android 系统，那么 Android x86 系统是一个备选方案。</p>
-<p>但是如果你需要获得更好的性能，那么你可以来试试体验 Bliss OS（基于 Android x86 系统的改良版）。</p>
-<p>关于 Bliss OS，你可以访问官方网站：<a class="link"   href="https://blissos.org/" >https://blissos.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="下载-Android-x86-系统"><a href="#下载-Android-x86-系统" class="headerlink" title="下载 Android x86 系统"></a>下载 Android x86 系统</h1><p>你可以通过以下途径来下载 Android x86 系统，具体取决于你的网络环境：</p>
-<p>官方途径：</p>
-<a class="button  regular" href='https://www.android-x86.org/releases.html' title='官方下载'><i class='fas fa-download'></i> 官方下载</a>
-
-<p>其它的官方途径：</p>
-<a class="button  regular" href='https://sourceforge.net/projects/android-x86/files/' title='SourceForge 下载'><i class='fas fa-download'></i> SourceForge 下载</a>
-
-<a class="button  regular" href='https://www.fosshub.com/Android-x86.html' title='FossHub 下载'><i class='fas fa-download'></i> FossHub 下载</a>
-
-<p>如果以上两种下载链接都无法下载，请直接以下按钮以进行下载：</p>
-
-  <div class="note p-4 mb-4 rounded-small danger icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-circle-info"></i><p><strong>注意：</strong></p>
-<p>此版本仅提供 Android 9.0 r2 镜像（到 2024 年 6 月 15 日为止为最新版本镜像），其它版本还需自行在外网上寻找。</p>
-<p>下载链接已奉献上：</p>
-<p><br><br></p>
-<p><a class="button  regular" href='https://www.filehorse.com/download-android-x86-32/' title='Android x86 9.0 r2 镜像'><i class='fa-brands fa-android'></i> Android x86 9.0 r2 镜像</a></p>
-
-  </div>
-
-<h1 id="安装-Android-x86-系统"><a href="#安装-Android-x86-系统" class="headerlink" title="安装 Android x86 系统"></a>安装 Android x86 系统</h1><p>下载完 Android x86 系统镜像后，你可以使用 Rufus 等工具将其刻录到 U 盘中，然后使用 U 盘启动进入安装程序。本文不在此基础上展开。</p>
-<p>这里本文仅以 VMware 虚拟机的形式安装 Android x86 系统，具体步骤如下：</p>
-<h2 id="第一步：创建虚拟机"><a href="#第一步：创建虚拟机" class="headerlink" title="第一步：创建虚拟机"></a>第一步：创建虚拟机</h2><p>这里不过多阐述，这里直接按照提示设置个 2GB 内存，32GB 硬盘的虚拟机就可以了。（当然可以更改其它配置）</p>
-<p>需要注意的是，在设置客户机操作系统时，选择 linux → 其他 Linux 5.x 内核 64 位</p>
-<p><img loading="lazy" src="/images/2024/0614/0.jpg"></p>
-<h2 id="第二步：安装系统到本地硬盘"><a href="#第二步：安装系统到本地硬盘" class="headerlink" title="第二步：安装系统到本地硬盘"></a>第二步：安装系统到本地硬盘</h2><p>启动虚拟机后，出现如下图所示，请选择【Installlation - Install Android-×86 to hard disk】。</p>
-<p><img loading="lazy" src="/images/2024/0614/1.jpg"></p>
-<p>在如下图的提示中，通过方向键 <code>↑</code>、<code>↓</code>，选择 <code>Create/Modify partitions</code>，即创建一个分区。</p>
-<p><img loading="lazy" src="/images/2024/0614/2.jpg"></p>
-<p>在此步选择 <code>No</code>，进入 cfdisk 工具。</p>
-<p><img loading="lazy" src="/images/2024/0614/3.jpg"></p>
-<p>在如下图操作中，请使用方向键 <code>↑</code>、<code>↓</code>、<code>←</code>、<code>→</code> 以及 <code>Enter</code> 键，按照如下顺序依次设置：</p>
-<p><strong>注意：这是针对虚拟机的分区设置</strong></p>
-<ol>
-<li>选择 <code>New</code>，创建一个新分区；</li>
-<li>选择 <code>Primary</code>，设置为主分区，空间大小可使用默认；<strong>（注意：1 GB &#x3D; 1024 MB）</strong></li>
-<li>选择 <code>Bootable</code>，设置为启动分区，此时 <code>Flags</code> 一列会显示 <code>Boot</code> 字样； </li>
-<li>选择 <code>Write</code>，确认分区设置；</li>
-<li>选择 <code>Quit</code>，退出 cfdisk 工具。</li>
-</ol>
-<p>如下图为分区设置完成后的样子。</p>
-<p><img loading="lazy" src="/images/2024/0614/4.jpg"></p>
-<p>在分区设置完成后，请直接选择【sda1】分区以进行格式化分区。</p>
-<p><img loading="lazy" src="/images/2024/0614/5.jpg"></p>
-<p>在如下两张图中，首先先选择 <code>ext4</code> 文件系统，然后再选择 <code>Yes</code>，确认格式化。</p>
-<p><img loading="lazy" src="/images/2024/0614/6.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0614/7.jpg"></p>
-<p>等待格式化完成后即可。</p>
-<p>弹出如下图所示的提示时，选择 <code>Yes</code>；</p>
-<p><img loading="lazy" src="/images/2024/0614/8.jpg"></p>
-<p>在如下图的问题中，继续选择 <code>Yes</code>，此步将会在 <code>/system</code> 分区中安装 Grub 引导程序。</p>
-<p><img loading="lazy" src="/images/2024/0614/9.jpg"></p>
-<p>等待安装完成后，选择 【Reboot】 重启虚拟机。</p>
-<p><img loading="lazy" src="/images/2024/0614/10.jpg"></p>
-<h2 id="第三步：配置启动项"><a href="#第三步：配置启动项" class="headerlink" title="第三步：配置启动项"></a>第三步：配置启动项</h2><p>当系统初次进入 Grub 程序时，请先选择第二项以进入 Debug 模式。</p>
-<p><img loading="lazy" src="/images/2024/0614/11.jpg"></p>
-<p>等待进入 Debug 模式后，请多次按下 <code>Enter</code> 键，这将会换行出现 <code>:/android # </code> 的提示符。请输入如下命令以编辑菜单项。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">vi /mnt/grub/menu.lst</span><br></pre></td></tr></table></figure></div>
-
-<p><img loading="lazy" src="/images/2024/0614/12.jpg"></p>
-<p>在编辑器中，找到如下图所示的标注，并在此处添加 <code>nomodeset</code> 参数。</p>
-<p>最后，请依次按下 <code>Esc</code>，并输入 <code>:wq</code> 最后再按下 <code>Enter</code> 键即可。</p>
-<p><img loading="lazy" src="/images/2024/0614/13.jpg"></p>
-<p>退出编辑器后，请直接按下键盘快捷键 <code>Ctrl</code> + <code>Alt</code> + <code>Delete</code> 键，以直接重启。</p>
-<p><strong>需要注意的是</strong>：在 VMware 虚拟机中，<strong>你需要按下 <code>Ctrl</code> + <code>Alt</code> + <code>Insert</code> 键</strong>才能避免在 Windows 中弹出安全选项。</p>
-<h2 id="第四步：完成初次配置"><a href="#第四步：完成初次配置" class="headerlink" title="第四步：完成初次配置"></a>第四步：完成初次配置</h2><p>当系统重启后，在 grub 启动菜单上选择第一项以启动 Android x86 系统。</p>
-<p><img loading="lazy" src="/images/2024/0614/11.jpg"></p>
-<p>等待启动，就会出现如下图：</p>
-<p><img loading="lazy" src="/images/2024/0614/14.jpg"></p>
-<p>然后，根据如下图进行初次配置：</p>
-<p><img loading="lazy" src="/images/2024/0614/15.jpg"></p>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>配置 Wifi 界面时，请先跳过此步。否则 Google 将会自动检查更新。<strong>（在国内的网络环境下，这一步非常容易耗时）</strong></p>
-<p><img loading="lazy" src="/images/2024/0614/16.jpg"></p>
-
-    </div>
-  </div>
-
-
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>如何连接网络？</p>
-
-    </div>
-    <div class="notel-content">
-      <p>在 Android x86 系统中，默认情况下是没有网络连接的，你需要手动转到【设置】→ 【WLAN】，并连接即可。</p>
-<p><img loading="lazy" src="/images/2024/0614/17.jpg"></p>
-<p>如上图所示，若你使用的是 VMware 虚拟机，仅需连接虚拟 WIFI 即可上网。</p>
-
-    </div>
-  </div>
-
-<h1 id="桌面展示"><a href="#桌面展示" class="headerlink" title="桌面展示"></a>桌面展示</h1><p>在 Android x86 系统中，提供了两种主屏幕页面展示，一个是适用于平板电脑或手机的 🏠 <i>QuickStep</i>，另一个则是适合电脑 PC 的任务栏。</p>
-<p><img loading="lazy" src="/images/2024/0614/18.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0614/19.jpg"></p>
-<h1 id="键盘快捷键"><a href="#键盘快捷键" class="headerlink" title="键盘快捷键"></a>键盘快捷键</h1><p>在 Android x86 系统中，有一些常用的快捷键，如下：</p>
-<ul>
-<li><p><i class="fa-brands fa-windows"></i> <code>Win</code>：⚪ 回到桌面</p>
-</li>
-<li><p><i class="fa-brands fa-windows"></i> <code>Win</code> + <code>Backspace</code> ：◀ 返回到上一页</p>
-</li>
-<li><p>⬜ 切换应用：</p>
-<ul>
-<li><p><code>Alt</code> + <code>Tab</code>：切换应用窗口</p>
-</li>
-<li><p><code>Alt</code> + <code>Shift</code> + <code>Tab</code>：反向切换引用</p>
-</li>
-<li><p>💡<strong>Tips：</strong>先按下 <code>Alt</code> + <code>Tab</code> 快捷键选择一个应用窗口，松开 <code>Tab</code> 键并保持 <code>Alt</code> 键不放，最后再按住 <code>Backspace</code> 键，即可关闭当前应用窗口。</p>
-</li>
-</ul>
-</li>
-<li><p><code>Ctrl</code> + <code>Alt</code> + <code>Delete</code>：弹出电源选项，其中还包含【屏幕截图】功能</p>
-</li>
-</ul>
-<p>在虚拟机中，你需要按下 <code>Ctrl</code> + <code>Alt</code> + <code>Insert</code> 键，以避免在 Windows 中弹出安全选项。</p>
-<h1 id="体验感受"><a href="#体验感受" class="headerlink" title="体验感受"></a>体验感受</h1><p>Android x86 系统的体验与原生版本的 Android 系统差别不大，但由于<strong>系统是运行在虚拟机中，所以性能上有所损失</strong>。</p>
-<p>对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。</p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>新手向</tag>
-        <tag>Android</tag>
-        <tag>系统安装</tag>
       </tags>
   </entry>
 </search>
