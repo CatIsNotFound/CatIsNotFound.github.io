@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;pop_os!&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-08-15T08:57:19.000Z</updated>
+    <category term="更新日志" />
+    <category term="Linux" />
+    <category term="Git" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="软件安利" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
+        <title>[系统体验] Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;很久没有写关于系统体验的文章了，这次体验的 Linux 发行版是 Pop_OS! 24.04，其主要默认的桌面环境为 Cosmic。&lt;/p&gt;
+&lt;p&gt;Cosmic 是 System76 团队开发的全新的桌面环境，其目的是构建一个自定义的操作界面。以下为引用：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;We aim to liberate the computer with a new desktop environment powerful enough to build custom OS experiences — for users, developers, and makers of any device with a screen.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我们的目标是通过一个足够强大的新桌面环境来解放计算机，为任何带屏幕的设备的用户、开发人员和制造商构建自定义操作系统体验。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;安装&#34;&gt;&lt;a href=&#34;#安装&#34; class=&#34;headerlink&#34; title=&#34;安装&#34;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;h2 id=&#34;Step-1-下载镜像&#34;&gt;&lt;a href=&#34;#Step-1-下载镜像&#34; class=&#34;headerlink&#34; title=&#34;Step 1: 下载镜像&#34;&gt;&lt;/a&gt;Step 1: 下载镜像&lt;/h2&gt;&lt;p&gt;现如今，Cosmic 桌面环境正处于测试阶段（使用过程中会有 Bug）。我们可以通过官网下载其安装镜像，下载链接在正下方：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://system76.com/cosmic&#34; &gt;System76 - Linux Laptops, Desktops, and Servers &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;点击上文提到的链接，进入官网，下拉找到 &lt;em&gt;Try COSMIC Epoch 1 (alpha 1) on the Pop!_OS 24.04 LTS alpha.&lt;/em&gt; 一行，根据自己的 CPU 或显卡配置，按需下载 ISO 镜像即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：国内下载速度缓慢，建议使用第三方下载工具下载镜像。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Step-2-刻录系统&#34;&gt;&lt;a href=&#34;#Step-2-刻录系统&#34; class=&#34;headerlink&#34; title=&#34;Step 2: 刻录系统&#34;&gt;&lt;/a&gt;Step 2: 刻录系统&lt;/h2&gt;&lt;p&gt;提示：如果你尝试使用虚拟机安装（如：VMware、Virtualbox、Qemu 等），请忽略此步并创建虚拟机即可。&lt;/p&gt;
+&lt;p&gt;需要注意的是，若使用虚拟机过程中无法正常进入桌面，请尝试&lt;strong&gt;开启 3D 图形加速&lt;/strong&gt;，或提高其运行内存 &lt;strong&gt;（建议： ≥ 4GB）&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这里推荐以下软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下载安装后，仅需插入 U 盘，然后选择需要烧录的 ISO 镜像，等待几分钟即可。这里不过多赘述。&lt;/p&gt;
+&lt;h1 id=&#34;体验&#34;&gt;&lt;a href=&#34;#体验&#34; class=&#34;headerlink&#34; title=&#34;体验&#34;&gt;&lt;/a&gt;体验&lt;/h1&gt;&lt;p&gt;经过两三个小时的使用体验，可以发现 Cosmic 桌面有以下个人认为比较不错的亮点：&lt;/p&gt;
+&lt;h2 id=&#34;桌面与登录界面&#34;&gt;&lt;a href=&#34;#桌面与登录界面&#34; class=&#34;headerlink&#34; title=&#34;桌面与登录界面&#34;&gt;&lt;/a&gt;桌面与登录界面&lt;/h2&gt;&lt;p&gt;整体外观样式与前一桌面环境（GNOME）有所不同，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/1.png&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/2.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;平铺窗口&#34;&gt;&lt;a href=&#34;#平铺窗口&#34; class=&#34;headerlink&#34; title=&#34;平铺窗口&#34;&gt;&lt;/a&gt;平铺窗口&lt;/h2&gt;&lt;p&gt;首先，最为实用的功能，就是 Cosmic 自带的&lt;strong&gt;平铺窗口管理&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;1-开启平铺窗口&#34;&gt;&lt;a href=&#34;#1-开启平铺窗口&#34; class=&#34;headerlink&#34; title=&#34;1. 开启平铺窗口&#34;&gt;&lt;/a&gt;1. 开启平铺窗口&lt;/h3&gt;&lt;p&gt;只需要在顶部栏的右方点击窗口按钮，并开启平铺窗口即可。当然你还可以直接设置新工作区默认使用的窗口模式。如下图操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w1.gif&#34;&gt;]&lt;/p&gt;
+&lt;h3 id=&#34;2-窗口快速开启或关闭&#34;&gt;&lt;a href=&#34;#2-窗口快速开启或关闭&#34; class=&#34;headerlink&#34; title=&#34;2. 窗口快速开启或关闭&#34;&gt;&lt;/a&gt;2. 窗口快速开启或关闭&lt;/h3&gt;&lt;p&gt;你可以在下方 Dock 栏处使用鼠标中键疯狂点击 [Cosmic 终端]，也可以按下快捷键 &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; 快速关闭所有窗口。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w2.gif&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-窗口拖拽&#34;&gt;&lt;a href=&#34;#3-窗口拖拽&#34; class=&#34;headerlink&#34; title=&#34;3. 窗口拖拽&#34;&gt;&lt;/a&gt;3. 窗口拖拽&lt;/h3&gt;&lt;p&gt;在窗口移动方面，你可以直接使用鼠标拖拽窗口与窗口之间的大小，同时还可以拖拽窗口到其它位置。&lt;/p&gt;
+&lt;p&gt;不仅如此，多个窗口可以组成 [堆叠窗口]，只需要将鼠标点击任意窗口并拖拽至其它窗口上，便能堆叠窗口（也就是&lt;strong&gt;多标签页窗口&lt;/strong&gt;）。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w3.gif&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Launcher-启动器&#34;&gt;&lt;a href=&#34;#Launcher-启动器&#34; class=&#34;headerlink&#34; title=&#34;Launcher 启动器&#34;&gt;&lt;/a&gt;Launcher 启动器&lt;/h2&gt;&lt;p&gt;Cosmic 桌面环境提供了一种叫做 [Cosmic Launcher] 的功能，可以快速启动常用文件、搜索文件、计算器、网页搜索等功能。默认设置下，直接按下 &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt; 键（即 &lt;kbd&gt;Windows&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt; 键）以呼出搜索栏。如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/l.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用方法：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;直接在搜索栏上输入应用程序名称&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在搜索栏输入：&lt;code&gt;~&lt;/code&gt; 或者 &lt;code&gt;/&lt;/code&gt;，可直接按文件路径打开所需文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在搜索栏输入：&lt;code&gt;run &amp;lt;command&amp;gt;&lt;/code&gt; &amp;#x2F; &lt;code&gt;t:&amp;lt;command&amp;gt;&lt;/code&gt; 可直接打开终端并执行命令&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在搜索栏输入：&lt;code&gt;:&amp;lt;command&amp;gt;&lt;/code&gt; 可直接在后台执行命令&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;网页搜索&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;bing &amp;lt;keyword&amp;gt;&lt;/code&gt; 可直接使用 bing 搜索&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ddk &amp;lt;keyword&amp;gt;&lt;/code&gt; 可直接使用 DuckDuckGo 搜索&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;google &amp;lt;keyword&amp;gt;&lt;/code&gt; 可直接使用 Google 搜索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在搜索栏输入算式，会自动计算&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;更多功能，请直接在搜索栏中输入 &lt;code&gt;?&lt;/code&gt; 查看所有可用选项。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;实用快捷键&#34;&gt;&lt;a href=&#34;#实用快捷键&#34; class=&#34;headerlink&#34; title=&#34;实用快捷键&#34;&gt;&lt;/a&gt;实用快捷键&lt;/h2&gt;&lt;p&gt;关于窗口与工作区管理，你还可以使用以下比较实用的快捷键，这对于日常使用来说非常有用。&lt;/p&gt;
+&lt;p&gt;注意：以下的 &lt;kbd&gt;Super&lt;/kbd&gt; 键为 &lt;kbd&gt;Windows&lt;/kbd&gt; 键。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;管理窗口&amp;#x2F;工作区&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + 任意方向键：选择窗口（激活窗口焦点）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + 任意方向键：切换工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt; 或 &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt;：切换窗口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;：关闭当前窗口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;M&lt;/kbd&gt;：最大化当前窗口&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;移动窗口&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + 任意方向键：移动窗口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + 任意方向键：将窗口移动到其它工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;其它快捷键&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Esc&lt;/kbd&gt;：锁屏&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt;：注销会话&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;：打开文件管理器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;B&lt;/kbd&gt;：打开默认浏览器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;T&lt;/kbd&gt;：打开终端&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt;：打开应用程序菜单&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;不足之处-已发现的-Bugs&#34;&gt;&lt;a href=&#34;#不足之处-已发现的-Bugs&#34; class=&#34;headerlink&#34; title=&#34;不足之处 &amp;amp; 已发现的 Bugs&#34;&gt;&lt;/a&gt;不足之处 &amp;amp; 已发现的 Bugs&lt;/h1&gt;&lt;p&gt;正如前文所提到，Cosmic 桌面环境目前处于测试阶段，很容易能从中发现 Bug 以及不足之处。总结起来有以下几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;设置页面不完善&lt;/strong&gt;：缺少 [账户]、[蓝牙]、[网络]、[声音]、[区域与语言] 等基本页面；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;工作区存在 Bug&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当拥有两个以上的工作区且打开不同的窗口时，点击 [工作区] 菜单，会出现缩略图闪烁等问题；&lt;/li&gt;
+&lt;li&gt;多个窗口同时在同一工作区内时，窗口只横向排列，导致部分窗口无法直接拖拽至其它工作区。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/e.gif&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;关于 Launcher 启动器&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先在使用网页搜索时，不支持国内的搜索引擎（如：&lt;code&gt;baidu&lt;/code&gt;, &lt;code&gt;sogou&lt;/code&gt;）。在搜索栏下只能使用 &lt;code&gt;bing&lt;/code&gt; 搜索。&lt;/li&gt;
+&lt;li&gt;搜索文件时，部分未知文件不能直接打开。&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;?&lt;/code&gt; 查看帮助时，显示仍为英文。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;输入法无法使用&lt;/strong&gt;：尝试使用过 ibus、fcitx5 等输入法引擎，不能直接安装并使用。不知怎么解决？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;软件商店无法使用&lt;/strong&gt;：在安装完 Cosmic 桌面环境后，打开的软件商店是完全空白的，无法显示任何内容。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/5.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自带软件语言显示错误&lt;/strong&gt;：系统已设置为 &lt;code&gt;zh_CN.UTF-8&lt;/code&gt; 语言布局（简体中文），但显示如：Cosmic Text Editor、Cosmic Files等软件时显示繁体中文。如下截图：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最后，希望开发团队能尽力出正式版。(*^_^*)&lt;/p&gt;
+</content>
+        <category term="系统体验" />
+        <category term="Pop_OS!" />
+        <category term="Cosmic" />
+        <updated>2024-08-15T08:57:19.000Z</updated>
+    </entry>
+</feed>

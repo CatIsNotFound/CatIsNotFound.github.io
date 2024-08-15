@@ -9,21 +9,23 @@
         <lastBuildDate>Sun, 02 Jun 2024 20:00:00 +0800</lastBuildDate>
         <category>更新日志</category>
         <category>Linux</category>
-        <category>关于博客</category>
         <category>Git</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
         <category>GNOME</category>
         <category>桌面环境</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
         <category>软件安利</category>
         <category>Android</category>
         <category>Windows</category>
         <category>Waline</category>
         <category>脚本</category>
-        <category>系统安装</category>
+        <category>关于博客</category>
+        <category>系统体验</category>
+        <category>Pop_OS!</category>
+        <category>Cosmic</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
             <title>搭建个人博客（四）：如何实现评论系统</title>
