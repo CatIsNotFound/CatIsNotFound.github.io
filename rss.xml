@@ -7,29 +7,31 @@
         <language>zh-CN</language>
         <pubDate>Thu, 15 Aug 2024 16:57:19 +0800</pubDate>
         <lastBuildDate>Thu, 15 Aug 2024 16:57:19 +0800</lastBuildDate>
+        <category>更新日志</category>
+        <category>Linux</category>
         <category>Git</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Linux</category>
-        <category>更新日志</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>新手向</category>
         <category>软件安利</category>
         <category>Android</category>
-        <category>Windows</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>Waline</category>
-        <category>脚本</category>
-        <category>关于博客</category>
+        <category>Windows</category>
+        <category>新手向</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>脚本</category>
+        <category>关于博客</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</guid>
             <title>[系统体验] Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
             <link>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</link>
+            <category>Linux</category>
+            <category>桌面环境</category>
             <category>系统体验</category>
             <category>Pop_OS!</category>
             <category>Cosmic</category>
@@ -64,12 +66,13 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/1.png&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/2.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;平铺窗口&#34;&gt;&lt;a href=&#34;#平铺窗口&#34; class=&#34;headerlink&#34; title=&#34;平铺窗口&#34;&gt;&lt;/a&gt;平铺窗口&lt;/h2&gt;&lt;p&gt;首先，最为实用的功能，就是 Cosmic 自带的&lt;strong&gt;平铺窗口管理&lt;/strong&gt;。&lt;/p&gt;
 &lt;h3 id=&#34;1-开启平铺窗口&#34;&gt;&lt;a href=&#34;#1-开启平铺窗口&#34; class=&#34;headerlink&#34; title=&#34;1. 开启平铺窗口&#34;&gt;&lt;/a&gt;1. 开启平铺窗口&lt;/h3&gt;&lt;p&gt;只需要在顶部栏的右方点击窗口按钮，并开启平铺窗口即可。当然你还可以直接设置新工作区默认使用的窗口模式。如下图操作：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w1.gif&#34;&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w1.gif&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-窗口快速开启或关闭&#34;&gt;&lt;a href=&#34;#2-窗口快速开启或关闭&#34; class=&#34;headerlink&#34; title=&#34;2. 窗口快速开启或关闭&#34;&gt;&lt;/a&gt;2. 窗口快速开启或关闭&lt;/h3&gt;&lt;p&gt;你可以在下方 Dock 栏处使用鼠标中键疯狂点击 [Cosmic 终端]，也可以按下快捷键 &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; 快速关闭所有窗口。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w2.gif&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;3-窗口拖拽&#34;&gt;&lt;a href=&#34;#3-窗口拖拽&#34; class=&#34;headerlink&#34; title=&#34;3. 窗口拖拽&#34;&gt;&lt;/a&gt;3. 窗口拖拽&lt;/h3&gt;&lt;p&gt;在窗口移动方面，你可以直接使用鼠标拖拽窗口与窗口之间的大小，同时还可以拖拽窗口到其它位置。&lt;/p&gt;
-&lt;p&gt;不仅如此，多个窗口可以组成 [堆叠窗口]，只需要将鼠标点击任意窗口并拖拽至其它窗口上，便能堆叠窗口（也就是&lt;strong&gt;多标签页窗口&lt;/strong&gt;）。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w3.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;不仅如此，多个窗口可以组成 [堆叠窗口]，只需要将鼠标点击任意窗口并拖拽至其它窗口上，便能堆叠窗口（也就是&lt;strong&gt;多标签页窗口&lt;/strong&gt;）。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w4.gif&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;Launcher-启动器&#34;&gt;&lt;a href=&#34;#Launcher-启动器&#34; class=&#34;headerlink&#34; title=&#34;Launcher 启动器&#34;&gt;&lt;/a&gt;Launcher 启动器&lt;/h2&gt;&lt;p&gt;Cosmic 桌面环境提供了一种叫做 [Cosmic Launcher] 的功能，可以快速启动常用文件、搜索文件、计算器、网页搜索等功能。默认设置下，直接按下 &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt; 键（即 &lt;kbd&gt;Windows&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt; 键）以呼出搜索栏。如下图：&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/l.gif&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;使用方法：&lt;/strong&gt;&lt;/p&gt;
@@ -173,9 +176,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
             <link>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
-            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
+            <category>新手向</category>
             <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
@@ -299,8 +302,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</guid>
             <title>系统体验：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
-            <category>新手向</category>
             <category>Android</category>
+            <category>新手向</category>
             <category>系统体验</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
@@ -1082,8 +1085,8 @@
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
-            <category>新手向</category>
             <category>Windows</category>
+            <category>新手向</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -2497,9 +2500,9 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
-            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
+            <category>新手向</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
@@ -2594,9 +2597,9 @@ B -- False --&gt; 执行语句2
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
             <category>Linux</category>
+            <category>新手向</category>
             <category>GNOME</category>
             <category>桌面环境</category>
-            <category>新手向</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
