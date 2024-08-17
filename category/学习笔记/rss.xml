@@ -12,20 +12,20 @@
         <category>Windows</category>
         <category>Linux</category>
         <category>新手向</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
         <category>系统体验</category>
         <category>Android</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>博客搭建</category>
+        <category>软件安利</category>
         <category>Git</category>
         <category>Hexo</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
-        <category>软件安利</category>
-        <category>GNOME</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>Python 快速入门（学习笔记）</title>

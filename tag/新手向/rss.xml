@@ -12,20 +12,20 @@
         <category>Windows</category>
         <category>Linux</category>
         <category>新手向</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
         <category>系统体验</category>
         <category>Android</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>博客搭建</category>
+        <category>软件安利</category>
         <category>Git</category>
         <category>Hexo</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
-        <category>软件安利</category>
-        <category>GNOME</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
@@ -2005,8 +2005,8 @@ B -- False --&gt; 执行语句2
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
             <category>Linux</category>
             <category>新手向</category>
-            <category>桌面环境</category>
             <category>GNOME</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;

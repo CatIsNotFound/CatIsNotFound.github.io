@@ -12,29 +12,29 @@
         <category>Windows</category>
         <category>Linux</category>
         <category>新手向</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
         <category>系统体验</category>
         <category>Android</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>博客搭建</category>
+        <category>软件安利</category>
         <category>Git</category>
         <category>Hexo</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
-        <category>软件安利</category>
-        <category>GNOME</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</guid>
             <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
             <link>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</link>
             <category>Linux</category>
             <category>系统体验</category>
+            <category>桌面环境</category>
             <category>Pop_OS!</category>
             <category>Cosmic</category>
-            <category>桌面环境</category>
             <pubDate>Thu, 15 Aug 2024 16:57:19 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;很久没有写关于系统体验的文章了，这次体验的 Linux 发行版是 Pop_OS! 24.04，其主要默认的桌面环境为 Cosmic。&lt;/p&gt;
 &lt;p&gt;Cosmic 是 System76 团队开发的全新的桌面环境，其目的是构建一个自定义的操作界面。以下为引用：&lt;/p&gt;
@@ -2396,9 +2396,9 @@ B -- False --&gt; 执行语句2
             <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
             <category>Android</category>
             <category>博客搭建</category>
+            <category>软件安利</category>
             <category>Git</category>
             <category>Hexo</category>
-            <category>软件安利</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
@@ -2598,8 +2598,8 @@ B -- False --&gt; 执行语句2
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
             <category>Linux</category>
             <category>新手向</category>
-            <category>桌面环境</category>
             <category>GNOME</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;

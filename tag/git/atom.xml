@@ -9,20 +9,20 @@
     <category term="Windows" />
     <category term="Linux" />
     <category term="新手向" />
-    <category term="关于博客" />
     <category term="脚本" />
+    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Android" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="博客搭建" />
+    <category term="软件安利" />
     <category term="Git" />
     <category term="Hexo" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="桌面环境" />
-    <category term="软件安利" />
-    <category term="GNOME" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <entry>
         <id>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</id>
         <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
@@ -124,9 +124,9 @@
 </content>
         <category term="Android" />
         <category term="博客搭建" />
+        <category term="软件安利" />
         <category term="Git" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
     <entry>
