@@ -4,25 +4,25 @@
     <title>CatIsNotFound • Posts by &#34;技术教程&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-09T05:15:33.000Z</updated>
-    <category term="Linux" />
-    <category term="Git" />
-    <category term="更新日志" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
     <category term="Python" />
     <category term="学习笔记" />
     <category term="新手向" />
+    <category term="Linux" />
     <category term="GNOME" />
     <category term="桌面环境" />
     <category term="软件安利" />
     <category term="Windows" />
+    <category term="博客搭建" />
+    <category term="Git" />
+    <category term="Hexo" />
     <category term="Android" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="关于博客" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</id>
         <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
@@ -275,8 +275,8 @@
 &lt;p&gt;示例 3：定义一个函数 &lt;code&gt;install_packages()&lt;/code&gt;，要求用户输入软件包名，并安装指定的软件包。定义一个函数 &lt;code&gt;package_manager()&lt;/code&gt;，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。&lt;/p&gt;
 &lt;p&gt;注意：针对 Arch Linux 使用的 &lt;code&gt;pacman&lt;/code&gt; 的命令有所不同，需要进行单独修改。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 定义函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;install_packages&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如没有输入软件包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please enter a package name.&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如使用的是 pacman&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; == pacman ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; pacman -S &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; --noconfirm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; install &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;package_manager&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; manager &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; apt dnf pacman yum zypper; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;which&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &amp;amp;&amp;gt; /dev/null&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# 假如对应的包管理工具存在，则安装软件包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -eq 0 ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Using &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; to install &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            install_packages &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;No package manager found&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 调用函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;read&lt;/span&gt; -p &lt;span class=&#34;string&#34;&gt;&amp;quot;Please enter a package name: &amp;quot;&lt;/span&gt; package&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;package_manager &lt;span class=&#34;variable&#34;&gt;$package&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;</content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="脚本" />
         <updated>2024-06-09T05:15:33.000Z</updated>
     </entry>
@@ -623,8 +623,8 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="脚本" />
         <updated>2024-06-09T05:10:00.000Z</updated>
     </entry>
@@ -774,8 +774,8 @@
   &lt;/div&gt;
 
 </content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="Windows" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -904,8 +904,8 @@
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="GNOME" />
         <category term="桌面环境" />
         <updated>2024-05-03T15:59:02.000Z</updated>
