@@ -6,23 +6,23 @@
     <updated>2024-08-15T08:57:19.000Z</updated>
     <category term="Linux" />
     <category term="更新日志" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Git" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="Waline" />
+    <category term="软件安利" />
+    <category term="Android" />
     <category term="Windows" />
-    <category term="新手向" />
+    <category term="Waline" />
     <category term="脚本" />
     <category term="关于博客" />
     <category term="系统体验" />
-    <category term="Android" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="桌面环境" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="GNOME" />
-    <category term="软件安利" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
         <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
@@ -163,10 +163,10 @@
 &lt;p&gt;最后，希望开发团队能尽力出正式版。(*^_^*)&lt;/p&gt;
 </content>
         <category term="Linux" />
+        <category term="桌面环境" />
         <category term="系统体验" />
         <category term="Pop_OS!" />
         <category term="Cosmic" />
-        <category term="桌面环境" />
         <updated>2024-08-15T08:57:19.000Z</updated>
     </entry>
 </feed>

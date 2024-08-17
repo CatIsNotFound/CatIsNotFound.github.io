@@ -6,23 +6,23 @@
     <updated>2024-08-15T08:57:19.000Z</updated>
     <category term="Linux" />
     <category term="更新日志" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Git" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="Waline" />
+    <category term="软件安利" />
+    <category term="Android" />
     <category term="Windows" />
-    <category term="新手向" />
+    <category term="Waline" />
     <category term="脚本" />
     <category term="关于博客" />
     <category term="系统体验" />
-    <category term="Android" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="桌面环境" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="GNOME" />
-    <category term="软件安利" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
         <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
@@ -163,10 +163,10 @@
 &lt;p&gt;最后，希望开发团队能尽力出正式版。(*^_^*)&lt;/p&gt;
 </content>
         <category term="Linux" />
+        <category term="桌面环境" />
         <category term="系统体验" />
         <category term="Pop_OS!" />
         <category term="Cosmic" />
-        <category term="桌面环境" />
         <updated>2024-08-15T08:57:19.000Z</updated>
     </entry>
     <entry>
@@ -220,9 +220,9 @@
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Windows" />
         <category term="新手向" />
         <category term="软件安利" />
+        <category term="Windows" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -442,8 +442,8 @@
 &lt;p&gt;对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。&lt;/p&gt;
 </content>
         <category term="新手向" />
-        <category term="系统体验" />
         <category term="Android" />
+        <category term="系统体验" />
         <updated>2024-06-15T08:32:59.000Z</updated>
     </entry>
     <entry>
@@ -1224,8 +1224,8 @@
 
 </content>
         <category term="Linux" />
-        <category term="Windows" />
         <category term="新手向" />
+        <category term="Windows" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
     <entry>
@@ -2489,8 +2489,8 @@ B -- False --&gt; 执行语句2
         <category term="Git" />
         <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="Android" />
         <category term="软件安利" />
+        <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
     <entry>
@@ -2584,9 +2584,9 @@ B -- False --&gt; 执行语句2
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
-        <category term="Windows" />
         <category term="新手向" />
         <category term="软件安利" />
+        <category term="Windows" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
@@ -2715,9 +2715,9 @@ B -- False --&gt; 执行语句2
   &lt;/div&gt;
 </content>
         <category term="Linux" />
-        <category term="新手向" />
-        <category term="桌面环境" />
         <category term="GNOME" />
+        <category term="桌面环境" />
+        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
