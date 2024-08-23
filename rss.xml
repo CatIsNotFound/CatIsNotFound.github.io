@@ -9,23 +9,23 @@
         <lastBuildDate>Thu, 15 Aug 2024 16:57:19 +0800</lastBuildDate>
         <category>Linux</category>
         <category>更新日志</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>Git</category>
         <category>博客搭建</category>
         <category>Hexo</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>新手向</category>
         <category>软件安利</category>
         <category>Android</category>
-        <category>Windows</category>
-        <category>Waline</category>
-        <category>脚本</category>
-        <category>关于博客</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>Windows</category>
+        <category>脚本</category>
+        <category>Waline</category>
+        <category>关于博客</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</guid>
             <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
@@ -3328,7 +3328,7 @@ B -- False --&gt; 执行语句2
             <category>Hexo</category>
             <pubDate>Wed, 24 Apr 2024 14:44:21 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;在这上一篇&lt;a href=&#34;../../23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2&#34;&gt;【搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客】&lt;/a&gt;文章中，我们已经完成了搭建。在这篇文章中，将会详细地讲述搭建后关于 Hexo 的配置以及如何自定义自己的 &lt;a class=&#34;link&#34;   href=&#34;https://redefine.ohevan.com/&#34; &gt;Redefine 主题 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;![&amp;#x2F;images&amp;#x2F;2024&amp;#x2F;0424&amp;#x2F;banner.jpg]&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/banner.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;Hexo-配置&#34;&gt;&lt;a href=&#34;#Hexo-配置&#34; class=&#34;headerlink&#34; title=&#34;Hexo 配置&#34;&gt;&lt;/a&gt;Hexo 配置&lt;/h2&gt;&lt;h3 id=&#34;基础配置&#34;&gt;&lt;a href=&#34;#基础配置&#34; class=&#34;headerlink&#34; title=&#34;基础配置&#34;&gt;&lt;/a&gt;基础配置&lt;/h3&gt;&lt;p&gt;打开项目目录下的 &lt;code&gt;_config.yml&lt;/code&gt; 文件，请找到如下内容并修改如下：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Yaml&#34;&gt;&lt;figure class=&#34;iseeu highlight yaml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Site&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;title:&lt;/span&gt; 						&lt;span class=&#34;comment&#34;&gt;# 必填，输入网站标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;subtitle:&lt;/span&gt; 					&lt;span class=&#34;comment&#34;&gt;# 此处可不填，子标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;description:&lt;/span&gt; 				&lt;span class=&#34;comment&#34;&gt;# 此处可不填，网站简介&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;keywords:&lt;/span&gt; 					&lt;span class=&#34;comment&#34;&gt;# 此处可不填，关键词&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;author:&lt;/span&gt;  					&lt;span class=&#34;comment&#34;&gt;# 必填，作者名称&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;language:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;zh-CN&lt;/span&gt;				&lt;span class=&#34;comment&#34;&gt;# 必填，使用的语言，这里应填为 `zh-CN` &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;timezone:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;Asia/Shanghai&amp;#x27;&lt;/span&gt;	&lt;span class=&#34;comment&#34;&gt;# 必填，时区，在国内建议选择上海时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# URL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;## Set your site url here. For example, if you use GitHub Page, set url as &amp;#x27;https://username.github.io/project&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;url:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;https://&amp;lt;你的&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;Github&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;用户名&amp;gt;.github.io&lt;/span&gt; 	&lt;span class=&#34;comment&#34;&gt;# 必填，Github Page 的地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;permalink:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;:year/:month/:day/:title/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;permalink_defaults:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;pretty_urls:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;trailing_index:&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;# Set to false to remove trailing &amp;#x27;index.html&amp;#x27; from permalinks&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;trailing_html:&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;# Set to false to remove trailing &amp;#x27;.html&amp;#x27; from permalinks&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
