@@ -7,31 +7,31 @@
         <language>zh-CN</language>
         <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
         <lastBuildDate>Sun, 09 Jun 2024 13:15:33 +0800</lastBuildDate>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>新手向</category>
         <category>Linux</category>
-        <category>更新日志</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>Git</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
         <category>软件安利</category>
         <category>Windows</category>
-        <category>新手向</category>
+        <category>博客搭建</category>
+        <category>Git</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>更新日志</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
         <category>Waline</category>
         <category>脚本</category>
         <category>关于博客</category>
-        <category>Android</category>
-        <category>GNOME</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
@@ -287,8 +287,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:10:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
@@ -635,9 +635,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
+            <category>新手向</category>
             <category>Linux</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -786,10 +786,10 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
-            <category>Linux</category>
             <category>新手向</category>
-            <category>桌面环境</category>
+            <category>Linux</category>
             <category>GNOME</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
