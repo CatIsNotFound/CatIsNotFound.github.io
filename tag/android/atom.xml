@@ -10,13 +10,13 @@
     <category term="Linux" />
     <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="软件安利" />
-    <category term="Windows" />
     <category term="博客搭建" />
+    <category term="软件安利" />
     <category term="Git" />
     <category term="Hexo" />
     <category term="Android" />
     <category term="更新日志" />
+    <category term="Windows" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
@@ -273,8 +273,8 @@
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
-        <category term="软件安利" />
         <category term="博客搭建" />
+        <category term="软件安利" />
         <category term="Git" />
         <category term="Hexo" />
         <category term="Android" />

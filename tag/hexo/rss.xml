@@ -13,13 +13,13 @@
         <category>Linux</category>
         <category>GNOME</category>
         <category>桌面环境</category>
-        <category>软件安利</category>
-        <category>Windows</category>
         <category>博客搭建</category>
+        <category>软件安利</category>
         <category>Git</category>
         <category>Hexo</category>
         <category>Android</category>
         <category>更新日志</category>
+        <category>Windows</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
@@ -30,8 +30,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
             <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
-            <category>软件安利</category>
             <category>博客搭建</category>
+            <category>软件安利</category>
             <category>Git</category>
             <category>Hexo</category>
             <category>Android</category>
