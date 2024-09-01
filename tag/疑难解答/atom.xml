@@ -5,26 +5,28 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-01T04:48:45.000Z</updated>
     <category term="Linux" />
-    <category term="Git" />
-    <category term="更新日志" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Waline" />
-    <category term="Windows" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
     <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="WSL" />
     <category term="脚本" />
     <category term="关于博客" />
     <category term="系统体验" />
-    <category term="Android" />
-    <category term="Github" />
-    <category term="疑难解答" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="桌面环境" />
-    <category term="软件安利" />
-    <category term="GNOME" />
+    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>[疑难解答] 关于 Github 的问题解决方法</title>
@@ -90,8 +92,8 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
-        <category term="Git" />
         <category term="新手向" />
+        <category term="Git" />
         <category term="Github" />
         <category term="疑难解答" />
         <updated>2024-09-01T04:48:45.000Z</updated>

@@ -5,26 +5,28 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-03T15:59:02.000Z</updated>
     <category term="Linux" />
-    <category term="Git" />
-    <category term="更新日志" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Waline" />
-    <category term="Windows" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
     <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="WSL" />
     <category term="脚本" />
     <category term="关于博客" />
     <category term="系统体验" />
-    <category term="Android" />
-    <category term="Github" />
-    <category term="疑难解答" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="桌面环境" />
-    <category term="软件安利" />
-    <category term="GNOME" />
+    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</id>
         <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
@@ -151,9 +153,184 @@
   &lt;/div&gt;
 </content>
         <category term="Linux" />
-        <category term="新手向" />
-        <category term="桌面环境" />
+        <category term="Ubuntu" />
         <category term="GNOME" />
+        <category term="桌面环境" />
+        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</id>
+        <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/"/>
+        <content type="html">
+  &lt;div class=&#34;note-large regular&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;前言&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;环境安装&#34;&gt;&lt;a href=&#34;#环境安装&#34; class=&#34;headerlink&#34; title=&#34;环境安装&#34;&gt;&lt;/a&gt;环境安装&lt;/h1&gt;&lt;p&gt;根据不同的方式来安装相对应的环境，作为 0 基础的 Linux 入门新手，你可以根据 ⭐ 级别来参考并选择相对应的安装方式。&lt;/p&gt;
+&lt;h2 id=&#34;虚拟机环境-（⭐⭐⭐⭐⭐）&#34;&gt;&lt;a href=&#34;#虚拟机环境-（⭐⭐⭐⭐⭐）&#34; class=&#34;headerlink&#34; title=&#34;虚拟机环境 （⭐⭐⭐⭐⭐）&#34;&gt;&lt;/a&gt;虚拟机环境 （⭐⭐⭐⭐⭐）&lt;/h2&gt;&lt;h3 id=&#34;特点&#34;&gt;&lt;a href=&#34;#特点&#34; class=&#34;headerlink&#34; title=&#34;特点&#34;&gt;&lt;/a&gt;特点&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;安全：虚拟机与真实的物理机完全隔离；&lt;/li&gt;
+&lt;li&gt;便利：只需要一个安装镜像（通常以 &lt;code&gt;*.iso&lt;/code&gt; 格式的文件）即可安装；&lt;/li&gt;
+&lt;li&gt;即用即停：使用虚拟机时可直接暂停或恢复虚拟机。可以减少开启虚拟机的等待时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装方式&#34;&gt;&lt;a href=&#34;#安装方式&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;p&gt;请根据如下表所给的虚拟机软件中选择其中一个进行下载安装。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;软件&lt;/th&gt;
+&lt;th&gt;可用的平台&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34; &gt;VMWare Workstation &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Windows、Linux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.virtualbox.org/favicon.ico&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; &gt;Oracle VM VirtualBox &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/fusion/fusion-evaluation.html&#34; &gt;VMWare Fusion &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mac&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png&#34; style=&#34;zoom: 33%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.parallels.com/products/desktop/&#34; &gt;Parallels Desktop &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mac&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.qemu.org/assets/favicons/favicon-32x32.png&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.qemu.org/download/&#34; &gt;QEMU &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://learn.microsoft.com/favicon.ico&#34; style=&#34;zoom:25%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/&#34; &gt;Hyper-V &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Windows 用户建议选择 VMware Workstation；&lt;/p&gt;
+&lt;p&gt;Linux 用户建议选择 Oracle VM VirtualBox；&lt;/p&gt;
+&lt;p&gt;Mac 用户建议选择 Parallels Desktop。&lt;/p&gt;
+&lt;h2 id=&#34;Windows-Subsystem-Linux（WSL）（⭐⭐⭐⭐）&#34;&gt;&lt;a href=&#34;#Windows-Subsystem-Linux（WSL）（⭐⭐⭐⭐）&#34; class=&#34;headerlink&#34; title=&#34;Windows Subsystem Linux（WSL）（⭐⭐⭐⭐）&#34;&gt;&lt;/a&gt;Windows Subsystem Linux（WSL）（⭐⭐⭐⭐）&lt;/h2&gt;&lt;h3 id=&#34;特点-1&#34;&gt;&lt;a href=&#34;#特点-1&#34; class=&#34;headerlink&#34; title=&#34;特点&#34;&gt;&lt;/a&gt;特点&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;运行于 Windows 系统上。&lt;/li&gt;
+&lt;li&gt;安装非常简单，仅需安装发行版即可实现即开即用&lt;/li&gt;
+&lt;li&gt;仅运行于终端中，不会占用过大的存储空间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装方式-1&#34;&gt;&lt;a href=&#34;#安装方式-1&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;p&gt;你可以直接&lt;a class=&#34;link&#34;   href=&#34;https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R&#34; &gt;点击此处下载 WSL &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;，打开网页后将会自动跳转到 Microsoft Store 中，只需点击下载安装即可&lt;/p&gt;
+&lt;p&gt;关于相关的 WSL 教程，请直接点击下方按钮以跳转至此文章。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统/&#39; title=&#39;WSL：一个适用于 Windows 的 Linux 子系统&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; WSL：一个适用于 Windows 的 Linux 子系统&lt;/a&gt;
+
+&lt;h2 id=&#34;实机安装（双系统安装）（⭐⭐⭐）&#34;&gt;&lt;a href=&#34;#实机安装（双系统安装）（⭐⭐⭐）&#34; class=&#34;headerlink&#34; title=&#34;实机安装（双系统安装）（⭐⭐⭐）&#34;&gt;&lt;/a&gt;实机安装（双系统安装）（⭐⭐⭐）&lt;/h2&gt;&lt;h3 id=&#34;特点-2&#34;&gt;&lt;a href=&#34;#特点-2&#34; class=&#34;headerlink&#34; title=&#34;特点&#34;&gt;&lt;/a&gt;特点&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;完全安装在真机环境上，体验原汁原味的系统&lt;/li&gt;
+&lt;li&gt;上手难度较大，不利于新手操作&lt;/li&gt;
+&lt;li&gt;安装前需要提前为新安装的 Linux 系统进行分区，配置较为麻烦，同时需要依靠 U 盘进行安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装方式-2&#34;&gt;&lt;a href=&#34;#安装方式-2&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;若选择此方式，作者建议使用如下工具将镜像文件安装到 U 盘中：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://www.ventoy.net/favicon.ico&#34;  /&gt;
+
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://rufus.ie/favicon.ico&#34;  /&gt;
+
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://etcher.balena.io/images/2024/favicon.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用方式均为一样，仅需使用对应工具将需要存放的 ISO 镜像文件烧录即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;适用于安卓设备的软件-——-Termux（⭐⭐）&#34;&gt;&lt;a href=&#34;#适用于安卓设备的软件-——-Termux（⭐⭐）&#34; class=&#34;headerlink&#34; title=&#34;适用于安卓设备的软件 —— Termux（⭐⭐）&#34;&gt;&lt;/a&gt;适用于安卓设备的软件 —— Termux（⭐⭐）&lt;/h2&gt;
+  &lt;div class=&#34;note p-4 mb-4 rounded-small icon-padding&#34;&gt;
+    &lt;i class=&#34;note-icon fa-solid fa-circle-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;本篇中此方法不会具体展开介绍&lt;/p&gt;
+
+  &lt;/div&gt;
+
+&lt;h3 id=&#34;特点-3&#34;&gt;&lt;a href=&#34;#特点-3&#34; class=&#34;headerlink&#34; title=&#34;特点&#34;&gt;&lt;/a&gt;特点&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;支持在 Android 手机上运行虚拟 Linux 系统&lt;/li&gt;
+&lt;li&gt;相对适合没有电脑的情况下使用&lt;/li&gt;
+&lt;li&gt;仅需安装 Termux 即可得到虚拟的 Linux 环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装方式-3&#34;&gt;&lt;a href=&#34;#安装方式-3&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://github.com/termux/termux-app/releases/tag/v0.118.0&#34; &gt;Release v0.118.0 · termux&amp;#x2F;termux-app (github.com) &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于大多数手机为 ARM 架构，因此建议&lt;a class=&#34;link&#34;   href=&#34;https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk&#34; &gt;选择 ARM 版本 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;安装-Linux-系统&#34;&gt;&lt;a href=&#34;#安装-Linux-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Linux 系统&#34;&gt;&lt;/a&gt;安装 Linux 系统&lt;/h1&gt;&lt;h2 id=&#34;下载镜像&#34;&gt;&lt;a href=&#34;#下载镜像&#34; class=&#34;headerlink&#34; title=&#34;下载镜像&#34;&gt;&lt;/a&gt;下载镜像&lt;/h2&gt;&lt;p&gt;在写这篇文章之前，若你已经下载并安装完环境后，接下来只需要在对应的 Linux 发行版中下载镜像即可。（通常为 &lt;code&gt;*.iso&lt;/code&gt; 格式的镜像文件）&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png&#34;  /&gt;
+
+&lt;p&gt;这里将使用全球较为流行的 &lt;a class=&#34;link&#34;   href=&#34;https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;Ubuntu 24.04 LTS &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 镜像来安装 Linux。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;下载提示&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;若下载速度缓慢，这里已提供如下镜像站，可以加快下载速度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;清华源下载 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirror.nyist.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;南阳理工学院镜像站 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirror.bjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;北京交通大学镜像站 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirrors.xjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;西安交通大学镜像站 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;请直接点击上方链接或者复制下载链接，即可开始下载镜像&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;新建虚拟机&#34;&gt;&lt;a href=&#34;#新建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;新建虚拟机&#34;&gt;&lt;/a&gt;新建虚拟机&lt;/h2&gt;&lt;p&gt;这里以 VMware Workstation 17 为例，&lt;/p&gt;
+&lt;p&gt;首先，在主页上点击【创建虚拟机】；接下来，就按照下面的图一步一步创建即可(*^_^*)（这非常简单）&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/6.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;完成上述创建后，直接按照如下图提示，开启虚拟机即可&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安装-Ubuntu-系统&#34;&gt;&lt;a href=&#34;#安装-Ubuntu-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Ubuntu 系统&#34;&gt;&lt;/a&gt;安装 Ubuntu 系统&lt;/h2&gt;&lt;p&gt;一般情况下，在安装 Ubuntu 系统时，将会启动 Grub 引导，此时选择第一项【Try or Install Ubuntu】，等待启动 Ubuntu。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/10.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待完成后，后面仅需按照图中的提示做好初次配置即可开始安装 Ubuntu 系统。虚拟机下仅需设置好用户和密码即可。其余操作仅需点【下一步】即可&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/11.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;若安装完成后，选择重启时将会出现如下图，此时仅需按下回车键即可完成&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;※ 补充内容：安装 VMware Tools 工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现如今，在 Ubuntu 及其它 Debian 系发行版下，可直接打开终端，并安装 &lt;code&gt;open-vm-tools&lt;/code&gt; 工具包即可，具体命令如下：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Shell&#34;&gt;&lt;figure class=&#34;iseeu highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install open-vm-tools -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;完成安装后，将系统注销重新登录之后即可生效&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;检查-Ubuntu-版本&#34;&gt;&lt;a href=&#34;#检查-Ubuntu-版本&#34; class=&#34;headerlink&#34; title=&#34;检查 Ubuntu 版本&#34;&gt;&lt;/a&gt;检查 Ubuntu 版本&lt;/h2&gt;&lt;p&gt;按照如下图的操作，查看 Ubuntu 版本号即可&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/14.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🎉 至此，安装 Linux 系统已经完成！😉&lt;/p&gt;
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-lightbulb&#34;&gt;&lt;/i&gt;&lt;p&gt;跳转提示&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;🎉 你已完成了整个 Linux 的安装，若你对 Linux 系统不是非常熟悉，建议阅读以下文章：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center regular&#34; href=&#39;/2024/05/03/从-0-开始学-Linux-熟悉-GNOME-桌面/&#39; title=&#39;从 0 开始学 Linux：熟悉 GNOME 桌面&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：熟悉 GNOME 桌面&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center regular&#34; href=&#39;/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门/&#39; title=&#39;从 0 开始学 Linux：Bash Shell 快速入门&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：Bash Shell 快速入门&lt;/a&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+</content>
+        <category term="Linux" />
+        <category term="Ubuntu" />
+        <category term="GNOME" />
+        <category term="桌面环境" />
+        <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
 </feed>

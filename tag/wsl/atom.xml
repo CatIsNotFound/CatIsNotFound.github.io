@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;wsl&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-06-06T09:03:20.000Z</updated>
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="疑难解答" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</id>
+        <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/"/>
+        <content type="html">
+  &lt;div class=&#34;note-large regular&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;WSL 简介&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/R-C.jpg&#34;&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;WSL-适合谁？&#34;&gt;&lt;a href=&#34;#WSL-适合谁？&#34; class=&#34;headerlink&#34; title=&#34;WSL 适合谁？&#34;&gt;&lt;/a&gt;WSL 适合谁？&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Linux 新手、Linux 初学者&lt;/li&gt;
+&lt;li&gt;需要大量命令行操作&lt;/li&gt;
+&lt;li&gt;需要 Linux 开发、Linux 运维等……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;WSL-的优势&#34;&gt;&lt;a href=&#34;#WSL-的优势&#34; class=&#34;headerlink&#34; title=&#34;WSL 的优势&#34;&gt;&lt;/a&gt;WSL 的优势&lt;/h1&gt;&lt;p&gt;在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装&amp;#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。&lt;/li&gt;
+&lt;li&gt;管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。&lt;/li&gt;
+&lt;li&gt;独立存储：你可以将文件独立存储于 Linux 文件系统中。&lt;/li&gt;
+&lt;li&gt;在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;安装-WSL&#34;&gt;&lt;a href=&#34;#安装-WSL&#34; class=&#34;headerlink&#34; title=&#34;安装 WSL&#34;&gt;&lt;/a&gt;安装 WSL&lt;/h1&gt;
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）&lt;/p&gt;
+&lt;p&gt;请在下载安装前，通过 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;code&gt;R&lt;/code&gt; 打开【运行】窗口，并执行 &lt;code&gt;winver&lt;/code&gt; 查看操作系统内部版本号。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/1.jpg&#34; alt=&#34;查看操作系统内部版本号&#34; style=&#34;width: 50%&#34;&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。&lt;/p&gt;
+&lt;a class=&#34;button  regular&#34; href=&#39;https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&amp;gl=CN&#39; title=&#39;WSL 下载安装&#39;&gt;&lt;i class=&#39;fa-brands fa-microsoft&#39;&gt;&lt;/i&gt; WSL 下载安装&lt;/a&gt;
+
+&lt;a class=&#34;button  regular&#34; href=&#39;https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&amp;gl=CN&#39; title=&#39;Ubuntu 24.04 LTS 下载安装&#39;&gt;&lt;i class=&#39;fa-brands fa-linux&#39;&gt;&lt;/i&gt; Ubuntu 24.04 LTS 下载安装&lt;/a&gt;
+
+&lt;p&gt;当你完成如上安装之后，接下来，请直接按下 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;code&gt;X&lt;/code&gt; 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl.exe &lt;span class=&#34;literal&#34;&gt;--install&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;--no-distribution&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;安装完成后，请直接重启自己的电脑。&lt;/p&gt;
+&lt;p&gt;之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。&lt;/p&gt;
+&lt;p&gt;安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Please create a default UNIX user account. The username does not need to match your Windows username.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;For more information visit: https://aka.ms/wslusers&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Enter new UNIX username:   输入你的用户名&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;New password:              设置密码，此处输入的密码是隐藏的&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Retype new password:       再次设置密码，同上&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;passwd: password updated successfully&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Installation successful!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：&lt;/p&gt;
+&lt;p&gt;打开 Powershell，并以 &lt;code&gt;root&lt;/code&gt; 用户身份运行，命令如下：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;-u&lt;/span&gt; root&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;若需要指定一个发行版，请直接执行：&lt;code&gt;wsl -d &amp;lt;发行版名称&amp;gt; -u root&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然后再在终端中输入以下命令，即可重置密码。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;passwd &amp;lt;用户名&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;其中的 &lt;code&gt;&amp;lt;用户名&amp;gt;&lt;/code&gt; 即为你设置的用户名。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;WSL-使用方法与技巧&#34;&gt;&lt;a href=&#34;#WSL-使用方法与技巧&#34; class=&#34;headerlink&#34; title=&#34;WSL 使用方法与技巧&#34;&gt;&lt;/a&gt;WSL 使用方法与技巧&lt;/h1&gt;&lt;h2 id=&#34;命令行操作&#34;&gt;&lt;a href=&#34;#命令行操作&#34; class=&#34;headerlink&#34; title=&#34;命令行操作&#34;&gt;&lt;/a&gt;命令行操作&lt;/h2&gt;&lt;p&gt;WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（1）如何安装 Linux 发行版&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--install&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;-d&lt;/span&gt; &amp;lt;发行版名称&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;其中，&lt;code&gt;&amp;lt;发行版名称&amp;gt;&lt;/code&gt; 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--install&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;-d&lt;/span&gt; Ubuntu&lt;span class=&#34;literal&#34;&gt;-24&lt;/span&gt;.&lt;span class=&#34;number&#34;&gt;04&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;（2）查看所有当前可用的 Linux 发行版&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--list&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;--online&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;或者，使用 &lt;code&gt;wsl -l -o&lt;/code&gt; 代替。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（3）列出所有 Linux 发行版的运行状态&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--list&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;--verbose&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;或者，使用 &lt;code&gt;wsl -l -v&lt;/code&gt; 代替。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（4）启动默认的 Linux 发行版&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;若需要指定一个发行版，则执行如下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;-d&lt;/span&gt; &amp;lt;发行版名称&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;（5）停止默认的 Linux 发行版&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--shutdown&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;若需要指定一个发行版，则执行如下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--terminate&lt;/span&gt; &amp;lt;发行版名称&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;（6）设置默认的 Linux 发行版&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Powershell&#34;&gt;&lt;figure class=&#34;iseeu highlight powershell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wsl &lt;span class=&#34;literal&#34;&gt;--set-default&lt;/span&gt; &amp;lt;发行版名称&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;图形化操作&#34;&gt;&lt;a href=&#34;#图形化操作&#34; class=&#34;headerlink&#34; title=&#34;图形化操作&#34;&gt;&lt;/a&gt;图形化操作&lt;/h2&gt;&lt;p&gt;如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;WSL Tray Monitor - WSL 系统托盘监控工具&lt;/strong&gt;&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&amp;gl=CN&#39; title=&#39;WSL Tray Monitor 下载安装&#39;&gt;&lt;i class=&#39;fa-brands fa-windows&#39;&gt;&lt;/i&gt; WSL Tray Monitor 下载安装&lt;/a&gt;
+
+&lt;p&gt;你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。&lt;/p&gt;
+&lt;p&gt;在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/3.jpg&#34; alt=&#34;WSL Tray Monitor 系统托盘监控工具&#34; style=&#34;width: 50%&#34;&gt;
+
+&lt;p&gt;&lt;strong&gt;WSL Toolbox - 图形化管理 WSL 的工具箱&lt;/strong&gt;&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&amp;gl=CN&#39; title=&#39;WSL Toolbox 下载安装&#39;&gt;&lt;i class=&#39;fa-brands fa-windows&#39;&gt;&lt;/i&gt; WSL Toolbox 下载安装&lt;/a&gt;
+
+&lt;p&gt;WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。&lt;/p&gt;
+&lt;p&gt;但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/2.jpg&#34; alt=&#34;WSL Toolbox 图形化管理 WSL 的工具箱&#34; style=&#34;width: 80%&#34;&gt;
+
+&lt;h2 id=&#34;文件管理&#34;&gt;&lt;a href=&#34;#文件管理&#34; class=&#34;headerlink&#34; title=&#34;文件管理&#34;&gt;&lt;/a&gt;文件管理&lt;/h2&gt;&lt;p&gt;你可以在 Windows 资源管理器中访问 &lt;i class=&#34;fa-brands fa-linux&#34;&gt;Linux&lt;/i&gt;，如下图：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/4.jpg&#34; alt=&#34;在资源管理器中访问 Linux&#34; style=&#34;width: 80%&#34;&gt;
+
+&lt;h2 id=&#34;使用-Visual-Studio-Code-开发&#34;&gt;&lt;a href=&#34;#使用-Visual-Studio-Code-开发&#34; class=&#34;headerlink&#34; title=&#34;使用 Visual Studio Code 开发&#34;&gt;&lt;/a&gt;使用 Visual Studio Code 开发&lt;/h2&gt;&lt;p&gt;如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。&lt;/p&gt;
+&lt;p&gt;你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/5.jpg&#34; alt=&#34;在 WSL 中打开项目&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large green&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;参考链接&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/install&#34; &gt;https://learn.microsoft.com/zh-cn/windows/wsl/install &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment&#34; &gt;https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands&#34; &gt;https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+</content>
+        <category term="Linux" />
+        <category term="新手向" />
+        <category term="Windows" />
+        <category term="WSL" />
+        <updated>2024-06-06T09:03:20.000Z</updated>
+    </entry>
+</feed>
