@@ -4,25 +4,27 @@
     <title>CatIsNotFound • Posts by &#34;桌面环境&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-15T08:57:19.000Z</updated>
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="新手向" />
     <category term="Linux" />
+    <category term="更新日志" />
+    <category term="Git" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
-    <category term="Git" />
-    <category term="Hexo" />
-    <category term="Android" />
-    <category term="更新日志" />
+    <category term="新手向" />
+    <category term="Waline" />
     <category term="Windows" />
+    <category term="脚本" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="关于博客" />
+    <category term="软件安利" />
+    <category term="Android" />
     <category term="系统体验" />
+    <category term="Github" />
+    <category term="疑难解答" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
         <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
@@ -294,10 +296,10 @@
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
-        <category term="新手向" />
         <category term="Linux" />
         <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
 </feed>

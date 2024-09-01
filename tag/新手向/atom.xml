@@ -3,26 +3,99 @@
     <id>https://CatIsNotFound.github.io</id>
     <title>CatIsNotFound • Posts by &#34;新手向&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
-    <updated>2024-08-01T07:41:00.000Z</updated>
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="新手向" />
+    <updated>2024-09-01T04:48:45.000Z</updated>
     <category term="Linux" />
+    <category term="更新日志" />
+    <category term="Git" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
-    <category term="Git" />
-    <category term="Hexo" />
-    <category term="Android" />
-    <category term="更新日志" />
+    <category term="新手向" />
+    <category term="Waline" />
     <category term="Windows" />
+    <category term="脚本" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="关于博客" />
+    <category term="软件安利" />
+    <category term="Android" />
     <category term="系统体验" />
+    <category term="Github" />
+    <category term="疑难解答" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+        <title>[疑难解答] 关于 Github 的问题解决方法</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;!-- ![Github](https://askanydifference.com/wp-content/uploads/2023/06/github.jpg) --&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
+
+&lt;p&gt;Github 是一个很常用的代码托管平台，我们可以利用此平台下载或克隆到优质的代码仓库，但是在某些情况下，我们可能会遇到一些问题，下面是由本人列举的一些问题与解决方法，希望这能有所帮助😉。&lt;/p&gt;
+&lt;h1 id=&#34;1、Github-访问不了&#34;&gt;&lt;a href=&#34;#1、Github-访问不了&#34; class=&#34;headerlink&#34; title=&#34;1、Github 访问不了&#34;&gt;&lt;/a&gt;1、Github 访问不了&lt;/h1&gt;&lt;p&gt;大多数国内的用户在访问 Github 时总会遇到加载速度缓慢，甚至无法访问站点的情况。关于此类问题，有以下几个方法解决：&lt;/p&gt;
+&lt;h2 id=&#34;1-1-利用-Watt-Toolkit-加速访问-👍&#34;&gt;&lt;a href=&#34;#1-1-利用-Watt-Toolkit-加速访问-👍&#34; class=&#34;headerlink&#34; title=&#34;1.1 利用 Watt Toolkit 加速访问 👍&#34;&gt;&lt;/a&gt;1.1 利用 Watt Toolkit 加速访问 👍&lt;/h2&gt;&lt;p&gt;众所周知，Watt Toolkit (Steam++ 前身) 是一个非常适合新手的软件，你仅需在【网络加速】页面上勾选上 &lt;i class=&#34;fa-brands fa-github&#34;&gt;&lt;/i&gt; Github 选项，点击 [立即加速] 即可。这也是本人最为推荐的方法。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://steampp.net/&#39; title=&#39;Watt Toolkit 下载&#39;&gt;&lt;i class=&#39;fa-solid fa-download&#39;&gt;&lt;/i&gt; Watt Toolkit 下载&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-2-科学上网&#34;&gt;&lt;a href=&#34;#1-2-科学上网&#34; class=&#34;headerlink&#34; title=&#34;1.2 科学上网&#34;&gt;&lt;/a&gt;1.2 科学上网&lt;/h2&gt;&lt;p&gt;如果有经济条件，科学上网是非常不错的选择。现如今，本人最推荐的是以下两款主流的科学上网软件：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;V2rayNG&lt;/strong&gt;：一个基于 v2ray 的免费开源软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/2dust/v2rayNG/releases&#39; title=&#39;V2rayNG 下载&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; V2rayNG 下载&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Clash 小猫咪&lt;/strong&gt;：一个开源的代理软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/clashdownload/Clash&#39; title=&#39;Clash 下载&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; Clash 下载&lt;/a&gt;
+
+&lt;p&gt;如果需要追求网络稳定、快速，那么&lt;strong&gt;购买靠谱的节点或机场&lt;/strong&gt;是不错的选择。反之，如果没有经济条件，选择&lt;strong&gt;免费节点&lt;/strong&gt;也是不错的选择，但不能保证网络一直稳定、快速。&lt;/p&gt;
+&lt;p&gt;关于免费节点的获取，本文就不分享免费节点站点了，请自行使用必应或 Google 搜索。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：寻找免费节点时，请尽量不要使用百度搜索！&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2、无法从-Github-项目中克隆或推送项目&#34;&gt;&lt;a href=&#34;#2、无法从-Github-项目中克隆或推送项目&#34; class=&#34;headerlink&#34; title=&#34;2、无法从 Github 项目中克隆或推送项目&#34;&gt;&lt;/a&gt;2、无法从 Github 项目中克隆或推送项目&lt;/h1&gt;&lt;p&gt;此类问题非常常见，当你在终端下执行 &lt;code&gt;git clone &amp;lt;URL&amp;gt;&lt;/code&gt; 或者 &lt;code&gt;git push -u origin main&lt;/code&gt; 时，可能会出现不同程度的报错：&lt;/p&gt;
+&lt;h2 id=&#34;443-端口无法连接&#34;&gt;&lt;a href=&#34;#443-端口无法连接&#34; class=&#34;headerlink&#34; title=&#34;443 端口无法连接&#34;&gt;&lt;/a&gt;443 端口无法连接&lt;/h2&gt;&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;fatal: unable to access &amp;#x27;https://github.com/XXX/XXX.git/&amp;#x27;: Failed to connect to github.com port 443 after 21066 ms: Could not connect to server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;此类问题下最好是通过&lt;strong&gt;使用代理&lt;/strong&gt;，在使用此方法前，首先请确保你已安装如上提到的软件，如：Clash、V2rayNG 等。&lt;/p&gt;
+&lt;p&gt;不同的软件，对应使用的端口也不相同，具体如下：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、Clash 小猫咪&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过其默认端口 &lt;code&gt;7890&lt;/code&gt; 以直接配置如下：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:7890&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:7890&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;2、V2rayNG&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;关于此软件，需要打开软件主界面，在如下图所指示的地址就是配置代理的选项，&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/3.jpg&#34; alt=&#34;新版 UI&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note p-4 mb-4 rounded-small yellow icon-padding&#34;&gt;
+    &lt;i class=&#34;note-icon fa-solid fa-circle-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;V2rayN 的 UI 版本不同，如果使用的是旧版本的 V2rayN，则为如下图所指示：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/2.jpg&#34; alt=&#34;旧版 UI&#34;&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+
+&lt;p&gt;这里就按照 Http 所提供的端口 &lt;code&gt;10809&lt;/code&gt; 进行配置即可：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy socks5://127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy socks5://127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;Git-中的-Github-邮箱与密码&#34;&gt;&lt;a href=&#34;#Git-中的-Github-邮箱与密码&#34; class=&#34;headerlink&#34; title=&#34;Git 中的 Github 邮箱与密码&#34;&gt;&lt;/a&gt;Git 中的 Github 邮箱与密码&lt;/h2&gt;&lt;p&gt;假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Username for &amp;#x27;https://github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Password for &amp;#x27;https://username@github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;此类情况下，你需要输入&lt;strong&gt;对应的用户名和对应的 Token&lt;/strong&gt; 才能继续操作。关于 Token 的获取，请看下文。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;首先点击此链接 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/settings/tokens/new&#34; &gt;New Personal Access Token (Classic) (github.com) &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;上图中的绿色框为所需要的 Token​。&lt;/p&gt;
+
+  &lt;div class=&#34;note p-4 mb-4 rounded-small danger icon-padding&#34;&gt;
+    &lt;i class=&#34;note-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;需要注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	每次仅会显示一次完整的 Token，下一次刷新页面后将会完全隐藏，建议生成后做好备份！&lt;/p&gt;
+
+  &lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
+</content>
+        <category term="Git" />
+        <category term="新手向" />
+        <category term="Github" />
+        <category term="疑难解答" />
+        <updated>2024-09-01T04:48:45.000Z</updated>
+    </entry>
     <entry>
         <id>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</id>
         <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
@@ -75,8 +148,8 @@
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="新手向" />
-        <category term="软件安利" />
         <category term="Windows" />
+        <category term="软件安利" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -482,8 +555,8 @@
 &lt;p&gt;示例 3：定义一个函数 &lt;code&gt;install_packages()&lt;/code&gt;，要求用户输入软件包名，并安装指定的软件包。定义一个函数 &lt;code&gt;package_manager()&lt;/code&gt;，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。&lt;/p&gt;
 &lt;p&gt;注意：针对 Arch Linux 使用的 &lt;code&gt;pacman&lt;/code&gt; 的命令有所不同，需要进行单独修改。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 定义函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;install_packages&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如没有输入软件包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please enter a package name.&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如使用的是 pacman&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; == pacman ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; pacman -S &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; --noconfirm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; install &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;package_manager&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; manager &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; apt dnf pacman yum zypper; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;which&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &amp;amp;&amp;gt; /dev/null&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# 假如对应的包管理工具存在，则安装软件包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -eq 0 ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Using &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; to install &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            install_packages &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;No package manager found&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 调用函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;read&lt;/span&gt; -p &lt;span class=&#34;string&#34;&gt;&amp;quot;Please enter a package name: &amp;quot;&lt;/span&gt; package&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;package_manager &lt;span class=&#34;variable&#34;&gt;$package&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;</content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="脚本" />
         <updated>2024-06-09T05:15:33.000Z</updated>
     </entry>
@@ -830,8 +903,8 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="脚本" />
         <updated>2024-06-09T05:10:00.000Z</updated>
     </entry>
@@ -981,8 +1054,8 @@
   &lt;/div&gt;
 
 </content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="Windows" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -1895,9 +1968,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
+        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
-        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -1992,8 +2065,8 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
         <category term="新手向" />
-        <category term="软件安利" />
         <category term="Windows" />
+        <category term="软件安利" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
@@ -2121,10 +2194,10 @@ B -- False --&gt; 执行语句2
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
-        <category term="新手向" />
         <category term="Linux" />
         <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
 </feed>
