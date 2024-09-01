@@ -5,26 +5,26 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-01T04:48:45.000Z</updated>
     <category term="Linux" />
-    <category term="更新日志" />
     <category term="Git" />
+    <category term="更新日志" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="GNOME" />
-    <category term="桌面环境" />
-    <category term="新手向" />
     <category term="Waline" />
     <category term="Windows" />
+    <category term="新手向" />
     <category term="脚本" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <category term="关于博客" />
-    <category term="软件安利" />
-    <category term="Android" />
     <category term="系统体验" />
+    <category term="Android" />
     <category term="Github" />
     <category term="疑难解答" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="桌面环境" />
+    <category term="软件安利" />
+    <category term="GNOME" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>[疑难解答] 关于 Github 的问题解决方法</title>
@@ -68,7 +68,7 @@
   &lt;/div&gt;
 
 &lt;p&gt;这里就按照 Http 所提供的端口 &lt;code&gt;10809&lt;/code&gt; 进行配置即可：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy socks5://127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy socks5://127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;Git-中的-Github-邮箱与密码&#34;&gt;&lt;a href=&#34;#Git-中的-Github-邮箱与密码&#34; class=&#34;headerlink&#34; title=&#34;Git 中的 Github 邮箱与密码&#34;&gt;&lt;/a&gt;Git 中的 Github 邮箱与密码&lt;/h2&gt;&lt;p&gt;假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Username for &amp;#x27;https://github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Password for &amp;#x27;https://username@github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;

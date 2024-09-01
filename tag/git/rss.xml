@@ -8,26 +8,26 @@
         <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
         <lastBuildDate>Sun, 01 Sep 2024 12:48:45 +0800</lastBuildDate>
         <category>Linux</category>
-        <category>更新日志</category>
         <category>Git</category>
+        <category>更新日志</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>新手向</category>
         <category>Waline</category>
         <category>Windows</category>
+        <category>新手向</category>
         <category>脚本</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>关于博客</category>
-        <category>软件安利</category>
-        <category>Android</category>
         <category>系统体验</category>
+        <category>Android</category>
         <category>Github</category>
         <category>疑难解答</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>桌面环境</category>
+        <category>软件安利</category>
+        <category>GNOME</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[疑难解答] 关于 Github 的问题解决方法</title>
@@ -76,7 +76,7 @@
   &lt;/div&gt;
 
 &lt;p&gt;这里就按照 Http 所提供的端口 &lt;code&gt;10809&lt;/code&gt; 进行配置即可：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy socks5://127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy socks5://127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;Git-中的-Github-邮箱与密码&#34;&gt;&lt;a href=&#34;#Git-中的-Github-邮箱与密码&#34; class=&#34;headerlink&#34; title=&#34;Git 中的 Github 邮箱与密码&#34;&gt;&lt;/a&gt;Git 中的 Github 邮箱与密码&lt;/h2&gt;&lt;p&gt;假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Username for &amp;#x27;https://github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Password for &amp;#x27;https://username@github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
@@ -106,8 +106,8 @@
             <category>Git</category>
             <category>博客搭建</category>
             <category>Hexo</category>
-            <category>软件安利</category>
             <category>Android</category>
+            <category>软件安利</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
