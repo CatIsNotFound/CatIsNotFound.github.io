@@ -4,35 +4,34 @@
     <title>CatIsNotFound</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-01T04:48:45.000Z</updated>
+    <category term="更新日志" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="新手向" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
+    <category term="GNOME" />
     <category term="Git" />
     <category term="Github" />
+    <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="Android" />
-    <category term="Windows" />
-    <category term="更新日志" />
     <category term="Waline" />
+    <category term="Windows" />
+    <category term="新手向" />
     <category term="WSL" />
     <category term="脚本" />
     <category term="关于博客" />
+    <category term="疑难解答" />
     <category term="系统体验" />
+    <category term="Android" />
+    <category term="软件安利" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>[疑难解答] 关于 Github 的问题解决方法</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;!-- ![Github](https://askanydifference.com/wp-content/uploads/2023/06/github.jpg) --&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
 
 &lt;p&gt;Github 是一个很常用的代码托管平台，我们可以利用此平台下载或克隆到优质的代码仓库，但是在某些情况下，我们可能会遇到一些问题，下面是由本人列举的一些问题与解决方法，希望这能有所帮助😉。&lt;/p&gt;
 &lt;h1 id=&#34;1、Github-访问不了&#34;&gt;&lt;a href=&#34;#1、Github-访问不了&#34; class=&#34;headerlink&#34; title=&#34;1、Github 访问不了&#34;&gt;&lt;/a&gt;1、Github 访问不了&lt;/h1&gt;&lt;p&gt;大多数国内的用户在访问 Github 时总会遇到加载速度缓慢，甚至无法访问站点的情况。关于此类问题，有以下几个方法解决：&lt;/p&gt;
@@ -40,7 +39,7 @@
 &lt;a class=&#34;button  center large&#34; href=&#39;https://steampp.net/&#39; title=&#39;Watt Toolkit 下载&#39;&gt;&lt;i class=&#39;fa-solid fa-download&#39;&gt;&lt;/i&gt; Watt Toolkit 下载&lt;/a&gt;
 
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/1.jpg&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;1-2-科学上网&#34;&gt;&lt;a href=&#34;#1-2-科学上网&#34; class=&#34;headerlink&#34; title=&#34;1.2 科学上网&#34;&gt;&lt;/a&gt;1.2 科学上网&lt;/h2&gt;&lt;p&gt;如果有经济条件，科学上网是非常不错的选择。现如今，本人最推荐的是以下两款主流的科学上网软件：&lt;/p&gt;
+&lt;h2 id=&#34;1-2-使用代理加速访问&#34;&gt;&lt;a href=&#34;#1-2-使用代理加速访问&#34; class=&#34;headerlink&#34; title=&#34;1.2 使用代理加速访问&#34;&gt;&lt;/a&gt;1.2 使用代理加速访问&lt;/h2&gt;&lt;p&gt;如果有经济条件，使用代理服务器是非常不错的选择。现如今，本人最推荐的是以下两款主流的代理软件：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;V2rayNG&lt;/strong&gt;：一个基于 v2ray 的免费开源软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/2dust/v2rayNG/releases&#39; title=&#39;V2rayNG 下载&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; V2rayNG 下载&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;Clash 小猫咪&lt;/strong&gt;：一个开源的代理软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
@@ -50,7 +49,7 @@
 &lt;p&gt;关于免费节点的获取，本文就不分享免费节点站点了，请自行使用必应或 Google 搜索。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：寻找免费节点时，请尽量不要使用百度搜索！&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;2、无法从-Github-项目中克隆或推送项目&#34;&gt;&lt;a href=&#34;#2、无法从-Github-项目中克隆或推送项目&#34; class=&#34;headerlink&#34; title=&#34;2、无法从 Github 项目中克隆或推送项目&#34;&gt;&lt;/a&gt;2、无法从 Github 项目中克隆或推送项目&lt;/h1&gt;&lt;p&gt;此类问题非常常见，当你在终端下执行 &lt;code&gt;git clone &amp;lt;URL&amp;gt;&lt;/code&gt; 或者 &lt;code&gt;git push -u origin main&lt;/code&gt; 时，可能会出现不同程度的报错：&lt;/p&gt;
-&lt;h2 id=&#34;443-端口无法连接&#34;&gt;&lt;a href=&#34;#443-端口无法连接&#34; class=&#34;headerlink&#34; title=&#34;443 端口无法连接&#34;&gt;&lt;/a&gt;443 端口无法连接&lt;/h2&gt;&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;fatal: unable to access &amp;#x27;https://github.com/XXX/XXX.git/&amp;#x27;: Failed to connect to github.com port 443 after 21066 ms: Could not connect to server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;2-1-443-端口无法连接&#34;&gt;&lt;a href=&#34;#2-1-443-端口无法连接&#34; class=&#34;headerlink&#34; title=&#34;2.1 443 端口无法连接&#34;&gt;&lt;/a&gt;2.1 443 端口无法连接&lt;/h2&gt;&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;fatal: unable to access &amp;#x27;https://github.com/XXX/XXX.git/&amp;#x27;: Failed to connect to github.com port 443 after 21066 ms: Could not connect to server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;此类问题下最好是通过&lt;strong&gt;使用代理&lt;/strong&gt;，在使用此方法前，首先请确保你已安装如上提到的软件，如：Clash、V2rayNG 等。&lt;/p&gt;
 &lt;p&gt;不同的软件，对应使用的端口也不相同，具体如下：&lt;/p&gt;
@@ -72,7 +71,7 @@
 &lt;p&gt;这里就按照 Http 所提供的端口 &lt;code&gt;10809&lt;/code&gt; 进行配置即可：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;h2 id=&#34;Git-中的-Github-邮箱与密码&#34;&gt;&lt;a href=&#34;#Git-中的-Github-邮箱与密码&#34; class=&#34;headerlink&#34; title=&#34;Git 中的 Github 邮箱与密码&#34;&gt;&lt;/a&gt;Git 中的 Github 邮箱与密码&lt;/h2&gt;&lt;p&gt;假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：&lt;/p&gt;
+&lt;h2 id=&#34;2-2-Git-中的-Github-邮箱与密码&#34;&gt;&lt;a href=&#34;#2-2-Git-中的-Github-邮箱与密码&#34; class=&#34;headerlink&#34; title=&#34;2.2 Git 中的 Github 邮箱与密码&#34;&gt;&lt;/a&gt;2.2 Git 中的 Github 邮箱与密码&lt;/h2&gt;&lt;p&gt;假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Username for &amp;#x27;https://github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Password for &amp;#x27;https://username@github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;此类情况下，你需要输入&lt;strong&gt;对应的用户名和对应的 Token&lt;/strong&gt; 才能继续操作。关于 Token 的获取，请看下文。&lt;/p&gt;
@@ -92,9 +91,9 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="Git" />
         <category term="Github" />
+        <category term="新手向" />
         <category term="疑难解答" />
         <updated>2024-09-01T04:48:45.000Z</updated>
     </entry>
@@ -295,9 +294,9 @@
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
+        <category term="Windows" />
         <category term="新手向" />
         <category term="软件安利" />
-        <category term="Windows" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -517,8 +516,8 @@
 &lt;p&gt;对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。&lt;/p&gt;
 </content>
         <category term="新手向" />
-        <category term="Android" />
         <category term="系统体验" />
+        <category term="Android" />
         <updated>2024-06-15T08:32:59.000Z</updated>
     </entry>
     <entry>
@@ -1299,8 +1298,8 @@
 
 </content>
         <category term="Linux" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -2562,12 +2561,12 @@ B -- False --&gt; 执行语句2
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
-        <category term="软件安利" />
         <category term="Git" />
         <category term="Github" />
+        <category term="博客搭建" />
         <category term="Hexo" />
         <category term="Android" />
+        <category term="软件安利" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
     <entry>
@@ -2661,9 +2660,9 @@ B -- False --&gt; 执行语句2
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
+        <category term="Windows" />
         <category term="新手向" />
         <category term="软件安利" />
-        <category term="Windows" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
@@ -2793,8 +2792,8 @@ B -- False --&gt; 执行语句2
 </content>
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
         <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
@@ -2968,8 +2967,8 @@ B -- False --&gt; 执行语句2
 </content>
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
         <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
     <entry>
@@ -3645,9 +3644,9 @@ B -- False --&gt; 执行语句2
 &lt;h2 id=&#34;写在后面&#34;&gt;&lt;a href=&#34;#写在后面&#34; class=&#34;headerlink&#34; title=&#34;写在后面&#34;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;下一篇将继续详细【&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;配置 Hexo，以及如何使用 Redefine 主题美化博客&lt;/a&gt;】&lt;/p&gt;
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
         <category term="Git" />
         <category term="Github" />
+        <category term="博客搭建" />
         <category term="Hexo" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>

@@ -7,29 +7,29 @@
         <language>zh-CN</language>
         <pubDate>Sun, 02 Jun 2024 20:00:00 +0800</pubDate>
         <lastBuildDate>Sun, 02 Jun 2024 20:00:00 +0800</lastBuildDate>
+        <category>更新日志</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>GNOME</category>
         <category>桌面环境</category>
-        <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
-        <category>博客搭建</category>
-        <category>软件安利</category>
+        <category>GNOME</category>
         <category>Git</category>
         <category>Github</category>
+        <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Android</category>
-        <category>Windows</category>
-        <category>更新日志</category>
         <category>Waline</category>
+        <category>Windows</category>
+        <category>新手向</category>
         <category>WSL</category>
         <category>脚本</category>
         <category>关于博客</category>
+        <category>疑难解答</category>
         <category>系统体验</category>
+        <category>Android</category>
+        <category>软件安利</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>疑难解答</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
             <title>搭建个人博客（四）：如何实现评论系统</title>
@@ -206,12 +206,12 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
             <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
-            <category>博客搭建</category>
-            <category>软件安利</category>
             <category>Git</category>
             <category>Github</category>
+            <category>博客搭建</category>
             <category>Hexo</category>
             <category>Android</category>
+            <category>软件安利</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
@@ -444,9 +444,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
             <link>https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-            <category>博客搭建</category>
             <category>Git</category>
             <category>Github</category>
+            <category>博客搭建</category>
             <category>Hexo</category>
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;

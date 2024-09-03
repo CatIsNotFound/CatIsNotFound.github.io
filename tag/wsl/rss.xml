@@ -7,36 +7,36 @@
         <language>zh-CN</language>
         <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
         <lastBuildDate>Thu, 06 Jun 2024 17:03:20 +0800</lastBuildDate>
+        <category>更新日志</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>GNOME</category>
         <category>桌面环境</category>
-        <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
-        <category>博客搭建</category>
-        <category>软件安利</category>
+        <category>GNOME</category>
         <category>Git</category>
         <category>Github</category>
+        <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Android</category>
-        <category>Windows</category>
-        <category>更新日志</category>
         <category>Waline</category>
+        <category>Windows</category>
+        <category>新手向</category>
         <category>WSL</category>
         <category>脚本</category>
         <category>关于博客</category>
+        <category>疑难解答</category>
         <category>系统体验</category>
+        <category>Android</category>
+        <category>软件安利</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>疑难解答</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
-            <category>新手向</category>
             <category>Windows</category>
+            <category>新手向</category>
             <category>WSL</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
