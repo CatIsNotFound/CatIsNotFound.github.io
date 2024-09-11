@@ -5,24 +5,24 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-11T14:14:42.000Z</updated>
     <category term="Linux" />
-    <category term="Ubuntu" />
-    <category term="GNOME" />
-    <category term="桌面环境" />
-    <category term="新手向" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
+    <category term="更新日志" />
     <category term="Git" />
     <category term="Github" />
+    <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="Ubuntu" />
+    <category term="桌面环境" />
+    <category term="GNOME" />
+    <category term="软件安利" />
     <category term="Android" />
     <category term="Windows" />
-    <category term="更新日志" />
     <category term="Waline" />
-    <category term="WSL" />
     <category term="脚本" />
     <category term="关于博客" />
+    <category term="WSL" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
@@ -115,9 +115,9 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="Git" />
         <category term="Github" />
+        <category term="新手向" />
         <category term="疑难解答" />
         <updated>2024-09-01T04:48:45.000Z</updated>
     </entry>
@@ -2481,9 +2481,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
+        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -2585,11 +2585,11 @@ B -- False --&gt; 执行语句2
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
-        <category term="软件安利" />
         <category term="Git" />
         <category term="Github" />
+        <category term="博客搭建" />
         <category term="Hexo" />
+        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
@@ -2815,10 +2815,10 @@ B -- False --&gt; 执行语句2
   &lt;/div&gt;
 </content>
         <category term="Linux" />
-        <category term="Ubuntu" />
-        <category term="GNOME" />
-        <category term="桌面环境" />
         <category term="新手向" />
+        <category term="Ubuntu" />
+        <category term="桌面环境" />
+        <category term="GNOME" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
@@ -2991,8 +2991,8 @@ B -- False --&gt; 执行语句2
 </content>
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
         <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
     <entry>
@@ -3668,9 +3668,9 @@ B -- False --&gt; 执行语句2
 &lt;h2 id=&#34;写在后面&#34;&gt;&lt;a href=&#34;#写在后面&#34; class=&#34;headerlink&#34; title=&#34;写在后面&#34;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;下一篇将继续详细【&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;配置 Hexo，以及如何使用 Redefine 主题美化博客&lt;/a&gt;】&lt;/p&gt;
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
         <category term="Git" />
         <category term="Github" />
+        <category term="博客搭建" />
         <category term="Hexo" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>
