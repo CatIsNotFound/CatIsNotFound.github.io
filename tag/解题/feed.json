@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "CatIsNotFound • All posts by \"解题\" tag",
+    "description": "一个基于 Hexo 框架的个人博客网站",
+    "home_page_url": "https://CatIsNotFound.github.io",
+    "items": [
+        {
+            "id": "https://catisnotfound.github.io/2024/09/11/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/",
+            "url": "https://catisnotfound.github.io/2024/09/11/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/",
+            "title": "解题/刷题：新增分类",
+            "date_published": "2024-09-11T14:14:42.000Z",
+            "content_html": "<h1 id=\"这是什么新分类？\"><a href=\"#这是什么新分类？\" class=\"headerlink\" title=\"这是什么新分类？\"></a>这是什么新分类？</h1><p>这是最新的分类——解题&#x2F;刷题，主要用于记录刷题过程中遇到的问题与解题思路。目前使用的编程语言主要为 C 语言。题目会从网络途径获取。</p>\n<p><strong>注意：不是每个题目都会以博客的形式发布！</strong></p>\n<h1 id=\"为什么要新增一个分类？\"><a href=\"#为什么要新增一个分类？\" class=\"headerlink\" title=\"为什么要新增一个分类？\"></a>为什么要新增一个分类？</h1><p>一方面，是为了能够快速找到适合自己的题目（<strong>适合自己的难度</strong>）；另一方面，为了能够记录刷题过程中遇到的问题与解题思路，方便自己以后查阅。</p>\n<h1 id=\"题目从何而来？\"><a href=\"#题目从何而来？\" class=\"headerlink\" title=\"题目从何而来？\"></a>题目从何而来？</h1><p>主要有以下几个途径：</p>\n<ul>\n<li><p><a class=\"link\"   href=\"https://www.luogu.com.cn/\" >洛谷 <i class=\"fa-regular fa-arrow-up-right-from-square fa-sm\"></i></a>: 一个目前正在刷题的网站；</p>\n</li>\n<li><p><a class=\"link\"   href=\"https://pintia.cn/problem-sets/dashboard\" >PTA在线平台 <i class=\"fa-regular fa-arrow-up-right-from-square fa-sm\"></i></a>: 一个非常适合入门编程语言的刷题网站，非常适合从此刻入门；</p>\n</li>\n<li><p><a class=\"link\"   href=\"https://codeforces.com/\" >Codeforces <i class=\"fa-regular fa-arrow-up-right-from-square fa-sm\"></i></a>: 适合用于备战 ACM 国际大学生程序设计竞赛的刷题网站；</p>\n</li>\n</ul>\n<p>目前暂时会更新以上平台的题目。</p>\n",
+            "tags": [
+                "解题",
+                "刷题"
+            ]
+        }
+    ]
+}

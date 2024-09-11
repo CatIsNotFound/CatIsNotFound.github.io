@@ -7,36 +7,38 @@
         <language>zh-CN</language>
         <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
         <lastBuildDate>Sun, 01 Sep 2024 12:48:45 +0800</lastBuildDate>
-        <category>更新日志</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>桌面环境</category>
         <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>新手向</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>博客搭建</category>
+        <category>软件安利</category>
         <category>Git</category>
         <category>Github</category>
-        <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Waline</category>
+        <category>Android</category>
         <category>Windows</category>
-        <category>新手向</category>
+        <category>更新日志</category>
+        <category>Waline</category>
         <category>WSL</category>
         <category>脚本</category>
         <category>关于博客</category>
-        <category>疑难解答</category>
         <category>系统体验</category>
-        <category>Android</category>
-        <category>软件安利</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>疑难解答</category>
+        <category>解题</category>
+        <category>刷题</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[疑难解答] 关于 Github 的问题解决方法</title>
             <link>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
-            <category>新手向</category>
             <category>疑难解答</category>
             <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;

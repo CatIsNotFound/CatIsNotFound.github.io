@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;刷题&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-09-11T14:14:42.000Z</updated>
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="疑难解答" />
+    <category term="解题" />
+    <category term="刷题" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/09/11/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/</id>
+        <title>解题/刷题：新增分类</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/09/11/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/"/>
+        <content type="html">&lt;h1 id=&#34;这是什么新分类？&#34;&gt;&lt;a href=&#34;#这是什么新分类？&#34; class=&#34;headerlink&#34; title=&#34;这是什么新分类？&#34;&gt;&lt;/a&gt;这是什么新分类？&lt;/h1&gt;&lt;p&gt;这是最新的分类——解题&amp;#x2F;刷题，主要用于记录刷题过程中遇到的问题与解题思路。目前使用的编程语言主要为 C 语言。题目会从网络途径获取。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：不是每个题目都会以博客的形式发布！&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;为什么要新增一个分类？&#34;&gt;&lt;a href=&#34;#为什么要新增一个分类？&#34; class=&#34;headerlink&#34; title=&#34;为什么要新增一个分类？&#34;&gt;&lt;/a&gt;为什么要新增一个分类？&lt;/h1&gt;&lt;p&gt;一方面，是为了能够快速找到适合自己的题目（&lt;strong&gt;适合自己的难度&lt;/strong&gt;）；另一方面，为了能够记录刷题过程中遇到的问题与解题思路，方便自己以后查阅。&lt;/p&gt;
+&lt;h1 id=&#34;题目从何而来？&#34;&gt;&lt;a href=&#34;#题目从何而来？&#34; class=&#34;headerlink&#34; title=&#34;题目从何而来？&#34;&gt;&lt;/a&gt;题目从何而来？&lt;/h1&gt;&lt;p&gt;主要有以下几个途径：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.luogu.com.cn/&#34; &gt;洛谷 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;: 一个目前正在刷题的网站；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://pintia.cn/problem-sets/dashboard&#34; &gt;PTA在线平台 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;: 一个非常适合入门编程语言的刷题网站，非常适合从此刻入门；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://codeforces.com/&#34; &gt;Codeforces &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;: 适合用于备战 ACM 国际大学生程序设计竞赛的刷题网站；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前暂时会更新以上平台的题目。&lt;/p&gt;
+</content>
+        <category term="解题" />
+        <category term="刷题" />
+        <updated>2024-09-11T14:14:42.000Z</updated>
+    </entry>
+</feed>
