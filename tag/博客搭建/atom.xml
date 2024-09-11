@@ -5,24 +5,24 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-02T12:00:00.000Z</updated>
     <category term="Linux" />
-    <category term="更新日志" />
-    <category term="Git" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="新手向" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="Git" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="Github" />
+    <category term="更新日志" />
     <category term="软件安利" />
     <category term="Android" />
     <category term="Windows" />
     <category term="Waline" />
+    <category term="WSL" />
     <category term="脚本" />
     <category term="关于博客" />
-    <category term="WSL" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
@@ -301,9 +301,9 @@
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
         <category term="Git" />
-        <category term="Github" />
         <category term="博客搭建" />
         <category term="Hexo" />
+        <category term="Github" />
         <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
@@ -487,9 +487,9 @@
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
         <category term="Git" />
-        <category term="Github" />
         <category term="博客搭建" />
         <category term="Hexo" />
+        <category term="Github" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>
 </feed>
