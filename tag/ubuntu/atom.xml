@@ -4,31 +4,31 @@
     <title>CatIsNotFound • Posts by &#34;ubuntu&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-03T15:59:02.000Z</updated>
-    <category term="Linux" />
-    <category term="Ubuntu" />
-    <category term="桌面环境" />
-    <category term="GNOME" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Github" />
     <category term="更新日志" />
-    <category term="软件安利" />
-    <category term="Android" />
-    <category term="Windows" />
-    <category term="Waline" />
-    <category term="WSL" />
-    <category term="脚本" />
-    <category term="关于博客" />
+    <category term="Linux" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="桌面环境" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="关于博客" />
+    <category term="WSL" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="Android" />
     <category term="疑难解答" />
-    <category term="解题" />
     <category term="刷题" />
+    <category term="💡解题" />
     <entry>
         <id>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</id>
         <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
@@ -155,10 +155,10 @@
   &lt;/div&gt;
 </content>
         <category term="Linux" />
-        <category term="Ubuntu" />
         <category term="桌面环境" />
-        <category term="GNOME" />
         <category term="新手向" />
+        <category term="Ubuntu" />
+        <category term="GNOME" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
@@ -330,8 +330,8 @@
   &lt;/div&gt;
 </content>
         <category term="Linux" />
-        <category term="Ubuntu" />
         <category term="桌面环境" />
+        <category term="Ubuntu" />
         <category term="GNOME" />
         <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
