@@ -4,31 +4,33 @@
     <title>CatIsNotFound • Posts by &#34;博客搭建&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-02T12:00:00.000Z</updated>
-    <category term="更新日志" />
     <category term="Linux" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
+    <category term="更新日志" />
+    <category term="Ubuntu" />
     <category term="桌面环境" />
+    <category term="GNOME" />
     <category term="Git" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
     <category term="软件安利" />
-    <category term="Windows" />
+    <category term="Android" />
     <category term="新手向" />
-    <category term="Ubuntu" />
-    <category term="GNOME" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
-    <category term="WSL" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="Android" />
-    <category term="疑难解答" />
-    <category term="刷题" />
+    <category term="Windows" />
     <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="疑难解答" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="Waline" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</id>
         <title>搭建个人博客（四）：如何实现评论系统</title>
