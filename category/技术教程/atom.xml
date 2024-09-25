@@ -4,8 +4,8 @@
     <title>CatIsNotFound • Posts by &#34;技术教程&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-09T05:15:33.000Z</updated>
-    <category term="Linux" />
     <category term="更新日志" />
+    <category term="Linux" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
@@ -13,24 +13,24 @@
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Android" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="Windows" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
-    <category term="刷题" />
-    <category term="疑难解答" />
+    <category term="新手向" />
+    <category term="软件安利" />
+    <category term="Android" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="Waline" />
+    <category term="Windows" />
     <category term="WSL" />
+    <category term="Waline" />
     <category term="脚本" />
     <category term="关于博客" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="刷题" />
+    <category term="解题历程" />
+    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</id>
         <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
