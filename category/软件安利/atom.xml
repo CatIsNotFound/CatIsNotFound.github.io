@@ -4,7 +4,6 @@
     <title>CatIsNotFound • Posts by &#34;软件安利&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-01T07:41:00.000Z</updated>
-    <category term="更新日志" />
     <category term="Linux" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
@@ -13,23 +12,24 @@
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="更新日志" />
+    <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="软件安利" />
     <category term="Android" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
-    <category term="Windows" />
     <category term="WSL" />
     <category term="Waline" />
     <category term="脚本" />
     <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
     <category term="💡解题" />
     <category term="C/C++" />
-    <category term="刷题" />
     <category term="解题历程" />
+    <category term="刷题" />
     <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</id>
@@ -82,9 +82,9 @@
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -178,9 +178,9 @@
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
 </feed>

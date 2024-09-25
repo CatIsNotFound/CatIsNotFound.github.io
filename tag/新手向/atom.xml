@@ -4,7 +4,6 @@
     <title>CatIsNotFound • Posts by &#34;新手向&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-01T04:48:45.000Z</updated>
-    <category term="更新日志" />
     <category term="Linux" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
@@ -13,23 +12,24 @@
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="更新日志" />
+    <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="软件安利" />
     <category term="Android" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
-    <category term="Windows" />
     <category term="WSL" />
     <category term="Waline" />
     <category term="脚本" />
     <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
     <category term="💡解题" />
     <category term="C/C++" />
-    <category term="刷题" />
     <category term="解题历程" />
+    <category term="刷题" />
     <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
@@ -152,9 +152,9 @@
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -1060,8 +1060,8 @@
 
 </content>
         <category term="Linux" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -1974,9 +1974,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
+        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
-        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -2070,9 +2070,9 @@ B -- False --&gt; 执行语句2
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
