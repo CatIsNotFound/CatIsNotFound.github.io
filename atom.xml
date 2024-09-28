@@ -4,33 +4,33 @@
     <title>CatIsNotFound</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-12T11:14:09.000Z</updated>
+    <category term="更新日志" />
     <category term="Linux" />
+    <category term="Git" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Git" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="更新日志" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="软件安利" />
     <category term="Android" />
-    <category term="WSL" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
     <category term="💡解题" />
     <category term="C/C++" />
     <category term="解题历程" />
+    <category term="Windows" />
     <category term="刷题" />
+    <category term="Waline" />
     <category term="疑难解答" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/12/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</id>
         <title>[Solved] 赵神牛的游戏（解题历程）</title>
@@ -452,9 +452,9 @@
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
-        <category term="新手向" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -1456,8 +1456,8 @@
 
 </content>
         <category term="Linux" />
-        <category term="Windows" />
         <category term="新手向" />
+        <category term="Windows" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -1494,6 +1494,26 @@
 
 
 &lt;h1 id=&#34;Deta-部署评论系统&#34;&gt;&lt;a href=&#34;#Deta-部署评论系统&#34; class=&#34;headerlink&#34; title=&#34;Deta 部署评论系统&#34;&gt;&lt;/a&gt;Deta 部署评论系统&lt;/h1&gt;&lt;p&gt;本文根据 Deta 部署 Waline 评论系统，其他部署方式请参考 Waline 官方文档。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large red&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;警告&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;使用 [Deta 部署评论系统] 方法即将不再可用，具体如下正文内容：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear Deta Community,&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://deta.space/sunset&#34; &gt;We’ve made the difficult decision to move on from Space. &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Space will keep running for 45 days until October 17, 2024. We will then start removing all apps (hosted or installed), &amp;gt; horizons, websites and data.&lt;/p&gt;
+&lt;p&gt;You can continue to login until sunset. We’ve built tools to export your data (and code for developers).&lt;/p&gt;
+&lt;p&gt;More information on our website.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;为了避免因 Deta 于 2024 年 10 月 17 日服务关停，&lt;strong&gt;建议选择 Vercel 或其它方式部署评论系统！&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 &lt;h2 id=&#34;1-注册-Deta-账号&#34;&gt;&lt;a href=&#34;#1-注册-Deta-账号&#34; class=&#34;headerlink&#34; title=&#34;1. 注册 Deta 账号&#34;&gt;&lt;/a&gt;1. 注册 Deta 账号&lt;/h2&gt;&lt;a class=&#34;button  large center&#34; href=&#39;https://deta.sh/signup&#39; title=&#39;注册 Deta 账号&#39;&gt;&lt;i class=&#39;fa-solid fa-sign-in-alt&#39;&gt;&lt;/i&gt; 注册 Deta 账号&lt;/a&gt;
 
 &lt;p&gt;在部署之前，你需要先注册 Deta 账号。&lt;/p&gt;
@@ -1617,17 +1637,7 @@
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Yml&#34;&gt;&lt;figure class=&#34;iseeu highlight yml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# COMMENT &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Docs: https://redefine-docs.ohevan.com/posts/comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;config:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# Waline comment system. See https://waline.js.org/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;waline:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;emoji:&lt;/span&gt; [&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/bmoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/weibo&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/qq&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/soul-emoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/tw-emoji&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      ] &lt;span class=&#34;comment&#34;&gt;# 请以数组的方式添加 Emoji 表情的 URL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;关于 Emoji 表情的更多信息，请&lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;参考 Waline 官方文档 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
-
-  &lt;div class=&#34;note-large green&#34;&gt;
-    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
-      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;参考链接&lt;/p&gt;
-
-    &lt;/div&gt;
-    &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://redefine-docs.ohevan.com/posts/comment&#34; &gt;https://redefine-docs.ohevan.com/posts/comment &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/get-started/&#34; &gt;https://waline.js.org/guide/get-started/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/deploy/deta.html&#34; &gt;https://waline.js.org/guide/deploy/deta.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;https://waline.js.org/guide/features/emoji.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/notification.html&#34; &gt;https://waline.js.org/guide/features/notification.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
+&lt;h1 id=&#34;参考链接&#34;&gt;&lt;a href=&#34;#参考链接&#34; class=&#34;headerlink&#34; title=&#34;参考链接&#34;&gt;&lt;/a&gt;参考链接&lt;/h1&gt;&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://redefine-docs.ohevan.com/posts/comment&#34; &gt;https://redefine-docs.ohevan.com/posts/comment &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/get-started/&#34; &gt;https://waline.js.org/guide/get-started/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/deploy/deta.html&#34; &gt;https://waline.js.org/guide/deploy/deta.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;https://waline.js.org/guide/features/emoji.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/notification.html&#34; &gt;https://waline.js.org/guide/features/notification.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="博客搭建" />
         <category term="Waline" />
@@ -2615,9 +2625,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
+        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -2818,9 +2828,9 @@ B -- False --&gt; 执行语句2
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
-        <category term="新手向" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>

@@ -4,33 +4,33 @@
     <title>CatIsNotFound • Posts by &#34;博客搭建&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-02T12:00:00.000Z</updated>
+    <category term="更新日志" />
     <category term="Linux" />
+    <category term="Git" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Git" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="更新日志" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="软件安利" />
     <category term="Android" />
-    <category term="WSL" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
     <category term="💡解题" />
     <category term="C/C++" />
     <category term="解题历程" />
+    <category term="Windows" />
     <category term="刷题" />
+    <category term="Waline" />
     <category term="疑难解答" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</id>
         <title>搭建个人博客（四）：如何实现评论系统</title>
@@ -64,6 +64,26 @@
 
 
 &lt;h1 id=&#34;Deta-部署评论系统&#34;&gt;&lt;a href=&#34;#Deta-部署评论系统&#34; class=&#34;headerlink&#34; title=&#34;Deta 部署评论系统&#34;&gt;&lt;/a&gt;Deta 部署评论系统&lt;/h1&gt;&lt;p&gt;本文根据 Deta 部署 Waline 评论系统，其他部署方式请参考 Waline 官方文档。&lt;/p&gt;
+
+  &lt;div class=&#34;note-large red&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;警告&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;使用 [Deta 部署评论系统] 方法即将不再可用，具体如下正文内容：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear Deta Community,&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://deta.space/sunset&#34; &gt;We’ve made the difficult decision to move on from Space. &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Space will keep running for 45 days until October 17, 2024. We will then start removing all apps (hosted or installed), &amp;gt; horizons, websites and data.&lt;/p&gt;
+&lt;p&gt;You can continue to login until sunset. We’ve built tools to export your data (and code for developers).&lt;/p&gt;
+&lt;p&gt;More information on our website.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;为了避免因 Deta 于 2024 年 10 月 17 日服务关停，&lt;strong&gt;建议选择 Vercel 或其它方式部署评论系统！&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 &lt;h2 id=&#34;1-注册-Deta-账号&#34;&gt;&lt;a href=&#34;#1-注册-Deta-账号&#34; class=&#34;headerlink&#34; title=&#34;1. 注册 Deta 账号&#34;&gt;&lt;/a&gt;1. 注册 Deta 账号&lt;/h2&gt;&lt;a class=&#34;button  large center&#34; href=&#39;https://deta.sh/signup&#39; title=&#39;注册 Deta 账号&#39;&gt;&lt;i class=&#39;fa-solid fa-sign-in-alt&#39;&gt;&lt;/i&gt; 注册 Deta 账号&lt;/a&gt;
 
 &lt;p&gt;在部署之前，你需要先注册 Deta 账号。&lt;/p&gt;
@@ -187,17 +207,7 @@
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Yml&#34;&gt;&lt;figure class=&#34;iseeu highlight yml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# COMMENT &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Docs: https://redefine-docs.ohevan.com/posts/comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;config:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# Waline comment system. See https://waline.js.org/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;waline:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;emoji:&lt;/span&gt; [&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/bmoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/weibo&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/qq&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/soul-emoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/tw-emoji&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      ] &lt;span class=&#34;comment&#34;&gt;# 请以数组的方式添加 Emoji 表情的 URL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;关于 Emoji 表情的更多信息，请&lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;参考 Waline 官方文档 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
-
-  &lt;div class=&#34;note-large green&#34;&gt;
-    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
-      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;参考链接&lt;/p&gt;
-
-    &lt;/div&gt;
-    &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://redefine-docs.ohevan.com/posts/comment&#34; &gt;https://redefine-docs.ohevan.com/posts/comment &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/get-started/&#34; &gt;https://waline.js.org/guide/get-started/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/deploy/deta.html&#34; &gt;https://waline.js.org/guide/deploy/deta.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;https://waline.js.org/guide/features/emoji.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/notification.html&#34; &gt;https://waline.js.org/guide/features/notification.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
+&lt;h1 id=&#34;参考链接&#34;&gt;&lt;a href=&#34;#参考链接&#34; class=&#34;headerlink&#34; title=&#34;参考链接&#34;&gt;&lt;/a&gt;参考链接&lt;/h1&gt;&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://redefine-docs.ohevan.com/posts/comment&#34; &gt;https://redefine-docs.ohevan.com/posts/comment &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/get-started/&#34; &gt;https://waline.js.org/guide/get-started/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/deploy/deta.html&#34; &gt;https://waline.js.org/guide/deploy/deta.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;https://waline.js.org/guide/features/emoji.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/notification.html&#34; &gt;https://waline.js.org/guide/features/notification.html &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="博客搭建" />
         <category term="Waline" />
