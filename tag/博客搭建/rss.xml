@@ -7,33 +7,33 @@
         <language>zh-CN</language>
         <pubDate>Sat, 28 Sep 2024 13:21:01 +0800</pubDate>
         <lastBuildDate>Sat, 28 Sep 2024 13:21:01 +0800</lastBuildDate>
+        <category>Linux</category>
+        <category>更新日志</category>
+        <category>Ubuntu</category>
+        <category>桌面环境</category>
+        <category>GNOME</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
+        <category>Git</category>
+        <category>Github</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
-        <category>Linux</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
         <category>软件安利</category>
         <category>Windows</category>
-        <category>博客搭建</category>
-        <category>Git</category>
-        <category>Github</category>
-        <category>Hexo</category>
         <category>Android</category>
-        <category>更新日志</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>Waline</category>
-        <category>脚本</category>
-        <category>WSL</category>
-        <category>关于博客</category>
         <category>💡解题</category>
         <category>C/C++</category>
         <category>解题历程</category>
+        <category>Waline</category>
         <category>刷题</category>
+        <category>WSL</category>
         <category>疑难解答</category>
+        <category>脚本</category>
+        <category>关于博客</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</guid>
             <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
@@ -332,11 +332,11 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
             <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
-            <category>软件安利</category>
             <category>博客搭建</category>
+            <category>Hexo</category>
             <category>Git</category>
             <category>Github</category>
-            <category>Hexo</category>
+            <category>软件安利</category>
             <category>Android</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
@@ -571,9 +571,9 @@
             <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
             <link>https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
             <category>博客搭建</category>
+            <category>Hexo</category>
             <category>Git</category>
             <category>Github</category>
-            <category>Hexo</category>
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
 &lt;p&gt;关于个人博客，可以利用 Github Page 来搭建自己的个人博客。&lt;/p&gt;
