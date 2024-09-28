@@ -5,42 +5,151 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
-        <lastBuildDate>Thu, 12 Sep 2024 19:14:09 +0800</lastBuildDate>
-        <category>Git</category>
-        <category>更新日志</category>
+        <pubDate>Sat, 28 Sep 2024 13:21:01 +0800</pubDate>
+        <lastBuildDate>Sat, 28 Sep 2024 13:21:01 +0800</lastBuildDate>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>新手向</category>
         <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>软件安利</category>
+        <category>Windows</category>
         <category>博客搭建</category>
+        <category>Git</category>
+        <category>Github</category>
         <category>Hexo</category>
+        <category>Android</category>
+        <category>更新日志</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>Github</category>
-        <category>软件安利</category>
-        <category>Windows</category>
-        <category>新手向</category>
-        <category>Android</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>Waline</category>
         <category>脚本</category>
         <category>WSL</category>
         <category>关于博客</category>
-        <category>解题历程</category>
         <category>💡解题</category>
         <category>C/C++</category>
+        <category>解题历程</category>
         <category>刷题</category>
         <category>疑难解答</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/09/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</guid>
+            <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
+            <link>https://catisnotfound.github.io/2024/09/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</link>
+            <category>博客搭建</category>
+            <category>Waline</category>
+            <pubDate>Sat, 28 Sep 2024 13:21:01 +0800</pubDate>
+            <description><![CDATA[ 
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;阅前需知&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;本文主要针对于使用了 &lt;strong&gt;&lt;a href=&#34;/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F&#34;&gt;Deta 部署 Waline 评论系统&lt;/a&gt;&lt;/strong&gt; 或者已使用其它平台部署 Waline 评论系统的使用者而写的文章。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/waline.jpg&#34; width=&#34;75%&#34; /&gt;
+
+&lt;p&gt;如果需要将之前部署的评论系统里的数据（包括评论、用户、点击数等）完整迁移至 Vercel 所部署的 Waline 评论系统中，需要做以下操作。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;Step-1-导出数据&#34;&gt;&lt;a href=&#34;#Step-1-导出数据&#34; class=&#34;headerlink&#34; title=&#34;Step 1: 导出数据&#34;&gt;&lt;/a&gt;Step 1: 导出数据&lt;/h1&gt;&lt;p&gt;为了很好的保存之前部署的评论系统中的数据，需要先将所有的评论及其它数据保存到本地。具体方法如下：&lt;/p&gt;
+&lt;p&gt;1、打开你的个人博客网页，点击任意文章，在评论区下方点击自己的头像。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2、根据如下图所示，依次点击并选择导出。导出后，会得到一个 &lt;code&gt;waline.json&lt;/code&gt; 文件（之后导入操作需要用上）。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;Step-2-LeanCloud-操作（使用-Vercel-部署时必用）&#34;&gt;&lt;a href=&#34;#Step-2-LeanCloud-操作（使用-Vercel-部署时必用）&#34; class=&#34;headerlink&#34; title=&#34;Step 2: LeanCloud 操作（使用 Vercel 部署时必用）&#34;&gt;&lt;/a&gt;Step 2: LeanCloud 操作（使用 Vercel 部署时必用）&lt;/h1&gt;
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-lightbulb&#34;&gt;&lt;/i&gt;&lt;p&gt;提示&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;如果先前已经使用 LeanCloud 部署过评论系统，可以跳过此步。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;1、在 LeanCloud 官网&lt;a class=&#34;link&#34;   href=&#34;https://console.leancloud.app/register&#34; &gt;注册一个账号 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;，并创建一个应用。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2、备份 LeanCloud 中的环境变量&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/4.jpg&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-triangle-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;需要注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;上图中标注的三个 &lt;code&gt;AppID&lt;/code&gt;, &lt;code&gt;AppKey&lt;/code&gt;, &lt;code&gt;MasterKey&lt;/code&gt; 中的 ID 或密钥复制下来并保存成环境变量文件（以 &lt;code&gt;waline.env&lt;/code&gt; 命名为例）。具体格式如下，&lt;strong&gt;文件中的 &lt;code&gt;&amp;lt;...&amp;gt;&lt;/code&gt; 需要替换对应的内容&lt;/strong&gt;。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;LEAN_ID=&amp;lt;AppID&amp;gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;LEAN_KEY=&amp;lt;AppKey&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;LEAN_MASTER_KEY=&amp;lt;MasterKey&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;之后在部署 Vercel 时，可以一次性导入环境变量。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+&lt;h1 id=&#34;Step-3-Vercel-部署-Waline-评论系统&#34;&gt;&lt;a href=&#34;#Step-3-Vercel-部署-Waline-评论系统&#34; class=&#34;headerlink&#34; title=&#34;Step 3: Vercel 部署 Waline 评论系统&#34;&gt;&lt;/a&gt;Step 3: Vercel 部署 Waline 评论系统&lt;/h1&gt;&lt;p&gt;1、在 Vercel 上 &lt;a class=&#34;link&#34;   href=&#34;https://vercel.com/new/clone?repository-url=https://github.com/walinejs/waline/tree/main/example&#34; &gt;Deploy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; Waline 评论系统。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://vercel.com/new/clone?repository-url=https://github.com/walinejs/waline/tree/main/example&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vercel.com/button&#34; alt=&#34;deploy&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;需要注意的是，第一次打开 Vercel 需要登录，此处建议使用 Github 快捷登录即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2、根据如下图指示，输入完名字并点击 [Create] 按钮后，等待 1~2 分钟。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;当出现烟花庆祝🎉时，表示 Deploy 已经完成，点击黑色按钮 [Go to Dashboard] 即可。&lt;/p&gt;
+&lt;p&gt;3、根据如下图指示，将写好的环境变量文件 &lt;code&gt;waline.env&lt;/code&gt; 文件导入。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/6.jpg&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;4、根据下图指示，以执行 Redeploy 操作。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/8.jpg&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;5、等待 1~2 分钟即可完成 Vercel 部署。此时，你可以直接测试自己的评论系统了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/10.jpg&#34;&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-exclamation-triangle&#34;&gt;&lt;/i&gt;&lt;p&gt;注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;国内网络环境下可能&lt;strong&gt;无法直接访问&lt;/strong&gt;到 Vercel 部署的评论系统。若有需要，建议使用代理以访问。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h1 id=&#34;Step-4-测试评论系统&#34;&gt;&lt;a href=&#34;#Step-4-测试评论系统&#34; class=&#34;headerlink&#34; title=&#34;Step 4: 测试评论系统&#34;&gt;&lt;/a&gt;Step 4: 测试评论系统&lt;/h1&gt;&lt;p&gt;要想在自己的博客网站上测试自己部署的 Waline 评论系统，需要做以下几步：&lt;/p&gt;
+&lt;p&gt;1、在自己的博客项目根目录下找到主题配置文件，这里就以 Redefine 主题为例，打开 &lt;code&gt;_config.redefine.yml&lt;/code&gt; 文件，找到如下内容，并修改：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Yaml&#34;&gt;&lt;figure class=&#34;iseeu highlight yaml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;............&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;comment&#34;&gt;# Whether to enable comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;enable:&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;comment&#34;&gt;# Comment system&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;system:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;waline&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;# waline, gitalk, twikoo, giscus&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;comment&#34;&gt;# System configuration&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;config:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# Waline comment system. See https://waline.js.org/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;waline:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;serverUrl:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;在此处粘贴&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;lang:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;zh-CN&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;............&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;2、之后在终端下执行：&lt;code&gt;npx hexo s&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;3、打开自己的博客网站（本地下执行预览，只需访问 &lt;a class=&#34;link&#34;   href=&#34;http://localhost:4000/&#34; &gt;http://localhost:4000 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 即可），选择任意文章，在文章页的最下方评论区中测试。&lt;/p&gt;
+&lt;h1 id=&#34;Step-5-迁移数据&#34;&gt;&lt;a href=&#34;#Step-5-迁移数据&#34; class=&#34;headerlink&#34; title=&#34;Step 5: 迁移数据&#34;&gt;&lt;/a&gt;Step 5: 迁移数据&lt;/h1&gt;
+  &lt;div class=&#34;note p-4 mb-4 rounded-small danger icon-padding&#34;&gt;
+    &lt;i class=&#34;note-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;在进行导入操作前，请务必&lt;strong&gt;先评论和选择反应&lt;/strong&gt;！&lt;/p&gt;
+&lt;p&gt;否则&lt;strong&gt;导入时会出现弹窗报错&lt;/strong&gt;，大致内容为：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;500: Class or object doesn&amp;#x27;t exists. [404 GET https://kdxvn5cw.api.lncldglobal.com/1.1/classes/Comment]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/11.jpg&#34;&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+
+&lt;p&gt;1、在如上图中选择 [登录] 按钮；&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fa-solid fa-circle-info&#34;&gt;&lt;/i&gt; &lt;strong&gt;需要注意：请先不要登录之前使用的账号，登录其它任意账号！&lt;/strong&gt;具体问题，如下对比图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2、点击 [管理] -&amp;gt; [导入导出]，点击 [导入] 按钮。弹出窗口后，点击 [确认] 以覆盖评论数据。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3、等待 1~2 分钟，当弹出窗口并显示 &lt;code&gt;导入完成&lt;/code&gt; 时，表示数据迁移完成。&lt;/p&gt;
+&lt;p&gt;4、最后刷新博客页面，以查看博客里的评论数据是否原样迁移。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/12/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</guid>
             <title>[Solved] 赵神牛的游戏（解题历程）</title>
             <link>https://catisnotfound.github.io/2024/09/12/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</link>
-            <category>解题历程</category>
             <category>💡解题</category>
             <category>C/C++</category>
+            <category>解题历程</category>
             <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
             <description><![CDATA[ &lt;a class=&#34;button  center large&#34; href=&#34;https://www.luogu.com.cn/problem/P2006&#34; title=&#34;点击这里查看题目来源&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 点击这里查看题目来源&lt;/a&gt;
 
@@ -192,9 +301,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[疑难解答] 关于 Github 的问题解决方法</title>
             <link>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
-            <category>新手向</category>
             <category>疑难解答</category>
             <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
@@ -263,10 +372,10 @@
             <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
             <link>https://catisnotfound.github.io/2024/08/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</link>
             <category>Linux</category>
+            <category>桌面环境</category>
             <category>系统体验</category>
             <category>Pop_OS!</category>
             <category>Cosmic</category>
-            <category>桌面环境</category>
             <pubDate>Thu, 15 Aug 2024 16:57:19 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;很久没有写关于系统体验的文章了，这次体验的 Linux 发行版是 Pop_OS! 24.04，其主要默认的桌面环境为 Cosmic。&lt;/p&gt;
 &lt;p&gt;Cosmic 是 System76 团队开发的全新的桌面环境，其目的是构建一个自定义的操作界面。以下为引用：&lt;/p&gt;
@@ -408,9 +517,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
             <link>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
@@ -534,9 +643,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</guid>
             <title>系统体验：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
-            <category>系统体验</category>
             <category>新手向</category>
             <category>Android</category>
+            <category>系统体验</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
@@ -711,8 +820,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
@@ -968,8 +1077,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:10:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
@@ -1316,9 +1425,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
+            <category>新手向</category>
             <category>Linux</category>
             <category>Windows</category>
-            <category>新手向</category>
             <category>WSL</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
@@ -1479,7 +1588,8 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;评论系统是博客中不可或缺的一部分，它能够让读者与作者互动，提高博客的互动性。目前针对 Hexo 博客，Waline 评论系统是目前比较流行的评论系统。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/waline.jpg&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/waline.jpg&#34; width=&#34;75%&#34; /&gt;
+
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1516,6 +1626,8 @@
 &lt;p&gt;More information on our website.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;为了避免因 Deta 于 2024 年 10 月 17 日服务关停，&lt;strong&gt;建议选择 Vercel 或其它方式部署评论系统！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;关于 Vercel 部署 Waline 以及完整迁移评论数据，请看此文章:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/09/28/搭建个人博客（五）：完整迁移评论数据至-Vercel&#39; title=&#39;搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1723,9 +1835,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>Python 快速入门（学习笔记）</title>
             <link>https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>新手向</category>
             <category>Python</category>
             <category>学习笔记</category>
+            <category>新手向</category>
             <pubDate>Mon, 27 May 2024 12:42:38 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -2637,11 +2749,11 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
             <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
-            <category>Git</category>
-            <category>博客搭建</category>
-            <category>Hexo</category>
-            <category>Github</category>
             <category>软件安利</category>
+            <category>博客搭建</category>
+            <category>Git</category>
+            <category>Github</category>
+            <category>Hexo</category>
             <category>Android</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
@@ -2744,9 +2856,9 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
@@ -2840,11 +2952,11 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
+            <category>新手向</category>
             <category>Linux</category>
-            <category>桌面环境</category>
             <category>Ubuntu</category>
             <category>GNOME</category>
-            <category>新手向</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -2973,9 +3085,9 @@ B -- False --&gt; 执行语句2
             <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
             <link>https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
-            <category>桌面环境</category>
             <category>Ubuntu</category>
             <category>GNOME</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 26 Apr 2024 23:59:00 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -3772,10 +3884,10 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
             <link>https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-            <category>Git</category>
             <category>博客搭建</category>
-            <category>Hexo</category>
+            <category>Git</category>
             <category>Github</category>
+            <category>Hexo</category>
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
 &lt;p&gt;关于个人博客，可以利用 Github Page 来搭建自己的个人博客。&lt;/p&gt;

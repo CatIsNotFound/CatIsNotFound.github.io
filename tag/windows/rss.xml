@@ -7,40 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
         <lastBuildDate>Thu, 01 Aug 2024 15:41:00 +0800</lastBuildDate>
-        <category>Git</category>
-        <category>更新日志</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>新手向</category>
         <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>软件安利</category>
+        <category>Windows</category>
         <category>博客搭建</category>
+        <category>Git</category>
+        <category>Github</category>
         <category>Hexo</category>
+        <category>Android</category>
+        <category>更新日志</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>Github</category>
-        <category>软件安利</category>
-        <category>Windows</category>
-        <category>新手向</category>
-        <category>Android</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>Waline</category>
         <category>脚本</category>
         <category>WSL</category>
         <category>关于博客</category>
-        <category>解题历程</category>
         <category>💡解题</category>
         <category>C/C++</category>
+        <category>解题历程</category>
         <category>刷题</category>
         <category>疑难解答</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
             <link>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
@@ -94,9 +94,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
+            <category>新手向</category>
             <category>Linux</category>
             <category>Windows</category>
-            <category>新手向</category>
             <category>WSL</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
@@ -246,9 +246,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;

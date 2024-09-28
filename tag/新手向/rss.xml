@@ -7,40 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
         <lastBuildDate>Sun, 01 Sep 2024 12:48:45 +0800</lastBuildDate>
-        <category>Git</category>
-        <category>更新日志</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>新手向</category>
         <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>软件安利</category>
+        <category>Windows</category>
         <category>博客搭建</category>
+        <category>Git</category>
+        <category>Github</category>
         <category>Hexo</category>
+        <category>Android</category>
+        <category>更新日志</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>桌面环境</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>Github</category>
-        <category>软件安利</category>
-        <category>Windows</category>
-        <category>新手向</category>
-        <category>Android</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>Waline</category>
         <category>脚本</category>
         <category>WSL</category>
         <category>关于博客</category>
-        <category>解题历程</category>
         <category>💡解题</category>
         <category>C/C++</category>
+        <category>解题历程</category>
         <category>刷题</category>
         <category>疑难解答</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[疑难解答] 关于 Github 的问题解决方法</title>
             <link>https://catisnotfound.github.io/2024/09/01/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
-            <category>新手向</category>
             <category>疑难解答</category>
             <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
@@ -108,9 +108,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
             <link>https://catisnotfound.github.io/2024/08/01/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
@@ -164,9 +164,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</guid>
             <title>系统体验：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/15/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
-            <category>系统体验</category>
             <category>新手向</category>
             <category>Android</category>
+            <category>系统体验</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
@@ -315,8 +315,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
@@ -572,8 +572,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
             <link>https://catisnotfound.github.io/2024/06/09/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:10:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
@@ -920,9 +920,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
+            <category>新手向</category>
             <category>Linux</category>
             <category>Windows</category>
-            <category>新手向</category>
             <category>WSL</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
@@ -1072,9 +1072,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>Python 快速入门（学习笔记）</title>
             <link>https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>新手向</category>
             <category>Python</category>
             <category>学习笔记</category>
+            <category>新手向</category>
             <pubDate>Mon, 27 May 2024 12:42:38 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -1986,9 +1986,9 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
+            <category>新手向</category>
             <category>软件安利</category>
             <category>Windows</category>
-            <category>新手向</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
@@ -2082,11 +2082,11 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
+            <category>新手向</category>
             <category>Linux</category>
-            <category>桌面环境</category>
             <category>Ubuntu</category>
             <category>GNOME</category>
-            <category>新手向</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
