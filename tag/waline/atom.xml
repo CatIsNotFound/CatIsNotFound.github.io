@@ -6,31 +6,31 @@
     <updated>2024-09-28T05:21:01.000Z</updated>
     <category term="Linux" />
     <category term="更新日志" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Git" />
-    <category term="Github" />
+    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
     <category term="软件安利" />
-    <category term="Windows" />
     <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="脚本" />
+    <category term="WSL" />
+    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
-    <category term="Waline" />
     <category term="刷题" />
-    <category term="WSL" />
+    <category term="C/C++" />
+    <category term="💡解题" />
+    <category term="解题历程" />
     <category term="疑难解答" />
-    <category term="脚本" />
-    <category term="关于博客" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</id>
         <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>

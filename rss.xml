@@ -9,31 +9,31 @@
         <lastBuildDate>Sat, 28 Sep 2024 13:21:01 +0800</lastBuildDate>
         <category>Linux</category>
         <category>更新日志</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>Git</category>
-        <category>Github</category>
+        <category>新手向</category>
         <category>Python</category>
         <category>学习笔记</category>
-        <category>新手向</category>
         <category>软件安利</category>
-        <category>Windows</category>
         <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>脚本</category>
+        <category>WSL</category>
+        <category>关于博客</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
-        <category>Waline</category>
         <category>刷题</category>
-        <category>WSL</category>
+        <category>C/C++</category>
+        <category>💡解题</category>
+        <category>解题历程</category>
         <category>疑难解答</category>
-        <category>脚本</category>
-        <category>关于博客</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</guid>
             <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
@@ -147,8 +147,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/12/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</guid>
             <title>[Solved] 赵神牛的游戏（解题历程）</title>
             <link>https://catisnotfound.github.io/2024/09/12/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</link>
-            <category>💡解题</category>
             <category>C/C++</category>
+            <category>💡解题</category>
             <category>解题历程</category>
             <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
             <description><![CDATA[ &lt;a class=&#34;button  center large&#34; href=&#34;https://www.luogu.com.cn/problem/P2006&#34; title=&#34;点击这里查看题目来源&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 点击这里查看题目来源&lt;/a&gt;
@@ -206,8 +206,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/12/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/</guid>
             <title>[Solved] 【MC生存】插火把</title>
             <link>https://catisnotfound.github.io/2024/09/12/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/</link>
-            <category>💡解题</category>
             <category>C/C++</category>
+            <category>💡解题</category>
             <pubDate>Thu, 12 Sep 2024 17:50:02 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;解题思路&#34;&gt;&lt;a href=&#34;#解题思路&#34; class=&#34;headerlink&#34; title=&#34;解题思路&#34;&gt;&lt;/a&gt;解题思路&lt;/h1&gt;&lt;p&gt;大致思路：你需要知道地图大小、火把个数、萤石个数，并初始化地图，然后根据用户输入的火把（或萤石）坐标，并根据对应的照亮范围点亮，剩余未点亮的部分（暗区）将出现怪物。&lt;/p&gt;
 &lt;p&gt;因此有了大致的流程图：&lt;/p&gt;
@@ -229,8 +229,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/11/Unsolved-9%E6%9C%8811%E6%97%A5/</guid>
             <title>[Unsolved] 9月11日</title>
             <link>https://catisnotfound.github.io/2024/09/11/Unsolved-9%E6%9C%8811%E6%97%A5/</link>
-            <category>C/C++</category>
             <category>刷题</category>
+            <category>C/C++</category>
             <pubDate>Wed, 11 Sep 2024 22:36:03 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一、【Mc生存】插火把&#34;&gt;&lt;a href=&#34;#一、【Mc生存】插火把&#34; class=&#34;headerlink&#34; title=&#34;一、【Mc生存】插火把&#34;&gt;&lt;/a&gt;一、【Mc生存】插火把&lt;/h1&gt;&lt;a class=&#34;button  center large&#34; href=&#34;https://www.luogu.com.cn/problem/P1789&#34; title=&#34;点击这里查看题目来源&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 点击这里查看题目来源&lt;/a&gt;
 &lt;a class=&#34;button  center large&#34; href=&#34;/2024/09/12/Solved-【MC生存】插火把&#34; title=&#34;查看题解，密码240912&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 查看题解，密码240912&lt;/a&gt;
@@ -279,8 +279,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/11/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/</guid>
             <title>解题/刷题：新增分类</title>
             <link>https://catisnotfound.github.io/2024/09/11/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/</link>
-            <category>💡解题</category>
             <category>刷题</category>
+            <category>💡解题</category>
             <pubDate>Wed, 11 Sep 2024 22:14:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;这是什么新分类？&#34;&gt;&lt;a href=&#34;#这是什么新分类？&#34; class=&#34;headerlink&#34; title=&#34;这是什么新分类？&#34;&gt;&lt;/a&gt;这是什么新分类？&lt;/h1&gt;&lt;p&gt;这是最新的分类——解题&amp;#x2F;刷题，主要用于记录刷题过程中遇到的问题与解题思路。目前使用的编程语言主要为 C 语言。题目会从网络途径获取。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：不是每个题目都会以博客的形式发布！&lt;/strong&gt;&lt;/p&gt;
@@ -1835,9 +1835,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>Python 快速入门（学习笔记）</title>
             <link>https://catisnotfound.github.io/2024/05/27/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
+            <category>新手向</category>
             <category>Python</category>
             <category>学习笔记</category>
-            <category>新手向</category>
             <pubDate>Mon, 27 May 2024 12:42:38 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -2749,10 +2749,10 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
             <link>https://catisnotfound.github.io/2024/05/27/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
-            <category>博客搭建</category>
-            <category>Hexo</category>
             <category>Git</category>
             <category>Github</category>
+            <category>博客搭建</category>
+            <category>Hexo</category>
             <category>软件安利</category>
             <category>Android</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
@@ -3884,10 +3884,10 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
             <link>https://catisnotfound.github.io/2024/04/23/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-            <category>博客搭建</category>
-            <category>Hexo</category>
             <category>Git</category>
             <category>Github</category>
+            <category>博客搭建</category>
+            <category>Hexo</category>
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
 &lt;p&gt;关于个人博客，可以利用 Github Page 来搭建自己的个人博客。&lt;/p&gt;

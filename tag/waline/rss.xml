@@ -9,31 +9,31 @@
         <lastBuildDate>Sat, 28 Sep 2024 13:21:01 +0800</lastBuildDate>
         <category>Linux</category>
         <category>更新日志</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>Git</category>
-        <category>Github</category>
+        <category>新手向</category>
         <category>Python</category>
         <category>学习笔记</category>
-        <category>新手向</category>
         <category>软件安利</category>
-        <category>Windows</category>
         <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>脚本</category>
+        <category>WSL</category>
+        <category>关于博客</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
-        <category>Waline</category>
         <category>刷题</category>
-        <category>WSL</category>
+        <category>C/C++</category>
+        <category>💡解题</category>
+        <category>解题历程</category>
         <category>疑难解答</category>
-        <category>脚本</category>
-        <category>关于博客</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</guid>
             <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
