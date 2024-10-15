@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="个人博客">
+    
+    <meta name="author" content="CatIsNotFound">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+            <link rel="preconnect" href="https://s4.zstatic.net" crossorigin>
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://CatIsNotFound.github.io/2024/06/从-0-开始学-linux-bash-shell-脚本入门/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从 0 开始学 Linux：Bash Shell 脚本入门">
+<meta property="og:url" content="https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/index.html">
+<meta property="og:site_name" content="CatIsNotFound">
+<meta property="og:description" content="本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-06-09T05:15:33.000Z">
+<meta property="article:modified_time" content="2024-07-31T06:46:48.574Z">
+<meta property="article:author" content="CatIsNotFound">
+<meta property="article:tag" content="新手向">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="脚本">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/logo_R.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo_R.png">
+    <meta name="theme-color" content="#ae3535">
+    <link rel="shortcut icon" href="/images/logo_R.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            从 0 开始学 Linux：Bash Shell 脚本入门 -
+        
+        CatIsNotFound
+    </title>
+
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fonts/Chillax/chillax.css">
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/assets/build/styles.css">
+    
+
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fonts/Geist/geist.css">
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+        <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/anime.min.js"></script>
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"catisnotfound.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["许久未更","偶尔一更","定期更新","随时更新","每周必更","频繁更新","每日必更"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"atom-one-light","dark":"atom-one-dark"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":false,"recommendation":{"enable":false,"title":"自动推荐","limit":3,"mobile_limit":3,"placeholder":null,"skip_dirs":[]}},"colors":{"primary":"#ae3535","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":true,"custom_message":"Now Loading..."},"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://files.codelife.cc/wallhaven/full/28/wallhaven-2828w6.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp","dark":"https://files.codelife.cc/wallhaven/full/kx/wallhaven-kxj3l1.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp"},"title":"CatIsNotFound","subtitle":{"text":["Now Loading Some Texts..."],"hitokoto":{"enable":true,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#101010","dark":"#d4d4d4"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/CatIsNotFound","instagram":null,"zhihu":"https://www.zhihu.com/people/catisnotfound","twitter":null,"email":null,"bilibili":"https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0","fa-solid fa-rss":"/feed"},"qrs":{"weixin":null,"fa-brands fa-qq":"/images/QQ.jpg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.7.1","navbar":{"auto_hide":true,"color":{"left":"#fffe93","right":"#ae3535","transparency":45},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"博客":{"icon":"fa-solid fa-book","submenus":{"📂 最新博客":"/archives","📚 所有类别":"/categories","🔖 寻找兴趣":"/tags"}},"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"About":{"icon":"fa-solid fa-user","submenus":{"📝 关于博客":"/2024/06/11/关于我的博客","📰 RSS 订阅":"/feed","🐙 Github":"https://github.com/CatIsNotFound","❓ 知乎":"https://www.zhihu.com/people/catisnotfound","📺 哔哩哔哩":"https://space.bilibili.com/1896645285"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"right","first_item":"info","announcement":"欢迎来到我的个人博客。请在任意文章下方的评论区留言哦~","show_on_mobile":true,"links":{"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"},"壁纸":{"icon":"fa-solid fa-images","path":"/masonry"},"RSS":{"icon":"fa-solid fa-rss","path":"/feed"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":4}},"footerStart":"2024/04/23 18:00:00"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/fontawesome/regular.min.css">
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+    <style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Now Loading...
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+        var animation = anime.timeline({loop: true})
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [40,0],
+                translateZ: 0,
+                opacity: [0,1],
+                filter: ['blur(5px)', 'blur(0px)'], // Starting from blurred to unblurred
+                easing: "easeOutExpo",
+                duration: 1400,
+                delay: (el, i) => 300 + 30 * i,
+            }).add({
+                targets: '.ml13 .letter',
+                translateY: [0,-40],
+                opacity: [1,0],
+                filter: ['blur(0px)', 'blur(5px)'], // Ending from unblurred to blurred
+                easing: "easeInExpo",
+                duration: 1200,
+                delay: (el, i) => 100 + 30 * i,
+                complete: function() {
+                    hidePreloader(); // Call hidePreloader after the animation completes
+                }
+            });
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo_R.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                CatIsNotFound
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-book fa-fw"></i>
+                                    博客
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/archives">
+                                                    📂 最新博客
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories">
+                                                    📚 所有类别
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/tags">
+                                                    🔖 寻找兴趣
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/myfeed"
+                                        >
+                                    <i class="fa-solid fa-comment-dots fa-fw"></i>
+                                    动态
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/links"
+                                        >
+                                    <i class="fa-regular fa-location-arrow fa-fw"></i>
+                                    指路
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-user fa-fw"></i>
+                                    关于
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2">
+                                                    📝 关于博客
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/feed">
+                                                    📰 RSS 订阅
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">
+                                                    🐙 GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">
+                                                    ❓ 知乎
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">
+                                                    📺 哔哩哔哩
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-博客"
+                        >
+                            <span>
+                                博客
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-博客">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/archives">📂 最新博客</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories">📚 所有类别</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/tags">🔖 寻找兴趣</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/myfeed"
+                        >
+                            <span>
+                                动态
+                            </span>
+                            
+                                <i class="fa-solid fa-comment-dots fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/links"
+                        >
+                            <span>
+                                指路
+                            </span>
+                            
+                                <i class="fa-regular fa-location-arrow fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-About"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/2024/06/11/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2">📝 关于博客</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/feed">📰 RSS 订阅</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">🐙 GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">❓ 知乎</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">📺 哔哩哔哩</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>归档</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>标签</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>分类</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/masonry"
+                        >
+                            <span>壁纸</span>
+                            <i class="fa-solid fa-images fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/feed"
+                        >
+                            <span>RSS</span>
+                            <i class="fa-solid fa-rss fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">27</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">8</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">26</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="/images/2024/0606/R-C.jpg" alt="从 0 开始学 Linux：Bash Shell 脚本入门" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">从 0 开始学 Linux：Bash Shell 脚本入门</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="https://avatars.githubusercontent.com/u/162785971?v=4">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">CatIsNotFound</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">定期更新</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-06-09 13:15:33</span>
+        <span class="mobile">2024-06-09 13:15:33</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-07-31 14:46:48</span>
+            <span class="mobile">2024-07-31 14:46:48</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">技术教程</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%96%B0%E6%89%8B%E5%90%91/">新手向</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Linux/">Linux</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%84%9A%E6%9C%AC/">脚本</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <p>Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。</p>
+<p>本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：</p>
+<a class="button  large center" href='/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门' title='从 0 开始学 Linux：Bash Shell 快速入门'><i class='fa-solid fa-link'></i> 从 0 开始学 Linux：Bash Shell 快速入门</a>
+
+
+<h1 id="脚本文件"><a href="#脚本文件" class="headerlink" title="脚本文件"></a>脚本文件</h1><p>脚本文件以 <code>.sh</code> 结尾，并包含一系列命令。</p>
+<p>若要运行脚本，需为脚本文件添加可执行权限并执行，也可以通过 <code>bash</code> 命令以执行。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x &lt;脚本文件路径&gt;</span><br><span class="line">./&lt;脚本文件路径&gt;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;脚本文件路径&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h1 id="定义解释器"><a href="#定义解释器" class="headerlink" title="定义解释器"></a>定义解释器</h1><p>脚本文件第一行必须指定脚本的解释器，即 <code>/bin/bash</code>。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br></pre></td></tr></table></figure></div>
+
+<p>当然，你也可以指定其它的 Shell 解释器，如 <code>/bin/sh</code>、<code>/bin/zsh</code>等。甚至，你还可以使用 Python 解释器以执行 Python 脚本。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/python</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>注释以 <code>#</code> 开头，表示后面的内容为注释。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><p>变量是存储数据的容器，可以用来保存字符串、数字、列表等数据。</p>
+<h2 id="定义变量"><a href="#定义变量" class="headerlink" title="定义变量"></a>定义变量</h2><p>变量名只能包含字母、数字和下划线，且不能以数字开头。</p>
+<p>你可以利用 ` … ` 来包裹命令，或者用 <code>$(command)</code> 定义变量。其中的 <code>command</code> 为执行的命令，将输出结果赋值给变量。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">name=<span class="string">&quot;John&quot;</span></span><br><span class="line">age=30</span><br><span class="line"><span class="built_in">pwd</span>=`<span class="built_in">pwd</span>` <span class="comment"># 获取当前目录路径</span></span><br><span class="line">file_list=$(<span class="built_in">ls</span>) <span class="comment"># 获取当前目录下的文件列表</span></span><br><span class="line">list=<span class="string">&quot;1 4 7 10&quot;</span> <span class="comment"># 列表，用空格分隔</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出变量</span></span><br><span class="line"><span class="built_in">echo</span> name=<span class="variable">$name</span></span><br><span class="line"><span class="built_in">echo</span> age=<span class="variable">$age</span></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">pwd</span>=<span class="variable">$pwd</span></span><br><span class="line"><span class="built_in">echo</span> file_list=<span class="variable">$file_list</span></span><br><span class="line"><span class="comment"># 循环输出列表</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;List:&quot;</span></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="variable">$list</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$num</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="利用用户输入赋值"><a href="#利用用户输入赋值" class="headerlink" title="利用用户输入赋值"></a>利用用户输入赋值</h2><p>你可以利用 <code>read</code> 命令从用户输入中获取值并赋值给变量。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 利用 read 命令获取用户输入并赋值给变量</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter your name: &quot;</span> name</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Your name is <span class="variable">$name</span>.&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><code>-p</code> 参数表示提示用户输入，<code>name</code> 为用户所赋值的变量。</p>
+<h2 id="特殊变量"><a href="#特殊变量" class="headerlink" title="特殊变量"></a>特殊变量</h2><p>在 Bash 中，有一些特殊的变量，可以用来获取系统信息等，大致如下：</p>
+<ul>
+<li><code>$0</code>： 当前脚本的文件名。</li>
+<li><code>$n</code>： 传递给脚本或函数的参数。<strong>其中，<code>n</code> 需要代替为对应的参数序号。</strong></li>
+<li><code>$#</code>： 传递给脚本或函数的参数个数。</li>
+<li><code>$*</code>： 传递给脚本或函数的所有参数。</li>
+<li><code>$@</code>： 传递给脚本或函数的所有参数，每个参数以空格分隔。</li>
+<li><code>$?</code>： 上个命令的退出状态。<code>0</code> 表示命令成功，否则表示失败。</li>
+<li><code>$$</code>： 当前 Shell 进程的进程 ID。</li>
+<li><code>$!</code>： 当前 Shell 最后运行的后台进程的进程 ID。</li>
+<li><code>$HOME</code>： 当前用户的主目录。</li>
+<li><code>$PWD</code>： 当前工作目录。</li>
+<li><code>$OLDPWD</code>： 上一个工作目录。</li>
+<li><code>$UID</code>： 当前用户的 UID。</li>
+<li><code>$EUID</code>： 当前用户的有效 UID。</li>
+<li><code>$USER</code>： 当前用户的用户名。</li>
+<li><code>$GROUPS</code>： 当前用户的组列表。</li>
+<li><code>$PATH</code>： 查找命令的路径。</li>
+</ul>
+<h2 id="运算变量"><a href="#运算变量" class="headerlink" title="运算变量"></a>运算变量</h2><p>变量还可以用来执行简单的运算。</p>
+<p>你可以利用 <code>expr</code> 命令进行基本的运算，也可以利用 <code>$((...))</code> 或 <code>$[...]</code> 进行更复杂的运算。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">num1=10</span><br><span class="line">num2=5</span><br><span class="line"></span><br><span class="line"><span class="comment"># 运算</span></span><br><span class="line">result1=$((num1 + num2))</span><br><span class="line">result2=$[num1 - num2]</span><br><span class="line">result3=`<span class="built_in">expr</span> <span class="variable">$num1</span> \* <span class="variable">$num2</span>`</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出结果</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 + num2 = <span class="variable">$result1</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 - num2 = <span class="variable">$result2</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;num1 * num2 = <span class="variable">$result3</span>&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>使用 <code>*</code> 运算符时，需要使用反转义符 <code>\</code> 来转义。即 <code>\*</code> 而不是 <code>*</code>。</p>
+
+  </div>
+
+<h1 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h1><p>条件语句可以根据条件执行不同的代码块。</p>
+<h2 id="语句结构"><a href="#语句结构" class="headerlink" title="语句结构"></a>语句结构</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># if 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if-else 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if-elif-else 语句</span></span><br><span class="line"><span class="keyword">if</span> [ &lt;条件1&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块1&gt;</span><br><span class="line"><span class="keyword">elif</span> [ &lt;条件2&gt; ]; <span class="keyword">then</span></span><br><span class="line">    &lt;代码块2&gt;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    &lt;代码块3&gt;</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p>条件语句中可以使用以下运算符：</p>
+<ul>
+<li><code>-eq</code>：等于 <code>equals</code>。</li>
+<li><code>-ne</code>：不等于 <code>not equal</code>。</li>
+<li><code>-gt</code>：大于 <code>greater than</code>。</li>
+<li><code>-lt</code>：小于 <code>less than</code>。</li>
+<li><code>-ge</code>：大于等于 <code>greater than or equal</code>。</li>
+<li><code>-le</code>：小于等于 <code>less than or equal</code>。</li>
+</ul>
+<p>这里假设 <code>x</code> 和 <code>y</code> 分别等于 <code>10</code> 和 <code>20</code>，则：</p>
+<table>
+<thead>
+<tr>
+<th align="center">示例</th>
+<th align="center">结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>[ $x -eq $y ]</code></td>
+<td align="center"><code>false</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -ne $y ]</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -gt $y ]</code></td>
+<td align="center"><code>false</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -lt $y ]</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -ge $y ]</code></td>
+<td align="center"><code>false</code></td>
+</tr>
+<tr>
+<td align="center"><code>[ $x -le $y ]</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+</tbody></table>
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>这里的 <code>-eq</code> 等运算符前后都需要有空格。且 <code>-eq</code> 等运算符只能用于数字比较，<strong>不能用于字符串比较</strong>。</p>
+
+  </div>
+
+<h2 id="字符串比较"><a href="#字符串比较" class="headerlink" title="字符串比较"></a>字符串比较</h2><p>条件语句也可以比较字符串。通常，字符串比较使用 <code>==</code> 、 <code>!=</code>、<code>=~</code> 等运算符。</p>
+<ul>
+<li><p>字符串相等关系可以使用 <code>==</code> 运算符，表示任意字符串相等关系。</p>
+</li>
+<li><p>字符串包含关系可以使用 <code>=~</code> 或者 <code>*string*</code> 运算符，表示任意字符串包含关系。</p>
+</li>
+<li><p>字符串不匹配关系可以使用 <code>!=</code> 运算符，表示任意字符串不匹配关系。</p>
+</li>
+<li><p>字符串不包含关系可以使用 <code>!=</code> 运算符和 <code>*</code> 运算符，表示任意字符串不包含关系。</p>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">str1=<span class="string">&quot;helloworld&quot;</span></span><br><span class="line">str2=<span class="string">&quot;owo&quot;</span></span><br><span class="line">str3=<span class="string">&quot;world&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串比较</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$str1</span> == <span class="variable">$str3</span> ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str1 is equal to str2&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串包含</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> =~ <span class="variable">$str2</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str2 is included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> == *<span class="variable">$str3</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str3 is included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串不匹配</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str1</span> != <span class="variable">$str2</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str1 is not equal to str2&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串不包含</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$str2</span> != *<span class="variable">$str3</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;str2 is not included in str1&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>条件语句还可以使用逻辑运算符 <code>&amp;&amp;</code> 和 <code>||</code> 来组合多个条件。</p>
+<ul>
+<li><code>&amp;&amp;</code>： 逻辑与 <code>and</code>。</li>
+<li><code>||</code>： 逻辑或 <code>or</code>。</li>
+</ul>
+<p>示例：判断 <code>var1</code> 和 <code>var2</code> 是否都在 <code>vars</code> 列表中， <code>var2</code> 或 <code>var3</code> 两者之中是否有一元素在 <code>vars</code> 列表中。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量</span></span><br><span class="line">var1=<span class="string">&quot;apple&quot;</span></span><br><span class="line">var2=<span class="string">&quot;banana&quot;</span></span><br><span class="line">var3=<span class="string">&quot;orange&quot;</span></span><br><span class="line">vars=<span class="string">&quot;[apple banana cherry]&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$var1</span> =~ <span class="variable">$vars</span> ]] &amp;&amp; [[ <span class="variable">$var2</span> == *<span class="variable">$vars</span>* ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;var1 and var2 are in vars&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$var2</span> =~ <span class="variable">$vars</span> ]] || [[ <span class="variable">$var3</span> =~ <span class="variable">$vars</span> ]]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;var2 or var3 are in vars&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p>示例 1：判断 <code>~/apt/history.log</code> 文件是否存在，若不存在，则复制 <code>/var/log/apt/history.log</code> 文件到 <code>~/apt/history.log</code> 中。</p>
+<p>注意：你还需要判断 <code>~/apt</code> 目录是否存在。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 判断 ~/apt 目录是否存在</span></span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/apt ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">mkdir</span> ~/apt</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 判断 ~/apt/history.log 文件是否存在</span></span><br><span class="line"><span class="keyword">if</span> [ ! -f ~/apt/history.log ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">cp</span> /var/log/apt/history.log ~/apt/history.log</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 2：判断当前用户是否为 <code>root</code>，若不是，则提示用户输入密码。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># 判断当前用户是否为 root</span></span><br><span class="line"><span class="comment"># 方法一：利用 $UID 变量，若等于 0，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$UID</span> -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 方法二：利用 $EUID 变量，若等于 0，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$EUID</span> -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 方法三：利用 $USER 变量，若等于 root，则当前用户为 root</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$USER</span> != <span class="string">&quot;root&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Please use root account to run this script.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;You are root.&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></div>
+
+
+<h1 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h1><p>循环语句可以重复执行代码块。</p>
+<h2 id="语句结构-1"><a href="#语句结构-1" class="headerlink" title="语句结构"></a>语句结构</h2><p>在使用 <code>for</code> 循环时，变量的取值可以是列表、范围或命令的输出结果。</p>
+<p>其中的 <code>&lt;命令&gt;</code> 可以用反引号 ` … ` 包裹，也可以用 <code>$()</code> 包裹。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> &lt;值1&gt; &lt;值2&gt;...; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> &#123;&lt;值1&gt;..&lt;值2&gt;&#125;; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> &lt;变量&gt; <span class="keyword">in</span> [`&lt;命令&gt;` || $(&lt;命令&gt;)]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># while 循环</span></span><br><span class="line"><span class="keyword">while</span> [ &lt;条件&gt; ]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># until 循环</span></span><br><span class="line"><span class="keyword">until</span> [ &lt;条件&gt; ]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="循环控制"><a href="#循环控制" class="headerlink" title="循环控制"></a>循环控制</h2><p>循环语句还可以控制循环的次数。</p>
+<ul>
+<li><code>break</code>： 跳出循环。</li>
+<li><code>continue</code>： 跳过当前循环，继续下一次循环。</li>
+</ul>
+<h2 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h2><p>示例 1：打印 1 到 10 的偶数。当遇到 6 时，跳出循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> &#123;1..10&#125;; <span class="keyword">do</span></span><br><span class="line">    <span class="keyword">if</span> [ $((i%<span class="number">2</span>)) -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$i</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p>若你对 Java 熟悉，你可能还会发现 <code>for</code> 循环的语法类似于 Java 中的 <code>for</code> 循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for 循环</span></span><br><span class="line"><span class="keyword">for</span> ((i=<span class="number">1</span>; i&lt;<span class="number">10</span>; i+=<span class="number">2</span>)); <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$i</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 2：打印 1 到 10 的所有偶数，当遇到 6 时，跳过当前循环，继续下一次循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># while 循环</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">while</span> [ <span class="variable">$count</span> -lt 10 ]; <span class="keyword">do</span></span><br><span class="line">    count=$((count+<span class="number">2</span>))</span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">continue</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$count</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 3：打印 1 到 10 的所有偶数，当遇到 4 时，跳过当前循环；当遇到 6 时，跳出循环。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># until 循环</span></span><br><span class="line">count=0</span><br><span class="line"><span class="keyword">until</span> [ <span class="variable">$count</span> -eq 10 ]; <span class="keyword">do</span></span><br><span class="line">    count=$((count+<span class="number">1</span>))</span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 4 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">continue</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$count</span> -eq 6 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">break</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$count</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="选择语句"><a href="#选择语句" class="headerlink" title="选择语句"></a>选择语句</h1><p>选择语句可以根据用户的选择执行不同的代码块。</p>
+<h2 id="语句结构-2"><a href="#语句结构-2" class="headerlink" title="语句结构"></a>语句结构</h2><p><code>select</code> 语句可以让用户从列表、范围、命令输出结果中选择一个值，并赋值给变量。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="keyword">select</span> &lt;变量&gt; <span class="keyword">in</span> [&lt;值1&gt; &lt;值2&gt;... || &#123;&lt;值1&gt;..&lt;值2&gt;&#125;]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> &lt;变量&gt; <span class="keyword">in</span> [`<span class="built_in">command</span>` || $(<span class="built_in">command</span>)]; <span class="keyword">do</span></span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+<p><code>case</code> 语句也可以根据变量的值执行不同的代码块。使用 <code>case</code> 语句时需要注意以下几点：</p>
+<ol>
+<li><code>case</code> 语句必须与 <code>esac</code> 配对使用。</li>
+<li><code>case</code> 语句中的 <code>in</code> 必须与 <code>)</code> 配对使用。</li>
+<li><code>case</code> 语句中的 <code>;;</code> 必须与 <code>)</code> 配对使用。</li>
+<li><code>case</code> 语句中的 <code>*)</code> 表示其他情况。</li>
+</ol>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">case</span> &lt;变量&gt; <span class="keyword">in</span></span><br><span class="line">    &lt;值1&gt;)</span><br><span class="line">        &lt;代码块1&gt;</span><br><span class="line">        ;;</span><br><span class="line">    &lt;值2&gt;)</span><br><span class="line">        &lt;代码块2&gt;</span><br><span class="line">        ;;</span><br><span class="line">    *)</span><br><span class="line">        &lt;代码块3&gt;</span><br><span class="line">        ;;</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small red icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>选择语句只能在交互式 Shell 中使用，如 <code>bash</code> 或 <code>zsh</code>。</p>
+<p>注意每条命令的结尾必须以 <code>;;</code> 结尾，表示选择结束。</p>
+
+  </div>
+
+<h2 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h2><p>示例 1：提示用户输入数字，并根据输入执行不同的操作。</p>
+<ul>
+<li>输入 <code>start</code> 时启动服务器；</li>
+<li>输入 <code>stop</code> 时停止服务器；</li>
+<li>输入 <code>restart</code> 时重启服务器；</li>
+<li>输入 <code>exit</code> 时退出脚本。</li>
+<li>输入其他内容时显示错误信息。</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please select an option:&quot;</span></span><br><span class="line"><span class="comment"># select 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please select an option:&quot;</span></span><br><span class="line"><span class="keyword">select</span> option <span class="keyword">in</span> start stop restart <span class="built_in">exit</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="keyword">case</span> <span class="variable">$option</span> <span class="keyword">in</span></span><br><span class="line">        start)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Starting the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        stop)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Stopping the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        restart)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Restarting the server...&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">        <span class="built_in">exit</span>)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Exit...&quot;</span></span><br><span class="line">            <span class="built_in">break</span></span><br><span class="line">            ;;</span><br><span class="line">        *)</span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Invalid option&quot;</span></span><br><span class="line">            ;;</span><br><span class="line">    <span class="keyword">esac</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong></p>
+<p>当执行 <code>select</code> 语句时，脚本会持续循环，直到用户输入 <code>exit</code> 选项才能退出循环。</p>
+<p>若用户需要直接退出程序，按下 <code>Ctrl+C</code> 即可。</p>
+
+  </div>
+
+<p>示例 2：提示用户输入数字，并根据输入执行不同的操作。</p>
+<ol>
+<li>输入 <code>1</code> 时，打印 <code>You entered 1</code>。</li>
+<li>输入 <code>2</code> 时，打印 <code>You entered 2</code>。</li>
+<li>输入 <code>3</code> 时，打印 <code>You entered 3</code>。</li>
+<li>输入其他值时，打印 <code>Invalid input</code>。</li>
+</ol>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># case 语句</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Please enter a number:&quot;</span></span><br><span class="line"><span class="built_in">read</span> num</span><br><span class="line"><span class="keyword">case</span> <span class="variable">$num</span> <span class="keyword">in</span></span><br><span class="line">    1)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 1&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    2)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 2&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    3)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;You entered 3&quot;</span></span><br><span class="line">        ;;</span><br><span class="line">    *)</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;Invalid input&quot;</span></span><br><span class="line">        ;;</span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><p>函数可以将一系列命令封装成一个整体，可以重复使用。</p>
+<h2 id="语法结构"><a href="#语法结构" class="headerlink" title="语法结构"></a>语法结构</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> &lt;函数名 1&gt;() &#123;</span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line">    <span class="built_in">return</span> &lt;返回值&gt;  <span class="comment"># 可选语句，但必须在函数体最后一行</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 或者可以省略 function 关键字</span></span><br><span class="line">&lt;函数名 2&gt;() &#123;</span><br><span class="line">    &lt;代码块&gt;</span><br><span class="line">    &lt;函数名 1&gt; [&lt;参数&gt;]   <span class="comment"># 可以调用其他函数</span></span><br><span class="line">    <span class="built_in">return</span> &lt;返回值&gt;    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line">&lt;函数名&gt;</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-exclamation-triangle"></i><p><strong>注意：</strong> 关于函数定义，你需要注意以下几点：</p>
+<ol>
+<li><p>函数定义时，函数名只能包含字母、数字和下划线，且不能以数字开头。</p>
+</li>
+<li><p>函数调用时，函数名后面可以加上参数，参数之间用空格分隔。</p>
+</li>
+<li><p>函数定义时，函数体必须用花括号 <code>{}</code> 包裹。</p>
+</li>
+<li><p>函数定义时，函数体内的变量作用域为局部变量，函数执行结束后，局部变量会被销毁。</p>
+</li>
+<li><p>函数可以返回值，使用 <code>return</code> 语句。但必须将 <code>return</code> 语句置于函数体最后一行。否则，函数将立即结束。</p>
+</li>
+<li><p>函数可以调用其他函数。</p>
+</li>
+</ol>
+
+  </div>
+
+<h2 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h2><p>示例 1：定义一个函数 <code>hello()</code>，要求用户输入姓名，并打印 <code>Hello, &lt;姓名&gt;!</code>。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">hello</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello, <span class="variable">$1</span>!&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter your name: &quot;</span> name</span><br><span class="line">hello <span class="variable">$name</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 2：定义一个函数 <code>times()</code> 和一个函数 <code>sum()</code>，要求用户输入一个数字，并打印 <code>The sum is &lt;结果&gt;</code>。</p>
+<p>参考输入输出：</p>
+<ul>
+<li><code>3</code> –&gt; <code>The sum is 6</code></li>
+<li><code>5</code> –&gt; <code>The sum is 120</code></li>
+<li><code>10</code> –&gt; <code>The sum is 3628800</code></li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="function"><span class="title">times</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> $(( <span class="variable">$1</span> * <span class="variable">$2</span> )) <span class="comment"># 即 $total * $i，计算阶乘</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">sum</span></span>() &#123;</span><br><span class="line">    total=1</span><br><span class="line">    <span class="keyword">for</span> (( i=<span class="number">1</span>; i&lt;=<span class="variable">$1</span>; i++ )); <span class="keyword">do</span></span><br><span class="line">        total=`<span class="built_in">times</span> <span class="variable">$total</span> <span class="variable">$i</span>`  <span class="comment"># 调用 times 函数，计算阶乘</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;The sum is <span class="variable">$total</span>&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter a number: &quot;</span> num</span><br><span class="line"><span class="built_in">sum</span> <span class="variable">$num</span></span><br></pre></td></tr></table></figure></div>
+
+<p>示例 3：定义一个函数 <code>install_packages()</code>，要求用户输入软件包名，并安装指定的软件包。定义一个函数 <code>package_manager()</code>，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。</p>
+<p>注意：针对 Arch Linux 使用的 <code>pacman</code> 的命令有所不同，需要进行单独修改。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义函数</span></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">install_packages</span></span>() &#123;</span><br><span class="line">    <span class="comment"># 假如没有输入软件包名</span></span><br><span class="line">    <span class="keyword">if</span> [ ! <span class="variable">$2</span> ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;Error: Please enter a package name.&quot;</span></span><br><span class="line">        <span class="built_in">return</span> 1</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">    <span class="comment"># 假如使用的是 pacman</span></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$1</span> == pacman ];<span class="keyword">then</span></span><br><span class="line">        <span class="built_in">sudo</span> pacman -S <span class="variable">$2</span> --noconfirm</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">sudo</span> <span class="variable">$1</span> install <span class="variable">$2</span> -y</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">package_manager</span></span>() &#123;</span><br><span class="line">    <span class="keyword">for</span> manager <span class="keyword">in</span> apt dnf pacman yum zypper; <span class="keyword">do</span></span><br><span class="line">        <span class="built_in">which</span> <span class="variable">$manager</span> &amp;&gt; /dev/null</span><br><span class="line">        <span class="comment"># 假如对应的包管理工具存在，则安装软件包</span></span><br><span class="line">        <span class="keyword">if</span> [ $? -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">            <span class="built_in">echo</span> <span class="string">&quot;Using <span class="variable">$manager</span> to install <span class="variable">$1</span>&quot;</span></span><br><span class="line">            install_packages <span class="variable">$manager</span> <span class="variable">$1</span> </span><br><span class="line">            <span class="built_in">return</span> 0</span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;No package manager found&quot;</span></span><br><span class="line">    <span class="built_in">return</span> 1</span><br><span class="line">&#125;</span><br><span class="line">    </span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">&quot;Please enter a package name: &quot;</span> package</span><br><span class="line">package_manager <span class="variable">$package</span></span><br></pre></td></tr></table></figure></div>
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> 从 0 开始学 Linux：Bash Shell 脚本入门</li>
+        <li><strong>作者:</strong> CatIsNotFound</li>
+        <li><strong>创建于
+                :</strong> 2024-06-09 13:15:33</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-07-31 14:46:48
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://catisnotfound.github.io/2024/06/从-0-开始学-Linux-Bash-Shell-脚本入门/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E6%96%B0%E6%89%8B%E5%90%91/">#新手向</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Linux/">#Linux</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E8%84%9A%E6%9C%AC/">#脚本</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/06/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">关于我的博客</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">从 0 开始学 Linux：Bash Shell 快速入门</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'blog-waline-navy.vercel.app',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: true,
+          requiredMeta: ['nick', 'mail'],
+          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/bmoji','https://unpkg.com/@waline/emojis@1.2.0/tieba','https://unpkg.com/@waline/emojis@1.2.0/weibo','https://unpkg.com/@waline/emojis@1.2.0/qq','https://unpkg.com/@waline/emojis@1.2.0/soul-emoji','https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">目录</div>
+        <div class="page-title">从 0 开始学 Linux：Bash Shell 脚本入门</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6"><span class="nav-text">脚本文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%E8%A7%A3%E9%87%8A%E5%99%A8"><span class="nav-text">定义解释器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-text">注释</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%98%E9%87%8F"><span class="nav-text">变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8F"><span class="nav-text">定义变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A9%E7%94%A8%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E8%B5%8B%E5%80%BC"><span class="nav-text">利用用户输入赋值</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E6%AE%8A%E5%8F%98%E9%87%8F"><span class="nav-text">特殊变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%90%E7%AE%97%E5%8F%98%E9%87%8F"><span class="nav-text">运算变量</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5"><span class="nav-text">条件语句</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E5%8F%A5%E7%BB%93%E6%9E%84"><span class="nav-text">语句结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-text">运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%AF%94%E8%BE%83"><span class="nav-text">字符串比较</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B"><span class="nav-text">示例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="nav-text">循环语句</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E5%8F%A5%E7%BB%93%E6%9E%84-1"><span class="nav-text">语句结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E6%8E%A7%E5%88%B6"><span class="nav-text">循环控制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B-1"><span class="nav-text">示例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5"><span class="nav-text">选择语句</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E5%8F%A5%E7%BB%93%E6%9E%84-2"><span class="nav-text">语句结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B-2"><span class="nav-text">示例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%87%BD%E6%95%B0"><span class="nav-text">函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95%E7%BB%93%E6%9E%84"><span class="nav-text">语法结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B-3"><span class="nav-text">示例</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">CatIsNotFound</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 26 篇文章
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.1</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="站内搜索您需要的内容..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/Swup.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/SwupSlideTheme.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/SwupProgressPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/SwupScrollPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/SwupPreloadPlugin.min.js"></script>
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/imageViewer.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/utils.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/main.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/layouts/navbarShrink.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/scrollTopBottom.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/lightDarkSwitch.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/layouts/categoryList.js"></script>
+
+
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/localSearch.js"></script>
+
+
+
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/codeBlock.js"></script>
+
+
+
+
+
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/runtime.js"></script>
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/odometer.min.js"></script>
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/assets/odometer-theme-minimal.css">
+
+
+
+  <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/Typed.min.js"></script>
+  <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/plugins/typed.js"></script>
+
+
+
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/mermaid.min.js"></script>
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/plugins/mermaid.js"></script>
+
+
+
+    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/libs/minimasonry.min.js"></script>
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/plugins/masonry.js"></script>
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/tools/tocToggle.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/layouts/toc.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.1/js/plugins/tabs.js"></script>
+    
+</div>
+
+
+<script>
+    if(!('loading' in HTMLImageElement.prototype)) {
+        const srp = document.createElement('script');
+        srp.src = 'https://cdn.jsdelivr.net/npm/lazysizes@5.1.1/lazysizes.min.js';
+        document.body.append(srp);
+        const imgs = document.querySelectorAll('img');
+        imgs.forEach(el => {
+            el.setAttribute('data-src', el.getAttribute('src'));
+            el.removeAttribute('src');
+            el.classList.add('lazyload');
+    })
+}
+</script></body>
+</html>

@@ -4,37 +4,37 @@
     <title>CatIsNotFound • Posts by &#34;gnome&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-03T15:59:02.000Z</updated>
-    <category term="Linux" />
-    <category term="更新日志" />
-    <category term="Git" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Ubuntu" />
-    <category term="桌面环境" />
-    <category term="GNOME" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
     <category term="软件安利" />
-    <category term="Android" />
     <category term="Windows" />
+    <category term="博客搭建" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="更新日志" />
     <category term="Waline" />
     <category term="脚本" />
     <category term="WSL" />
     <category term="关于博客" />
+    <category term="💡解题" />
+    <category term="C/C++" />
     <category term="系统体验" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="疑难解答" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="刷题" />
-    <category term="C/C++" />
-    <category term="💡解题" />
-    <category term="解题历程" />
-    <category term="疑难解答" />
     <entry>
-        <id>https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</id>
+        <id>https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</id>
         <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
-        <link rel="alternate" href="https://catisnotfound.github.io/2024/05/03/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/"/>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/"/>
         <content type="html">
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -156,17 +156,17 @@
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
+        <category term="新手向" />
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="桌面环境" />
         <category term="GNOME" />
-        <category term="新手向" />
+        <category term="桌面环境" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
-        <id>https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</id>
+        <id>https://catisnotfound.github.io/2024/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</id>
         <title>从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</title>
-        <link rel="alternate" href="https://catisnotfound.github.io/2024/04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/"/>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/"/>
         <content type="html">
   &lt;div class=&#34;note-large regular&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -333,8 +333,8 @@
 </content>
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="桌面环境" />
         <category term="GNOME" />
+        <category term="桌面环境" />
         <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
 </feed>
