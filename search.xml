@@ -918,350 +918,6 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
-    <url>/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
-
-    </div>
-    <div class="notel-content">
-      <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
-<p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
-<p><img loading="lazy" src="/images/2024/0426/13.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="桌面布局"><a href="#桌面布局" class="headerlink" title="桌面布局"></a>桌面布局</h1><p>请根据如下图的标识一一对应。</p>
-<p><img loading="lazy" src="/images/2024/0503/1.jpg" alt="桌面"></p>
-<p><img loading="lazy" src="/images/2024/0503/3.jpg" alt="快捷菜单"></p>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p><strong>Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。</strong></p>
-<p>这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 <code>gnome-shell</code> 插件来实现）</p>
-<p><img loading="lazy" src="/images/2024/0503/2.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="桌面小技巧"><a href="#桌面小技巧" class="headerlink" title="桌面小技巧"></a>桌面小技巧</h1><p>以下是关于 GNOME 相关操作的小技巧，不包含所有。</p>
-<h2 id="有用的键盘快捷键"><a href="#有用的键盘快捷键" class="headerlink" title="有用的键盘快捷键"></a>有用的键盘快捷键</h2><blockquote>
-<p>以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。</p>
-</blockquote>
-<p><kbd><i class="fa-brands fa-windows"></i></kbd> 类</p>
-<ul>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd>：打开【概览】界面</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd>：打开【所有程序】界面</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>S</kbd>：打开右上角处的【快捷菜单】</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>D</kbd>：快速显示桌面，再按一次复原</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>L</kbd>：锁定屏幕</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Tab</kbd>：切换应用</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd>：将窗口移动到左半屏，再按一次将恢复原位</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd>：将窗口移动到右半屏，再按一次将恢复原位</li>
-<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>↑</kbd>：将窗口最大化，再按一次将取消最大化</li>
-</ul>
-<p><kbd>Alt</kbd> 类：</p>
-<ul>
-<li><kbd>Alt</kbd> + <kbd>Tab</kbd>：切换应用</li>
-<li><kbd>Alt</kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
-<li><kbd>Alt</kbd> + <kbd>Esc</kbd>：切换应用（比前两个快捷键更好用👍）</li>
-<li><kbd>Alt</kbd> + <kbd>F2</kbd>：打开【运行】命令，快速运行一个命令</li>
-</ul>
-<p><kbd>Ctrl</kbd> 类：</p>
-<ul>
-<li><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：快速打开终端</li>
-</ul>
-<h2 id="Dock-栏（快捷栏）"><a href="#Dock-栏（快捷栏）" class="headerlink" title="Dock 栏（快捷栏）"></a>Dock 栏（快捷栏）</h2><h3 id="利用快捷键启动应用"><a href="#利用快捷键启动应用" class="headerlink" title="利用快捷键启动应用"></a>利用快捷键启动应用</h3><p>Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands fa-windows"></i></kbd> + 数字键以打开快捷栏中的所对应的应用程序。</p>
-<p>每个应用图标左上角的以 ①②③ 表示对应的序号。<br>例如：打开 Firefox 浏览器，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>1</kbd> 即可</p>
-<p>若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：</p>
-<p><img loading="lazy" src="/images/2024/0503/4.jpg" alt="在快捷栏中启动应用"></p>
-<h3 id="固定应用到-Dock-栏（快捷栏）"><a href="#固定应用到-Dock-栏（快捷栏）" class="headerlink" title="固定应用到 Dock 栏（快捷栏）"></a>固定应用到 Dock 栏（快捷栏）</h3><h4 id="1-通过右键菜单"><a href="#1-通过右键菜单" class="headerlink" title="1. 通过右键菜单"></a>1. 通过右键菜单</h4><p>你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此</p>
-<p><img loading="lazy" src="/images/2024/0503/5.jpg" alt="固定应用"></p>
-<h4 id="2-通过鼠标拖拽"><a href="#2-通过鼠标拖拽" class="headerlink" title="2. 通过鼠标拖拽"></a>2. 通过鼠标拖拽</h4><p>你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；</p>
-<p>反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 </p>
-<p><img loading="lazy" src="/images/2024/0503/1.gif" alt="固定应用程序"></p>
-<p><img loading="lazy" src="/images/2024/0503/2.gif" alt="取消固定应用程序"></p>
-<hr>
-<p>在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；</p>
-<p>反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）</p>
-<p><img loading="lazy" src="/images/2024/0503/3.gif" alt="在桌面中固定"></p>
-<p><img loading="lazy" src="/images/2024/0503/4.gif" alt="在桌面中解除固定"></p>
-<h2 id="窗口（Window）"><a href="#窗口（Window）" class="headerlink" title="窗口（Window）"></a>窗口（Window）</h2><h3 id="左右分屏"><a href="#左右分屏" class="headerlink" title="左右分屏"></a>左右分屏</h3><p>与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。</p>
-<p><img loading="lazy" src="/images/2024/0503/6.gif" alt="左右分屏"></p>
-
-  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
-    <i class="note-icon fa-solid fa-solid fa-solid fa-lightbulb"></i><p>提示：</p>
-<p>在此处操作中，可以使用快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd> 或 <kbd> <i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd> 来使窗口快速移动到左半屏或右半屏</p>
-
-  </div>
-
-<h3 id="上下分屏"><a href="#上下分屏" class="headerlink" title="上下分屏"></a>上下分屏</h3><p>与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o</p>
-<p><img loading="lazy" src="/images/2024/0503/7.gif" alt="上下分屏"></p>
-<h2 id="工作区（Workspace）"><a href="#工作区（Workspace）" class="headerlink" title="工作区（Workspace）"></a>工作区（Workspace）</h2><p>工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：</p>
-<h3 id="创建、删除、切换工作区"><a href="#创建、删除、切换工作区" class="headerlink" title="创建、删除、切换工作区"></a>创建、删除、切换工作区</h3><p>不多描述，直接看图</p>
-<p><img loading="lazy" src="/images/2024/0503/long1.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long2.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long3.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long4.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long5.gif"></p>
-<p><img loading="lazy" src="/images/2024/0503/long6.gif"></p>
-<p>下列为比较好用的快捷键（即上图中所提及到的操作）：</p>
-<ul>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↑</kbd>：上一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↓</kbd>：下一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：第一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：最后一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：将窗口移动到上一个工作区</p>
-</li>
-<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：将窗口移动到下一个工作区</p>
-</li>
-</ul>
-<hr>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
-
-    </div>
-    <div class="notel-content">
-      <p>以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)</p>
-
-    </div>
-  </div>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>新手向</tag>
-        <tag>Linux</tag>
-        <tag>Ubuntu</tag>
-        <tag>GNOME</tag>
-        <tag>桌面环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
-    <url>/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。</p>
-<p>如果你有更好的推荐，请在评论区补充。O(∩_∩)O</p>
-<p><img loading="lazy" src="https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg"></p>
-<h1 id="一、桌面美化类"><a href="#一、桌面美化类" class="headerlink" title="一、桌面美化类"></a>一、桌面美化类</h1><h2 id="TranslucentTB（任务栏）👍👍👍"><a href="#TranslucentTB（任务栏）👍👍👍" class="headerlink" title="TranslucentTB（任务栏）👍👍👍"></a>TranslucentTB（任务栏）👍👍👍</h2><p><img loading="lazy" src="/images/2024/0527/0.jpg"><br><img loading="lazy" src="/images/2024/0527/00.jpg"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-
-
-<p>一款轻量级的软件，几乎属于必装软件。可对任务栏透明、亚克力等视觉效果👍👍👍</p>
-<h2 id="Auto-Dark-Mode（自动调整暗色模式）👍👍👍"><a href="#Auto-Dark-Mode（自动调整暗色模式）👍👍👍" class="headerlink" title="Auto Dark Mode（自动调整暗色模式）👍👍👍"></a>Auto Dark Mode（自动调整暗色模式）👍👍👍</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&format=source"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jk4hzbvf435?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款非常值得使用的软件，通过指定的时间切换对应的亮色&#x2F;暗色模式。👍👍👍</p>
-<h2 id="Lively-Wallpaper（动态壁纸）"><a href="#Lively-Wallpaper（动态壁纸）" class="headerlink" title="Lively Wallpaper（动态壁纸）"></a>Lively Wallpaper（动态壁纸）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.38919.14416131676512756.6ed76f61-1d00-444e-8c7c-640e40e40e3d.3bf574c6-f408-40da-9060-0377b05d257c"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9ntm2qc6qws7?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>免费的开源应用程序，用于将 GIF、视频和网页设置桌面壁纸。但自带提供的资源不够多</p>
-<h2 id="巨应动态壁纸"><a href="#巨应动态壁纸" class="headerlink" title="巨应动态壁纸"></a>巨应动态壁纸</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.20026.13793298936975350.10fb033b-b789-4d87-bfa8-965afde0d284.da708f65-8dac-477a-bdcb-59ee1358157a"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9mv8gk87mz05?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>由巨应君出品的动态壁纸软件，简单易用，所以壁纸资源均为用户上传，比前者资源更加丰富。</p>
-<h2 id="WinDynamicDesktop-（自动切换壁纸）👍👍"><a href="#WinDynamicDesktop-（自动切换壁纸）👍👍" class="headerlink" title="WinDynamicDesktop （自动切换壁纸）👍👍"></a>WinDynamicDesktop （自动切换壁纸）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47353.13691964960975352.ebdd26a5-1288-4929-b507-92856eba093a.dce52c89-0296-4895-b862-7ef90e1d9bac"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nm8n7dq3z5f?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款根据时间来自动切换壁纸的软件，与 MacOS 中的动态壁纸功能类似。默认提供 MacOS 壁纸，也可直接从网络上下载并导入壁纸。</p>
-<h2 id="Sucrose-Wallpaper-Engine（动态壁纸引擎）"><a href="#Sucrose-Wallpaper-Engine（动态壁纸引擎）" class="headerlink" title="Sucrose Wallpaper Engine（动态壁纸引擎）"></a>Sucrose Wallpaper Engine（动态壁纸引擎）</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxgsJrvE99hQLXyECGkXk1ArGSmJ9VYqZaSddBVWke49Uw0s2OB.Z.LllE5x.JOg8UU7odjgeuSs9sxjQ2HHs0oM-&format=source"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jgpbhtjglcq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>Sucrose Wallpaper Engine是一款多功能的壁纸引擎，提供广泛的交互式主题，可为您的桌面带来活力。您可以根据个人喜好选择轻盈或暗黑主题。您可以简单或详细地创建自己的壁纸，并支持多屏幕和各种屏幕分辨率，以实现无缝体验。</p>
-<h2 id="backiee-壁纸工作室10"><a href="#backiee-壁纸工作室10" class="headerlink" title="backiee - 壁纸工作室10"></a>backiee - 壁纸工作室10</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9wzdncrfhzcd?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>探索超高分辨率壁纸，4K 到 8K 图像应有尽有。若不在意频繁出现的广告，这款静态壁纸软件值得入手！</p>
-<h2 id="桌面组件"><a href="#桌面组件" class="headerlink" title="桌面组件"></a>桌面组件</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.203.13783862513978754.e48e7830-cb9f-44f1-850a-3cf107117cbf.88ff213d-319c-42b9-87d9-8e1634cadd17?h=307"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9npr50gq7t53?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款功能强大，符合人体工程学的桌面组件系统。</p>
-<h1 id="二、实用工具类"><a href="#二、实用工具类" class="headerlink" title="二、实用工具类"></a>二、实用工具类</h1><h2 id="Snipaste-截图-贴图👍👍👍"><a href="#Snipaste-截图-贴图👍👍👍" class="headerlink" title="Snipaste 截图+贴图👍👍👍"></a>Snipaste 截图+贴图👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.52183.14503356220976813.c71d2a10-0aa3-486c-9563-2c363aaaab5e.88eb25a1-8c0b-4f52-be14-837fbf6e693b"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p1wxpkb68kx?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款比自带 Windows 截图功能还要强大的截图软件。</p>
-<h2 id="EarTrumpet-（音量合成器）👍👍👍"><a href="#EarTrumpet-（音量合成器）👍👍👍" class="headerlink" title="EarTrumpet （音量合成器）👍👍👍"></a>EarTrumpet （音量合成器）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.32184.13510798887629242.2534466d-5a17-4046-b21f-d818fb1bb888.d3e8f732-d5f3-48a1-87ae-77348809ef01"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nblggh516xp?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款功能非常强大的音量控制软件，可完全替代自带的旧版功能。</p>
-<h2 id="QuickLook-（快速预览）👍👍👍"><a href="#QuickLook-（快速预览）👍👍👍" class="headerlink" title="QuickLook （快速预览）👍👍👍"></a>QuickLook （快速预览）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.24917.14405803611253731.3006f567-a4f6-43d6-95fb-9033fa42fa41.f44af418-f702-4c8f-9bd8-6481698d8260?h=307"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nv4bs3l1h4s?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>通过按下空格键实现快速预览文件内容，与 Mac OS 类似的功能。</p>
-<h2 id="取色器"><a href="#取色器" class="headerlink" title="取色器"></a>取色器</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.28518.13874519524713515.e81c53d8-5dc9-4aa9-81be-5370864aac85.42a23282-72c9-472b-8213-e823ff2a7dc2?h=307"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9mzhgfqsrfhg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款体积小的实用工具，可通过鼠标选取屏幕中像素的颜色。</p>
-<h2 id="OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）"><a href="#OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）" class="headerlink" title="OP Auto Clicker - Auto Tap （鼠标自动连点器）"></a>OP Auto Clicker - Auto Tap （鼠标自动连点器）</h2><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36769.14022871430809239.289e742c-4a63-488b-8496-9eafa59010ed.42c74928-eede-4388-84b0-e0e52a90564b" alt="Microsoft Store" width="300" height="300">
-
-<a class="button  center large" href='https://apps.microsoft.com/detail/9n621dm2lvhq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款非常简单的鼠标自动连点器，通过按下 <kbd>F6</kbd> 键以开始&#x2F;结束连点。</p>
-<h2 id="Watt-Toolkit-（原-Steam-）"><a href="#Watt-Toolkit-（原-Steam-）" class="headerlink" title="Watt Toolkit （原 Steam++）"></a>Watt Toolkit （原 Steam++）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36037.13810726275500961.77b6bcf3-2a5a-49a2-bcb2-f0dbcd3eb149.21194914-d668-4a27-89ac-5165adc054d5"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9mtcfhs560ng?cid=msft_web_appsforwindows_chart&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款加速软件，支持 Steam、Github、Origin、Uplay、Spotify 等。目前除了部分库存游戏需要付费才能加速以外其它均免费。</p>
-<h2 id="AnLink-安联"><a href="#AnLink-安联" class="headerlink" title="AnLink 安联"></a>AnLink 安联</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.60495.13732987357972043.471d409a-fc09-491b-bc4d-284ddefa32c9.5ae47afa-2f8f-43a6-b04e-cc13d5a09453"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9np036014jtg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款支持使用 Android 手机连接到电脑的软件，免费无广告且非常实用，可安全便捷的在电脑上操作手机，支持使用 Wifi、USB连接。</p>
-<h2 id="Record-Screen（免费录制屏幕）"><a href="#Record-Screen（免费录制屏幕）" class="headerlink" title="Record Screen（免费录制屏幕）"></a>Record Screen（免费录制屏幕）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51561.14475286183431872.6e7283f6-df1b-481d-917a-85c0700f71e1.82811191-10f6-4fec-8db3-e8281ced72f2"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nzjndtlvkr1?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一个简单好用的录制软件，选择单个窗口或整个屏幕以进行录制，支持输出麦克风与电脑声音，并且录制后可以制作简单的剪辑。</p>
-<h1 id="三、文本编辑类"><a href="#三、文本编辑类" class="headerlink" title="三、文本编辑类"></a>三、文本编辑类</h1><h2 id="SiYuan（思源笔记）"><a href="#SiYuan（思源笔记）" class="headerlink" title="SiYuan（思源笔记）"></a>SiYuan（思源笔记）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51519.14604083850023553.a6b78602-3991-40fc-92ca-635e30a12e6d.55fe85e9-39a0-46f3-a499-f959f48fdb56"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p7hpmxp73k4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款隐私优先的个人知识管理系统，支持完全离线使用，同时也支持端到端加密同步。</p>
-<h2 id="Notepads-App（记事本）"><a href="#Notepads-App（记事本）" class="headerlink" title="Notepads App（记事本）"></a>Notepads App（记事本）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.30725.13628411695448126.ee0d4432-102e-40c0-a23c-510a46b12c35.3736f54b-cb73-4dfb-aecc-81baa5e20a48"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9nhl4nsc67wm?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款极具现代感，轻便简介的文本编辑器，适合替代自带记事本的软件。</p>
-<h2 id="桌面记事本👍👍👍"><a href="#桌面记事本👍👍👍" class="headerlink" title="桌面记事本👍👍👍"></a>桌面记事本👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.707.14633965969460790.b0e27bde-c02b-4340-8b49-a6cf379c291c.56cc83d0-d80f-496c-9097-77d4cf9eb30a"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p5rdm9t8cr3?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>一款简洁且方便的桌面记事本，<strong>推荐将此软件固定到任务栏中以实现随时编辑</strong>。支持自动保存文本、语音识别、语音朗读、文本翻译、云文件上传下载同步等功能。支持预览 TXT、RTF、Markdown 等格式的文本。</p>
-<h2 id="Typedown-（Markdown-编辑器）👍👍"><a href="#Typedown-（Markdown-编辑器）👍👍" class="headerlink" title="Typedown （Markdown 编辑器）👍👍"></a>Typedown （Markdown 编辑器）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.50023.14085711452561131.8a83a482-2459-4160-8545-ae595b2298f8.c6b1fd0d-c400-4a4c-ad69-003ef694d413"></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p8tcw4h2hb4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
-
-<p>使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。</p>
-]]></content>
-      <categories>
-        <category>软件安利</category>
-      </categories>
-      <tags>
-        <tag>新手向</tag>
-        <tag>软件安利</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
-    <url>/2024/05/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。</p>
-<h1 id="备份博客存档"><a href="#备份博客存档" class="headerlink" title="备份博客存档"></a>备份博客存档</h1><p>首先，在利用手机之前，首先就是在自己的电脑上<strong>备份自己的博客</strong>。</p>
-<p>（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）</p>
-<p>在此，请直接在 Github 上<a href="https://github.com/new"><strong>新建一个公共仓库（Public Repository）</strong></a>，将自己的博客上传到 Github 中。</p>
-<p>假设：你已在 Github 上新建了一个名为 <code>blogBackup</code> 的公共仓库，那么你应当在命令行下，执行如下命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;20210412&quot;</span> <span class="comment"># 此处建议填写上传时间，如：20210412&quot;</span></span><br><span class="line">git remote add origin https://github.com/yourname/blogBackup.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>注意：请将第4行中的 Git 仓库地址替换自己实际的 Github 仓库地址。</strong></p>
-<p>当你完成以上这些命令后，请回到你新建好的 Github 公共仓库以确认上传成功。</p>
-<h1 id="WeBlog"><a href="#WeBlog" class="headerlink" title="WeBlog"></a>WeBlog</h1>
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>软件简介</p>
-
-    </div>
-    <div class="notel-content">
-      <p>WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。</p>
-<p><img loading="lazy" src="/images/2024/0527/banner.jpg"></p>
-
-    </div>
-  </div>
-
-<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p><strong>注意：WeBlog 目前仅支持 Android 系统</strong></p>
-<p>请直接点击下面链接，选择 Arm64 架构的安装包下载并安装。</p>
-<a class="button  center large" href='https://github.com/PangBaiWork/WeBlog/releases' title='点击这里下载软件'><i class='fa-brands fa-github'></i> 点击这里下载软件</a>
-
-<h2 id="导入博客"><a href="#导入博客" class="headerlink" title="导入博客"></a>导入博客</h2><p>打开 WeBlog 后，<strong>请务必安装 Hexo 框架及外部存储权限申请</strong>。</p>
-<p>在主页上点击 <code>拉取项目</code>，输入你的 Github 上的仓库地址。</p>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>这里并非填你的 Github Pages 仓库地址，而是填写你的<strong>备份博客的仓库地址</strong> （类似于：<code>https://github.com/yourname/blogBackup.git</code>，否则无法识别到 Hexo 博客项目。</p>
-
-    </div>
-  </div>
-
-<p>接着，在选择文件夹时，<strong>请一定要新建一个空的文件夹</strong>，否则无法拉取 Github 仓库项目。</p>
-<p><img loading="lazy" src="/images/2024/0527/1.jpg"></p>
-<p>最后，请耐心等待加载，一般需要几分钟才能完成克隆。</p>
-<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p><strong>1. 定位你的博客文章目录</strong></p>
-<p>在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 <code>source</code> → <code>_posts</code> 文件夹，在此目录下，你将看到你之前所写的所有博客文章。</p>
-<p><strong>2. 新建博客文章</strong></p>
-<p>点击右下角的 <code>+</code> 号，按照提示填写文章基本信息即可完成创建。</p>
-<p>或者直接在终端下执行如下命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img loading="lazy" src="/images/2024/0527/2.jpg"></p>
-<p><strong>3. 尽情写作吧！</strong></p>
-<h2 id="好用的脚本文件"><a href="#好用的脚本文件" class="headerlink" title="好用的脚本文件"></a>好用的脚本文件</h2><p>为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 <code>.scripts</code> 文件夹下添加 Shell 脚本，以便减少不必要的操作。</p>
-<ul>
-<li><code>update-to-github-pages.sh</code>：用于将本地博客更新到 Github Pages 仓库。</li>
-</ul>
-<p>注意：这将会一次性将博客的所有文件上传到 Github Pages 仓库，并覆盖掉原有的文件。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><code>backup-your-blog.sh</code>：用于将博客存档上传到 Github 仓库中。</li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment"># 这将会自动生成当前日期作为备份的备注。如：20210412</span></span><br><span class="line">git commit -m <span class="string">&quot;<span class="subst">$(date +%Y%m%d)</span>&quot;</span> </span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><code>setup-your-git.sh</code>：用于配置 Git 全局参数。<strong>（建议导入博客后，执行一次）</strong></li>
-</ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@gmail.com&quot;</span></span><br><span class="line">git config --global --add safe.directory <span class="variable">$PWD</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这里需要修改 <code>yourname</code> 和 <code>youremail@gmail.com</code> 为你的实际用户名和邮箱。</p>
-<p>当你不确定是否配置成功时，可以尝试在终端下单独执行如下命令查看参数是否生效。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name</span><br><span class="line">git config --global user.email</span><br><span class="line">git config --global safe.directory</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><div class="tabs" id="tab-question_answer"><ul class="nav-tabs"><li class="tab active"><a class="#question_answer-1">💡 常见问题一</a></li><li class="tab"><a class="#question_answer-2">💡 常见问题二</a></li><li class="tab"><a class="#question_answer-3">💡 常见问题三</a></li></ul><div class="tab-content"><div class="tab-pane active" id="question_answer-1"><p>Q：为什么拉取项目后，打开自建的文件夹仍是空的？</p>
-<p>A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。</p>
-<p><img loading="lazy" src="/images/2024/0513/6.jpg"></p>
-<p><img loading="lazy" src="/images/2024/0513/7.jpg"></p></div><div class="tab-pane" id="question_answer-2"><p>Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？</p>
-<p>即使用【实时预览】时，直接出现 <code>The LivePreview is ended.</code> 提示。</p>
-<p>A：在解决此问题前，请先查看你的项目源目录下是否有 <code>node_modules</code> 目录。一般情况下，当你备份博客存档时，<code>node_modules</code> 目录往往不会被上传到 Github 仓库。</p>
-<p>请直接从底部界面向上滑动，打开终端，并执行 <code>npm install</code> 命令，等待安装依赖即可。</p></div><div class="tab-pane" id="question_answer-3"><p>Q：执行 <code>npm install</code> 命令时报错？</p>
-<p>A：在确认此问题前，请按照如下方式排查：</p>
-<p>方法一：检查你的项目源目录是否有 <code>package.json</code> 文件。</p>
-<p>若你的项目源目录下没有 <code>package.json</code> 文件，则需要执行 <code>npm init</code> 命令，并按照提示输入相关信息。</p>
-<p>方法二：将 <code>node_modules</code> 目录复制到你的项目目录中。</p>
-<p>为了方便操作，这里作者建议：直接在你的项目源目录下新建一个 <code>install.sh</code> 文件并编辑，</p>
-<p>这里假设你的 Github 仓库名为 <code>blogBackup</code>，<strong>注意替换自己的 Github 仓库地址。</strong></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># install.sh</span></span><br><span class="line"><span class="comment"># 一次性执行脚本</span></span><br><span class="line"><span class="comment"># 可直接克隆博客存档到本地项目中</span></span><br><span class="line"><span class="comment"># 用于解决无法安装 Hexo 依赖问题</span></span><br><span class="line">BLOG_DIR=<span class="variable">$PWD</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/blogBackup ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在克隆……&quot;</span></span><br><span class="line">    git <span class="built_in">clone</span> https://github.com/yourname/blogBackup.git <span class="comment"># 此处需替换为你的 Github 仓库地址</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在合并……&quot;</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line">    git pull</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 无法拉取仓库！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [  ! -d node_modules ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在安装依赖....&quot;</span></span><br><span class="line">    npm install</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 下载/安装依赖失败！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cp</span> -r node_modules <span class="variable">$BLOG_DIR</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 注意：</span></span><br><span class="line"><span class="comment"># 其中的第10行的git仓库地址替换为实际的仓库地址。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若需要调试于终端之上，请执行：</span></span><br><span class="line"><span class="comment"># bash ./.scripts/install.sh</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img loading="lazy" src="/images/2024/0527/3.jpg"></p>
-<p>完成脚本执行后，执行 <code>npm list</code> 查看是否包含 <code>hexo</code> 依赖即可。</p></div></div></div>
-
-<hr>
-<p>以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>软件安利</tag>
-        <tag>博客搭建</tag>
-        <tag>Git</tag>
-        <tag>Github</tag>
-        <tag>Hexo</tag>
-        <tag>Android</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux Shell 基础命令速查表（非完整版）</title>
     <url>/2024/04/Linux-Shell-%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
     <content><![CDATA[
@@ -1691,6 +1347,141 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
+    <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
+    <url>/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>前言</p>
+
+    </div>
+    <div class="notel-content">
+      <p>在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：<a href="../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/">从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统</a>。</p>
+<p>本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。</p>
+<p><img loading="lazy" src="/images/2024/0426/13.jpg"></p>
+
+    </div>
+  </div>
+
+<h1 id="桌面布局"><a href="#桌面布局" class="headerlink" title="桌面布局"></a>桌面布局</h1><p>请根据如下图的标识一一对应。</p>
+<p><img loading="lazy" src="/images/2024/0503/1.jpg" alt="桌面"></p>
+<p><img loading="lazy" src="/images/2024/0503/3.jpg" alt="快捷菜单"></p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p><strong>Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。</strong></p>
+<p>这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 <code>gnome-shell</code> 插件来实现）</p>
+<p><img loading="lazy" src="/images/2024/0503/2.jpg"></p>
+
+    </div>
+  </div>
+
+<h1 id="桌面小技巧"><a href="#桌面小技巧" class="headerlink" title="桌面小技巧"></a>桌面小技巧</h1><p>以下是关于 GNOME 相关操作的小技巧，不包含所有。</p>
+<h2 id="有用的键盘快捷键"><a href="#有用的键盘快捷键" class="headerlink" title="有用的键盘快捷键"></a>有用的键盘快捷键</h2><blockquote>
+<p>以下罗列了在 GNOME 桌面下部分有用的默认快捷键。后续部分还会继续补充。</p>
+</blockquote>
+<p><kbd><i class="fa-brands fa-windows"></i></kbd> 类</p>
+<ul>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd>：打开【概览】界面</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd>：打开【所有程序】界面</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>S</kbd>：打开右上角处的【快捷菜单】</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>D</kbd>：快速显示桌面，再按一次复原</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>L</kbd>：锁定屏幕</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Tab</kbd>：切换应用</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd>：将窗口移动到左半屏，再按一次将恢复原位</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd>：将窗口移动到右半屏，再按一次将恢复原位</li>
+<li><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>↑</kbd>：将窗口最大化，再按一次将取消最大化</li>
+</ul>
+<p><kbd>Alt</kbd> 类：</p>
+<ul>
+<li><kbd>Alt</kbd> + <kbd>Tab</kbd>：切换应用</li>
+<li><kbd>Alt</kbd> + <kbd>`</kbd>：切换窗口（配合上一个快捷键操作）</li>
+<li><kbd>Alt</kbd> + <kbd>Esc</kbd>：切换应用（比前两个快捷键更好用👍）</li>
+<li><kbd>Alt</kbd> + <kbd>F2</kbd>：打开【运行】命令，快速运行一个命令</li>
+</ul>
+<p><kbd>Ctrl</kbd> 类：</p>
+<ul>
+<li><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：快速打开终端</li>
+</ul>
+<h2 id="Dock-栏（快捷栏）"><a href="#Dock-栏（快捷栏）" class="headerlink" title="Dock 栏（快捷栏）"></a>Dock 栏（快捷栏）</h2><h3 id="利用快捷键启动应用"><a href="#利用快捷键启动应用" class="headerlink" title="利用快捷键启动应用"></a>利用快捷键启动应用</h3><p>Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands fa-windows"></i></kbd> + 数字键以打开快捷栏中的所对应的应用程序。</p>
+<p>每个应用图标左上角的以 ①②③ 表示对应的序号。<br>例如：打开 Firefox 浏览器，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>1</kbd> 即可</p>
+<p>若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：</p>
+<p><img loading="lazy" src="/images/2024/0503/4.jpg" alt="在快捷栏中启动应用"></p>
+<h3 id="固定应用到-Dock-栏（快捷栏）"><a href="#固定应用到-Dock-栏（快捷栏）" class="headerlink" title="固定应用到 Dock 栏（快捷栏）"></a>固定应用到 Dock 栏（快捷栏）</h3><h4 id="1-通过右键菜单"><a href="#1-通过右键菜单" class="headerlink" title="1. 通过右键菜单"></a>1. 通过右键菜单</h4><p>你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此</p>
+<p><img loading="lazy" src="/images/2024/0503/5.jpg" alt="固定应用"></p>
+<h4 id="2-通过鼠标拖拽"><a href="#2-通过鼠标拖拽" class="headerlink" title="2. 通过鼠标拖拽"></a>2. 通过鼠标拖拽</h4><p>你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；</p>
+<p>反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 </p>
+<p><img loading="lazy" src="/images/2024/0503/1.gif" alt="固定应用程序"></p>
+<p><img loading="lazy" src="/images/2024/0503/2.gif" alt="取消固定应用程序"></p>
+<hr>
+<p>在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；</p>
+<p>反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）</p>
+<p><img loading="lazy" src="/images/2024/0503/3.gif" alt="在桌面中固定"></p>
+<p><img loading="lazy" src="/images/2024/0503/4.gif" alt="在桌面中解除固定"></p>
+<h2 id="窗口（Window）"><a href="#窗口（Window）" class="headerlink" title="窗口（Window）"></a>窗口（Window）</h2><h3 id="左右分屏"><a href="#左右分屏" class="headerlink" title="左右分屏"></a>左右分屏</h3><p>与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。</p>
+<p><img loading="lazy" src="/images/2024/0503/6.gif" alt="左右分屏"></p>
+
+  <div class="note p-4 mb-4 rounded-small yellow icon-padding">
+    <i class="note-icon fa-solid fa-solid fa-solid fa-lightbulb"></i><p>提示：</p>
+<p>在此处操作中，可以使用快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>←</kbd> 或 <kbd> <i class="fa-brands fa-windows"></i></kbd> + <kbd>→</kbd> 来使窗口快速移动到左半屏或右半屏</p>
+
+  </div>
+
+<h3 id="上下分屏"><a href="#上下分屏" class="headerlink" title="上下分屏"></a>上下分屏</h3><p>与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o</p>
+<p><img loading="lazy" src="/images/2024/0503/7.gif" alt="上下分屏"></p>
+<h2 id="工作区（Workspace）"><a href="#工作区（Workspace）" class="headerlink" title="工作区（Workspace）"></a>工作区（Workspace）</h2><p>工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：</p>
+<h3 id="创建、删除、切换工作区"><a href="#创建、删除、切换工作区" class="headerlink" title="创建、删除、切换工作区"></a>创建、删除、切换工作区</h3><p>不多描述，直接看图</p>
+<p><img loading="lazy" src="/images/2024/0503/long1.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long2.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long3.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long4.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long5.gif"></p>
+<p><img loading="lazy" src="/images/2024/0503/long6.gif"></p>
+<p>下列为比较好用的快捷键（即上图中所提及到的操作）：</p>
+<ul>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↑</kbd>：上一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>↓</kbd>：下一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：第一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：最后一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>←</kbd>：将窗口移动到上一个工作区</p>
+</li>
+<li><p><kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>→</kbd>：将窗口移动到下一个工作区</p>
+</li>
+</ul>
+<hr>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+
+    </div>
+    <div class="notel-content">
+      <p>以上是关于所有在 GNOME 桌面上比较有用的技巧。当然，如果还有比较实用的技巧，请在评论区补充 (*^_^*)</p>
+
+    </div>
+  </div>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>新手向</tag>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+        <tag>GNOME</tag>
+        <tag>桌面环境</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布</title>
     <url>/2024/04/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/</url>
     <content><![CDATA[<h2 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h2><p>这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)</p>
@@ -1728,59 +1519,212 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
-    <url>/2024/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，</p>
-<p>关于个人博客，可以利用 Github Page 来搭建自己的个人博客。</p>
-<p><img loading="lazy" src="/images/2024/042301/5.jpg"></p>
-<h2 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h2><h3 id="1-注册-Github"><a href="#1-注册-Github" class="headerlink" title="1. 注册 Github"></a>1. 注册 Github</h3><p>既然提到了 Github Page ，首先就得<a class="link"   href="https://github.com/signup" >注册自己的 Github 账号 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
-<blockquote>
-<p>如果 Github 界面打不开，建议使用 <a class="link"   href="https://steampp.net/" >Watt Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>😃，（不仅可以加速 Steam、橙子、育碧，同时也能加速 Github）</p>
-<p>注册一个 Github 账号只需要邮箱，并且进行邮箱验证就能快速完成！ヾ(•ω•&#96;)o</p>
-</blockquote>
-<h3 id="2-创建自己的仓库"><a href="#2-创建自己的仓库" class="headerlink" title="2. 创建自己的仓库"></a>2. 创建自己的仓库</h3><p>注册之后，接下来就要创建自己的仓库，<br>首先点击【New】，如下图：</p>
-<p><img loading="lazy" src="/images/2024/042301/1.jpg" alt="1.jpg"></p>
-<p>其次，创建仓库时，<strong>仓库名一定要以<code>[你的用户名].github.io</code> 为名，</strong> 默认下都会将其设为 Github Page，之后就能完成创建。具体看下图：</p>
-<p><img loading="lazy" src="/images/2024/042301/2.jpg" alt="2.jpg"></p>
-<p>创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）<br><img loading="lazy" src="/images/2024/042301/2.1.jpg" alt="2.1.jpg"></p>
-<h3 id="3-选择框架"><a href="#3-选择框架" class="headerlink" title="3. 选择框架"></a>3. 选择框架</h3><p>当你做完上述步骤后，你可以直接访问自己的网页，如下图：<br><img loading="lazy" src="/images/2024/042301/3.0.jpg" alt="3.0.jpg"></p>
-<p>接下来就是选择网页框架。这里就以 Hexo 为例，这里就只需要用到 <code>git</code> 和 <code>node.js</code> 两个依赖软件了，关于详细地安装步骤，请直接参照<a class="link"   href="https://hexo.io/zh-cn/docs/" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>即可</p>
-<p>完成后的搭建，大概是长这样的：</p>
-<p><img loading="lazy" src="/images/2024/042301/3.jpg" alt="3.jpg"></p>
-<p>当然，这还不够，你还可以给它更换一个更好看的主题，这里作者就用了 Redefine 主题，大概就是长这样的(*^_^*)：</p>
-<p><img loading="lazy" src="/images/2024/042301/4.jpg" alt="4.jpg"></p>
+    <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
+    <url>/2024/05/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。</p>
+<h1 id="备份博客存档"><a href="#备份博客存档" class="headerlink" title="备份博客存档"></a>备份博客存档</h1><p>首先，在利用手机之前，首先就是在自己的电脑上<strong>备份自己的博客</strong>。</p>
+<p>（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）</p>
+<p>在此，请直接在 Github 上<a href="https://github.com/new"><strong>新建一个公共仓库（Public Repository）</strong></a>，将自己的博客上传到 Github 中。</p>
+<p>假设：你已在 Github 上新建了一个名为 <code>blogBackup</code> 的公共仓库，那么你应当在命令行下，执行如下命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;20210412&quot;</span> <span class="comment"># 此处建议填写上传时间，如：20210412&quot;</span></span><br><span class="line">git remote add origin https://github.com/yourname/blogBackup.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
 
+<p><strong>注意：请将第4行中的 Git 仓库地址替换自己实际的 Github 仓库地址。</strong></p>
+<p>当你完成以上这些命令后，请回到你新建好的 Github 公共仓库以确认上传成功。</p>
+<h1 id="WeBlog"><a href="#WeBlog" class="headerlink" title="WeBlog"></a>WeBlog</h1>
   <div class="note-large blue">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>跳转提示</p>
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>软件简介</p>
 
     </div>
     <div class="notel-content">
-      <p>关于怎么配置这个主题，</p>
-<p>请跳转到：<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）：如何详细配置 Hexo 使用 Rendefine 主题美化博客】</a></p>
+      <p>WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。</p>
+<p><img loading="lazy" src="/images/2024/0527/banner.jpg"></p>
 
     </div>
   </div>
 
-<p>最后简单的做个配置，最终呈现了这样的效果：</p>
-<p><img loading="lazy" src="/images/2024/042301/5.jpg" alt="5.jpg"></p>
-<h3 id="4-上传到-Github"><a href="#4-上传到-Github" class="headerlink" title="4. 上传到 Github"></a>4. 上传到 Github</h3><p>接下来，将本地上制作好的内容上传到 Github 仓库中。关于怎么上传部署 Github Pages，<a class="link"   href="https://hexo.io/zh-cn/docs/github-pages" >请点击查看关于 Hexo 上传部署到 Github Pages 的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>首次执行，需要下列的所有命令：</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone [你的Github仓库地址]</span><br><span class="line">cp -r [你的博客名称]/* [Github仓库名称] # 注意两个路径之间留下至少一个空格</span><br><span class="line">cd [Github仓库名称]</span><br><span class="line">git config --global user.name &quot;[你的Github昵称]&quot;</span><br><span class="line">git config --global user.email &quot;[你注册 Github 时所用的邮箱]&quot;</span><br><span class="line">git remote add origin [你的Github仓库地址]</span><br><span class="line">git add *</span><br><span class="line">git commit -m &quot;这里随便写点什么&quot; # 此行指令可不写</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure></div>
+<h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p><strong>注意：WeBlog 目前仅支持 Android 系统</strong></p>
+<p>请直接点击下面链接，选择 Arm64 架构的安装包下载并安装。</p>
+<a class="button  center large" href='https://github.com/PangBaiWork/WeBlog/releases' title='点击这里下载软件'><i class='fa-brands fa-github'></i> 点击这里下载软件</a>
 
-<p>等待上传完成即可(*^_^*)</p>
+<h2 id="导入博客"><a href="#导入博客" class="headerlink" title="导入博客"></a>导入博客</h2><p>打开 WeBlog 后，<strong>请务必安装 Hexo 框架及外部存储权限申请</strong>。</p>
+<p>在主页上点击 <code>拉取项目</code>，输入你的 Github 上的仓库地址。</p>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这里并非填你的 Github Pages 仓库地址，而是填写你的<strong>备份博客的仓库地址</strong> （类似于：<code>https://github.com/yourname/blogBackup.git</code>，否则无法识别到 Hexo 博客项目。</p>
+
+    </div>
+  </div>
+
+<p>接着，在选择文件夹时，<strong>请一定要新建一个空的文件夹</strong>，否则无法拉取 Github 仓库项目。</p>
+<p><img loading="lazy" src="/images/2024/0527/1.jpg"></p>
+<p>最后，请耐心等待加载，一般需要几分钟才能完成克隆。</p>
+<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p><strong>1. 定位你的博客文章目录</strong></p>
+<p>在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 <code>source</code> → <code>_posts</code> 文件夹，在此目录下，你将看到你之前所写的所有博客文章。</p>
+<p><strong>2. 新建博客文章</strong></p>
+<p>点击右下角的 <code>+</code> 号，按照提示填写文章基本信息即可完成创建。</p>
+<p>或者直接在终端下执行如下命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img loading="lazy" src="/images/2024/0527/2.jpg"></p>
+<p><strong>3. 尽情写作吧！</strong></p>
+<h2 id="好用的脚本文件"><a href="#好用的脚本文件" class="headerlink" title="好用的脚本文件"></a>好用的脚本文件</h2><p>为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 <code>.scripts</code> 文件夹下添加 Shell 脚本，以便减少不必要的操作。</p>
+<ul>
+<li><code>update-to-github-pages.sh</code>：用于将本地博客更新到 Github Pages 仓库。</li>
+</ul>
+<p>注意：这将会一次性将博客的所有文件上传到 Github Pages 仓库，并覆盖掉原有的文件。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>backup-your-blog.sh</code>：用于将博客存档上传到 Github 仓库中。</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment"># 这将会自动生成当前日期作为备份的备注。如：20210412</span></span><br><span class="line">git commit -m <span class="string">&quot;<span class="subst">$(date +%Y%m%d)</span>&quot;</span> </span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>setup-your-git.sh</code>：用于配置 Git 全局参数。<strong>（建议导入博客后，执行一次）</strong></li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@gmail.com&quot;</span></span><br><span class="line">git config --global --add safe.directory <span class="variable">$PWD</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这里需要修改 <code>yourname</code> 和 <code>youremail@gmail.com</code> 为你的实际用户名和邮箱。</p>
+<p>当你不确定是否配置成功时，可以尝试在终端下单独执行如下命令查看参数是否生效。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name</span><br><span class="line">git config --global user.email</span><br><span class="line">git config --global safe.directory</span><br></pre></td></tr></table></figure></div>
+
 <hr>
-<h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>下一篇将继续详细【<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">配置 Hexo，以及如何使用 Redefine 主题美化博客</a>】</p>
-<p>本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)</p>
+<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><div class="tabs" id="tab-question_answer"><ul class="nav-tabs"><li class="tab active"><a class="#question_answer-1">💡 常见问题一</a></li><li class="tab"><a class="#question_answer-2">💡 常见问题二</a></li><li class="tab"><a class="#question_answer-3">💡 常见问题三</a></li></ul><div class="tab-content"><div class="tab-pane active" id="question_answer-1"><p>Q：为什么拉取项目后，打开自建的文件夹仍是空的？</p>
+<p>A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。</p>
+<p><img loading="lazy" src="/images/2024/0513/6.jpg"></p>
+<p><img loading="lazy" src="/images/2024/0513/7.jpg"></p></div><div class="tab-pane" id="question_answer-2"><p>Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？</p>
+<p>即使用【实时预览】时，直接出现 <code>The LivePreview is ended.</code> 提示。</p>
+<p>A：在解决此问题前，请先查看你的项目源目录下是否有 <code>node_modules</code> 目录。一般情况下，当你备份博客存档时，<code>node_modules</code> 目录往往不会被上传到 Github 仓库。</p>
+<p>请直接从底部界面向上滑动，打开终端，并执行 <code>npm install</code> 命令，等待安装依赖即可。</p></div><div class="tab-pane" id="question_answer-3"><p>Q：执行 <code>npm install</code> 命令时报错？</p>
+<p>A：在确认此问题前，请按照如下方式排查：</p>
+<p>方法一：检查你的项目源目录是否有 <code>package.json</code> 文件。</p>
+<p>若你的项目源目录下没有 <code>package.json</code> 文件，则需要执行 <code>npm init</code> 命令，并按照提示输入相关信息。</p>
+<p>方法二：将 <code>node_modules</code> 目录复制到你的项目目录中。</p>
+<p>为了方便操作，这里作者建议：直接在你的项目源目录下新建一个 <code>install.sh</code> 文件并编辑，</p>
+<p>这里假设你的 Github 仓库名为 <code>blogBackup</code>，<strong>注意替换自己的 Github 仓库地址。</strong></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># install.sh</span></span><br><span class="line"><span class="comment"># 一次性执行脚本</span></span><br><span class="line"><span class="comment"># 可直接克隆博客存档到本地项目中</span></span><br><span class="line"><span class="comment"># 用于解决无法安装 Hexo 依赖问题</span></span><br><span class="line">BLOG_DIR=<span class="variable">$PWD</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/blogBackup ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在克隆……&quot;</span></span><br><span class="line">    git <span class="built_in">clone</span> https://github.com/yourname/blogBackup.git <span class="comment"># 此处需替换为你的 Github 仓库地址</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在合并……&quot;</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line">    git pull</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 无法拉取仓库！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [  ! -d node_modules ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在安装依赖....&quot;</span></span><br><span class="line">    npm install</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 下载/安装依赖失败！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cp</span> -r node_modules <span class="variable">$BLOG_DIR</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 注意：</span></span><br><span class="line"><span class="comment"># 其中的第10行的git仓库地址替换为实际的仓库地址。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若需要调试于终端之上，请执行：</span></span><br><span class="line"><span class="comment"># bash ./.scripts/install.sh</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img loading="lazy" src="/images/2024/0527/3.jpg"></p>
+<p>完成脚本执行后，执行 <code>npm list</code> 查看是否包含 <code>hexo</code> 依赖即可。</p></div></div></div>
+
+<hr>
+<p>以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。</p>
 ]]></content>
       <categories>
         <category>博客搭建</category>
       </categories>
       <tags>
         <tag>博客搭建</tag>
+        <tag>软件安利</tag>
         <tag>Git</tag>
         <tag>Github</tag>
         <tag>Hexo</tag>
+        <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
+    <url>/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。</p>
+<p>如果你有更好的推荐，请在评论区补充。O(∩_∩)O</p>
+<p><img loading="lazy" src="https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg"></p>
+<h1 id="一、桌面美化类"><a href="#一、桌面美化类" class="headerlink" title="一、桌面美化类"></a>一、桌面美化类</h1><h2 id="TranslucentTB（任务栏）👍👍👍"><a href="#TranslucentTB（任务栏）👍👍👍" class="headerlink" title="TranslucentTB（任务栏）👍👍👍"></a>TranslucentTB（任务栏）👍👍👍</h2><p><img loading="lazy" src="/images/2024/0527/0.jpg"><br><img loading="lazy" src="/images/2024/0527/00.jpg"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+
+
+<p>一款轻量级的软件，几乎属于必装软件。可对任务栏透明、亚克力等视觉效果👍👍👍</p>
+<h2 id="Auto-Dark-Mode（自动调整暗色模式）👍👍👍"><a href="#Auto-Dark-Mode（自动调整暗色模式）👍👍👍" class="headerlink" title="Auto Dark Mode（自动调整暗色模式）👍👍👍"></a>Auto Dark Mode（自动调整暗色模式）👍👍👍</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&format=source"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jk4hzbvf435?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款非常值得使用的软件，通过指定的时间切换对应的亮色&#x2F;暗色模式。👍👍👍</p>
+<h2 id="Lively-Wallpaper（动态壁纸）"><a href="#Lively-Wallpaper（动态壁纸）" class="headerlink" title="Lively Wallpaper（动态壁纸）"></a>Lively Wallpaper（动态壁纸）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.38919.14416131676512756.6ed76f61-1d00-444e-8c7c-640e40e40e3d.3bf574c6-f408-40da-9060-0377b05d257c"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9ntm2qc6qws7?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>免费的开源应用程序，用于将 GIF、视频和网页设置桌面壁纸。但自带提供的资源不够多</p>
+<h2 id="巨应动态壁纸"><a href="#巨应动态壁纸" class="headerlink" title="巨应动态壁纸"></a>巨应动态壁纸</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.20026.13793298936975350.10fb033b-b789-4d87-bfa8-965afde0d284.da708f65-8dac-477a-bdcb-59ee1358157a"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9mv8gk87mz05?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>由巨应君出品的动态壁纸软件，简单易用，所以壁纸资源均为用户上传，比前者资源更加丰富。</p>
+<h2 id="WinDynamicDesktop-（自动切换壁纸）👍👍"><a href="#WinDynamicDesktop-（自动切换壁纸）👍👍" class="headerlink" title="WinDynamicDesktop （自动切换壁纸）👍👍"></a>WinDynamicDesktop （自动切换壁纸）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47353.13691964960975352.ebdd26a5-1288-4929-b507-92856eba093a.dce52c89-0296-4895-b862-7ef90e1d9bac"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nm8n7dq3z5f?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款根据时间来自动切换壁纸的软件，与 MacOS 中的动态壁纸功能类似。默认提供 MacOS 壁纸，也可直接从网络上下载并导入壁纸。</p>
+<h2 id="Sucrose-Wallpaper-Engine（动态壁纸引擎）"><a href="#Sucrose-Wallpaper-Engine（动态壁纸引擎）" class="headerlink" title="Sucrose Wallpaper Engine（动态壁纸引擎）"></a>Sucrose Wallpaper Engine（动态壁纸引擎）</h2><p><img loading="lazy" src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxgsJrvE99hQLXyECGkXk1ArGSmJ9VYqZaSddBVWke49Uw0s2OB.Z.LllE5x.JOg8UU7odjgeuSs9sxjQ2HHs0oM-&format=source"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/xp8jgpbhtjglcq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>Sucrose Wallpaper Engine是一款多功能的壁纸引擎，提供广泛的交互式主题，可为您的桌面带来活力。您可以根据个人喜好选择轻盈或暗黑主题。您可以简单或详细地创建自己的壁纸，并支持多屏幕和各种屏幕分辨率，以实现无缝体验。</p>
+<h2 id="backiee-壁纸工作室10"><a href="#backiee-壁纸工作室10" class="headerlink" title="backiee - 壁纸工作室10"></a>backiee - 壁纸工作室10</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9wzdncrfhzcd?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>探索超高分辨率壁纸，4K 到 8K 图像应有尽有。若不在意频繁出现的广告，这款静态壁纸软件值得入手！</p>
+<h2 id="桌面组件"><a href="#桌面组件" class="headerlink" title="桌面组件"></a>桌面组件</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.203.13783862513978754.e48e7830-cb9f-44f1-850a-3cf107117cbf.88ff213d-319c-42b9-87d9-8e1634cadd17?h=307"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9npr50gq7t53?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款功能强大，符合人体工程学的桌面组件系统。</p>
+<h1 id="二、实用工具类"><a href="#二、实用工具类" class="headerlink" title="二、实用工具类"></a>二、实用工具类</h1><h2 id="Snipaste-截图-贴图👍👍👍"><a href="#Snipaste-截图-贴图👍👍👍" class="headerlink" title="Snipaste 截图+贴图👍👍👍"></a>Snipaste 截图+贴图👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.52183.14503356220976813.c71d2a10-0aa3-486c-9563-2c363aaaab5e.88eb25a1-8c0b-4f52-be14-837fbf6e693b"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p1wxpkb68kx?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款比自带 Windows 截图功能还要强大的截图软件。</p>
+<h2 id="EarTrumpet-（音量合成器）👍👍👍"><a href="#EarTrumpet-（音量合成器）👍👍👍" class="headerlink" title="EarTrumpet （音量合成器）👍👍👍"></a>EarTrumpet （音量合成器）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.32184.13510798887629242.2534466d-5a17-4046-b21f-d818fb1bb888.d3e8f732-d5f3-48a1-87ae-77348809ef01"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nblggh516xp?activetab=pivot%3Aoverviewtab&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款功能非常强大的音量控制软件，可完全替代自带的旧版功能。</p>
+<h2 id="QuickLook-（快速预览）👍👍👍"><a href="#QuickLook-（快速预览）👍👍👍" class="headerlink" title="QuickLook （快速预览）👍👍👍"></a>QuickLook （快速预览）👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.24917.14405803611253731.3006f567-a4f6-43d6-95fb-9033fa42fa41.f44af418-f702-4c8f-9bd8-6481698d8260?h=307"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nv4bs3l1h4s?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>通过按下空格键实现快速预览文件内容，与 Mac OS 类似的功能。</p>
+<h2 id="取色器"><a href="#取色器" class="headerlink" title="取色器"></a>取色器</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.28518.13874519524713515.e81c53d8-5dc9-4aa9-81be-5370864aac85.42a23282-72c9-472b-8213-e823ff2a7dc2?h=307"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9mzhgfqsrfhg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款体积小的实用工具，可通过鼠标选取屏幕中像素的颜色。</p>
+<h2 id="OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）"><a href="#OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）" class="headerlink" title="OP Auto Clicker - Auto Tap （鼠标自动连点器）"></a>OP Auto Clicker - Auto Tap （鼠标自动连点器）</h2><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36769.14022871430809239.289e742c-4a63-488b-8496-9eafa59010ed.42c74928-eede-4388-84b0-e0e52a90564b" alt="Microsoft Store" width="300" height="300">
+
+<a class="button  center large" href='https://apps.microsoft.com/detail/9n621dm2lvhq?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款非常简单的鼠标自动连点器，通过按下 <kbd>F6</kbd> 键以开始&#x2F;结束连点。</p>
+<h2 id="Watt-Toolkit-（原-Steam-）"><a href="#Watt-Toolkit-（原-Steam-）" class="headerlink" title="Watt Toolkit （原 Steam++）"></a>Watt Toolkit （原 Steam++）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.36037.13810726275500961.77b6bcf3-2a5a-49a2-bcb2-f0dbcd3eb149.21194914-d668-4a27-89ac-5165adc054d5"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9mtcfhs560ng?cid=msft_web_appsforwindows_chart&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款加速软件，支持 Steam、Github、Origin、Uplay、Spotify 等。目前除了部分库存游戏需要付费才能加速以外其它均免费。</p>
+<h2 id="AnLink-安联"><a href="#AnLink-安联" class="headerlink" title="AnLink 安联"></a>AnLink 安联</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.60495.13732987357972043.471d409a-fc09-491b-bc4d-284ddefa32c9.5ae47afa-2f8f-43a6-b04e-cc13d5a09453"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9np036014jtg?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款支持使用 Android 手机连接到电脑的软件，免费无广告且非常实用，可安全便捷的在电脑上操作手机，支持使用 Wifi、USB连接。</p>
+<h2 id="Record-Screen（免费录制屏幕）"><a href="#Record-Screen（免费录制屏幕）" class="headerlink" title="Record Screen（免费录制屏幕）"></a>Record Screen（免费录制屏幕）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51561.14475286183431872.6e7283f6-df1b-481d-917a-85c0700f71e1.82811191-10f6-4fec-8db3-e8281ced72f2"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nzjndtlvkr1?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一个简单好用的录制软件，选择单个窗口或整个屏幕以进行录制，支持输出麦克风与电脑声音，并且录制后可以制作简单的剪辑。</p>
+<h1 id="三、文本编辑类"><a href="#三、文本编辑类" class="headerlink" title="三、文本编辑类"></a>三、文本编辑类</h1><h2 id="SiYuan（思源笔记）"><a href="#SiYuan（思源笔记）" class="headerlink" title="SiYuan（思源笔记）"></a>SiYuan（思源笔记）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.51519.14604083850023553.a6b78602-3991-40fc-92ca-635e30a12e6d.55fe85e9-39a0-46f3-a499-f959f48fdb56"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p7hpmxp73k4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款隐私优先的个人知识管理系统，支持完全离线使用，同时也支持端到端加密同步。</p>
+<h2 id="Notepads-App（记事本）"><a href="#Notepads-App（记事本）" class="headerlink" title="Notepads App（记事本）"></a>Notepads App（记事本）</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.30725.13628411695448126.ee0d4432-102e-40c0-a23c-510a46b12c35.3736f54b-cb73-4dfb-aecc-81baa5e20a48"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9nhl4nsc67wm?rtc=1&hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款极具现代感，轻便简介的文本编辑器，适合替代自带记事本的软件。</p>
+<h2 id="桌面记事本👍👍👍"><a href="#桌面记事本👍👍👍" class="headerlink" title="桌面记事本👍👍👍"></a>桌面记事本👍👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.707.14633965969460790.b0e27bde-c02b-4340-8b49-a6cf379c291c.56cc83d0-d80f-496c-9097-77d4cf9eb30a"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p5rdm9t8cr3?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>一款简洁且方便的桌面记事本，<strong>推荐将此软件固定到任务栏中以实现随时编辑</strong>。支持自动保存文本、语音识别、语音朗读、文本翻译、云文件上传下载同步等功能。支持预览 TXT、RTF、Markdown 等格式的文本。</p>
+<h2 id="Typedown-（Markdown-编辑器）👍👍"><a href="#Typedown-（Markdown-编辑器）👍👍" class="headerlink" title="Typedown （Markdown 编辑器）👍👍"></a>Typedown （Markdown 编辑器）👍👍</h2><p><img loading="lazy" src="https://store-images.s-microsoft.com/image/apps.50023.14085711452561131.8a83a482-2459-4160-8545-ae595b2298f8.c6b1fd0d-c400-4a4c-ad69-003ef694d413"></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p8tcw4h2hb4?hl=zh-cn&gl=CN' title='点击这里下载软件'><i class='fas fa-link'></i> 点击这里下载软件</a>
+
+<p>使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。</p>
+]]></content>
+      <categories>
+        <category>软件安利</category>
+      </categories>
+      <tags>
+        <tag>新手向</tag>
+        <tag>软件安利</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -1961,75 +1905,135 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>如何在命令行下使用 Git？</title>
-    <url>/2024/04/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</url>
-    <content><![CDATA[<p>Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。</p>
-<h2 id="下载-Git"><a href="#下载-Git" class="headerlink" title="下载 Git"></a>下载 Git</h2><p>首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：</p>
-<ul>
-<li><p>Linux: 根据不同的发行版，在终端中输入对应的安装命令即可</p>
-<div class="tabs" id="tab-install_git"><ul class="nav-tabs"><li class="tab active"><a class="#install_git-1">Debian(Ubuntu)</a></li><li class="tab"><a class="#install_git-2">Arch Linux</a></li><li class="tab"><a class="#install_git-3">Fedora(Redhat)</a></li><li class="tab"><a class="#install_git-4">CentOS(7.9及以下)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="install_git-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -Sy git </span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-3"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dnf install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-4"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install git -y</span><br></pre></td></tr></table></figure></div></div></div></div>
-</li>
-<li><p>Windows &#x2F; MacOS: <a class="link"   href="https://git-scm.com/downloads" >https://git-scm.com/downloads <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</li>
-</ul>
-<p>要检查 Git 安装是否完成，只需执行命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="简单使用-Git"><a href="#简单使用-Git" class="headerlink" title="简单使用 Git"></a>简单使用 Git</h2><p>关于此处，你可以直接通过如下图进行速查：</p>
-<p><img loading="lazy" src="https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg" alt="Git 常用命令速查表"></p>
-<p>以下是较为常用的 Git 命令：</p>
-<p>首先最为简单的事，就是从 Github 等其它代码托管平台上<strong>克隆项目</strong></p>
-<p>克隆源代码项目：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
-
-<p>安装完成后，首先第一件事：就是需要先配置用户和邮箱。</p>
-<p>配置用户：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name [你的名字]</span><br></pre></td></tr></table></figure></div>
-
-<p>配置邮箱：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email [你的邮箱]</span><br></pre></td></tr></table></figure></div>
-
-<p>要初始化一个自己的 Git 项目，执行如下：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init [你的项目名]</span><br></pre></td></tr></table></figure></div>
-
-<p>当然，你也可以选择在当前目录下初始化你的 Git，只需执行：<code>git init</code></p>
-<p>将文件添加到分支中：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add *</span><br><span class="line">git add .</span><br><span class="line">git add [指定的文件或目录]</span><br></pre></td></tr></table></figure></div>
-
+    <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
+    <url>/2024/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，</p>
+<p>关于个人博客，可以利用 Github Page 来搭建自己的个人博客。</p>
+<p><img loading="lazy" src="/images/2024/042301/5.jpg"></p>
+<h2 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h2><h3 id="1-注册-Github"><a href="#1-注册-Github" class="headerlink" title="1. 注册 Github"></a>1. 注册 Github</h3><p>既然提到了 Github Page ，首先就得<a class="link"   href="https://github.com/signup" >注册自己的 Github 账号 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
 <blockquote>
-<p>这里的 <code>*</code> , <code>.</code> 都代表当前目录下所有需要添加或修改的文件</p>
+<p>如果 Github 界面打不开，建议使用 <a class="link"   href="https://steampp.net/" >Watt Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>😃，（不仅可以加速 Steam、橙子、育碧，同时也能加速 Github）</p>
+<p>注册一个 Github 账号只需要邮箱，并且进行邮箱验证就能快速完成！ヾ(•ω•&#96;)o</p>
 </blockquote>
-<p>将文件从分支中删除：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r [指定目录]        <span class="comment"># 删除目录及其所有子文件</span></span><br><span class="line">git <span class="built_in">rm</span> [指定文件或目录]     <span class="comment"># 删除文件</span></span><br><span class="line">git <span class="built_in">rm</span> -r *                <span class="comment"># 删除所有</span></span><br></pre></td></tr></table></figure></div>
+<h3 id="2-创建自己的仓库"><a href="#2-创建自己的仓库" class="headerlink" title="2. 创建自己的仓库"></a>2. 创建自己的仓库</h3><p>注册之后，接下来就要创建自己的仓库，<br>首先点击【New】，如下图：</p>
+<p><img loading="lazy" src="/images/2024/042301/1.jpg" alt="1.jpg"></p>
+<p>其次，创建仓库时，<strong>仓库名一定要以<code>[你的用户名].github.io</code> 为名，</strong> 默认下都会将其设为 Github Page，之后就能完成创建。具体看下图：</p>
+<p><img loading="lazy" src="/images/2024/042301/2.jpg" alt="2.jpg"></p>
+<p>创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）<br><img loading="lazy" src="/images/2024/042301/2.1.jpg" alt="2.1.jpg"></p>
+<h3 id="3-选择框架"><a href="#3-选择框架" class="headerlink" title="3. 选择框架"></a>3. 选择框架</h3><p>当你做完上述步骤后，你可以直接访问自己的网页，如下图：<br><img loading="lazy" src="/images/2024/042301/3.0.jpg" alt="3.0.jpg"></p>
+<p>接下来就是选择网页框架。这里就以 Hexo 为例，这里就只需要用到 <code>git</code> 和 <code>node.js</code> 两个依赖软件了，关于详细地安装步骤，请直接参照<a class="link"   href="https://hexo.io/zh-cn/docs/" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>即可</p>
+<p>完成后的搭建，大概是长这样的：</p>
+<p><img loading="lazy" src="/images/2024/042301/3.jpg" alt="3.jpg"></p>
+<p>当然，这还不够，你还可以给它更换一个更好看的主题，这里作者就用了 Redefine 主题，大概就是长这样的(*^_^*)：</p>
+<p><img loading="lazy" src="/images/2024/042301/4.jpg" alt="4.jpg"></p>
 
-<p>查看所有已添加到分支里的文件</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git ls-files</span><br></pre></td></tr></table></figure></div>
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-lightbulb"></i><p>跳转提示</p>
 
-<p>为分支里的文件进行提交（commit：提交时需要用到的标记）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&#x27;[内容]&#x27;</span></span><br><span class="line">git commit -am <span class="string">&#x27;[内容]&#x27;</span>  <span class="comment"># 添加并提交</span></span><br><span class="line">git commit --amend -m <span class="string">&#x27;[内容]&#x27;</span> <span class="comment"># 反复修改并提交 </span></span><br></pre></td></tr></table></figure></div>
+    </div>
+    <div class="notel-content">
+      <p>关于怎么配置这个主题，</p>
+<p>请跳转到：<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">【搭建个人博客（二）：如何详细配置 Hexo 使用 Rendefine 主题美化博客】</a></p>
 
-<p>查看当前的分支状态：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+    </div>
+  </div>
 
-<p>关于分支（branch）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git show-branch     <span class="comment"># 查看当前分支历史</span></span><br><span class="line">git show-branch -a  <span class="comment"># 查看当前分支的所有历史</span></span><br><span class="line">git branch          <span class="comment"># 查看当前存在的分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有存在的分支</span></span><br><span class="line">git branch -M main  <span class="comment"># 新建一个 main 分支</span></span><br><span class="line">git branch -m main main_copy <span class="comment"># 将 main 分支改名为 main_copy</span></span><br></pre></td></tr></table></figure></div>
+<p>最后简单的做个配置，最终呈现了这样的效果：</p>
+<p><img loading="lazy" src="/images/2024/042301/5.jpg" alt="5.jpg"></p>
+<h3 id="4-上传到-Github"><a href="#4-上传到-Github" class="headerlink" title="4. 上传到 Github"></a>4. 上传到 Github</h3><p>接下来，将本地上制作好的内容上传到 Github 仓库中。关于怎么上传部署 Github Pages，<a class="link"   href="https://hexo.io/zh-cn/docs/github-pages" >请点击查看关于 Hexo 上传部署到 Github Pages 的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>首次执行，需要下列的所有命令：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone [你的Github仓库地址]</span><br><span class="line">cp -r [你的博客名称]/* [Github仓库名称] # 注意两个路径之间留下至少一个空格</span><br><span class="line">cd [Github仓库名称]</span><br><span class="line">git config --global user.name &quot;[你的Github昵称]&quot;</span><br><span class="line">git config --global user.email &quot;[你注册 Github 时所用的邮箱]&quot;</span><br><span class="line">git remote add origin [你的Github仓库地址]</span><br><span class="line">git add *</span><br><span class="line">git commit -m &quot;这里随便写点什么&quot; # 此行指令可不写</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure></div>
 
-<p>添加远程仓库（Github、Gitlab、Gitee……）：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
-
-<p>上传&#x2F;推流到远程仓库：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin master   <span class="comment"># 将本地分支推流到远程分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p>从远程仓库中获取&#x2F;合并到本地分支：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin master  <span class="comment"># 获取远程分支master并merge到本地分支</span></span><br><span class="line">git merge origin/master     <span class="comment"># 从远程分支中合并到本地分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p>更多进阶的命令，可以查看 <a class="link"   href="https://www.runoob.com/note/56524" >Git 常用命令大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，内容更加详细(*^_^*)。</p>
+<p>等待上传完成即可(*^_^*)</p>
+<hr>
+<h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>下一篇将继续详细【<a href="../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2">配置 Hexo，以及如何使用 Redefine 主题美化博客</a>】</p>
+<p>本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)</p>
 ]]></content>
       <categories>
-        <category>技术教程</category>
+        <category>博客搭建</category>
       </categories>
       <tags>
+        <tag>博客搭建</tag>
         <tag>Git</tag>
+        <tag>Github</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Ver 1.2] CatIsNotFound 更新日志</title>
+    <url>/2024/06/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
+
+    </div>
+    <div class="notel-content">
+      <p>经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。</p>
+
+    </div>
+  </div>
+
+<h1 id="页面新增"><a href="#页面新增" class="headerlink" title="页面新增"></a>页面新增</h1><ul>
+<li><p>新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 </p>
+<a class="button  center large" href='/status' title='前往【状态】页面'><i class='fa-solid fa-pager'></i> 前往【状态】页面</a>
+<p><img loading="lazy" src="/images/2024/0602/status.jpg"></p>
+</li>
+<li><p>新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 </p>
+<a class="button  center large" href='/masonry' title='前往【壁纸库】页面'><i class='fa-solid fa-pager'></i> 前往【壁纸库】页面</a>
+<p><img loading="lazy" src="/images/2024/0602/wallpaper.jpg"></p>
+</li>
+</ul>
+<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><ul>
+<li>博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0602/comment.jpg"></p>
+<ul>
+<li><p>首页封面部分已作出改变：</p>
+<ul>
+<li><p>亮色&#x2F;暗色主题壁纸已全部更换</p>
+</li>
+<li><p>轮播文字已被替换</p>
+</li>
+<li><p>右下角链接处已进行修改</p>
+</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0602/cover.jpg"></p>
+</li>
+<li><p>Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。<a class="button  regular" href='https://github.com/EvanNotFound/hexo-theme-redefine/releases' title='前往 Release 页面'><i class='fa-brands fa-github'></i> 前往 Release 页面</a></p>
+</li>
+</ul>
+<h1 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h1><p>关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。</p>
+<ul>
+<li><p><input disabled="" type="checkbox"> 
+<strong>更新发布文章</strong>：20 篇。鉴于在4月份制定的<strong>在五月底发布至少 15 篇文章</strong>的计划未完成，所以还需继续发布更多新的文章；</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+<strong>新增更多分类</strong>：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+<strong>多平台发展</strong>：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；</p>
+</li>
+</ul>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+
+    </div>
+    <div class="notel-content">
+      <p>最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)</p>
+<p>最后，希望这个博客站点越来越好！🎉🎉🎉</p>
+
+    </div>
+  </div>
+]]></content>
+      <categories>
+        <category>更新日志</category>
+      </categories>
+      <tags>
+        <tag>更新日志</tag>
       </tags>
   </entry>
   <entry>
@@ -2167,79 +2171,230 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>[Ver 1.2] CatIsNotFound 更新日志</title>
-    <url>/2024/06/Ver-1-2-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
+    <url>/2024/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[
-  <div class="note-large blue">
+  <div class="note-large regular">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最前</p>
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>WSL 简介</p>
 
     </div>
     <div class="notel-content">
-      <p>经过了一个多月的博客运营，是时候再发布一次更新日志了。这是以下关于个人博客站点的更新内容。</p>
+      <p>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。<br><img loading="lazy" src="/images/2024/0606/R-C.jpg"></p>
 
     </div>
   </div>
 
-<h1 id="页面新增"><a href="#页面新增" class="headerlink" title="页面新增"></a>页面新增</h1><ul>
-<li><p>新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 </p>
-<a class="button  center large" href='/status' title='前往【状态】页面'><i class='fa-solid fa-pager'></i> 前往【状态】页面</a>
-<p><img loading="lazy" src="/images/2024/0602/status.jpg"></p>
-</li>
-<li><p>新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 </p>
-<a class="button  center large" href='/masonry' title='前往【壁纸库】页面'><i class='fa-solid fa-pager'></i> 前往【壁纸库】页面</a>
-<p><img loading="lazy" src="/images/2024/0602/wallpaper.jpg"></p>
-</li>
+<h1 id="WSL-适合谁？"><a href="#WSL-适合谁？" class="headerlink" title="WSL 适合谁？"></a>WSL 适合谁？</h1><ul>
+<li>Linux 新手、Linux 初学者</li>
+<li>需要大量命令行操作</li>
+<li>需要 Linux 开发、Linux 运维等……</li>
 </ul>
-<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><ul>
-<li>博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。</li>
-</ul>
-<p><img loading="lazy" src="/images/2024/0602/comment.jpg"></p>
+<h1 id="WSL-的优势"><a href="#WSL-的优势" class="headerlink" title="WSL 的优势"></a>WSL 的优势</h1><p>在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：</p>
 <ul>
-<li><p>首页封面部分已作出改变：</p>
-<ul>
-<li><p>亮色&#x2F;暗色主题壁纸已全部更换</p>
-</li>
-<li><p>轮播文字已被替换</p>
-</li>
-<li><p>右下角链接处已进行修改</p>
-</li>
+<li>安装&#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。</li>
+<li>管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。</li>
+<li>独立存储：你可以将文件独立存储于 Linux 文件系统中。</li>
+<li>在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。</li>
 </ul>
-<p><img loading="lazy" src="/images/2024/0602/cover.jpg"></p>
-</li>
-<li><p>Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。<a class="button  regular" href='https://github.com/EvanNotFound/hexo-theme-redefine/releases' title='前往 Release 页面'><i class='fa-brands fa-github'></i> 前往 Release 页面</a></p>
-</li>
-</ul>
-<h1 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h1><p>关于本博客站点，现对于下个月的博客内容进行如下变化。有可能会在下个月实现，也可能不会实现。</p>
-<ul>
-<li><p><input disabled="" type="checkbox"> 
-<strong>更新发布文章</strong>：20 篇。鉴于在4月份制定的<strong>在五月底发布至少 15 篇文章</strong>的计划未完成，所以还需继续发布更多新的文章；</p>
-</li>
-<li><p><input disabled="" type="checkbox"> 
-<strong>新增更多分类</strong>：目前计划新增【软件安利】、【博客日常】、【学习笔记】等分类，后续可能还会计划新增其它分类；</p>
-</li>
-<li><p><input disabled="" type="checkbox"> 
-<strong>多平台发展</strong>：上个月尝试在【简书】上运营账号，但可遇而不可求~ o(*￣▽￣*)o，现在正在考虑寻找其它适合的平台；</p>
-</li>
-</ul>
-
-  <div class="note-large blue">
+<h1 id="安装-WSL"><a href="#安装-WSL" class="headerlink" title="安装 WSL"></a>安装 WSL</h1>
+  <div class="note-large yellow">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>写在最后</p>
+      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
 
     </div>
     <div class="notel-content">
-      <p>最后的最后，如果对于此博客内容有更多更好的建议或需要提出的问题，欢迎随时在任意文章处下方的评论区进行留言。博主将可能会采用邮箱的形式进行一一回复。具体根据您评论时所提供的邮箱来决定。(*^_^*)</p>
-<p>最后，希望这个博客站点越来越好！🎉🎉🎉</p>
+      <p>WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）</p>
+<p>请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>R</code> 打开【运行】窗口，并执行 <code>winver</code> 查看操作系统内部版本号。</p>
+<img loading="lazy" src="/images/2024/0606/1.jpg" alt="查看操作系统内部版本号" style="width: 50%">
 
     </div>
   </div>
+
+<p>你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。</p>
+<a class="button  regular" href='https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&gl=CN' title='WSL 下载安装'><i class='fa-brands fa-microsoft'></i> WSL 下载安装</a>
+
+<a class="button  regular" href='https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&gl=CN' title='Ubuntu 24.04 LTS 下载安装'><i class='fa-brands fa-linux'></i> Ubuntu 24.04 LTS 下载安装</a>
+
+<p>当你完成如上安装之后，接下来，请直接按下 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>X</code> 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl.exe <span class="literal">--install</span> <span class="literal">--no-distribution</span></span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，请直接重启自己的电脑。</p>
+<p>之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。</p>
+<p>安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please create a default UNIX user account. The username does not need to match your Windows username.</span><br><span class="line">For more information visit: https://aka.ms/wslusers</span><br><span class="line">Enter new UNIX username:   输入你的用户名</span><br><span class="line">New password:              设置密码，此处输入的密码是隐藏的</span><br><span class="line">Retype new password:       再次设置密码，同上</span><br><span class="line">passwd: password updated successfully</span><br><span class="line">Installation successful!</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：</p>
+<p>打开 Powershell，并以 <code>root</code> 用户身份运行，命令如下：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>若需要指定一个发行版，请直接执行：<code>wsl -d &lt;发行版名称&gt; -u root</code></p>
+</blockquote>
+<p>然后再在终端中输入以下命令，即可重置密码。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">passwd &lt;用户名&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中的 <code>&lt;用户名&gt;</code> 即为你设置的用户名。</p>
+
+    </div>
+  </div>
+
+<h1 id="WSL-使用方法与技巧"><a href="#WSL-使用方法与技巧" class="headerlink" title="WSL 使用方法与技巧"></a>WSL 使用方法与技巧</h1><h2 id="命令行操作"><a href="#命令行操作" class="headerlink" title="命令行操作"></a>命令行操作</h2><p>WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：</p>
+<p><strong>（1）如何安装 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中，<code>&lt;发行版名称&gt;</code> 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（2）查看所有当前可用的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--online</span></span><br></pre></td></tr></table></figure></div>
+
+<p>或者，使用 <code>wsl -l -o</code> 代替。</p>
+<p><strong>（3）列出所有 Linux 发行版的运行状态</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--verbose</span></span><br></pre></td></tr></table></figure></div>
+
+<p>或者，使用 <code>wsl -l -v</code> 代替。</p>
+<p><strong>（4）启动默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl</span><br></pre></td></tr></table></figure></div>
+
+<p>若需要指定一个发行版，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（5）停止默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
+
+<p>若需要指定一个发行版，则执行如下命令：</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--terminate</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>（6）设置默认的 Linux 发行版</strong></p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--set-default</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="图形化操作"><a href="#图形化操作" class="headerlink" title="图形化操作"></a>图形化操作</h2><p>如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。</p>
+<p><strong>WSL Tray Monitor - WSL 系统托盘监控工具</strong></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&gl=CN' title='WSL Tray Monitor 下载安装'><i class='fa-brands fa-windows'></i> WSL Tray Monitor 下载安装</a>
+
+<p>你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。</p>
+<p>在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。</p>
+<img loading="lazy" src="/images/2024/0606/3.jpg" alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%">
+
+<p><strong>WSL Toolbox - 图形化管理 WSL 的工具箱</strong></p>
+<a class="button  center large" href='https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&gl=CN' title='WSL Toolbox 下载安装'><i class='fa-brands fa-windows'></i> WSL Toolbox 下载安装</a>
+
+<p>WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。</p>
+<p>但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。</p>
+<img loading="lazy" src="/images/2024/0606/2.jpg" alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%">
+
+<h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：</p>
+<img loading="lazy" src="/images/2024/0606/4.jpg" alt="在资源管理器中访问 Linux" style="width: 80%">
+
+<h2 id="使用-Visual-Studio-Code-开发"><a href="#使用-Visual-Studio-Code-开发" class="headerlink" title="使用 Visual Studio Code 开发"></a>使用 Visual Studio Code 开发</h2><p>如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。</p>
+<p>你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。</p>
+<p><img loading="lazy" src="/images/2024/0606/5.jpg" alt="在 WSL 中打开项目"></p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。</p>
+
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
+
+    </div>
+    <div class="notel-content">
+      <ul>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/install" >https://learn.microsoft.com/zh-cn/windows/wsl/install <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+
+    </div>
+  </div>
+
 ]]></content>
       <categories>
-        <category>更新日志</category>
+        <category>技术教程</category>
       </categories>
       <tags>
-        <tag>更新日志</tag>
+        <tag>新手向</tag>
+        <tag>Linux</tag>
+        <tag>Windows</tag>
+        <tag>WSL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在命令行下使用 Git？</title>
+    <url>/2024/04/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E4%BD%BF%E7%94%A8-Git%EF%BC%9F/</url>
+    <content><![CDATA[<p>Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。</p>
+<h2 id="下载-Git"><a href="#下载-Git" class="headerlink" title="下载 Git"></a>下载 Git</h2><p>首先，需要先下载 Git，对于不同的操作系统，安装方式各有不同，具体如下：</p>
+<ul>
+<li><p>Linux: 根据不同的发行版，在终端中输入对应的安装命令即可</p>
+<div class="tabs" id="tab-install_git"><ul class="nav-tabs"><li class="tab active"><a class="#install_git-1">Debian(Ubuntu)</a></li><li class="tab"><a class="#install_git-2">Arch Linux</a></li><li class="tab"><a class="#install_git-3">Fedora(Redhat)</a></li><li class="tab"><a class="#install_git-4">CentOS(7.9及以下)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="install_git-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo pacman -Sy git </span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-3"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo dnf install git -y</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="install_git-4"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install git -y</span><br></pre></td></tr></table></figure></div></div></div></div>
+</li>
+<li><p>Windows &#x2F; MacOS: <a class="link"   href="https://git-scm.com/downloads" >https://git-scm.com/downloads <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+</ul>
+<p>要检查 Git 安装是否完成，只需执行命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="简单使用-Git"><a href="#简单使用-Git" class="headerlink" title="简单使用 Git"></a>简单使用 Git</h2><p>关于此处，你可以直接通过如下图进行速查：</p>
+<p><img loading="lazy" src="https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg" alt="Git 常用命令速查表"></p>
+<p>以下是较为常用的 Git 命令：</p>
+<p>首先最为简单的事，就是从 Github 等其它代码托管平台上<strong>克隆项目</strong></p>
+<p>克隆源代码项目：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，首先第一件事：就是需要先配置用户和邮箱。</p>
+<p>配置用户：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name [你的名字]</span><br></pre></td></tr></table></figure></div>
+
+<p>配置邮箱：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email [你的邮箱]</span><br></pre></td></tr></table></figure></div>
+
+<p>要初始化一个自己的 Git 项目，执行如下：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init [你的项目名]</span><br></pre></td></tr></table></figure></div>
+
+<p>当然，你也可以选择在当前目录下初始化你的 Git，只需执行：<code>git init</code></p>
+<p>将文件添加到分支中：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add *</span><br><span class="line">git add .</span><br><span class="line">git add [指定的文件或目录]</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>这里的 <code>*</code> , <code>.</code> 都代表当前目录下所有需要添加或修改的文件</p>
+</blockquote>
+<p>将文件从分支中删除：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r [指定目录]        <span class="comment"># 删除目录及其所有子文件</span></span><br><span class="line">git <span class="built_in">rm</span> [指定文件或目录]     <span class="comment"># 删除文件</span></span><br><span class="line">git <span class="built_in">rm</span> -r *                <span class="comment"># 删除所有</span></span><br></pre></td></tr></table></figure></div>
+
+<p>查看所有已添加到分支里的文件</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git ls-files</span><br></pre></td></tr></table></figure></div>
+
+<p>为分支里的文件进行提交（commit：提交时需要用到的标记）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&#x27;[内容]&#x27;</span></span><br><span class="line">git commit -am <span class="string">&#x27;[内容]&#x27;</span>  <span class="comment"># 添加并提交</span></span><br><span class="line">git commit --amend -m <span class="string">&#x27;[内容]&#x27;</span> <span class="comment"># 反复修改并提交 </span></span><br></pre></td></tr></table></figure></div>
+
+<p>查看当前的分支状态：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p>关于分支（branch）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git show-branch     <span class="comment"># 查看当前分支历史</span></span><br><span class="line">git show-branch -a  <span class="comment"># 查看当前分支的所有历史</span></span><br><span class="line">git branch          <span class="comment"># 查看当前存在的分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有存在的分支</span></span><br><span class="line">git branch -M main  <span class="comment"># 新建一个 main 分支</span></span><br><span class="line">git branch -m main main_copy <span class="comment"># 将 main 分支改名为 main_copy</span></span><br></pre></td></tr></table></figure></div>
+
+<p>添加远程仓库（Github、Gitlab、Gitee……）：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin [远程仓库地址]</span><br></pre></td></tr></table></figure></div>
+
+<p>上传&#x2F;推流到远程仓库：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin master   <span class="comment"># 将本地分支推流到远程分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p>从远程仓库中获取&#x2F;合并到本地分支：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin master  <span class="comment"># 获取远程分支master并merge到本地分支</span></span><br><span class="line">git merge origin/master     <span class="comment"># 从远程分支中合并到本地分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p>更多进阶的命令，可以查看 <a class="link"   href="https://www.runoob.com/note/56524" >Git 常用命令大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，内容更加详细(*^_^*)。</p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -2313,6 +2468,32 @@ B -- False --> 执行语句2
       <tags>
         <tag>更新日志</tag>
         <tag>Waline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我的博客</title>
+    <url>/2024/06/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
+<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
+<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
+<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
+<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
+<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
+<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
+<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
+<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
+<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
+
+<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
+<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
+
+<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
+
+<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
+<p>或者你可以通过其它私人途径来联系我：</p>
+<img loading="lazy" src="/images/QQ.jpg" alt="QQ" width="300px">]]></content>
+      <tags>
+        <tag>关于博客</tag>
       </tags>
   </entry>
   <entry>
@@ -2667,161 +2848,6 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
-    <url>/2024/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[
-  <div class="note-large regular">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>WSL 简介</p>
-
-    </div>
-    <div class="notel-content">
-      <p>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。<br><img loading="lazy" src="/images/2024/0606/R-C.jpg"></p>
-
-    </div>
-  </div>
-
-<h1 id="WSL-适合谁？"><a href="#WSL-适合谁？" class="headerlink" title="WSL 适合谁？"></a>WSL 适合谁？</h1><ul>
-<li>Linux 新手、Linux 初学者</li>
-<li>需要大量命令行操作</li>
-<li>需要 Linux 开发、Linux 运维等……</li>
-</ul>
-<h1 id="WSL-的优势"><a href="#WSL-的优势" class="headerlink" title="WSL 的优势"></a>WSL 的优势</h1><p>在 Windows 系统下，WSL 是以容器的形式存在，你可以使用它能完成以下几件：</p>
-<ul>
-<li>安装&#x2F;运行各种发行版 Linux：不管你是 Debian 系、Arch 系、Redhat 系，你可以通过 Microsoft Store 上下载你需要的 Linux 发行版。</li>
-<li>管理多个 WSL：这就意味着，你可以不单单只安装一个 Linux 发行版，还可以安装多个。</li>
-<li>独立存储：你可以将文件独立存储于 Linux 文件系统中。</li>
-<li>在 Windows 上调用 Linux 应用程序：在最新的 WSL 2 中，你可以直接在开始菜单中独立运行已安装的 Linux 应用程序。</li>
-</ul>
-<h1 id="安装-WSL"><a href="#安装-WSL" class="headerlink" title="安装 WSL"></a>安装 WSL</h1>
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）</p>
-<p>请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>R</code> 打开【运行】窗口，并执行 <code>winver</code> 查看操作系统内部版本号。</p>
-<img loading="lazy" src="/images/2024/0606/1.jpg" alt="查看操作系统内部版本号" style="width: 50%">
-
-    </div>
-  </div>
-
-<p>你需要安装 Windows Subsystem for Linux (WSL) 和对应的 Linux 发行版。这里就以安装 WSL 和 Ubuntu 24.04 LTS 为例。首先，请直接点击下方按钮以直接安装如下软件。</p>
-<a class="button  regular" href='https://apps.microsoft.com/detail/9p9tqf7mrm4r?hl=zh-cn&gl=CN' title='WSL 下载安装'><i class='fa-brands fa-microsoft'></i> WSL 下载安装</a>
-
-<a class="button  regular" href='https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=zh-cn&gl=CN' title='Ubuntu 24.04 LTS 下载安装'><i class='fa-brands fa-linux'></i> Ubuntu 24.04 LTS 下载安装</a>
-
-<p>当你完成如上安装之后，接下来，请直接按下 <kbd><i class="fa-brands fa-windows"></i></kbd> + <code>X</code> 组合键，进入 Powershell，并输入以下命令，这将会安装 WSL 自选组件。</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl.exe <span class="literal">--install</span> <span class="literal">--no-distribution</span></span><br></pre></td></tr></table></figure></div>
-
-<p>安装完成后，请直接重启自己的电脑。</p>
-<p>之后，你就可以直接在开始菜单中找到并启动 Ubuntu 24.04 LTS ，等待几分钟的安装。</p>
-<p>安装完成之后，你将会在终端上看到类似如下的提示，请按照提示设置一个新的用户和新的密码即可完成。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please create a default UNIX user account. The username does not need to match your Windows username.</span><br><span class="line">For more information visit: https://aka.ms/wslusers</span><br><span class="line">Enter new UNIX username:   输入你的用户名</span><br><span class="line">New password:              设置密码，此处输入的密码是隐藏的</span><br><span class="line">Retype new password:       再次设置密码，同上</span><br><span class="line">passwd: password updated successfully</span><br><span class="line">Installation successful!</span><br></pre></td></tr></table></figure></div>
-
-
-  <div class="note-large yellow">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-exclamation"></i><p>注意</p>
-
-    </div>
-    <div class="notel-content">
-      <p>当你完成如上安装操作后，如果你忘记了自己设置的密码，可以通过以下方法：</p>
-<p>打开 Powershell，并以 <code>root</code> 用户身份运行，命令如下：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>若需要指定一个发行版，请直接执行：<code>wsl -d &lt;发行版名称&gt; -u root</code></p>
-</blockquote>
-<p>然后再在终端中输入以下命令，即可重置密码。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">passwd &lt;用户名&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>其中的 <code>&lt;用户名&gt;</code> 即为你设置的用户名。</p>
-
-    </div>
-  </div>
-
-<h1 id="WSL-使用方法与技巧"><a href="#WSL-使用方法与技巧" class="headerlink" title="WSL 使用方法与技巧"></a>WSL 使用方法与技巧</h1><h2 id="命令行操作"><a href="#命令行操作" class="headerlink" title="命令行操作"></a>命令行操作</h2><p>WSL 支持在 Powershell 下进行管理。以下仅介绍几条较有用且常用的 WSL 命令：</p>
-<p><strong>（1）如何安装 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>其中，<code>&lt;发行版名称&gt;</code> 即为你要安装的 Linux 发行版名称，例如，若要安装 Ubuntu 24.04 LTS，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（2）查看所有当前可用的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--online</span></span><br></pre></td></tr></table></figure></div>
-
-<p>或者，使用 <code>wsl -l -o</code> 代替。</p>
-<p><strong>（3）列出所有 Linux 发行版的运行状态</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--list</span> <span class="literal">--verbose</span></span><br></pre></td></tr></table></figure></div>
-
-<p>或者，使用 <code>wsl -l -v</code> 代替。</p>
-<p><strong>（4）启动默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl</span><br></pre></td></tr></table></figure></div>
-
-<p>若需要指定一个发行版，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（5）停止默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
-
-<p>若需要指定一个发行版，则执行如下命令：</p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--terminate</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>（6）设置默认的 Linux 发行版</strong></p>
-<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">wsl <span class="literal">--set-default</span> &lt;发行版名称&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="图形化操作"><a href="#图形化操作" class="headerlink" title="图形化操作"></a>图形化操作</h2><p>如果你觉得以上命令行操作有些许繁琐，那么你可以安装一个图形化管理 WSL 的工具。本文将仅推荐在 Microsoft Store 上下载的两款管理 WSL 的工具。</p>
-<p><strong>WSL Tray Monitor - WSL 系统托盘监控工具</strong></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9p781rw2vm6g?hl=zh-cn&gl=CN' title='WSL Tray Monitor 下载安装'><i class='fa-brands fa-windows'></i> WSL Tray Monitor 下载安装</a>
-
-<p>你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。</p>
-<p>在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。</p>
-<img loading="lazy" src="/images/2024/0606/3.jpg" alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%">
-
-<p><strong>WSL Toolbox - 图形化管理 WSL 的工具箱</strong></p>
-<a class="button  center large" href='https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&gl=CN' title='WSL Toolbox 下载安装'><i class='fa-brands fa-windows'></i> WSL Toolbox 下载安装</a>
-
-<p>WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。</p>
-<p>但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。</p>
-<img loading="lazy" src="/images/2024/0606/2.jpg" alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%">
-
-<h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：</p>
-<img loading="lazy" src="/images/2024/0606/4.jpg" alt="在资源管理器中访问 Linux" style="width: 80%">
-
-<h2 id="使用-Visual-Studio-Code-开发"><a href="#使用-Visual-Studio-Code-开发" class="headerlink" title="使用 Visual Studio Code 开发"></a>使用 Visual Studio Code 开发</h2><p>如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。</p>
-<p>你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。</p>
-<p><img loading="lazy" src="/images/2024/0606/5.jpg" alt="在 WSL 中打开项目"></p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。</p>
-
-  <div class="note-large green">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>参考链接</p>
-
-    </div>
-    <div class="notel-content">
-      <ul>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/install" >https://learn.microsoft.com/zh-cn/windows/wsl/install <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-
-    </div>
-  </div>
-
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>新手向</tag>
-        <tag>Linux</tag>
-        <tag>Windows</tag>
-        <tag>WSL</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
     <url>/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<p>Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。</p>
@@ -3082,55 +3108,152 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>关于我的博客</title>
-    <url>/2024/06/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个由个人独自用 Hexo 框架所搭建的个人博客网站。该网站托管于 Github 中（Github Pages）。文章正在不断更新中，内容也在尽可能地丰富。</p>
-<h1 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h1><p>我已是专科毕业且成功升入本科的大学生，现在正在努力学习各种技术。</p>
-<h1 id="为什么要有自己的博客？"><a href="#为什么要有自己的博客？" class="headerlink" title="为什么要有自己的博客？"></a>为什么要有自己的博客？</h1><p>简而言之，本人纯粹是为了写点各种想写的文章。什么样的类型都有，有软件安利、技术教程、博客搭建以及学习笔记等等。这么做的目的，一方面是为了养成随时写博客的习惯，其次是为了可以通过博客，可以看到自己的点点滴滴💧💧。</p>
-<h1 id="博客何时更新？"><a href="#博客何时更新？" class="headerlink" title="博客何时更新？"></a>博客何时更新？</h1><p>博客的更新频率最快能做到每周更新两三次（可能每隔两三天会做一次更新），最慢有可能是一两周会更新数次。具体更新频率可能会根据个人的情况而定。</p>
-<p>目前正在更新文章的平台主要是：知乎、B 站（目前在 B 站上不知道应该更新什么内容）</p>
-<p>回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新<strong>（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）</strong></p>
-<h1 id="博客有什么类型的内容吗？"><a href="#博客有什么类型的内容吗？" class="headerlink" title="博客有什么类型的内容吗？"></a>博客有什么类型的内容吗？</h1><p>见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。</p>
-<p>当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O</p>
-<h1 id="如何订阅我的-RSS-频道？"><a href="#如何订阅我的-RSS-频道？" class="headerlink" title="如何订阅我的 RSS 频道？"></a>如何订阅我的 RSS 频道？</h1><p>你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：</p>
-<a class="button  regular" href='/feed' title='RSS 订阅'><i class='fa-solid fa-rss'></i> RSS 订阅</a>
-
-<h1 id="如何找到我？"><a href="#如何找到我？" class="headerlink" title="如何找到我？"></a>如何找到我？</h1><p>你可以通过以下几个平台来私信我：</p>
-<a class="button  regular" href='https://www.zhihu.com/people/catisnotfound' title='知乎主页'><i class='fa-brands fa-zhihu'></i> 知乎主页</a>
-
-<a class="button  regular" href='https://space.bilibili.com/1896645285' title='B 站主页'><i class='fa-brands fa-bilibili'></i> B 站主页</a>
-
-<a class="button  regular" href='https://github.com/CatIsNotFound' title='GitHub'><i class='fa-brands fa-github'></i> GitHub</a>
-<p>或者你可以通过其它私人途径来联系我：</p>
-<img loading="lazy" src="/images/QQ.jpg" alt="QQ" width="300px">]]></content>
-      <tags>
-        <tag>关于博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[Solved] 【MC生存】插火把</title>
-    <url>/2024/09/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/</url>
-    <content><![CDATA[<h1 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h1><p>大致思路：你需要知道地图大小、火把个数、萤石个数，并初始化地图，然后根据用户输入的火把（或萤石）坐标，并根据对应的照亮范围点亮，剩余未点亮的部分（暗区）将出现怪物。</p>
-<p>因此有了大致的流程图：</p>
-<img loading="lazy" src="/images/2024/0912/01.png" alt="流程图" style="width: 50%;">
-
-<p>💡 <strong>关于点亮范围的实现方法</strong>：</p>
-<ul>
-<li>火把：可以通过遍历 for 循环来分别实现横向 / 纵向点亮火把所在方位，剩余附近部分则单独点亮；</li>
-<li>萤石：通过两层嵌套 for 循环将萤石附近区域点亮。</li>
-</ul>
-<h1 id="代码参考"><a href="#代码参考" class="headerlink" title="代码参考"></a>代码参考</h1><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">{</span><br><span class="line">    <span class="type">int</span> n, m, k;</span><br><span class="line">    <span class="type">int</span> mX, mY, kX, kY;</span><br><span class="line">    <span class="type">int</span> zombie = <span class="number">0</span>;</span><br><span class="line">    <span class="comment">// 初始设置：地图大小、火把数、萤石数</span></span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d %d %d"</span>, &amp;n, &amp;m, &amp;k);</span><br><span class="line">    <span class="comment">// 创建地图</span></span><br><span class="line">    <span class="type">int</span> <span class="built_in">map</span>[<span class="number">105</span>][<span class="number">105</span>];</span><br><span class="line">    <span class="comment">// 开始前所有格都是暗格</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j++)</span><br><span class="line">        {</span><br><span class="line">            <span class="built_in">map</span>[i][j] = <span class="number">0</span>; <span class="comment">// 0 = 暗</span></span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++) {</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>, &amp;mX, &amp;mY);</span><br><span class="line">        <span class="comment">// 点亮火把范围</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> x = mX - <span class="number">3</span>; x &lt; mX + <span class="number">2</span>; x++)</span><br><span class="line">        {</span><br><span class="line">            <span class="built_in">map</span>[x][mY<span class="number">-1</span>] = <span class="number">1</span>;</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> y = mY - <span class="number">3</span>; y &lt; mY + <span class="number">2</span>; y++)</span><br><span class="line">        {</span><br><span class="line">            <span class="built_in">map</span>[mX<span class="number">-1</span>][y] = <span class="number">1</span>;</span><br><span class="line">        }</span><br><span class="line">        <span class="comment">// 点亮火把附近</span></span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> - <span class="number">1</span>][mY - <span class="number">1</span> - <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> - <span class="number">1</span>][mY - <span class="number">1</span> + <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> + <span class="number">1</span>][mY - <span class="number">1</span> - <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> + <span class="number">1</span>][mY - <span class="number">1</span> + <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; k; i++)</span><br><span class="line">    {</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>, &amp;kX, &amp;kY);</span><br><span class="line">        <span class="comment">// 点亮萤石范围</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> x = kX - <span class="number">3</span>; x &lt; kX + <span class="number">2</span>; x++)</span><br><span class="line">        {</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> y = kY - <span class="number">3</span>; y &lt; kY + <span class="number">2</span>; y++)</span><br><span class="line">            {</span><br><span class="line">                <span class="built_in">map</span>[x][y] = <span class="number">1</span>;</span><br><span class="line">            }</span><br><span class="line">            </span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="comment">// 生成怪物数</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j++)</span><br><span class="line">        {</span><br><span class="line">            <span class="comment">// printf("%d,", map[i][j]);</span></span><br><span class="line">            <span class="keyword">if</span> (<span class="built_in">map</span>[i][j] == <span class="number">0</span>)</span><br><span class="line">            {</span><br><span class="line">                zombie++;</span><br><span class="line">            }</span><br><span class="line">            </span><br><span class="line">        }</span><br><span class="line">        <span class="comment">// printf("\n");</span></span><br><span class="line">    }</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>, zombie);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
-
+    <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
+    <url>/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>很久没有写关于系统体验的文章了，这次体验的 Linux 发行版是 Pop_OS! 24.04，其主要默认的桌面环境为 Cosmic。</p>
+<p>Cosmic 是 System76 团队开发的全新的桌面环境，其目的是构建一个自定义的操作界面。以下为引用：</p>
+<p><img loading="lazy" src="/images/2024/0815/cover.jpg"></p>
 <blockquote>
-<p>提示：代码部分仅作为参考，可直接在原有基础上再度优化或简化。</p>
+<p><em>We aim to liberate the computer with a new desktop environment powerful enough to build custom OS experiences — for users, developers, and makers of any device with a screen.</em></p>
+<p>我们的目标是通过一个足够强大的新桌面环境来解放计算机，为任何带屏幕的设备的用户、开发人员和制造商构建自定义操作系统体验。</p>
 </blockquote>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="Step-1-下载镜像"><a href="#Step-1-下载镜像" class="headerlink" title="Step 1: 下载镜像"></a>Step 1: 下载镜像</h2><p>现如今，Cosmic 桌面环境正处于测试阶段（使用过程中会有 Bug）。我们可以通过官网下载其安装镜像，下载链接在正下方：</p>
+<ul>
+<li><a class="link"   href="https://system76.com/cosmic" >System76 - Linux Laptops, Desktops, and Servers <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<p>点击上文提到的链接，进入官网，下拉找到 <em>Try COSMIC Epoch 1 (alpha 1) on the Pop!_OS 24.04 LTS alpha.</em> 一行，根据自己的 CPU 或显卡配置，按需下载 ISO 镜像即可。</p>
+<p><strong>注意：国内下载速度缓慢，建议使用第三方下载工具下载镜像。</strong></p>
+<h2 id="Step-2-刻录系统"><a href="#Step-2-刻录系统" class="headerlink" title="Step 2: 刻录系统"></a>Step 2: 刻录系统</h2><p>提示：如果你尝试使用虚拟机安装（如：VMware、Virtualbox、Qemu 等），请忽略此步并创建虚拟机即可。</p>
+<p>需要注意的是，若使用虚拟机过程中无法正常进入桌面，请尝试<strong>开启 3D 图形加速</strong>，或提高其运行内存 <strong>（建议： ≥ 4GB）</strong>。</p>
+<p>这里推荐以下软件：</p>
+<ul>
+<li><p><a class="link"   href="https://www.ventoy.net/cn/download.html" >Ventoy <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件</p>
+</li>
+<li><p><a class="link"   href="https://rufus.ie/zh/" >Rufus <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款轻松创建 USB 启动盘的工具</p>
+</li>
+<li><p><a class="link"   href="https://etcher.balena.io/" >balenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款更为简单的烧录软件</p>
+</li>
+</ul>
+<p>下载安装后，仅需插入 U 盘，然后选择需要烧录的 ISO 镜像，等待几分钟即可。这里不过多赘述。</p>
+<h1 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h1><p>经过两三个小时的使用体验，可以发现 Cosmic 桌面有以下个人认为比较不错的亮点：</p>
+<h2 id="桌面与登录界面"><a href="#桌面与登录界面" class="headerlink" title="桌面与登录界面"></a>桌面与登录界面</h2><p>整体外观样式与前一桌面环境（GNOME）有所不同，如下图：</p>
+<p><img loading="lazy" src="/images/2024/0815/1.png"><br><img loading="lazy" src="/images/2024/0815/2.png"></p>
+<h2 id="平铺窗口"><a href="#平铺窗口" class="headerlink" title="平铺窗口"></a>平铺窗口</h2><p>首先，最为实用的功能，就是 Cosmic 自带的<strong>平铺窗口管理</strong>。</p>
+<h3 id="1-开启平铺窗口"><a href="#1-开启平铺窗口" class="headerlink" title="1. 开启平铺窗口"></a>1. 开启平铺窗口</h3><p>只需要在顶部栏的右方点击窗口按钮，并开启平铺窗口即可。当然你还可以直接设置新工作区默认使用的窗口模式。如下图操作：</p>
+<p><img loading="lazy" src="/images/2024/0815/w1.gif"></p>
+<h3 id="2-窗口快速开启或关闭"><a href="#2-窗口快速开启或关闭" class="headerlink" title="2. 窗口快速开启或关闭"></a>2. 窗口快速开启或关闭</h3><p>你可以在下方 Dock 栏处使用鼠标中键疯狂点击 [Cosmic 终端]，也可以按下快捷键 <kbd>Super</kbd> + <kbd>Q</kbd> 快速关闭所有窗口。</p>
+<p><img loading="lazy" src="/images/2024/0815/w2.gif"></p>
+<h3 id="3-窗口拖拽"><a href="#3-窗口拖拽" class="headerlink" title="3. 窗口拖拽"></a>3. 窗口拖拽</h3><p>在窗口移动方面，你可以直接使用鼠标拖拽窗口与窗口之间的大小，同时还可以拖拽窗口到其它位置。</p>
+<p><img loading="lazy" src="/images/2024/0815/w3.gif"></p>
+<p>不仅如此，多个窗口可以组成 [堆叠窗口]，只需要将鼠标点击任意窗口并拖拽至其它窗口上，便能堆叠窗口（也就是<strong>多标签页窗口</strong>）。</p>
+<p><img loading="lazy" src="/images/2024/0815/w4.gif"></p>
+<h2 id="Launcher-启动器"><a href="#Launcher-启动器" class="headerlink" title="Launcher 启动器"></a>Launcher 启动器</h2><p>Cosmic 桌面环境提供了一种叫做 [Cosmic Launcher] 的功能，可以快速启动常用文件、搜索文件、计算器、网页搜索等功能。默认设置下，直接按下 <kbd>Super</kbd> + <kbd>/</kbd> 键（即 <kbd>Windows</kbd> + <kbd>/</kbd> 键）以呼出搜索栏。如下图：</p>
+<p><img loading="lazy" src="/images/2024/0815/l.gif"></p>
+<p><strong>使用方法：</strong></p>
+<ol>
+<li><p>直接在搜索栏上输入应用程序名称</p>
+</li>
+<li><p>在搜索栏输入：<code>~</code> 或者 <code>/</code>，可直接按文件路径打开所需文件。</p>
+</li>
+<li><p>在搜索栏输入：<code>run &lt;command&gt;</code> &#x2F; <code>t:&lt;command&gt;</code> 可直接打开终端并执行命令</p>
+</li>
+<li><p>在搜索栏输入：<code>:&lt;command&gt;</code> 可直接在后台执行命令</p>
+</li>
+<li><p>网页搜索</p>
+<ul>
+<li><code>bing &lt;keyword&gt;</code> 可直接使用 bing 搜索</li>
+<li><code>ddk &lt;keyword&gt;</code> 可直接使用 DuckDuckGo 搜索</li>
+<li><code>google &lt;keyword&gt;</code> 可直接使用 Google 搜索</li>
+</ul>
+</li>
+<li><p>在搜索栏输入算式，会自动计算</p>
+</li>
+<li><p>更多功能，请直接在搜索栏中输入 <code>?</code> 查看所有可用选项。</p>
+</li>
+</ol>
+<h2 id="实用快捷键"><a href="#实用快捷键" class="headerlink" title="实用快捷键"></a>实用快捷键</h2><p>关于窗口与工作区管理，你还可以使用以下比较实用的快捷键，这对于日常使用来说非常有用。</p>
+<p>注意：以下的 <kbd>Super</kbd> 键为 <kbd>Windows</kbd> 键。</p>
+<ul>
+<li><p>管理窗口&#x2F;工作区</p>
+<ul>
+<li><p><kbd>Super</kbd> + 任意方向键：选择窗口（激活窗口焦点）</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>Alt</kbd> + 任意方向键：切换工作区</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>Tab</kbd> 或 <kbd>Alt</kbd> + <kbd>Tab</kbd>：切换窗口</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>Q</kbd>：关闭当前窗口</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>M</kbd>：最大化当前窗口</p>
+</li>
+</ul>
+</li>
+<li><p>移动窗口</p>
+<ul>
+<li><p><kbd>Super</kbd> + <kbd>Shift</kbd> + 任意方向键：移动窗口</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + 任意方向键：将窗口移动到其它工作区</p>
+</li>
+</ul>
+</li>
+<li><p>其它快捷键</p>
+<ul>
+<li><p><kbd>Super</kbd> + <kbd>Esc</kbd>：锁屏</p>
+</li>
+<li><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Delete</kbd>：注销会话</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>F</kbd>：打开文件管理器</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>B</kbd>：打开默认浏览器</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>T</kbd>：打开终端</p>
+</li>
+<li><p><kbd>Super</kbd> + <kbd>A</kbd>：打开应用程序菜单</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="不足之处-已发现的-Bugs"><a href="#不足之处-已发现的-Bugs" class="headerlink" title="不足之处 &amp; 已发现的 Bugs"></a>不足之处 &amp; 已发现的 Bugs</h1><p>正如前文所提到，Cosmic 桌面环境目前处于测试阶段，很容易能从中发现 Bug 以及不足之处。总结起来有以下几点：</p>
+<ul>
+<li><p><strong>设置页面不完善</strong>：缺少 [账户]、[蓝牙]、[网络]、[声音]、[区域与语言] 等基本页面；</p>
+</li>
+<li><p><strong>工作区存在 Bug</strong>：</p>
+<ul>
+<li>当拥有两个以上的工作区且打开不同的窗口时，点击 [工作区] 菜单，会出现缩略图闪烁等问题；</li>
+<li>多个窗口同时在同一工作区内时，窗口只横向排列，导致部分窗口无法直接拖拽至其它工作区。</li>
+</ul>
+</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0815/e.gif"></p>
+<ul>
+<li><p><strong>关于 Launcher 启动器</strong>：</p>
+<ul>
+<li>首先在使用网页搜索时，不支持国内的搜索引擎（如：<code>baidu</code>, <code>sogou</code>）。在搜索栏下只能使用 <code>bing</code> 搜索。</li>
+<li>搜索文件时，部分未知文件不能直接打开。</li>
+<li>输入 <code>?</code> 查看帮助时，显示仍为英文。</li>
+</ul>
+</li>
+<li><p><strong>输入法无法使用</strong>：尝试使用过 ibus、fcitx5 等输入法引擎，不能直接安装并使用。不知怎么解决？</p>
+</li>
+<li><p><strong>软件商店无法使用</strong>：在安装完 Cosmic 桌面环境后，打开的软件商店是完全空白的，无法显示任何内容。</p>
+</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0815/5.png"></p>
+<ul>
+<li><strong>自带软件语言显示错误</strong>：系统已设置为 <code>zh_CN.UTF-8</code> 语言布局（简体中文），但显示如：Cosmic Text Editor、Cosmic Files等软件时显示繁体中文。如下截图：</li>
+</ul>
+<p><img loading="lazy" src="/images/2024/0815/6.png"></p>
+<p>最后，希望开发团队能尽力出正式版。(*^_^*)</p>
 ]]></content>
       <categories>
-        <category>刷题TODO</category>
+        <category>系统体验</category>
       </categories>
       <tags>
-        <tag>💡解题</tag>
-        <tag>C/C++</tag>
+        <tag>Linux</tag>
+        <tag>桌面环境</tag>
+        <tag>系统体验</tag>
+        <tag>Pop_OS!</tag>
+        <tag>Cosmic</tag>
       </tags>
   </entry>
   <entry>
@@ -3476,6 +3599,91 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
+    <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
+    <url>/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h1><blockquote>
+<p><strong>💡 提示:</strong> </p>
+<p>本文章所提到的软件均为博主曾经使用过的软件，部分软件可能为收费版本，请自行通过官方渠道购买。</p>
+</blockquote>
+<p><img loading="lazy" src="https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp" alt="cover"></p>
+<p>现如今，大多数拥有电脑的人都正在使用 Windows 系统。下面，博主将推荐以下几款个人认为值得安利的电脑软件。</p>
+<p>如果以下提到的软件你都曾经使用过或者不感兴趣，那么请去阅读上期的软件安利。</p>
+<a class="button  center large" href='/2024/05/26/软件安利-推荐几款在-Microsoft-Store-上的软件' title='软件安利：安利几款在 Microsoft Store 上的软件'><i class='fas fa-link'></i> 软件安利：安利几款在 Microsoft Store 上的软件</a> 
+
+
+<h1 id="1、Everything-文件搜索工具"><a href="#1、Everything-文件搜索工具" class="headerlink" title="1、Everything (文件搜索工具)"></a>1、Everything (文件搜索工具)</h1><p><img loading="lazy" src="/images/2024/0801/everything.jpg" alt="everything"></p>
+<p>这是一款非常强大的文件搜索工具，它不仅可以快速搜索具体的文件，还能搜索文件中的关键字。它支持多种文件格式，包括图片、音频、视频、压缩包等。</p>
+<p>下载地址：<a class="link"   href="https://www.voidtools.com/" >https://www.voidtools.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="2、Bandizip-压缩工具"><a href="#2、Bandizip-压缩工具" class="headerlink" title="2、Bandizip (压缩工具)"></a>2、Bandizip (压缩工具)</h1><p><img loading="lazy" src="/images/2024/0801/bandizip.jpg" alt="bandizip"></p>
+<p>Bandizip 是一款非常好用的压缩工具，它支持多种压缩格式，包括 ZIP、RAR、7z、BZIP2、TAR 等压缩格式。对比 Windows 自带的压缩工具，Bandizip 的功能更加强大，而且界面简洁。</p>
+<p>下载地址：<a class="link"   href="https://www.bandisoft.com/bandizip/" >https://www.bandisoft.com/bandizip/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="3、Free-Download-Manager-下载管理器"><a href="#3、Free-Download-Manager-下载管理器" class="headerlink" title="3、Free Download Manager (下载管理器)"></a>3、Free Download Manager (下载管理器)</h1><p><img loading="lazy" src="/images/2024/0801/fdm.jpg" alt="freedownloadmanager"></p>
+<p>如果你曾经使用过迅雷、IDM 等下载管理器，那么建议去试试 Free Download Manager。它是一款开源免费的下载管理器，功能强大，界面简洁。</p>
+<p>下载地址：<a class="link"   href="https://www.freedownloadmanager.org/" >https://www.freedownloadmanager.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="4、Motrix-下载加速器"><a href="#4、Motrix-下载加速器" class="headerlink" title="4、Motrix (下载加速器)"></a>4、Motrix (下载加速器)</h1><p><img loading="lazy" src="/images/2024/0801/motrix.jpg" alt="motrix"></p>
+<p>同样地，如果你对 Free Download Manager 存在不满，那么可以试试 Motrix。它是一款开源免费的下载加速器，功能强大，界面简洁。同时还支持安装浏览器扩展，安装之后，仅需点击对应的下载链接并使用 Motrix 下载，就可以自动识别并下载。</p>
+<p>下载地址：<a class="link"   href="https://motrix.app/download" >https://motrix.app/download <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="5、图吧工具箱（硬件检测工具合集）"><a href="#5、图吧工具箱（硬件检测工具合集）" class="headerlink" title="5、图吧工具箱（硬件检测工具合集）"></a>5、图吧工具箱（硬件检测工具合集）</h1><p><img loading="lazy" src="/images/2024/0801/tbtool.jpg" alt="tbtool"></p>
+<p>图吧工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为所有计算机硬件极客、DIY爱好者、各路大神及小白制作。集成大量常见硬件检测、评分工具，一键下载、方便使用。</p>
+<p>下载地址：<a class="link"   href="https://www.tbtool.cn/" >https://www.tbtool.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="6、uTools（新一代效率工具平台）"><a href="#6、uTools（新一代效率工具平台）" class="headerlink" title="6、uTools（新一代效率工具平台）"></a>6、uTools（新一代效率工具平台）</h1><p><img loading="lazy" src="/images/2024/0801/utools.jpg" alt="utools"></p>
+<p>一款非常强大的效率工具软件，它不仅支持搜索本机中的应用、使用不同的搜索引擎搜索关键词，还支持通过下载各种所需插件，实现各种功能。</p>
+<p>下载地址：<a class="link"   href="https://u.tools/download/" >https://u.tools/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="7、ToDesk（远程控制软件）"><a href="#7、ToDesk（远程控制软件）" class="headerlink" title="7、ToDesk（远程控制软件）"></a>7、ToDesk（远程控制软件）</h1><p><img loading="lazy" src="/images/2024/0801/todesk.jpg" alt="todesk"></p>
+<p>ToDesk 是一款远程控制软件，它可以让你通过网络远程控制你的电脑，可以实现各种控制功能，包括键盘鼠标、屏幕、音频、摄像头、文件传输等。</p>
+<p>下载地址：<a class="link"   href="https://www.todesk.com/download/" >https://www.todesk.com/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="8、bitDock-极简工具栏"><a href="#8、bitDock-极简工具栏" class="headerlink" title="8、bitDock (极简工具栏)"></a>8、bitDock (极简工具栏)</h1><p><img loading="lazy" src="/images/2024/0801/bitdock.png" alt="bitdock"></p>
+<p>bitDock 是一款极简工具栏，它不仅可以通过鼠标拖拽的方式自定义添加你最常用的应用程序或文件夹，还拥有天气预报、搜索、截图、取色、日历时钟、天气等超过20款桌面插件，更容易美化自己的桌面。</p>
+<p>下载地址：<a class="link"   href="https://bitdock.com/download/" >https://bitdock.com/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="9、StartIsBack-经典开始菜单与任务栏"><a href="#9、StartIsBack-经典开始菜单与任务栏" class="headerlink" title="9、StartIsBack (经典开始菜单与任务栏)"></a>9、StartIsBack (经典开始菜单与任务栏)</h1><p><img loading="lazy" src="/images/2024/0801/startisback.jpg" alt="startisback"></p>
+<p>StartIsBack 是一款专为win8、win10、win11 用户设计的实用优化工具。startisback主要用来优化用户电脑开始菜单，使用户能快速找到自己最熟悉的按钮，并可以在各种电脑模式下自由切换，大大提高 Windows 用户事务处理效率。</p>
+<p>下载地址：<a class="link"   href="https://startisback.com/" >https://startisback.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="10、Geek-Uninstaller-软件卸载工具"><a href="#10、Geek-Uninstaller-软件卸载工具" class="headerlink" title="10、Geek Uninstaller (软件卸载工具)"></a>10、Geek Uninstaller (软件卸载工具)</h1><p><img loading="lazy" src="/images/2024/0801/geek.jpg" alt="geek"></p>
+<p>geek 即“极客”的意思，这是一款无比强大的卸载软件，它界面简单不复杂，体积小巧，无需安装，点开即可使用。geek就和它的名字一样，卸载任何软件都干脆利落，不管你是大佬还是流氓，统统一键卸载搞定，并且卸载完还会自动删除相应的注册表文件，不会拖泥带水。</p>
+<p>下载地址：<a class="link"   href="https://geekuninstaller.com/download" >https://geekuninstaller.com/download <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="11、CleanMyPC-系统清理工具"><a href="#11、CleanMyPC-系统清理工具" class="headerlink" title="11、CleanMyPC (系统清理工具)"></a>11、CleanMyPC (系统清理工具)</h1><p><img loading="lazy" src="/images/2024/0801/cleanmypc.jpg" alt="cleanmypc"></p>
+<p>CleanMyPC, 字面理解就是 “清理我的PC”，这是一款系统清理工具，界面简单，功能小巧，可以清理系统垃圾、卸载应用程序、修改启动项、清理浏览器隐私等。遇到删除不了的文件或文件夹，可以使用碎纸机来强制删除。</p>
+<p>下载地址：<a class="link"   href="https://macpaw.com/zh/download/cleanmypc" >https://macpaw.com/zh/download/cleanmypc <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="12、微软电脑管家（系统优化工具）"><a href="#12、微软电脑管家（系统优化工具）" class="headerlink" title="12、微软电脑管家（系统优化工具）"></a>12、微软电脑管家（系统优化工具）</h1><p><img loading="lazy" src="/images/2024/0801/msconfig.jpg" alt="msconfig"></p>
+<p>微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。</p>
+<p>下载地址：<a class="link"   href="https://pcmanager.microsoft.com/zh-cn" >https://pcmanager.microsoft.com/zh-cn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>软件安利</category>
+      </categories>
+      <tags>
+        <tag>新手向</tag>
+        <tag>软件安利</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Solved] 【MC生存】插火把</title>
+    <url>/2024/09/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/</url>
+    <content><![CDATA[<h1 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h1><p>大致思路：你需要知道地图大小、火把个数、萤石个数，并初始化地图，然后根据用户输入的火把（或萤石）坐标，并根据对应的照亮范围点亮，剩余未点亮的部分（暗区）将出现怪物。</p>
+<p>因此有了大致的流程图：</p>
+<img loading="lazy" src="/images/2024/0912/01.png" alt="流程图" style="width: 50%;">
+
+<p>💡 <strong>关于点亮范围的实现方法</strong>：</p>
+<ul>
+<li>火把：可以通过遍历 for 循环来分别实现横向 / 纵向点亮火把所在方位，剩余附近部分则单独点亮；</li>
+<li>萤石：通过两层嵌套 for 循环将萤石附近区域点亮。</li>
+</ul>
+<h1 id="代码参考"><a href="#代码参考" class="headerlink" title="代码参考"></a>代码参考</h1><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">{</span><br><span class="line">    <span class="type">int</span> n, m, k;</span><br><span class="line">    <span class="type">int</span> mX, mY, kX, kY;</span><br><span class="line">    <span class="type">int</span> zombie = <span class="number">0</span>;</span><br><span class="line">    <span class="comment">// 初始设置：地图大小、火把数、萤石数</span></span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d %d %d"</span>, &amp;n, &amp;m, &amp;k);</span><br><span class="line">    <span class="comment">// 创建地图</span></span><br><span class="line">    <span class="type">int</span> <span class="built_in">map</span>[<span class="number">105</span>][<span class="number">105</span>];</span><br><span class="line">    <span class="comment">// 开始前所有格都是暗格</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j++)</span><br><span class="line">        {</span><br><span class="line">            <span class="built_in">map</span>[i][j] = <span class="number">0</span>; <span class="comment">// 0 = 暗</span></span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++) {</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>, &amp;mX, &amp;mY);</span><br><span class="line">        <span class="comment">// 点亮火把范围</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> x = mX - <span class="number">3</span>; x &lt; mX + <span class="number">2</span>; x++)</span><br><span class="line">        {</span><br><span class="line">            <span class="built_in">map</span>[x][mY<span class="number">-1</span>] = <span class="number">1</span>;</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> y = mY - <span class="number">3</span>; y &lt; mY + <span class="number">2</span>; y++)</span><br><span class="line">        {</span><br><span class="line">            <span class="built_in">map</span>[mX<span class="number">-1</span>][y] = <span class="number">1</span>;</span><br><span class="line">        }</span><br><span class="line">        <span class="comment">// 点亮火把附近</span></span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> - <span class="number">1</span>][mY - <span class="number">1</span> - <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> - <span class="number">1</span>][mY - <span class="number">1</span> + <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> + <span class="number">1</span>][mY - <span class="number">1</span> - <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">map</span>[mX - <span class="number">1</span> + <span class="number">1</span>][mY - <span class="number">1</span> + <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; k; i++)</span><br><span class="line">    {</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>, &amp;kX, &amp;kY);</span><br><span class="line">        <span class="comment">// 点亮萤石范围</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> x = kX - <span class="number">3</span>; x &lt; kX + <span class="number">2</span>; x++)</span><br><span class="line">        {</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> y = kY - <span class="number">3</span>; y &lt; kY + <span class="number">2</span>; y++)</span><br><span class="line">            {</span><br><span class="line">                <span class="built_in">map</span>[x][y] = <span class="number">1</span>;</span><br><span class="line">            }</span><br><span class="line">            </span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="comment">// 生成怪物数</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j++)</span><br><span class="line">        {</span><br><span class="line">            <span class="comment">// printf("%d,", map[i][j]);</span></span><br><span class="line">            <span class="keyword">if</span> (<span class="built_in">map</span>[i][j] == <span class="number">0</span>)</span><br><span class="line">            {</span><br><span class="line">                zombie++;</span><br><span class="line">            }</span><br><span class="line">            </span><br><span class="line">        }</span><br><span class="line">        <span class="comment">// printf("\n");</span></span><br><span class="line">    }</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>, zombie);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>提示：代码部分仅作为参考，可直接在原有基础上再度优化或简化。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>刷题TODO</category>
+      </categories>
+      <tags>
+        <tag>💡解题</tag>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>[Solved] 赵神牛的游戏（解题历程）</title>
     <url>/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</url>
     <content><![CDATA[<a class="button  center large" href="https://www.luogu.com.cn/problem/P2006" title="点击这里查看题目来源"><i class="fas fa-link"></i> 点击这里查看题目来源</a>
@@ -3776,155 +3984,6 @@ B -- False --> 执行语句2
       </tags>
   </entry>
   <entry>
-    <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
-    <url>/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>很久没有写关于系统体验的文章了，这次体验的 Linux 发行版是 Pop_OS! 24.04，其主要默认的桌面环境为 Cosmic。</p>
-<p>Cosmic 是 System76 团队开发的全新的桌面环境，其目的是构建一个自定义的操作界面。以下为引用：</p>
-<p><img loading="lazy" src="/images/2024/0815/cover.jpg"></p>
-<blockquote>
-<p><em>We aim to liberate the computer with a new desktop environment powerful enough to build custom OS experiences — for users, developers, and makers of any device with a screen.</em></p>
-<p>我们的目标是通过一个足够强大的新桌面环境来解放计算机，为任何带屏幕的设备的用户、开发人员和制造商构建自定义操作系统体验。</p>
-</blockquote>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="Step-1-下载镜像"><a href="#Step-1-下载镜像" class="headerlink" title="Step 1: 下载镜像"></a>Step 1: 下载镜像</h2><p>现如今，Cosmic 桌面环境正处于测试阶段（使用过程中会有 Bug）。我们可以通过官网下载其安装镜像，下载链接在正下方：</p>
-<ul>
-<li><a class="link"   href="https://system76.com/cosmic" >System76 - Linux Laptops, Desktops, and Servers <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<p>点击上文提到的链接，进入官网，下拉找到 <em>Try COSMIC Epoch 1 (alpha 1) on the Pop!_OS 24.04 LTS alpha.</em> 一行，根据自己的 CPU 或显卡配置，按需下载 ISO 镜像即可。</p>
-<p><strong>注意：国内下载速度缓慢，建议使用第三方下载工具下载镜像。</strong></p>
-<h2 id="Step-2-刻录系统"><a href="#Step-2-刻录系统" class="headerlink" title="Step 2: 刻录系统"></a>Step 2: 刻录系统</h2><p>提示：如果你尝试使用虚拟机安装（如：VMware、Virtualbox、Qemu 等），请忽略此步并创建虚拟机即可。</p>
-<p>需要注意的是，若使用虚拟机过程中无法正常进入桌面，请尝试<strong>开启 3D 图形加速</strong>，或提高其运行内存 <strong>（建议： ≥ 4GB）</strong>。</p>
-<p>这里推荐以下软件：</p>
-<ul>
-<li><p><a class="link"   href="https://www.ventoy.net/cn/download.html" >Ventoy <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件</p>
-</li>
-<li><p><a class="link"   href="https://rufus.ie/zh/" >Rufus <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款轻松创建 USB 启动盘的工具</p>
-</li>
-<li><p><a class="link"   href="https://etcher.balena.io/" >balenaEtcher <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：一款更为简单的烧录软件</p>
-</li>
-</ul>
-<p>下载安装后，仅需插入 U 盘，然后选择需要烧录的 ISO 镜像，等待几分钟即可。这里不过多赘述。</p>
-<h1 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h1><p>经过两三个小时的使用体验，可以发现 Cosmic 桌面有以下个人认为比较不错的亮点：</p>
-<h2 id="桌面与登录界面"><a href="#桌面与登录界面" class="headerlink" title="桌面与登录界面"></a>桌面与登录界面</h2><p>整体外观样式与前一桌面环境（GNOME）有所不同，如下图：</p>
-<p><img loading="lazy" src="/images/2024/0815/1.png"><br><img loading="lazy" src="/images/2024/0815/2.png"></p>
-<h2 id="平铺窗口"><a href="#平铺窗口" class="headerlink" title="平铺窗口"></a>平铺窗口</h2><p>首先，最为实用的功能，就是 Cosmic 自带的<strong>平铺窗口管理</strong>。</p>
-<h3 id="1-开启平铺窗口"><a href="#1-开启平铺窗口" class="headerlink" title="1. 开启平铺窗口"></a>1. 开启平铺窗口</h3><p>只需要在顶部栏的右方点击窗口按钮，并开启平铺窗口即可。当然你还可以直接设置新工作区默认使用的窗口模式。如下图操作：</p>
-<p><img loading="lazy" src="/images/2024/0815/w1.gif"></p>
-<h3 id="2-窗口快速开启或关闭"><a href="#2-窗口快速开启或关闭" class="headerlink" title="2. 窗口快速开启或关闭"></a>2. 窗口快速开启或关闭</h3><p>你可以在下方 Dock 栏处使用鼠标中键疯狂点击 [Cosmic 终端]，也可以按下快捷键 <kbd>Super</kbd> + <kbd>Q</kbd> 快速关闭所有窗口。</p>
-<p><img loading="lazy" src="/images/2024/0815/w2.gif"></p>
-<h3 id="3-窗口拖拽"><a href="#3-窗口拖拽" class="headerlink" title="3. 窗口拖拽"></a>3. 窗口拖拽</h3><p>在窗口移动方面，你可以直接使用鼠标拖拽窗口与窗口之间的大小，同时还可以拖拽窗口到其它位置。</p>
-<p><img loading="lazy" src="/images/2024/0815/w3.gif"></p>
-<p>不仅如此，多个窗口可以组成 [堆叠窗口]，只需要将鼠标点击任意窗口并拖拽至其它窗口上，便能堆叠窗口（也就是<strong>多标签页窗口</strong>）。</p>
-<p><img loading="lazy" src="/images/2024/0815/w4.gif"></p>
-<h2 id="Launcher-启动器"><a href="#Launcher-启动器" class="headerlink" title="Launcher 启动器"></a>Launcher 启动器</h2><p>Cosmic 桌面环境提供了一种叫做 [Cosmic Launcher] 的功能，可以快速启动常用文件、搜索文件、计算器、网页搜索等功能。默认设置下，直接按下 <kbd>Super</kbd> + <kbd>/</kbd> 键（即 <kbd>Windows</kbd> + <kbd>/</kbd> 键）以呼出搜索栏。如下图：</p>
-<p><img loading="lazy" src="/images/2024/0815/l.gif"></p>
-<p><strong>使用方法：</strong></p>
-<ol>
-<li><p>直接在搜索栏上输入应用程序名称</p>
-</li>
-<li><p>在搜索栏输入：<code>~</code> 或者 <code>/</code>，可直接按文件路径打开所需文件。</p>
-</li>
-<li><p>在搜索栏输入：<code>run &lt;command&gt;</code> &#x2F; <code>t:&lt;command&gt;</code> 可直接打开终端并执行命令</p>
-</li>
-<li><p>在搜索栏输入：<code>:&lt;command&gt;</code> 可直接在后台执行命令</p>
-</li>
-<li><p>网页搜索</p>
-<ul>
-<li><code>bing &lt;keyword&gt;</code> 可直接使用 bing 搜索</li>
-<li><code>ddk &lt;keyword&gt;</code> 可直接使用 DuckDuckGo 搜索</li>
-<li><code>google &lt;keyword&gt;</code> 可直接使用 Google 搜索</li>
-</ul>
-</li>
-<li><p>在搜索栏输入算式，会自动计算</p>
-</li>
-<li><p>更多功能，请直接在搜索栏中输入 <code>?</code> 查看所有可用选项。</p>
-</li>
-</ol>
-<h2 id="实用快捷键"><a href="#实用快捷键" class="headerlink" title="实用快捷键"></a>实用快捷键</h2><p>关于窗口与工作区管理，你还可以使用以下比较实用的快捷键，这对于日常使用来说非常有用。</p>
-<p>注意：以下的 <kbd>Super</kbd> 键为 <kbd>Windows</kbd> 键。</p>
-<ul>
-<li><p>管理窗口&#x2F;工作区</p>
-<ul>
-<li><p><kbd>Super</kbd> + 任意方向键：选择窗口（激活窗口焦点）</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>Alt</kbd> + 任意方向键：切换工作区</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>Tab</kbd> 或 <kbd>Alt</kbd> + <kbd>Tab</kbd>：切换窗口</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>Q</kbd>：关闭当前窗口</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>M</kbd>：最大化当前窗口</p>
-</li>
-</ul>
-</li>
-<li><p>移动窗口</p>
-<ul>
-<li><p><kbd>Super</kbd> + <kbd>Shift</kbd> + 任意方向键：移动窗口</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + 任意方向键：将窗口移动到其它工作区</p>
-</li>
-</ul>
-</li>
-<li><p>其它快捷键</p>
-<ul>
-<li><p><kbd>Super</kbd> + <kbd>Esc</kbd>：锁屏</p>
-</li>
-<li><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Delete</kbd>：注销会话</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>F</kbd>：打开文件管理器</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>B</kbd>：打开默认浏览器</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>T</kbd>：打开终端</p>
-</li>
-<li><p><kbd>Super</kbd> + <kbd>A</kbd>：打开应用程序菜单</p>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="不足之处-已发现的-Bugs"><a href="#不足之处-已发现的-Bugs" class="headerlink" title="不足之处 &amp; 已发现的 Bugs"></a>不足之处 &amp; 已发现的 Bugs</h1><p>正如前文所提到，Cosmic 桌面环境目前处于测试阶段，很容易能从中发现 Bug 以及不足之处。总结起来有以下几点：</p>
-<ul>
-<li><p><strong>设置页面不完善</strong>：缺少 [账户]、[蓝牙]、[网络]、[声音]、[区域与语言] 等基本页面；</p>
-</li>
-<li><p><strong>工作区存在 Bug</strong>：</p>
-<ul>
-<li>当拥有两个以上的工作区且打开不同的窗口时，点击 [工作区] 菜单，会出现缩略图闪烁等问题；</li>
-<li>多个窗口同时在同一工作区内时，窗口只横向排列，导致部分窗口无法直接拖拽至其它工作区。</li>
-</ul>
-</li>
-</ul>
-<p><img loading="lazy" src="/images/2024/0815/e.gif"></p>
-<ul>
-<li><p><strong>关于 Launcher 启动器</strong>：</p>
-<ul>
-<li>首先在使用网页搜索时，不支持国内的搜索引擎（如：<code>baidu</code>, <code>sogou</code>）。在搜索栏下只能使用 <code>bing</code> 搜索。</li>
-<li>搜索文件时，部分未知文件不能直接打开。</li>
-<li>输入 <code>?</code> 查看帮助时，显示仍为英文。</li>
-</ul>
-</li>
-<li><p><strong>输入法无法使用</strong>：尝试使用过 ibus、fcitx5 等输入法引擎，不能直接安装并使用。不知怎么解决？</p>
-</li>
-<li><p><strong>软件商店无法使用</strong>：在安装完 Cosmic 桌面环境后，打开的软件商店是完全空白的，无法显示任何内容。</p>
-</li>
-</ul>
-<p><img loading="lazy" src="/images/2024/0815/5.png"></p>
-<ul>
-<li><strong>自带软件语言显示错误</strong>：系统已设置为 <code>zh_CN.UTF-8</code> 语言布局（简体中文），但显示如：Cosmic Text Editor、Cosmic Files等软件时显示繁体中文。如下截图：</li>
-</ul>
-<p><img loading="lazy" src="/images/2024/0815/6.png"></p>
-<p>最后，希望开发团队能尽力出正式版。(*^_^*)</p>
-]]></content>
-      <categories>
-        <category>系统体验</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>桌面环境</tag>
-        <tag>系统体验</tag>
-        <tag>Pop_OS!</tag>
-        <tag>Cosmic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>解题/刷题：新增分类</title>
     <url>/2024/09/%E8%A7%A3%E9%A2%98-%E5%88%B7%E9%A2%98%EF%BC%9A%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB/</url>
     <content><![CDATA[<h1 id="这是什么新分类？"><a href="#这是什么新分类？" class="headerlink" title="这是什么新分类？"></a>这是什么新分类？</h1><p>这是最新的分类——解题&#x2F;刷题，主要用于记录刷题过程中遇到的问题与解题思路。目前使用的编程语言主要为 C 语言。题目会从网络途径获取。</p>
@@ -3947,65 +4006,6 @@ B -- False --> 执行语句2
       <tags>
         <tag>💡解题</tag>
         <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
-    <url>/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h1><blockquote>
-<p><strong>💡 提示:</strong> </p>
-<p>本文章所提到的软件均为博主曾经使用过的软件，部分软件可能为收费版本，请自行通过官方渠道购买。</p>
-</blockquote>
-<p><img loading="lazy" src="https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp" alt="cover"></p>
-<p>现如今，大多数拥有电脑的人都正在使用 Windows 系统。下面，博主将推荐以下几款个人认为值得安利的电脑软件。</p>
-<p>如果以下提到的软件你都曾经使用过或者不感兴趣，那么请去阅读上期的软件安利。</p>
-<a class="button  center large" href='/2024/05/26/软件安利-推荐几款在-Microsoft-Store-上的软件' title='软件安利：安利几款在 Microsoft Store 上的软件'><i class='fas fa-link'></i> 软件安利：安利几款在 Microsoft Store 上的软件</a> 
-
-
-<h1 id="1、Everything-文件搜索工具"><a href="#1、Everything-文件搜索工具" class="headerlink" title="1、Everything (文件搜索工具)"></a>1、Everything (文件搜索工具)</h1><p><img loading="lazy" src="/images/2024/0801/everything.jpg" alt="everything"></p>
-<p>这是一款非常强大的文件搜索工具，它不仅可以快速搜索具体的文件，还能搜索文件中的关键字。它支持多种文件格式，包括图片、音频、视频、压缩包等。</p>
-<p>下载地址：<a class="link"   href="https://www.voidtools.com/" >https://www.voidtools.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="2、Bandizip-压缩工具"><a href="#2、Bandizip-压缩工具" class="headerlink" title="2、Bandizip (压缩工具)"></a>2、Bandizip (压缩工具)</h1><p><img loading="lazy" src="/images/2024/0801/bandizip.jpg" alt="bandizip"></p>
-<p>Bandizip 是一款非常好用的压缩工具，它支持多种压缩格式，包括 ZIP、RAR、7z、BZIP2、TAR 等压缩格式。对比 Windows 自带的压缩工具，Bandizip 的功能更加强大，而且界面简洁。</p>
-<p>下载地址：<a class="link"   href="https://www.bandisoft.com/bandizip/" >https://www.bandisoft.com/bandizip/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="3、Free-Download-Manager-下载管理器"><a href="#3、Free-Download-Manager-下载管理器" class="headerlink" title="3、Free Download Manager (下载管理器)"></a>3、Free Download Manager (下载管理器)</h1><p><img loading="lazy" src="/images/2024/0801/fdm.jpg" alt="freedownloadmanager"></p>
-<p>如果你曾经使用过迅雷、IDM 等下载管理器，那么建议去试试 Free Download Manager。它是一款开源免费的下载管理器，功能强大，界面简洁。</p>
-<p>下载地址：<a class="link"   href="https://www.freedownloadmanager.org/" >https://www.freedownloadmanager.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="4、Motrix-下载加速器"><a href="#4、Motrix-下载加速器" class="headerlink" title="4、Motrix (下载加速器)"></a>4、Motrix (下载加速器)</h1><p><img loading="lazy" src="/images/2024/0801/motrix.jpg" alt="motrix"></p>
-<p>同样地，如果你对 Free Download Manager 存在不满，那么可以试试 Motrix。它是一款开源免费的下载加速器，功能强大，界面简洁。同时还支持安装浏览器扩展，安装之后，仅需点击对应的下载链接并使用 Motrix 下载，就可以自动识别并下载。</p>
-<p>下载地址：<a class="link"   href="https://motrix.app/download" >https://motrix.app/download <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="5、图吧工具箱（硬件检测工具合集）"><a href="#5、图吧工具箱（硬件检测工具合集）" class="headerlink" title="5、图吧工具箱（硬件检测工具合集）"></a>5、图吧工具箱（硬件检测工具合集）</h1><p><img loading="lazy" src="/images/2024/0801/tbtool.jpg" alt="tbtool"></p>
-<p>图吧工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为所有计算机硬件极客、DIY爱好者、各路大神及小白制作。集成大量常见硬件检测、评分工具，一键下载、方便使用。</p>
-<p>下载地址：<a class="link"   href="https://www.tbtool.cn/" >https://www.tbtool.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="6、uTools（新一代效率工具平台）"><a href="#6、uTools（新一代效率工具平台）" class="headerlink" title="6、uTools（新一代效率工具平台）"></a>6、uTools（新一代效率工具平台）</h1><p><img loading="lazy" src="/images/2024/0801/utools.jpg" alt="utools"></p>
-<p>一款非常强大的效率工具软件，它不仅支持搜索本机中的应用、使用不同的搜索引擎搜索关键词，还支持通过下载各种所需插件，实现各种功能。</p>
-<p>下载地址：<a class="link"   href="https://u.tools/download/" >https://u.tools/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="7、ToDesk（远程控制软件）"><a href="#7、ToDesk（远程控制软件）" class="headerlink" title="7、ToDesk（远程控制软件）"></a>7、ToDesk（远程控制软件）</h1><p><img loading="lazy" src="/images/2024/0801/todesk.jpg" alt="todesk"></p>
-<p>ToDesk 是一款远程控制软件，它可以让你通过网络远程控制你的电脑，可以实现各种控制功能，包括键盘鼠标、屏幕、音频、摄像头、文件传输等。</p>
-<p>下载地址：<a class="link"   href="https://www.todesk.com/download/" >https://www.todesk.com/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="8、bitDock-极简工具栏"><a href="#8、bitDock-极简工具栏" class="headerlink" title="8、bitDock (极简工具栏)"></a>8、bitDock (极简工具栏)</h1><p><img loading="lazy" src="/images/2024/0801/bitdock.png" alt="bitdock"></p>
-<p>bitDock 是一款极简工具栏，它不仅可以通过鼠标拖拽的方式自定义添加你最常用的应用程序或文件夹，还拥有天气预报、搜索、截图、取色、日历时钟、天气等超过20款桌面插件，更容易美化自己的桌面。</p>
-<p>下载地址：<a class="link"   href="https://bitdock.com/download/" >https://bitdock.com/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="9、StartIsBack-经典开始菜单与任务栏"><a href="#9、StartIsBack-经典开始菜单与任务栏" class="headerlink" title="9、StartIsBack (经典开始菜单与任务栏)"></a>9、StartIsBack (经典开始菜单与任务栏)</h1><p><img loading="lazy" src="/images/2024/0801/startisback.jpg" alt="startisback"></p>
-<p>StartIsBack 是一款专为win8、win10、win11 用户设计的实用优化工具。startisback主要用来优化用户电脑开始菜单，使用户能快速找到自己最熟悉的按钮，并可以在各种电脑模式下自由切换，大大提高 Windows 用户事务处理效率。</p>
-<p>下载地址：<a class="link"   href="https://startisback.com/" >https://startisback.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="10、Geek-Uninstaller-软件卸载工具"><a href="#10、Geek-Uninstaller-软件卸载工具" class="headerlink" title="10、Geek Uninstaller (软件卸载工具)"></a>10、Geek Uninstaller (软件卸载工具)</h1><p><img loading="lazy" src="/images/2024/0801/geek.jpg" alt="geek"></p>
-<p>geek 即“极客”的意思，这是一款无比强大的卸载软件，它界面简单不复杂，体积小巧，无需安装，点开即可使用。geek就和它的名字一样，卸载任何软件都干脆利落，不管你是大佬还是流氓，统统一键卸载搞定，并且卸载完还会自动删除相应的注册表文件，不会拖泥带水。</p>
-<p>下载地址：<a class="link"   href="https://geekuninstaller.com/download" >https://geekuninstaller.com/download <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="11、CleanMyPC-系统清理工具"><a href="#11、CleanMyPC-系统清理工具" class="headerlink" title="11、CleanMyPC (系统清理工具)"></a>11、CleanMyPC (系统清理工具)</h1><p><img loading="lazy" src="/images/2024/0801/cleanmypc.jpg" alt="cleanmypc"></p>
-<p>CleanMyPC, 字面理解就是 “清理我的PC”，这是一款系统清理工具，界面简单，功能小巧，可以清理系统垃圾、卸载应用程序、修改启动项、清理浏览器隐私等。遇到删除不了的文件或文件夹，可以使用碎纸机来强制删除。</p>
-<p>下载地址：<a class="link"   href="https://macpaw.com/zh/download/cleanmypc" >https://macpaw.com/zh/download/cleanmypc <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="12、微软电脑管家（系统优化工具）"><a href="#12、微软电脑管家（系统优化工具）" class="headerlink" title="12、微软电脑管家（系统优化工具）"></a>12、微软电脑管家（系统优化工具）</h1><p><img loading="lazy" src="/images/2024/0801/msconfig.jpg" alt="msconfig"></p>
-<p>微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。</p>
-<p>下载地址：<a class="link"   href="https://pcmanager.microsoft.com/zh-cn" >https://pcmanager.microsoft.com/zh-cn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>软件安利</category>
-      </categories>
-      <tags>
-        <tag>新手向</tag>
-        <tag>软件安利</tag>
-        <tag>Windows</tag>
       </tags>
   </entry>
 </search>
