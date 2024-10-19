@@ -4,33 +4,33 @@
     <title>CatIsNotFound • Posts by &#34;软件安利&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-01T07:41:00.000Z</updated>
-    <category term="Linux" />
-    <category term="Ubuntu" />
-    <category term="桌面环境" />
-    <category term="GNOME" />
-    <category term="更新日志" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Github" />
     <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
+    <category term="博客搭建" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
     <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="Windows" />
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="更新日志" />
     <category term="Waline" />
-    <category term="脚本" />
     <category term="WSL" />
     <category term="关于博客" />
+    <category term="脚本" />
     <category term="系统体验" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
-    <category term="刷题" />
-    <category term="疑难解答" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="解题历程" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="刷题" />
+    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</id>
         <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
@@ -42,7 +42,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
 &lt;p&gt;现如今，大多数拥有电脑的人都正在使用 Windows 系统。下面，博主将推荐以下几款个人认为值得安利的电脑软件。&lt;/p&gt;
 &lt;p&gt;如果以下提到的软件你都曾经使用过或者不感兴趣，那么请去阅读上期的软件安利。&lt;/p&gt;
-&lt;a class=&#34;button  center large&#34; href=&#39;/2024/05/26/软件安利-推荐几款在-Microsoft-Store-上的软件&#39; title=&#39;软件安利：安利几款在 Microsoft Store 上的软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 软件安利：安利几款在 Microsoft Store 上的软件&lt;/a&gt; 
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/05/软件安利-推荐几款在-Microsoft-Store-上的软件&#39; title=&#39;软件安利：安利几款在 Microsoft Store 上的软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 软件安利：安利几款在 Microsoft Store 上的软件&lt;/a&gt; 
 
 
 &lt;h1 id=&#34;1、Everything-文件搜索工具&#34;&gt;&lt;a href=&#34;#1、Everything-文件搜索工具&#34; class=&#34;headerlink&#34; title=&#34;1、Everything (文件搜索工具)&#34;&gt;&lt;/a&gt;1、Everything (文件搜索工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/everything.jpg&#34; alt=&#34;everything&#34;&gt;&lt;/p&gt;
@@ -83,8 +83,8 @@
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="软件安利" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -179,8 +179,8 @@
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
         <category term="软件安利" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
 </feed>

@@ -7,44 +7,44 @@
         <language>zh-CN</language>
         <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
         <lastBuildDate>Sun, 09 Jun 2024 13:15:33 +0800</lastBuildDate>
-        <category>Linux</category>
-        <category>Ubuntu</category>
-        <category>桌面环境</category>
-        <category>GNOME</category>
-        <category>更新日志</category>
-        <category>Git</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>Github</category>
         <category>软件安利</category>
+        <category>Windows</category>
+        <category>新手向</category>
+        <category>博客搭建</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
         <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
-        <category>新手向</category>
-        <category>Windows</category>
+        <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>更新日志</category>
         <category>Waline</category>
-        <category>脚本</category>
         <category>WSL</category>
         <category>关于博客</category>
+        <category>脚本</category>
         <category>系统体验</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
-        <category>刷题</category>
-        <category>疑难解答</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>解题历程</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
             <link>https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
 &lt;p&gt;本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：&lt;/p&gt;
-&lt;a class=&#34;button  large center&#34; href=&#39;/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门&#39; title=&#39;从 0 开始学 Linux：Bash Shell 快速入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：Bash Shell 快速入门&lt;/a&gt;
+&lt;a class=&#34;button  large center&#34; href=&#39;/2024/06/从-0-开始学-Linux-Bash-Shell-快速入门&#39; title=&#39;从 0 开始学 Linux：Bash Shell 快速入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：Bash Shell 快速入门&lt;/a&gt;
 
 
 &lt;h1 id=&#34;脚本文件&#34;&gt;&lt;a href=&#34;#脚本文件&#34; class=&#34;headerlink&#34; title=&#34;脚本文件&#34;&gt;&lt;/a&gt;脚本文件&lt;/h1&gt;&lt;p&gt;脚本文件以 &lt;code&gt;.sh&lt;/code&gt; 结尾，并包含一系列命令。&lt;/p&gt;
@@ -295,8 +295,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
             <link>https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>Linux</category>
             <category>新手向</category>
+            <category>Linux</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:10:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
@@ -313,8 +313,8 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在阅读本文教程之前，如果还未安装 Linux 环境，请先在下方按钮中选择任一方式以进行安装：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/26/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统&#39; title=&#39;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统&#39; title=&#39;WSL：一个适用于 Windows 的 Linux 子系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; WSL：一个适用于 Windows 的 Linux 子系统&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统&#39; title=&#39;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/WSL：一个适用于-Windows-的-Linux-子系统&#39; title=&#39;WSL：一个适用于 Windows 的 Linux 子系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; WSL：一个适用于 Windows 的 Linux 子系统&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -361,7 +361,7 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;常用命令&#34;&gt;&lt;a href=&#34;#常用命令&#34; class=&#34;headerlink&#34; title=&#34;常用命令&#34;&gt;&lt;/a&gt;常用命令&lt;/h1&gt;&lt;p&gt;以下是一些常用的命令，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
 &lt;p&gt;若需要了解更多命令，请直接查询 Linux Shell 基础命令速查表（非完整版）。&lt;/p&gt;
-&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/25/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
 
 &lt;h2 id=&#34;管理软件包&#34;&gt;&lt;a href=&#34;#管理软件包&#34; class=&#34;headerlink&#34; title=&#34;管理软件包&#34;&gt;&lt;/a&gt;管理软件包&lt;/h2&gt;&lt;p&gt;你可以利用命令行实现安装、卸载、更新软件包等操作。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;不同的 Linux 发行版，所对应的包管理器有所不同。&lt;/strong&gt; 请根据自己所用的发行版系统对号入座。&lt;/p&gt;
@@ -623,7 +623,7 @@
   &lt;/div&gt;
 
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;以上仅介绍了一些基本的 Bash 命令行操作，若需要了解更多命令，请直接查询 Linux Shell 基础命令速查表（非完整版）。&lt;/p&gt;
-&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/25/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
 
 &lt;p&gt;若在学习过程中遇到问题，欢迎在评论区留言。&lt;/p&gt;
 
@@ -634,7 +634,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;若你需要学习 Bash 脚本，请点击下方按钮：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/09/从-0-开始学-Linux-Bash-Shell-脚本入门&#39; title=&#39;从 0 开始学 Linux - Bash Shell 脚本入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - Bash Shell 脚本入门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/从-0-开始学-Linux-Bash-Shell-脚本入门&#39; title=&#39;从 0 开始学 Linux - Bash Shell 脚本入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - Bash Shell 脚本入门&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt; ]]></description>

@@ -4,33 +4,33 @@
     <title>CatIsNotFound • Posts by &#34;新手向&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-01T04:48:45.000Z</updated>
-    <category term="Linux" />
-    <category term="Ubuntu" />
-    <category term="桌面环境" />
-    <category term="GNOME" />
-    <category term="更新日志" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Github" />
     <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
+    <category term="博客搭建" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
     <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="Windows" />
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="更新日志" />
     <category term="Waline" />
-    <category term="脚本" />
     <category term="WSL" />
     <category term="关于博客" />
+    <category term="脚本" />
     <category term="系统体验" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
-    <category term="刷题" />
-    <category term="疑难解答" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="解题历程" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="刷题" />
+    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>[疑难解答] 关于 Github 的问题解决方法</title>
@@ -95,9 +95,9 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="Git" />
         <category term="Github" />
-        <category term="新手向" />
         <category term="疑难解答" />
         <updated>2024-09-01T04:48:45.000Z</updated>
     </entry>
@@ -112,7 +112,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
 &lt;p&gt;现如今，大多数拥有电脑的人都正在使用 Windows 系统。下面，博主将推荐以下几款个人认为值得安利的电脑软件。&lt;/p&gt;
 &lt;p&gt;如果以下提到的软件你都曾经使用过或者不感兴趣，那么请去阅读上期的软件安利。&lt;/p&gt;
-&lt;a class=&#34;button  center large&#34; href=&#39;/2024/05/26/软件安利-推荐几款在-Microsoft-Store-上的软件&#39; title=&#39;软件安利：安利几款在 Microsoft Store 上的软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 软件安利：安利几款在 Microsoft Store 上的软件&lt;/a&gt; 
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/05/软件安利-推荐几款在-Microsoft-Store-上的软件&#39; title=&#39;软件安利：安利几款在 Microsoft Store 上的软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 软件安利：安利几款在 Microsoft Store 上的软件&lt;/a&gt; 
 
 
 &lt;h1 id=&#34;1、Everything-文件搜索工具&#34;&gt;&lt;a href=&#34;#1、Everything-文件搜索工具&#34; class=&#34;headerlink&#34; title=&#34;1、Everything (文件搜索工具)&#34;&gt;&lt;/a&gt;1、Everything (文件搜索工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/everything.jpg&#34; alt=&#34;everything&#34;&gt;&lt;/p&gt;
@@ -153,8 +153,8 @@
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="软件安利" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -303,8 +303,8 @@
 &lt;h1 id=&#34;体验感受&#34;&gt;&lt;a href=&#34;#体验感受&#34; class=&#34;headerlink&#34; title=&#34;体验感受&#34;&gt;&lt;/a&gt;体验感受&lt;/h1&gt;&lt;p&gt;Android x86 系统的体验与原生版本的 Android 系统差别不大，但由于&lt;strong&gt;系统是运行在虚拟机中，所以性能上有所损失&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;对于喜欢折腾的人来说，Android x86 系统是一个不错的选择。&lt;/p&gt;
 </content>
-        <category term="Android" />
         <category term="新手向" />
+        <category term="Android" />
         <category term="系统体验" />
         <updated>2024-06-15T08:32:59.000Z</updated>
     </entry>
@@ -314,7 +314,7 @@
         <link rel="alternate" href="https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
 &lt;p&gt;本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：&lt;/p&gt;
-&lt;a class=&#34;button  large center&#34; href=&#39;/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门&#39; title=&#39;从 0 开始学 Linux：Bash Shell 快速入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：Bash Shell 快速入门&lt;/a&gt;
+&lt;a class=&#34;button  large center&#34; href=&#39;/2024/06/从-0-开始学-Linux-Bash-Shell-快速入门&#39; title=&#39;从 0 开始学 Linux：Bash Shell 快速入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux：Bash Shell 快速入门&lt;/a&gt;
 
 
 &lt;h1 id=&#34;脚本文件&#34;&gt;&lt;a href=&#34;#脚本文件&#34; class=&#34;headerlink&#34; title=&#34;脚本文件&#34;&gt;&lt;/a&gt;脚本文件&lt;/h1&gt;&lt;p&gt;脚本文件以 &lt;code&gt;.sh&lt;/code&gt; 结尾，并包含一系列命令。&lt;/p&gt;
@@ -560,8 +560,8 @@
 &lt;p&gt;示例 3：定义一个函数 &lt;code&gt;install_packages()&lt;/code&gt;，要求用户输入软件包名，并安装指定的软件包。定义一个函数 &lt;code&gt;package_manager()&lt;/code&gt;，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。&lt;/p&gt;
 &lt;p&gt;注意：针对 Arch Linux 使用的 &lt;code&gt;pacman&lt;/code&gt; 的命令有所不同，需要进行单独修改。&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 定义函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;install_packages&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如没有输入软件包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please enter a package name.&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如使用的是 pacman&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; == pacman ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; pacman -S &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; --noconfirm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; install &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;package_manager&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; manager &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; apt dnf pacman yum zypper; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;which&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &amp;amp;&amp;gt; /dev/null&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# 假如对应的包管理工具存在，则安装软件包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -eq 0 ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Using &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; to install &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            install_packages &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;No package manager found&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 调用函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;read&lt;/span&gt; -p &lt;span class=&#34;string&#34;&gt;&amp;quot;Please enter a package name: &amp;quot;&lt;/span&gt; package&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;package_manager &lt;span class=&#34;variable&#34;&gt;$package&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;</content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="脚本" />
         <updated>2024-06-09T05:15:33.000Z</updated>
     </entry>
@@ -583,8 +583,8 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在阅读本文教程之前，如果还未安装 Linux 环境，请先在下方按钮中选择任一方式以进行安装：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/26/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统&#39; title=&#39;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统&#39; title=&#39;WSL：一个适用于 Windows 的 Linux 子系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; WSL：一个适用于 Windows 的 Linux 子系统&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统&#39; title=&#39;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/WSL：一个适用于-Windows-的-Linux-子系统&#39; title=&#39;WSL：一个适用于 Windows 的 Linux 子系统&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; WSL：一个适用于 Windows 的 Linux 子系统&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -631,7 +631,7 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;常用命令&#34;&gt;&lt;a href=&#34;#常用命令&#34; class=&#34;headerlink&#34; title=&#34;常用命令&#34;&gt;&lt;/a&gt;常用命令&lt;/h1&gt;&lt;p&gt;以下是一些常用的命令，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
 &lt;p&gt;若需要了解更多命令，请直接查询 Linux Shell 基础命令速查表（非完整版）。&lt;/p&gt;
-&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/25/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
 
 &lt;h2 id=&#34;管理软件包&#34;&gt;&lt;a href=&#34;#管理软件包&#34; class=&#34;headerlink&#34; title=&#34;管理软件包&#34;&gt;&lt;/a&gt;管理软件包&lt;/h2&gt;&lt;p&gt;你可以利用命令行实现安装、卸载、更新软件包等操作。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;不同的 Linux 发行版，所对应的包管理器有所不同。&lt;/strong&gt; 请根据自己所用的发行版系统对号入座。&lt;/p&gt;
@@ -893,7 +893,7 @@
   &lt;/div&gt;
 
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;以上仅介绍了一些基本的 Bash 命令行操作，若需要了解更多命令，请直接查询 Linux Shell 基础命令速查表（非完整版）。&lt;/p&gt;
-&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/25/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
+&lt;a class=&#34;button  center large&#34; href=&#39;/2024/04/Linux-Shell-命令速查表&#39; title=&#39;Linux Shell 基础命令速查表&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; Linux Shell 基础命令速查表&lt;/a&gt;
 
 &lt;p&gt;若在学习过程中遇到问题，欢迎在评论区留言。&lt;/p&gt;
 
@@ -904,12 +904,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;若你需要学习 Bash 脚本，请点击下方按钮：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/09/从-0-开始学-Linux-Bash-Shell-脚本入门&#39; title=&#39;从 0 开始学 Linux - Bash Shell 脚本入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - Bash Shell 脚本入门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/从-0-开始学-Linux-Bash-Shell-脚本入门&#39; title=&#39;从 0 开始学 Linux - Bash Shell 脚本入门&#39;&gt;&lt;i class=&#39;fa-solid fa-link&#39;&gt;&lt;/i&gt; 从 0 开始学 Linux - Bash Shell 脚本入门&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="Linux" />
         <category term="新手向" />
+        <category term="Linux" />
         <category term="脚本" />
         <updated>2024-06-09T05:10:00.000Z</updated>
     </entry>
@@ -1059,9 +1059,9 @@
   &lt;/div&gt;
 
 </content>
-        <category term="Linux" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
+        <category term="Linux" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -1974,9 +1974,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
+        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
-        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -2071,8 +2071,8 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
         <category term="软件安利" />
-        <category term="新手向" />
         <category term="Windows" />
+        <category term="新手向" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
@@ -2200,11 +2200,11 @@ B -- False --&gt; 执行语句2
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
+        <category term="新手向" />
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="桌面环境" />
         <category term="GNOME" />
-        <category term="新手向" />
+        <category term="桌面环境" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
 </feed>
