@@ -13,27 +13,27 @@
         <category>GNOME</category>
         <category>更新日志</category>
         <category>Git</category>
-        <category>Github</category>
         <category>博客搭建</category>
         <category>Hexo</category>
+        <category>Github</category>
+        <category>软件安利</category>
+        <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
-        <category>系统体验</category>
-        <category>Pop_OS!</category>
-        <category>Cosmic</category>
-        <category>软件安利</category>
-        <category>Android</category>
         <category>Windows</category>
+        <category>Waline</category>
+        <category>脚本</category>
+        <category>WSL</category>
+        <category>关于博客</category>
+        <category>系统体验</category>
         <category>💡解题</category>
         <category>C/C++</category>
         <category>解题历程</category>
         <category>刷题</category>
         <category>疑难解答</category>
-        <category>Waline</category>
-        <category>WSL</category>
-        <category>脚本</category>
-        <category>关于博客</category>
+        <category>Pop_OS!</category>
+        <category>Cosmic</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
