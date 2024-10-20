@@ -5,31 +5,31 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-15T08:32:59.000Z</updated>
     <category term="Linux" />
-    <category term="更新日志" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
+    <category term="更新日志" />
     <category term="Git" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="Waline" />
+    <category term="Windows" />
+    <category term="新手向" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="系统体验" />
+    <category term="软件安利" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="Waline" />
-    <category term="Android" />
-    <category term="脚本" />
-    <category term="WSL" />
-    <category term="关于博客" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
     <category term="刷题" />
+    <category term="C/C++" />
+    <category term="💡解题" />
+    <category term="解题历程" />
     <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</id>
@@ -285,8 +285,8 @@
         <category term="Github" />
         <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
+        <category term="软件安利" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
 </feed>
