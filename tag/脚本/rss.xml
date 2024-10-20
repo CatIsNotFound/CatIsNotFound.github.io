@@ -7,8 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
         <lastBuildDate>Sun, 09 Jun 2024 13:15:33 +0800</lastBuildDate>
-        <category>更新日志</category>
         <category>Linux</category>
+        <category>更新日志</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
@@ -19,16 +19,16 @@
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
-        <category>软件安利</category>
-        <category>Windows</category>
-        <category>Android</category>
-        <category>Waline</category>
-        <category>WSL</category>
-        <category>脚本</category>
-        <category>关于博客</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>软件安利</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>Android</category>
+        <category>脚本</category>
+        <category>WSL</category>
+        <category>关于博客</category>
         <category>💡解题</category>
         <category>C/C++</category>
         <category>解题历程</category>

@@ -7,8 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Thu, 15 Aug 2024 16:57:19 +0800</pubDate>
         <lastBuildDate>Thu, 15 Aug 2024 16:57:19 +0800</lastBuildDate>
-        <category>更新日志</category>
         <category>Linux</category>
+        <category>更新日志</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
@@ -19,16 +19,16 @@
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
-        <category>软件安利</category>
-        <category>Windows</category>
-        <category>Android</category>
-        <category>Waline</category>
-        <category>WSL</category>
-        <category>脚本</category>
-        <category>关于博客</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>软件安利</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>Android</category>
+        <category>脚本</category>
+        <category>WSL</category>
+        <category>关于博客</category>
         <category>💡解题</category>
         <category>C/C++</category>
         <category>解题历程</category>
@@ -185,8 +185,8 @@
             <title>系统体验：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
             <category>新手向</category>
-            <category>Android</category>
             <category>系统体验</category>
+            <category>Android</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
