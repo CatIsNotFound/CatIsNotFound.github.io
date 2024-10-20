@@ -4,31 +4,31 @@
     <title>CatIsNotFound • Posts by &#34;学习笔记&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-27T04:42:38.000Z</updated>
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="新手向" />
-    <category term="博客搭建" />
-    <category term="Git" />
-    <category term="Github" />
-    <category term="Hexo" />
-    <category term="Android" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="GNOME" />
     <category term="桌面环境" />
+    <category term="GNOME" />
     <category term="更新日志" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="新手向" />
+    <category term="软件安利" />
+    <category term="Android" />
+    <category term="Windows" />
     <category term="Waline" />
     <category term="WSL" />
-    <category term="关于博客" />
     <category term="脚本" />
+    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
     <category term="💡解题" />
     <category term="C/C++" />
+    <category term="解题历程" />
     <category term="刷题" />
     <category term="疑难解答" />
     <entry>
@@ -940,9 +940,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/ &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="新手向" />
         <category term="Python" />
         <category term="学习笔记" />
+        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
 </feed>
