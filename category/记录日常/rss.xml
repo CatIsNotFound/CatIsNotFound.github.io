@@ -8,32 +8,32 @@
         <pubDate>Thu, 24 Oct 2024 19:42:29 +0800</pubDate>
         <lastBuildDate>Thu, 24 Oct 2024 19:42:29 +0800</lastBuildDate>
         <category>Linux</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>新手向</category>
-        <category>博客搭建</category>
-        <category>软件安利</category>
-        <category>Git</category>
-        <category>Github</category>
-        <category>Hexo</category>
-        <category>Android</category>
-        <category>Windows</category>
         <category>更新日志</category>
+        <category>Git</category>
+        <category>Ubuntu</category>
+        <category>桌面环境</category>
+        <category>GNOME</category>
+        <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>Python</category>
         <category>学习笔记</category>
-        <category>Waline</category>
-        <category>WSL</category>
-        <category>脚本</category>
-        <category>关于博客</category>
+        <category>新手向</category>
+        <category>软件安利</category>
+        <category>Android</category>
         <category>系统体验</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>Windows</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>Waline</category>
         <category>解题历程</category>
         <category>刷题</category>
         <category>疑难解答</category>
+        <category>WSL</category>
+        <category>关于博客</category>
+        <category>脚本</category>
         <category>Switch</category>
         <category>Nintendo</category>
         <category>任天堂</category>
@@ -84,34 +84,6 @@
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;虽然但是，Switch 是我目前为止，最适合用来打发时间的游戏机。但将来本人是否还会继续像现在那样常玩 Switch 里的游戏，在我的心中，还是一个未知数。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://catisnotfound.github.io/2024/10/Switch-%E5%88%86%E4%BA%AB%E7%BB%8F%E9%AA%8C-1-%E4%B9%B0-Switch-%E4%B9%8B%E5%89%8D%E4%BD%A0%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E4%BA%8B/</guid>
-            <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
-            <link>https://catisnotfound.github.io/2024/10/Switch-%E5%88%86%E4%BA%AB%E7%BB%8F%E9%AA%8C-1-%E4%B9%B0-Switch-%E4%B9%8B%E5%89%8D%E4%BD%A0%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E4%BA%8B/</link>
-            <category>Switch</category>
-            <category>Nintendo</category>
-            <category>任天堂</category>
-            <category>游戏机</category>
-            <pubDate>Thu, 24 Oct 2024 19:28:17 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂&lt;strong&gt;早已停产&lt;/strong&gt;的限定外观主机（宝可梦剑盾）。见下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/&#34; alt=&#34;主机正面&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/&#34; alt=&#34;主机背面&#34;&gt;&lt;/p&gt;
-&lt;p&gt;是的，这正是我第一次在某鱼平台上淘到的游戏掌机。&lt;/p&gt;
-&lt;p&gt;不过，后来打算想直接卖了。（具体原因见后文）&lt;/p&gt;
-&lt;h1 id=&#34;关于我买之前的那些事&#34;&gt;&lt;a href=&#34;#关于我买之前的那些事&#34; class=&#34;headerlink&#34; title=&#34;关于我买之前的那些事&#34;&gt;&lt;/a&gt;关于我买之前的那些事&lt;/h1&gt;&lt;p&gt;大概是今年的 5-6 月份左右，我姐在某宝上购买了一台 Switch OLED 主机。当时，这是本人第一次看到且曾体验过主机游戏的一次经历。那时，我姐为了想玩上&lt;strong&gt;动森&lt;/strong&gt;（动物森友会），而特意买了这台全新的主机。&lt;del&gt;（PS: 可惜不是动森主题外观的主机🤭(bushi)）&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;在此期间，这台 Switch OLED 主机购买并下载了如下游戏：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;动物森友会&lt;/li&gt;
-&lt;li&gt;塞尔达传说：王国之泪&lt;/li&gt;
-&lt;li&gt;舞力全开2023&lt;/li&gt;
-&lt;li&gt;马里奥派对：超级巨星&lt;/li&gt;
-&lt;li&gt;塞尔达传说：织梦岛&lt;/li&gt;
-&lt;li&gt;Nintendo Sports&lt;/li&gt;
-&lt;li&gt;胡闹厨房 2&lt;br&gt;………………&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我也从&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
