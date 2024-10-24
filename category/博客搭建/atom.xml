@@ -5,32 +5,36 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-28T05:21:01.000Z</updated>
     <category term="Linux" />
-    <category term="更新日志" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
     <category term="Git" />
     <category term="Github" />
-    <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="更新日志" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="新手向" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="Android" />
     <category term="Waline" />
-    <category term="脚本" />
     <category term="WSL" />
+    <category term="脚本" />
     <category term="关于博客" />
     <category term="系统体验" />
     <category term="💡解题" />
     <category term="C/C++" />
-    <category term="解题历程" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="解题历程" />
     <category term="刷题" />
     <category term="疑难解答" />
+    <category term="Switch" />
+    <category term="Nintendo" />
+    <category term="任天堂" />
+    <category term="游戏机" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</id>
         <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
@@ -424,11 +428,11 @@
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
+        <category term="博客搭建" />
+        <category term="软件安利" />
         <category term="Git" />
         <category term="Github" />
-        <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
@@ -610,9 +614,9 @@
 &lt;h2 id=&#34;写在后面&#34;&gt;&lt;a href=&#34;#写在后面&#34; class=&#34;headerlink&#34; title=&#34;写在后面&#34;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;下一篇将继续详细【&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;配置 Hexo，以及如何使用 Redefine 主题美化博客&lt;/a&gt;】&lt;/p&gt;
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
+        <category term="博客搭建" />
         <category term="Git" />
         <category term="Github" />
-        <category term="博客搭建" />
         <category term="Hexo" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>

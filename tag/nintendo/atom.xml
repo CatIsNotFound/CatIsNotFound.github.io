@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;nintendo&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2024-10-24T11:42:29.000Z</updated>
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="更新日志" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="Waline" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="疑难解答" />
+    <category term="Switch" />
+    <category term="Nintendo" />
+    <category term="任天堂" />
+    <category term="游戏机" />
+    <entry>
+        <id>https://catisnotfound.github.io/2024/10/Switch-notes/</id>
+        <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/10/Switch-notes/"/>
+        <content type="html">&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂&lt;strong&gt;早已停产&lt;/strong&gt;的限定外观主机（宝可梦剑盾）。见下图：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.picui.cn/free/2024/10/24/671a3a02d23fa.jpg&#34; alt=&#34;IMG_20241023_100743.jpg&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.picui.cn/free/2024/10/24/671a3a01df566.jpg&#34; alt=&#34;IMG_20241023_100818.jpg&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
+
+&lt;p&gt;是的，这正是我第一次在某鱼平台上淘到的游戏掌机。&lt;/p&gt;
+&lt;p&gt;不过，后来打算想直接卖了。（具体原因见后文）&lt;/p&gt;
+&lt;h1 id=&#34;关于我第一次游玩-Switch-的经历和感受&#34;&gt;&lt;a href=&#34;#关于我第一次游玩-Switch-的经历和感受&#34; class=&#34;headerlink&#34; title=&#34;关于我第一次游玩 Switch 的经历和感受&#34;&gt;&lt;/a&gt;关于我第一次游玩 Switch 的经历和感受&lt;/h1&gt;&lt;p&gt;这得从几个月说起了：大概是今年的 5-6 月份左右，我姐在某宝上购买了一台 Switch OLED 主机。当时，这是本人第一次看到且曾体验过主机游戏的一次经历。那时，我姐为了想玩上&lt;strong&gt;动森&lt;/strong&gt;（动物森友会），而特意买了这台全新的主机。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;（PS: 可惜不是动森主题外观的主机🤭(bushi)）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;在此期间，这台 Switch OLED 主机购买并下载了如下游戏：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动物森友会&lt;/li&gt;
+&lt;li&gt;塞尔达传说：王国之泪&lt;/li&gt;
+&lt;li&gt;舞力全开2023&lt;/li&gt;
+&lt;li&gt;马里奥派对：超级巨星&lt;/li&gt;
+&lt;li&gt;塞尔达传说：织梦岛&lt;/li&gt;
+&lt;li&gt;Nintendo Sports&lt;/li&gt;
+&lt;li&gt;胡闹厨房 2&lt;br&gt;………………&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;从上面提到的这些游戏中，我觉得最能让我喜欢的游戏是【塞尔达传说：织梦岛】。这对于从未接触且没玩过塞尔达系列的我来说，这款游戏是非常好入门且容易上手的游戏。里面的每一关的谜题以及机关（包括收集心之容器与神秘贝壳）都是我个人觉得非常好玩的部分。通关这个游戏之后，就会有较大的成就感&lt;del&gt;（虽然中间曾在网上查过各种攻略(bushi)）&lt;/del&gt;。&lt;/p&gt;
+&lt;p&gt;其次，这款【动物森友会】则是我姐最梦寐以求的一款游戏了。不仅可以各种装扮自己的家和整个岛屿，而且还能跟各种 NPC 互动。虽然开始玩的那一段时间里，本人曾欠了好几万的房租用来偿还贷款😂😂😂。后面就不再多说了，毕竟玩过这游戏的人，都觉得这游戏灰常地不戳👍👍。&lt;/p&gt;
+&lt;p&gt;当然，不仅如此，其它的任天堂第一方大作，也是值得仔细去游玩和探索的(*^_^*)。&lt;/p&gt;
+&lt;h1 id=&#34;关于开学之后买了-Switch-的那些事&#34;&gt;&lt;a href=&#34;#关于开学之后买了-Switch-的那些事&#34; class=&#34;headerlink&#34; title=&#34;关于开学之后买了 Switch 的那些事&#34;&gt;&lt;/a&gt;关于开学之后买了 Switch 的那些事&lt;/h1&gt;&lt;p&gt;随后，临近 9 月，赶上开学的那一个月里，我曾再也没有碰过这台 Switch OLED，前往一所充满陌生感的大学。在这个月里，很长一段时间感觉到自己无所事事，甚至觉得很无聊。在我百般无聊之际，我又一次想起了当初在家玩 Switch 时的经历。于是，我就有了买 Switch 的想法。&lt;/p&gt;
+&lt;p&gt;我的第一想法是在某宝上去搜 switch，大部分的 switch 对我来说，价格都是较为昂贵的😂。就连 switch lite 这款全新的掌机都要上千来块。&lt;/p&gt;
+&lt;p&gt;在此之后，我就前往了充满二手气息且价格低廉的平台——&lt;strong&gt;某鱼&lt;/strong&gt;🐟。在那里，虽然大多数看到的机型都不是全新的机型，但其便宜的价格成功地吸引了我。于是，在我大海捞针般地搜索自个儿能负担得起的那堆结果中，选择了 Switch Lite。是的，就是那款掌上主机。虽然它的屏幕尺寸比之前体验过的 OLED 主机要小了几倍，但它能成为我&lt;del&gt;每次上课摸鱼🐟必备的把玩工具(bushi)🤭&lt;/del&gt; 打发时间的娱乐🎮工具，再配合上我的外接蓝牙手柄，整个游戏体验瞬间就变得丝滑了起来🤭。而且，我也不再仅仅局限于玩💻端游或📱手游来打发空余时间。&lt;/p&gt;
+&lt;h1 id=&#34;我为何又打算卖出-Switch-？&#34;&gt;&lt;a href=&#34;#我为何又打算卖出-Switch-？&#34; class=&#34;headerlink&#34; title=&#34;我为何又打算卖出 Switch ？&#34;&gt;&lt;/a&gt;我为何又打算卖出 Switch ？&lt;/h1&gt;&lt;p&gt;关于这一点，本人主要是&lt;strong&gt;看上了今年早已发售的 Switch Lite 新外观——海拉鲁限定主机&lt;/strong&gt;（见下图），于是就有了想把主机卖掉的想法了（而且是急于想从某鱼上卖掉 Switch 的那种想法）。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.picui.cn/free/2024/10/24/671a39f9b1a94.png&#34; alt=&#34;tb_image_share_1729772213106.jpg.png&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
+
+&lt;p&gt;对于我看上它的原因，主要还是集中于几点：&lt;/p&gt;
+&lt;p&gt;首先，它的外观呈金色，机身背面的图案为海拉鲁的图案；&lt;/p&gt;
+&lt;p&gt;其次，买今年刚发售的新主机可以兑换一年的 Switch 会员😂😂😂😂；&lt;/p&gt;
+&lt;p&gt;其三，这款限定主机对喜欢塞尔达系列的本人而言，是一种收藏品&lt;del&gt;（此处别喷，这纯碎是我的个人爱好）&lt;/del&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;这对我来说，这款海拉鲁外观的新主机 Switch Lite 是我梦寐以求的一个主机。于是，正好快赶上双十一之际，买下了这款主机（按现在来看，机子还没送到）。&lt;/p&gt;
+&lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;虽然但是，Switch 是我目前为止，最适合用来打发时间的游戏机。但将来本人是否还会继续像现在那样常玩 Switch 里的游戏，在我的心中，还是一个未知数。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
+</content>
+        <category term="Switch" />
+        <category term="Nintendo" />
+        <category term="任天堂" />
+        <category term="游戏机" />
+        <updated>2024-10-24T11:42:29.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://catisnotfound.github.io/2024/10/Switch-%E5%88%86%E4%BA%AB%E7%BB%8F%E9%AA%8C-1-%E4%B9%B0-Switch-%E4%B9%8B%E5%89%8D%E4%BD%A0%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E4%BA%8B/</id>
+        <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2024/10/Switch-%E5%88%86%E4%BA%AB%E7%BB%8F%E9%AA%8C-1-%E4%B9%B0-Switch-%E4%B9%8B%E5%89%8D%E4%BD%A0%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E4%BA%8B/"/>
+        <content type="html">&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂&lt;strong&gt;早已停产&lt;/strong&gt;的限定外观主机（宝可梦剑盾）。见下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/&#34; alt=&#34;主机正面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/&#34; alt=&#34;主机背面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;是的，这正是我第一次在某鱼平台上淘到的游戏掌机。&lt;/p&gt;
+&lt;p&gt;不过，后来打算想直接卖了。（具体原因见后文）&lt;/p&gt;
+&lt;h1 id=&#34;关于我买之前的那些事&#34;&gt;&lt;a href=&#34;#关于我买之前的那些事&#34; class=&#34;headerlink&#34; title=&#34;关于我买之前的那些事&#34;&gt;&lt;/a&gt;关于我买之前的那些事&lt;/h1&gt;&lt;p&gt;大概是今年的 5-6 月份左右，我姐在某宝上购买了一台 Switch OLED 主机。当时，这是本人第一次看到且曾体验过主机游戏的一次经历。那时，我姐为了想玩上&lt;strong&gt;动森&lt;/strong&gt;（动物森友会），而特意买了这台全新的主机。&lt;del&gt;（PS: 可惜不是动森主题外观的主机🤭(bushi)）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;在此期间，这台 Switch OLED 主机购买并下载了如下游戏：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动物森友会&lt;/li&gt;
+&lt;li&gt;塞尔达传说：王国之泪&lt;/li&gt;
+&lt;li&gt;舞力全开2023&lt;/li&gt;
+&lt;li&gt;马里奥派对：超级巨星&lt;/li&gt;
+&lt;li&gt;塞尔达传说：织梦岛&lt;/li&gt;
+&lt;li&gt;Nintendo Sports&lt;/li&gt;
+&lt;li&gt;胡闹厨房 2&lt;br&gt;………………&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我也从&lt;/p&gt;
+</content>
+        <category term="Switch" />
+        <category term="Nintendo" />
+        <category term="任天堂" />
+        <category term="游戏机" />
+        <updated>2024-10-24T11:28:17.000Z</updated>
+    </entry>
+</feed>
