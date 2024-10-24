@@ -698,6 +698,17 @@
             <li class="w-full flex flex-row relative">
                 <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://avatars.githubusercontent.com/u/162785971?v=4" class="w-full h-full rounded-[6.2px]"></div>
                 <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
+                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">今天12:58</div>
+                    <div id="shuoshuo-content" class="px-4 py-2"><p>💡 <strong>站点提示</strong></p>
+<p>评论系统目前在此站点中暂不可用，若对博客站点内容有问题或其它因素，请直接通过知乎、QQ等平台私信作者。</p>
+</div>
+                </div>
+                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
+            </li>
+        
+            <li class="w-full flex flex-row relative">
+                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://avatars.githubusercontent.com/u/162785971?v=4" class="w-full h-full rounded-[6.2px]"></div>
+                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
                     <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">上周日04:00</div>
                     <div id="shuoshuo-content" class="px-4 py-2"><p>🌏 <strong>10&#x2F;20 博客网页更新</strong></p>
 <p>1️⃣ 为 <strong><a href="/links">仙人指路</a></strong> 页面的【编程学习与刷题网站】一区添加了缩略图；<br>2️⃣ 添加了两张 Mac OS Ventura 壁纸（亮&#x2F;暗色），并更换了主页背景；<br>   关于壁纸，可以前往 <strong><a href="/masonry">壁纸</a></strong> 页面查看；<br>3️⃣ 修改了站点 logo（由红色转变为黄色）；<br>4️⃣ 更新了一个全新页面 —— 🐟 摸鱼 <del>但是隐藏页面🤭</del>。</p>
@@ -1009,29 +1020,44 @@
 
         
             
-    <div id="waline"></div>
-    <script type="module" data-swup-reload-script>
-      import { init } from '/js/libs/waline.mjs';
+    <div id="gitalk-container"></div>
+    <script data-swup-reload-script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js"></script>
+    <script data-swup-reload-script>
 
-      function loadWaline() {
-        init({
-          el: '#waline',
-          serverURL: 'blog-waline-navy.vercel.app',
-          lang: 'zh-CN',
-          dark: 'body[class~="dark-mode"]',
-          reaction: true,
-          requiredMeta: ['nick', 'mail'],
-          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/bmoji','https://unpkg.com/@waline/emojis@1.2.0/tieba','https://unpkg.com/@waline/emojis@1.2.0/weibo','https://unpkg.com/@waline/emojis@1.2.0/qq','https://unpkg.com/@waline/emojis@1.2.0/soul-emoji','https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'],
-          recaptchaV3Key: "wasd",
-          
-        });
-      }
+        function loadGitalk() {
+            let __gitalk__pathname = decodeURI(location.pathname);
+            const __gitalk__pathnameLength = __gitalk__pathname.length;
+            const __gitalk__pathnameMaxLength = 50;
+            if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
+                __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
+            }
 
-      if (typeof swup !== 'undefined') {
-        loadWaline();
-      } else {
-        window.addEventListener('DOMContentLoaded', loadWaline);
-      }
+            try {
+                Gitalk && new Gitalk({
+                    clientID: 'Ov23liAz7IPtVZaupHqV',
+                    clientSecret: '7504f26bacb42a4399d067304c2ff569e36857ed',
+                    repo: 'blog-gitalk',
+                    owner: 'CatIsNotFound',
+                    admin: ['CatIsNotFound'],
+                    id: __gitalk__pathname,
+                    language: 'zh-CN',
+                    proxy: 'https://github.com/login/oauth/access_token'
+                }).render('gitalk-container');
+
+            } catch (e) {
+                window.Gitalk = null;
+            }
+        }
+
+        if ('true') {
+            const loadGitalkTimeout = setTimeout(() => {
+                loadGitalk();
+                clearTimeout(loadGitalkTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadGitalk);
+        }
     </script>
 
 
