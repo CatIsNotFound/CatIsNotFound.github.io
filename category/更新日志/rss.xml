@@ -7,33 +7,33 @@
         <language>zh-CN</language>
         <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
         <lastBuildDate>Thu, 20 Jun 2024 12:31:43 +0800</lastBuildDate>
-        <category>Linux</category>
         <category>更新日志</category>
+        <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>桌面环境</category>
+        <category>GNOME</category>
         <category>Git</category>
         <category>Github</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>Ubuntu</category>
-        <category>桌面环境</category>
-        <category>GNOME</category>
-        <category>解题历程</category>
-        <category>Waline</category>
-        <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
         <category>软件安利</category>
-        <category>Android</category>
         <category>Windows</category>
-        <category>刷题</category>
-        <category>疑难解答</category>
-        <category>脚本</category>
-        <category>WSL</category>
-        <category>关于博客</category>
+        <category>新手向</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>Waline</category>
+        <category>疑难解答</category>
+        <category>Android</category>
+        <category>WSL</category>
+        <category>脚本</category>
+        <category>关于博客</category>
         <category>Switch</category>
         <category>Nintendo</category>
         <category>任天堂</category>
