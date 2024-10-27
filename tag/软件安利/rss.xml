@@ -16,35 +16,35 @@
         <category>博客搭建</category>
         <category>Hexo</category>
         <category>更新日志</category>
+        <category>Waline</category>
+        <category>关于博客</category>
+        <category>脚本</category>
+        <category>新手向</category>
+        <category>Windows</category>
+        <category>WSL</category>
         <category>Python</category>
         <category>学习笔记</category>
-        <category>新手向</category>
-        <category>软件安利</category>
-        <category>Android</category>
-        <category>Windows</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
         <category>系统体验</category>
-        <category>Pop_OS!</category>
-        <category>Cosmic</category>
-        <category>Waline</category>
-        <category>解题历程</category>
-        <category>刷题</category>
-        <category>疑难解答</category>
-        <category>WSL</category>
-        <category>脚本</category>
-        <category>关于博客</category>
+        <category>Android</category>
+        <category>软件安利</category>
         <category>Switch</category>
         <category>Nintendo</category>
         <category>任天堂</category>
         <category>游戏机</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
+        <category>Pop_OS!</category>
+        <category>Cosmic</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
             <link>https://catisnotfound.github.io/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
             <category>新手向</category>
-            <category>软件安利</category>
             <category>Windows</category>
+            <category>软件安利</category>
             <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
@@ -102,8 +102,8 @@
             <category>Github</category>
             <category>博客搭建</category>
             <category>Hexo</category>
-            <category>软件安利</category>
             <category>Android</category>
+            <category>软件安利</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
@@ -206,8 +206,8 @@
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
             <category>新手向</category>
-            <category>软件安利</category>
             <category>Windows</category>
+            <category>软件安利</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
