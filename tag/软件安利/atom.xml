@@ -5,10 +5,6 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-01T07:41:00.000Z</updated>
     <category term="Linux" />
-    <category term="Git" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
     <category term="更新日志" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
@@ -16,21 +12,25 @@
     <category term="Python" />
     <category term="学习笔记" />
     <category term="新手向" />
+    <category term="Git" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="Github" />
     <category term="软件安利" />
+    <category term="Windows" />
     <category term="Android" />
     <category term="💡解题" />
     <category term="C/C++" />
-    <category term="刷题" />
-    <category term="Windows" />
     <category term="解题历程" />
-    <category term="WSL" />
+    <category term="刷题" />
     <category term="Waline" />
     <category term="疑难解答" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="脚本" />
-    <category term="关于博客" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
@@ -191,9 +191,9 @@
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
         <category term="Git" />
-        <category term="Github" />
         <category term="博客搭建" />
         <category term="Hexo" />
+        <category term="Github" />
         <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
