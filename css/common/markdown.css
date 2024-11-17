@@ -235,14 +235,10 @@ redefine-tablet()
   background-color: var(--second-background-color);
 }
 .markdown-body mjx-container {
-  display: inline-block;
-  vertical-align: baseline;
-  width: 100%;
+  display: inline;
   overflow-x: auto;
   white-space: nowrap;
-  scrollbar-width: thin;
-  text-align: center /* Center the content */;
-  padding-bottom: 8px;
+  margin: 0 0.2rem;
 }
 .markdown-body mjx-container:hover::-webkit-scrollbar-thumb {
   border: 3px solid rgba(183,183,183,0.3);
@@ -268,8 +264,12 @@ redefine-tablet()
 .markdown-body mjx-container[display="true"] {
   display: block;
   justify-content: center;
+  vertical-align: baseline;
   overflow-x: auto;
   text-align: center;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  padding-bottom: 8px;
 }
 .markdown-body mjx-container[display="true"]:hover::-webkit-scrollbar-thumb {
   border: 3px solid rgba(183,183,183,0.3);
