@@ -7,30 +7,22 @@
         <language>zh-CN</language>
         <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
         <lastBuildDate>Thu, 20 Jun 2024 12:31:43 +0800</lastBuildDate>
+        <category>更新日志</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
         <category>Linux</category>
-        <category>博客搭建</category>
+        <category>Ubuntu</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
         <category>软件安利</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>博客搭建</category>
         <category>Git</category>
         <category>Github</category>
         <category>Hexo</category>
         <category>Android</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>Windows</category>
-        <category>更新日志</category>
-        <category>系统体验</category>
-        <category>Pop_OS!</category>
-        <category>Cosmic</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
-        <category>Waline</category>
-        <category>刷题</category>
-        <category>疑难解答</category>
         <category>WSL</category>
         <category>脚本</category>
         <category>关于博客</category>
@@ -38,6 +30,14 @@
         <category>Nintendo</category>
         <category>任天堂</category>
         <category>游戏机</category>
+        <category>系统体验</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
+        <category>Pop_OS!</category>
+        <category>Cosmic</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
             <title>[Ver 1.3] CatIsNotFound 更新日志</title>
