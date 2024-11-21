@@ -5,39 +5,97 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 24 Oct 2024 19:42:29 +0800</pubDate>
-        <lastBuildDate>Thu, 24 Oct 2024 19:42:29 +0800</lastBuildDate>
+        <pubDate>Thu, 21 Nov 2024 19:34:12 +0800</pubDate>
+        <lastBuildDate>Thu, 21 Nov 2024 19:34:12 +0800</lastBuildDate>
         <category>更新日志</category>
+        <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>桌面环境</category>
+        <category>GNOME</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
-        <category>Linux</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
         <category>软件安利</category>
-        <category>Windows</category>
-        <category>Waline</category>
-        <category>博客搭建</category>
-        <category>Git</category>
-        <category>Github</category>
-        <category>Hexo</category>
         <category>Android</category>
-        <category>WSL</category>
-        <category>脚本</category>
-        <category>关于博客</category>
+        <category>系统体验</category>
+        <category>Pop_OS!</category>
+        <category>Cosmic</category>
+        <category>Windows</category>
+        <category>解题历程</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>Waline</category>
+        <category>疑难解答</category>
+        <category>刷题</category>
         <category>Switch</category>
         <category>Nintendo</category>
         <category>任天堂</category>
         <category>游戏机</category>
-        <category>系统体验</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
-        <category>刷题</category>
-        <category>疑难解答</category>
-        <category>Pop_OS!</category>
-        <category>Cosmic</category>
+        <category>脚本</category>
+        <category>WSL</category>
+        <category>关于博客</category>
+        <category>Youtube</category>
+        <category>油管</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</guid>
+            <title>[Switch 分享] 如何实现 Youtube 观看自由</title>
+            <link>https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</link>
+            <category>Windows</category>
+            <category>Switch</category>
+            <category>任天堂</category>
+            <category>Youtube</category>
+            <category>油管</category>
+            <pubDate>Thu, 21 Nov 2024 19:34:12 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;写在前面&#34;&gt;&lt;a href=&#34;#写在前面&#34; class=&#34;headerlink&#34; title=&#34;写在前面&#34;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;本文主要介绍如何下载并配置网络工具以及如何在 Switch 上流程看油管。如果觉得此篇有用，不如支持此篇文章(*^_^*)&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/cover.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;准备&#34;&gt;&lt;a href=&#34;#准备&#34; class=&#34;headerlink&#34; title=&#34;准备&#34;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;事先说明：请务必拥有好的网络节点（最起码能够在电脑上访问谷歌）。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;首先，需要在网上下载以下几款软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DNSJumper：一个用于检测 DNS 速度的工具【&lt;a class=&#34;link&#34;   href=&#34;https://softdown.shwswl.cn/soft/DnsJumper22.zip&#34; &gt;点击下载 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
+&lt;li&gt;Netch：一个用于上网加速的工具【&lt;a class=&#34;link&#34;   href=&#34;https://github.com/NetchX/Netch/releases&#34; &gt;点击跳转至下载链接 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
+&lt;li&gt;WinPcap：用于辅助 Netch 软件（建议必下）【&lt;a class=&#34;link&#34;   href=&#34;https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe&#34; &gt;点击下载 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其次，你只需要做以下事情即可：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 下载并解压 DNSJumper、Netch（如果已经下载）；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 安装 WinPcap，（如果需要使用 Netch 来实现境外访问）；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;检测-DNS&#34;&gt;&lt;a href=&#34;#检测-DNS&#34; class=&#34;headerlink&#34; title=&#34;检测 DNS&#34;&gt;&lt;/a&gt;检测 DNS&lt;/h1&gt;&lt;p&gt;根据自己的网络环境，打开 DNSJumper，根据如下图的操作，选择【⚡ 最快 DNS】；&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/1.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;打开之后，点击如下图指示的按钮直接测试 DNS，最后筛选几个毫秒数最小的 DNS 即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/2.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：这一步在配置 Switch 网络设置时需要用到！&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;Netch-相关配置&#34;&gt;&lt;a href=&#34;#Netch-相关配置&#34; class=&#34;headerlink&#34; title=&#34;Netch 相关配置&#34;&gt;&lt;/a&gt;Netch 相关配置&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;阅前提醒：此步骤需要使用已有的网络节点才能实现网络加速！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此部分教程适用于需要加速访问油管（▶ Youtube）&lt;/p&gt;
+&lt;h2 id=&#34;添加服务器&#34;&gt;&lt;a href=&#34;#添加服务器&#34; class=&#34;headerlink&#34; title=&#34;添加服务器&#34;&gt;&lt;/a&gt;添加服务器&lt;/h2&gt;&lt;h3 id=&#34;1-通过订阅添加&#34;&gt;&lt;a href=&#34;#1-通过订阅添加&#34; class=&#34;headerlink&#34; title=&#34;1. 通过订阅添加&#34;&gt;&lt;/a&gt;1. 通过订阅添加&lt;/h3&gt;&lt;p&gt;1️⃣ 首先，打开 Netch，根据如图所示点开【订阅】菜单。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/3.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2️⃣ 按照如下图，填入信息，最后点击【修改】或者【添加】即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/4.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3️⃣ 完成后，记得再次点击【订阅】菜单，并更新即可。&lt;/p&gt;
+&lt;h3 id=&#34;2-手动添加服务器&#34;&gt;&lt;a href=&#34;#2-手动添加服务器&#34; class=&#34;headerlink&#34; title=&#34;2. 手动添加服务器&#34;&gt;&lt;/a&gt;2. 手动添加服务器&lt;/h3&gt;&lt;p&gt;以 V2ray 为例：&lt;/p&gt;
+&lt;p&gt;1️⃣ 选择一个真延迟较低的服务器，（如果没有显示真延迟，先按下 &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt; 再按下 &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;R&lt;/kbd&gt; 以测试所有服务器 ）&lt;/p&gt;
+&lt;p&gt;2️⃣ 选中服务器后，按下 &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt; 复制；&lt;/p&gt;
+&lt;p&gt;3️⃣ 打开 Netch，按照如下图所示，直接粘贴即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/6.PNG&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;简要配置&#34;&gt;&lt;a href=&#34;#简要配置&#34; class=&#34;headerlink&#34; title=&#34;简要配置&#34;&gt;&lt;/a&gt;简要配置&lt;/h2&gt;&lt;p&gt;按照如下图所示的说明进行配置即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/5.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;启动之后，你会得到如下信息：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Listen on \Device\NPF_&amp;#123;B86808EE-659B-48E6-864D-DF596E5027B2&amp;#125; (Qualcomm Atheros QCA61x4A Wireless Network Adapter) [74:4c:a1:a4:29:d7]: 192.168.82.5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Use MTU 1400&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Publish for 10.6.0.2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Please set the network of your device which is going to be proxied with the following parameters:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ┌───────────────────────────┐&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ IP Address       10.6.0.1 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Mask        255.255.255.0 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Gateway          10.6.0.2 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │───────────────────────────│&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ MTU                &amp;lt;=1400 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    └───────────────────────────┘&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Proxy 10.6.0.1/32 to 127.0.0.1:2801&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;其中的 IP 地址 &lt;code&gt;IP Address&lt;/code&gt; 、子网掩码 &lt;code&gt;Mask&lt;/code&gt;、网关 &lt;code&gt;Gateway&lt;/code&gt; 在之后配置 Switch 网络时会用到。&lt;/p&gt;
+&lt;h1 id=&#34;配置-Switch-网络设置&#34;&gt;&lt;a href=&#34;#配置-Switch-网络设置&#34; class=&#34;headerlink&#34; title=&#34;配置 Switch 网络设置&#34;&gt;&lt;/a&gt;配置 Switch 网络设置&lt;/h1&gt;&lt;p&gt;打开自己的 Switch 设置 → 互联网 → 互联网设置&lt;/p&gt;
+&lt;p&gt;选择任一 WIFI，然后选择【更改设置】，根据如下图设置 IP 地址以及 DNS 即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果实在找不到合适的 DNS 地址，可以尝试下如下图 : )&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最后，不要忘记点击保存设置。&lt;/p&gt;
+&lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;虽然这是已有的文章，但是还是希望通过此文章来帮助到正在阅读此文的你。(*^_^*)&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/10/Switch-notes/</guid>
             <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
@@ -90,8 +148,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</guid>
             <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
             <link>https://catisnotfound.github.io/2024/09/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</link>
-            <category>Waline</category>
             <category>博客搭建</category>
+            <category>Waline</category>
             <pubDate>Sat, 28 Sep 2024 13:21:01 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large yellow&#34;&gt;
@@ -199,9 +257,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</guid>
             <title>[Solved] 赵神牛的游戏（解题历程）</title>
             <link>https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</link>
+            <category>解题历程</category>
             <category>💡解题</category>
             <category>C/C++</category>
-            <category>解题历程</category>
             <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
             <description><![CDATA[ &lt;a class=&#34;button  center large&#34; href=&#34;https://www.luogu.com.cn/problem/P2006&#34; title=&#34;点击这里查看题目来源&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 点击这里查看题目来源&lt;/a&gt;
 
@@ -353,9 +411,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[疑难解答] 关于 Github 的问题解决方法</title>
             <link>https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
-            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
+            <category>新手向</category>
             <category>疑难解答</category>
             <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
@@ -872,8 +930,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
             <link>https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</link>
-            <category>新手向</category>
             <category>Linux</category>
+            <category>新手向</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。&lt;/p&gt;
@@ -1129,8 +1187,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 快速入门</title>
             <link>https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category>新手向</category>
             <category>Linux</category>
+            <category>新手向</category>
             <category>脚本</category>
             <pubDate>Sun, 09 Jun 2024 13:10:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;本教程将介绍一些基本的 Bash 命令行操作，包括目录操作、文件操作、文件处理等。&lt;/p&gt;
@@ -1477,8 +1535,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
-            <category>新手向</category>
             <category>Linux</category>
+            <category>新手向</category>
             <category>Windows</category>
             <category>WSL</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
@@ -1629,8 +1687,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
             <title>搭建个人博客（四）：如何实现评论系统</title>
             <link>https://catisnotfound.github.io/2024/06/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
-            <category>Waline</category>
             <category>博客搭建</category>
+            <category>Waline</category>
             <pubDate>Sun, 02 Jun 2024 20:00:00 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large default&#34;&gt;
@@ -2801,11 +2859,11 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
             <link>https://catisnotfound.github.io/2024/05/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</link>
-            <category>软件安利</category>
-            <category>博客搭建</category>
             <category>Git</category>
             <category>Github</category>
+            <category>博客搭建</category>
             <category>Hexo</category>
+            <category>软件安利</category>
             <category>Android</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
@@ -3004,11 +3062,11 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
-            <category>新手向</category>
             <category>Linux</category>
             <category>Ubuntu</category>
-            <category>GNOME</category>
             <category>桌面环境</category>
+            <category>GNOME</category>
+            <category>新手向</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -3138,8 +3196,8 @@ B -- False --&gt; 执行语句2
             <link>https://catisnotfound.github.io/2024/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
             <category>Ubuntu</category>
-            <category>GNOME</category>
             <category>桌面环境</category>
+            <category>GNOME</category>
             <pubDate>Fri, 26 Apr 2024 23:59:00 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -3936,9 +3994,9 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客</title>
             <link>https://catisnotfound.github.io/2024/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-            <category>博客搭建</category>
             <category>Git</category>
             <category>Github</category>
+            <category>博客搭建</category>
             <category>Hexo</category>
             <pubDate>Tue, 23 Apr 2024 19:08:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;

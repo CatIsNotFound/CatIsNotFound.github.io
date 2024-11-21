@@ -5,36 +5,38 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-06T09:03:20.000Z</updated>
     <category term="更新日志" />
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="桌面环境" />
+    <category term="GNOME" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="Python" />
     <category term="学习笔记" />
     <category term="新手向" />
-    <category term="Linux" />
-    <category term="Ubuntu" />
-    <category term="GNOME" />
-    <category term="桌面环境" />
     <category term="软件安利" />
-    <category term="Windows" />
-    <category term="Waline" />
-    <category term="博客搭建" />
-    <category term="Git" />
-    <category term="Github" />
-    <category term="Hexo" />
     <category term="Android" />
-    <category term="WSL" />
-    <category term="脚本" />
-    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="Windows" />
+    <category term="解题历程" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="Waline" />
+    <category term="疑难解答" />
+    <category term="刷题" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
     <category term="游戏机" />
-    <category term="系统体验" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
-    <category term="刷题" />
-    <category term="疑难解答" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
+    <category term="脚本" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="Youtube" />
+    <category term="油管" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</id>
         <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
@@ -181,8 +183,8 @@
   &lt;/div&gt;
 
 </content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="Windows" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
