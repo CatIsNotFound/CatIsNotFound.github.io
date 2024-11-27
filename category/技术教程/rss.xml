@@ -7,41 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Sun, 09 Jun 2024 13:15:33 +0800</pubDate>
         <lastBuildDate>Sun, 09 Jun 2024 13:15:33 +0800</lastBuildDate>
+        <category>Git</category>
         <category>Linux</category>
         <category>更新日志</category>
-        <category>Git</category>
-        <category>Github</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Python</category>
-        <category>学习笔记</category>
-        <category>新手向</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
+        <category>Github</category>
+        <category>新手向</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>软件安利</category>
         <category>Android</category>
         <category>Windows</category>
         <category>💡解题</category>
         <category>C/C++</category>
         <category>解题历程</category>
-        <category>疑难解答</category>
-        <category>Waline</category>
-        <category>刷题</category>
-        <category>脚本</category>
-        <category>WSL</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>关于博客</category>
+        <category>刷题</category>
         <category>Switch</category>
-        <category>Nintendo</category>
-        <category>任天堂</category>
-        <category>游戏机</category>
         <category>Youtube</category>
+        <category>任天堂</category>
         <category>油管</category>
+        <category>Waline</category>
         <category>oh-my-zsh</category>
-        <category>折腾日记</category>
+        <category>WSL</category>
+        <category>疑难解答</category>
+        <category>关于博客</category>
+        <category>脚本</category>
+        <category>Nintendo</category>
+        <category>游戏机</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-Bash-Shell-%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8/</guid>
             <title>从 0 开始学 Linux：Bash Shell 脚本入门</title>
@@ -804,10 +803,10 @@
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
             <category>Linux</category>
-            <category>新手向</category>
             <category>Ubuntu</category>
             <category>桌面环境</category>
             <category>GNOME</category>
+            <category>新手向</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
