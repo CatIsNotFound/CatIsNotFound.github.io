@@ -4,39 +4,41 @@
     <title>CatIsNotFound • Posts by &#34;switch&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-11-21T11:34:12.000Z</updated>
-    <category term="更新日志" />
     <category term="Linux" />
+    <category term="更新日志" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
     <category term="Git" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
     <category term="Python" />
     <category term="学习笔记" />
     <category term="新手向" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="软件安利" />
+    <category term="Github" />
     <category term="Android" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
     <category term="Windows" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C/C++" />
     <category term="Waline" />
-    <category term="疑难解答" />
-    <category term="刷题" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
     <category term="游戏机" />
-    <category term="脚本" />
-    <category term="WSL" />
-    <category term="关于博客" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
     <category term="Youtube" />
     <category term="油管" />
+    <category term="oh-my-zsh" />
+    <category term="折腾日记" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="疑难解答" />
     <entry>
         <id>https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</id>
         <title>[Switch 分享] 如何实现 Youtube 观看自由</title>
@@ -98,10 +100,8 @@
         <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/10/Switch-notes/"/>
         <content type="html">&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂&lt;strong&gt;早已停产&lt;/strong&gt;的限定外观主机（宝可梦剑盾）。见下图：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://img.picui.cn/free/2024/10/24/671a3a02d23fa.jpg&#34; alt=&#34;IMG_20241023_100743.jpg&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
-
-&lt;img loading=&#34;lazy&#34; src=&#34;https://img.picui.cn/free/2024/10/24/671a3a01df566.jpg&#34; alt=&#34;IMG_20241023_100818.jpg&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
-
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.la/images/2024/11/27/IMG_20241023_1008181.jpg&#34; alt=&#34;IMG20241023100818&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.la/images/2024/11/27/IMG_20241023_100835.jpg&#34; alt=&#34;IMG20241023100835&#34;&gt;&lt;/p&gt;
 &lt;p&gt;是的，这正是我第一次在某鱼平台上淘到的游戏掌机。&lt;/p&gt;
 &lt;p&gt;不过，后来打算想直接卖了。（具体原因见后文）&lt;/p&gt;
 &lt;h1 id=&#34;关于我第一次游玩-Switch-的经历和感受&#34;&gt;&lt;a href=&#34;#关于我第一次游玩-Switch-的经历和感受&#34; class=&#34;headerlink&#34; title=&#34;关于我第一次游玩 Switch 的经历和感受&#34;&gt;&lt;/a&gt;关于我第一次游玩 Switch 的经历和感受&lt;/h1&gt;&lt;p&gt;这得从几个月说起了：大概是今年的 5-6 月份左右，我姐在某宝上购买了一台 Switch OLED 主机。当时，这是本人第一次看到且曾体验过主机游戏的一次经历。那时，我姐为了想玩上&lt;strong&gt;动森&lt;/strong&gt;（动物森友会），而特意买了这台全新的主机。&lt;/p&gt;
@@ -123,8 +123,7 @@
 &lt;p&gt;我的第一想法是在某宝上去搜 switch，大部分的 switch 对我来说，价格都是较为昂贵的😂。就连 switch lite 这款全新的掌机都要上千来块。&lt;/p&gt;
 &lt;p&gt;在此之后，我就前往了充满二手气息且价格低廉的平台——&lt;strong&gt;某鱼&lt;/strong&gt;🐟。在那里，虽然大多数看到的机型都不是全新的机型，但其便宜的价格成功地吸引了我。于是，在我大海捞针般地搜索自个儿能负担得起的那堆结果中，选择了 Switch Lite。是的，就是那款掌上主机。虽然它的屏幕尺寸比之前体验过的 OLED 主机要小了几倍，但它能成为我&lt;del&gt;每次上课摸鱼🐟必备的把玩工具(bushi)🤭&lt;/del&gt; 打发时间的娱乐🎮工具，再配合上我的外接蓝牙手柄，整个游戏体验瞬间就变得丝滑了起来🤭。而且，我也不再仅仅局限于玩💻端游或📱手游来打发空余时间。&lt;/p&gt;
 &lt;h1 id=&#34;我为何又打算卖出-Switch-？&#34;&gt;&lt;a href=&#34;#我为何又打算卖出-Switch-？&#34; class=&#34;headerlink&#34; title=&#34;我为何又打算卖出 Switch ？&#34;&gt;&lt;/a&gt;我为何又打算卖出 Switch ？&lt;/h1&gt;&lt;p&gt;关于这一点，本人主要是&lt;strong&gt;看上了今年早已发售的 Switch Lite 新外观——海拉鲁限定主机&lt;/strong&gt;（见下图），于是就有了想把主机卖掉的想法了（而且是急于想从某鱼上卖掉 Switch 的那种想法）。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://img.picui.cn/free/2024/10/24/671a39f9b1a94.png&#34; alt=&#34;tb_image_share_1729772213106.jpg.png&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
-
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.la/images/2024/11/27/tb_image_share_1729772200807.jpg1.png&#34; alt=&#34;tb&#34;&gt;&lt;/p&gt;
 &lt;p&gt;对于我看上它的原因，主要还是集中于几点：&lt;/p&gt;
 &lt;p&gt;首先，它的外观呈金色，机身背面的图案为海拉鲁的图案；&lt;/p&gt;
 &lt;p&gt;其次，买今年刚发售的新主机可以兑换一年的 Switch 会员😂😂😂😂；&lt;/p&gt;
