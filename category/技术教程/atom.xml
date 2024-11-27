@@ -6,37 +6,37 @@
     <updated>2024-06-09T05:15:33.000Z</updated>
     <category term="Linux" />
     <category term="更新日志" />
-    <category term="Ubuntu" />
-    <category term="桌面环境" />
-    <category term="GNOME" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="Python" />
     <category term="学习笔记" />
     <category term="新手向" />
-    <category term="Git" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="Github" />
+    <category term="Ubuntu" />
+    <category term="桌面环境" />
+    <category term="GNOME" />
     <category term="软件安利" />
     <category term="Android" />
     <category term="Windows" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="解题历程" />
+    <category term="疑难解答" />
+    <category term="Waline" />
+    <category term="刷题" />
+    <category term="脚本" />
+    <category term="WSL" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="关于博客" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
     <category term="游戏机" />
-    <category term="WSL" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="刷题" />
-    <category term="解题历程" />
     <category term="Youtube" />
     <category term="油管" />
-    <category term="疑难解答" />
     <category term="oh-my-zsh" />
     <category term="折腾日记" />
     <entry>
@@ -922,10 +922,10 @@
   &lt;/div&gt;
 </content>
         <category term="Linux" />
+        <category term="新手向" />
         <category term="Ubuntu" />
         <category term="桌面环境" />
         <category term="GNOME" />
-        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
