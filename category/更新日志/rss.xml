@@ -7,40 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
         <lastBuildDate>Thu, 20 Jun 2024 12:31:43 +0800</lastBuildDate>
-        <category>Git</category>
         <category>Linux</category>
-        <category>更新日志</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
+        <category>Git</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
         <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
+        <category>更新日志</category>
         <category>软件安利</category>
         <category>Android</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Windows</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>刷题</category>
-        <category>Switch</category>
-        <category>Youtube</category>
-        <category>任天堂</category>
-        <category>油管</category>
         <category>Waline</category>
-        <category>oh-my-zsh</category>
         <category>WSL</category>
-        <category>疑难解答</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
+        <category>Switch</category>
         <category>Nintendo</category>
+        <category>任天堂</category>
         <category>游戏机</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
+        <category>oh-my-zsh</category>
+        <category>Youtube</category>
+        <category>油管</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
             <title>[Ver 1.3] CatIsNotFound 更新日志</title>
@@ -95,7 +95,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;继续完善博客站点的功能，包括文章分类、标签、搜索功能等；&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del class=&#34;mask&#34;&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -106,7 +106,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;关于 Redefine 主题的更新内容，请直接访问以下链接：&lt;/p&gt;
-&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt; ]]></description>
@@ -192,7 +192,7 @@
             <pubDate>Tue, 23 Apr 2024 18:54:46 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h2&gt;&lt;p&gt;这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)&lt;/p&gt;
 &lt;h2 id=&#34;What’s-New&#34;&gt;&lt;a href=&#34;#What’s-New&#34; class=&#34;headerlink&#34; title=&#34;What’s New&#34;&gt;&lt;/a&gt;What’s New&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容&lt;/p&gt;
 &lt;ul&gt;

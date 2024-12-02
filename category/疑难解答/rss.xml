@@ -7,40 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
         <lastBuildDate>Sun, 01 Sep 2024 12:48:45 +0800</lastBuildDate>
-        <category>Git</category>
         <category>Linux</category>
-        <category>更新日志</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
+        <category>Git</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
         <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
+        <category>更新日志</category>
         <category>软件安利</category>
         <category>Android</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Windows</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>刷题</category>
-        <category>Switch</category>
-        <category>Youtube</category>
-        <category>任天堂</category>
-        <category>油管</category>
         <category>Waline</category>
-        <category>oh-my-zsh</category>
         <category>WSL</category>
-        <category>疑难解答</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
+        <category>Switch</category>
         <category>Nintendo</category>
+        <category>任天堂</category>
         <category>游戏机</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
+        <category>oh-my-zsh</category>
+        <category>Youtube</category>
+        <category>油管</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[疑难解答] 关于 Github 的问题解决方法</title>
@@ -68,13 +68,13 @@
 &lt;p&gt;关于免费节点的获取，本文就不分享免费节点站点了，请自行使用必应或 Google 搜索。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：寻找免费节点时，请尽量不要使用百度搜索！&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;2、无法从-Github-项目中克隆或推送项目&#34;&gt;&lt;a href=&#34;#2、无法从-Github-项目中克隆或推送项目&#34; class=&#34;headerlink&#34; title=&#34;2、无法从 Github 项目中克隆或推送项目&#34;&gt;&lt;/a&gt;2、无法从 Github 项目中克隆或推送项目&lt;/h1&gt;&lt;p&gt;此类问题非常常见，当你在终端下执行 &lt;code&gt;git clone &amp;lt;URL&amp;gt;&lt;/code&gt; 或者 &lt;code&gt;git push -u origin main&lt;/code&gt; 时，可能会出现不同程度的报错：&lt;/p&gt;
-&lt;h2 id=&#34;2-1-443-端口无法连接&#34;&gt;&lt;a href=&#34;#2-1-443-端口无法连接&#34; class=&#34;headerlink&#34; title=&#34;2.1 443 端口无法连接&#34;&gt;&lt;/a&gt;2.1 443 端口无法连接&lt;/h2&gt;&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;fatal: unable to access &amp;#x27;https://github.com/XXX/XXX.git/&amp;#x27;: Failed to connect to github.com port 443 after 21066 ms: Could not connect to server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;2-1-443-端口无法连接&#34;&gt;&lt;a href=&#34;#2-1-443-端口无法连接&#34; class=&#34;headerlink&#34; title=&#34;2.1 443 端口无法连接&#34;&gt;&lt;/a&gt;2.1 443 端口无法连接&lt;/h2&gt;&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;fatal: unable to access &amp;#x27;https://github.com/XXX/XXX.git/&amp;#x27;: Failed to connect to github.com port 443 after 21066 ms: Could not connect to server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;此类问题下最好是通过&lt;strong&gt;使用代理&lt;/strong&gt;，在使用此方法前，首先请确保你已安装如上提到的软件，如：Clash、V2rayNG 等。&lt;/p&gt;
 &lt;p&gt;不同的软件，对应使用的端口也不相同，具体如下：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1、Clash 小猫咪&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;通过其默认端口 &lt;code&gt;7890&lt;/code&gt; 以直接配置如下：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:7890&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:7890&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:7890&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:7890&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;2、V2rayNG&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;关于此软件，需要打开软件主界面，在如下图所指示的地址就是配置代理的选项，&lt;/p&gt;
@@ -88,14 +88,14 @@
   &lt;/div&gt;
 
 &lt;p&gt;这里就按照 Http 所提供的端口 &lt;code&gt;10809&lt;/code&gt; 进行配置即可：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global http.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global https.proxy 127.0.0.1:10809&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;2-2-Git-中的-Github-邮箱与密码&#34;&gt;&lt;a href=&#34;#2-2-Git-中的-Github-邮箱与密码&#34; class=&#34;headerlink&#34; title=&#34;2.2 Git 中的 Github 邮箱与密码&#34;&gt;&lt;/a&gt;2.2 Git 中的 Github 邮箱与密码&lt;/h2&gt;&lt;p&gt;假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Username for &amp;#x27;https://github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Password for &amp;#x27;https://username@github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Username for &amp;#x27;https://github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Password for &amp;#x27;https://username@github.com&amp;#x27;:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;此类情况下，你需要输入&lt;strong&gt;对应的用户名和对应的 Token&lt;/strong&gt; 才能继续操作。关于 Token 的获取，请看下文。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;首先点击此链接 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/settings/tokens/new&#34; &gt;New Personal Access Token (Classic) (github.com) &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;首先点击此链接 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/settings/tokens/new&#34; &gt;New Personal Access Token (Classic) (github.com)&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/1.jpg&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;

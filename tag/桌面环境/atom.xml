@@ -4,40 +4,40 @@
     <title>CatIsNotFound • Posts by &#34;桌面环境&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-15T08:57:19.000Z</updated>
-    <category term="Git" />
     <category term="Linux" />
-    <category term="更新日志" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
+    <category term="Git" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
     <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="新手向" />
-    <category term="Python" />
-    <category term="学习笔记" />
+    <category term="更新日志" />
     <category term="软件安利" />
     <category term="Android" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Windows" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="刷题" />
-    <category term="Switch" />
-    <category term="Youtube" />
-    <category term="任天堂" />
-    <category term="油管" />
     <category term="Waline" />
-    <category term="oh-my-zsh" />
     <category term="WSL" />
-    <category term="疑难解答" />
-    <category term="关于博客" />
     <category term="脚本" />
+    <category term="关于博客" />
+    <category term="Switch" />
     <category term="Nintendo" />
+    <category term="任天堂" />
     <category term="游戏机" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="疑难解答" />
+    <category term="oh-my-zsh" />
+    <category term="Youtube" />
+    <category term="油管" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
         <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
@@ -51,7 +51,7 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;安装&#34;&gt;&lt;a href=&#34;#安装&#34; class=&#34;headerlink&#34; title=&#34;安装&#34;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;h2 id=&#34;Step-1-下载镜像&#34;&gt;&lt;a href=&#34;#Step-1-下载镜像&#34; class=&#34;headerlink&#34; title=&#34;Step 1: 下载镜像&#34;&gt;&lt;/a&gt;Step 1: 下载镜像&lt;/h2&gt;&lt;p&gt;现如今，Cosmic 桌面环境正处于测试阶段（使用过程中会有 Bug）。我们可以通过官网下载其安装镜像，下载链接在正下方：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://system76.com/cosmic&#34; &gt;System76 - Linux Laptops, Desktops, and Servers &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://system76.com/cosmic&#34; &gt;System76 - Linux Laptops, Desktops, and Servers&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;点击上文提到的链接，进入官网，下拉找到 &lt;em&gt;Try COSMIC Epoch 1 (alpha 1) on the Pop!_OS 24.04 LTS alpha.&lt;/em&gt; 一行，根据自己的 CPU 或显卡配置，按需下载 ISO 镜像即可。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：国内下载速度缓慢，建议使用第三方下载工具下载镜像。&lt;/strong&gt;&lt;/p&gt;
@@ -59,11 +59,11 @@
 &lt;p&gt;需要注意的是，若使用虚拟机过程中无法正常进入桌面，请尝试&lt;strong&gt;开启 3D 图形加速&lt;/strong&gt;，或提高其运行内存 &lt;strong&gt;（建议： ≥ 4GB）&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;这里推荐以下软件：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;下载安装后，仅需插入 U 盘，然后选择需要烧录的 ISO 镜像，等待几分钟即可。这里不过多赘述。&lt;/p&gt;
@@ -195,7 +195,7 @@
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;p&gt;在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：&lt;a href=&#34;../../../04/26/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/&#34;&gt;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;。&lt;/p&gt;
+      &lt;p&gt;在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：&lt;a href=&#34;../../../04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/&#34;&gt;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
 
@@ -348,27 +348,27 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34; &gt;VMWare Workstation &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34; &gt;VMWare Workstation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.virtualbox.org/favicon.ico&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; &gt;Oracle VM VirtualBox &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.virtualbox.org/favicon.ico&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; &gt;Oracle VM VirtualBox&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/fusion/fusion-evaluation.html&#34; &gt;VMWare Fusion &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/fusion/fusion-evaluation.html&#34; &gt;VMWare Fusion&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mac&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png&#34; style=&#34;zoom: 33%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.parallels.com/products/desktop/&#34; &gt;Parallels Desktop &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png&#34; style=&#34;zoom: 33%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.parallels.com/products/desktop/&#34; &gt;Parallels Desktop&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mac&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.qemu.org/assets/favicons/favicon-32x32.png&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.qemu.org/download/&#34; &gt;QEMU &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.qemu.org/assets/favicons/favicon-32x32.png&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.qemu.org/download/&#34; &gt;QEMU&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://learn.microsoft.com/favicon.ico&#34; style=&#34;zoom:25%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/&#34; &gt;Hyper-V &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://learn.microsoft.com/favicon.ico&#34; style=&#34;zoom:25%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/&#34; &gt;Hyper-V&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
@@ -380,7 +380,7 @@
 &lt;li&gt;安装非常简单，仅需安装发行版即可实现即开即用&lt;/li&gt;
 &lt;li&gt;仅运行于终端中，不会占用过大的存储空间&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;安装方式-1&#34;&gt;&lt;a href=&#34;#安装方式-1&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;p&gt;你可以直接&lt;a class=&#34;link&#34;   href=&#34;https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R&#34; &gt;点击此处下载 WSL &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;，打开网页后将会自动跳转到 Microsoft Store 中，只需点击下载安装即可&lt;/p&gt;
+&lt;h3 id=&#34;安装方式-1&#34;&gt;&lt;a href=&#34;#安装方式-1&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;p&gt;你可以直接&lt;a class=&#34;link&#34;   href=&#34;https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R&#34; &gt;点击此处下载 WSL&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;，打开网页后将会自动跳转到 Microsoft Store 中，只需点击下载安装即可&lt;/p&gt;
 &lt;p&gt;关于相关的 WSL 教程，请直接点击下方按钮以跳转至此文章。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;/2024/06/WSL：一个适用于-Windows-的-Linux-子系统/&#39; title=&#39;WSL：一个适用于 Windows 的 Linux 子系统&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; WSL：一个适用于 Windows 的 Linux 子系统&lt;/a&gt;
 
@@ -393,12 +393,12 @@
 &lt;li&gt;&lt;p&gt;若选择此方式，作者建议使用如下工具将镜像文件安装到 U 盘中：&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://www.ventoy.net/favicon.ico&#34;  /&gt;
 
-&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://rufus.ie/favicon.ico&#34;  /&gt;
 
-&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://etcher.balena.io/images/2024/favicon.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;使用方式均为一样，仅需使用对应工具将需要存放的 ISO 镜像文件烧录即可。&lt;/p&gt;
 &lt;/li&gt;
@@ -415,14 +415,14 @@
 &lt;li&gt;仅需安装 Termux 即可得到虚拟的 Linux 环境&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;安装方式-3&#34;&gt;&lt;a href=&#34;#安装方式-3&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://github.com/termux/termux-app/releases/tag/v0.118.0&#34; &gt;Release v0.118.0 · termux&amp;#x2F;termux-app (github.com) &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;由于大多数手机为 ARM 架构，因此建议&lt;a class=&#34;link&#34;   href=&#34;https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk&#34; &gt;选择 ARM 版本 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://github.com/termux/termux-app/releases/tag/v0.118.0&#34; &gt;Release v0.118.0 · termux&amp;#x2F;termux-app (github.com)&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于大多数手机为 ARM 架构，因此建议&lt;a class=&#34;link&#34;   href=&#34;https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk&#34; &gt;选择 ARM 版本&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;安装-Linux-系统&#34;&gt;&lt;a href=&#34;#安装-Linux-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Linux 系统&#34;&gt;&lt;/a&gt;安装 Linux 系统&lt;/h1&gt;&lt;h2 id=&#34;下载镜像&#34;&gt;&lt;a href=&#34;#下载镜像&#34; class=&#34;headerlink&#34; title=&#34;下载镜像&#34;&gt;&lt;/a&gt;下载镜像&lt;/h2&gt;&lt;p&gt;在写这篇文章之前，若你已经下载并安装完环境后，接下来只需要在对应的 Linux 发行版中下载镜像即可。（通常为 &lt;code&gt;*.iso&lt;/code&gt; 格式的镜像文件）&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png&#34;  /&gt;
 
-&lt;p&gt;这里将使用全球较为流行的 &lt;a class=&#34;link&#34;   href=&#34;https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;Ubuntu 24.04 LTS &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 镜像来安装 Linux。&lt;/p&gt;
+&lt;p&gt;这里将使用全球较为流行的 &lt;a class=&#34;link&#34;   href=&#34;https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;Ubuntu 24.04 LTS&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 镜像来安装 Linux。&lt;/p&gt;
 
   &lt;div class=&#34;note-large green&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -432,10 +432,10 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;若下载速度缓慢，这里已提供如下镜像站，可以加快下载速度：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;清华源下载 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirror.nyist.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;南阳理工学院镜像站 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirror.bjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;北京交通大学镜像站 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirrors.xjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;西安交通大学镜像站 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;清华源下载&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirror.nyist.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;南阳理工学院镜像站&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirror.bjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;北京交通大学镜像站&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://mirrors.xjtu.edu.cn/ubuntu-releases/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;西安交通大学镜像站&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;请直接点击上方链接或者复制下载链接，即可开始下载镜像&lt;/p&gt;
 
@@ -463,7 +463,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;※ 补充内容：安装 VMware Tools 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;现如今，在 Ubuntu 及其它 Debian 系发行版下，可直接打开终端，并安装 &lt;code&gt;open-vm-tools&lt;/code&gt; 工具包即可，具体命令如下：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Shell&#34;&gt;&lt;figure class=&#34;iseeu highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install open-vm-tools -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Shell&#34;&gt;&lt;figure class=&#34;iseeu highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt install open-vm-tools -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;完成安装后，将系统注销重新登录之后即可生效&lt;/p&gt;
 &lt;/blockquote&gt;

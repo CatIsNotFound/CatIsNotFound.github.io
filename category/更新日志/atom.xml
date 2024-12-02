@@ -4,40 +4,40 @@
     <title>CatIsNotFound • Posts by &#34;更新日志&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-20T04:31:43.000Z</updated>
-    <category term="Git" />
     <category term="Linux" />
-    <category term="更新日志" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
+    <category term="Git" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
     <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="新手向" />
-    <category term="Python" />
-    <category term="学习笔记" />
+    <category term="更新日志" />
     <category term="软件安利" />
     <category term="Android" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Windows" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="解题历程" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="刷题" />
-    <category term="Switch" />
-    <category term="Youtube" />
-    <category term="任天堂" />
-    <category term="油管" />
     <category term="Waline" />
-    <category term="oh-my-zsh" />
     <category term="WSL" />
-    <category term="疑难解答" />
-    <category term="关于博客" />
     <category term="脚本" />
+    <category term="关于博客" />
+    <category term="Switch" />
     <category term="Nintendo" />
+    <category term="任天堂" />
     <category term="游戏机" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="疑难解答" />
+    <category term="oh-my-zsh" />
+    <category term="Youtube" />
+    <category term="油管" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
         <title>[Ver 1.3] CatIsNotFound 更新日志</title>
@@ -89,7 +89,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;继续完善博客站点的功能，包括文章分类、标签、搜索功能等；&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;继续创作博客文章，目前暂未达到 20 篇博客文章了。&lt;del class=&#34;mask&#34;&gt;（即使有一部分是水出来的，bushi😅）&lt;/del&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -100,7 +100,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;关于 Redefine 主题的更新内容，请直接访问以下链接：&lt;/p&gt;
-&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#34; &gt;https://github.com/EvanNotFound/hexo-theme-redefine/releases&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
@@ -187,7 +187,7 @@
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/Ver-1-0-%E6%9B%B4%E6%96%B0%EF%BC%9ACatIsNotFound-%E6%AD%A3%E5%BC%8F%E5%9C%A8-Github-Page-%E9%A1%B5%E9%9D%A2%E4%B8%8A%E5%85%AC%E5%85%B1%E5%BC%80%E6%94%BE/"/>
         <content type="html">&lt;h2 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h2&gt;&lt;p&gt;这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)&lt;/p&gt;
 &lt;h2 id=&#34;What’s-New&#34;&gt;&lt;a href=&#34;#What’s-New&#34; class=&#34;headerlink&#34; title=&#34;What’s New&#34;&gt;&lt;/a&gt;What’s New&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容&lt;/p&gt;
 &lt;ul&gt;

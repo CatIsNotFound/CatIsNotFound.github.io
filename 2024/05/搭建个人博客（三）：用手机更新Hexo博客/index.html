@@ -11,12 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     
-        
-        
-        
-            <link rel="preconnect" href="https://s4.zstatic.net" crossorigin>
-        
-    
     <!--- Seo Part-->
     
     <link rel="canonical" href="https://CatIsNotFound.github.io/2024/05/搭建个人博客（三）：用手机更新hexo博客/"/>
@@ -24,37 +18,35 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。">
+    
+    
+        
+        <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建个人博客（三）：用 Android 手机更新 Hexo 博客">
 <meta property="og:url" content="https://catisnotfound.github.io/2024/05/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="CatIsNotFound">
-<meta property="og:description" content="现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。">
+<meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0527/banner.jpg">
-<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0527/1.jpg">
-<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0527/2.jpg">
-<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0513/6.jpg">
-<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0513/7.jpg">
-<meta property="og:image" content="https://catisnotfound.github.io/images/2024/0527/3.jpg">
+<meta property="og:image" content="https://catisnotfound.github.io/images/redefine-og.webp">
 <meta property="article:published_time" content="2024-05-27T02:18:00.000Z">
 <meta property="article:modified_time" content="2024-06-08T13:02:24.000Z">
 <meta property="article:author" content="CatIsNotFound">
 <meta property="article:tag" content="Git">
+<meta property="article:tag" content="Github">
 <meta property="article:tag" content="博客搭建">
 <meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="Github">
 <meta property="article:tag" content="软件安利">
 <meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://catisnotfound.github.io/images/2024/0527/banner.jpg">
+<meta name="twitter:image" content="https://catisnotfound.github.io/images/redefine-og.webp">
     
     
     <!--- Icon Part-->
-    <link rel="icon" type="image/png" href="/images/logo_Y.png" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo_Y.png">
-    <meta name="theme-color" content="#f5bc55">
-    <link rel="shortcut icon" href="/images/logo_Y.png">
+    <link rel="icon" type="image/png" href="/images/logo_B.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo_B.png">
+    <meta name="theme-color" content="#2781b9">
+    <link rel="shortcut icon" href="/images/logo_B.png">
     <!--- Page Info-->
     
     <title>
@@ -63,7 +55,9 @@
         
     </title>
 
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fonts/Chillax/chillax.css">
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
 
     <!--- Inject Part-->
     
@@ -73,11 +67,17 @@
 
 
     
-        <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/assets/build/styles.css">
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
     
 
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fonts/GeistMono/geist-mono.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fonts/Geist/geist.css">
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
     <!--- Font Part-->
     
     
@@ -85,21 +85,31 @@
     
     
     
-        <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/anime.min.js" ></script>
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
     
 
     <script id="hexo-configurations">
     window.config = {"hostname":"catisnotfound.github.io","root":"/","language":"zh-CN","path":"search.xml"};
-    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["许久未更","偶尔一更","定期更新","随时更新","每周必更","频繁更新","每日必更"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"atom-one-light","dark":"atom-one-dark"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":false,"recommendation":{"enable":false,"title":"自动推荐","limit":3,"mobile_limit":3,"placeholder":null,"skip_dirs":[]}},"colors":{"primary":"#f5bc55","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":true,"custom_message":"Now Loading..."},"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://files.codelife.cc/wallhaven/full/r2/wallhaven-r27qy1.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp","dark":"https://files.codelife.cc/wallhaven/full/jx/wallhaven-jxl3qp.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp"},"title":"CatIsNotFound","subtitle":{"text":["Loading..."],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#101010","dark":"#d4d4d4"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/CatIsNotFound","instagram":null,"zhihu":"https://www.zhihu.com/people/catisnotfound","twitter":null,"email":null,"bilibili":"https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0","fa-solid fa-rss":"/feed"},"qrs":{"weixin":null,"fa-brands fa-qq":"/images/QQ.jpg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.7.3","navbar":{"auto_hide":true,"color":{"left":"#fffe93","right":"#ae3535","transparency":45},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"博客":{"icon":"fa-solid fa-book","submenus":{"📂 最新博客":"/archives","📚 所有类别":"/categories","🔖 寻找兴趣":"/tags"}},"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"About":{"icon":"fa-solid fa-user","submenus":{"📝 关于博客":"/2024/06/关于我的博客","📰 RSS 订阅":"/feed","🐙 Github":"https://github.com/CatIsNotFound","❓ 知乎":"https://www.zhihu.com/people/catisnotfound","📺 哔哩哔哩":"https://space.bilibili.com/1896645285"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"right","first_item":"info","announcement":"欢迎来到我的个人博客。请在任意文章下方的评论区留言哦~","show_on_mobile":true,"links":{"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"},"壁纸":{"icon":"fa-solid fa-images","path":"/masonry"},"RSS":{"icon":"fa-solid fa-rss","path":"/feed"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":4}},"footerStart":"2024/04/23 18:00:00"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["许久未更","偶尔一更","定期更新","随时更新","每周必更","频繁更新","每日必更"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"atom-one-light","dark":"atom-one-dark"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":false,"pangu_js":true,"recommendation":{"enable":false,"title":"自动推荐","limit":3,"mobile_limit":3,"placeholder":null,"skip_dirs":[]}},"colors":{"primary":"#2781b9","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":true,"custom_message":"Now Loading..."},"open_graph":{"enable":true,"image":"/images/redefine-og.webp","description":"Hexo Theme Redefine, Redefine Your Hexo Journey."},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://files.codelife.cc/wallpaper/wallspic/20240424jibahh.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp","dark":"https://files.codelife.cc/wallpaper/wallspic/20240314c4g9f8.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp"},"title":"CatIsNotFound","subtitle":{"text":["Loading..."],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#101010","dark":"#d4d4d4"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/CatIsNotFound","instagram":null,"zhihu":"https://www.zhihu.com/people/catisnotfound","twitter":null,"email":null,"bilibili":"https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0","fa-solid fa-rss":"/feed"},"qrs":{"weixin":null,"fa-brands fa-qq":"/images/QQ.jpg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":true,"version":"11.4.1"}},"version":"2.8.2","navbar":{"auto_hide":true,"color":{"left":"#3968da","right":"#a1baf3","transparency":30},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"博客":{"icon":"fa-solid fa-book","submenus":{"📂 最新博客":"/archives","📚 所有类别":"/categories","🔖 寻找兴趣":"/tags"}},"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"About":{"icon":"fa-solid fa-user","submenus":{"📝 关于博客":"/2024/06/关于我的博客","📰 RSS 订阅":"/feed","🐙 Github":"https://github.com/CatIsNotFound","❓ 知乎":"https://www.zhihu.com/people/catisnotfound","📺 哔哩哔哩":"https://space.bilibili.com/1896645285"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"right","first_item":"info","announcement":"欢迎来到我的个人博客。请在任意文章下方的评论区留言哦~","show_on_mobile":true,"links":{"动态":{"icon":"fa-solid fa-comment-dots","path":"/myfeed"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"},"壁纸":{"icon":"fa-solid fa-images","path":"/masonry"},"RSS":{"icon":"fa-solid fa-rss","path":"/feed"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":4}},"footerStart":"2024/04/23 18:00:00"};
     window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
     window.data = {"masonry":true};
   </script>
     
     <!--- Fontawesome Part-->
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/fontawesome.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/brands.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/solid.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/regular.min.css">
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
     
     
     
@@ -107,21 +117,20 @@
 <meta name="generator" content="Hexo 7.3.0"></head>
 
 
-<body>
-<div class="progress-bar-container">
-    
 
-    
-        <span class="pjax-progress-bar"></span>
-<!--        <span class="swup-progress-icon">-->
-<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
-<!--        </span>-->
-    
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
 </div>
 
-
-
-    <style>
+<style>
     :root {
         --preloader-background-color: #fff;
         --preloader-text-color: #000;
@@ -270,18 +279,16 @@
 
 <main class="page-container" id="swup">
 
-    
+	
 
-    <div class="main-content-container flex flex-col justify-between min-h-dvh">
-
-
-        <div class="main-content-header">
-            <header class="navbar-container px-6 md:px-12">
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
     <div class="navbar-content transition-navbar ">
         <div class="left">
             
                 <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
-                    <img src="/images/logo_Y.png" class="w-full h-full rounded-sm">
+                    <img src="/images/logo_B.png" class="w-full h-full rounded-sm">
                 </a>
             
             <a class="logo-title" href="/">
@@ -689,44 +696,41 @@
 </header>
 
 
-        </div>
+		</div>
 
-        <div class="main-content-body">
+		<div class="main-content-body transition-fade-up">
+			
 
-            
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
 
-            <div class="main-content">
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="/images/2024/0527/banner.jpg" alt="搭建个人博客（三）：用 Android 手机更新 Hexo 博客" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75" />
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">搭建个人博客（三）：用 Android 手机更新 Hexo 博客</h1>
+			</div>
+			
+		</div>
 
-                
-                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
-    <div class="article-content-container">
-
-        <div class="article-title relative w-full">
-            
-                
-                
-                <img src="/images/2024/0527/banner.jpg" alt="搭建个人博客（三）：用 Android 手机更新 Hexo 博客" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
-                
-                <div class="w-full flex items-center absolute bottom-0 justify-start">
-                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">搭建个人博客（三）：用 Android 手机更新 Hexo 博客</h1>
-                </div>
-            
-            </div>
-
-        
-            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
-                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
-                    <img src="https://avatars.githubusercontent.com/u/162785971?v=4">
-                </div>
-                <div class="info flex flex-col justify-between">
-                    <div class="author flex items-center">
-                        <span class="name text-default-text-color text-lg font-semibold">CatIsNotFound</span>
-                        
-                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">定期更新</span>
-                        
-                    </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="https://avatars.githubusercontent.com/u/162785971?v=4">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">CatIsNotFound</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">定期更新</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
         <span class="desktop">2024-05-27 10:18</span>
@@ -769,15 +773,15 @@
                     </li>
                 
                     <li>
+                        | <a href="/tags/Github/">Github</a>&nbsp;
+                    </li>
+                
+                    <li>
                         | <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>&nbsp;
                     </li>
                 
                     <li>
                         | <a href="/tags/Hexo/">Hexo</a>&nbsp;
-                    </li>
-                
-                    <li>
-                        | <a href="/tags/Github/">Github</a>&nbsp;
                     </li>
                 
                     <li>
@@ -802,21 +806,21 @@
     
 </div>
 
-                    </div>
-                </div>
-            </div>
-        
+				</div>
+			</div>
+		</div>
+		
 
-        
+		
 
 
-        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。</p>
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。</p>
 <h1 id="备份博客存档"><a href="#备份博客存档" class="headerlink" title="备份博客存档"></a>备份博客存档</h1><p>首先，在利用手机之前，首先就是在自己的电脑上<strong>备份自己的博客</strong>。</p>
 <p>（PS: 如果不是在电脑上写 Hexo 博客，请当博主没说~ o(*￣▽￣*)o）</p>
 <p>在此，请直接在 Github 上<a target="_blank" rel="noopener" href="https://github.com/new"><strong>新建一个公共仓库（Public Repository）</strong></a>，将自己的博客上传到 Github 中。</p>
 <p>假设：你已在 Github 上新建了一个名为 <code>blogBackup</code> 的公共仓库，那么你应当在命令行下，执行如下命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;20210412&quot;</span> <span class="comment"># 此处建议填写上传时间，如：20210412&quot;</span></span><br><span class="line">git remote add origin https://github.com/yourname/blogBackup.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;20210412&quot;</span> <span class="comment"># 此处建议填写上传时间，如：20210412&quot;</span></span><br><span class="line">git remote add origin https://github.com/yourname/blogBackup.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>注意：请将第4行中的 Git 仓库地址替换自己实际的 Github 仓库地址。</strong></p>
 <p>当你完成以上这些命令后，请回到你新建好的 Github 公共仓库以确认上传成功。</p>
@@ -859,7 +863,7 @@
 <p><strong>2. 新建博客文章</strong></p>
 <p>点击右下角的 <code>+</code> 号，按照提示填写文章基本信息即可完成创建。</p>
 <p>或者直接在终端下执行如下命令：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div>
 
 <p><img loading="lazy" src="/images/2024/0527/2.jpg"></p>
 <p><strong>3. 尽情写作吧！</strong></p>
@@ -868,21 +872,21 @@
 <li><code>update-to-github-pages.sh</code>：用于将本地博客更新到 Github Pages 仓库。</li>
 </ul>
 <p>注意：这将会一次性将博客的所有文件上传到 Github Pages 仓库，并覆盖掉原有的文件。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
 
 <ul>
 <li><code>backup-your-blog.sh</code>：用于将博客存档上传到 Github 仓库中。</li>
 </ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment"># 这将会自动生成当前日期作为备份的备注。如：20210412</span></span><br><span class="line">git commit -m <span class="string">&quot;<span class="subst">$(date +%Y%m%d)</span>&quot;</span> </span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment"># 这将会自动生成当前日期作为备份的备注。如：20210412</span></span><br><span class="line">git commit -m <span class="string">&quot;<span class="subst">$(date +%Y%m%d)</span>&quot;</span> </span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></div>
 
 <ul>
 <li><code>setup-your-git.sh</code>：用于配置 Git 全局参数。<strong>（建议导入博客后，执行一次）</strong></li>
 </ul>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@gmail.com&quot;</span></span><br><span class="line">git config --global --add safe.directory <span class="variable">$PWD</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@gmail.com&quot;</span></span><br><span class="line">git config --global --add safe.directory <span class="variable">$PWD</span></span><br></pre></td></tr></table></figure></div>
 
 <p>这里需要修改 <code>yourname</code> 和 <code>youremail@gmail.com</code> 为你的实际用户名和邮箱。</p>
 <p>当你不确定是否配置成功时，可以尝试在终端下单独执行如下命令查看参数是否生效。</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name</span><br><span class="line">git config --global user.email</span><br><span class="line">git config --global safe.directory</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name</span><br><span class="line">git config --global user.email</span><br><span class="line">git config --global safe.directory</span><br></pre></td></tr></table></figure></div>
 
 <hr>
 <h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><div class="tabs" id="tab-question_answer"><ul class="nav-tabs"><li class="tab active"><a class="#question_answer-1">💡 常见问题一</a></li><li class="tab"><a class="#question_answer-2">💡 常见问题二</a></li><li class="tab"><a class="#question_answer-3">💡 常见问题三</a></li></ul><div class="tab-content"><div class="tab-pane active" id="question_answer-1"><p>Q：为什么拉取项目后，打开自建的文件夹仍是空的？</p>
@@ -898,7 +902,7 @@
 <p>方法二：将 <code>node_modules</code> 目录复制到你的项目目录中。</p>
 <p>为了方便操作，这里作者建议：直接在你的项目源目录下新建一个 <code>install.sh</code> 文件并编辑，</p>
 <p>这里假设你的 Github 仓库名为 <code>blogBackup</code>，<strong>注意替换自己的 Github 仓库地址。</strong></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># install.sh</span></span><br><span class="line"><span class="comment"># 一次性执行脚本</span></span><br><span class="line"><span class="comment"># 可直接克隆博客存档到本地项目中</span></span><br><span class="line"><span class="comment"># 用于解决无法安装 Hexo 依赖问题</span></span><br><span class="line">BLOG_DIR=<span class="variable">$PWD</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/blogBackup ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在克隆……&quot;</span></span><br><span class="line">    git <span class="built_in">clone</span> https://github.com/yourname/blogBackup.git <span class="comment"># 此处需替换为你的 Github 仓库地址</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在合并……&quot;</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line">    git pull</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 无法拉取仓库！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [  ! -d node_modules ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在安装依赖....&quot;</span></span><br><span class="line">    npm install</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 下载/安装依赖失败！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cp</span> -r node_modules <span class="variable">$BLOG_DIR</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 注意：</span></span><br><span class="line"><span class="comment"># 其中的第10行的git仓库地址替换为实际的仓库地址。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若需要调试于终端之上，请执行：</span></span><br><span class="line"><span class="comment"># bash ./.scripts/install.sh</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># install.sh</span></span><br><span class="line"><span class="comment"># 一次性执行脚本</span></span><br><span class="line"><span class="comment"># 可直接克隆博客存档到本地项目中</span></span><br><span class="line"><span class="comment"># 用于解决无法安装 Hexo 依赖问题</span></span><br><span class="line">BLOG_DIR=<span class="variable">$PWD</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="keyword">if</span> [ ! -d ~/blogBackup ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在克隆……&quot;</span></span><br><span class="line">    git <span class="built_in">clone</span> https://github.com/yourname/blogBackup.git <span class="comment"># 此处需替换为你的 Github 仓库地址</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在合并……&quot;</span></span><br><span class="line">    <span class="built_in">cd</span> blogBackup</span><br><span class="line">    git pull</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 无法拉取仓库！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [  ! -d node_modules ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;→ 正在安装依赖....&quot;</span></span><br><span class="line">    npm install</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ $? -ne 0 ];<span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;❌ 下载/安装依赖失败！&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 255</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cp</span> -r node_modules <span class="variable">$BLOG_DIR</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 注意：</span></span><br><span class="line"><span class="comment"># 其中的第10行的git仓库地址替换为实际的仓库地址。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若需要调试于终端之上，请执行：</span></span><br><span class="line"><span class="comment"># bash ./.scripts/install.sh</span></span><br></pre></td></tr></table></figure></div>
 
 <p><img loading="lazy" src="/images/2024/0527/3.jpg"></p>
 <p>完成脚本执行后，执行 <code>npm list</code> 查看是否包含 <code>hexo</code> 依赖即可。</p></div></div></div>
@@ -906,11 +910,11 @@
 <hr>
 <p>以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。</p>
 
-        </div>
+		</div>
 
-        
-            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
-                <div class="article-copyright-info-container">
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
     <ul>
         <li><strong>标题:</strong> 搭建个人博客（三）：用 Android 手机更新 Hexo 博客</li>
         <li><strong>作者:</strong> CatIsNotFound</li>
@@ -938,82 +942,76 @@
     </ul>
 </div>
 
-            </div>
-        
+		</div>
+		
 
-        
-            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/Git/">#Git</a>&nbsp;
-                    </li>
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">#博客搭建</a>&nbsp;
-                    </li>
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/Hexo/">#Hexo</a>&nbsp;
-                    </li>
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/Github/">#Github</a>&nbsp;
-                    </li>
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9/">#软件安利</a>&nbsp;
-                    </li>
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/Android/">#Android</a>&nbsp;
-                    </li>
-                
-            </ul>
-        
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Git/">#Git</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Github/">#Github</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">#博客搭建</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Hexo/">#Hexo</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9/">#软件安利</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Android/">#Android</a>&nbsp;
+			</li>
+			
+		</ul>
+		
 
-        
+		
 
-        
-            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
-                
-                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="prev"
-                        rel="prev"
-                        href="/2024/05/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"
-                        >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Python 快速入门（学习笔记）</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="next"
-                        rel="next"
-                        href="/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/"
-                        >
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">软件安利：安利几款在 Microsoft Store 上的软件</span>
-                                <span class="post-nav-item">下一篇</span>
-                            </span>
-                            <span class="right arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/2024/05/Python-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">Python 快速入门（学习笔记）</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">软件安利：安利几款在 Microsoft Store 上的软件</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
 
 
-        
-            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
-                <div class="comments-container mt-10 w-full ">
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full ">
     <div id="comment-anchor" class="w-full h-2.5"></div>
     <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
         评论
@@ -1053,36 +1051,30 @@
     
 </div>
 
-            </div>
-        
-    </div>
+		</div>
+		
+	</div>
 
-    
-        <div class="toc-content-container">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        <div class="toc-title">目录</div>
-        <div class="page-title">搭建个人博客（三）：用 Android 手机更新 Hexo 博客</div>
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E5%AD%98%E6%A1%A3"><span class="nav-text">备份博客存档</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#WeBlog"><span class="nav-text">WeBlog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85"><span class="nav-text">下载安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5%E5%8D%9A%E5%AE%A2"><span class="nav-text">导入博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E5%8D%9A%E5%AE%A2"><span class="nav-text">写博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6"><span class="nav-text">好用的脚本文件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"><span class="nav-text">常见问题</span></a></li></ol>
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">搭建个人博客（三）：用 Android 手机更新 Hexo 博客</div>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E5%AD%98%E6%A1%A3"><span class="nav-text">备份博客存档</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#WeBlog"><span class="nav-text">WeBlog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85"><span class="nav-text">下载安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5%E5%8D%9A%E5%AE%A2"><span class="nav-text">导入博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E5%8D%9A%E5%AE%A2"><span class="nav-text">写博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6"><span class="nav-text">好用的脚本文件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"><span class="nav-text">常见问题</span></a></li></ol>
 
-    </div>
+	</div>
 </div>
-        </div>
-    
+	</div>
+	
 </div>
+			</div>
 
+			
+		</div>
 
-
-                
-
-            </div>
-
-            
-
-        </div>
-
-        <div class="main-content-footer">
-            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
     <div class="info-container py-3 text-center">
         
         <div class="text-center">
@@ -1121,7 +1113,7 @@
         
         <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
             <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
-            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.3</a></span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
         </div>
         
         
@@ -1150,113 +1142,114 @@
         
     </div>  
 </footer>
-        </div>
-    </div>
+		</div>
+	</div>
 
-    
-        <div class="post-tools">
-            <div class="post-tools-container">
-    <ul class="article-tools-list">
-        <!-- TOC aside toggle -->
-        
-            <li class="right-bottom-tools page-aside-toggle">
-                <i class="fa-regular fa-outdent"></i>
-            </li>
-        
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
 
-        <!-- go comment -->
-        
-            <li class="go-comment">
-                <i class="fa-regular fa-comments"></i>
-            </li>
-        
-    </ul>
+		<!-- go comment -->
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src="">
 </div>
 
-        </div>
-    
-
-    <div class="right-side-tools-container">
-        <div class="side-tools-container">
-    <ul class="hidden-tools-list">
-        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-plus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-minus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
-            <i class="fa-regular fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        
-
-        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
-            <i class="fa-regular fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="visible-tools-list">
-        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
-            <i class="fa-regular fa-cog fa-spin"></i>
-        </li>
-        
-            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
-                <i class="arrow-up fas fa-arrow-up"></i>
-                <span class="percent"></span>
-            </li>
-        
-        
-    </ul>
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
 </div>
-
-    </div>
-
-    <div class="image-viewer-container">
-    <img src="">
-</div>
-
-
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fa-solid fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="站内搜索您需要的内容..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="popup-btn-close">
-                <i class="fa-solid fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
+	
 
 </main>
 
 
-    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/Swup.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupSlideTheme.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupScriptsPlugin.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupProgressPlugin.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupScrollPlugin.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupPreloadPlugin.min.js" ></script>
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
 <script>
     const swup = new Swup({
         plugins: [
@@ -1279,53 +1272,107 @@
 
 
 
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
 
+<script src="/js/build/utils.js" type="module"></script>
 
-<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/imageViewer.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/utils.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/main.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/navbarShrink.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/scrollTopBottom.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/lightDarkSwitch.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/categoryList.js" ></script>
+<script src="/js/build/main.js" type="module"></script>
 
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
 
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/localSearch.js" ></script>
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
 
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
 
-
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/codeBlock.js" ></script>
-
-
-
-
-
-    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/runtime.js" ></script>
-    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/odometer.min.js" ></script>
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/assets/odometer-theme-minimal.css">
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
 
 
 
-  <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/Typed.min.js" ></script>
-  <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/typed.js" ></script>
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
 
 
 
-    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/mermaid.min.js" ></script>
-    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/mermaid.js" ></script>
 
-
-
-    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/minimasonry.min.js" ></script>
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/masonry.js" ></script>
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
 
 
 
 
 
 
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/tocToggle.js" data-swup-reload-script></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/toc.js" data-swup-reload-script></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/tabs.js" data-swup-reload-script></script>
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
 
 
-<script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/moment-with-locales.min.js" data-swup-reload-script></script>
-<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/essays.js" data-swup-reload-script></script>
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
 
 
 
+
+    
+        
+<script src="/js/build/libs/mermaid.min.js"></script>
+
+    
+    
+<script src="/js/build/plugins/mermaid.js"></script>
+
+
+
+
+    
+<script src="/js/build/libs/minimasonry.min.js"></script>
+
+    
+<script src="/js/build/plugins/masonry.js" type="module"></script>
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script=""></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script=""></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
 <script>
     if(!('loading' in HTMLImageElement.prototype)) {
         const srp = document.createElement('script');
@@ -1339,4 +1386,5 @@
     })
 }
 </script></body>
+
 </html>

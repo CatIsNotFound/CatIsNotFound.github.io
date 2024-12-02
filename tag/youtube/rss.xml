@@ -7,48 +7,48 @@
         <language>zh-CN</language>
         <pubDate>Thu, 21 Nov 2024 19:34:12 +0800</pubDate>
         <lastBuildDate>Thu, 21 Nov 2024 19:34:12 +0800</lastBuildDate>
-        <category>Git</category>
         <category>Linux</category>
-        <category>更新日志</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
+        <category>Git</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
         <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
+        <category>更新日志</category>
         <category>软件安利</category>
         <category>Android</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Windows</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>刷题</category>
-        <category>Switch</category>
-        <category>Youtube</category>
-        <category>任天堂</category>
-        <category>油管</category>
         <category>Waline</category>
-        <category>oh-my-zsh</category>
         <category>WSL</category>
-        <category>疑难解答</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
+        <category>Switch</category>
         <category>Nintendo</category>
+        <category>任天堂</category>
         <category>游戏机</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
+        <category>oh-my-zsh</category>
+        <category>Youtube</category>
+        <category>油管</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</guid>
             <title>[Switch 分享] 如何实现 Youtube 观看自由</title>
             <link>https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</link>
             <category>Windows</category>
             <category>Switch</category>
-            <category>Youtube</category>
             <category>任天堂</category>
+            <category>Youtube</category>
             <category>油管</category>
             <pubDate>Thu, 21 Nov 2024 19:34:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在前面&#34;&gt;&lt;a href=&#34;#写在前面&#34; class=&#34;headerlink&#34; title=&#34;写在前面&#34;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;本文主要介绍如何下载并配置网络工具以及如何在 Switch 上流程看油管。如果觉得此篇有用，不如支持此篇文章(*^_^*)&lt;/p&gt;
@@ -56,9 +56,9 @@
 &lt;h1 id=&#34;准备&#34;&gt;&lt;a href=&#34;#准备&#34; class=&#34;headerlink&#34; title=&#34;准备&#34;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;事先说明：请务必拥有好的网络节点（最起码能够在电脑上访问谷歌）。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;首先，需要在网上下载以下几款软件：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;DNSJumper：一个用于检测 DNS 速度的工具【&lt;a class=&#34;link&#34;   href=&#34;https://softdown.shwswl.cn/soft/DnsJumper22.zip&#34; &gt;点击下载 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
-&lt;li&gt;Netch：一个用于上网加速的工具【&lt;a class=&#34;link&#34;   href=&#34;https://github.com/NetchX/Netch/releases&#34; &gt;点击跳转至下载链接 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
-&lt;li&gt;WinPcap：用于辅助 Netch 软件（建议必下）【&lt;a class=&#34;link&#34;   href=&#34;https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe&#34; &gt;点击下载 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
+&lt;li&gt;DNSJumper：一个用于检测 DNS 速度的工具【&lt;a class=&#34;link&#34;   href=&#34;https://softdown.shwswl.cn/soft/DnsJumper22.zip&#34; &gt;点击下载&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
+&lt;li&gt;Netch：一个用于上网加速的工具【&lt;a class=&#34;link&#34;   href=&#34;https://github.com/NetchX/Netch/releases&#34; &gt;点击跳转至下载链接&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
+&lt;li&gt;WinPcap：用于辅助 Netch 软件（建议必下）【&lt;a class=&#34;link&#34;   href=&#34;https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe&#34; &gt;点击下载&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;】&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;其次，你只需要做以下事情即可：&lt;/p&gt;
 &lt;ul&gt;
@@ -85,7 +85,7 @@
 &lt;h2 id=&#34;简要配置&#34;&gt;&lt;a href=&#34;#简要配置&#34; class=&#34;headerlink&#34; title=&#34;简要配置&#34;&gt;&lt;/a&gt;简要配置&lt;/h2&gt;&lt;p&gt;按照如下图所示的说明进行配置即可。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/5.PNG&#34;&gt;&lt;/p&gt;
 &lt;p&gt;启动之后，你会得到如下信息：&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Listen on \Device\NPF_&amp;#123;B86808EE-659B-48E6-864D-DF596E5027B2&amp;#125; (Qualcomm Atheros QCA61x4A Wireless Network Adapter) [74:4c:a1:a4:29:d7]: 192.168.82.5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Use MTU 1400&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Publish for 10.6.0.2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Please set the network of your device which is going to be proxied with the following parameters:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ┌───────────────────────────┐&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ IP Address       10.6.0.1 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Mask        255.255.255.0 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Gateway          10.6.0.2 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │───────────────────────────│&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ MTU                &amp;lt;=1400 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    └───────────────────────────┘&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Proxy 10.6.0.1/32 to 127.0.0.1:2801&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Listen on \Device\NPF_&amp;#123;B86808EE-659B-48E6-864D-DF596E5027B2&amp;#125; (Qualcomm Atheros QCA61x4A Wireless Network Adapter) [74:4c:a1:a4:29:d7]: 192.168.82.5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Use MTU 1400&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Publish for 10.6.0.2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Please set the network of your device which is going to be proxied with the following parameters:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ┌───────────────────────────┐&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ IP Address       10.6.0.1 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Mask        255.255.255.0 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Gateway          10.6.0.2 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │───────────────────────────│&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ MTU                &amp;lt;=1400 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    └───────────────────────────┘&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Proxy 10.6.0.1/32 to 127.0.0.1:2801&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;其中的 IP 地址 &lt;code&gt;IP Address&lt;/code&gt; 、子网掩码 &lt;code&gt;Mask&lt;/code&gt;、网关 &lt;code&gt;Gateway&lt;/code&gt; 在之后配置 Switch 网络时会用到。&lt;/p&gt;
 &lt;h1 id=&#34;配置-Switch-网络设置&#34;&gt;&lt;a href=&#34;#配置-Switch-网络设置&#34; class=&#34;headerlink&#34; title=&#34;配置 Switch 网络设置&#34;&gt;&lt;/a&gt;配置 Switch 网络设置&lt;/h1&gt;&lt;p&gt;打开自己的 Switch 设置 → 互联网 → 互联网设置&lt;/p&gt;

@@ -7,40 +7,40 @@
         <language>zh-CN</language>
         <pubDate>Thu, 15 Aug 2024 16:57:19 +0800</pubDate>
         <lastBuildDate>Thu, 15 Aug 2024 16:57:19 +0800</lastBuildDate>
-        <category>Git</category>
         <category>Linux</category>
-        <category>更新日志</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
+        <category>Git</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
         <category>Github</category>
+        <category>博客搭建</category>
+        <category>Hexo</category>
         <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
+        <category>更新日志</category>
         <category>软件安利</category>
         <category>Android</category>
+        <category>Python</category>
+        <category>学习笔记</category>
         <category>Windows</category>
-        <category>💡解题</category>
-        <category>C/C++</category>
-        <category>解题历程</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>刷题</category>
-        <category>Switch</category>
-        <category>Youtube</category>
-        <category>任天堂</category>
-        <category>油管</category>
         <category>Waline</category>
-        <category>oh-my-zsh</category>
         <category>WSL</category>
-        <category>疑难解答</category>
-        <category>关于博客</category>
         <category>脚本</category>
+        <category>关于博客</category>
+        <category>Switch</category>
         <category>Nintendo</category>
+        <category>任天堂</category>
         <category>游戏机</category>
+        <category>💡解题</category>
+        <category>C/C++</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>疑难解答</category>
+        <category>oh-my-zsh</category>
+        <category>Youtube</category>
+        <category>油管</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</guid>
             <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
@@ -60,7 +60,7 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;安装&#34;&gt;&lt;a href=&#34;#安装&#34; class=&#34;headerlink&#34; title=&#34;安装&#34;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;h2 id=&#34;Step-1-下载镜像&#34;&gt;&lt;a href=&#34;#Step-1-下载镜像&#34; class=&#34;headerlink&#34; title=&#34;Step 1: 下载镜像&#34;&gt;&lt;/a&gt;Step 1: 下载镜像&lt;/h2&gt;&lt;p&gt;现如今，Cosmic 桌面环境正处于测试阶段（使用过程中会有 Bug）。我们可以通过官网下载其安装镜像，下载链接在正下方：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://system76.com/cosmic&#34; &gt;System76 - Linux Laptops, Desktops, and Servers &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://system76.com/cosmic&#34; &gt;System76 - Linux Laptops, Desktops, and Servers&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;点击上文提到的链接，进入官网，下拉找到 &lt;em&gt;Try COSMIC Epoch 1 (alpha 1) on the Pop!_OS 24.04 LTS alpha.&lt;/em&gt; 一行，根据自己的 CPU 或显卡配置，按需下载 ISO 镜像即可。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：国内下载速度缓慢，建议使用第三方下载工具下载镜像。&lt;/strong&gt;&lt;/p&gt;
@@ -68,11 +68,11 @@
 &lt;p&gt;需要注意的是，若使用虚拟机过程中无法正常进入桌面，请尝试&lt;strong&gt;开启 3D 图形加速&lt;/strong&gt;，或提高其运行内存 &lt;strong&gt;（建议： ≥ 4GB）&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;这里推荐以下软件：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;下载安装后，仅需插入 U 盘，然后选择需要烧录的 ISO 镜像，等待几分钟即可。这里不过多赘述。&lt;/p&gt;
