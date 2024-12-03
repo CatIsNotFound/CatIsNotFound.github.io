@@ -5,48 +5,97 @@
         <link>https://CatIsNotFound.github.io</link>
         <description>一个基于 Hexo 框架的个人博客网站</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
-        <lastBuildDate>Thu, 12 Sep 2024 19:14:09 +0800</lastBuildDate>
-        <category>Linux</category>
-        <category>更新日志</category>
-        <category>Ubuntu</category>
-        <category>桌面环境</category>
-        <category>GNOME</category>
-        <category>Git</category>
-        <category>Github</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
+        <pubDate>Tue, 03 Dec 2024 20:16:06 +0800</pubDate>
+        <lastBuildDate>Tue, 03 Dec 2024 20:16:06 +0800</lastBuildDate>
         <category>Python</category>
         <category>学习笔记</category>
         <category>新手向</category>
+        <category>Linux</category>
+        <category>Ubuntu</category>
+        <category>GNOME</category>
+        <category>桌面环境</category>
+        <category>博客搭建</category>
         <category>软件安利</category>
-        <category>Windows</category>
-        <category>WSL</category>
-        <category>Waline</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
         <category>Android</category>
-        <category>关于博客</category>
-        <category>脚本</category>
+        <category>Windows</category>
+        <category>更新日志</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>💡解题</category>
+        <category>Waline</category>
+        <category>WSL</category>
+        <category>关于博客</category>
+        <category>脚本</category>
         <category>C/C++</category>
-        <category>刷题</category>
-        <category>解题历程</category>
-        <category>疑难解答</category>
+        <category>答疑解惑</category>
         <category>Switch</category>
-        <category>Nintendo</category>
+        <category>Youtube</category>
         <category>任天堂</category>
+        <category>油管</category>
+        <category>Nintendo</category>
         <category>游戏机</category>
         <category>oh-my-zsh</category>
-        <category>Youtube</category>
-        <category>油管</category>
+        <category>💡解题</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <item>
+            <guid isPermalink="true">https://catisnotfound.github.io/2024/12/%E7%AD%94%E7%96%91%E8%A7%A3%E6%83%91-%E5%85%B3%E4%BA%8E-gets-%E5%87%BD%E6%95%B0%E4%B8%8D%E8%83%BD%E5%9C%A8C-11%E5%8F%8A%E4%BB%A5%E5%90%8E%E4%BD%BF%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+            <title>[答疑解惑] C++ 中的 gets() 函数替代方案</title>
+            <link>https://catisnotfound.github.io/2024/12/%E7%AD%94%E7%96%91%E8%A7%A3%E6%83%91-%E5%85%B3%E4%BA%8E-gets-%E5%87%BD%E6%95%B0%E4%B8%8D%E8%83%BD%E5%9C%A8C-11%E5%8F%8A%E4%BB%A5%E5%90%8E%E4%BD%BF%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+            <category>C/C++</category>
+            <category>答疑解惑</category>
+            <pubDate>Tue, 03 Dec 2024 20:16:06 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;简述&#34;&gt;&lt;a href=&#34;#简述&#34; class=&#34;headerlink&#34; title=&#34;简述&#34;&gt;&lt;/a&gt;简述&lt;/h1&gt;&lt;p&gt;在学习 C++ 的时候，发现 &lt;code&gt;gets()&lt;/code&gt; 函数不能直接在 C++ 环境下使用。&lt;/p&gt;
+&lt;p&gt;下述代码中，本人编写了较为简单的程序，用于输出用户输入行内的两段内容。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Cpp&#34;&gt;&lt;figure class=&#34;iseeu highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;cstring&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;namespace&lt;/span&gt; std;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;char&lt;/span&gt; c_name[&lt;span class=&#34;number&#34;&gt;127&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    string s_name;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Please input your name:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;gets&lt;/span&gt;(c_name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 当 c_name 长度小于 2 时，要求重新输入&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (&lt;span class=&#34;built_in&#34;&gt;strlen&lt;/span&gt;(c_name) &amp;lt; &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please input again!\nYour name:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;gets&lt;/span&gt;(c_name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Please input your name again:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;gets&lt;/span&gt;(s_name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 当 s_name 长度小于 2 时，要求重新输入&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (s_name.&lt;span class=&#34;built_in&#34;&gt;length&lt;/span&gt;() &amp;lt; &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please input again!\nYour name:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;gets&lt;/span&gt;(s_name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 输出结果&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Your name in char: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; c_name &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Your name in str: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; s_name &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;很显然，运行后出现了以下报错内容：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;error: ‘gets’ was not declared in this scope; did you mean ‘getw’?&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;分析原因-解决方案&#34;&gt;&lt;a href=&#34;#分析原因-解决方案&#34; class=&#34;headerlink&#34; title=&#34;分析原因 &amp;amp; 解决方案&#34;&gt;&lt;/a&gt;分析原因 &amp;amp; 解决方案&lt;/h1&gt;&lt;p&gt;C++ 11 及以后版本中，&lt;code&gt;gets()&lt;/code&gt; 函数已被废弃，因为其存在安全漏洞，即 &lt;code&gt;gets()&lt;/code&gt; 函数在输入字符串时，&lt;strong&gt;不会检查字符串的长度&lt;/strong&gt;，可能会&lt;strong&gt;导致缓冲区溢出&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;因此，在 C++ 中，针对 &lt;code&gt;char&lt;/code&gt; 类型的字符串，一般使用 &lt;code&gt;fgets()&lt;/code&gt; 函数来代替； &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fgets()&lt;/code&gt; 函数可以正确地检查字符串的长度，避免缓冲区溢出。&lt;/p&gt;
+&lt;p&gt;针对 &lt;code&gt;string&lt;/code&gt; 类型的字符串，一般使用 &lt;code&gt;getline()&lt;/code&gt; 函数来代替。&lt;/p&gt;
+&lt;h1 id=&#34;函数使用&#34;&gt;&lt;a href=&#34;#函数使用&#34; class=&#34;headerlink&#34; title=&#34;函数使用&#34;&gt;&lt;/a&gt;函数使用&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;(1) &lt;code&gt;fgets()&lt;/code&gt; 函数&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;其函数定义于 &lt;code&gt;&amp;lt;cstdio&amp;gt;&lt;/code&gt; 头文件中，其函数原型如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Cpp&#34;&gt;&lt;figure class=&#34;iseeu highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;char&lt;/span&gt;* &lt;span class=&#34;title&#34;&gt;fgets&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;( &lt;span class=&#34;type&#34;&gt;char&lt;/span&gt;* str, &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; count, std::FILE* stream )&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;其中的参数含义如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt;：用于存储读取的字符串。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;count&lt;/code&gt;：读取的字符串的最大长度，包括字符串结束符。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;stream&lt;/code&gt;：文件流对象。可以是 &lt;code&gt;stdin&lt;/code&gt;、&lt;code&gt;stdout&lt;/code&gt;、&lt;code&gt;stderr&lt;/code&gt;、&lt;code&gt;FILE*&lt;/code&gt; 类型的指针等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;(2) &lt;code&gt;getline()&lt;/code&gt; 函数&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;其函数定义于 &lt;code&gt;&amp;lt;string&amp;gt;&lt;/code&gt; 头文件中，其函数原型如下：(只提其中一种使用方法)&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Cpp&#34;&gt;&lt;figure class=&#34;iseeu highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;istream&amp;amp; &lt;span class=&#34;title&#34;&gt;getline&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;( istream&amp;amp; is, string&amp;amp; str )&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;其中的参数含义如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;is&lt;/code&gt;：输入流对象。可以是 &lt;code&gt;cin&lt;/code&gt;、&lt;code&gt;fstream&lt;/code&gt;、&lt;code&gt;istream&lt;/code&gt; 类型的指针等。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt;：用于存储读取的字符串。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;使用示例&#34;&gt;&lt;a href=&#34;#使用示例&#34; class=&#34;headerlink&#34; title=&#34;使用示例&#34;&gt;&lt;/a&gt;使用示例&lt;/h1&gt;&lt;p&gt;根据如上的分析与解决方案，由 &lt;a href=&#34;#%E7%AE%80%E8%BF%B0&#34;&gt;【简述】&lt;/a&gt; 中所述的代码示例可改写成如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Cpp&#34;&gt;&lt;figure class=&#34;iseeu highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;cstring&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;cstdio&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;namespace&lt;/span&gt; std;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;type&#34;&gt;char&lt;/span&gt; c_name[&lt;span class=&#34;number&#34;&gt;127&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        string s_name;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Please input your name:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;fgets&lt;/span&gt;(c_name, &lt;span class=&#34;number&#34;&gt;127&lt;/span&gt;, stdin);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (&lt;span class=&#34;built_in&#34;&gt;strlen&lt;/span&gt;(c_name) &amp;lt; &lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please input again!\nYour name:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;fgets&lt;/span&gt;(c_name, &lt;span class=&#34;number&#34;&gt;127&lt;/span&gt;, stdin);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Please input your name again:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;getline&lt;/span&gt;(cin, s_name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (s_name.&lt;span class=&#34;built_in&#34;&gt;length&lt;/span&gt;() &amp;lt; &lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please input again!\nYour name:&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;getline&lt;/span&gt;(cin, s_name);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Your name in C: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; c_name;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Your name in str: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; s_name &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;参考资料&#34;&gt;&lt;a href=&#34;#参考资料&#34; class=&#34;headerlink&#34; title=&#34;参考资料&#34;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://cppreference.cn/w/cpp/io/c/fgets&#34; &gt;std::fgets - cppreference.com - C++参考手册&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://cppreference.cn/w/c/io/gets&#34; &gt;gets, gets_s - cppreference.com - C++参考手册&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://zh.cppreference.com/w/cpp/string/basic_string/getline&#34; &gt;std::getline - cppreference.com&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.dotcpp.com/course/868&#34; &gt;为什么gets函数不能用了？ - ACM与蓝桥杯竞赛指南 - C语言网&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://blog.csdn.net/fx677588/article/details/52710996&#34; &gt;C&amp;#x2F;C++读入多行字符串string_多行string-CSDN博客&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</guid>
             <title>[Solved] 赵神牛的游戏（解题历程）</title>
             <link>https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</link>
-            <category>💡解题</category>
             <category>C/C++</category>
+            <category>💡解题</category>
             <category>解题历程</category>
             <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
             <description><![CDATA[ &lt;a class=&#34;button  center large&#34; href=&#34;https://www.luogu.com.cn/problem/P2006&#34; title=&#34;点击这里查看题目来源&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 点击这里查看题目来源&lt;/a&gt;
@@ -104,8 +153,8 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/</guid>
             <title>[Solved] 【MC生存】插火把</title>
             <link>https://catisnotfound.github.io/2024/09/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/</link>
-            <category>💡解题</category>
             <category>C/C++</category>
+            <category>💡解题</category>
             <pubDate>Thu, 12 Sep 2024 17:50:02 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;解题思路&#34;&gt;&lt;a href=&#34;#解题思路&#34; class=&#34;headerlink&#34; title=&#34;解题思路&#34;&gt;&lt;/a&gt;解题思路&lt;/h1&gt;&lt;p&gt;大致思路：你需要知道地图大小、火把个数、萤石个数，并初始化地图，然后根据用户输入的火把（或萤石）坐标，并根据对应的照亮范围点亮，剩余未点亮的部分（暗区）将出现怪物。&lt;/p&gt;
 &lt;p&gt;因此有了大致的流程图：&lt;/p&gt;
