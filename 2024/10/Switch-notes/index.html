@@ -33,8 +33,8 @@
 <meta property="article:modified_time" content="2024-10-24T12:20:29.000Z">
 <meta property="article:author" content="CatIsNotFound">
 <meta property="article:tag" content="Switch">
-<meta property="article:tag" content="任天堂">
 <meta property="article:tag" content="Nintendo">
+<meta property="article:tag" content="任天堂">
 <meta property="article:tag" content="游戏机">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://catisnotfound.github.io/images/redefine-og.webp">
@@ -771,11 +771,11 @@
                     </li>
                 
                     <li>
-                        | <a href="/tags/%E4%BB%BB%E5%A4%A9%E5%A0%82/">任天堂</a>&nbsp;
+                        | <a href="/tags/Nintendo/">Nintendo</a>&nbsp;
                     </li>
                 
                     <li>
-                        | <a href="/tags/Nintendo/">Nintendo</a>&nbsp;
+                        | <a href="/tags/%E4%BB%BB%E5%A4%A9%E5%A0%82/">任天堂</a>&nbsp;
                     </li>
                 
                     <li>
@@ -883,11 +883,11 @@
 			</li>
 			
 			<li class="tag-item mx-0.5">
-				<a href="/tags/%E4%BB%BB%E5%A4%A9%E5%A0%82/">#任天堂</a>&nbsp;
+				<a href="/tags/Nintendo/">#Nintendo</a>&nbsp;
 			</li>
 			
 			<li class="tag-item mx-0.5">
-				<a href="/tags/Nintendo/">#Nintendo</a>&nbsp;
+				<a href="/tags/%E4%BB%BB%E5%A4%A9%E5%A0%82/">#任天堂</a>&nbsp;
 			</li>
 			
 			<li class="tag-item mx-0.5">
@@ -942,33 +942,44 @@
 
         
             
-    <div id="waline"></div>
-    <script type="module" data-swup-reload-script>
-      import { init } from '/js/libs/waline.mjs';
-
-      function loadWaline() {
-        init({
-          el: '#waline',
-          serverURL: 'blog-waline-navy.vercel.app',
-          lang: 'zh-CN',
-          dark: 'body[class~="dark-mode"]',
-          reaction: true,
-          requiredMeta: ['nick', 'mail'],
-          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/bmoji','https://unpkg.com/@waline/emojis@1.2.0/tieba','https://unpkg.com/@waline/emojis@1.2.0/weibo','https://unpkg.com/@waline/emojis@1.2.0/qq','https://unpkg.com/@waline/emojis@1.2.0/soul-emoji','https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'],
-          recaptchaV3Key: "wasd",
-          
-        });
-      }
-
-      if (typeof swup !== 'undefined') {
-        loadWaline();
-      } else {
-        window.addEventListener('DOMContentLoaded', loadWaline);
-      }
+    <div id="giscus-container"></div>
+    <script data-swup-reload-script defer>
+        async function loadGiscus() {
+            const giscusConfig = {
+                'src': 'https://giscus.app/client.js',
+                'data-repo': 'CatIsNotFound/Comment-for-blog',
+                'data-repo-id': 'R_kgDONYvV2w',
+                'data-category': 'Q&amp;A',
+                'data-category-id': 'DIC_kwDONYvV284Ck4pL',
+                'data-mapping': 'title',
+                'data-strict': '0',
+                'data-reactions-enabled': '1',
+                'data-emit-metadata': '1',
+                'data-theme': 'preferred_color_scheme',
+                'data-lang': 'zh-CN',
+                'data-input-position': 'top',
+                'data-loading': 'lazy',
+                'crossorigin': 'anonymous',
+                'async': true
+            }
+            const giscusScript = document.createElement('script');
+            for (const key in giscusConfig) {
+                giscusScript.setAttribute(key, giscusConfig[key]);
+            }
+            document.getElementById('giscus-container').appendChild(giscusScript);
+        }
+        if ('true') {
+            let loadGiscusTimeout = setTimeout(() => {
+                loadGiscus();
+                clearTimeout(loadGiscusTimeout);
+            }, 1000);
+        } else {
+            document.addEventListener('DOMContentLoaded', loadGiscus);
+        }
     </script>
 
 
-
+        
         
     
 </div>
