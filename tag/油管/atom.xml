@@ -9,35 +9,35 @@
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Git" />
     <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="Git" />
     <category term="Github" />
-    <category term="💡解题" />
-    <category term="C/C++" />
-    <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="新手向" />
     <category term="软件安利" />
-    <category term="Android" />
-    <category term="解题历程" />
     <category term="Windows" />
-    <category term="刷题" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="WSL" />
-    <category term="脚本" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="Android" />
+    <category term="Waline" />
+    <category term="WSL" />
     <category term="关于博客" />
-    <category term="oh-my-zsh" />
+    <category term="脚本" />
     <category term="Switch" />
-    <category term="Youtube" />
-    <category term="任天堂" />
-    <category term="油管" />
     <category term="Nintendo" />
+    <category term="任天堂" />
     <category term="游戏机" />
+    <category term="💡解题" />
+    <category term="C/C++" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="Youtube" />
+    <category term="油管" />
+    <category term="oh-my-zsh" />
     <category term="Codeforces" />
     <entry>
         <id>https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</id>
@@ -90,8 +90,8 @@
 </content>
         <category term="Windows" />
         <category term="Switch" />
-        <category term="Youtube" />
         <category term="任天堂" />
+        <category term="Youtube" />
         <category term="油管" />
         <updated>2024-11-21T11:34:12.000Z</updated>
     </entry>
