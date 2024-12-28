@@ -4,40 +4,40 @@
     <title>CatIsNotFound • Posts by &#34;git&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-11-27T03:58:30.000Z</updated>
-    <category term="更新日志" />
     <category term="Linux" />
+    <category term="Git" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Git" />
+    <category term="更新日志" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="新手向" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="Android" />
     <category term="Waline" />
     <category term="脚本" />
-    <category term="WSL" />
+    <category term="新手向" />
     <category term="关于博客" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
+    <category term="Windows" />
+    <category term="WSL" />
     <category term="💡解题" />
     <category term="C/C++" />
-    <category term="解题历程" />
-    <category term="答疑解惑" />
     <category term="刷题" />
-    <category term="oh-my-zsh" />
+    <category term="系统体验" />
+    <category term="Android" />
+    <category term="解题历程" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="软件安利" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
     <category term="游戏机" />
+    <category term="答疑解惑" />
     <category term="Youtube" />
     <category term="油管" />
+    <category term="oh-my-zsh" />
     <category term="Codeforces" />
     <entry>
         <id>https://catisnotfound.github.io/2024/11/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0-Oh-my-zsh-%E5%93%A6-%E6%88%91%E9%82%A3%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BB%88%E7%AB%AF/</id>
@@ -377,8 +377,8 @@
         <category term="Github" />
         <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
+        <category term="软件安利" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
     <entry>
