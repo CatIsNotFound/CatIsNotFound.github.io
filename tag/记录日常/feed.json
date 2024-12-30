@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "CatIsNotFound • All posts by \"记录日常\" tag",
+    "description": "一个基于 Hexo 框架的个人博客网站",
+    "home_page_url": "https://CatIsNotFound.github.io",
+    "items": [
+        {
+            "id": "https://catisnotfound.github.io/2024/12/2024-Summary/",
+            "url": "https://catisnotfound.github.io/2024/12/2024-Summary/",
+            "title": "2024 年终总结",
+            "date_published": "2024-12-30T11:56:18.000Z",
+            "content_html": "<h1 id=\"来自平台的年度总结\"><a href=\"#来自平台的年度总结\" class=\"headerlink\" title=\"来自平台的年度总结\"></a>来自平台的年度总结</h1><p>这是自 2024 年 4 月以来至至今的年终总结，首先，先来分享下平台所提供给我的年度报告：</p>\n<h2 id=\"Github-年度总结\"><a href=\"#Github-年度总结\" class=\"headerlink\" title=\"Github 年度总结\"></a>Github 年度总结</h2><p>关于 Github，我使用了 <strong>GitHub Wrapped</strong> 网站，这个网站是通过输入自己的 Github 用户名，得到了自动生成的年终报告，</p>\n<p>链接以提供如下：</p>\n<a class=\"button  center large\" href='https://githubwrapped.xyz' title='GitHub Wrapped'><i class='fas fa-link'></i> GitHub Wrapped</a>\n\n<p>通过使用 Github Wrapped，得到了以下内容：</p>\n<p><img loading=\"lazy\" src=\"/images/2024/1230/github-wrapped.png\" alt=\"2024 Github Wrapped\"></p>\n<h2 id=\"知乎\"><a href=\"#知乎\" class=\"headerlink\" title=\"知乎\"></a>知乎</h2><p>这是关于我的知乎年度报告：</p>\n<p><img loading=\"lazy\" src=\"/images/2024/1230/zhihu.png\"></p>\n<h1 id=\"自我总结\"><a href=\"#自我总结\" class=\"headerlink\" title=\"自我总结\"></a>自我总结</h1><p>自 2024 年 4 月起，本人注册了 Github、知乎、Bilibili等多个平台的账号，想要尝试自己从未尝试过的方式来记录自己。我从自己所搭建的博客到自己能够独立完成一个较为简单的编程项目，这半年多的时间里，折腾了许多我从未尝试过的东西，也走了不少弯路。</p>\n<p>虽然我没有像现如今的大佬那样技术精湛，也没有做出什么特别吸引人的项目，但这些努力，让我对技术有了更深入的理解，也让我对生活有了更深入的理解。因此，在将来的一年里，我将尽自己的最大努力来完成自己设立的一个个小目标，也为将来找一份实习做好一定的准备。</p>\n<h1 id=\"未来一年的计划\"><a href=\"#未来一年的计划\" class=\"headerlink\" title=\"未来一年的计划\"></a>未来一年的计划</h1><h2 id=\"学习计划\"><a href=\"#学习计划\" class=\"headerlink\" title=\"学习计划\"></a>学习计划</h2><p>我主要学习的是 C&#x2F;C++ 编程语言，首先在目前已学的基础上，学习更多的知识来拓宽自己的知识框架。比如：</p>\n<ul>\n<li>数据结构</li>\n<li>算法（已为自己明年 4 月的蓝桥杯做好了准备）</li>\n<li>QT</li>\n<li>STD模板</li>\n<li>OpenCV</li>\n<li>……</li>\n</ul>\n<p>我希望在 2025 年里，能够找到适合我学习和借鉴的项目，提升下自己阅读代码的能力，同时也尝试通过书籍的方式来提升自己对编程语言的理解。</p>\n<h2 id=\"关于个人博客的更新\"><a href=\"#关于个人博客的更新\" class=\"headerlink\" title=\"关于个人博客的更新\"></a>关于个人博客的更新</h2><p>自 2024 年 4 月至至今（包括这篇博文），已经总共写了 33 篇文章。虽然文章内容的质量没有那么高，没有像大佬们那样写一些很酷的技术文章。但是，将来在提升自己技术的同时，也会继续利用写博客的方式来记录自己所学的内容。包括遇到的问题与解决的方法。当然也会尽量多写几篇更多自己折腾过的一些小东西。</p>\n<p>动态内容还会像之前那样不间断随机更新，壁纸也会不定时的更新。当然也不会忘记的使用习惯，也要逐渐改变。</p>\n<h1 id=\"最后\"><a href=\"#最后\" class=\"headerlink\" title=\"最后\"></a>最后</h1><p>我希望自己能够继续努力，继续学习，继续进步。也希望能够多认识、多浏览更多精彩地、更有质量的内容。同时也会多多去学习、多分享。</p>\n<p>最后，新的一年能继续努力，继续成长！(￣▽￣)”</p>\n",
+            "tags": [
+                "记录日常",
+                "年终总结"
+            ]
+        }
+    ]
+}
