@@ -4,42 +4,42 @@
     <title>CatIsNotFound • Posts by &#34;桌面环境&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-15T08:57:19.000Z</updated>
-    <category term="学习笔记" />
-    <category term="C_and_Cpp" />
+    <category term="更新日志" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
     <category term="Python" />
+    <category term="学习笔记" />
     <category term="新手向" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="GNOME" />
     <category term="桌面环境" />
+    <category term="GNOME" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="软件安利" />
+    <category term="Android" />
+    <category term="解题历程" />
+    <category term="Windows" />
+    <category term="刷题" />
+    <category term="Waline" />
+    <category term="答疑解惑" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
-    <category term="Git" />
-    <category term="Github" />
-    <category term="Hexo" />
-    <category term="Android" />
-    <category term="Windows" />
-    <category term="更新日志" />
-    <category term="WSL" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="关于博客" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="刷题" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
     <category term="oh-my-zsh" />
-    <category term="Youtube" />
-    <category term="油管" />
     <category term="记录日常" />
     <category term="年终总结" />
+    <category term="关于博客" />
     <category term="Codeforces" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
@@ -315,8 +315,8 @@
         <category term="新手向" />
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
@@ -489,8 +489,8 @@
 </content>
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
         <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
 </feed>
