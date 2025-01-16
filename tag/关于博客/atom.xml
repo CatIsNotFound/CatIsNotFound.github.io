@@ -4,42 +4,42 @@
     <title>CatIsNotFound • Posts by &#34;关于博客&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-11T11:58:21.000Z</updated>
+    <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Linux" />
     <category term="Ubuntu" />
     <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="新手向" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <category term="博客搭建" />
     <category term="Git" />
     <category term="Github" />
     <category term="Hexo" />
     <category term="Android" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
+    <category term="C_and_Cpp" />
+    <category term="oh-my-zsh" />
     <category term="解题历程" />
     <category term="💡解题" />
-    <category term="C_and_Cpp" />
     <category term="刷题" />
     <category term="答疑解惑" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="WSL" />
-    <category term="关于博客" />
-    <category term="Switch" />
     <category term="Nintendo" />
-    <category term="任天堂" />
     <category term="游戏机" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="oh-my-zsh" />
     <category term="Codeforces" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/about_me/</id>
@@ -53,9 +53,6 @@
 &lt;p&gt;回到原题，博客本人会不定时地在两个平台以及我的博客网站进行更新&lt;strong&gt;（并不是所有的文章都会同步更新~ o(*￣▽￣*)o）&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;博客有什么类型的内容吗？&#34;&gt;&lt;a href=&#34;#博客有什么类型的内容吗？&#34; class=&#34;headerlink&#34; title=&#34;博客有什么类型的内容吗？&#34;&gt;&lt;/a&gt;博客有什么类型的内容吗？&lt;/h1&gt;&lt;p&gt;见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。&lt;/p&gt;
 &lt;p&gt;当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O&lt;/p&gt;
-&lt;h1 id=&#34;如何订阅我的-RSS-频道？&#34;&gt;&lt;a href=&#34;#如何订阅我的-RSS-频道？&#34; class=&#34;headerlink&#34; title=&#34;如何订阅我的 RSS 频道？&#34;&gt;&lt;/a&gt;如何订阅我的 RSS 频道？&lt;/h1&gt;&lt;p&gt;你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：&lt;/p&gt;
-&lt;a class=&#34;button  regular&#34; href=&#39;/feed&#39; title=&#39;RSS 订阅&#39;&gt;&lt;i class=&#39;fa-solid fa-rss&#39;&gt;&lt;/i&gt; RSS 订阅&lt;/a&gt;
-
 &lt;h1 id=&#34;如何找到我？&#34;&gt;&lt;a href=&#34;#如何找到我？&#34; class=&#34;headerlink&#34; title=&#34;如何找到我？&#34;&gt;&lt;/a&gt;如何找到我？&lt;/h1&gt;&lt;p&gt;你可以通过以下几个平台来私信我：&lt;/p&gt;
 &lt;a class=&#34;button  regular&#34; href=&#39;https://www.zhihu.com/people/catisnotfound&#39; title=&#39;知乎主页&#39;&gt;&lt;i class=&#39;fa-brands fa-zhihu&#39;&gt;&lt;/i&gt; 知乎主页&lt;/a&gt;
 

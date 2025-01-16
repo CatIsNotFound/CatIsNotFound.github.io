@@ -4,42 +4,42 @@
     <title>CatIsNotFound • Posts by &#34;💡解题&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-12T11:14:09.000Z</updated>
+    <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
+    <category term="更新日志" />
+    <category term="Waline" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="Linux" />
     <category term="Ubuntu" />
     <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="新手向" />
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="Python" />
-    <category term="学习笔记" />
     <category term="博客搭建" />
     <category term="Git" />
     <category term="Github" />
     <category term="Hexo" />
     <category term="Android" />
+    <category term="WSL" />
+    <category term="脚本" />
+    <category term="关于博客" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
+    <category term="C_and_Cpp" />
+    <category term="oh-my-zsh" />
     <category term="解题历程" />
     <category term="💡解题" />
-    <category term="C_and_Cpp" />
     <category term="刷题" />
     <category term="答疑解惑" />
-    <category term="Waline" />
-    <category term="脚本" />
-    <category term="WSL" />
-    <category term="关于博客" />
-    <category term="Switch" />
     <category term="Nintendo" />
-    <category term="任天堂" />
     <category term="游戏机" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="oh-my-zsh" />
     <category term="Codeforces" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</id>
@@ -95,9 +95,9 @@
 &lt;p&gt;是的，这问题&lt;u&gt;&lt;strong&gt;我从头到尾都没有注意过&lt;/strong&gt;&lt;/u&gt;，就是&lt;strong&gt;输出多个技能序列时分隔的问题&lt;/strong&gt;。我的代码中是用 &lt;code&gt;,&lt;/code&gt; 隔开，而题目中的输出要求是用&lt;strong&gt;空格&lt;/strong&gt;隔开。&lt;/p&gt;
 &lt;p&gt;终于终于，我最后一次提交了正确的代码，终于全部通过了😭😭😭~~~~&lt;/p&gt;
 </content>
+        <category term="C_and_Cpp" />
         <category term="解题历程" />
         <category term="💡解题" />
-        <category term="C_and_Cpp" />
         <updated>2024-09-12T11:14:09.000Z</updated>
     </entry>
     <entry>
@@ -119,8 +119,8 @@
 &lt;p&gt;提示：代码部分仅作为参考，可直接在原有基础上再度优化或简化。&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="💡解题" />
         <category term="C_and_Cpp" />
+        <category term="💡解题" />
         <updated>2024-09-12T09:50:02.000Z</updated>
     </entry>
     <entry>
