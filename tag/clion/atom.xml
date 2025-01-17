@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;clion&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2025-01-16T08:04:37.000Z</updated>
+    <category term="学习笔记" />
+    <category term="C_and_Cpp" />
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="桌面环境" />
+    <category term="GNOME" />
+    <category term="Git" />
+    <category term="Windows" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="Python" />
+    <category term="新手向" />
+    <category term="软件安利" />
+    <category term="Android" />
+    <category term="更新日志" />
+    <category term="刷题" />
+    <category term="💡解题" />
+    <category term="解题历程" />
+    <category term="Waline" />
+    <category term="答疑解惑" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
+    <category term="Switch" />
+    <category term="Nintendo" />
+    <category term="任天堂" />
+    <category term="游戏机" />
+    <category term="Youtube" />
+    <category term="油管" />
+    <category term="oh-my-zsh" />
+    <category term="记录日常" />
+    <category term="年终总结" />
+    <category term="Codeforces" />
+    <entry>
+        <id>https://catisnotfound.github.io/2025/01/Jetbrain-CLion-Installation-and-configuration/</id>
+        <title>[超详细] CLion 安装与配置</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2025/01/Jetbrain-CLion-Installation-and-configuration/"/>
+        <content type="html">&lt;h1 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;为了照顾好刚入门 C&amp;#x2F;C++ 语言的新手小白，此文将详细介绍如何在自己的电脑上搭建自己的编程环境。&lt;/p&gt;
+&lt;h1 id=&#34;下载安装-IDE&#34;&gt;&lt;a href=&#34;#下载安装-IDE&#34; class=&#34;headerlink&#34; title=&#34;下载安装 IDE&#34;&gt;&lt;/a&gt;下载安装 IDE&lt;/h1&gt;
+  &lt;div class=&#34;note-large regular&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;IDE 简介&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;不同的 IDE 有不同的配置工具，这里就以 Jetbrain 系列中的 CLion 作为参考：&lt;/p&gt;
+&lt;h2 id=&#34;Jetbrain-CLion&#34;&gt;&lt;a href=&#34;#Jetbrain-CLion&#34; class=&#34;headerlink&#34; title=&#34;Jetbrain CLion&#34;&gt;&lt;/a&gt;Jetbrain CLion&lt;/h2&gt;&lt;p&gt;大多数大学本科生，在上 C 语言程序设计时，都会下载一个软件：Dev-C++，其内置了 GCC、G++ 编译器，其体量小、速度快的特点，获得了许多大学老师默认的首选（当然有些学校可能不是用这个软件，而是使用 Visual C++ 6.0）。&lt;/p&gt;
+&lt;p&gt;但是，对于 Dev-C++ 来说，它的界面过于古旧，没有更加智能的自动补全功能，也没有较为好用的调试功能，这里就推荐一个更好用的 IDE 工具 (￣▽￣)” —— CLion。&lt;/p&gt;
+&lt;p&gt;这是出自 Jetbrain 系列里的 IDE 工具集，内置了所需的编译器、调试器以及构建工具等。&lt;/p&gt;
+&lt;p&gt;关于安装方法，Jetbrain 官方提供了两种安装方法：&lt;/p&gt;
+&lt;h3 id=&#34;一、利用-Toolbox-App-安装【推荐】&#34;&gt;&lt;a href=&#34;#一、利用-Toolbox-App-安装【推荐】&#34; class=&#34;headerlink&#34; title=&#34;一、利用 Toolbox App 安装【推荐】&#34;&gt;&lt;/a&gt;一、利用 Toolbox App 安装【推荐】&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jetbrains.com.cn/toolbox-app/&#34; &gt;JetBrains Toolbox App：轻松管理您的工具&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是 Jetbrain 系列内置的工具安装器，它可以安装所有 Jetbrain 系列的软件。你只需要利用 Toolbox，找到 Clion 并一键下载即可。&lt;/p&gt;
+&lt;p&gt;当然，若你之前已经安装过，你可以直接点击更新即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/toolbox_app.png&#34; alt=&#34;Toolbox App&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;安装位置修改方法（先看这点）&#34;&gt;&lt;a href=&#34;#安装位置修改方法（先看这点）&#34; class=&#34;headerlink&#34; title=&#34;安装位置修改方法（先看这点）&#34;&gt;&lt;/a&gt;安装位置修改方法（先看这点）&lt;/h4&gt;&lt;p&gt;这里需要注意的一点：默认情况下，Jetbrain Toolbox App 下安装工具的路径位于 C 盘的用户数据目录下。为了解决 Windows 下 C 盘的占用空间问题，这里操作如下：&lt;/p&gt;
+&lt;p&gt;首先，打开 Toolbox App 主页面，点击右上角的&lt;i class=&#34;fa-solid fa-gear&#34;&gt;&lt;/i&gt;  小齿轮图标，选择 ”设置“，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/toolbox_a_click.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;找到如下图中标注的部分，将其更改文件夹即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/toolbox_settings.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;需要注意的点：就像上图标注的提示那样，请先做好上述的设置，以便过度占用磁盘空间。&lt;/p&gt;
+&lt;h3 id=&#34;二、直接下载安装包&#34;&gt;&lt;a href=&#34;#二、直接下载安装包&#34; class=&#34;headerlink&#34; title=&#34;二、直接下载安装包&#34;&gt;&lt;/a&gt;二、直接下载安装包&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jetbrains.com.cn/clion/promo/?utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=cn-bing-br-clion-ex-pc&amp;utm_content=clion-pure&amp;utm_term=clion&amp;msclkid=88035d2533e81edc0b703aadf1e4658c&#34; &gt;CLion：JetBrains 出品的 C 和 C++ 跨平台 IDE&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是许多人都会做的步骤，这里不再赘述。&lt;strong&gt;注意记得修改安装路径！&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;del class=&#34;mask&#34;&gt;关于破解 CLion，请直接点击下方的链接，以直接下载破解脚本即可。对应说明文档已内置！&lt;/del&gt;&lt;br&gt;&lt;del class=&#34;mask&#34;&gt;下载链接：&lt;a class=&#34;link&#34;   href=&#34;https://catisnotfound.lanzouq.com/i6CdN2l3s51g&#34; &gt;传送门&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;测试运行-C-C-语言程序&#34;&gt;&lt;a href=&#34;#测试运行-C-C-语言程序&#34; class=&#34;headerlink&#34; title=&#34;测试运行 C&amp;#x2F;C++ 语言程序&#34;&gt;&lt;/a&gt;测试运行 C&amp;#x2F;C++ 语言程序&lt;/h1&gt;&lt;p&gt;根据不同的 IDE 工具，有不同的操作步骤。为了方便新手小白快速测试能否成功执行 C&amp;#x2F;C++ 语言程序。请根据自己的需求一步步进行测试即可。这里同样以 CLion 为例：&lt;/p&gt;
+&lt;p&gt;首先打开 &lt;code&gt;CLion&lt;/code&gt;，或者直接在终端下执行 &lt;code&gt;clion64&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;进入后按照如下图指示，进行操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_create_project.png&#34; alt=&#34;CLion 创建项目 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_create_c.png&#34; alt=&#34;Clion 创建项目 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;按照上述操作创建项目后，会弹出如下窗口，这里建议选择默认捆绑安装的 MinGW 编译器。按照如下图指示配置即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_toolchain.png&#34; alt=&#34;Clion 工具链&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待加载完成后，直接执行绿色小三角 &lt;i class=&#34;fa-solid fa-play&#34; style=&#34;color: rgb(0, 245, 0);&#34;&gt;&lt;/i&gt; 图标，当终端窗口下出现 &lt;code&gt;Hello world!&lt;/code&gt; 时，即可完成运行。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_run.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;常见问题&#34;&gt;&lt;a href=&#34;#常见问题&#34; class=&#34;headerlink&#34; title=&#34;常见问题&#34;&gt;&lt;/a&gt;常见问题&lt;/h1&gt;&lt;h2 id=&#34;1-IDE-如何切换到简体中文&#34;&gt;&lt;a href=&#34;#1-IDE-如何切换到简体中文&#34; class=&#34;headerlink&#34; title=&#34;1. IDE 如何切换到简体中文&#34;&gt;&lt;/a&gt;1. IDE 如何切换到简体中文&lt;/h2&gt;&lt;p&gt;根据如下图进行操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_chinese.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-Windows-下运行程序时遇到中文出现乱码&#34;&gt;&lt;a href=&#34;#2-Windows-下运行程序时遇到中文出现乱码&#34; class=&#34;headerlink&#34; title=&#34;2. Windows 下运行程序时遇到中文出现乱码&#34;&gt;&lt;/a&gt;2. Windows 下运行程序时遇到中文出现乱码&lt;/h2&gt;&lt;h3 id=&#34;问题描述&#34;&gt;&lt;a href=&#34;#问题描述&#34; class=&#34;headerlink&#34; title=&#34;问题描述&#34;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;给定一个示例代码，如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;C&#34;&gt;&lt;figure class=&#34;iseeu highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt;)&lt;/span&gt; &amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;你好，世界！\n&amp;quot;&lt;/span&gt;);  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;运行结果如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;浣犲ソ锛屼笘鐣岋紒&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;解决方法&#34;&gt;&lt;a href=&#34;#解决方法&#34; class=&#34;headerlink&#34; title=&#34;解决方法&#34;&gt;&lt;/a&gt;解决方法&lt;/h3&gt;&lt;p&gt;如下图所示，先点击进入设置（快捷键：&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;）。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_click_settings.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;按照如下图指示操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_encoding.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;完成设置后，还需对 &lt;code&gt;main.c&lt;/code&gt; 文件进行编码转换操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_change_2_gbk.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-IDE-出现卡顿或显示异常现象&#34;&gt;&lt;a href=&#34;#3-IDE-出现卡顿或显示异常现象&#34; class=&#34;headerlink&#34; title=&#34;3. IDE 出现卡顿或显示异常现象&#34;&gt;&lt;/a&gt;3. IDE 出现卡顿或显示异常现象&lt;/h2&gt;&lt;p&gt;通常情况下，Jetbrain 系列下的所有 IDE 软件都是基于 Java 语言所编写。为了确保能使 IDE 能够流畅运行，可以通过修改内存大小以实现。&lt;/p&gt;
+&lt;p&gt;具体操作如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_change_mem.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;需要注意的一点：调整内存时，请根据自己的电脑运行内存配置以适当增加内存。（单位换算：1GB &amp;#x3D; 1024MB）&lt;/p&gt;
+&lt;p&gt;设置完成后，重启 IDE 即可生效。&lt;/p&gt;
+</content>
+        <category term="C_and_Cpp" />
+        <category term="Windows" />
+        <category term="Jetbrain" />
+        <category term="CLion" />
+        <updated>2025-01-16T08:04:37.000Z</updated>
+    </entry>
+</feed>

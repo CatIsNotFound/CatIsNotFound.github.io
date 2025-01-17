@@ -3,44 +3,122 @@
     <id>https://CatIsNotFound.github.io</id>
     <title>CatIsNotFound</title>
     <link href="https://CatIsNotFound.github.io" />
-    <updated>2025-01-15T08:18:06.000Z</updated>
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="新手向" />
-    <category term="更新日志" />
-    <category term="Waline" />
-    <category term="Python" />
+    <updated>2025-01-16T08:04:37.000Z</updated>
     <category term="学习笔记" />
+    <category term="C_and_Cpp" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="博客搭建" />
+    <category term="GNOME" />
     <category term="Git" />
+    <category term="Windows" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <category term="Github" />
+    <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="Python" />
+    <category term="新手向" />
+    <category term="软件安利" />
     <category term="Android" />
-    <category term="WSL" />
-    <category term="脚本" />
-    <category term="关于博客" />
+    <category term="更新日志" />
+    <category term="刷题" />
+    <category term="💡解题" />
+    <category term="解题历程" />
+    <category term="Waline" />
+    <category term="答疑解惑" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
     <category term="Switch" />
-    <category term="Youtube" />
-    <category term="任天堂" />
-    <category term="油管" />
-    <category term="C_and_Cpp" />
-    <category term="oh-my-zsh" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="刷题" />
-    <category term="答疑解惑" />
     <category term="Nintendo" />
+    <category term="任天堂" />
     <category term="游戏机" />
+    <category term="Youtube" />
+    <category term="油管" />
+    <category term="oh-my-zsh" />
     <category term="记录日常" />
     <category term="年终总结" />
     <category term="Codeforces" />
+    <entry>
+        <id>https://catisnotfound.github.io/2025/01/Jetbrain-CLion-Installation-and-configuration/</id>
+        <title>[超详细] CLion 安装与配置</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2025/01/Jetbrain-CLion-Installation-and-configuration/"/>
+        <content type="html">&lt;h1 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;为了照顾好刚入门 C&amp;#x2F;C++ 语言的新手小白，此文将详细介绍如何在自己的电脑上搭建自己的编程环境。&lt;/p&gt;
+&lt;h1 id=&#34;下载安装-IDE&#34;&gt;&lt;a href=&#34;#下载安装-IDE&#34; class=&#34;headerlink&#34; title=&#34;下载安装 IDE&#34;&gt;&lt;/a&gt;下载安装 IDE&lt;/h1&gt;
+  &lt;div class=&#34;note-large regular&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;IDE 简介&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;不同的 IDE 有不同的配置工具，这里就以 Jetbrain 系列中的 CLion 作为参考：&lt;/p&gt;
+&lt;h2 id=&#34;Jetbrain-CLion&#34;&gt;&lt;a href=&#34;#Jetbrain-CLion&#34; class=&#34;headerlink&#34; title=&#34;Jetbrain CLion&#34;&gt;&lt;/a&gt;Jetbrain CLion&lt;/h2&gt;&lt;p&gt;大多数大学本科生，在上 C 语言程序设计时，都会下载一个软件：Dev-C++，其内置了 GCC、G++ 编译器，其体量小、速度快的特点，获得了许多大学老师默认的首选（当然有些学校可能不是用这个软件，而是使用 Visual C++ 6.0）。&lt;/p&gt;
+&lt;p&gt;但是，对于 Dev-C++ 来说，它的界面过于古旧，没有更加智能的自动补全功能，也没有较为好用的调试功能，这里就推荐一个更好用的 IDE 工具 (￣▽￣)” —— CLion。&lt;/p&gt;
+&lt;p&gt;这是出自 Jetbrain 系列里的 IDE 工具集，内置了所需的编译器、调试器以及构建工具等。&lt;/p&gt;
+&lt;p&gt;关于安装方法，Jetbrain 官方提供了两种安装方法：&lt;/p&gt;
+&lt;h3 id=&#34;一、利用-Toolbox-App-安装【推荐】&#34;&gt;&lt;a href=&#34;#一、利用-Toolbox-App-安装【推荐】&#34; class=&#34;headerlink&#34; title=&#34;一、利用 Toolbox App 安装【推荐】&#34;&gt;&lt;/a&gt;一、利用 Toolbox App 安装【推荐】&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jetbrains.com.cn/toolbox-app/&#34; &gt;JetBrains Toolbox App：轻松管理您的工具&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是 Jetbrain 系列内置的工具安装器，它可以安装所有 Jetbrain 系列的软件。你只需要利用 Toolbox，找到 Clion 并一键下载即可。&lt;/p&gt;
+&lt;p&gt;当然，若你之前已经安装过，你可以直接点击更新即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/toolbox_app.png&#34; alt=&#34;Toolbox App&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;安装位置修改方法（先看这点）&#34;&gt;&lt;a href=&#34;#安装位置修改方法（先看这点）&#34; class=&#34;headerlink&#34; title=&#34;安装位置修改方法（先看这点）&#34;&gt;&lt;/a&gt;安装位置修改方法（先看这点）&lt;/h4&gt;&lt;p&gt;这里需要注意的一点：默认情况下，Jetbrain Toolbox App 下安装工具的路径位于 C 盘的用户数据目录下。为了解决 Windows 下 C 盘的占用空间问题，这里操作如下：&lt;/p&gt;
+&lt;p&gt;首先，打开 Toolbox App 主页面，点击右上角的&lt;i class=&#34;fa-solid fa-gear&#34;&gt;&lt;/i&gt;  小齿轮图标，选择 ”设置“，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/toolbox_a_click.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;找到如下图中标注的部分，将其更改文件夹即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/toolbox_settings.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;需要注意的点：就像上图标注的提示那样，请先做好上述的设置，以便过度占用磁盘空间。&lt;/p&gt;
+&lt;h3 id=&#34;二、直接下载安装包&#34;&gt;&lt;a href=&#34;#二、直接下载安装包&#34; class=&#34;headerlink&#34; title=&#34;二、直接下载安装包&#34;&gt;&lt;/a&gt;二、直接下载安装包&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jetbrains.com.cn/clion/promo/?utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=cn-bing-br-clion-ex-pc&amp;utm_content=clion-pure&amp;utm_term=clion&amp;msclkid=88035d2533e81edc0b703aadf1e4658c&#34; &gt;CLion：JetBrains 出品的 C 和 C++ 跨平台 IDE&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是许多人都会做的步骤，这里不再赘述。&lt;strong&gt;注意记得修改安装路径！&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;del class=&#34;mask&#34;&gt;关于破解 CLion，请直接点击下方的链接，以直接下载破解脚本即可。对应说明文档已内置！&lt;/del&gt;&lt;br&gt;&lt;del class=&#34;mask&#34;&gt;下载链接：&lt;a class=&#34;link&#34;   href=&#34;https://catisnotfound.lanzouq.com/i6CdN2l3s51g&#34; &gt;传送门&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;测试运行-C-C-语言程序&#34;&gt;&lt;a href=&#34;#测试运行-C-C-语言程序&#34; class=&#34;headerlink&#34; title=&#34;测试运行 C&amp;#x2F;C++ 语言程序&#34;&gt;&lt;/a&gt;测试运行 C&amp;#x2F;C++ 语言程序&lt;/h1&gt;&lt;p&gt;根据不同的 IDE 工具，有不同的操作步骤。为了方便新手小白快速测试能否成功执行 C&amp;#x2F;C++ 语言程序。请根据自己的需求一步步进行测试即可。这里同样以 CLion 为例：&lt;/p&gt;
+&lt;p&gt;首先打开 &lt;code&gt;CLion&lt;/code&gt;，或者直接在终端下执行 &lt;code&gt;clion64&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;进入后按照如下图指示，进行操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_create_project.png&#34; alt=&#34;CLion 创建项目 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_create_c.png&#34; alt=&#34;Clion 创建项目 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;按照上述操作创建项目后，会弹出如下窗口，这里建议选择默认捆绑安装的 MinGW 编译器。按照如下图指示配置即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_toolchain.png&#34; alt=&#34;Clion 工具链&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待加载完成后，直接执行绿色小三角 &lt;i class=&#34;fa-solid fa-play&#34; style=&#34;color: rgb(0, 245, 0);&#34;&gt;&lt;/i&gt; 图标，当终端窗口下出现 &lt;code&gt;Hello world!&lt;/code&gt; 时，即可完成运行。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_run.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;常见问题&#34;&gt;&lt;a href=&#34;#常见问题&#34; class=&#34;headerlink&#34; title=&#34;常见问题&#34;&gt;&lt;/a&gt;常见问题&lt;/h1&gt;&lt;h2 id=&#34;1-IDE-如何切换到简体中文&#34;&gt;&lt;a href=&#34;#1-IDE-如何切换到简体中文&#34; class=&#34;headerlink&#34; title=&#34;1. IDE 如何切换到简体中文&#34;&gt;&lt;/a&gt;1. IDE 如何切换到简体中文&lt;/h2&gt;&lt;p&gt;根据如下图进行操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_chinese.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-Windows-下运行程序时遇到中文出现乱码&#34;&gt;&lt;a href=&#34;#2-Windows-下运行程序时遇到中文出现乱码&#34; class=&#34;headerlink&#34; title=&#34;2. Windows 下运行程序时遇到中文出现乱码&#34;&gt;&lt;/a&gt;2. Windows 下运行程序时遇到中文出现乱码&lt;/h2&gt;&lt;h3 id=&#34;问题描述&#34;&gt;&lt;a href=&#34;#问题描述&#34; class=&#34;headerlink&#34; title=&#34;问题描述&#34;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;给定一个示例代码，如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;C&#34;&gt;&lt;figure class=&#34;iseeu highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt;)&lt;/span&gt; &amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;你好，世界！\n&amp;quot;&lt;/span&gt;);  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;运行结果如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;浣犲ソ锛屼笘鐣岋紒&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;解决方法&#34;&gt;&lt;a href=&#34;#解决方法&#34; class=&#34;headerlink&#34; title=&#34;解决方法&#34;&gt;&lt;/a&gt;解决方法&lt;/h3&gt;&lt;p&gt;如下图所示，先点击进入设置（快捷键：&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;）。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_click_settings.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;按照如下图指示操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_encoding.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;完成设置后，还需对 &lt;code&gt;main.c&lt;/code&gt; 文件进行编码转换操作：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_change_2_gbk.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-IDE-出现卡顿或显示异常现象&#34;&gt;&lt;a href=&#34;#3-IDE-出现卡顿或显示异常现象&#34; class=&#34;headerlink&#34; title=&#34;3. IDE 出现卡顿或显示异常现象&#34;&gt;&lt;/a&gt;3. IDE 出现卡顿或显示异常现象&lt;/h2&gt;&lt;p&gt;通常情况下，Jetbrain 系列下的所有 IDE 软件都是基于 Java 语言所编写。为了确保能使 IDE 能够流畅运行，可以通过修改内存大小以实现。&lt;/p&gt;
+&lt;p&gt;具体操作如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/clion_change_mem.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;需要注意的一点：调整内存时，请根据自己的电脑运行内存配置以适当增加内存。（单位换算：1GB &amp;#x3D; 1024MB）&lt;/p&gt;
+&lt;p&gt;设置完成后，重启 IDE 即可生效。&lt;/p&gt;
+</content>
+        <category term="C_and_Cpp" />
+        <category term="Windows" />
+        <category term="Jetbrain" />
+        <category term="CLion" />
+        <updated>2025-01-16T08:04:37.000Z</updated>
+    </entry>
     <entry>
         <id>https://catisnotfound.github.io/2025/01/C-language-basic-misc/</id>
         <title>C 语言基础笔记：重要知识点</title>
@@ -916,8 +994,8 @@
 &lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.freecodecamp.org/news/getline-in-cpp-cin-getline-function-example/&#34; &gt;Getline in C++ – cin getline() Function Example&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="新手向" />
         <category term="C_and_Cpp" />
+        <category term="新手向" />
         <category term="答疑解惑" />
         <updated>2024-12-04T06:14:10.000Z</updated>
     </entry>
@@ -954,8 +1032,8 @@
 &lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.dotcpp.com/course/868&#34; &gt;为什么gets函数不能用了？ - ACM与蓝桥杯竞赛指南 - C语言网&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="新手向" />
         <category term="C_and_Cpp" />
+        <category term="新手向" />
         <category term="答疑解惑" />
         <updated>2024-12-03T12:16:06.000Z</updated>
     </entry>
@@ -1116,10 +1194,10 @@
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;关于下一篇内容，个人考虑在 Neovim 上入手，如果有较强的折腾能力，可以尝试将 neovim 改造成一个命令行下的 IDE(*^_^*)。&lt;/p&gt;
 &lt;p&gt;还是那句话：感兴趣？建议点个收藏或关注？(￣▽￣)”（多少有点不好意思）&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="Linux" />
         <category term="Git" />
         <category term="Github" />
+        <category term="新手向" />
         <category term="WSL" />
         <category term="oh-my-zsh" />
         <updated>2024-11-27T03:58:30.000Z</updated>
@@ -1175,8 +1253,8 @@
 </content>
         <category term="Windows" />
         <category term="Switch" />
-        <category term="Youtube" />
         <category term="任天堂" />
+        <category term="Youtube" />
         <category term="油管" />
         <updated>2024-11-21T11:34:12.000Z</updated>
     </entry>
@@ -1220,8 +1298,8 @@
 &lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
 </content>
         <category term="Switch" />
-        <category term="任天堂" />
         <category term="Nintendo" />
+        <category term="任天堂" />
         <category term="游戏机" />
         <updated>2024-10-24T11:42:29.000Z</updated>
     </entry>
@@ -1330,8 +1408,8 @@
 &lt;p&gt;3、等待 1~2 分钟，当弹出窗口并显示 &lt;code&gt;导入完成&lt;/code&gt; 时，表示数据迁移完成。&lt;/p&gt;
 &lt;p&gt;4、最后刷新博客页面，以查看博客里的评论数据是否原样迁移。&lt;/p&gt;
 </content>
-        <category term="Waline" />
         <category term="博客搭建" />
+        <category term="Waline" />
         <updated>2024-09-28T05:21:01.000Z</updated>
     </entry>
     <entry>
@@ -1389,8 +1467,8 @@
 &lt;p&gt;终于终于，我最后一次提交了正确的代码，终于全部通过了😭😭😭~~~~&lt;/p&gt;
 </content>
         <category term="C_and_Cpp" />
-        <category term="解题历程" />
         <category term="💡解题" />
+        <category term="解题历程" />
         <updated>2024-09-12T11:14:09.000Z</updated>
     </entry>
     <entry>
@@ -1484,8 +1562,8 @@
 &lt;/ul&gt;
 &lt;p&gt;目前暂时会更新以上平台的题目。&lt;/p&gt;
 </content>
-        <category term="💡解题" />
         <category term="刷题" />
+        <category term="💡解题" />
         <updated>2024-09-11T14:14:42.000Z</updated>
     </entry>
     <entry>
@@ -1552,9 +1630,9 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
-        <category term="新手向" />
         <category term="Git" />
         <category term="Github" />
+        <category term="新手向" />
         <category term="答疑解惑" />
         <updated>2024-09-01T04:48:45.000Z</updated>
     </entry>
@@ -1755,9 +1833,9 @@
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="软件安利" />
         <category term="Windows" />
         <category term="新手向" />
+        <category term="软件安利" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -2256,8 +2334,8 @@
 &lt;p&gt;示例 3：定义一个函数 &lt;code&gt;install_packages()&lt;/code&gt;，要求用户输入软件包名，并安装指定的软件包。定义一个函数 &lt;code&gt;package_manager()&lt;/code&gt;，用于搜寻系统中可用的软件包管理工具，并安装指定的软件包。&lt;/p&gt;
 &lt;p&gt;注意：针对 Arch Linux 使用的 &lt;code&gt;pacman&lt;/code&gt; 的命令有所不同，需要进行单独修改。&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 定义函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;install_packages&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如没有输入软件包名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Error: Please enter a package name.&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 假如使用的是 pacman&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; == pacman ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; pacman -S &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; --noconfirm&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; install &lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; -y&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;title&#34;&gt;package_manager&lt;/span&gt;&lt;/span&gt;() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; manager &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; apt dnf pacman yum zypper; &lt;span class=&#34;keyword&#34;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;built_in&#34;&gt;which&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &amp;amp;&amp;gt; /dev/null&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# 假如对应的包管理工具存在，则安装软件包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -eq 0 ]; &lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Using &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; to install &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            install_packages &lt;span class=&#34;variable&#34;&gt;$manager&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;$1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;No package manager found&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;return&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 调用函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;read&lt;/span&gt; -p &lt;span class=&#34;string&#34;&gt;&amp;quot;Please enter a package name: &amp;quot;&lt;/span&gt; package&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;package_manager &lt;span class=&#34;variable&#34;&gt;$package&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;</content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="脚本" />
         <updated>2024-06-09T05:15:33.000Z</updated>
     </entry>
@@ -2604,8 +2682,8 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="新手向" />
         <category term="Linux" />
+        <category term="新手向" />
         <category term="脚本" />
         <updated>2024-06-09T05:10:00.000Z</updated>
     </entry>
@@ -2755,9 +2833,9 @@
   &lt;/div&gt;
 
 </content>
+        <category term="Linux" />
         <category term="Windows" />
         <category term="新手向" />
-        <category term="Linux" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>
@@ -2942,8 +3020,8 @@
 &lt;p&gt;关于 Emoji 表情的更多信息，请&lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;参考 Waline 官方文档&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
 &lt;h1 id=&#34;参考链接&#34;&gt;&lt;a href=&#34;#参考链接&#34; class=&#34;headerlink&#34; title=&#34;参考链接&#34;&gt;&lt;/a&gt;参考链接&lt;/h1&gt;&lt;p&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://redefine-docs.ohevan.com/posts/comment&#34; &gt;https://redefine-docs.ohevan.com/posts/comment&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/get-started/&#34; &gt;https://waline.js.org/guide/get-started/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/deploy/deta.html&#34; &gt;https://waline.js.org/guide/deploy/deta.html&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/emoji.html&#34; &gt;https://waline.js.org/guide/features/emoji.html&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;🔗 &lt;a class=&#34;link&#34;   href=&#34;https://waline.js.org/guide/features/notification.html&#34; &gt;https://waline.js.org/guide/features/notification.html&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Waline" />
         <category term="博客搭建" />
+        <category term="Waline" />
         <updated>2024-06-02T12:00:00.000Z</updated>
     </entry>
     <entry>
@@ -3928,9 +4006,9 @@ B -- False --&gt; 执行语句2
 &lt;p&gt;清华大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.tuna.tsinghua.edu.cn/simple&#34; &gt;https://pypi.tuna.tsinghua.edu.cn/simple&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;阿里云：&lt;a class=&#34;link&#34;   href=&#34;http://mirrors.aliyun.com/pypi/simple/&#34; &gt;http://mirrors.aliyun.com/pypi/simple/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;中国科技大学：&lt;a class=&#34;link&#34;   href=&#34;https://pypi.mirrors.ustc.edu.cn/simple/&#34; &gt;https://pypi.mirrors.ustc.edu.cn/simple/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;华中理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.hustunique.com/&#34; &gt;http://pypi.hustunique.com/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;山东理工大学：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.sdutlinux.org/&#34; &gt;http://pypi.sdutlinux.org/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;豆瓣：&lt;a class=&#34;link&#34;   href=&#34;http://pypi.douban.com/simple/&#34; &gt;http://pypi.douban.com/simple/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="新手向" />
-        <category term="Python" />
         <category term="学习笔记" />
+        <category term="Python" />
+        <category term="新手向" />
         <updated>2024-05-27T04:42:38.000Z</updated>
     </entry>
     <entry>
@@ -4032,11 +4110,11 @@ B -- False --&gt; 执行语句2
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
-        <category term="软件安利" />
-        <category term="博客搭建" />
         <category term="Git" />
         <category term="Github" />
+        <category term="博客搭建" />
         <category term="Hexo" />
+        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
@@ -4131,9 +4209,9 @@ B -- False --&gt; 执行语句2
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
-        <category term="软件安利" />
         <category term="Windows" />
         <category term="新手向" />
+        <category term="软件安利" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
     <entry>
@@ -4261,11 +4339,11 @@ B -- False --&gt; 执行语句2
     &lt;/div&gt;
   &lt;/div&gt;
 </content>
-        <category term="新手向" />
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
+        <category term="新手向" />
         <updated>2024-05-03T15:59:02.000Z</updated>
     </entry>
     <entry>
@@ -4438,8 +4516,8 @@ B -- False --&gt; 执行语句2
 </content>
         <category term="Linux" />
         <category term="Ubuntu" />
-        <category term="GNOME" />
         <category term="桌面环境" />
+        <category term="GNOME" />
         <updated>2024-04-26T15:59:00.000Z</updated>
     </entry>
     <entry>
@@ -5115,9 +5193,9 @@ B -- False --&gt; 执行语句2
 &lt;h2 id=&#34;写在后面&#34;&gt;&lt;a href=&#34;#写在后面&#34; class=&#34;headerlink&#34; title=&#34;写在后面&#34;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;下一篇将继续详细【&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;配置 Hexo，以及如何使用 Redefine 主题美化博客&lt;/a&gt;】&lt;/p&gt;
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
-        <category term="博客搭建" />
         <category term="Git" />
         <category term="Github" />
+        <category term="博客搭建" />
         <category term="Hexo" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>

@@ -4,40 +4,42 @@
     <title>CatIsNotFound • Posts by &#34;记录日常&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-10-24T11:42:29.000Z</updated>
-    <category term="软件安利" />
-    <category term="Windows" />
-    <category term="新手向" />
-    <category term="更新日志" />
-    <category term="Waline" />
-    <category term="Python" />
     <category term="学习笔记" />
+    <category term="C_and_Cpp" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="GNOME" />
     <category term="桌面环境" />
-    <category term="博客搭建" />
+    <category term="GNOME" />
     <category term="Git" />
+    <category term="Windows" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <category term="Github" />
+    <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="Python" />
+    <category term="新手向" />
+    <category term="软件安利" />
     <category term="Android" />
-    <category term="WSL" />
-    <category term="脚本" />
-    <category term="关于博客" />
+    <category term="更新日志" />
+    <category term="刷题" />
+    <category term="💡解题" />
+    <category term="解题历程" />
+    <category term="Waline" />
+    <category term="答疑解惑" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
     <category term="Switch" />
-    <category term="Youtube" />
-    <category term="任天堂" />
-    <category term="油管" />
-    <category term="C_and_Cpp" />
-    <category term="oh-my-zsh" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="刷题" />
-    <category term="答疑解惑" />
     <category term="Nintendo" />
+    <category term="任天堂" />
     <category term="游戏机" />
+    <category term="Youtube" />
+    <category term="油管" />
+    <category term="oh-my-zsh" />
     <category term="记录日常" />
     <category term="年终总结" />
     <category term="Codeforces" />
@@ -81,8 +83,8 @@
 &lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
 </content>
         <category term="Switch" />
-        <category term="任天堂" />
         <category term="Nintendo" />
+        <category term="任天堂" />
         <category term="游戏机" />
         <updated>2024-10-24T11:42:29.000Z</updated>
     </entry>
