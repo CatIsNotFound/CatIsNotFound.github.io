@@ -4,41 +4,41 @@
     <title>CatIsNotFound • Posts by &#34;clion&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2025-01-16T08:04:37.000Z</updated>
-    <category term="学习笔记" />
-    <category term="C_and_Cpp" />
+    <category term="更新日志" />
+    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Git" />
-    <category term="Windows" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="Python" />
-    <category term="新手向" />
     <category term="软件安利" />
+    <category term="Windows" />
+    <category term="新手向" />
     <category term="Android" />
-    <category term="更新日志" />
-    <category term="刷题" />
-    <category term="💡解题" />
-    <category term="解题历程" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
+    <category term="Python" />
+    <category term="学习笔记" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="WSL" />
-    <category term="关于博客" />
-    <category term="脚本" />
+    <category term="解题历程" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="Waline" />
+    <category term="答疑解惑" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
     <category term="游戏机" />
+    <category term="刷题" />
+    <category term="关于博客" />
+    <category term="脚本" />
+    <category term="WSL" />
     <category term="Youtube" />
     <category term="油管" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <category term="oh-my-zsh" />
     <category term="记录日常" />
     <category term="年终总结" />
@@ -113,8 +113,8 @@
 &lt;p&gt;需要注意的一点：调整内存时，请根据自己的电脑运行内存配置以适当增加内存。（单位换算：1GB &amp;#x3D; 1024MB）&lt;/p&gt;
 &lt;p&gt;设置完成后，重启 IDE 即可生效。&lt;/p&gt;
 </content>
-        <category term="C_and_Cpp" />
         <category term="Windows" />
+        <category term="C_and_Cpp" />
         <category term="Jetbrain" />
         <category term="CLion" />
         <updated>2025-01-16T08:04:37.000Z</updated>
