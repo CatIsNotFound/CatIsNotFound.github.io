@@ -7,53 +7,53 @@
         <language>zh-CN</language>
         <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
         <lastBuildDate>Fri, 03 May 2024 23:59:02 +0800</lastBuildDate>
-        <category>更新日志</category>
-        <category>Git</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>桌面环境</category>
         <category>GNOME</category>
-        <category>Github</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>软件安利</category>
-        <category>Windows</category>
+        <category>桌面环境</category>
         <category>新手向</category>
-        <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>博客搭建</category>
+        <category>软件安利</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>💡解题</category>
+        <category>C_and_Cpp</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>答疑解惑</category>
+        <category>更新日志</category>
+        <category>Switch</category>
+        <category>Youtube</category>
+        <category>任天堂</category>
+        <category>油管</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>解题历程</category>
-        <category>💡解题</category>
-        <category>C_and_Cpp</category>
-        <category>Waline</category>
-        <category>答疑解惑</category>
-        <category>Switch</category>
-        <category>Nintendo</category>
-        <category>任天堂</category>
-        <category>游戏机</category>
-        <category>刷题</category>
+        <category>oh-my-zsh</category>
+        <category>WSL</category>
         <category>关于博客</category>
         <category>脚本</category>
-        <category>WSL</category>
-        <category>Youtube</category>
-        <category>油管</category>
-        <category>Jetbrain</category>
-        <category>CLion</category>
-        <category>oh-my-zsh</category>
+        <category>Nintendo</category>
+        <category>游戏机</category>
+        <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
-        <category>Codeforces</category>
+        <category>Jetbrain</category>
+        <category>CLion</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</guid>
             <title>从 0 开始学 Linux：熟悉 GNOME 桌面</title>
             <link>https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
             <category>Linux</category>
             <category>Ubuntu</category>
-            <category>桌面环境</category>
             <category>GNOME</category>
+            <category>桌面环境</category>
             <category>新手向</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
@@ -65,14 +65,29 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：&lt;a href=&#34;../../../04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/&#34;&gt;从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/13.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
 
 &lt;h1 id=&#34;桌面布局&#34;&gt;&lt;a href=&#34;#桌面布局&#34; class=&#34;headerlink&#34; title=&#34;桌面布局&#34;&gt;&lt;/a&gt;桌面布局&lt;/h1&gt;&lt;p&gt;请根据如下图的标识一一对应。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/1.jpg&#34; alt=&#34;桌面&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/3.jpg&#34; alt=&#34;快捷菜单&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/1.jpg&#34;
+                      alt=&#34;桌面&#34;
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/3.jpg&#34;
+                      alt=&#34;快捷菜单&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large red&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -82,7 +97,12 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;&lt;strong&gt;Ubuntu 下的默认桌面布局与其它发行版下的 GNOME 桌面布局有所差异。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 &lt;code&gt;gnome-shell&lt;/code&gt; 插件来实现）&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -118,20 +138,55 @@
 &lt;h2 id=&#34;Dock-栏（快捷栏）&#34;&gt;&lt;a href=&#34;#Dock-栏（快捷栏）&#34; class=&#34;headerlink&#34; title=&#34;Dock 栏（快捷栏）&#34;&gt;&lt;/a&gt;Dock 栏（快捷栏）&lt;/h2&gt;&lt;h3 id=&#34;利用快捷键启动应用&#34;&gt;&lt;a href=&#34;#利用快捷键启动应用&#34; class=&#34;headerlink&#34; title=&#34;利用快捷键启动应用&#34;&gt;&lt;/a&gt;利用快捷键启动应用&lt;/h3&gt;&lt;p&gt;Ubuntu 桌面默认自带的任务栏，可直接利用 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + 数字键以打开快捷栏中的所对应的应用程序。&lt;/p&gt;
 &lt;p&gt;每个应用图标左上角的以 ①②③ 表示对应的序号。&lt;br&gt;例如：打开 Firefox 浏览器，只需按下快捷键 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;1&lt;/kbd&gt; 即可&lt;/p&gt;
 &lt;p&gt;若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; 即可。如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/4.jpg&#34; alt=&#34;在快捷栏中启动应用&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/4.jpg&#34;
+                      alt=&#34;在快捷栏中启动应用&#34;
+                &gt;&lt;/p&gt;
 &lt;h3 id=&#34;固定应用到-Dock-栏（快捷栏）&#34;&gt;&lt;a href=&#34;#固定应用到-Dock-栏（快捷栏）&#34; class=&#34;headerlink&#34; title=&#34;固定应用到 Dock 栏（快捷栏）&#34;&gt;&lt;/a&gt;固定应用到 Dock 栏（快捷栏）&lt;/h3&gt;&lt;h4 id=&#34;1-通过右键菜单&#34;&gt;&lt;a href=&#34;#1-通过右键菜单&#34; class=&#34;headerlink&#34; title=&#34;1. 通过右键菜单&#34;&gt;&lt;/a&gt;1. 通过右键菜单&lt;/h4&gt;&lt;p&gt;你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt; 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/5.jpg&#34; alt=&#34;固定应用&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/5.jpg&#34;
+                      alt=&#34;固定应用&#34;
+                &gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-通过鼠标拖拽&#34;&gt;&lt;a href=&#34;#2-通过鼠标拖拽&#34; class=&#34;headerlink&#34; title=&#34;2. 通过鼠标拖拽&#34;&gt;&lt;/a&gt;2. 通过鼠标拖拽&lt;/h4&gt;&lt;p&gt;你可以从【所有程序】界面中，鼠标左键拖拽某个应用到 Dock 栏（快捷栏）中，也能固定到 Dock 栏（快捷栏）；&lt;/p&gt;
 &lt;p&gt;反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 &lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/1.gif&#34; alt=&#34;固定应用程序&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/2.gif&#34; alt=&#34;取消固定应用程序&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/1.gif&#34;
+                      alt=&#34;固定应用程序&#34;
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/2.gif&#34;
+                      alt=&#34;取消固定应用程序&#34;
+                &gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;在桌面下，若需要对已打开的应用程序固定到 Dock 栏（快捷栏），只需拖拽到 Dock 栏（快捷栏）中；&lt;/p&gt;
 &lt;p&gt;反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/3.gif&#34; alt=&#34;在桌面中固定&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/4.gif&#34; alt=&#34;在桌面中解除固定&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/3.gif&#34;
+                      alt=&#34;在桌面中固定&#34;
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/4.gif&#34;
+                      alt=&#34;在桌面中解除固定&#34;
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;窗口（Window）&#34;&gt;&lt;a href=&#34;#窗口（Window）&#34; class=&#34;headerlink&#34; title=&#34;窗口（Window）&#34;&gt;&lt;/a&gt;窗口（Window）&lt;/h2&gt;&lt;h3 id=&#34;左右分屏&#34;&gt;&lt;a href=&#34;#左右分屏&#34; class=&#34;headerlink&#34; title=&#34;左右分屏&#34;&gt;&lt;/a&gt;左右分屏&lt;/h3&gt;&lt;p&gt;与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/6.gif&#34; alt=&#34;左右分屏&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/6.gif&#34;
+                      alt=&#34;左右分屏&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small yellow icon-padding&#34;&gt;
     &lt;i class=&#34;note-icon fa-solid fa-solid fa-solid fa-lightbulb&#34;&gt;&lt;/i&gt;&lt;p&gt;提示：&lt;/p&gt;
@@ -140,15 +195,50 @@
   &lt;/div&gt;
 
 &lt;h3 id=&#34;上下分屏&#34;&gt;&lt;a href=&#34;#上下分屏&#34; class=&#34;headerlink&#34; title=&#34;上下分屏&#34;&gt;&lt;/a&gt;上下分屏&lt;/h3&gt;&lt;p&gt;与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(*￣▽￣*)o&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/7.gif&#34; alt=&#34;上下分屏&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/7.gif&#34;
+                      alt=&#34;上下分屏&#34;
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;工作区（Workspace）&#34;&gt;&lt;a href=&#34;#工作区（Workspace）&#34; class=&#34;headerlink&#34; title=&#34;工作区（Workspace）&#34;&gt;&lt;/a&gt;工作区（Workspace）&lt;/h2&gt;&lt;p&gt;工作区与 Windows 虚拟桌面类似，支持在不同的工作区中摆放窗口。下图为比较有用的操作：&lt;/p&gt;
 &lt;h3 id=&#34;创建、删除、切换工作区&#34;&gt;&lt;a href=&#34;#创建、删除、切换工作区&#34; class=&#34;headerlink&#34; title=&#34;创建、删除、切换工作区&#34;&gt;&lt;/a&gt;创建、删除、切换工作区&lt;/h3&gt;&lt;p&gt;不多描述，直接看图&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long1.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long2.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long3.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long4.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long5.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0503/long6.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/long1.gif&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/long2.gif&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/long3.gif&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/long4.gif&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/long5.gif&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0503/long6.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;下列为比较好用的快捷键（即上图中所提及到的操作）：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;↑&lt;/kbd&gt;：上一个工作区&lt;/p&gt;
@@ -184,8 +274,8 @@
             <link>https://catisnotfound.github.io/2024/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
             <category>Ubuntu</category>
-            <category>桌面环境</category>
             <category>GNOME</category>
+            <category>桌面环境</category>
             <pubDate>Fri, 26 Apr 2024 23:59:00 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;
@@ -195,7 +285,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/13.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -215,27 +310,57 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34; &gt;VMWare Workstation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://www.vmware.com/favicon.ico&#34;
+                      style=&#34;zoom:75%;&#34; 
+                &gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34; &gt;VMWare Workstation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.virtualbox.org/favicon.ico&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; &gt;Oracle VM VirtualBox&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://www.virtualbox.org/favicon.ico&#34;
+                     
+                &gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; &gt;Oracle VM VirtualBox&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.vmware.com/favicon.ico&#34; style=&#34;zoom:75%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/fusion/fusion-evaluation.html&#34; &gt;VMWare Fusion&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://www.vmware.com/favicon.ico&#34;
+                      style=&#34;zoom:75%;&#34; 
+                &gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.vmware.com/products/fusion/fusion-evaluation.html&#34; &gt;VMWare Fusion&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mac&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png&#34; style=&#34;zoom: 33%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.parallels.com/products/desktop/&#34; &gt;Parallels Desktop&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png&#34;
+                      style=&#34;zoom: 33%;&#34; 
+                &gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.parallels.com/products/desktop/&#34; &gt;Parallels Desktop&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mac&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.qemu.org/assets/favicons/favicon-32x32.png&#34;&gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.qemu.org/download/&#34; &gt;QEMU&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://www.qemu.org/assets/favicons/favicon-32x32.png&#34;
+                     
+                &gt; &lt;a class=&#34;link&#34;   href=&#34;https://www.qemu.org/download/&#34; &gt;QEMU&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows、Mac、Linux&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://learn.microsoft.com/favicon.ico&#34; style=&#34;zoom:25%;&#34; /&gt; &lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/&#34; &gt;Hyper-V&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://learn.microsoft.com/favicon.ico&#34;
+                      style=&#34;zoom:25%;&#34; 
+                &gt; &lt;a class=&#34;link&#34;   href=&#34;https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/&#34; &gt;Hyper-V&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Windows&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
@@ -258,13 +383,28 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;安装方式-2&#34;&gt;&lt;a href=&#34;#安装方式-2&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;若选择此方式，作者建议使用如下工具将镜像文件安装到 U 盘中：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://www.ventoy.net/favicon.ico&#34;  /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://www.ventoy.net/favicon.ico&#34;
+                       
+                &gt;
 
 &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.ventoy.net/cn/download.html&#34; &gt;Ventoy&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; ：一个多系统启动 U 盘的解决方案。可利用此工具来快速启动多个已有的 ISO 镜像文件&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://rufus.ie/favicon.ico&#34;  /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://rufus.ie/favicon.ico&#34;
+                       
+                &gt;
 
 &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://rufus.ie/zh/&#34; &gt;Rufus&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款轻松创建 USB 启动盘的工具&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://etcher.balena.io/images/2024/favicon.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://etcher.balena.io/images/2024/favicon.png&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://etcher.balena.io/&#34; &gt;balenaEtcher&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;：一款更为简单的烧录软件&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;使用方式均为一样，仅需使用对应工具将需要存放的 ISO 镜像文件烧录即可。&lt;/p&gt;
@@ -287,7 +427,12 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;安装-Linux-系统&#34;&gt;&lt;a href=&#34;#安装-Linux-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Linux 系统&#34;&gt;&lt;/a&gt;安装 Linux 系统&lt;/h1&gt;&lt;h2 id=&#34;下载镜像&#34;&gt;&lt;a href=&#34;#下载镜像&#34; class=&#34;headerlink&#34; title=&#34;下载镜像&#34;&gt;&lt;/a&gt;下载镜像&lt;/h2&gt;&lt;p&gt;在写这篇文章之前，若你已经下载并安装完环境后，接下来只需要在对应的 Linux 发行版中下载镜像即可。（通常为 &lt;code&gt;*.iso&lt;/code&gt; 格式的镜像文件）&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png&#34;  /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png&#34;
+                       
+                &gt;
 
 &lt;p&gt;这里将使用全球较为流行的 &lt;a class=&#34;link&#34;   href=&#34;https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso&#34; &gt;Ubuntu 24.04 LTS&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 镜像来安装 Linux。&lt;/p&gt;
 
@@ -311,22 +456,82 @@
 
 &lt;h2 id=&#34;新建虚拟机&#34;&gt;&lt;a href=&#34;#新建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;新建虚拟机&#34;&gt;&lt;/a&gt;新建虚拟机&lt;/h2&gt;&lt;p&gt;这里以 VMware Workstation 17 为例，&lt;/p&gt;
 &lt;p&gt;首先，在主页上点击【创建虚拟机】；接下来，就按照下面的图一步一步创建即可(*^_^*)（这非常简单）&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/1.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/2.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/3.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/4.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/5.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/6.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/7.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/4.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/5.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/6.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/8.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;完成上述创建后，直接按照如下图提示，开启虚拟机即可&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/9.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;安装-Ubuntu-系统&#34;&gt;&lt;a href=&#34;#安装-Ubuntu-系统&#34; class=&#34;headerlink&#34; title=&#34;安装 Ubuntu 系统&#34;&gt;&lt;/a&gt;安装 Ubuntu 系统&lt;/h2&gt;&lt;p&gt;一般情况下，在安装 Ubuntu 系统时，将会启动 Grub 引导，此时选择第一项【Try or Install Ubuntu】，等待启动 Ubuntu。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/10.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/10.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待完成后，后面仅需按照图中的提示做好初次配置即可开始安装 Ubuntu 系统。虚拟机下仅需设置好用户和密码即可。其余操作仅需点【下一步】即可&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/11.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/11.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;若安装完成后，选择重启时将会出现如下图，此时仅需按下回车键即可完成&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/12.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;※ 补充内容：安装 VMware Tools 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;现如今，在 Ubuntu 及其它 Debian 系发行版下，可直接打开终端，并安装 &lt;code&gt;open-vm-tools&lt;/code&gt; 工具包即可，具体命令如下：&lt;/p&gt;
@@ -335,7 +540,12 @@
 &lt;p&gt;完成安装后，将系统注销重新登录之后即可生效&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;检查-Ubuntu-版本&#34;&gt;&lt;a href=&#34;#检查-Ubuntu-版本&#34; class=&#34;headerlink&#34; title=&#34;检查 Ubuntu 版本&#34;&gt;&lt;/a&gt;检查 Ubuntu 版本&lt;/h2&gt;&lt;p&gt;按照如下图的操作，查看 Ubuntu 版本号即可&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0426/14.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0426/14.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;🎉 至此，安装 Linux 系统已经完成！😉&lt;/p&gt;
 
   &lt;div class=&#34;note-large blue&#34;&gt;

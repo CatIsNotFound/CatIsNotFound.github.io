@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;刷题todo&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-12-06T04:07:26.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/12/CF-R991-D3/</id>
         <title>[Codeforces ROUND 991 Div.3] 1205</title>
@@ -329,9 +329,9 @@
 &lt;p&gt;是的，这问题&lt;u&gt;&lt;strong&gt;我从头到尾都没有注意过&lt;/strong&gt;&lt;/u&gt;，就是&lt;strong&gt;输出多个技能序列时分隔的问题&lt;/strong&gt;。我的代码中是用 &lt;code&gt;,&lt;/code&gt; 隔开，而题目中的输出要求是用&lt;strong&gt;空格&lt;/strong&gt;隔开。&lt;/p&gt;
 &lt;p&gt;终于终于，我最后一次提交了正确的代码，终于全部通过了😭😭😭~~~~&lt;/p&gt;
 </content>
-        <category term="解题历程" />
         <category term="💡解题" />
         <category term="C_and_Cpp" />
+        <category term="解题历程" />
         <updated>2024-09-12T11:14:09.000Z</updated>
     </entry>
     <entry>
@@ -340,7 +340,7 @@
         <link rel="alternate" href="https://catisnotfound.github.io/2024/09/Solved-%E3%80%90MC%E7%94%9F%E5%AD%98%E3%80%91%E6%8F%92%E7%81%AB%E6%8A%8A/"/>
         <content type="html">&lt;h1 id=&#34;解题思路&#34;&gt;&lt;a href=&#34;#解题思路&#34; class=&#34;headerlink&#34; title=&#34;解题思路&#34;&gt;&lt;/a&gt;解题思路&lt;/h1&gt;&lt;p&gt;大致思路：你需要知道地图大小、火把个数、萤石个数，并初始化地图，然后根据用户输入的火把（或萤石）坐标，并根据对应的照亮范围点亮，剩余未点亮的部分（暗区）将出现怪物。&lt;/p&gt;
 &lt;p&gt;因此有了大致的流程图：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0912/01.png&#34; alt=&#34;流程图&#34; style=&#34;width: 50%;&#34;&gt;
+&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2024/0912/01.png&#34; alt=&#34;流程图&#34; style=&#34;width: 50%;&#34;&gt;
 
 &lt;p&gt;💡 &lt;strong&gt;关于点亮范围的实现方法&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;

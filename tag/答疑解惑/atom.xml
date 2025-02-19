@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;答疑解惑&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-12-04T06:14:10.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/12/%E7%AD%94%E7%96%91%E8%A7%A3%E6%83%91-%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8-C-%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%80%E8%A1%8C%E8%BE%93%E5%85%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%96%B9%E6%B3%95/</id>
         <title>[答疑解惑] 关于如何在 C++ 中获取一行输入字符串的方法</title>
@@ -137,14 +137,24 @@
         <id>https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>[答疑解惑] 关于 Github 的问题解决方法</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34;
+                      alt=&#34;Github&#34; width=&#34;75%&#34;
+                &gt;
 
 &lt;p&gt;Github 是一个很常用的代码托管平台，我们可以利用此平台下载或克隆到优质的代码仓库，但是在某些情况下，我们可能会遇到一些问题，下面是由本人列举的一些问题与解决方法，希望这能有所帮助😉。&lt;/p&gt;
 &lt;h1 id=&#34;1、Github-访问不了&#34;&gt;&lt;a href=&#34;#1、Github-访问不了&#34; class=&#34;headerlink&#34; title=&#34;1、Github 访问不了&#34;&gt;&lt;/a&gt;1、Github 访问不了&lt;/h1&gt;&lt;p&gt;大多数国内的用户在访问 Github 时总会遇到加载速度缓慢，甚至无法访问站点的情况。关于此类问题，有以下几个方法解决：&lt;/p&gt;
 &lt;h2 id=&#34;1-1-利用-Watt-Toolkit-加速访问-👍&#34;&gt;&lt;a href=&#34;#1-1-利用-Watt-Toolkit-加速访问-👍&#34; class=&#34;headerlink&#34; title=&#34;1.1 利用 Watt Toolkit 加速访问 👍&#34;&gt;&lt;/a&gt;1.1 利用 Watt Toolkit 加速访问 👍&lt;/h2&gt;&lt;p&gt;众所周知，Watt Toolkit (Steam++ 前身) 是一个非常适合新手的软件，你仅需在【网络加速】页面上勾选上 &lt;i class=&#34;fa-brands fa-github&#34;&gt;&lt;/i&gt; Github 选项，点击 [立即加速] 即可。这也是本人最为推荐的方法。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://steampp.net/&#39; title=&#39;Watt Toolkit 下载&#39;&gt;&lt;i class=&#39;fa-solid fa-download&#39;&gt;&lt;/i&gt; Watt Toolkit 下载&lt;/a&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-2-使用代理加速访问&#34;&gt;&lt;a href=&#34;#1-2-使用代理加速访问&#34; class=&#34;headerlink&#34; title=&#34;1.2 使用代理加速访问&#34;&gt;&lt;/a&gt;1.2 使用代理加速访问&lt;/h2&gt;&lt;p&gt;如果有经济条件，使用代理服务器是非常不错的选择。现如今，本人最推荐的是以下两款主流的代理软件：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;V2rayNG&lt;/strong&gt;：一个基于 v2ray 的免费开源软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/2dust/v2rayNG/releases&#39; title=&#39;V2rayNG 下载&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; V2rayNG 下载&lt;/a&gt;
@@ -165,12 +175,22 @@
 
 &lt;p&gt;&lt;strong&gt;2、V2rayNG&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;关于此软件，需要打开软件主界面，在如下图所指示的地址就是配置代理的选项，&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/3.jpg&#34; alt=&#34;新版 UI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/3.jpg&#34;
+                      alt=&#34;新版 UI&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small yellow icon-padding&#34;&gt;
     &lt;i class=&#34;note-icon fa-solid fa-circle-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;V2rayN 的 UI 版本不同，如果使用的是旧版本的 V2rayN，则为如下图所指示：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/2.jpg&#34; alt=&#34;旧版 UI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/2.jpg&#34;
+                      alt=&#34;旧版 UI&#34;
+                &gt;&lt;/p&gt;
 
   &lt;/div&gt;
 
@@ -184,9 +204,19 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;首先点击此链接 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/settings/tokens/new&#34; &gt;New Personal Access Token (Classic) (github.com)&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0424/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0424/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;上图中的绿色框为所需要的 Token​。&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small danger icon-padding&#34;&gt;
@@ -197,9 +227,9 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="Git" />
         <category term="Github" />
-        <category term="新手向" />
         <category term="答疑解惑" />
         <updated>2024-09-01T04:48:45.000Z</updated>
     </entry>

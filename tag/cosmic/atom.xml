@@ -4,52 +4,57 @@
     <title>CatIsNotFound • Posts by &#34;cosmic&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-15T08:57:19.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/</id>
         <title>系统体验：Pop_OS! 全新 Cosmic 桌面环境测试体验</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/08/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-Pop-OS-24-04-%E5%85%A8%E6%96%B0-Cosmic-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%93%E9%AA%8C/"/>
         <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;很久没有写关于系统体验的文章了，这次体验的 Linux 发行版是 Pop_OS! 24.04，其主要默认的桌面环境为 Cosmic。&lt;/p&gt;
 &lt;p&gt;Cosmic 是 System76 团队开发的全新的桌面环境，其目的是构建一个自定义的操作界面。以下为引用：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/cover.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;We aim to liberate the computer with a new desktop environment powerful enough to build custom OS experiences — for users, developers, and makers of any device with a screen.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;我们的目标是通过一个足够强大的新桌面环境来解放计算机，为任何带屏幕的设备的用户、开发人员和制造商构建自定义操作系统体验。&lt;/p&gt;
@@ -74,18 +79,53 @@
 &lt;p&gt;下载安装后，仅需插入 U 盘，然后选择需要烧录的 ISO 镜像，等待几分钟即可。这里不过多赘述。&lt;/p&gt;
 &lt;h1 id=&#34;体验&#34;&gt;&lt;a href=&#34;#体验&#34; class=&#34;headerlink&#34; title=&#34;体验&#34;&gt;&lt;/a&gt;体验&lt;/h1&gt;&lt;p&gt;经过两三个小时的使用体验，可以发现 Cosmic 桌面有以下个人认为比较不错的亮点：&lt;/p&gt;
 &lt;h2 id=&#34;桌面与登录界面&#34;&gt;&lt;a href=&#34;#桌面与登录界面&#34; class=&#34;headerlink&#34; title=&#34;桌面与登录界面&#34;&gt;&lt;/a&gt;桌面与登录界面&lt;/h2&gt;&lt;p&gt;整体外观样式与前一桌面环境（GNOME）有所不同，如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/1.png&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/1.png&#34;
+                     
+                &gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/2.png&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;平铺窗口&#34;&gt;&lt;a href=&#34;#平铺窗口&#34; class=&#34;headerlink&#34; title=&#34;平铺窗口&#34;&gt;&lt;/a&gt;平铺窗口&lt;/h2&gt;&lt;p&gt;首先，最为实用的功能，就是 Cosmic 自带的&lt;strong&gt;平铺窗口管理&lt;/strong&gt;。&lt;/p&gt;
 &lt;h3 id=&#34;1-开启平铺窗口&#34;&gt;&lt;a href=&#34;#1-开启平铺窗口&#34; class=&#34;headerlink&#34; title=&#34;1. 开启平铺窗口&#34;&gt;&lt;/a&gt;1. 开启平铺窗口&lt;/h3&gt;&lt;p&gt;只需要在顶部栏的右方点击窗口按钮，并开启平铺窗口即可。当然你还可以直接设置新工作区默认使用的窗口模式。如下图操作：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w1.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/w1.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-窗口快速开启或关闭&#34;&gt;&lt;a href=&#34;#2-窗口快速开启或关闭&#34; class=&#34;headerlink&#34; title=&#34;2. 窗口快速开启或关闭&#34;&gt;&lt;/a&gt;2. 窗口快速开启或关闭&lt;/h3&gt;&lt;p&gt;你可以在下方 Dock 栏处使用鼠标中键疯狂点击 [Cosmic 终端]，也可以按下快捷键 &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; 快速关闭所有窗口。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w2.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/w2.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h3 id=&#34;3-窗口拖拽&#34;&gt;&lt;a href=&#34;#3-窗口拖拽&#34; class=&#34;headerlink&#34; title=&#34;3. 窗口拖拽&#34;&gt;&lt;/a&gt;3. 窗口拖拽&lt;/h3&gt;&lt;p&gt;在窗口移动方面，你可以直接使用鼠标拖拽窗口与窗口之间的大小，同时还可以拖拽窗口到其它位置。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w3.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/w3.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;不仅如此，多个窗口可以组成 [堆叠窗口]，只需要将鼠标点击任意窗口并拖拽至其它窗口上，便能堆叠窗口（也就是&lt;strong&gt;多标签页窗口&lt;/strong&gt;）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/w4.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/w4.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;Launcher-启动器&#34;&gt;&lt;a href=&#34;#Launcher-启动器&#34; class=&#34;headerlink&#34; title=&#34;Launcher 启动器&#34;&gt;&lt;/a&gt;Launcher 启动器&lt;/h2&gt;&lt;p&gt;Cosmic 桌面环境提供了一种叫做 [Cosmic Launcher] 的功能，可以快速启动常用文件、搜索文件、计算器、网页搜索等功能。默认设置下，直接按下 &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt; 键（即 &lt;kbd&gt;Windows&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt; 键）以呼出搜索栏。如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/l.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/l.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;使用方法：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;直接在搜索栏上输入应用程序名称&lt;/p&gt;
@@ -161,7 +201,12 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/e.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/e.gif&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;关于 Launcher 启动器&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
@@ -175,11 +220,21 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;软件商店无法使用&lt;/strong&gt;：在安装完 Cosmic 桌面环境后，打开的软件商店是完全空白的，无法显示任何内容。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/5.png&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;自带软件语言显示错误&lt;/strong&gt;：系统已设置为 &lt;code&gt;zh_CN.UTF-8&lt;/code&gt; 语言布局（简体中文），但显示如：Cosmic Text Editor、Cosmic Files等软件时显示繁体中文。如下截图：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0815/6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0815/6.png&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;最后，希望开发团队能尽力出正式版。(*^_^*)&lt;/p&gt;
 </content>
         <category term="Linux" />

@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;软件安利&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-08-01T07:41:00.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</id>
         <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
@@ -51,52 +51,117 @@
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;本文章所提到的软件均为博主曾经使用过的软件，部分软件可能为收费版本，请自行通过官方渠道购买。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://files.codelife.cc/wallhaven/full/x8/wallhaven-x88e93.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp&#34;
+                      alt=&#34;cover&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;现如今，大多数拥有电脑的人都正在使用 Windows 系统。下面，博主将推荐以下几款个人认为值得安利的电脑软件。&lt;/p&gt;
 &lt;p&gt;如果以下提到的软件你都曾经使用过或者不感兴趣，那么请去阅读上期的软件安利。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;/2024/05/软件安利-推荐几款在-Microsoft-Store-上的软件&#39; title=&#39;软件安利：安利几款在 Microsoft Store 上的软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 软件安利：安利几款在 Microsoft Store 上的软件&lt;/a&gt; 
 
 
-&lt;h1 id=&#34;1、Everything-文件搜索工具&#34;&gt;&lt;a href=&#34;#1、Everything-文件搜索工具&#34; class=&#34;headerlink&#34; title=&#34;1、Everything (文件搜索工具)&#34;&gt;&lt;/a&gt;1、Everything (文件搜索工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/everything.jpg&#34; alt=&#34;everything&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;1、Everything-文件搜索工具&#34;&gt;&lt;a href=&#34;#1、Everything-文件搜索工具&#34; class=&#34;headerlink&#34; title=&#34;1、Everything (文件搜索工具)&#34;&gt;&lt;/a&gt;1、Everything (文件搜索工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/everything.jpg&#34;
+                      alt=&#34;everything&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;这是一款非常强大的文件搜索工具，它不仅可以快速搜索具体的文件，还能搜索文件中的关键字。它支持多种文件格式，包括图片、音频、视频、压缩包等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.voidtools.com/&#34; &gt;https://www.voidtools.com/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;2、Bandizip-压缩工具&#34;&gt;&lt;a href=&#34;#2、Bandizip-压缩工具&#34; class=&#34;headerlink&#34; title=&#34;2、Bandizip (压缩工具)&#34;&gt;&lt;/a&gt;2、Bandizip (压缩工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/bandizip.jpg&#34; alt=&#34;bandizip&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2、Bandizip-压缩工具&#34;&gt;&lt;a href=&#34;#2、Bandizip-压缩工具&#34; class=&#34;headerlink&#34; title=&#34;2、Bandizip (压缩工具)&#34;&gt;&lt;/a&gt;2、Bandizip (压缩工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/bandizip.jpg&#34;
+                      alt=&#34;bandizip&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;Bandizip 是一款非常好用的压缩工具，它支持多种压缩格式，包括 ZIP、RAR、7z、BZIP2、TAR 等压缩格式。对比 Windows 自带的压缩工具，Bandizip 的功能更加强大，而且界面简洁。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.bandisoft.com/bandizip/&#34; &gt;https://www.bandisoft.com/bandizip/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;3、Free-Download-Manager-下载管理器&#34;&gt;&lt;a href=&#34;#3、Free-Download-Manager-下载管理器&#34; class=&#34;headerlink&#34; title=&#34;3、Free Download Manager (下载管理器)&#34;&gt;&lt;/a&gt;3、Free Download Manager (下载管理器)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/fdm.jpg&#34; alt=&#34;freedownloadmanager&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;3、Free-Download-Manager-下载管理器&#34;&gt;&lt;a href=&#34;#3、Free-Download-Manager-下载管理器&#34; class=&#34;headerlink&#34; title=&#34;3、Free Download Manager (下载管理器)&#34;&gt;&lt;/a&gt;3、Free Download Manager (下载管理器)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/fdm.jpg&#34;
+                      alt=&#34;freedownloadmanager&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;如果你曾经使用过迅雷、IDM 等下载管理器，那么建议去试试 Free Download Manager。它是一款开源免费的下载管理器，功能强大，界面简洁。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.freedownloadmanager.org/&#34; &gt;https://www.freedownloadmanager.org/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;4、Motrix-下载加速器&#34;&gt;&lt;a href=&#34;#4、Motrix-下载加速器&#34; class=&#34;headerlink&#34; title=&#34;4、Motrix (下载加速器)&#34;&gt;&lt;/a&gt;4、Motrix (下载加速器)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/motrix.jpg&#34; alt=&#34;motrix&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;4、Motrix-下载加速器&#34;&gt;&lt;a href=&#34;#4、Motrix-下载加速器&#34; class=&#34;headerlink&#34; title=&#34;4、Motrix (下载加速器)&#34;&gt;&lt;/a&gt;4、Motrix (下载加速器)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/motrix.jpg&#34;
+                      alt=&#34;motrix&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;同样地，如果你对 Free Download Manager 存在不满，那么可以试试 Motrix。它是一款开源免费的下载加速器，功能强大，界面简洁。同时还支持安装浏览器扩展，安装之后，仅需点击对应的下载链接并使用 Motrix 下载，就可以自动识别并下载。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://motrix.app/download&#34; &gt;https://motrix.app/download&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;5、图吧工具箱（硬件检测工具合集）&#34;&gt;&lt;a href=&#34;#5、图吧工具箱（硬件检测工具合集）&#34; class=&#34;headerlink&#34; title=&#34;5、图吧工具箱（硬件检测工具合集）&#34;&gt;&lt;/a&gt;5、图吧工具箱（硬件检测工具合集）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/tbtool.jpg&#34; alt=&#34;tbtool&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;5、图吧工具箱（硬件检测工具合集）&#34;&gt;&lt;a href=&#34;#5、图吧工具箱（硬件检测工具合集）&#34; class=&#34;headerlink&#34; title=&#34;5、图吧工具箱（硬件检测工具合集）&#34;&gt;&lt;/a&gt;5、图吧工具箱（硬件检测工具合集）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/tbtool.jpg&#34;
+                      alt=&#34;tbtool&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;图吧工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为所有计算机硬件极客、DIY爱好者、各路大神及小白制作。集成大量常见硬件检测、评分工具，一键下载、方便使用。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.tbtool.cn/&#34; &gt;https://www.tbtool.cn/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;6、uTools（新一代效率工具平台）&#34;&gt;&lt;a href=&#34;#6、uTools（新一代效率工具平台）&#34; class=&#34;headerlink&#34; title=&#34;6、uTools（新一代效率工具平台）&#34;&gt;&lt;/a&gt;6、uTools（新一代效率工具平台）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/utools.jpg&#34; alt=&#34;utools&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;6、uTools（新一代效率工具平台）&#34;&gt;&lt;a href=&#34;#6、uTools（新一代效率工具平台）&#34; class=&#34;headerlink&#34; title=&#34;6、uTools（新一代效率工具平台）&#34;&gt;&lt;/a&gt;6、uTools（新一代效率工具平台）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/utools.jpg&#34;
+                      alt=&#34;utools&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;一款非常强大的效率工具软件，它不仅支持搜索本机中的应用、使用不同的搜索引擎搜索关键词，还支持通过下载各种所需插件，实现各种功能。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://u.tools/download/&#34; &gt;https://u.tools/download/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;7、ToDesk（远程控制软件）&#34;&gt;&lt;a href=&#34;#7、ToDesk（远程控制软件）&#34; class=&#34;headerlink&#34; title=&#34;7、ToDesk（远程控制软件）&#34;&gt;&lt;/a&gt;7、ToDesk（远程控制软件）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/todesk.jpg&#34; alt=&#34;todesk&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;7、ToDesk（远程控制软件）&#34;&gt;&lt;a href=&#34;#7、ToDesk（远程控制软件）&#34; class=&#34;headerlink&#34; title=&#34;7、ToDesk（远程控制软件）&#34;&gt;&lt;/a&gt;7、ToDesk（远程控制软件）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/todesk.jpg&#34;
+                      alt=&#34;todesk&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;ToDesk 是一款远程控制软件，它可以让你通过网络远程控制你的电脑，可以实现各种控制功能，包括键盘鼠标、屏幕、音频、摄像头、文件传输等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://www.todesk.com/download/&#34; &gt;https://www.todesk.com/download/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;8、bitDock-极简工具栏&#34;&gt;&lt;a href=&#34;#8、bitDock-极简工具栏&#34; class=&#34;headerlink&#34; title=&#34;8、bitDock (极简工具栏)&#34;&gt;&lt;/a&gt;8、bitDock (极简工具栏)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/bitdock.png&#34; alt=&#34;bitdock&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;8、bitDock-极简工具栏&#34;&gt;&lt;a href=&#34;#8、bitDock-极简工具栏&#34; class=&#34;headerlink&#34; title=&#34;8、bitDock (极简工具栏)&#34;&gt;&lt;/a&gt;8、bitDock (极简工具栏)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/bitdock.png&#34;
+                      alt=&#34;bitdock&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;bitDock 是一款极简工具栏，它不仅可以通过鼠标拖拽的方式自定义添加你最常用的应用程序或文件夹，还拥有天气预报、搜索、截图、取色、日历时钟、天气等超过20款桌面插件，更容易美化自己的桌面。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://bitdock.com/download/&#34; &gt;https://bitdock.com/download/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;9、StartIsBack-经典开始菜单与任务栏&#34;&gt;&lt;a href=&#34;#9、StartIsBack-经典开始菜单与任务栏&#34; class=&#34;headerlink&#34; title=&#34;9、StartIsBack (经典开始菜单与任务栏)&#34;&gt;&lt;/a&gt;9、StartIsBack (经典开始菜单与任务栏)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/startisback.jpg&#34; alt=&#34;startisback&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;9、StartIsBack-经典开始菜单与任务栏&#34;&gt;&lt;a href=&#34;#9、StartIsBack-经典开始菜单与任务栏&#34; class=&#34;headerlink&#34; title=&#34;9、StartIsBack (经典开始菜单与任务栏)&#34;&gt;&lt;/a&gt;9、StartIsBack (经典开始菜单与任务栏)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/startisback.jpg&#34;
+                      alt=&#34;startisback&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;StartIsBack 是一款专为win8、win10、win11 用户设计的实用优化工具。startisback主要用来优化用户电脑开始菜单，使用户能快速找到自己最熟悉的按钮，并可以在各种电脑模式下自由切换，大大提高 Windows 用户事务处理效率。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://startisback.com/&#34; &gt;https://startisback.com/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;10、Geek-Uninstaller-软件卸载工具&#34;&gt;&lt;a href=&#34;#10、Geek-Uninstaller-软件卸载工具&#34; class=&#34;headerlink&#34; title=&#34;10、Geek Uninstaller (软件卸载工具)&#34;&gt;&lt;/a&gt;10、Geek Uninstaller (软件卸载工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/geek.jpg&#34; alt=&#34;geek&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;10、Geek-Uninstaller-软件卸载工具&#34;&gt;&lt;a href=&#34;#10、Geek-Uninstaller-软件卸载工具&#34; class=&#34;headerlink&#34; title=&#34;10、Geek Uninstaller (软件卸载工具)&#34;&gt;&lt;/a&gt;10、Geek Uninstaller (软件卸载工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/geek.jpg&#34;
+                      alt=&#34;geek&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;geek 即“极客”的意思，这是一款无比强大的卸载软件，它界面简单不复杂，体积小巧，无需安装，点开即可使用。geek就和它的名字一样，卸载任何软件都干脆利落，不管你是大佬还是流氓，统统一键卸载搞定，并且卸载完还会自动删除相应的注册表文件，不会拖泥带水。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://geekuninstaller.com/download&#34; &gt;https://geekuninstaller.com/download&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;11、CleanMyPC-系统清理工具&#34;&gt;&lt;a href=&#34;#11、CleanMyPC-系统清理工具&#34; class=&#34;headerlink&#34; title=&#34;11、CleanMyPC (系统清理工具)&#34;&gt;&lt;/a&gt;11、CleanMyPC (系统清理工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/cleanmypc.jpg&#34; alt=&#34;cleanmypc&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;11、CleanMyPC-系统清理工具&#34;&gt;&lt;a href=&#34;#11、CleanMyPC-系统清理工具&#34; class=&#34;headerlink&#34; title=&#34;11、CleanMyPC (系统清理工具)&#34;&gt;&lt;/a&gt;11、CleanMyPC (系统清理工具)&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/cleanmypc.jpg&#34;
+                      alt=&#34;cleanmypc&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;CleanMyPC, 字面理解就是 “清理我的PC”，这是一款系统清理工具，界面简单，功能小巧，可以清理系统垃圾、卸载应用程序、修改启动项、清理浏览器隐私等。遇到删除不了的文件或文件夹，可以使用碎纸机来强制删除。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://macpaw.com/zh/download/cleanmypc&#34; &gt;https://macpaw.com/zh/download/cleanmypc&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;12、微软电脑管家（系统优化工具）&#34;&gt;&lt;a href=&#34;#12、微软电脑管家（系统优化工具）&#34; class=&#34;headerlink&#34; title=&#34;12、微软电脑管家（系统优化工具）&#34;&gt;&lt;/a&gt;12、微软电脑管家（系统优化工具）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0801/msconfig.jpg&#34; alt=&#34;msconfig&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;12、微软电脑管家（系统优化工具）&#34;&gt;&lt;a href=&#34;#12、微软电脑管家（系统优化工具）&#34; class=&#34;headerlink&#34; title=&#34;12、微软电脑管家（系统优化工具）&#34;&gt;&lt;/a&gt;12、微软电脑管家（系统优化工具）&lt;/h1&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0801/msconfig.jpg&#34;
+                      alt=&#34;msconfig&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;微软电脑管家，是微软推出的一款系统优化工具，它可以帮助用户优化电脑配置，包括硬件、系统、驱动、网络、安全、应用等方面。它可以帮助用户解决硬件兼容性问题、优化系统配置、提升系统性能、保护系统安全、管理应用、优化电脑使用体验等。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a class=&#34;link&#34;   href=&#34;https://pcmanager.microsoft.com/zh-cn&#34; &gt;https://pcmanager.microsoft.com/zh-cn&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
-        <category term="新手向" />
         <updated>2024-08-01T07:41:00.000Z</updated>
     </entry>
     <entry>
@@ -120,7 +185,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/banner.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/banner.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -144,7 +214,12 @@
   &lt;/div&gt;
 
 &lt;p&gt;接着，在选择文件夹时，&lt;strong&gt;请一定要新建一个空的文件夹&lt;/strong&gt;，否则无法拉取 Github 仓库项目。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;最后，请耐心等待加载，一般需要几分钟才能完成克隆。&lt;/p&gt;
 &lt;h2 id=&#34;写博客&#34;&gt;&lt;a href=&#34;#写博客&#34; class=&#34;headerlink&#34; title=&#34;写博客&#34;&gt;&lt;/a&gt;写博客&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1. 定位你的博客文章目录&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 &lt;code&gt;source&lt;/code&gt; → &lt;code&gt;_posts&lt;/code&gt; 文件夹，在此目录下，你将看到你之前所写的所有博客文章。&lt;/p&gt;
@@ -153,7 +228,12 @@
 &lt;p&gt;或者直接在终端下执行如下命令：&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;文章标题&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. 尽情写作吧！&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;好用的脚本文件&#34;&gt;&lt;a href=&#34;#好用的脚本文件&#34; class=&#34;headerlink&#34; title=&#34;好用的脚本文件&#34;&gt;&lt;/a&gt;好用的脚本文件&lt;/h2&gt;&lt;p&gt;为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 &lt;code&gt;.scripts&lt;/code&gt; 文件夹下添加 Shell 脚本，以便减少不必要的操作。&lt;/p&gt;
 &lt;ul&gt;
@@ -179,8 +259,18 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;常见问题&#34;&gt;&lt;a href=&#34;#常见问题&#34; class=&#34;headerlink&#34; title=&#34;常见问题&#34;&gt;&lt;/a&gt;常见问题&lt;/h1&gt;&lt;div class=&#34;tabs&#34; id=&#34;tab-question_answer&#34;&gt;&lt;ul class=&#34;nav-tabs&#34;&gt;&lt;li class=&#34;tab active&#34;&gt;&lt;a class=&#34;#question_answer-1&#34;&gt;💡 常见问题一&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-2&#34;&gt;💡 常见问题二&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-3&#34;&gt;💡 常见问题三&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&#34;tab-content&#34;&gt;&lt;div class=&#34;tab-pane active&#34; id=&#34;question_answer-1&#34;&gt;&lt;p&gt;Q：为什么拉取项目后，打开自建的文件夹仍是空的？&lt;/p&gt;
 &lt;p&gt;A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/6.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/7.jpg&#34;&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0513/6.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0513/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
 &lt;p&gt;即使用【实时预览】时，直接出现 &lt;code&gt;The LivePreview is ended.&lt;/code&gt; 提示。&lt;/p&gt;
 &lt;p&gt;A：在解决此问题前，请先查看你的项目源目录下是否有 &lt;code&gt;node_modules&lt;/code&gt; 目录。一般情况下，当你备份博客存档时，&lt;code&gt;node_modules&lt;/code&gt; 目录往往不会被上传到 Github 仓库。&lt;/p&gt;
 &lt;p&gt;请直接从底部界面向上滑动，打开终端，并执行 &lt;code&gt;npm install&lt;/code&gt; 命令，等待安装依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-3&#34;&gt;&lt;p&gt;Q：执行 &lt;code&gt;npm install&lt;/code&gt; 命令时报错？&lt;/p&gt;
@@ -192,17 +282,22 @@
 &lt;p&gt;这里假设你的 Github 仓库名为 &lt;code&gt;blogBackup&lt;/code&gt;，&lt;strong&gt;注意替换自己的 Github 仓库地址。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 一次性执行脚本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 可直接克隆博客存档到本地项目中&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 用于解决无法安装 Hexo 依赖问题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BLOG_DIR=&lt;span class=&#34;variable&#34;&gt;$PWD&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; ~&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! -d ~/blogBackup ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在克隆……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://github.com/yourname/blogBackup.git &lt;span class=&#34;comment&#34;&gt;# 此处需替换为你的 Github 仓库地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在合并……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git pull&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 无法拉取仓库！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [  ! -d node_modules ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在安装依赖....&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 下载/安装依赖失败！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cp&lt;/span&gt; -r node_modules &lt;span class=&#34;variable&#34;&gt;$BLOG_DIR&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 注意：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 其中的第10行的git仓库地址替换为实际的仓库地址。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 若需要调试于终端之上，请执行：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# bash ./.scripts/install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;完成脚本执行后，执行 &lt;code&gt;npm list&lt;/code&gt; 查看是否包含 &lt;code&gt;hexo&lt;/code&gt; 依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
+        <category term="博客搭建" />
+        <category term="软件安利" />
         <category term="Git" />
         <category term="Github" />
-        <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
@@ -212,94 +307,204 @@
         <link rel="alternate" href="https://catisnotfound.github.io/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/"/>
         <content type="html">&lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;一、桌面美化类&#34;&gt;&lt;a href=&#34;#一、桌面美化类&#34; class=&#34;headerlink&#34; title=&#34;一、桌面美化类&#34;&gt;&lt;/a&gt;一、桌面美化类&lt;/h1&gt;&lt;h2 id=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;a href=&#34;#TranslucentTB（任务栏）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;/a&gt;TranslucentTB（任务栏）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/0.jpg&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/00.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;h1 id=&#34;一、桌面美化类&#34;&gt;&lt;a href=&#34;#一、桌面美化类&#34; class=&#34;headerlink&#34; title=&#34;一、桌面美化类&#34;&gt;&lt;/a&gt;一、桌面美化类&lt;/h1&gt;&lt;h2 id=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;a href=&#34;#TranslucentTB（任务栏）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;TranslucentTB（任务栏）👍👍👍&#34;&gt;&lt;/a&gt;TranslucentTB（任务栏）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/0.jpg&#34;
+                     
+                &gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/00.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&amp;rtc=1&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 
 
 &lt;p&gt;一款轻量级的软件，几乎属于必装软件。可对任务栏透明、亚克力等视觉效果👍👍👍&lt;/p&gt;
-&lt;h2 id=&#34;Auto-Dark-Mode（自动调整暗色模式）👍👍👍&#34;&gt;&lt;a href=&#34;#Auto-Dark-Mode（自动调整暗色模式）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;Auto Dark Mode（自动调整暗色模式）👍👍👍&#34;&gt;&lt;/a&gt;Auto Dark Mode（自动调整暗色模式）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&amp;format=source&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Auto-Dark-Mode（自动调整暗色模式）👍👍👍&#34;&gt;&lt;a href=&#34;#Auto-Dark-Mode（自动调整暗色模式）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;Auto Dark Mode（自动调整暗色模式）👍👍👍&#34;&gt;&lt;/a&gt;Auto Dark Mode（自动调整暗色模式）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&amp;format=source&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/xp8jk4hzbvf435?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款非常值得使用的软件，通过指定的时间切换对应的亮色&amp;#x2F;暗色模式。👍👍👍&lt;/p&gt;
-&lt;h2 id=&#34;Lively-Wallpaper（动态壁纸）&#34;&gt;&lt;a href=&#34;#Lively-Wallpaper（动态壁纸）&#34; class=&#34;headerlink&#34; title=&#34;Lively Wallpaper（动态壁纸）&#34;&gt;&lt;/a&gt;Lively Wallpaper（动态壁纸）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.38919.14416131676512756.6ed76f61-1d00-444e-8c7c-640e40e40e3d.3bf574c6-f408-40da-9060-0377b05d257c&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Lively-Wallpaper（动态壁纸）&#34;&gt;&lt;a href=&#34;#Lively-Wallpaper（动态壁纸）&#34; class=&#34;headerlink&#34; title=&#34;Lively Wallpaper（动态壁纸）&#34;&gt;&lt;/a&gt;Lively Wallpaper（动态壁纸）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.38919.14416131676512756.6ed76f61-1d00-444e-8c7c-640e40e40e3d.3bf574c6-f408-40da-9060-0377b05d257c&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9ntm2qc6qws7?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;免费的开源应用程序，用于将 GIF、视频和网页设置桌面壁纸。但自带提供的资源不够多&lt;/p&gt;
-&lt;h2 id=&#34;巨应动态壁纸&#34;&gt;&lt;a href=&#34;#巨应动态壁纸&#34; class=&#34;headerlink&#34; title=&#34;巨应动态壁纸&#34;&gt;&lt;/a&gt;巨应动态壁纸&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.20026.13793298936975350.10fb033b-b789-4d87-bfa8-965afde0d284.da708f65-8dac-477a-bdcb-59ee1358157a&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;巨应动态壁纸&#34;&gt;&lt;a href=&#34;#巨应动态壁纸&#34; class=&#34;headerlink&#34; title=&#34;巨应动态壁纸&#34;&gt;&lt;/a&gt;巨应动态壁纸&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.20026.13793298936975350.10fb033b-b789-4d87-bfa8-965afde0d284.da708f65-8dac-477a-bdcb-59ee1358157a&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9mv8gk87mz05?rtc=1&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;由巨应君出品的动态壁纸软件，简单易用，所以壁纸资源均为用户上传，比前者资源更加丰富。&lt;/p&gt;
-&lt;h2 id=&#34;WinDynamicDesktop-（自动切换壁纸）👍👍&#34;&gt;&lt;a href=&#34;#WinDynamicDesktop-（自动切换壁纸）👍👍&#34; class=&#34;headerlink&#34; title=&#34;WinDynamicDesktop （自动切换壁纸）👍👍&#34;&gt;&lt;/a&gt;WinDynamicDesktop （自动切换壁纸）👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.47353.13691964960975352.ebdd26a5-1288-4929-b507-92856eba093a.dce52c89-0296-4895-b862-7ef90e1d9bac&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;WinDynamicDesktop-（自动切换壁纸）👍👍&#34;&gt;&lt;a href=&#34;#WinDynamicDesktop-（自动切换壁纸）👍👍&#34; class=&#34;headerlink&#34; title=&#34;WinDynamicDesktop （自动切换壁纸）👍👍&#34;&gt;&lt;/a&gt;WinDynamicDesktop （自动切换壁纸）👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.47353.13691964960975352.ebdd26a5-1288-4929-b507-92856eba093a.dce52c89-0296-4895-b862-7ef90e1d9bac&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9nm8n7dq3z5f?activetab=pivot%3Aoverviewtab&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款根据时间来自动切换壁纸的软件，与 MacOS 中的动态壁纸功能类似。默认提供 MacOS 壁纸，也可直接从网络上下载并导入壁纸。&lt;/p&gt;
-&lt;h2 id=&#34;Sucrose-Wallpaper-Engine（动态壁纸引擎）&#34;&gt;&lt;a href=&#34;#Sucrose-Wallpaper-Engine（动态壁纸引擎）&#34; class=&#34;headerlink&#34; title=&#34;Sucrose Wallpaper Engine（动态壁纸引擎）&#34;&gt;&lt;/a&gt;Sucrose Wallpaper Engine（动态壁纸引擎）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxgsJrvE99hQLXyECGkXk1ArGSmJ9VYqZaSddBVWke49Uw0s2OB.Z.LllE5x.JOg8UU7odjgeuSs9sxjQ2HHs0oM-&amp;format=source&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Sucrose-Wallpaper-Engine（动态壁纸引擎）&#34;&gt;&lt;a href=&#34;#Sucrose-Wallpaper-Engine（动态壁纸引擎）&#34; class=&#34;headerlink&#34; title=&#34;Sucrose Wallpaper Engine（动态壁纸引擎）&#34;&gt;&lt;/a&gt;Sucrose Wallpaper Engine（动态壁纸引擎）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxgsJrvE99hQLXyECGkXk1ArGSmJ9VYqZaSddBVWke49Uw0s2OB.Z.LllE5x.JOg8UU7odjgeuSs9sxjQ2HHs0oM-&amp;format=source&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/xp8jgpbhtjglcq?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;Sucrose Wallpaper Engine是一款多功能的壁纸引擎，提供广泛的交互式主题，可为您的桌面带来活力。您可以根据个人喜好选择轻盈或暗黑主题。您可以简单或详细地创建自己的壁纸，并支持多屏幕和各种屏幕分辨率，以实现无缝体验。&lt;/p&gt;
-&lt;h2 id=&#34;backiee-壁纸工作室10&#34;&gt;&lt;a href=&#34;#backiee-壁纸工作室10&#34; class=&#34;headerlink&#34; title=&#34;backiee - 壁纸工作室10&#34;&gt;&lt;/a&gt;backiee - 壁纸工作室10&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;backiee-壁纸工作室10&#34;&gt;&lt;a href=&#34;#backiee-壁纸工作室10&#34; class=&#34;headerlink&#34; title=&#34;backiee - 壁纸工作室10&#34;&gt;&lt;/a&gt;backiee - 壁纸工作室10&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9wzdncrfhzcd?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;探索超高分辨率壁纸，4K 到 8K 图像应有尽有。若不在意频繁出现的广告，这款静态壁纸软件值得入手！&lt;/p&gt;
-&lt;h2 id=&#34;桌面组件&#34;&gt;&lt;a href=&#34;#桌面组件&#34; class=&#34;headerlink&#34; title=&#34;桌面组件&#34;&gt;&lt;/a&gt;桌面组件&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.203.13783862513978754.e48e7830-cb9f-44f1-850a-3cf107117cbf.88ff213d-319c-42b9-87d9-8e1634cadd17?h=307&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;桌面组件&#34;&gt;&lt;a href=&#34;#桌面组件&#34; class=&#34;headerlink&#34; title=&#34;桌面组件&#34;&gt;&lt;/a&gt;桌面组件&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.203.13783862513978754.e48e7830-cb9f-44f1-850a-3cf107117cbf.88ff213d-319c-42b9-87d9-8e1634cadd17?h=307&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9npr50gq7t53?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款功能强大，符合人体工程学的桌面组件系统。&lt;/p&gt;
-&lt;h1 id=&#34;二、实用工具类&#34;&gt;&lt;a href=&#34;#二、实用工具类&#34; class=&#34;headerlink&#34; title=&#34;二、实用工具类&#34;&gt;&lt;/a&gt;二、实用工具类&lt;/h1&gt;&lt;h2 id=&#34;Snipaste-截图-贴图👍👍👍&#34;&gt;&lt;a href=&#34;#Snipaste-截图-贴图👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;Snipaste 截图+贴图👍👍👍&#34;&gt;&lt;/a&gt;Snipaste 截图+贴图👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.52183.14503356220976813.c71d2a10-0aa3-486c-9563-2c363aaaab5e.88eb25a1-8c0b-4f52-be14-837fbf6e693b&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;二、实用工具类&#34;&gt;&lt;a href=&#34;#二、实用工具类&#34; class=&#34;headerlink&#34; title=&#34;二、实用工具类&#34;&gt;&lt;/a&gt;二、实用工具类&lt;/h1&gt;&lt;h2 id=&#34;Snipaste-截图-贴图👍👍👍&#34;&gt;&lt;a href=&#34;#Snipaste-截图-贴图👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;Snipaste 截图+贴图👍👍👍&#34;&gt;&lt;/a&gt;Snipaste 截图+贴图👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.52183.14503356220976813.c71d2a10-0aa3-486c-9563-2c363aaaab5e.88eb25a1-8c0b-4f52-be14-837fbf6e693b&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9p1wxpkb68kx?rtc=1&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款比自带 Windows 截图功能还要强大的截图软件。&lt;/p&gt;
-&lt;h2 id=&#34;EarTrumpet-（音量合成器）👍👍👍&#34;&gt;&lt;a href=&#34;#EarTrumpet-（音量合成器）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;EarTrumpet （音量合成器）👍👍👍&#34;&gt;&lt;/a&gt;EarTrumpet （音量合成器）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.32184.13510798887629242.2534466d-5a17-4046-b21f-d818fb1bb888.d3e8f732-d5f3-48a1-87ae-77348809ef01&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;EarTrumpet-（音量合成器）👍👍👍&#34;&gt;&lt;a href=&#34;#EarTrumpet-（音量合成器）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;EarTrumpet （音量合成器）👍👍👍&#34;&gt;&lt;/a&gt;EarTrumpet （音量合成器）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.32184.13510798887629242.2534466d-5a17-4046-b21f-d818fb1bb888.d3e8f732-d5f3-48a1-87ae-77348809ef01&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9nblggh516xp?activetab=pivot%3Aoverviewtab&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款功能非常强大的音量控制软件，可完全替代自带的旧版功能。&lt;/p&gt;
-&lt;h2 id=&#34;QuickLook-（快速预览）👍👍👍&#34;&gt;&lt;a href=&#34;#QuickLook-（快速预览）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;QuickLook （快速预览）👍👍👍&#34;&gt;&lt;/a&gt;QuickLook （快速预览）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.24917.14405803611253731.3006f567-a4f6-43d6-95fb-9033fa42fa41.f44af418-f702-4c8f-9bd8-6481698d8260?h=307&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;QuickLook-（快速预览）👍👍👍&#34;&gt;&lt;a href=&#34;#QuickLook-（快速预览）👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;QuickLook （快速预览）👍👍👍&#34;&gt;&lt;/a&gt;QuickLook （快速预览）👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.24917.14405803611253731.3006f567-a4f6-43d6-95fb-9033fa42fa41.f44af418-f702-4c8f-9bd8-6481698d8260?h=307&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9nv4bs3l1h4s?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;通过按下空格键实现快速预览文件内容，与 Mac OS 类似的功能。&lt;/p&gt;
-&lt;h2 id=&#34;取色器&#34;&gt;&lt;a href=&#34;#取色器&#34; class=&#34;headerlink&#34; title=&#34;取色器&#34;&gt;&lt;/a&gt;取色器&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.28518.13874519524713515.e81c53d8-5dc9-4aa9-81be-5370864aac85.42a23282-72c9-472b-8213-e823ff2a7dc2?h=307&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;取色器&#34;&gt;&lt;a href=&#34;#取色器&#34; class=&#34;headerlink&#34; title=&#34;取色器&#34;&gt;&lt;/a&gt;取色器&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.28518.13874519524713515.e81c53d8-5dc9-4aa9-81be-5370864aac85.42a23282-72c9-472b-8213-e823ff2a7dc2?h=307&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9mzhgfqsrfhg?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款体积小的实用工具，可通过鼠标选取屏幕中像素的颜色。&lt;/p&gt;
-&lt;h2 id=&#34;OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）&#34;&gt;&lt;a href=&#34;#OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）&#34; class=&#34;headerlink&#34; title=&#34;OP Auto Clicker - Auto Tap （鼠标自动连点器）&#34;&gt;&lt;/a&gt;OP Auto Clicker - Auto Tap （鼠标自动连点器）&lt;/h2&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.36769.14022871430809239.289e742c-4a63-488b-8496-9eafa59010ed.42c74928-eede-4388-84b0-e0e52a90564b&#34; alt=&#34;Microsoft Store&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;
+&lt;h2 id=&#34;OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）&#34;&gt;&lt;a href=&#34;#OP-Auto-Clicker-Auto-Tap-（鼠标自动连点器）&#34; class=&#34;headerlink&#34; title=&#34;OP Auto Clicker - Auto Tap （鼠标自动连点器）&#34;&gt;&lt;/a&gt;OP Auto Clicker - Auto Tap （鼠标自动连点器）&lt;/h2&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.36769.14022871430809239.289e742c-4a63-488b-8496-9eafa59010ed.42c74928-eede-4388-84b0-e0e52a90564b&#34;
+                      alt=&#34;Microsoft Store&#34; width=&#34;300&#34; height=&#34;300&#34;
+                &gt;
 
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9n621dm2lvhq?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款非常简单的鼠标自动连点器，通过按下 &lt;kbd&gt;F6&lt;/kbd&gt; 键以开始&amp;#x2F;结束连点。&lt;/p&gt;
-&lt;h2 id=&#34;Watt-Toolkit-（原-Steam-）&#34;&gt;&lt;a href=&#34;#Watt-Toolkit-（原-Steam-）&#34; class=&#34;headerlink&#34; title=&#34;Watt Toolkit （原 Steam++）&#34;&gt;&lt;/a&gt;Watt Toolkit （原 Steam++）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.36037.13810726275500961.77b6bcf3-2a5a-49a2-bcb2-f0dbcd3eb149.21194914-d668-4a27-89ac-5165adc054d5&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Watt-Toolkit-（原-Steam-）&#34;&gt;&lt;a href=&#34;#Watt-Toolkit-（原-Steam-）&#34; class=&#34;headerlink&#34; title=&#34;Watt Toolkit （原 Steam++）&#34;&gt;&lt;/a&gt;Watt Toolkit （原 Steam++）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.36037.13810726275500961.77b6bcf3-2a5a-49a2-bcb2-f0dbcd3eb149.21194914-d668-4a27-89ac-5165adc054d5&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9mtcfhs560ng?cid=msft_web_appsforwindows_chart&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款加速软件，支持 Steam、Github、Origin、Uplay、Spotify 等。目前除了部分库存游戏需要付费才能加速以外其它均免费。&lt;/p&gt;
-&lt;h2 id=&#34;AnLink-安联&#34;&gt;&lt;a href=&#34;#AnLink-安联&#34; class=&#34;headerlink&#34; title=&#34;AnLink 安联&#34;&gt;&lt;/a&gt;AnLink 安联&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.60495.13732987357972043.471d409a-fc09-491b-bc4d-284ddefa32c9.5ae47afa-2f8f-43a6-b04e-cc13d5a09453&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;AnLink-安联&#34;&gt;&lt;a href=&#34;#AnLink-安联&#34; class=&#34;headerlink&#34; title=&#34;AnLink 安联&#34;&gt;&lt;/a&gt;AnLink 安联&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.60495.13732987357972043.471d409a-fc09-491b-bc4d-284ddefa32c9.5ae47afa-2f8f-43a6-b04e-cc13d5a09453&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9np036014jtg?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款支持使用 Android 手机连接到电脑的软件，免费无广告且非常实用，可安全便捷的在电脑上操作手机，支持使用 Wifi、USB连接。&lt;/p&gt;
-&lt;h2 id=&#34;Record-Screen（免费录制屏幕）&#34;&gt;&lt;a href=&#34;#Record-Screen（免费录制屏幕）&#34; class=&#34;headerlink&#34; title=&#34;Record Screen（免费录制屏幕）&#34;&gt;&lt;/a&gt;Record Screen（免费录制屏幕）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.51561.14475286183431872.6e7283f6-df1b-481d-917a-85c0700f71e1.82811191-10f6-4fec-8db3-e8281ced72f2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Record-Screen（免费录制屏幕）&#34;&gt;&lt;a href=&#34;#Record-Screen（免费录制屏幕）&#34; class=&#34;headerlink&#34; title=&#34;Record Screen（免费录制屏幕）&#34;&gt;&lt;/a&gt;Record Screen（免费录制屏幕）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.51561.14475286183431872.6e7283f6-df1b-481d-917a-85c0700f71e1.82811191-10f6-4fec-8db3-e8281ced72f2&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9nzjndtlvkr1?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一个简单好用的录制软件，选择单个窗口或整个屏幕以进行录制，支持输出麦克风与电脑声音，并且录制后可以制作简单的剪辑。&lt;/p&gt;
-&lt;h1 id=&#34;三、文本编辑类&#34;&gt;&lt;a href=&#34;#三、文本编辑类&#34; class=&#34;headerlink&#34; title=&#34;三、文本编辑类&#34;&gt;&lt;/a&gt;三、文本编辑类&lt;/h1&gt;&lt;h2 id=&#34;SiYuan（思源笔记）&#34;&gt;&lt;a href=&#34;#SiYuan（思源笔记）&#34; class=&#34;headerlink&#34; title=&#34;SiYuan（思源笔记）&#34;&gt;&lt;/a&gt;SiYuan（思源笔记）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.51519.14604083850023553.a6b78602-3991-40fc-92ca-635e30a12e6d.55fe85e9-39a0-46f3-a499-f959f48fdb56&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;三、文本编辑类&#34;&gt;&lt;a href=&#34;#三、文本编辑类&#34; class=&#34;headerlink&#34; title=&#34;三、文本编辑类&#34;&gt;&lt;/a&gt;三、文本编辑类&lt;/h1&gt;&lt;h2 id=&#34;SiYuan（思源笔记）&#34;&gt;&lt;a href=&#34;#SiYuan（思源笔记）&#34; class=&#34;headerlink&#34; title=&#34;SiYuan（思源笔记）&#34;&gt;&lt;/a&gt;SiYuan（思源笔记）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.51519.14604083850023553.a6b78602-3991-40fc-92ca-635e30a12e6d.55fe85e9-39a0-46f3-a499-f959f48fdb56&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9p7hpmxp73k4?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款隐私优先的个人知识管理系统，支持完全离线使用，同时也支持端到端加密同步。&lt;/p&gt;
-&lt;h2 id=&#34;Notepads-App（记事本）&#34;&gt;&lt;a href=&#34;#Notepads-App（记事本）&#34; class=&#34;headerlink&#34; title=&#34;Notepads App（记事本）&#34;&gt;&lt;/a&gt;Notepads App（记事本）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.30725.13628411695448126.ee0d4432-102e-40c0-a23c-510a46b12c35.3736f54b-cb73-4dfb-aecc-81baa5e20a48&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Notepads-App（记事本）&#34;&gt;&lt;a href=&#34;#Notepads-App（记事本）&#34; class=&#34;headerlink&#34; title=&#34;Notepads App（记事本）&#34;&gt;&lt;/a&gt;Notepads App（记事本）&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.30725.13628411695448126.ee0d4432-102e-40c0-a23c-510a46b12c35.3736f54b-cb73-4dfb-aecc-81baa5e20a48&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9nhl4nsc67wm?rtc=1&amp;hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款极具现代感，轻便简介的文本编辑器，适合替代自带记事本的软件。&lt;/p&gt;
-&lt;h2 id=&#34;桌面记事本👍👍👍&#34;&gt;&lt;a href=&#34;#桌面记事本👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;桌面记事本👍👍👍&#34;&gt;&lt;/a&gt;桌面记事本👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.707.14633965969460790.b0e27bde-c02b-4340-8b49-a6cf379c291c.56cc83d0-d80f-496c-9097-77d4cf9eb30a&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;桌面记事本👍👍👍&#34;&gt;&lt;a href=&#34;#桌面记事本👍👍👍&#34; class=&#34;headerlink&#34; title=&#34;桌面记事本👍👍👍&#34;&gt;&lt;/a&gt;桌面记事本👍👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.707.14633965969460790.b0e27bde-c02b-4340-8b49-a6cf379c291c.56cc83d0-d80f-496c-9097-77d4cf9eb30a&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9p5rdm9t8cr3?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;一款简洁且方便的桌面记事本，&lt;strong&gt;推荐将此软件固定到任务栏中以实现随时编辑&lt;/strong&gt;。支持自动保存文本、语音识别、语音朗读、文本翻译、云文件上传下载同步等功能。支持预览 TXT、RTF、Markdown 等格式的文本。&lt;/p&gt;
-&lt;h2 id=&#34;Typedown-（Markdown-编辑器）👍👍&#34;&gt;&lt;a href=&#34;#Typedown-（Markdown-编辑器）👍👍&#34; class=&#34;headerlink&#34; title=&#34;Typedown （Markdown 编辑器）👍👍&#34;&gt;&lt;/a&gt;Typedown （Markdown 编辑器）👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://store-images.s-microsoft.com/image/apps.50023.14085711452561131.8a83a482-2459-4160-8545-ae595b2298f8.c6b1fd0d-c400-4a4c-ad69-003ef694d413&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Typedown-（Markdown-编辑器）👍👍&#34;&gt;&lt;a href=&#34;#Typedown-（Markdown-编辑器）👍👍&#34; class=&#34;headerlink&#34; title=&#34;Typedown （Markdown 编辑器）👍👍&#34;&gt;&lt;/a&gt;Typedown （Markdown 编辑器）👍👍&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://store-images.s-microsoft.com/image/apps.50023.14085711452561131.8a83a482-2459-4160-8545-ae595b2298f8.c6b1fd0d-c400-4a4c-ad69-003ef694d413&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9p8tcw4h2hb4?hl=zh-cn&amp;gl=CN&#39; title=&#39;点击这里下载软件&#39;&gt;&lt;i class=&#39;fas fa-link&#39;&gt;&lt;/i&gt; 点击这里下载软件&lt;/a&gt;
 
 &lt;p&gt;使用 Windows 11 UI 而设计的轻量级 Markdown 编辑器。实现所见即所得。支持 LaTex 公式编辑、Mermaid 流程图、多种编程语言代码高亮等。适合撰写技术文档、学术论文、博客文章。&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="软件安利" />
         <category term="Windows" />
-        <category term="新手向" />
         <updated>2024-05-25T16:30:20.000Z</updated>
     </entry>
 </feed>

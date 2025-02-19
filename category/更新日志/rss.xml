@@ -7,51 +7,51 @@
         <language>zh-CN</language>
         <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
         <lastBuildDate>Thu, 20 Jun 2024 12:31:43 +0800</lastBuildDate>
-        <category>更新日志</category>
-        <category>Git</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>桌面环境</category>
         <category>GNOME</category>
-        <category>Github</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>软件安利</category>
-        <category>Windows</category>
+        <category>桌面环境</category>
         <category>新手向</category>
-        <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>博客搭建</category>
+        <category>软件安利</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>💡解题</category>
+        <category>C_and_Cpp</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>答疑解惑</category>
+        <category>更新日志</category>
+        <category>Switch</category>
+        <category>Youtube</category>
+        <category>任天堂</category>
+        <category>油管</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>解题历程</category>
-        <category>💡解题</category>
-        <category>C_and_Cpp</category>
-        <category>Waline</category>
-        <category>答疑解惑</category>
-        <category>Switch</category>
-        <category>Nintendo</category>
-        <category>任天堂</category>
-        <category>游戏机</category>
-        <category>刷题</category>
+        <category>oh-my-zsh</category>
+        <category>WSL</category>
         <category>关于博客</category>
         <category>脚本</category>
-        <category>WSL</category>
-        <category>Youtube</category>
-        <category>油管</category>
-        <category>Jetbrain</category>
-        <category>CLion</category>
-        <category>oh-my-zsh</category>
+        <category>Nintendo</category>
+        <category>游戏机</category>
+        <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
-        <category>Codeforces</category>
+        <category>Jetbrain</category>
+        <category>CLion</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/06/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
             <title>[Ver 1.3] CatIsNotFound 更新日志</title>
             <link>https://catisnotfound.github.io/2024/06/Ver-1-3-CatIsNotFound-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
-            <category>更新日志</category>
             <category>Waline</category>
+            <category>更新日志</category>
             <pubDate>Thu, 20 Jun 2024 12:31:43 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large blue&#34;&gt;
@@ -61,13 +61,23 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0620/cover.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
 
 &lt;h1 id=&#34;新增内容&#34;&gt;&lt;a href=&#34;#新增内容&#34; class=&#34;headerlink&#34; title=&#34;新增内容&#34;&gt;&lt;/a&gt;新增内容&lt;/h1&gt;&lt;h2 id=&#34;博客-Logo&#34;&gt;&lt;a href=&#34;#博客-Logo&#34; class=&#34;headerlink&#34; title=&#34;博客 Logo&#34;&gt;&lt;/a&gt;博客 Logo&lt;/h2&gt;&lt;p&gt;在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/logo.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/logo.png&#34;
+                      alt=&#34;Logo&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;页面更新&#34;&gt;&lt;a href=&#34;#页面更新&#34; class=&#34;headerlink&#34; title=&#34;页面更新&#34;&gt;&lt;/a&gt;页面更新&lt;/h1&gt;&lt;p&gt;很显然，这次的博客站点更新了一些页面，下面将简要介绍：&lt;/p&gt;
 &lt;h2 id=&#34;首页&#34;&gt;&lt;a href=&#34;#首页&#34; class=&#34;headerlink&#34; title=&#34;首页&#34;&gt;&lt;/a&gt;首页&lt;/h2&gt;&lt;ul&gt;
@@ -76,14 +86,24 @@
 &lt;li&gt;&lt;p&gt;同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/1.jpg&#34; alt=&#34;首页2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0620/1.jpg&#34;
+                      alt=&#34;首页2&#34;
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;文章页面&#34;&gt;&lt;a href=&#34;#文章页面&#34; class=&#34;headerlink&#34; title=&#34;文章页面&#34;&gt;&lt;/a&gt;文章页面&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;文章页面底部新增 &lt;strong&gt;[表情反应]&lt;/strong&gt; 界面，你可以在对应文章的下方选择你的表情反应；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/2.jpg&#34; alt=&#34;表情反应&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0620/2.jpg&#34;
+                      alt=&#34;表情反应&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -137,17 +157,32 @@
 &lt;h1 id=&#34;页面新增&#34;&gt;&lt;a href=&#34;#页面新增&#34; class=&#34;headerlink&#34; title=&#34;页面新增&#34;&gt;&lt;/a&gt;页面新增&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;新增【状态】页面，展示针对当前所有博客的数据统计（包含如下：每日发布文章数量、每月发布文章数量、统计前 8 个文章数量最多的标签、文章类型分布图）。请直接点击下方按钮以直接跳转页面。 &lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;/status&#39; title=&#39;前往【状态】页面&#39;&gt;&lt;i class=&#39;fa-solid fa-pager&#39;&gt;&lt;/i&gt; 前往【状态】页面&lt;/a&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/status.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/status.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;新增【壁纸库】页面，展示了本博客站点首页封面曾经使用过的壁纸。壁纸可以直接下载到本地并作为电脑壁纸💻🧐 &lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;/masonry&#39; title=&#39;前往【壁纸库】页面&#39;&gt;&lt;i class=&#39;fa-solid fa-pager&#39;&gt;&lt;/i&gt; 前往【壁纸库】页面&lt;/a&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/wallpaper.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/wallpaper.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;杂项&#34;&gt;&lt;a href=&#34;#杂项&#34; class=&#34;headerlink&#34; title=&#34;杂项&#34;&gt;&lt;/a&gt;杂项&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;博主已对站点的评论系统进行了较大的优化，可以对当前的评论内容新增表情、动态表情等内容，增加用户体验。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/comment.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/comment.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;首页封面部分已作出改变：&lt;/p&gt;
 &lt;ul&gt;
@@ -158,7 +193,12 @@
 &lt;li&gt;&lt;p&gt;右下角链接处已进行修改&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/cover.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Redefine 主题已升级至 v2.6.2，具体更新内容，详见 Release 更新日志。&lt;a class=&#34;button  regular&#34; href=&#39;https://github.com/EvanNotFound/hexo-theme-redefine/releases&#39; title=&#39;前往 Release 页面&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; 前往 Release 页面&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -197,7 +237,17 @@
             <pubDate>Tue, 23 Apr 2024 18:54:46 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h2&gt;&lt;p&gt;这是本博客网站中第一个大版本，以后每次博客网站有更新时，都会向软件一样发布更新日志😀，以此来看看近年来更新博客的内容。之后会不断更新内容(*^_^*)&lt;/p&gt;
 &lt;h2 id=&#34;What’s-New&#34;&gt;&lt;a href=&#34;#What’s-New&#34; class=&#34;headerlink&#34; title=&#34;What’s New&#34;&gt;&lt;/a&gt;What’s New&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34; alt=&#34;暗色&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34; alt=&#34;亮色&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;使用 &lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/&#34; &gt;Hexo 7.1.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 与 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/EvanNotFound/hexo-theme-redefine&#34; &gt;RendeFine 2.6.1&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 框架搭建的个人博客，支持暗黑主题和亮色主题&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg&#34;
+                      alt=&#34;暗色&#34;
+                &gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg&#34;
+                      alt=&#34;亮色&#34;
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容&lt;/p&gt;
 &lt;ul&gt;
@@ -205,7 +255,12 @@
 &lt;li&gt;其中的【说说】会在此留下所有关于作者的一些话&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;支持在线播放音乐，目前已存放 11 首纯音乐，&lt;strong&gt;但需要手动才能开启&lt;/strong&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0423/music.jpg&#34; alt=&#34;音乐&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;支持在线播放音乐，目前已存放 11 首纯音乐，&lt;strong&gt;但需要手动才能开启&lt;/strong&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0423/music.jpg&#34;
+                      alt=&#34;音乐&#34;
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ&lt;/p&gt;
 &lt;/li&gt;

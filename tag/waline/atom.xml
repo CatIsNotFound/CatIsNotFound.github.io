@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;waline&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-09-28T05:21:01.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/09/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89%EF%BC%9A%E5%AE%8C%E6%95%B4%E8%BF%81%E7%A7%BB%E8%AF%84%E8%AE%BA%E6%95%B0%E6%8D%AE%E8%87%B3-Vercel/</id>
         <title>搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）</title>
@@ -55,7 +55,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;本文主要针对于使用了 &lt;strong&gt;&lt;a href=&#34;/2024/06/02/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F&#34;&gt;Deta 部署 Waline 评论系统&lt;/a&gt;&lt;/strong&gt; 或者已使用其它平台部署 Waline 评论系统的使用者而写的文章。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/waline.jpg&#34; width=&#34;75%&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/waline.jpg&#34;
+                      width=&#34;75%&#34; 
+                &gt;
 
 &lt;p&gt;如果需要将之前部署的评论系统里的数据（包括评论、用户、点击数等）完整迁移至 Vercel 所部署的 Waline 评论系统中，需要做以下操作。&lt;/p&gt;
 
@@ -64,9 +69,19 @@
 
 &lt;h1 id=&#34;Step-1-导出数据&#34;&gt;&lt;a href=&#34;#Step-1-导出数据&#34; class=&#34;headerlink&#34; title=&#34;Step 1: 导出数据&#34;&gt;&lt;/a&gt;Step 1: 导出数据&lt;/h1&gt;&lt;p&gt;为了很好的保存之前部署的评论系统中的数据，需要先将所有的评论及其它数据保存到本地。具体方法如下：&lt;/p&gt;
 &lt;p&gt;1、打开你的个人博客网页，点击任意文章，在评论区下方点击自己的头像。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;2、根据如下图所示，依次点击并选择导出。导出后，会得到一个 &lt;code&gt;waline.json&lt;/code&gt; 文件（之后导入操作需要用上）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h1 id=&#34;Step-2-LeanCloud-操作（使用-Vercel-部署时必用）&#34;&gt;&lt;a href=&#34;#Step-2-LeanCloud-操作（使用-Vercel-部署时必用）&#34; class=&#34;headerlink&#34; title=&#34;Step 2: LeanCloud 操作（使用 Vercel 部署时必用）&#34;&gt;&lt;/a&gt;Step 2: LeanCloud 操作（使用 Vercel 部署时必用）&lt;/h1&gt;
   &lt;div class=&#34;note-large yellow&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -80,9 +95,19 @@
   &lt;/div&gt;
 
 &lt;p&gt;1、在 LeanCloud 官网&lt;a class=&#34;link&#34;   href=&#34;https://console.leancloud.app/register&#34; &gt;注册一个账号&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;，并创建一个应用。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;2、备份 LeanCloud 中的环境变量&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/4.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large yellow&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -99,19 +124,54 @@
 
 
 &lt;h1 id=&#34;Step-3-Vercel-部署-Waline-评论系统&#34;&gt;&lt;a href=&#34;#Step-3-Vercel-部署-Waline-评论系统&#34; class=&#34;headerlink&#34; title=&#34;Step 3: Vercel 部署 Waline 评论系统&#34;&gt;&lt;/a&gt;Step 3: Vercel 部署 Waline 评论系统&lt;/h1&gt;&lt;p&gt;1、在 Vercel 上 &lt;a class=&#34;link&#34;   href=&#34;https://vercel.com/new/clone?repository-url=https://github.com/walinejs/waline/tree/main/example&#34; &gt;Deploy&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; Waline 评论系统。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://vercel.com/new/clone?repository-url=https://github.com/walinejs/waline/tree/main/example&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vercel.com/button&#34; alt=&#34;deploy&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://vercel.com/new/clone?repository-url=https://github.com/walinejs/waline/tree/main/example&#34;&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://vercel.com/button&#34;
+                      alt=&#34;deploy&#34;
+                &gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;需要注意的是，第一次打开 Vercel 需要登录，此处建议使用 Github 快捷登录即可。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;2、根据如下图指示，输入完名字并点击 [Create] 按钮后，等待 1~2 分钟。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/5.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;当出现烟花庆祝🎉时，表示 Deploy 已经完成，点击黑色按钮 [Go to Dashboard] 即可。&lt;/p&gt;
 &lt;p&gt;3、根据如下图指示，将写好的环境变量文件 &lt;code&gt;waline.env&lt;/code&gt; 文件导入。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/6.jpg&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/6.jpg&#34;
+                     
+                &gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;4、根据下图指示，以执行 Redeploy 操作。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/8.jpg&#34;&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/8.jpg&#34;
+                     
+                &gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/9.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;5、等待 1~2 分钟即可完成 Vercel 部署。此时，你可以直接测试自己的评论系统了。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/10.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/10.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large yellow&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -136,15 +196,30 @@
 &lt;p&gt;否则&lt;strong&gt;导入时会出现弹窗报错&lt;/strong&gt;，大致内容为：&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;500: Class or object doesn&amp;#x27;t exists. [404 GET https://kdxvn5cw.api.lncldglobal.com/1.1/classes/Comment]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/11.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
   &lt;/div&gt;
 
 &lt;p&gt;1、在如上图中选择 [登录] 按钮；&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fa-solid fa-circle-info&#34;&gt;&lt;/i&gt; &lt;strong&gt;需要注意：请先不要登录之前使用的账号，登录其它任意账号！&lt;/strong&gt;具体问题，如下对比图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/13.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;2、点击 [管理] -&amp;gt; [导入导出]，点击 [导入] 按钮。弹出窗口后，点击 [确认] 以覆盖评论数据。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0928/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0928/12.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;3、等待 1~2 分钟，当弹出窗口并显示 &lt;code&gt;导入完成&lt;/code&gt; 时，表示数据迁移完成。&lt;/p&gt;
 &lt;p&gt;4、最后刷新博客页面，以查看博客里的评论数据是否原样迁移。&lt;/p&gt;
 </content>
@@ -164,13 +239,23 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0620/cover.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
 
 &lt;h1 id=&#34;新增内容&#34;&gt;&lt;a href=&#34;#新增内容&#34; class=&#34;headerlink&#34; title=&#34;新增内容&#34;&gt;&lt;/a&gt;新增内容&lt;/h1&gt;&lt;h2 id=&#34;博客-Logo&#34;&gt;&lt;a href=&#34;#博客-Logo&#34; class=&#34;headerlink&#34; title=&#34;博客 Logo&#34;&gt;&lt;/a&gt;博客 Logo&lt;/h2&gt;&lt;p&gt;在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/logo.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/logo.png&#34;
+                      alt=&#34;Logo&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;页面更新&#34;&gt;&lt;a href=&#34;#页面更新&#34; class=&#34;headerlink&#34; title=&#34;页面更新&#34;&gt;&lt;/a&gt;页面更新&lt;/h1&gt;&lt;p&gt;很显然，这次的博客站点更新了一些页面，下面将简要介绍：&lt;/p&gt;
 &lt;h2 id=&#34;首页&#34;&gt;&lt;a href=&#34;#首页&#34; class=&#34;headerlink&#34; title=&#34;首页&#34;&gt;&lt;/a&gt;首页&lt;/h2&gt;&lt;ul&gt;
@@ -179,14 +264,24 @@
 &lt;li&gt;&lt;p&gt;同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/1.jpg&#34; alt=&#34;首页2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0620/1.jpg&#34;
+                      alt=&#34;首页2&#34;
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;文章页面&#34;&gt;&lt;a href=&#34;#文章页面&#34; class=&#34;headerlink&#34; title=&#34;文章页面&#34;&gt;&lt;/a&gt;文章页面&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;文章页面底部新增 [自动推荐] 栏目（基于 Nodejieba 算法），你可以在文章页面下方选择推荐的文章；&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;文章页面底部新增 &lt;strong&gt;[表情反应]&lt;/strong&gt; 界面，你可以在对应文章的下方选择你的表情反应；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0620/2.jpg&#34; alt=&#34;表情反应&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0620/2.jpg&#34;
+                      alt=&#34;表情反应&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -218,8 +313,8 @@
 
     &lt;/div&gt;
   &lt;/div&gt;</content>
-        <category term="更新日志" />
         <category term="Waline" />
+        <category term="更新日志" />
         <updated>2024-06-20T04:31:43.000Z</updated>
     </entry>
     <entry>
@@ -234,7 +329,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;评论系统是博客中不可或缺的一部分，它能够让读者与作者互动，提高博客的互动性。目前针对 Hexo 博客，Waline 评论系统是目前比较流行的评论系统。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/waline.jpg&#34; width=&#34;75%&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/waline.jpg&#34;
+                      width=&#34;75%&#34; 
+                &gt;
 
 
     &lt;/div&gt;
@@ -284,16 +384,31 @@
 &lt;h2 id=&#34;2-安装-Waline-插件&#34;&gt;&lt;a href=&#34;#2-安装-Waline-插件&#34; class=&#34;headerlink&#34; title=&#34;2. 安装 Waline 插件&#34;&gt;&lt;/a&gt;2. 安装 Waline 插件&lt;/h2&gt;&lt;a class=&#34;button  large center&#34; href=&#39;https://deta.space/discovery/@lizheming/waline&#39; title=&#39;Install Waline to Deta&#39;&gt;&lt;i class=&#39;fa-solid fa-cloud-upload-alt&#39;&gt;&lt;/i&gt; Install Waline to Deta&lt;/a&gt;
 
 &lt;p&gt;请先点击上方按钮，然后再如下页面中，选择 &lt;code&gt;Install on Space&lt;/code&gt; 按钮，等待一段时间后就能完成安装。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://waline.js.org/assets/deta-b3wwcCqL.png&#34; alt=&#34;Deta 主页&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://waline.js.org/assets/deta-b3wwcCqL.png&#34;
+                      alt=&#34;Deta 主页&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;之后，你将能直接在你的 Space 中看到 Waline 评论系统。&lt;/p&gt;
 &lt;a class=&#34;button  regular center&#34; href=&#39;https://deta.space&#39; title=&#39;访问你的 Deta Space&#39;&gt;&lt;i class=&#39;fa-solid fa-cloud&#39;&gt;&lt;/i&gt; 访问你的 Deta Space&lt;/a&gt;
 
 &lt;p&gt;在自己的 Deta Space 中，鼠标移动到 Waline，点击这里左上角的设置按钮图标，点击 &lt;code&gt;Open App&lt;/code&gt; 选项，查看能否成功访问到 App 页面。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/1.jpg&#34; alt=&#34;&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/1.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:50%;&#34; 
+                &gt;
 
 &lt;h2 id=&#34;3-配置-Waline-到你的博客&#34;&gt;&lt;a href=&#34;#3-配置-Waline-到你的博客&#34; class=&#34;headerlink&#34; title=&#34;3. 配置 Waline 到你的博客&#34;&gt;&lt;/a&gt;3. 配置 Waline 到你的博客&lt;/h2&gt;&lt;p&gt;请先在自己的 Deta Space 中，点击 Waline 左上角的设置按钮图标，然后点击 &lt;code&gt;Open Settings&lt;/code&gt; 选项。&lt;/p&gt;
 &lt;p&gt;在如下图的 &lt;code&gt;Domains&lt;/code&gt; 选项卡中，复制蓝色字中的域名。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/3.jpg&#34; alt=&#34;&#34; style=&#34;zoom:75%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/3.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:75%;&#34; 
+                &gt;
 
 &lt;p&gt;之后，请在你的博客仓库的根目录下，找到 &lt;code&gt;_config.redefine.yml&lt;/code&gt; 文件，找到如下内容，并修改其对应的 &lt;code&gt;serverUrl&lt;/code&gt; 选项即可。&lt;/p&gt;
 
@@ -315,18 +430,43 @@
 
 &lt;h1 id=&#34;查看-管理评论&#34;&gt;&lt;a href=&#34;#查看-管理评论&#34; class=&#34;headerlink&#34; title=&#34;查看&amp;#x2F;管理评论&#34;&gt;&lt;/a&gt;查看&amp;#x2F;管理评论&lt;/h1&gt;&lt;p&gt;关于此内容，若你已经完成部署且成功发出评论后，你可以按照以下方式查看或管理评论。当然你还可以设置邮箱提醒功能，当有访客评论你的文章时，你将会收到邮件提醒。&lt;/p&gt;
 &lt;h2 id=&#34;在-Waline-中管理-查看评论&#34;&gt;&lt;a href=&#34;#在-Waline-中管理-查看评论&#34; class=&#34;headerlink&#34; title=&#34;在 Waline 中管理&amp;#x2F;查看评论&#34;&gt;&lt;/a&gt;在 Waline 中管理&amp;#x2F;查看评论&lt;/h2&gt;&lt;p&gt;首先进入你的博客，在任意一篇文章页面下方，点击 &lt;code&gt;登录&lt;/code&gt; 按钮，在弹出的登录页面里，请使用 Github 账号以快捷登录。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/2.jpg&#34; alt=&#34;&#34; style=&#34;zoom:60%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/2.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:60%;&#34; 
+                &gt;
 
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/6.jpg&#34; alt=&#34;&#34; style=&#34;zoom:60%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/6.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:60%;&#34; 
+                &gt;
 
 &lt;p&gt;登录成功后，你可以直接点击左上角的【管理】→ 【评论】，以查看所有评论。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/7.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/7.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:80%;&#34; 
+                &gt;
 
 &lt;p&gt;你还可以点击左上角的【管理】→ 【用户】，以管理用户。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/8.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/8.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:80%;&#34; 
+                &gt;
 
 &lt;h2 id=&#34;在-Deta-中查看评论&#34;&gt;&lt;a href=&#34;#在-Deta-中查看评论&#34; class=&#34;headerlink&#34; title=&#34;在 Deta 中查看评论&#34;&gt;&lt;/a&gt;在 Deta 中查看评论&lt;/h2&gt;&lt;p&gt;首先进入你的 Deta Space，点击 Waline 应用，然后点击 &lt;code&gt;View App Data&lt;/code&gt; 按钮，在此页面中，你可以看到所有评论的详细信息。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/4.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/4.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:80%;&#34; 
+                &gt;
 
 &lt;p&gt;其中，该页面中，有以下两个表 &lt;code&gt;Comment&lt;/code&gt; 和 &lt;code&gt;Users&lt;/code&gt; 表，分别存储了评论信息和用户信息。&lt;/p&gt;
 &lt;p&gt;以下是每个表内对应列的含义：&lt;/p&gt;
@@ -364,7 +504,12 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;附加功能&#34;&gt;&lt;a href=&#34;#附加功能&#34; class=&#34;headerlink&#34; title=&#34;附加功能&#34;&gt;&lt;/a&gt;附加功能&lt;/h1&gt;&lt;h2 id=&#34;邮件提醒&#34;&gt;&lt;a href=&#34;#邮件提醒&#34; class=&#34;headerlink&#34; title=&#34;邮件提醒&#34;&gt;&lt;/a&gt;邮件提醒&lt;/h2&gt;&lt;p&gt;Waline 评论系统支持邮件提醒功能，当其它访客访问你的博客时，并且在某篇文章的评论区留言时，会收到邮件提醒。&lt;/p&gt;
 &lt;p&gt;为了实现这个功能，你需要在 Deta Space 中，找到 Waline 应用，然后点击 &lt;code&gt;Open Settings&lt;/code&gt; 按钮，在 &lt;code&gt;Configuraion&lt;/code&gt; 选项卡中，找到如下变量并输入对应的值即可。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/5.jpg&#34; alt=&#34;&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/5.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:80%;&#34; 
+                &gt;
 
 &lt;p&gt;邮件通知需要配置以下环境变量：（&lt;strong&gt;以下变量均为必填&lt;/strong&gt;）&lt;/p&gt;
 &lt;ul&gt;
@@ -395,7 +540,12 @@
 &lt;p&gt;配置完以上配置后，使用鼠标滚轮滚到最底，并点击 &lt;code&gt;Save Change&lt;/code&gt; 按钮，若左上角提示 &lt;code&gt;Presets saved&lt;/code&gt; 则表示配置成功。&lt;/p&gt;
 &lt;p&gt;接下来，只需要回到你的博客网站，使用任意其它用户的身份在评论区留言，其它访客访问你的博客时，你将会收到邮件提醒。&lt;/p&gt;
 &lt;h2 id=&#34;Emoji-表情&#34;&gt;&lt;a href=&#34;#Emoji-表情&#34; class=&#34;headerlink&#34; title=&#34;Emoji 表情&#34;&gt;&lt;/a&gt;Emoji 表情&lt;/h2&gt;&lt;p&gt;你可以像如下图所示的那样，在你的博客中加入 Emoji 表情。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0602/comment.jpg&#34; alt=&#34;&#34; style=&#34;zoom:85%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0602/comment.jpg&#34;
+                      alt=&#34;&#34; style=&#34;zoom:85%;&#34; 
+                &gt;
 
 &lt;p&gt;如果你需要进行添加 Emoji 表情，请直接在 &lt;code&gt;_config.redefine.yml&lt;/code&gt; 文件中，找到 &lt;code&gt;emoji&lt;/code&gt; 选项，并添加对应的 URL 即可。&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Yml&#34;&gt;&lt;figure class=&#34;iseeu highlight yml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# COMMENT &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Docs: https://redefine-docs.ohevan.com/posts/comment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;comment:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;config:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# Waline comment system. See https://waline.js.org/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;waline:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;attr&#34;&gt;emoji:&lt;/span&gt; [&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/bmoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/weibo&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/qq&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/soul-emoji&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://unpkg.com/@waline/emojis@1.2.0/tw-emoji&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      ] &lt;span class=&#34;comment&#34;&gt;# 请以数组的方式添加 Emoji 表情的 URL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;

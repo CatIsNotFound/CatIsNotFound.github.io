@@ -7,45 +7,45 @@
         <language>zh-CN</language>
         <pubDate>Wed, 04 Dec 2024 14:14:10 +0800</pubDate>
         <lastBuildDate>Wed, 04 Dec 2024 14:14:10 +0800</lastBuildDate>
-        <category>更新日志</category>
-        <category>Git</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>桌面环境</category>
         <category>GNOME</category>
-        <category>Github</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>软件安利</category>
-        <category>Windows</category>
+        <category>桌面环境</category>
         <category>新手向</category>
-        <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>博客搭建</category>
+        <category>软件安利</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>💡解题</category>
+        <category>C_and_Cpp</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>答疑解惑</category>
+        <category>更新日志</category>
+        <category>Switch</category>
+        <category>Youtube</category>
+        <category>任天堂</category>
+        <category>油管</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>解题历程</category>
-        <category>💡解题</category>
-        <category>C_and_Cpp</category>
-        <category>Waline</category>
-        <category>答疑解惑</category>
-        <category>Switch</category>
-        <category>Nintendo</category>
-        <category>任天堂</category>
-        <category>游戏机</category>
-        <category>刷题</category>
+        <category>oh-my-zsh</category>
+        <category>WSL</category>
         <category>关于博客</category>
         <category>脚本</category>
-        <category>WSL</category>
-        <category>Youtube</category>
-        <category>油管</category>
-        <category>Jetbrain</category>
-        <category>CLion</category>
-        <category>oh-my-zsh</category>
+        <category>Nintendo</category>
+        <category>游戏机</category>
+        <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
-        <category>Codeforces</category>
+        <category>Jetbrain</category>
+        <category>CLion</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/12/%E7%AD%94%E7%96%91%E8%A7%A3%E6%83%91-%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%9C%A8-C-%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%80%E8%A1%8C%E8%BE%93%E5%85%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
             <title>[答疑解惑] 关于如何在 C++ 中获取一行输入字符串的方法</title>
@@ -140,19 +140,29 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[答疑解惑] 关于 Github 的问题解决方法</title>
             <link>https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
-            <category>新手向</category>
             <category>答疑解惑</category>
             <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34;
+                      alt=&#34;Github&#34; width=&#34;75%&#34;
+                &gt;
 
 &lt;p&gt;Github 是一个很常用的代码托管平台，我们可以利用此平台下载或克隆到优质的代码仓库，但是在某些情况下，我们可能会遇到一些问题，下面是由本人列举的一些问题与解决方法，希望这能有所帮助😉。&lt;/p&gt;
 &lt;h1 id=&#34;1、Github-访问不了&#34;&gt;&lt;a href=&#34;#1、Github-访问不了&#34; class=&#34;headerlink&#34; title=&#34;1、Github 访问不了&#34;&gt;&lt;/a&gt;1、Github 访问不了&lt;/h1&gt;&lt;p&gt;大多数国内的用户在访问 Github 时总会遇到加载速度缓慢，甚至无法访问站点的情况。关于此类问题，有以下几个方法解决：&lt;/p&gt;
 &lt;h2 id=&#34;1-1-利用-Watt-Toolkit-加速访问-👍&#34;&gt;&lt;a href=&#34;#1-1-利用-Watt-Toolkit-加速访问-👍&#34; class=&#34;headerlink&#34; title=&#34;1.1 利用 Watt Toolkit 加速访问 👍&#34;&gt;&lt;/a&gt;1.1 利用 Watt Toolkit 加速访问 👍&lt;/h2&gt;&lt;p&gt;众所周知，Watt Toolkit (Steam++ 前身) 是一个非常适合新手的软件，你仅需在【网络加速】页面上勾选上 &lt;i class=&#34;fa-brands fa-github&#34;&gt;&lt;/i&gt; Github 选项，点击 [立即加速] 即可。这也是本人最为推荐的方法。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://steampp.net/&#39; title=&#39;Watt Toolkit 下载&#39;&gt;&lt;i class=&#39;fa-solid fa-download&#39;&gt;&lt;/i&gt; Watt Toolkit 下载&lt;/a&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-2-使用代理加速访问&#34;&gt;&lt;a href=&#34;#1-2-使用代理加速访问&#34; class=&#34;headerlink&#34; title=&#34;1.2 使用代理加速访问&#34;&gt;&lt;/a&gt;1.2 使用代理加速访问&lt;/h2&gt;&lt;p&gt;如果有经济条件，使用代理服务器是非常不错的选择。现如今，本人最推荐的是以下两款主流的代理软件：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;V2rayNG&lt;/strong&gt;：一个基于 v2ray 的免费开源软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/2dust/v2rayNG/releases&#39; title=&#39;V2rayNG 下载&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; V2rayNG 下载&lt;/a&gt;
@@ -173,12 +183,22 @@
 
 &lt;p&gt;&lt;strong&gt;2、V2rayNG&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;关于此软件，需要打开软件主界面，在如下图所指示的地址就是配置代理的选项，&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/3.jpg&#34; alt=&#34;新版 UI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/3.jpg&#34;
+                      alt=&#34;新版 UI&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small yellow icon-padding&#34;&gt;
     &lt;i class=&#34;note-icon fa-solid fa-circle-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;V2rayN 的 UI 版本不同，如果使用的是旧版本的 V2rayN，则为如下图所指示：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/2.jpg&#34; alt=&#34;旧版 UI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/2.jpg&#34;
+                      alt=&#34;旧版 UI&#34;
+                &gt;&lt;/p&gt;
 
   &lt;/div&gt;
 
@@ -192,9 +212,19 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;首先点击此链接 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/settings/tokens/new&#34; &gt;New Personal Access Token (Classic) (github.com)&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0424/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0424/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;上图中的绿色框为所需要的 Token​。&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small danger icon-padding&#34;&gt;

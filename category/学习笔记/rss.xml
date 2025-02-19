@@ -7,45 +7,45 @@
         <language>zh-CN</language>
         <pubDate>Wed, 15 Jan 2025 16:18:06 +0800</pubDate>
         <lastBuildDate>Wed, 15 Jan 2025 16:18:06 +0800</lastBuildDate>
-        <category>更新日志</category>
-        <category>Git</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>桌面环境</category>
         <category>GNOME</category>
-        <category>Github</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>软件安利</category>
-        <category>Windows</category>
+        <category>桌面环境</category>
         <category>新手向</category>
-        <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>博客搭建</category>
+        <category>软件安利</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>💡解题</category>
+        <category>C_and_Cpp</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>答疑解惑</category>
+        <category>更新日志</category>
+        <category>Switch</category>
+        <category>Youtube</category>
+        <category>任天堂</category>
+        <category>油管</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>解题历程</category>
-        <category>💡解题</category>
-        <category>C_and_Cpp</category>
-        <category>Waline</category>
-        <category>答疑解惑</category>
-        <category>Switch</category>
-        <category>Nintendo</category>
-        <category>任天堂</category>
-        <category>游戏机</category>
-        <category>刷题</category>
+        <category>oh-my-zsh</category>
+        <category>WSL</category>
         <category>关于博客</category>
         <category>脚本</category>
-        <category>WSL</category>
-        <category>Youtube</category>
-        <category>油管</category>
-        <category>Jetbrain</category>
-        <category>CLion</category>
-        <category>oh-my-zsh</category>
+        <category>Nintendo</category>
+        <category>游戏机</category>
+        <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
-        <category>Codeforces</category>
+        <category>Jetbrain</category>
+        <category>CLion</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2025/01/C-language-basic-misc/</guid>
             <title>C 语言基础笔记：重要知识点</title>
@@ -453,7 +453,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;h2 id=&#34;ASCII码表&#34;&gt;&lt;a href=&#34;#ASCII码表&#34; class=&#34;headerlink&#34; title=&#34;ASCII码表&#34;&gt;&lt;/a&gt;ASCII码表&lt;/h2&gt;&lt;p&gt;在学习到字符或字符串时，需要记忆数字（48～57）、大写字母（65～90）、小写字母（97～122）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/e850352ac65c103880a07b53bc119313b17e8941&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2025/01/e850352ac65c103880a07b53bc119313b17e8941&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;转义字符&#34;&gt;&lt;a href=&#34;#转义字符&#34; class=&#34;headerlink&#34; title=&#34;转义字符&#34;&gt;&lt;/a&gt;转义字符&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -533,8 +533,8 @@
 &lt;td&gt;十六进制&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id=&#34;基本数据类型&#34;&gt;&lt;a href=&#34;#基本数据类型&#34; class=&#34;headerlink&#34; title=&#34;基本数据类型&#34;&gt;&lt;/a&gt;基本数据类型&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/image-20210330191020703.png&#34; alt=&#34;image-20210330191020703&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;运算符优先级和结合性&#34;&gt;&lt;a href=&#34;#运算符优先级和结合性&#34; class=&#34;headerlink&#34; title=&#34;运算符优先级和结合性&#34;&gt;&lt;/a&gt;运算符优先级和结合性&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/image-20210407143809225.png&#34; alt=&#34;image-20210407143809225&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本数据类型&#34;&gt;&lt;a href=&#34;#基本数据类型&#34; class=&#34;headerlink&#34; title=&#34;基本数据类型&#34;&gt;&lt;/a&gt;基本数据类型&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2025/01/image-20210330191020703.png&#34; alt=&#34;image-20210330191020703&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;运算符优先级和结合性&#34;&gt;&lt;a href=&#34;#运算符优先级和结合性&#34; class=&#34;headerlink&#34; title=&#34;运算符优先级和结合性&#34;&gt;&lt;/a&gt;运算符优先级和结合性&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2025/01/image-20210407143809225.png&#34; alt=&#34;image-20210407143809225&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文件操作模式&#34;&gt;&lt;a href=&#34;#文件操作模式&#34; class=&#34;headerlink&#34; title=&#34;文件操作模式&#34;&gt;&lt;/a&gt;文件操作模式&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

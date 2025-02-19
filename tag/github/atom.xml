@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;github&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-11-27T03:58:30.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/11/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0-Oh-my-zsh-%E5%93%A6-%E6%88%91%E9%82%A3%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BB%88%E7%AB%AF/</id>
         <title>[折腾日记] Oh-my-zsh 哦~我那好用的终端</title>
@@ -200,26 +200,36 @@
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;关于下一篇内容，个人考虑在 Neovim 上入手，如果有较强的折腾能力，可以尝试将 neovim 改造成一个命令行下的 IDE(*^_^*)。&lt;/p&gt;
 &lt;p&gt;还是那句话：感兴趣？建议点个收藏或关注？(￣▽￣)”（多少有点不好意思）&lt;/p&gt;
 </content>
-        <category term="Git" />
         <category term="Linux" />
-        <category term="Github" />
         <category term="新手向" />
-        <category term="WSL" />
+        <category term="Git" />
+        <category term="Github" />
         <category term="oh-my-zsh" />
+        <category term="WSL" />
         <updated>2024-11-27T03:58:30.000Z</updated>
     </entry>
     <entry>
         <id>https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
         <title>[答疑解惑] 关于 Github 的问题解决方法</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34; alt=&#34;Github&#34; width=&#34;75%&#34;&gt;
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://askanydifference.com/wp-content/uploads/2023/06/github.jpg&#34;
+                      alt=&#34;Github&#34; width=&#34;75%&#34;
+                &gt;
 
 &lt;p&gt;Github 是一个很常用的代码托管平台，我们可以利用此平台下载或克隆到优质的代码仓库，但是在某些情况下，我们可能会遇到一些问题，下面是由本人列举的一些问题与解决方法，希望这能有所帮助😉。&lt;/p&gt;
 &lt;h1 id=&#34;1、Github-访问不了&#34;&gt;&lt;a href=&#34;#1、Github-访问不了&#34; class=&#34;headerlink&#34; title=&#34;1、Github 访问不了&#34;&gt;&lt;/a&gt;1、Github 访问不了&lt;/h1&gt;&lt;p&gt;大多数国内的用户在访问 Github 时总会遇到加载速度缓慢，甚至无法访问站点的情况。关于此类问题，有以下几个方法解决：&lt;/p&gt;
 &lt;h2 id=&#34;1-1-利用-Watt-Toolkit-加速访问-👍&#34;&gt;&lt;a href=&#34;#1-1-利用-Watt-Toolkit-加速访问-👍&#34; class=&#34;headerlink&#34; title=&#34;1.1 利用 Watt Toolkit 加速访问 👍&#34;&gt;&lt;/a&gt;1.1 利用 Watt Toolkit 加速访问 👍&lt;/h2&gt;&lt;p&gt;众所周知，Watt Toolkit (Steam++ 前身) 是一个非常适合新手的软件，你仅需在【网络加速】页面上勾选上 &lt;i class=&#34;fa-brands fa-github&#34;&gt;&lt;/i&gt; Github 选项，点击 [立即加速] 即可。这也是本人最为推荐的方法。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://steampp.net/&#39; title=&#39;Watt Toolkit 下载&#39;&gt;&lt;i class=&#39;fa-solid fa-download&#39;&gt;&lt;/i&gt; Watt Toolkit 下载&lt;/a&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-2-使用代理加速访问&#34;&gt;&lt;a href=&#34;#1-2-使用代理加速访问&#34; class=&#34;headerlink&#34; title=&#34;1.2 使用代理加速访问&#34;&gt;&lt;/a&gt;1.2 使用代理加速访问&lt;/h2&gt;&lt;p&gt;如果有经济条件，使用代理服务器是非常不错的选择。现如今，本人最推荐的是以下两款主流的代理软件：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;V2rayNG&lt;/strong&gt;：一个基于 v2ray 的免费开源软件，支持 Windows、Android、iOS 等平台。&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://github.com/2dust/v2rayNG/releases&#39; title=&#39;V2rayNG 下载&#39;&gt;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt; V2rayNG 下载&lt;/a&gt;
@@ -240,12 +250,22 @@
 
 &lt;p&gt;&lt;strong&gt;2、V2rayNG&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;关于此软件，需要打开软件主界面，在如下图所指示的地址就是配置代理的选项，&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/3.jpg&#34; alt=&#34;新版 UI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/3.jpg&#34;
+                      alt=&#34;新版 UI&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small yellow icon-padding&#34;&gt;
     &lt;i class=&#34;note-icon fa-solid fa-circle-exclamation&#34;&gt;&lt;/i&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;V2rayN 的 UI 版本不同，如果使用的是旧版本的 V2rayN，则为如下图所指示：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0901/2.jpg&#34; alt=&#34;旧版 UI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0901/2.jpg&#34;
+                      alt=&#34;旧版 UI&#34;
+                &gt;&lt;/p&gt;
 
   &lt;/div&gt;
 
@@ -259,9 +279,19 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;首先点击此链接 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/settings/tokens/new&#34; &gt;New Personal Access Token (Classic) (github.com)&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;根据如下图所示操作：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0424/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0424/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0424/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;上图中的绿色框为所需要的 Token​。&lt;/p&gt;
 
   &lt;div class=&#34;note p-4 mb-4 rounded-small danger icon-padding&#34;&gt;
@@ -272,9 +302,9 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;本篇内容仅是本人在 Github 上的常见问题，如果遇到其它问题或者有更好的解决方案，欢迎在评论区下留言！&lt;/p&gt;
 </content>
+        <category term="新手向" />
         <category term="Git" />
         <category term="Github" />
-        <category term="新手向" />
         <category term="答疑解惑" />
         <updated>2024-09-01T04:48:45.000Z</updated>
     </entry>
@@ -299,7 +329,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/banner.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/banner.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -323,7 +358,12 @@
   &lt;/div&gt;
 
 &lt;p&gt;接着，在选择文件夹时，&lt;strong&gt;请一定要新建一个空的文件夹&lt;/strong&gt;，否则无法拉取 Github 仓库项目。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;最后，请耐心等待加载，一般需要几分钟才能完成克隆。&lt;/p&gt;
 &lt;h2 id=&#34;写博客&#34;&gt;&lt;a href=&#34;#写博客&#34; class=&#34;headerlink&#34; title=&#34;写博客&#34;&gt;&lt;/a&gt;写博客&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1. 定位你的博客文章目录&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 &lt;code&gt;source&lt;/code&gt; → &lt;code&gt;_posts&lt;/code&gt; 文件夹，在此目录下，你将看到你之前所写的所有博客文章。&lt;/p&gt;
@@ -332,7 +372,12 @@
 &lt;p&gt;或者直接在终端下执行如下命令：&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;文章标题&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. 尽情写作吧！&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;好用的脚本文件&#34;&gt;&lt;a href=&#34;#好用的脚本文件&#34; class=&#34;headerlink&#34; title=&#34;好用的脚本文件&#34;&gt;&lt;/a&gt;好用的脚本文件&lt;/h2&gt;&lt;p&gt;为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 &lt;code&gt;.scripts&lt;/code&gt; 文件夹下添加 Shell 脚本，以便减少不必要的操作。&lt;/p&gt;
 &lt;ul&gt;
@@ -358,8 +403,18 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;常见问题&#34;&gt;&lt;a href=&#34;#常见问题&#34; class=&#34;headerlink&#34; title=&#34;常见问题&#34;&gt;&lt;/a&gt;常见问题&lt;/h1&gt;&lt;div class=&#34;tabs&#34; id=&#34;tab-question_answer&#34;&gt;&lt;ul class=&#34;nav-tabs&#34;&gt;&lt;li class=&#34;tab active&#34;&gt;&lt;a class=&#34;#question_answer-1&#34;&gt;💡 常见问题一&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-2&#34;&gt;💡 常见问题二&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-3&#34;&gt;💡 常见问题三&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&#34;tab-content&#34;&gt;&lt;div class=&#34;tab-pane active&#34; id=&#34;question_answer-1&#34;&gt;&lt;p&gt;Q：为什么拉取项目后，打开自建的文件夹仍是空的？&lt;/p&gt;
 &lt;p&gt;A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/6.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/7.jpg&#34;&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0513/6.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0513/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
 &lt;p&gt;即使用【实时预览】时，直接出现 &lt;code&gt;The LivePreview is ended.&lt;/code&gt; 提示。&lt;/p&gt;
 &lt;p&gt;A：在解决此问题前，请先查看你的项目源目录下是否有 &lt;code&gt;node_modules&lt;/code&gt; 目录。一般情况下，当你备份博客存档时，&lt;code&gt;node_modules&lt;/code&gt; 目录往往不会被上传到 Github 仓库。&lt;/p&gt;
 &lt;p&gt;请直接从底部界面向上滑动，打开终端，并执行 &lt;code&gt;npm install&lt;/code&gt; 命令，等待安装依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-3&#34;&gt;&lt;p&gt;Q：执行 &lt;code&gt;npm install&lt;/code&gt; 命令时报错？&lt;/p&gt;
@@ -371,17 +426,22 @@
 &lt;p&gt;这里假设你的 Github 仓库名为 &lt;code&gt;blogBackup&lt;/code&gt;，&lt;strong&gt;注意替换自己的 Github 仓库地址。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 一次性执行脚本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 可直接克隆博客存档到本地项目中&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 用于解决无法安装 Hexo 依赖问题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BLOG_DIR=&lt;span class=&#34;variable&#34;&gt;$PWD&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; ~&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! -d ~/blogBackup ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在克隆……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://github.com/yourname/blogBackup.git &lt;span class=&#34;comment&#34;&gt;# 此处需替换为你的 Github 仓库地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在合并……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git pull&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 无法拉取仓库！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [  ! -d node_modules ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在安装依赖....&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 下载/安装依赖失败！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cp&lt;/span&gt; -r node_modules &lt;span class=&#34;variable&#34;&gt;$BLOG_DIR&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 注意：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 其中的第10行的git仓库地址替换为实际的仓库地址。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 若需要调试于终端之上，请执行：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# bash ./.scripts/install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;完成脚本执行后，执行 &lt;code&gt;npm list&lt;/code&gt; 查看是否包含 &lt;code&gt;hexo&lt;/code&gt; 依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
+        <category term="博客搭建" />
+        <category term="软件安利" />
         <category term="Git" />
         <category term="Github" />
-        <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
@@ -391,23 +451,58 @@
         <link rel="alternate" href="https://catisnotfound.github.io/2024/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E5%9C%A8-Github-Page-%E4%B8%8A%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
         <content type="html">&lt;h2 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;如上标题，现在可以拥有属于自己的个人博客了 ~（＾▽＾）~ ，&lt;/p&gt;
 &lt;p&gt;关于个人博客，可以利用 Github Page 来搭建自己的个人博客。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/5.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;怎么做？&#34;&gt;&lt;a href=&#34;#怎么做？&#34; class=&#34;headerlink&#34; title=&#34;怎么做？&#34;&gt;&lt;/a&gt;怎么做？&lt;/h2&gt;&lt;h3 id=&#34;1-注册-Github&#34;&gt;&lt;a href=&#34;#1-注册-Github&#34; class=&#34;headerlink&#34; title=&#34;1. 注册 Github&#34;&gt;&lt;/a&gt;1. 注册 Github&lt;/h3&gt;&lt;p&gt;既然提到了 Github Page ，首先就得&lt;a class=&#34;link&#34;   href=&#34;https://github.com/signup&#34; &gt;注册自己的 Github 账号&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果 Github 界面打不开，建议使用 &lt;a class=&#34;link&#34;   href=&#34;https://steampp.net/&#34; &gt;Watt Toolkit&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;😃，（不仅可以加速 Steam、橙子、育碧，同时也能加速 Github）&lt;/p&gt;
 &lt;p&gt;注册一个 Github 账号只需要邮箱，并且进行邮箱验证就能快速完成！ヾ(•ω•&amp;#96;)o&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;2-创建自己的仓库&#34;&gt;&lt;a href=&#34;#2-创建自己的仓库&#34; class=&#34;headerlink&#34; title=&#34;2. 创建自己的仓库&#34;&gt;&lt;/a&gt;2. 创建自己的仓库&lt;/h3&gt;&lt;p&gt;注册之后，接下来就要创建自己的仓库，&lt;br&gt;首先点击【New】，如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/1.jpg&#34; alt=&#34;1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/1.jpg&#34;
+                      alt=&#34;1.jpg&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;其次，创建仓库时，&lt;strong&gt;仓库名一定要以&lt;code&gt;[你的用户名].github.io&lt;/code&gt; 为名，&lt;/strong&gt; 默认下都会将其设为 Github Page，之后就能完成创建。具体看下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/2.jpg&#34; alt=&#34;2.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/2.1.jpg&#34; alt=&#34;2.1.jpg&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;3-选择框架&#34;&gt;&lt;a href=&#34;#3-选择框架&#34; class=&#34;headerlink&#34; title=&#34;3. 选择框架&#34;&gt;&lt;/a&gt;3. 选择框架&lt;/h3&gt;&lt;p&gt;当你做完上述步骤后，你可以直接访问自己的网页，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/3.0.jpg&#34; alt=&#34;3.0.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/2.jpg&#34;
+                      alt=&#34;2.jpg&#34;
+                &gt;&lt;/p&gt;
+&lt;p&gt;创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/2.1.jpg&#34;
+                      alt=&#34;2.1.jpg&#34;
+                &gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-选择框架&#34;&gt;&lt;a href=&#34;#3-选择框架&#34; class=&#34;headerlink&#34; title=&#34;3. 选择框架&#34;&gt;&lt;/a&gt;3. 选择框架&lt;/h3&gt;&lt;p&gt;当你做完上述步骤后，你可以直接访问自己的网页，如下图：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/3.0.jpg&#34;
+                      alt=&#34;3.0.jpg&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;接下来就是选择网页框架。这里就以 Hexo 为例，这里就只需要用到 &lt;code&gt;git&lt;/code&gt; 和 &lt;code&gt;node.js&lt;/code&gt; 两个依赖软件了，关于详细地安装步骤，请直接参照&lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/docs/&#34; &gt;官方文档&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;即可&lt;/p&gt;
 &lt;p&gt;完成后的搭建，大概是长这样的：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/3.jpg&#34; alt=&#34;3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/3.jpg&#34;
+                      alt=&#34;3.jpg&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;当然，这还不够，你还可以给它更换一个更好看的主题，这里作者就用了 Redefine 主题，大概就是长这样的(*^_^*)：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/4.jpg&#34; alt=&#34;4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/4.jpg&#34;
+                      alt=&#34;4.jpg&#34;
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large blue&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -422,7 +517,12 @@
   &lt;/div&gt;
 
 &lt;p&gt;最后简单的做个配置，最终呈现了这样的效果：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/042301/5.jpg&#34; alt=&#34;5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/042301/5.jpg&#34;
+                      alt=&#34;5.jpg&#34;
+                &gt;&lt;/p&gt;
 &lt;h3 id=&#34;4-上传到-Github&#34;&gt;&lt;a href=&#34;#4-上传到-Github&#34; class=&#34;headerlink&#34; title=&#34;4. 上传到 Github&#34;&gt;&lt;/a&gt;4. 上传到 Github&lt;/h3&gt;&lt;p&gt;接下来，将本地上制作好的内容上传到 Github 仓库中。关于怎么上传部署 Github Pages，&lt;a class=&#34;link&#34;   href=&#34;https://hexo.io/zh-cn/docs/github-pages&#34; &gt;请点击查看关于 Hexo 上传部署到 Github Pages 的教程&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;首次执行，需要下列的所有命令：&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Shell&#34;&gt;&lt;figure class=&#34;iseeu highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git clone [你的Github仓库地址]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cp -r [你的博客名称]/* [Github仓库名称] # 注意两个路径之间留下至少一个空格&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd [Github仓库名称]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name &amp;quot;[你的Github昵称]&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email &amp;quot;[你注册 Github 时所用的邮箱]&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git remote add origin [你的Github仓库地址]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git add *&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git commit -m &amp;quot;这里随便写点什么&amp;quot; # 此行指令可不写&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git push -u origin main&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
@@ -432,9 +532,9 @@
 &lt;h2 id=&#34;写在后面&#34;&gt;&lt;a href=&#34;#写在后面&#34; class=&#34;headerlink&#34; title=&#34;写在后面&#34;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;下一篇将继续详细【&lt;a href=&#34;../../24/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE-Hexo-%E4%BD%BF%E7%94%A8-Rendefine-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2&#34;&gt;配置 Hexo，以及如何使用 Redefine 主题美化博客&lt;/a&gt;】&lt;/p&gt;
 &lt;p&gt;本篇文章中部分没有提到的内容，下一篇也将会详细介绍(*^_^*)&lt;/p&gt;
 </content>
+        <category term="博客搭建" />
         <category term="Git" />
         <category term="Github" />
-        <category term="博客搭建" />
         <category term="Hexo" />
         <updated>2024-04-23T11:08:53.000Z</updated>
     </entry>

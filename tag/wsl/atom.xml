@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;wsl&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-11-27T03:58:30.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/11/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0-Oh-my-zsh-%E5%93%A6-%E6%88%91%E9%82%A3%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BB%88%E7%AB%AF/</id>
         <title>[折腾日记] Oh-my-zsh 哦~我那好用的终端</title>
@@ -200,12 +200,12 @@
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;关于下一篇内容，个人考虑在 Neovim 上入手，如果有较强的折腾能力，可以尝试将 neovim 改造成一个命令行下的 IDE(*^_^*)。&lt;/p&gt;
 &lt;p&gt;还是那句话：感兴趣？建议点个收藏或关注？(￣▽￣)”（多少有点不好意思）&lt;/p&gt;
 </content>
-        <category term="Git" />
         <category term="Linux" />
-        <category term="Github" />
         <category term="新手向" />
-        <category term="WSL" />
+        <category term="Git" />
+        <category term="Github" />
         <category term="oh-my-zsh" />
+        <category term="WSL" />
         <updated>2024-11-27T03:58:30.000Z</updated>
     </entry>
     <entry>
@@ -219,7 +219,12 @@
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;p&gt;适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。&lt;br&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/R-C.jpg&#34;&gt;&lt;/p&gt;
+      &lt;p&gt;适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0606/R-C.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -245,7 +250,12 @@
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）&lt;/p&gt;
 &lt;p&gt;请在下载安装前，通过 &lt;kbd&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt;&lt;/kbd&gt; + &lt;code&gt;R&lt;/code&gt; 打开【运行】窗口，并执行 &lt;code&gt;winver&lt;/code&gt; 查看操作系统内部版本号。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/1.jpg&#34; alt=&#34;查看操作系统内部版本号&#34; style=&#34;width: 50%&#34;&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0606/1.jpg&#34;
+                      alt=&#34;查看操作系统内部版本号&#34; style=&#34;width: 50%&#34;
+                &gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -321,21 +331,41 @@
 
 &lt;p&gt;你可以通过此软件来控制任一 WSL 发行版的启动、停止等操作。&lt;/p&gt;
 &lt;p&gt;在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/3.jpg&#34; alt=&#34;WSL Tray Monitor 系统托盘监控工具&#34; style=&#34;width: 50%&#34;&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0606/3.jpg&#34;
+                      alt=&#34;WSL Tray Monitor 系统托盘监控工具&#34; style=&#34;width: 50%&#34;
+                &gt;
 
 &lt;p&gt;&lt;strong&gt;WSL Toolbox - 图形化管理 WSL 的工具箱&lt;/strong&gt;&lt;/p&gt;
 &lt;a class=&#34;button  center large&#34; href=&#39;https://apps.microsoft.com/detail/9ndggx7m2h0v?hl=zh-cn&amp;gl=CN&#39; title=&#39;WSL Toolbox 下载安装&#39;&gt;&lt;i class=&#39;fa-brands fa-windows&#39;&gt;&lt;/i&gt; WSL Toolbox 下载安装&lt;/a&gt;
 
 &lt;p&gt;WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对单个容器进行管理，包括安装、启动、停止、重启等操作。甚至可以导入和导出容器。&lt;/p&gt;
 &lt;p&gt;但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/2.jpg&#34; alt=&#34;WSL Toolbox 图形化管理 WSL 的工具箱&#34; style=&#34;width: 80%&#34;&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0606/2.jpg&#34;
+                      alt=&#34;WSL Toolbox 图形化管理 WSL 的工具箱&#34; style=&#34;width: 80%&#34;
+                &gt;
 
 &lt;h2 id=&#34;文件管理&#34;&gt;&lt;a href=&#34;#文件管理&#34; class=&#34;headerlink&#34; title=&#34;文件管理&#34;&gt;&lt;/a&gt;文件管理&lt;/h2&gt;&lt;p&gt;你可以在 Windows 资源管理器中访问 &lt;i class=&#34;fa-brands fa-linux&#34;&gt;Linux&lt;/i&gt;，如下图：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/4.jpg&#34; alt=&#34;在资源管理器中访问 Linux&#34; style=&#34;width: 80%&#34;&gt;
+&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0606/4.jpg&#34;
+                      alt=&#34;在资源管理器中访问 Linux&#34; style=&#34;width: 80%&#34;
+                &gt;
 
 &lt;h2 id=&#34;使用-Visual-Studio-Code-开发&#34;&gt;&lt;a href=&#34;#使用-Visual-Studio-Code-开发&#34; class=&#34;headerlink&#34; title=&#34;使用 Visual Studio Code 开发&#34;&gt;&lt;/a&gt;使用 Visual Studio Code 开发&lt;/h2&gt;&lt;p&gt;如果你使用 Visual Studio Code 作为你的开发环境，那么你可以直接在 WSL 中打开你的项目，并进行开发。&lt;/p&gt;
 &lt;p&gt;你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0606/5.jpg&#34; alt=&#34;在 WSL 中打开项目&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0606/5.jpg&#34;
+                      alt=&#34;在 WSL 中打开项目&#34;
+                &gt;&lt;/p&gt;
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;最后，希望本文能帮助你更好地了解 WSL，并在日常使用中提高效率。&lt;/p&gt;
 
   &lt;div class=&#34;note-large green&#34;&gt;
@@ -355,8 +385,8 @@
 
 </content>
         <category term="Linux" />
-        <category term="Windows" />
         <category term="新手向" />
+        <category term="Windows" />
         <category term="WSL" />
         <updated>2024-06-06T09:03:20.000Z</updated>
     </entry>

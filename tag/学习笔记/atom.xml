@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;学习笔记&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2025-01-15T08:18:06.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2025/01/C-language-basic-misc/</id>
         <title>C 语言基础笔记：重要知识点</title>
@@ -447,7 +447,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;h2 id=&#34;ASCII码表&#34;&gt;&lt;a href=&#34;#ASCII码表&#34; class=&#34;headerlink&#34; title=&#34;ASCII码表&#34;&gt;&lt;/a&gt;ASCII码表&lt;/h2&gt;&lt;p&gt;在学习到字符或字符串时，需要记忆数字（48～57）、大写字母（65～90）、小写字母（97～122）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/e850352ac65c103880a07b53bc119313b17e8941&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2025/01/e850352ac65c103880a07b53bc119313b17e8941&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;转义字符&#34;&gt;&lt;a href=&#34;#转义字符&#34; class=&#34;headerlink&#34; title=&#34;转义字符&#34;&gt;&lt;/a&gt;转义字符&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -527,8 +527,8 @@
 &lt;td&gt;十六进制&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id=&#34;基本数据类型&#34;&gt;&lt;a href=&#34;#基本数据类型&#34; class=&#34;headerlink&#34; title=&#34;基本数据类型&#34;&gt;&lt;/a&gt;基本数据类型&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/image-20210330191020703.png&#34; alt=&#34;image-20210330191020703&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;运算符优先级和结合性&#34;&gt;&lt;a href=&#34;#运算符优先级和结合性&#34; class=&#34;headerlink&#34; title=&#34;运算符优先级和结合性&#34;&gt;&lt;/a&gt;运算符优先级和结合性&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2025/01/image-20210407143809225.png&#34; alt=&#34;image-20210407143809225&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本数据类型&#34;&gt;&lt;a href=&#34;#基本数据类型&#34; class=&#34;headerlink&#34; title=&#34;基本数据类型&#34;&gt;&lt;/a&gt;基本数据类型&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2025/01/image-20210330191020703.png&#34; alt=&#34;image-20210330191020703&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;运算符优先级和结合性&#34;&gt;&lt;a href=&#34;#运算符优先级和结合性&#34; class=&#34;headerlink&#34; title=&#34;运算符优先级和结合性&#34;&gt;&lt;/a&gt;运算符优先级和结合性&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2025/01/image-20210407143809225.png&#34; alt=&#34;image-20210407143809225&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文件操作模式&#34;&gt;&lt;a href=&#34;#文件操作模式&#34; class=&#34;headerlink&#34; title=&#34;文件操作模式&#34;&gt;&lt;/a&gt;文件操作模式&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

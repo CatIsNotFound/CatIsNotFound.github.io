@@ -4,51 +4,56 @@
     <title>CatIsNotFound • Posts by &#34;switch&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-11-21T11:34:12.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/</id>
         <title>[Switch 分享] 如何实现 Youtube 观看自由</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/11/Switch-%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-Youtube-%E8%A7%82%E7%9C%8B%E8%87%AA%E7%94%B1/"/>
         <content type="html">&lt;h1 id=&#34;写在前面&#34;&gt;&lt;a href=&#34;#写在前面&#34; class=&#34;headerlink&#34; title=&#34;写在前面&#34;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;本文主要介绍如何下载并配置网络工具以及如何在 Switch 上流程看油管。如果觉得此篇有用，不如支持此篇文章(*^_^*)&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/cover.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/cover.png&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h1 id=&#34;准备&#34;&gt;&lt;a href=&#34;#准备&#34; class=&#34;headerlink&#34; title=&#34;准备&#34;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;事先说明：请务必拥有好的网络节点（最起码能够在电脑上访问谷歌）。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;首先，需要在网上下载以下几款软件：&lt;/p&gt;
 &lt;ul&gt;
@@ -62,40 +67,80 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 安装 WinPcap，（如果需要使用 Netch 来实现境外访问）；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;检测-DNS&#34;&gt;&lt;a href=&#34;#检测-DNS&#34; class=&#34;headerlink&#34; title=&#34;检测 DNS&#34;&gt;&lt;/a&gt;检测 DNS&lt;/h1&gt;&lt;p&gt;根据自己的网络环境，打开 DNSJumper，根据如下图的操作，选择【⚡ 最快 DNS】；&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/1.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/1.PNG&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;打开之后，点击如下图指示的按钮直接测试 DNS，最后筛选几个毫秒数最小的 DNS 即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/2.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/2.PNG&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：这一步在配置 Switch 网络设置时需要用到！&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;Netch-相关配置&#34;&gt;&lt;a href=&#34;#Netch-相关配置&#34; class=&#34;headerlink&#34; title=&#34;Netch 相关配置&#34;&gt;&lt;/a&gt;Netch 相关配置&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;阅前提醒：此步骤需要使用已有的网络节点才能实现网络加速！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;此部分教程适用于需要加速访问油管（▶ Youtube）&lt;/p&gt;
 &lt;h2 id=&#34;添加服务器&#34;&gt;&lt;a href=&#34;#添加服务器&#34; class=&#34;headerlink&#34; title=&#34;添加服务器&#34;&gt;&lt;/a&gt;添加服务器&lt;/h2&gt;&lt;h3 id=&#34;1-通过订阅添加&#34;&gt;&lt;a href=&#34;#1-通过订阅添加&#34; class=&#34;headerlink&#34; title=&#34;1. 通过订阅添加&#34;&gt;&lt;/a&gt;1. 通过订阅添加&lt;/h3&gt;&lt;p&gt;1️⃣ 首先，打开 Netch，根据如图所示点开【订阅】菜单。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/3.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/3.PNG&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;2️⃣ 按照如下图，填入信息，最后点击【修改】或者【添加】即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/4.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/4.PNG&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;3️⃣ 完成后，记得再次点击【订阅】菜单，并更新即可。&lt;/p&gt;
 &lt;h3 id=&#34;2-手动添加服务器&#34;&gt;&lt;a href=&#34;#2-手动添加服务器&#34; class=&#34;headerlink&#34; title=&#34;2. 手动添加服务器&#34;&gt;&lt;/a&gt;2. 手动添加服务器&lt;/h3&gt;&lt;p&gt;以 V2ray 为例：&lt;/p&gt;
 &lt;p&gt;1️⃣ 选择一个真延迟较低的服务器，（如果没有显示真延迟，先按下 &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;A&lt;/kbd&gt; 再按下 &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;R&lt;/kbd&gt; 以测试所有服务器 ）&lt;/p&gt;
 &lt;p&gt;2️⃣ 选中服务器后，按下 &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt; 复制；&lt;/p&gt;
 &lt;p&gt;3️⃣ 打开 Netch，按照如下图所示，直接粘贴即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/6.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/6.PNG&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;简要配置&#34;&gt;&lt;a href=&#34;#简要配置&#34; class=&#34;headerlink&#34; title=&#34;简要配置&#34;&gt;&lt;/a&gt;简要配置&lt;/h2&gt;&lt;p&gt;按照如下图所示的说明进行配置即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/5.PNG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/5.PNG&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;启动之后，你会得到如下信息：&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Listen on \Device\NPF_&amp;#123;B86808EE-659B-48E6-864D-DF596E5027B2&amp;#125; (Qualcomm Atheros QCA61x4A Wireless Network Adapter) [74:4c:a1:a4:29:d7]: 192.168.82.5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Use MTU 1400&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Publish for 10.6.0.2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Please set the network of your device which is going to be proxied with the following parameters:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ┌───────────────────────────┐&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ IP Address       10.6.0.1 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Mask        255.255.255.0 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ Gateway          10.6.0.2 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │───────────────────────────│&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    │ MTU                &amp;lt;=1400 │&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    └───────────────────────────┘&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Proxy 10.6.0.1/32 to 127.0.0.1:2801&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
 &lt;p&gt;其中的 IP 地址 &lt;code&gt;IP Address&lt;/code&gt; 、子网掩码 &lt;code&gt;Mask&lt;/code&gt;、网关 &lt;code&gt;Gateway&lt;/code&gt; 在之后配置 Switch 网络时会用到。&lt;/p&gt;
 &lt;h1 id=&#34;配置-Switch-网络设置&#34;&gt;&lt;a href=&#34;#配置-Switch-网络设置&#34; class=&#34;headerlink&#34; title=&#34;配置 Switch 网络设置&#34;&gt;&lt;/a&gt;配置 Switch 网络设置&lt;/h1&gt;&lt;p&gt;打开自己的 Switch 设置 → 互联网 → 互联网设置&lt;/p&gt;
 &lt;p&gt;选择任一 WIFI，然后选择【更改设置】，根据如下图设置 IP 地址以及 DNS 即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;如果实在找不到合适的 DNS 地址，可以尝试下如下图 : )&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/1121/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/1121/8.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;最后，不要忘记点击保存设置。&lt;/p&gt;
 &lt;h1 id=&#34;写在最后&#34;&gt;&lt;a href=&#34;#写在最后&#34; class=&#34;headerlink&#34; title=&#34;写在最后&#34;&gt;&lt;/a&gt;写在最后&lt;/h1&gt;&lt;p&gt;虽然这是已有的文章，但是还是希望通过此文章来帮助到正在阅读此文的你。(*^_^*)&lt;/p&gt;
 </content>
         <category term="Windows" />
         <category term="Switch" />
-        <category term="任天堂" />
         <category term="Youtube" />
+        <category term="任天堂" />
         <category term="油管" />
         <updated>2024-11-21T11:34:12.000Z</updated>
     </entry>
@@ -104,8 +149,18 @@
         <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
         <link rel="alternate" href="https://catisnotfound.github.io/2024/10/Switch-notes/"/>
         <content type="html">&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂&lt;strong&gt;早已停产&lt;/strong&gt;的限定外观主机（宝可梦剑盾）。见下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.la/images/2024/11/27/IMG_20241023_1008181.jpg&#34; alt=&#34;IMG20241023100818&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.la/images/2024/11/27/IMG_20241023_100835.jpg&#34; alt=&#34;IMG20241023100835&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://imgur.la/images/2024/11/27/IMG_20241023_1008181.jpg&#34;
+                      alt=&#34;IMG20241023100818&#34;
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://imgur.la/images/2024/11/27/IMG_20241023_100835.jpg&#34;
+                      alt=&#34;IMG20241023100835&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;是的，这正是我第一次在某鱼平台上淘到的游戏掌机。&lt;/p&gt;
 &lt;p&gt;不过，后来打算想直接卖了。（具体原因见后文）&lt;/p&gt;
 &lt;h1 id=&#34;关于我第一次游玩-Switch-的经历和感受&#34;&gt;&lt;a href=&#34;#关于我第一次游玩-Switch-的经历和感受&#34; class=&#34;headerlink&#34; title=&#34;关于我第一次游玩 Switch 的经历和感受&#34;&gt;&lt;/a&gt;关于我第一次游玩 Switch 的经历和感受&lt;/h1&gt;&lt;p&gt;这得从几个月说起了：大概是今年的 5-6 月份左右，我姐在某宝上购买了一台 Switch OLED 主机。当时，这是本人第一次看到且曾体验过主机游戏的一次经历。那时，我姐为了想玩上&lt;strong&gt;动森&lt;/strong&gt;（动物森友会），而特意买了这台全新的主机。&lt;/p&gt;
@@ -127,7 +182,12 @@
 &lt;p&gt;我的第一想法是在某宝上去搜 switch，大部分的 switch 对我来说，价格都是较为昂贵的😂。就连 switch lite 这款全新的掌机都要上千来块。&lt;/p&gt;
 &lt;p&gt;在此之后，我就前往了充满二手气息且价格低廉的平台——&lt;strong&gt;某鱼&lt;/strong&gt;🐟。在那里，虽然大多数看到的机型都不是全新的机型，但其便宜的价格成功地吸引了我。于是，在我大海捞针般地搜索自个儿能负担得起的那堆结果中，选择了 Switch Lite。是的，就是那款掌上主机。虽然它的屏幕尺寸比之前体验过的 OLED 主机要小了几倍，但它能成为我&lt;del class=&#34;mask&#34;&gt;每次上课摸鱼🐟必备的把玩工具(bushi)🤭&lt;/del&gt; 打发时间的娱乐🎮工具，再配合上我的外接蓝牙手柄，整个游戏体验瞬间就变得丝滑了起来🤭。而且，我也不再仅仅局限于玩💻端游或📱手游来打发空余时间。&lt;/p&gt;
 &lt;h1 id=&#34;我为何又打算卖出-Switch-？&#34;&gt;&lt;a href=&#34;#我为何又打算卖出-Switch-？&#34; class=&#34;headerlink&#34; title=&#34;我为何又打算卖出 Switch ？&#34;&gt;&lt;/a&gt;我为何又打算卖出 Switch ？&lt;/h1&gt;&lt;p&gt;关于这一点，本人主要是&lt;strong&gt;看上了今年早已发售的 Switch Lite 新外观——海拉鲁限定主机&lt;/strong&gt;（见下图），于是就有了想把主机卖掉的想法了（而且是急于想从某鱼上卖掉 Switch 的那种想法）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.la/images/2024/11/27/tb_image_share_1729772200807.jpg1.png&#34; alt=&#34;tb&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://imgur.la/images/2024/11/27/tb_image_share_1729772200807.jpg1.png&#34;
+                      alt=&#34;tb&#34;
+                &gt;&lt;/p&gt;
 &lt;p&gt;对于我看上它的原因，主要还是集中于几点：&lt;/p&gt;
 &lt;p&gt;首先，它的外观呈金色，机身背面的图案为海拉鲁的图案；&lt;/p&gt;
 &lt;p&gt;其次，买今年刚发售的新主机可以兑换一年的 Switch 会员😂😂😂😂；&lt;/p&gt;
@@ -139,8 +199,8 @@
 &lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
 </content>
         <category term="Switch" />
-        <category term="Nintendo" />
         <category term="任天堂" />
+        <category term="Nintendo" />
         <category term="游戏机" />
         <updated>2024-10-24T11:42:29.000Z</updated>
     </entry>

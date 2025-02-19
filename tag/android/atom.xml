@@ -4,45 +4,45 @@
     <title>CatIsNotFound • Posts by &#34;android&#34; tag</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-06-15T08:32:59.000Z</updated>
-    <category term="更新日志" />
-    <category term="Git" />
     <category term="Linux" />
     <category term="Ubuntu" />
-    <category term="桌面环境" />
     <category term="GNOME" />
-    <category term="Github" />
-    <category term="博客搭建" />
-    <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Windows" />
+    <category term="桌面环境" />
     <category term="新手向" />
-    <category term="Android" />
     <category term="Python" />
     <category term="学习笔记" />
+    <category term="博客搭建" />
+    <category term="软件安利" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="Hexo" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="Waline" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="更新日志" />
+    <category term="Switch" />
+    <category term="Youtube" />
+    <category term="任天堂" />
+    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="解题历程" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="Waline" />
-    <category term="答疑解惑" />
-    <category term="Switch" />
-    <category term="Nintendo" />
-    <category term="任天堂" />
-    <category term="游戏机" />
-    <category term="刷题" />
+    <category term="oh-my-zsh" />
+    <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
-    <category term="WSL" />
-    <category term="Youtube" />
-    <category term="油管" />
-    <category term="Jetbrain" />
-    <category term="CLion" />
-    <category term="oh-my-zsh" />
+    <category term="Nintendo" />
+    <category term="游戏机" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
     <entry>
         <id>https://catisnotfound.github.io/2024/06/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</id>
         <title>系统体验：虚拟机安装 Android x86 系统</title>
@@ -55,7 +55,12 @@
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;img loading=&#34;lazy&#34; src=&#34;https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg&#34; alt=&#34;Android x86&#34; width=&#34;500&#34; /&gt;
+      &lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg&#34;
+                      alt=&#34;Android x86&#34; width=&#34;500&#34; 
+                &gt;
 
 &lt;p&gt;这是一个将 Android 开源项目移植到 x86 平台的项目，以前称为“支持 android x86 的补丁托管”。 最初的计划是托管来自开源社区的 android x86 支持的不同补丁。在我们创建项目几个月后，我们发现我们可以做的不仅仅是托管补丁。因此，我们决定创建代码库 在不同的 x86 平台上提供支持，并设置 Git 服务器来托管它。&lt;/p&gt;
 
@@ -89,13 +94,33 @@
 &lt;p&gt;这里本文仅以 VMware 虚拟机的形式安装 Android x86 系统，具体步骤如下：&lt;/p&gt;
 &lt;h2 id=&#34;第一步：创建虚拟机&#34;&gt;&lt;a href=&#34;#第一步：创建虚拟机&#34; class=&#34;headerlink&#34; title=&#34;第一步：创建虚拟机&#34;&gt;&lt;/a&gt;第一步：创建虚拟机&lt;/h2&gt;&lt;p&gt;这里不过多阐述，这里直接按照提示设置个 2GB 内存，32GB 硬盘的虚拟机就可以了。（当然可以更改其它配置）&lt;/p&gt;
 &lt;p&gt;需要注意的是，在设置客户机操作系统时，选择 linux → 其他 Linux 5.x 内核 64 位&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/0.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/0.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;a href=&#34;#第二步：安装系统到本地硬盘&#34; class=&#34;headerlink&#34; title=&#34;第二步：安装系统到本地硬盘&#34;&gt;&lt;/a&gt;第二步：安装系统到本地硬盘&lt;/h2&gt;&lt;p&gt;启动虚拟机后，出现如下图所示，请选择【Installlation - Install Android-×86 to hard disk】。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下图的提示中，通过方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;，选择 &lt;code&gt;Create/Modify partitions&lt;/code&gt;，即创建一个分区。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在此步选择 &lt;code&gt;No&lt;/code&gt;，进入 cfdisk 工具。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下图操作中，请使用方向键 &lt;code&gt;↑&lt;/code&gt;、&lt;code&gt;↓&lt;/code&gt;、&lt;code&gt;←&lt;/code&gt;、&lt;code&gt;→&lt;/code&gt; 以及 &lt;code&gt;Enter&lt;/code&gt; 键，按照如下顺序依次设置：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意：这是针对虚拟机的分区设置&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -106,36 +131,101 @@
 &lt;li&gt;选择 &lt;code&gt;Quit&lt;/code&gt;，退出 cfdisk 工具。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;如下图为分区设置完成后的样子。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/4.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在分区设置完成后，请直接选择【sda1】分区以进行格式化分区。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/5.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下两张图中，首先先选择 &lt;code&gt;ext4&lt;/code&gt; 文件系统，然后再选择 &lt;code&gt;Yes&lt;/code&gt;，确认格式化。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/6.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/6.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待格式化完成后即可。&lt;/p&gt;
 &lt;p&gt;弹出如下图所示的提示时，选择 &lt;code&gt;Yes&lt;/code&gt;；&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/8.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在如下图的问题中，继续选择 &lt;code&gt;Yes&lt;/code&gt;，此步将会在 &lt;code&gt;/system&lt;/code&gt; 分区中安装 Grub 引导程序。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/9.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待安装完成后，选择 【Reboot】 重启虚拟机。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/10.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/10.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h2 id=&#34;第三步：配置启动项&#34;&gt;&lt;a href=&#34;#第三步：配置启动项&#34; class=&#34;headerlink&#34; title=&#34;第三步：配置启动项&#34;&gt;&lt;/a&gt;第三步：配置启动项&lt;/h2&gt;&lt;p&gt;当系统初次进入 Grub 程序时，请先选择第二项以进入 Debug 模式。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/11.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待进入 Debug 模式后，请多次按下 &lt;code&gt;Enter&lt;/code&gt; 键，这将会换行出现 &lt;code&gt;:/android # &lt;/code&gt; 的提示符。请输入如下命令以编辑菜单项。&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vi /mnt/grub/menu.lst&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/12.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/12.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;在编辑器中，找到如下图所示的标注，并在此处添加 &lt;code&gt;nomodeset&lt;/code&gt; 参数。&lt;/p&gt;
 &lt;p&gt;最后，请依次按下 &lt;code&gt;Esc&lt;/code&gt;，并输入 &lt;code&gt;:wq&lt;/code&gt; 最后再按下 &lt;code&gt;Enter&lt;/code&gt; 键即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/13.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/13.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;退出编辑器后，请直接按下键盘快捷键 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Delete&lt;/code&gt; 键，以直接重启。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;：在 VMware 虚拟机中，&lt;strong&gt;你需要按下 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Insert&lt;/code&gt; 键&lt;/strong&gt;才能避免在 Windows 中弹出安全选项。&lt;/p&gt;
 &lt;h2 id=&#34;第四步：完成初次配置&#34;&gt;&lt;a href=&#34;#第四步：完成初次配置&#34; class=&#34;headerlink&#34; title=&#34;第四步：完成初次配置&#34;&gt;&lt;/a&gt;第四步：完成初次配置&lt;/h2&gt;&lt;p&gt;当系统重启后，在 grub 启动菜单上选择第一项以启动 Android x86 系统。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/11.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/11.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;等待启动，就会出现如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/14.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/14.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;然后，根据如下图进行初次配置：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/15.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/15.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
   &lt;div class=&#34;note-large red&#34;&gt;
     &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
@@ -144,7 +234,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;配置 Wifi 界面时，请先跳过此步。否则 Google 将会自动检查更新。&lt;strong&gt;（在国内的网络环境下，这一步非常容易耗时）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/16.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/16.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -157,15 +252,30 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;在 Android x86 系统中，默认情况下是没有网络连接的，你需要手动转到【设置】→ 【WLAN】，并连接即可。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/17.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/17.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;如上图所示，若你使用的是 VMware 虚拟机，仅需连接虚拟 WIFI 即可上网。&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
 
 &lt;h1 id=&#34;桌面展示&#34;&gt;&lt;a href=&#34;#桌面展示&#34; class=&#34;headerlink&#34; title=&#34;桌面展示&#34;&gt;&lt;/a&gt;桌面展示&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，提供了两种主屏幕页面展示，一个是适用于平板电脑或手机的 🏠 &lt;i&gt;QuickStep&lt;/i&gt;，另一个则是适合电脑 PC 的任务栏。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/18.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0614/19.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/18.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0614/19.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;h1 id=&#34;键盘快捷键&#34;&gt;&lt;a href=&#34;#键盘快捷键&#34; class=&#34;headerlink&#34; title=&#34;键盘快捷键&#34;&gt;&lt;/a&gt;键盘快捷键&lt;/h1&gt;&lt;p&gt;在 Android x86 系统中，有一些常用的快捷键，如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; &lt;code&gt;Win&lt;/code&gt;：⚪ 回到桌面&lt;/p&gt;
@@ -215,7 +325,12 @@
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
       &lt;p&gt;WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，构建到预览预览博客的能力，同时包含GIT，终端，自定义 Shell 脚本等功能。 新建文章，标签管理，现代化的UI，可以提供更好博客编写的体验。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/banner.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/banner.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -239,7 +354,12 @@
   &lt;/div&gt;
 
 &lt;p&gt;接着，在选择文件夹时，&lt;strong&gt;请一定要新建一个空的文件夹&lt;/strong&gt;，否则无法拉取 Github 仓库项目。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/1.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;最后，请耐心等待加载，一般需要几分钟才能完成克隆。&lt;/p&gt;
 &lt;h2 id=&#34;写博客&#34;&gt;&lt;a href=&#34;#写博客&#34; class=&#34;headerlink&#34; title=&#34;写博客&#34;&gt;&lt;/a&gt;写博客&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1. 定位你的博客文章目录&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在写博客之前，若需要找到你之前所写的文章，请直接打开你的项目源目录，依次点击 &lt;code&gt;source&lt;/code&gt; → &lt;code&gt;_posts&lt;/code&gt; 文件夹，在此目录下，你将看到你之前所写的所有博客文章。&lt;/p&gt;
@@ -248,7 +368,12 @@
 &lt;p&gt;或者直接在终端下执行如下命令：&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;文章标题&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. 尽情写作吧！&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;好用的脚本文件&#34;&gt;&lt;a href=&#34;#好用的脚本文件&#34; class=&#34;headerlink&#34; title=&#34;好用的脚本文件&#34;&gt;&lt;/a&gt;好用的脚本文件&lt;/h2&gt;&lt;p&gt;为了方便编辑或更新博客，请根据自己的需求，在项目源目录的 &lt;code&gt;.scripts&lt;/code&gt; 文件夹下添加 Shell 脚本，以便减少不必要的操作。&lt;/p&gt;
 &lt;ul&gt;
@@ -274,8 +399,18 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;常见问题&#34;&gt;&lt;a href=&#34;#常见问题&#34; class=&#34;headerlink&#34; title=&#34;常见问题&#34;&gt;&lt;/a&gt;常见问题&lt;/h1&gt;&lt;div class=&#34;tabs&#34; id=&#34;tab-question_answer&#34;&gt;&lt;ul class=&#34;nav-tabs&#34;&gt;&lt;li class=&#34;tab active&#34;&gt;&lt;a class=&#34;#question_answer-1&#34;&gt;💡 常见问题一&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-2&#34;&gt;💡 常见问题二&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#question_answer-3&#34;&gt;💡 常见问题三&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&#34;tab-content&#34;&gt;&lt;div class=&#34;tab-pane active&#34; id=&#34;question_answer-1&#34;&gt;&lt;p&gt;Q：为什么拉取项目后，打开自建的文件夹仍是空的？&lt;/p&gt;
 &lt;p&gt;A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/6.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0513/7.jpg&#34;&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0513/6.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0513/7.jpg&#34;
+                     
+                &gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-2&#34;&gt;&lt;p&gt;Q：当我拉取完项目后，为什么提示找不到 Hexo 框架？&lt;/p&gt;
 &lt;p&gt;即使用【实时预览】时，直接出现 &lt;code&gt;The LivePreview is ended.&lt;/code&gt; 提示。&lt;/p&gt;
 &lt;p&gt;A：在解决此问题前，请先查看你的项目源目录下是否有 &lt;code&gt;node_modules&lt;/code&gt; 目录。一般情况下，当你备份博客存档时，&lt;code&gt;node_modules&lt;/code&gt; 目录往往不会被上传到 Github 仓库。&lt;/p&gt;
 &lt;p&gt;请直接从底部界面向上滑动，打开终端，并执行 &lt;code&gt;npm install&lt;/code&gt; 命令，等待安装依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;question_answer-3&#34;&gt;&lt;p&gt;Q：执行 &lt;code&gt;npm install&lt;/code&gt; 命令时报错？&lt;/p&gt;
@@ -287,17 +422,22 @@
 &lt;p&gt;这里假设你的 Github 仓库名为 &lt;code&gt;blogBackup&lt;/code&gt;，&lt;strong&gt;注意替换自己的 Github 仓库地址。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 一次性执行脚本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 可直接克隆博客存档到本地项目中&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 用于解决无法安装 Hexo 依赖问题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BLOG_DIR=&lt;span class=&#34;variable&#34;&gt;$PWD&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; ~&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ ! -d ~/blogBackup ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在克隆……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://github.com/yourname/blogBackup.git &lt;span class=&#34;comment&#34;&gt;# 此处需替换为你的 Github 仓库地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在合并……&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; blogBackup&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    git pull&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 无法拉取仓库！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [  ! -d node_modules ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;→ 正在安装依赖....&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; [ $? -ne 0 ];&lt;span class=&#34;keyword&#34;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;❌ 下载/安装依赖失败！&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;exit&lt;/span&gt; 255&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cp&lt;/span&gt; -r node_modules &lt;span class=&#34;variable&#34;&gt;$BLOG_DIR&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 注意：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 其中的第10行的git仓库地址替换为实际的仓库地址。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 若需要调试于终端之上，请执行：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# bash ./.scripts/install.sh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0527/3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2024/0527/3.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
 &lt;p&gt;完成脚本执行后，执行 &lt;code&gt;npm list&lt;/code&gt; 查看是否包含 &lt;code&gt;hexo&lt;/code&gt; 依赖即可。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr&gt;
 &lt;p&gt;以上是本篇文章的全部内容，若在使用过程中遇到问题，请在评论区留言。&lt;/p&gt;
 </content>
+        <category term="博客搭建" />
+        <category term="软件安利" />
         <category term="Git" />
         <category term="Github" />
-        <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>

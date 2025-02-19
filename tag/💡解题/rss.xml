@@ -7,52 +7,52 @@
         <language>zh-CN</language>
         <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
         <lastBuildDate>Thu, 12 Sep 2024 19:14:09 +0800</lastBuildDate>
-        <category>更新日志</category>
-        <category>Git</category>
         <category>Linux</category>
         <category>Ubuntu</category>
-        <category>桌面环境</category>
         <category>GNOME</category>
-        <category>Github</category>
-        <category>博客搭建</category>
-        <category>Hexo</category>
-        <category>软件安利</category>
-        <category>Windows</category>
+        <category>桌面环境</category>
         <category>新手向</category>
-        <category>Android</category>
         <category>Python</category>
         <category>学习笔记</category>
+        <category>博客搭建</category>
+        <category>软件安利</category>
+        <category>Git</category>
+        <category>Github</category>
+        <category>Hexo</category>
+        <category>Android</category>
+        <category>Windows</category>
+        <category>Waline</category>
+        <category>💡解题</category>
+        <category>C_and_Cpp</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>答疑解惑</category>
+        <category>更新日志</category>
+        <category>Switch</category>
+        <category>Youtube</category>
+        <category>任天堂</category>
+        <category>油管</category>
         <category>系统体验</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
-        <category>解题历程</category>
-        <category>💡解题</category>
-        <category>C_and_Cpp</category>
-        <category>Waline</category>
-        <category>答疑解惑</category>
-        <category>Switch</category>
-        <category>Nintendo</category>
-        <category>任天堂</category>
-        <category>游戏机</category>
-        <category>刷题</category>
+        <category>oh-my-zsh</category>
+        <category>WSL</category>
         <category>关于博客</category>
         <category>脚本</category>
-        <category>WSL</category>
-        <category>Youtube</category>
-        <category>油管</category>
-        <category>Jetbrain</category>
-        <category>CLion</category>
-        <category>oh-my-zsh</category>
+        <category>Nintendo</category>
+        <category>游戏机</category>
+        <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
-        <category>Codeforces</category>
+        <category>Jetbrain</category>
+        <category>CLion</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</guid>
             <title>[Solved] 赵神牛的游戏（解题历程）</title>
             <link>https://catisnotfound.github.io/2024/09/Solved-%E8%B5%B5%E7%A5%9E%E7%89%9B%E7%9A%84%E6%B8%B8%E6%88%8F/</link>
-            <category>解题历程</category>
             <category>💡解题</category>
             <category>C_and_Cpp</category>
+            <category>解题历程</category>
             <pubDate>Thu, 12 Sep 2024 19:14:09 +0800</pubDate>
             <description><![CDATA[ &lt;a class=&#34;button  center large&#34; href=&#34;https://www.luogu.com.cn/problem/P2006&#34; title=&#34;点击这里查看题目来源&#34;&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; 点击这里查看题目来源&lt;/a&gt;
 
@@ -114,7 +114,7 @@
             <pubDate>Thu, 12 Sep 2024 17:50:02 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;解题思路&#34;&gt;&lt;a href=&#34;#解题思路&#34; class=&#34;headerlink&#34; title=&#34;解题思路&#34;&gt;&lt;/a&gt;解题思路&lt;/h1&gt;&lt;p&gt;大致思路：你需要知道地图大小、火把个数、萤石个数，并初始化地图，然后根据用户输入的火把（或萤石）坐标，并根据对应的照亮范围点亮，剩余未点亮的部分（暗区）将出现怪物。&lt;/p&gt;
 &lt;p&gt;因此有了大致的流程图：&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;/images/2024/0912/01.png&#34; alt=&#34;流程图&#34; style=&#34;width: 50%;&#34;&gt;
+&lt;img loading=&#34;lazy&#34; lazyload=&#34;&#34; src=&#34;/images/loading.svg&#34; data-src=&#34;/images/2024/0912/01.png&#34; alt=&#34;流程图&#34; style=&#34;width: 50%;&#34;&gt;
 
 &lt;p&gt;💡 &lt;strong&gt;关于点亮范围的实现方法&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
