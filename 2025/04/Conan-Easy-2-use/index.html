@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="个人博客">
+    
+    <meta name="author" content="CatIsNotFound">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://CatIsNotFound.github.io/2025/04/conan-easy-2-use/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Conan 简要用法（包含 IDE）">
+<meta property="og:url" content="https://catisnotfound.github.io/2025/04/Conan-Easy-2-use/index.html">
+<meta property="og:site_name" content="CatIsNotFound">
+<meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://catisnotfound.github.io/images/redefine-og.webp">
+<meta property="article:published_time" content="2025-04-12T06:02:29.000Z">
+<meta property="article:modified_time" content="2025-04-12T12:08:43.171Z">
+<meta property="article:author" content="CatIsNotFound">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="C_and_Cpp">
+<meta property="article:tag" content="Conan">
+<meta property="article:tag" content="📦包管理工具">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://catisnotfound.github.io/images/redefine-og.webp">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/logo_B.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo_B.png">
+    <meta name="theme-color" content="#75caf8">
+    <link rel="shortcut icon" href="/images/logo_B.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Conan 简要用法（包含 IDE） | CatIsNotFound
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"catisnotfound.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["许久未更","偶尔一更","定期更新","随时更新","每周必更","频繁更新","每日必更"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"atom-one-light","dark":"atom-one-dark"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":true,"recommendation":{"enable":false,"title":"自动推荐","limit":3,"mobile_limit":3,"placeholder":null,"skip_dirs":[]}},"colors":{"primary":"#75caf8","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":true,"custom_message":"Now Loading..."},"open_graph":{"enable":true,"image":"/images/redefine-og.webp","description":"Hexo Theme Redefine, Redefine Your Hexo Journey."},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://files.codelife.cc/wallpaper/wallspic/2023061236f99k.jpeg","dark":"https://files.codelife.cc/wallpaper/wallspic/20231115l7d83g.png"},"title":"CatIsNotFound","subtitle":{"text":["Loading..."],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#101010","dark":"#d4d4d4"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/CatIsNotFound","instagram":null,"zhihu":"https://www.zhihu.com/people/catisnotfound","twitter":null,"email":null,"bilibili":"https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0"},"qrs":{"weixin":null,"fa-brands fa-qq":"/images/QQ.jpg"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":true,"version":"11.4.1"}},"version":"2.8.2","navbar":{"auto_hide":true,"color":{"left":"#5b91ba","right":"#9ee9fe","transparency":45},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"博客":{"icon":"fa-solid fa-books","submenus":{"📂 最新文章":"/archives","📚 所有类别":"/categories","🔖 所有标签":"/tags"}},"导航":{"icon":"fa-solid fa-map-location-dot","submenus":{"💬 动态":"/feed","💬 留言":"/comments","⚓ 资源小站":"/stations","🖼️ 壁纸库":"/masonry","🧭 仙人指路":"/links"}},"About":{"icon":"fa-solid fa-user","submenus":{"📝 关于博客":"/2024/06/about_me","🐙 Github":"https://github.com/CatIsNotFound","❓ 知乎":"https://www.zhihu.com/people/catisnotfound","📺 哔哩哔哩":"https://space.bilibili.com/1896645285"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"right","first_item":"info","announcement":"欢迎来到我的个人博客。请在任意文章下方的评论区留言哦~","show_on_mobile":true,"links":{"动态":{"icon":"fa-solid fa-comment-dots","path":"/feed"},"留言":{"icon":"fa-solid fa-comment-dots","path":"/comments"},"指路":{"icon":"fa-regular fa-location-arrow","path":"/links"},"壁纸":{"icon":"fa-solid fa-images","path":"/masonry"},"摸鱼":{"icon":"fa-solid fa-fish","path":"/moyu"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":4}},"footerStart":"2024/04/23 18:00:00"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Now Loading...
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="/images/logo_B.png" class="w-full h-full rounded-sm">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                CatIsNotFound
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-books fa-fw"></i>
+                                    博客
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/archives">
+                                                    📂 最新文章
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories">
+                                                    📚 所有类别
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/tags">
+                                                    🔖 所有标签
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-map-location-dot fa-fw"></i>
+                                    导航
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/feed">
+                                                    💬 动态
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/comments">
+                                                    💬 留言
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/stations">
+                                                    ⚓ 资源小站
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/masonry">
+                                                    🖼️ 壁纸库
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/links">
+                                                    🧭 仙人指路
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-user fa-fw"></i>
+                                    关于
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/2024/06/about_me">
+                                                    📝 关于博客
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">
+                                                    🐙 GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">
+                                                    ❓ 知乎
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">
+                                                    📺 哔哩哔哩
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-博客"
+                        >
+                            <span>
+                                博客
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-博客">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/archives">📂 最新文章</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories">📚 所有类别</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/tags">🔖 所有标签</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-导航"
+                        >
+                            <span>
+                                导航
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-导航">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/feed">💬 动态</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/comments">💬 留言</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/stations">⚓ 资源小站</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/masonry">🖼️ 壁纸库</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/links">🧭 仙人指路</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-About"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/2024/06/about_me">📝 关于博客</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/CatIsNotFound">🐙 GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://www.zhihu.com/people/catisnotfound">❓ 知乎</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://space.bilibili.com/1896645285">📺 哔哩哔哩</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/feed"
+                        >
+                            <span>动态</span>
+                            <i class="fa-solid fa-comment-dots fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/comments"
+                        >
+                            <span>留言</span>
+                            <i class="fa-solid fa-comment-dots fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/links"
+                        >
+                            <span>指路</span>
+                            <i class="fa-regular fa-location-arrow fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/masonry"
+                        >
+                            <span>壁纸</span>
+                            <i class="fa-solid fa-images fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/moyu"
+                        >
+                            <span>摸鱼</span>
+                            <i class="fa-solid fa-fish fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">41</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">11</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">36</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="/images/2025/04/conan-logo.png" alt="Conan 简要用法（包含 IDE）" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75" />
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">Conan 简要用法（包含 IDE）</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="https://avatars.githubusercontent.com/u/162785971?v=4">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">CatIsNotFound</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">随时更新</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-04-12 14:02:29</span>
+        <span class="mobile">2025-04-12 14:02:29</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2025-04-12 20:08:43</span>
+            <span class="mobile">2025-04-12 20:08:43</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">技术教程</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Python/">Python</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/C-and-Cpp/">C_and_Cpp</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Conan/">Conan</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%F0%9F%93%A6%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">📦包管理工具</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h1 id="写在最前"><a href="#写在最前" class="headerlink" title="写在最前"></a>写在最前</h1><blockquote>
+<p><strong>简介</strong><br>Conan 是一个流行的跨平台 C++ 包管理器。它可以帮助我们在不同的操作系统和环境中管理和共享C++包，让我们更轻松、更高效地开发 C++ 应用。</p>
+</blockquote>
+<p>本文主要介绍了 Conan 2.x 版本的简要用法以及如何在项目中使用 Conan 导入第三方库。</p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="PIP-包管理下载【非常建议👍】"><a href="#PIP-包管理下载【非常建议👍】" class="headerlink" title="PIP 包管理下载【非常建议👍】"></a>PIP 包管理下载【非常建议👍】</h2><p>关于 Conan 包管理器，这里<strong>非常值得用 Python PIP 的方式安装</strong>。你仅需执行以下命令即可：</p>
+<div class="code-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install conan</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>注意：在 Windows 系统下，若要使用 <code>pip</code> 指令安装 Conan，请先安装 Python3！</strong></p>
+
+  <div class="note-large yellow">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-warning"></i><p>Linux 下需要注意</p>
+
+    </div>
+    <div class="notel-content">
+      <p>关于 Linux 系统，即使预装了 Python，但也可能还需要安装 <code>python3-pip</code> 软件包才能使用 <code>pip3</code> 命令。具体命令如下：</p>
+<p><strong>Debian&#x2F;Ubuntu 系</strong></p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/conan-io/conan/releases/download/2.15.0/conan-2.15.0-amd64.deb <span class="comment"># 这里的 2.15.0 可以替换为其它最新的版本号</span></span><br><span class="line"><span class="built_in">sudo</span> dpkg -i conan*.deb</span><br></pre></td></tr></table></figure></div>
+<p><em>注意：Debian&#x2F;Ubuntu 系下需要通过<a href="#%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD">安装包下载</a>的方式进行安装！</em></p>
+<p><strong>Fedora&#x2F;Redhat 系</strong></p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> dnf install python3-pip -y</span><br></pre></td></tr></table></figure></div>
+<p><em>注意：Redhat 7及以下版本可能使用的是 YUM 包管理器，因此需要将 <code>dnf</code> 替换成 <code>yum</code> 才可用。</em> </p>
+<p><strong>Arch&#x2F;Majaro 系</strong></p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S conan</span><br></pre></td></tr></table></figure></div>
+<p><em>注意：请确保你的 Arch&#x2F;Majaro 系已经安装了 <code>yay</code> 包管理工具！</em></p>
+
+    </div>
+  </div>
+
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-book"></i><p>安装事项（引用自官方文档）</p>
+
+    </div>
+    <div class="notel-content">
+      <p>请仔细阅读：</p>
+<ul>
+<li>请确保您的 pip 安装与 Python (&gt;&#x3D; 3.6) 版本相匹配。</li>
+<li>在 Linux 上，您可能需要 sudo 权限才能全局安装 Conan。</li>
+<li>我们强烈建议使用 virtualenvs（virtualenvwrapper 非常好用）来处理与 Python 有关的一切（请查看 <a class="link"   target="_blank" rel="noopener" href="https://virtualenvwrapper.readthedocs.io/en/stable/" >https://virtualenvwrapper.readthedocs.io/en/stable/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 或 Windows 上的 <a class="link"   target="_blank" rel="noopener" href="https://pypi.org/project/virtualenvwrapper-win" >https://pypi.org/project/virtualenvwrapper-win<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> ）。对于 Python 3，也可以使用内置模块（请查看 <a class="link"   target="_blank" rel="noopener" href="https://docs.python.org/3/library/venv.html" >https://docs.python.org/3/library/venv.html<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> ）。如果不使用 virtualenv，conan 依赖项可能会与先前存在的依赖项发生冲突，尤其是当您将 Python 用于其他用途时。</li>
+<li>在 macOS 上，尤其是可能有系统完整性保护的最新版本，pip 可能会失败。请尝试使用 <code>virtualenvs</code>，或使用 <code>pip install --user conan</code> 将其安装到 Python 用户的安装目录中。</li>
+<li>有些 Linux 发行版（如 Linux Mint）要求在安装后重启（shell 重启，如果不够，则注销&#x2F;系统），因此 Conan 会在路径中找到。</li>
+</ul>
+
+    </div>
+  </div>
+
+<h2 id="安装包下载"><a href="#安装包下载" class="headerlink" title="安装包下载"></a>安装包下载</h2><p>如果没有安装 Python，请直接通过 <a class="link"   target="_blank" rel="noopener" href="https://github.com/conan-io/conan/releases" >github.com<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 下载对应操作系统的安装包即可。</p>
+<h2 id="验证方法"><a href="#验证方法" class="headerlink" title="验证方法"></a>验证方法</h2><p>如果要检查是否已经安装了 Conan，请直接执行如下命令即可：</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conan --<span class="built_in">help</span></span><br><span class="line">conan --version</span><br></pre></td></tr></table></figure></div>
+
+<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><h2 id="必要配置"><a href="#必要配置" class="headerlink" title="必要配置"></a>必要配置</h2><h3 id="修改必要目录"><a href="#修改必要目录" class="headerlink" title="修改必要目录"></a>修改必要目录</h3><p>以 Windows 系统为例，Windows 系统在默认情况下会将所有缓存下载及配置文件存放入 <code>C:\Users\&#123;你的用户名&#125;\.conan2</code>。为了尽量减少 C 盘存储空间的压力，建议直接添加必要的环境变量以达到修改配置缓存目录的目的。具体操作如下：</p>
+<ol>
+<li><p>在电脑上新建自定义目录（这里以 <code>D:/conan</code> 目录为例）</p>
+</li>
+<li><p>在自己的电脑上按下 <kbd>Windows</kbd>+<kbd>X</kbd> 快捷键，按下 <code>Y</code> 以选择<strong>系统</strong>。在系统信息一栏中找到<strong>高级系统设置</strong>。<br>在弹出的窗口中按照如下图指示添加两个用户变量 <code>CONAN_HOME</code> 和 <code>CONAN_USER_HOME</code> 即可：<br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/env_config.jpg"
+                     
+                ></p>
+</li>
+<li><p>保存之后，打开自己的命令行，执行如下命令，以查看是否成功修改了自定义路径。</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conan config home</span><br></pre></td></tr></table></figure></div></li>
+<li><p>当输出为你的自定义目录即可完成修改。</p>
+</li>
+</ol>
+<h3 id="生成自己的配置文件"><a href="#生成自己的配置文件" class="headerlink" title="生成自己的配置文件"></a>生成自己的配置文件</h3><p>在命令行下，执行如下命令，Conan 会自动生成一份配置文件。</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conan profile detect</span><br></pre></td></tr></table></figure></div>
+<p>若已经生成了配置文件，执行如下命令即可显示当前主机的配置文件。</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conan profile show</span><br></pre></td></tr></table></figure></div>
+
+<div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">;主机配置文件</span></span><br><span class="line">Host profile:</span><br><span class="line"><span class="section">[settings]</span></span><br><span class="line"><span class="attr">arch</span>=x<span class="number">86_64</span>                   <span class="comment">;系统架构</span></span><br><span class="line"><span class="attr">build_type</span>=Release            <span class="comment">;构建类型：Debug/Release</span></span><br><span class="line"><span class="attr">compiler</span>=msvc                 <span class="comment">;编译器: msvc/gcc</span></span><br><span class="line"><span class="attr">compiler.cppstd</span>=<span class="number">17</span>            <span class="comment">;C++ 标准</span></span><br><span class="line"><span class="attr">compiler.runtime</span>=dynamic      <span class="comment">;编译器运行时库</span></span><br><span class="line"><span class="attr">compiler.runtime_type</span>=Release <span class="comment">;编译器运行时类型</span></span><br><span class="line"><span class="attr">compiler.version</span>=<span class="number">194</span>          <span class="comment">;编译器版本</span></span><br><span class="line"><span class="attr">os</span>=Windows                    <span class="comment">;操作系统</span></span><br><span class="line"></span><br><span class="line"><span class="comment">;构建机配置文件</span></span><br><span class="line">Build profile:</span><br><span class="line">....</span><br></pre></td></tr></table></figure></div>
+
+<p>关于配置文件的位置，一般情况下，通过命令行即可查看配置文件所在的路径：</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conan profile list <span class="comment"># 获取所有的配置文件名</span></span><br></pre></td></tr></table></figure></div>
+
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conan profile path default <span class="comment"># default：配置文件名</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="示例：使用-Conan-导入第三方库"><a href="#示例：使用-Conan-导入第三方库" class="headerlink" title="示例：使用 Conan 导入第三方库"></a>示例：使用 Conan 导入第三方库</h2><p>在自己的 C++ 项目里，如果需要使用 Conan 包管理器来实现导入第三方库，需要做以下几个步骤：</p>
+<h3 id="创建新的-C-项目"><a href="#创建新的-C-项目" class="headerlink" title="创建新的 C++ 项目"></a>创建新的 C++ 项目</h3><p>举个例子：新建一个项目（名为 <code>MyJson</code>），并在项目里导入 <code>Json</code> 第三方库，其对应的 <code>CMakeLists.txt</code> 文件如下：</p>
+<div class="code-container" data-rel="Cmake"><figure class="iseeu highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">3.30</span>)  </span><br><span class="line"><span class="keyword">project</span>(MyJson)  </span><br><span class="line">  </span><br><span class="line"><span class="keyword">find_package</span>(nlohmann_json REQUIRED)  <span class="comment"># 在项目中导入所需的第三方包</span></span><br><span class="line">  </span><br><span class="line"><span class="keyword">set</span>(CMAKE_CXX_STANDARD <span class="number">17</span>)  </span><br><span class="line"><span class="keyword">add_executable</span>(MyJson main.cpp)  </span><br><span class="line"></span><br><span class="line"><span class="keyword">target_link_libraries</span>(MyJson nlohmann_json::nlohmann_json)</span><br></pre></td></tr></table></figure></div>
+
+<p>在 <code>main.cpp</code> 文件下，编辑以下内容：</p>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;nlohmann/json.hpp&gt;</span>  </span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span>  </span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">auto</span> my_json = <span class="string">R&quot;(  </span></span><br><span class="line"><span class="string">	  &#123;  </span></span><br><span class="line"><span class="string">	    &quot;host&quot;: &quot;127.0.0.1&quot;,    </span></span><br><span class="line"><span class="string">	    &quot;port&quot;: 8000</span></span><br><span class="line"><span class="string">	  &#125;</span></span><br><span class="line"><span class="string">	)&quot;</span>;  </span><br><span class="line">    <span class="keyword">auto</span> parse = nlohmann::json::<span class="built_in">parse</span>(my_json);  </span><br><span class="line">    std::cout &lt;&lt; <span class="string">&quot;Your host: &quot;</span> &lt;&lt; parse[<span class="string">&quot;host&quot;</span>].<span class="built_in">get</span>&lt;std::string&gt;() &lt;&lt; std::endl;  </span><br><span class="line">    std::cout &lt;&lt; <span class="string">&quot;Your port: &quot;</span> &lt;&lt; parse[<span class="string">&quot;port&quot;</span>].<span class="built_in">get</span>&lt;<span class="type">int</span>&gt;() &lt;&lt; std::endl;  </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="编写-Conanfile-文件"><a href="#编写-Conanfile-文件" class="headerlink" title="编写 Conanfile 文件"></a>编写 Conanfile 文件</h3><p>为了添加所需要的第三方库，你需要在项目源目录下新建 <code>conanfile.txt</code> 文件。</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[requires]</span><br><span class="line">nlohmann_json/3.11.3</span><br><span class="line">[generators]</span><br><span class="line">CMakeDeps</span><br><span class="line">CMakeToolchain</span><br><span class="line">[layout]</span><br><span class="line">cmake_layout</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="下载与安装第三方库"><a href="#下载与安装第三方库" class="headerlink" title="下载与安装第三方库"></a>下载与安装第三方库</h3><p>接下来，在自己的项目源目录下打开命令行，下载并安装需要的包。</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conan install . --build=missing [--output-folder=build]</span><br></pre></td></tr></table></figure></div>
+
+<p>这里的 <code>--build=missing</code> 用于检查 Conan 是否安装第三方库，（若没有，则自动下载安装）<br>这里的 <code>--output-folder</code> （可选参数）为输出的路径，这里默认为 <code>build</code> 目录。</p>
+<h3 id="编译项目"><a href="#编译项目" class="headerlink" title="编译项目"></a>编译项目</h3><p>在命令行下执行如下：</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> build</span><br><span class="line"><span class="comment"># Windows 下执行：</span></span><br><span class="line">cmake .. -DCMAKE_TOOLCHAIN_FILE=<span class="string">&quot;./generators/conan_toolchain.cmake&quot;</span></span><br><span class="line"><span class="comment"># Linux 下执行：</span></span><br><span class="line">cmake .. -DCMAKE_TOOLCHAIN_FILE=<span class="string">&quot;./Release/generators/conan_toolchain.cmake&quot;</span> -DCMAKE_BUILD_TYPE=Release</span><br><span class="line"><span class="comment"># 其它 OS 可能未测试</span></span><br></pre></td></tr></table></figure></div>
+
+<p>当能正常看到以下提示时，表示构建已完成。</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">....</span><br><span class="line">-- Conan: Target declared &#x27;nlohmann_json::nlohmann_json&#x27;</span><br><span class="line">-- Configuring done (5.6s)</span><br><span class="line">-- Generating done (0.0s)</span><br><span class="line">-- Build files have been written to: D:/MyJson/build</span><br></pre></td></tr></table></figure></div>
+
+<p>假如出现以下报错（找不到第三方库）的情况：</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">CMake Error at CMakeLists.txt:4 (find_package):</span><br><span class="line">  By not providing &quot;Findnlohmann_json.cmake&quot; in CMAKE_MODULE_PATH this</span><br><span class="line">  project has asked CMake to find a package configuration file provided by</span><br><span class="line">  &quot;nlohmann_json&quot;, but CMake did not find one.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    nlohmann_jsonConfig.cmake</span><br><span class="line">    nlohmann_json-config.cmake</span><br><span class="line"></span><br><span class="line">  Add the installation prefix of &quot;nlohmann_json&quot; to CMAKE_PREFIX_PATH or set</span><br><span class="line">  &quot;nlohmann_json&quot; provides a separate development package or SDK, be sure it</span><br><span class="line">  has been installed.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- Configuring incomplete, errors occurred!</span><br></pre></td></tr></table></figure></div>
+
+<p>建议直接将原有的 <code>build</code> 目录删除，并再次在<strong>项目源目录下</strong>执行以下命令以再次生成 <code>build</code> 目录即可。</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd ..</span><br><span class="line"># rm -rf build # Linux / Mac 下执行</span><br><span class="line"># rm build -R  # Windows 下执行</span><br><span class="line">conan install . --build=missing</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="运行程序"><a href="#运行程序" class="headerlink" title="运行程序"></a>运行程序</h3><p>完成上述构建之后，在 <code>build</code> 目录下执行以下命令以编译程序即可。</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cmake --build . --config Release</span><br></pre></td></tr></table></figure></div>
+
+<p>在 Windows 系统下，如果你使用的是 MSVC 编译器，直接执行如下：</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./Release/MyJson.exe</span><br></pre></td></tr></table></figure></div>
+
+<p>在 Linux 系统下，执行：</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./MyJson</span><br></pre></td></tr></table></figure></div>
+
+<p>若能正常显示如下输出结果即可。</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Your host: 127.0.0.1</span><br><span class="line">Your port: 8000</span><br></pre></td></tr></table></figure></div>
+
+
+<h1 id="IDE-工具下使用-Conan"><a href="#IDE-工具下使用-Conan" class="headerlink" title="IDE 工具下使用 Conan"></a>IDE 工具下使用 Conan</h1><p>以目前作者的了解，对于不同的 IDE，有不同的安装与编译方式，这里讲以下几种：</p>
+<h2 id="Visual-Studio"><a href="#Visual-Studio" class="headerlink" title="Visual Studio"></a>Visual Studio</h2><h3 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1. 安装插件"></a>1. 安装插件</h3><p>在菜单栏中选择 <strong>扩展 → 管理扩展</strong>，并在搜索栏中搜索 Conan，按照如下图安装即可。</p>
+<p><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_vs.jpg"
+                     
+                ></p>
+<p>当弹出以下窗口时，点击 【Modify】进行安装，<strong>在此安装期间，请关闭 IDE！</strong><br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_vs_2.jpg"
+                     
+                ><br>当安装已经完成后，再次打开 IDE 即可。</p>
+<h3 id="2-添加第三方库"><a href="#2-添加第三方库" class="headerlink" title="2. 添加第三方库"></a>2. 添加第三方库</h3><p>按如下图所示，在菜单栏中打开 Conan 软件包管理窗口。</p>
+<p><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_vs_3.jpg"
+                     
+                ><br>再按照如下图所示，点击 【设置】图标，选择使用系统 Conan 即可。<br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_vs_4.jpg"
+                     
+                ></p>
+<p>完成设置后，打开自己的项目，在 Conan 软件包管理窗口下，搜索要安装入项目的软件包并添加项目即可。<br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_vs_5.jpg"
+                     
+                ></p>
+<h3 id="3-使用"><a href="#3-使用" class="headerlink" title="3. 使用"></a>3. 使用</h3><p>关于使用，每次添加或删除，你需要在自己的项目中，</p>
+<ul>
+<li>先执行菜单栏中的<strong>生成 → 清理解决方案</strong>。</li>
+<li>再执行菜单栏中的<strong>生成 → 生成解决方案</strong>。</li>
+<li>最后尝试调试你的项目即可。</li>
+</ul>
+<p><strong>注意：Visual Studio 下只支持使用 MSBuild 类型的项目，不支持使用 CMake 类型的项目。</strong><br><del class="mask">（此处别问为什么？是插件告诉我的 (&#x2F;_ \) ）</del></p>
+<h2 id="Jetbrain-CLion"><a href="#Jetbrain-CLion" class="headerlink" title="Jetbrain CLion"></a>Jetbrain CLion</h2><h3 id="1-安装插件-1"><a href="#1-安装插件-1" class="headerlink" title="1. 安装插件"></a>1. 安装插件</h3><p>若要在 CLion 下使用 Conan，请直接下载并安装插件 Conan。具体点击 <strong>文件 → 设置 → 插件</strong></p>
+<p>安装插件后，请直接重启 IDE。</p>
+<h3 id="2-添加所需的第三方库"><a href="#2-添加所需的第三方库" class="headerlink" title="2. 添加所需的第三方库"></a>2. 添加所需的第三方库</h3><p>按照如下图所示的操作进行：</p>
+<p><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_clion.jpg"
+                     
+                ><br><em>需要注意：这里的项目必须要包含 <code>conan_provider.cmake</code> 文件（自动生成的文件），否则 CLion 将无法正常编译！</em><br>具体方式，即点击如下图的刷新按钮，文件会自动生成。如果没有反应，请反复重试或直接重启 IDE。<br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_clion_2.jpg"
+                     
+                ><br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_clion_3.jpg"
+                     
+                ><br>关于安装，请直接在搜索栏中搜索要安装的第三方库，并点击 【Use in Project】 即可。<br><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_clion_4.jpg"
+                     
+                ></p>
+<h3 id="3-使用-1"><a href="#3-使用-1" class="headerlink" title="3. 使用"></a>3. 使用</h3><p>安装完对应的第三方库， 你还需要在自己的项目里（即：<code>CMakeLists.txt</code> 文件）导入第三方库才能使用，具体见上文中的[示例：创建新的 C++ 项目](#创建新的 C++ 项目) 。</p>
+<h2 id="Qt-Creator"><a href="#Qt-Creator" class="headerlink" title="Qt Creator"></a>Qt Creator</h2><h3 id="1-激活插件"><a href="#1-激活插件" class="headerlink" title="1. 激活插件"></a>1. 激活插件</h3><p>在左边的插件，搜索 Conan 并激活，如下图所示：</p>
+<p><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_qt.jpg"
+                     
+                ></p>
+<h3 id="2-配置"><a href="#2-配置" class="headerlink" title="2. 配置"></a>2. 配置</h3><p>点击你的项目，在如下图操作中添加构建步骤，选择 <code>conan install</code> 选项。</p>
+<p><img loading="lazy"  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2025/04/conan_qt_2.jpg"
+                     
+                ></p>
+<p><strong>需要注意的是：Qt Creator 对于每一个项目，你都需要在项目源目录下单独新建一个 <code>conanfile.txt</code> 或 <code>conanfile.py</code> 文件才能正确编译。否则会提示找不到文件！</strong></p>
+<h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><p>Conan 官方文档说明如下：</p>
+<ul>
+<li><a class="link"   target="_blank" rel="noopener" href="https://docs.conan.io/2/installation.html" >Install — conan 2.15.0 documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://docs.conan.io/2/tutorial/consuming_packages/build_simple_cmake_project.html" >Build a simple CMake project using Conan — conan 2.15.0 documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+</ul>
+<p>有关于 IDE 配置 Conan 的官方文档如下：</p>
+<ul>
+<li><a class="link"   target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=conan-io.conan-vs-extension" >Conan Extension for Visual Studio - Visual Studio Marketplace<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.jetbrains.com/help/clion/conan-plugin.html" >Conan plugin | CLion Documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://doc.qt.io/qtcreator/creator-project-conan.html" >Conan Package Manager | Qt Creator Documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+</ul>
+
+		</div>
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> Conan 简要用法（包含 IDE）</li>
+        <li><strong>作者:</strong> CatIsNotFound</li>
+        <li><strong>创建于
+                :</strong> 2025-04-12 14:02:29</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2025-04-12 20:08:43
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://catisnotfound.github.io/2025/04/Conan-Easy-2-use/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Python/">#Python</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/C-and-Cpp/">#C_and_Cpp</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Conan/">#Conan</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%F0%9F%93%A6%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">#📦包管理工具</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2025/01/Jetbrain-CLion-Installation-and-configuration/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">[超详细] CLion 安装与配置</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="giscus-container"></div>
+    <script data-swup-reload-script defer>
+        async function loadGiscus() {
+            const giscusConfig = {
+                'src': 'https://giscus.app/client.js',
+                'data-repo': 'CatIsNotFound/Blogs-Misc',
+                'data-repo-id': 'R_kgDONYwUKA',
+                'data-category': 'Announcements',
+                'data-category-id': 'DIC_kwDONYwUKM4Ck4ss',
+                'data-mapping': 'title',
+                'data-strict': '0',
+                'data-reactions-enabled': '1',
+                'data-emit-metadata': '1',
+                'data-theme': 'preferred_color_scheme',
+                'data-lang': 'zh-CN',
+                'data-input-position': 'top',
+                'data-loading': 'lazy',
+                'crossorigin': 'anonymous',
+                'async': true
+            }
+            const giscusScript = document.createElement('script');
+            for (const key in giscusConfig) {
+                giscusScript.setAttribute(key, giscusConfig[key]);
+            }
+            document.getElementById('giscus-container').appendChild(giscusScript);
+        }
+        if ('true') {
+            let loadGiscusTimeout = setTimeout(() => {
+                loadGiscus();
+                clearTimeout(loadGiscusTimeout);
+            }, 1000);
+        } else {
+            document.addEventListener('DOMContentLoaded', loadGiscus);
+        }
+    </script>
+
+
+        
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">Conan 简要用法（包含 IDE）</div>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D"><span class="nav-text">写在最前</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-text">安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#PIP-%E5%8C%85%E7%AE%A1%E7%90%86%E4%B8%8B%E8%BD%BD%E3%80%90%E9%9D%9E%E5%B8%B8%E5%BB%BA%E8%AE%AE%F0%9F%91%8D%E3%80%91"><span class="nav-text">PIP 包管理下载【非常建议👍】</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD"><span class="nav-text">安装包下载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%AA%8C%E8%AF%81%E6%96%B9%E6%B3%95"><span class="nav-text">验证方法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-text">使用方法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BF%85%E8%A6%81%E9%85%8D%E7%BD%AE"><span class="nav-text">必要配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%BF%85%E8%A6%81%E7%9B%AE%E5%BD%95"><span class="nav-text">修改必要目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-text">生成自己的配置文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A%E4%BD%BF%E7%94%A8-Conan-%E5%AF%BC%E5%85%A5%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93"><span class="nav-text">示例：使用 Conan 导入第三方库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84-C-%E9%A1%B9%E7%9B%AE"><span class="nav-text">创建新的 C++ 项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%96%E5%86%99-Conanfile-%E6%96%87%E4%BB%B6"><span class="nav-text">编写 Conanfile 文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93"><span class="nav-text">下载与安装第三方库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%96%E8%AF%91%E9%A1%B9%E7%9B%AE"><span class="nav-text">编译项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F"><span class="nav-text">运行程序</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#IDE-%E5%B7%A5%E5%85%B7%E4%B8%8B%E4%BD%BF%E7%94%A8-Conan"><span class="nav-text">IDE 工具下使用 Conan</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Visual-Studio"><span class="nav-text">Visual Studio</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6"><span class="nav-text">1. 安装插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93"><span class="nav-text">2. 添加第三方库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%BD%BF%E7%94%A8"><span class="nav-text">3. 使用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Jetbrain-CLion"><span class="nav-text">Jetbrain CLion</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6-1"><span class="nav-text">1. 安装插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%B7%BB%E5%8A%A0%E6%89%80%E9%9C%80%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93"><span class="nav-text">2. 添加所需的第三方库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%BD%BF%E7%94%A8-1"><span class="nav-text">3. 使用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Qt-Creator"><span class="nav-text">Qt Creator</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%BF%80%E6%B4%BB%E6%8F%92%E4%BB%B6"><span class="nav-text">1. 激活插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E9%85%8D%E7%BD%AE"><span class="nav-text">2. 配置</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-text">参考链接</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">CatIsNotFound</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 36 篇文章
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src="">
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+    
+        
+<script src="/js/build/libs/mermaid.min.js"></script>
+
+    
+    
+<script src="/js/build/plugins/mermaid.js"></script>
+
+
+
+
+    
+<script src="/js/build/libs/minimasonry.min.js"></script>
+
+    
+<script src="/js/build/plugins/masonry.js" type="module"></script>
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script=""></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script=""></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+<script>
+    if(!('loading' in HTMLImageElement.prototype)) {
+        const srp = document.createElement('script');
+        srp.src = 'https://cdn.jsdelivr.net/npm/lazysizes@5.1.1/lazysizes.min.js';
+        document.body.append(srp);
+        const imgs = document.querySelectorAll('img');
+        imgs.forEach(el => {
+            el.setAttribute('data-src', el.getAttribute('src'));
+            el.removeAttribute('src');
+            el.classList.add('lazyload');
+    })
+}
+</script></body>
+
+</html>

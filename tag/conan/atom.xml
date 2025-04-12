@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CatIsNotFound.github.io</id>
+    <title>CatIsNotFound • Posts by &#34;conan&#34; tag</title>
+    <link href="https://CatIsNotFound.github.io" />
+    <updated>2025-04-12T06:02:29.000Z</updated>
+    <category term="Linux" />
+    <category term="Ubuntu" />
+    <category term="GNOME" />
+    <category term="桌面环境" />
+    <category term="新手向" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="更新日志" />
+    <category term="Git" />
+    <category term="Github" />
+    <category term="博客搭建" />
+    <category term="Hexo" />
+    <category term="软件安利" />
+    <category term="Android" />
+    <category term="Windows" />
+    <category term="系统体验" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
+    <category term="Waline" />
+    <category term="WSL" />
+    <category term="关于博客" />
+    <category term="脚本" />
+    <category term="Switch" />
+    <category term="Nintendo" />
+    <category term="任天堂" />
+    <category term="游戏机" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="Youtube" />
+    <category term="油管" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="oh-my-zsh" />
+    <category term="Conan" />
+    <category term="📦包管理工具" />
+    <category term="记录日常" />
+    <category term="年终总结" />
+    <category term="Codeforces" />
+    <category term="Jetbrain" />
+    <category term="CLion" />
+    <entry>
+        <id>https://catisnotfound.github.io/2025/04/Conan-Easy-2-use/</id>
+        <title>Conan 简要用法（包含 IDE）</title>
+        <link rel="alternate" href="https://catisnotfound.github.io/2025/04/Conan-Easy-2-use/"/>
+        <content type="html">&lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;&lt;br&gt;Conan 是一个流行的跨平台 C++ 包管理器。它可以帮助我们在不同的操作系统和环境中管理和共享C++包，让我们更轻松、更高效地开发 C++ 应用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文主要介绍了 Conan 2.x 版本的简要用法以及如何在项目中使用 Conan 导入第三方库。&lt;/p&gt;
+&lt;h1 id=&#34;安装&#34;&gt;&lt;a href=&#34;#安装&#34; class=&#34;headerlink&#34; title=&#34;安装&#34;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;h2 id=&#34;PIP-包管理下载【非常建议👍】&#34;&gt;&lt;a href=&#34;#PIP-包管理下载【非常建议👍】&#34; class=&#34;headerlink&#34; title=&#34;PIP 包管理下载【非常建议👍】&#34;&gt;&lt;/a&gt;PIP 包管理下载【非常建议👍】&lt;/h2&gt;&lt;p&gt;关于 Conan 包管理器，这里&lt;strong&gt;非常值得用 Python PIP 的方式安装&lt;/strong&gt;。你仅需执行以下命令即可：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Shell&#34;&gt;&lt;figure class=&#34;iseeu highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pip3 install conan&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：在 Windows 系统下，若要使用 &lt;code&gt;pip&lt;/code&gt; 指令安装 Conan，请先安装 Python3！&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large yellow&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-warning&#34;&gt;&lt;/i&gt;&lt;p&gt;Linux 下需要注意&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;关于 Linux 系统，即使预装了 Python，但也可能还需要安装 &lt;code&gt;python3-pip&lt;/code&gt; 软件包才能使用 &lt;code&gt;pip3&lt;/code&gt; 命令。具体命令如下：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Debian&amp;#x2F;Ubuntu 系&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget https://github.com/conan-io/conan/releases/download/2.15.0/conan-2.15.0-amd64.deb &lt;span class=&#34;comment&#34;&gt;# 这里的 2.15.0 可以替换为其它最新的版本号&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; dpkg -i conan*.deb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;注意：Debian&amp;#x2F;Ubuntu 系下需要通过&lt;a href=&#34;#%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;安装包下载&lt;/a&gt;的方式进行安装！&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fedora&amp;#x2F;Redhat 系&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; dnf install python3-pip -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;注意：Redhat 7及以下版本可能使用的是 YUM 包管理器，因此需要将 &lt;code&gt;dnf&lt;/code&gt; 替换成 &lt;code&gt;yum&lt;/code&gt; 才可用。&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Arch&amp;#x2F;Majaro 系&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yay -S conan&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;注意：请确保你的 Arch&amp;#x2F;Majaro 系已经安装了 &lt;code&gt;yay&lt;/code&gt; 包管理工具！&lt;/em&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class=&#34;note-large blue&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-book&#34;&gt;&lt;/i&gt;&lt;p&gt;安装事项（引用自官方文档）&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;请仔细阅读：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;请确保您的 pip 安装与 Python (&amp;gt;&amp;#x3D; 3.6) 版本相匹配。&lt;/li&gt;
+&lt;li&gt;在 Linux 上，您可能需要 sudo 权限才能全局安装 Conan。&lt;/li&gt;
+&lt;li&gt;我们强烈建议使用 virtualenvs（virtualenvwrapper 非常好用）来处理与 Python 有关的一切（请查看 &lt;a class=&#34;link&#34;   href=&#34;https://virtualenvwrapper.readthedocs.io/en/stable/&#34; &gt;https://virtualenvwrapper.readthedocs.io/en/stable/&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 或 Windows 上的 &lt;a class=&#34;link&#34;   href=&#34;https://pypi.org/project/virtualenvwrapper-win&#34; &gt;https://pypi.org/project/virtualenvwrapper-win&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; ）。对于 Python 3，也可以使用内置模块（请查看 &lt;a class=&#34;link&#34;   href=&#34;https://docs.python.org/3/library/venv.html&#34; &gt;https://docs.python.org/3/library/venv.html&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; ）。如果不使用 virtualenv，conan 依赖项可能会与先前存在的依赖项发生冲突，尤其是当您将 Python 用于其他用途时。&lt;/li&gt;
+&lt;li&gt;在 macOS 上，尤其是可能有系统完整性保护的最新版本，pip 可能会失败。请尝试使用 &lt;code&gt;virtualenvs&lt;/code&gt;，或使用 &lt;code&gt;pip install --user conan&lt;/code&gt; 将其安装到 Python 用户的安装目录中。&lt;/li&gt;
+&lt;li&gt;有些 Linux 发行版（如 Linux Mint）要求在安装后重启（shell 重启，如果不够，则注销&amp;#x2F;系统），因此 Conan 会在路径中找到。&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;安装包下载&#34;&gt;&lt;a href=&#34;#安装包下载&#34; class=&#34;headerlink&#34; title=&#34;安装包下载&#34;&gt;&lt;/a&gt;安装包下载&lt;/h2&gt;&lt;p&gt;如果没有安装 Python，请直接通过 &lt;a class=&#34;link&#34;   href=&#34;https://github.com/conan-io/conan/releases&#34; &gt;github.com&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 下载对应操作系统的安装包即可。&lt;/p&gt;
+&lt;h2 id=&#34;验证方法&#34;&gt;&lt;a href=&#34;#验证方法&#34; class=&#34;headerlink&#34; title=&#34;验证方法&#34;&gt;&lt;/a&gt;验证方法&lt;/h2&gt;&lt;p&gt;如果要检查是否已经安装了 Conan，请直接执行如下命令即可：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan --&lt;span class=&#34;built_in&#34;&gt;help&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;conan --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;使用方法&#34;&gt;&lt;a href=&#34;#使用方法&#34; class=&#34;headerlink&#34; title=&#34;使用方法&#34;&gt;&lt;/a&gt;使用方法&lt;/h1&gt;&lt;h2 id=&#34;必要配置&#34;&gt;&lt;a href=&#34;#必要配置&#34; class=&#34;headerlink&#34; title=&#34;必要配置&#34;&gt;&lt;/a&gt;必要配置&lt;/h2&gt;&lt;h3 id=&#34;修改必要目录&#34;&gt;&lt;a href=&#34;#修改必要目录&#34; class=&#34;headerlink&#34; title=&#34;修改必要目录&#34;&gt;&lt;/a&gt;修改必要目录&lt;/h3&gt;&lt;p&gt;以 Windows 系统为例，Windows 系统在默认情况下会将所有缓存下载及配置文件存放入 &lt;code&gt;C:\Users\&amp;#123;你的用户名&amp;#125;\.conan2&lt;/code&gt;。为了尽量减少 C 盘存储空间的压力，建议直接添加必要的环境变量以达到修改配置缓存目录的目的。具体操作如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在电脑上新建自定义目录（这里以 &lt;code&gt;D:/conan&lt;/code&gt; 目录为例）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在自己的电脑上按下 &lt;kbd&gt;Windows&lt;/kbd&gt;+&lt;kbd&gt;X&lt;/kbd&gt; 快捷键，按下 &lt;code&gt;Y&lt;/code&gt; 以选择&lt;strong&gt;系统&lt;/strong&gt;。在系统信息一栏中找到&lt;strong&gt;高级系统设置&lt;/strong&gt;。&lt;br&gt;在弹出的窗口中按照如下图指示添加两个用户变量 &lt;code&gt;CONAN_HOME&lt;/code&gt; 和 &lt;code&gt;CONAN_USER_HOME&lt;/code&gt; 即可：&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/env_config.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;保存之后，打开自己的命令行，执行如下命令，以查看是否成功修改了自定义路径。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan config home&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;当输出为你的自定义目录即可完成修改。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;生成自己的配置文件&#34;&gt;&lt;a href=&#34;#生成自己的配置文件&#34; class=&#34;headerlink&#34; title=&#34;生成自己的配置文件&#34;&gt;&lt;/a&gt;生成自己的配置文件&lt;/h3&gt;&lt;p&gt;在命令行下，执行如下命令，Conan 会自动生成一份配置文件。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan profile detect&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;若已经生成了配置文件，执行如下命令即可显示当前主机的配置文件。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan profile show&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Ini&#34;&gt;&lt;figure class=&#34;iseeu highlight ini&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;;主机配置文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Host profile:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;section&#34;&gt;[settings]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;arch&lt;/span&gt;=x&lt;span class=&#34;number&#34;&gt;86_64&lt;/span&gt;                   &lt;span class=&#34;comment&#34;&gt;;系统架构&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;build_type&lt;/span&gt;=Release            &lt;span class=&#34;comment&#34;&gt;;构建类型：Debug/Release&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;compiler&lt;/span&gt;=msvc                 &lt;span class=&#34;comment&#34;&gt;;编译器: msvc/gcc&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;compiler.cppstd&lt;/span&gt;=&lt;span class=&#34;number&#34;&gt;17&lt;/span&gt;            &lt;span class=&#34;comment&#34;&gt;;C++ 标准&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;compiler.runtime&lt;/span&gt;=dynamic      &lt;span class=&#34;comment&#34;&gt;;编译器运行时库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;compiler.runtime_type&lt;/span&gt;=Release &lt;span class=&#34;comment&#34;&gt;;编译器运行时类型&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;compiler.version&lt;/span&gt;=&lt;span class=&#34;number&#34;&gt;194&lt;/span&gt;          &lt;span class=&#34;comment&#34;&gt;;编译器版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;os&lt;/span&gt;=Windows                    &lt;span class=&#34;comment&#34;&gt;;操作系统&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;;构建机配置文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Build profile:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;....&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;关于配置文件的位置，一般情况下，通过命令行即可查看配置文件所在的路径：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan profile list &lt;span class=&#34;comment&#34;&gt;# 获取所有的配置文件名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan profile path default &lt;span class=&#34;comment&#34;&gt;# default：配置文件名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;示例：使用-Conan-导入第三方库&#34;&gt;&lt;a href=&#34;#示例：使用-Conan-导入第三方库&#34; class=&#34;headerlink&#34; title=&#34;示例：使用 Conan 导入第三方库&#34;&gt;&lt;/a&gt;示例：使用 Conan 导入第三方库&lt;/h2&gt;&lt;p&gt;在自己的 C++ 项目里，如果需要使用 Conan 包管理器来实现导入第三方库，需要做以下几个步骤：&lt;/p&gt;
+&lt;h3 id=&#34;创建新的-C-项目&#34;&gt;&lt;a href=&#34;#创建新的-C-项目&#34; class=&#34;headerlink&#34; title=&#34;创建新的 C++ 项目&#34;&gt;&lt;/a&gt;创建新的 C++ 项目&lt;/h3&gt;&lt;p&gt;举个例子：新建一个项目（名为 &lt;code&gt;MyJson&lt;/code&gt;），并在项目里导入 &lt;code&gt;Json&lt;/code&gt; 第三方库，其对应的 &lt;code&gt;CMakeLists.txt&lt;/code&gt; 文件如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Cmake&#34;&gt;&lt;figure class=&#34;iseeu highlight cmake&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;cmake_minimum_required&lt;/span&gt;(VERSION &lt;span class=&#34;number&#34;&gt;3.30&lt;/span&gt;)  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;project&lt;/span&gt;(MyJson)  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;find_package&lt;/span&gt;(nlohmann_json REQUIRED)  &lt;span class=&#34;comment&#34;&gt;# 在项目中导入所需的第三方包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;set&lt;/span&gt;(CMAKE_CXX_STANDARD &lt;span class=&#34;number&#34;&gt;17&lt;/span&gt;)  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;add_executable&lt;/span&gt;(MyJson main.cpp)  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;target_link_libraries&lt;/span&gt;(MyJson nlohmann_json::nlohmann_json)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;在 &lt;code&gt;main.cpp&lt;/code&gt; 文件下，编辑以下内容：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Cpp&#34;&gt;&lt;figure class=&#34;iseeu highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;nlohmann/json.hpp&amp;gt;&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;auto&lt;/span&gt; my_json = &lt;span class=&#34;string&#34;&gt;R&amp;quot;(  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;	  &amp;#123;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;	    &amp;quot;host&amp;quot;: &amp;quot;127.0.0.1&amp;quot;,    &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;	    &amp;quot;port&amp;quot;: 8000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;	  &amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;	)&amp;quot;&lt;/span&gt;;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;auto&lt;/span&gt; parse = nlohmann::json::&lt;span class=&#34;built_in&#34;&gt;parse&lt;/span&gt;(my_json);  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    std::cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Your host: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; parse[&lt;span class=&#34;string&#34;&gt;&amp;quot;host&amp;quot;&lt;/span&gt;].&lt;span class=&#34;built_in&#34;&gt;get&lt;/span&gt;&amp;lt;std::string&amp;gt;() &amp;lt;&amp;lt; std::endl;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    std::cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Your port: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; parse[&lt;span class=&#34;string&#34;&gt;&amp;quot;port&amp;quot;&lt;/span&gt;].&lt;span class=&#34;built_in&#34;&gt;get&lt;/span&gt;&amp;lt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt;&amp;gt;() &amp;lt;&amp;lt; std::endl;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;编写-Conanfile-文件&#34;&gt;&lt;a href=&#34;#编写-Conanfile-文件&#34; class=&#34;headerlink&#34; title=&#34;编写 Conanfile 文件&#34;&gt;&lt;/a&gt;编写 Conanfile 文件&lt;/h3&gt;&lt;p&gt;为了添加所需要的第三方库，你需要在项目源目录下新建 &lt;code&gt;conanfile.txt&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[requires]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;nlohmann_json/3.11.3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[generators]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;CMakeDeps&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;CMakeToolchain&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[layout]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cmake_layout&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;下载与安装第三方库&#34;&gt;&lt;a href=&#34;#下载与安装第三方库&#34; class=&#34;headerlink&#34; title=&#34;下载与安装第三方库&#34;&gt;&lt;/a&gt;下载与安装第三方库&lt;/h3&gt;&lt;p&gt;接下来，在自己的项目源目录下打开命令行，下载并安装需要的包。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conan install . --build=missing [--output-folder=build]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;这里的 &lt;code&gt;--build=missing&lt;/code&gt; 用于检查 Conan 是否安装第三方库，（若没有，则自动下载安装）&lt;br&gt;这里的 &lt;code&gt;--output-folder&lt;/code&gt; （可选参数）为输出的路径，这里默认为 &lt;code&gt;build&lt;/code&gt; 目录。&lt;/p&gt;
+&lt;h3 id=&#34;编译项目&#34;&gt;&lt;a href=&#34;#编译项目&#34; class=&#34;headerlink&#34; title=&#34;编译项目&#34;&gt;&lt;/a&gt;编译项目&lt;/h3&gt;&lt;p&gt;在命令行下执行如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; build&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Windows 下执行：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cmake .. -DCMAKE_TOOLCHAIN_FILE=&lt;span class=&#34;string&#34;&gt;&amp;quot;./generators/conan_toolchain.cmake&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# Linux 下执行：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cmake .. -DCMAKE_TOOLCHAIN_FILE=&lt;span class=&#34;string&#34;&gt;&amp;quot;./Release/generators/conan_toolchain.cmake&amp;quot;&lt;/span&gt; -DCMAKE_BUILD_TYPE=Release&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 其它 OS 可能未测试&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;当能正常看到以下提示时，表示构建已完成。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;....&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- Conan: Target declared &amp;#x27;nlohmann_json::nlohmann_json&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- Configuring done (5.6s)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- Generating done (0.0s)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- Build files have been written to: D:/MyJson/build&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;假如出现以下报错（找不到第三方库）的情况：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;CMake Error at CMakeLists.txt:4 (find_package):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  By not providing &amp;quot;Findnlohmann_json.cmake&amp;quot; in CMAKE_MODULE_PATH this&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  project has asked CMake to find a package configuration file provided by&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;quot;nlohmann_json&amp;quot;, but CMake did not find one.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    nlohmann_jsonConfig.cmake&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    nlohmann_json-config.cmake&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  Add the installation prefix of &amp;quot;nlohmann_json&amp;quot; to CMAKE_PREFIX_PATH or set&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;quot;nlohmann_json&amp;quot; provides a separate development package or SDK, be sure it&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  has been installed.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- Configuring incomplete, errors occurred!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;建议直接将原有的 &lt;code&gt;build&lt;/code&gt; 目录删除，并再次在&lt;strong&gt;项目源目录下&lt;/strong&gt;执行以下命令以再次生成 &lt;code&gt;build&lt;/code&gt; 目录即可。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd ..&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# rm -rf build # Linux / Mac 下执行&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# rm build -R  # Windows 下执行&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;conan install . --build=missing&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;运行程序&#34;&gt;&lt;a href=&#34;#运行程序&#34; class=&#34;headerlink&#34; title=&#34;运行程序&#34;&gt;&lt;/a&gt;运行程序&lt;/h3&gt;&lt;p&gt;完成上述构建之后，在 &lt;code&gt;build&lt;/code&gt; 目录下执行以下命令以编译程序即可。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cmake --build . --config Release&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;在 Windows 系统下，如果你使用的是 MSVC 编译器，直接执行如下：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;./Release/MyJson.exe&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;在 Linux 系统下，执行：&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;./MyJson&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;若能正常显示如下输出结果即可。&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Your host: 127.0.0.1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Your port: 8000&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+&lt;h1 id=&#34;IDE-工具下使用-Conan&#34;&gt;&lt;a href=&#34;#IDE-工具下使用-Conan&#34; class=&#34;headerlink&#34; title=&#34;IDE 工具下使用 Conan&#34;&gt;&lt;/a&gt;IDE 工具下使用 Conan&lt;/h1&gt;&lt;p&gt;以目前作者的了解，对于不同的 IDE，有不同的安装与编译方式，这里讲以下几种：&lt;/p&gt;
+&lt;h2 id=&#34;Visual-Studio&#34;&gt;&lt;a href=&#34;#Visual-Studio&#34; class=&#34;headerlink&#34; title=&#34;Visual Studio&#34;&gt;&lt;/a&gt;Visual Studio&lt;/h2&gt;&lt;h3 id=&#34;1-安装插件&#34;&gt;&lt;a href=&#34;#1-安装插件&#34; class=&#34;headerlink&#34; title=&#34;1. 安装插件&#34;&gt;&lt;/a&gt;1. 安装插件&lt;/h3&gt;&lt;p&gt;在菜单栏中选择 &lt;strong&gt;扩展 → 管理扩展&lt;/strong&gt;，并在搜索栏中搜索 Conan，按照如下图安装即可。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_vs.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;当弹出以下窗口时，点击 【Modify】进行安装，&lt;strong&gt;在此安装期间，请关闭 IDE！&lt;/strong&gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_vs_2.jpg&#34;
+                     
+                &gt;&lt;br&gt;当安装已经完成后，再次打开 IDE 即可。&lt;/p&gt;
+&lt;h3 id=&#34;2-添加第三方库&#34;&gt;&lt;a href=&#34;#2-添加第三方库&#34; class=&#34;headerlink&#34; title=&#34;2. 添加第三方库&#34;&gt;&lt;/a&gt;2. 添加第三方库&lt;/h3&gt;&lt;p&gt;按如下图所示，在菜单栏中打开 Conan 软件包管理窗口。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_vs_3.jpg&#34;
+                     
+                &gt;&lt;br&gt;再按照如下图所示，点击 【设置】图标，选择使用系统 Conan 即可。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_vs_4.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;完成设置后，打开自己的项目，在 Conan 软件包管理窗口下，搜索要安装入项目的软件包并添加项目即可。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_vs_5.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-使用&#34;&gt;&lt;a href=&#34;#3-使用&#34; class=&#34;headerlink&#34; title=&#34;3. 使用&#34;&gt;&lt;/a&gt;3. 使用&lt;/h3&gt;&lt;p&gt;关于使用，每次添加或删除，你需要在自己的项目中，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先执行菜单栏中的&lt;strong&gt;生成 → 清理解决方案&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;再执行菜单栏中的&lt;strong&gt;生成 → 生成解决方案&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;最后尝试调试你的项目即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;注意：Visual Studio 下只支持使用 MSBuild 类型的项目，不支持使用 CMake 类型的项目。&lt;/strong&gt;&lt;br&gt;&lt;del class=&#34;mask&#34;&gt;（此处别问为什么？是插件告诉我的 (&amp;#x2F;_ \) ）&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Jetbrain-CLion&#34;&gt;&lt;a href=&#34;#Jetbrain-CLion&#34; class=&#34;headerlink&#34; title=&#34;Jetbrain CLion&#34;&gt;&lt;/a&gt;Jetbrain CLion&lt;/h2&gt;&lt;h3 id=&#34;1-安装插件-1&#34;&gt;&lt;a href=&#34;#1-安装插件-1&#34; class=&#34;headerlink&#34; title=&#34;1. 安装插件&#34;&gt;&lt;/a&gt;1. 安装插件&lt;/h3&gt;&lt;p&gt;若要在 CLion 下使用 Conan，请直接下载并安装插件 Conan。具体点击 &lt;strong&gt;文件 → 设置 → 插件&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安装插件后，请直接重启 IDE。&lt;/p&gt;
+&lt;h3 id=&#34;2-添加所需的第三方库&#34;&gt;&lt;a href=&#34;#2-添加所需的第三方库&#34; class=&#34;headerlink&#34; title=&#34;2. 添加所需的第三方库&#34;&gt;&lt;/a&gt;2. 添加所需的第三方库&lt;/h3&gt;&lt;p&gt;按照如下图所示的操作进行：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_clion.jpg&#34;
+                     
+                &gt;&lt;br&gt;&lt;em&gt;需要注意：这里的项目必须要包含 &lt;code&gt;conan_provider.cmake&lt;/code&gt; 文件（自动生成的文件），否则 CLion 将无法正常编译！&lt;/em&gt;&lt;br&gt;具体方式，即点击如下图的刷新按钮，文件会自动生成。如果没有反应，请反复重试或直接重启 IDE。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_clion_2.jpg&#34;
+                     
+                &gt;&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_clion_3.jpg&#34;
+                     
+                &gt;&lt;br&gt;关于安装，请直接在搜索栏中搜索要安装的第三方库，并点击 【Use in Project】 即可。&lt;br&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_clion_4.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-使用-1&#34;&gt;&lt;a href=&#34;#3-使用-1&#34; class=&#34;headerlink&#34; title=&#34;3. 使用&#34;&gt;&lt;/a&gt;3. 使用&lt;/h3&gt;&lt;p&gt;安装完对应的第三方库， 你还需要在自己的项目里（即：&lt;code&gt;CMakeLists.txt&lt;/code&gt; 文件）导入第三方库才能使用，具体见上文中的[示例：创建新的 C++ 项目](#创建新的 C++ 项目) 。&lt;/p&gt;
+&lt;h2 id=&#34;Qt-Creator&#34;&gt;&lt;a href=&#34;#Qt-Creator&#34; class=&#34;headerlink&#34; title=&#34;Qt Creator&#34;&gt;&lt;/a&gt;Qt Creator&lt;/h2&gt;&lt;h3 id=&#34;1-激活插件&#34;&gt;&lt;a href=&#34;#1-激活插件&#34; class=&#34;headerlink&#34; title=&#34;1. 激活插件&#34;&gt;&lt;/a&gt;1. 激活插件&lt;/h3&gt;&lt;p&gt;在左边的插件，搜索 Conan 并激活，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_qt.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-配置&#34;&gt;&lt;a href=&#34;#2-配置&#34; class=&#34;headerlink&#34; title=&#34;2. 配置&#34;&gt;&lt;/a&gt;2. 配置&lt;/h3&gt;&lt;p&gt;点击你的项目，在如下图操作中添加构建步骤，选择 &lt;code&gt;conan install&lt;/code&gt; 选项。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34;  
+                     lazyload
+                     src=&#34;/images/loading.svg&#34;
+                     data-src=&#34;/images/2025/04/conan_qt_2.jpg&#34;
+                     
+                &gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;需要注意的是：Qt Creator 对于每一个项目，你都需要在项目源目录下单独新建一个 &lt;code&gt;conanfile.txt&lt;/code&gt; 或 &lt;code&gt;conanfile.py&lt;/code&gt; 文件才能正确编译。否则会提示找不到文件！&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;参考链接&#34;&gt;&lt;a href=&#34;#参考链接&#34; class=&#34;headerlink&#34; title=&#34;参考链接&#34;&gt;&lt;/a&gt;参考链接&lt;/h1&gt;&lt;p&gt;Conan 官方文档说明如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://docs.conan.io/2/installation.html&#34; &gt;Install — conan 2.15.0 documentation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://docs.conan.io/2/tutorial/consuming_packages/build_simple_cmake_project.html&#34; &gt;Build a simple CMake project using Conan — conan 2.15.0 documentation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有关于 IDE 配置 Conan 的官方文档如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://marketplace.visualstudio.com/items?itemName=conan-io.conan-vs-extension&#34; &gt;Conan Extension for Visual Studio - Visual Studio Marketplace&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jetbrains.com/help/clion/conan-plugin.html&#34; &gt;Conan plugin | CLion Documentation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://doc.qt.io/qtcreator/creator-project-conan.html&#34; &gt;Conan Package Manager | Qt Creator Documentation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="Python" />
+        <category term="C_and_Cpp" />
+        <category term="Conan" />
+        <category term="📦包管理工具" />
+        <updated>2025-04-12T06:02:29.000Z</updated>
+    </entry>
+</feed>

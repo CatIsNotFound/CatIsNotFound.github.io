@@ -11,36 +11,38 @@
     <category term="新手向" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="博客搭建" />
-    <category term="软件安利" />
+    <category term="更新日志" />
     <category term="Git" />
     <category term="Github" />
+    <category term="博客搭建" />
     <category term="Hexo" />
+    <category term="软件安利" />
     <category term="Android" />
     <category term="Windows" />
-    <category term="Waline" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="解题历程" />
-    <category term="刷题" />
-    <category term="答疑解惑" />
-    <category term="更新日志" />
-    <category term="Switch" />
-    <category term="Youtube" />
-    <category term="任天堂" />
-    <category term="油管" />
     <category term="系统体验" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
-    <category term="oh-my-zsh" />
+    <category term="Waline" />
     <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
+    <category term="Switch" />
     <category term="Nintendo" />
+    <category term="任天堂" />
     <category term="游戏机" />
-    <category term="Codeforces" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="Youtube" />
+    <category term="油管" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="oh-my-zsh" />
+    <category term="Conan" />
+    <category term="📦包管理工具" />
     <category term="记录日常" />
     <category term="年终总结" />
+    <category term="Codeforces" />
     <category term="Jetbrain" />
     <category term="CLion" />
     <entry>
@@ -98,8 +100,8 @@
 &lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
 </content>
         <category term="Switch" />
-        <category term="任天堂" />
         <category term="Nintendo" />
+        <category term="任天堂" />
         <category term="游戏机" />
         <updated>2024-10-24T11:42:29.000Z</updated>
     </entry>
