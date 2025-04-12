@@ -8,46 +8,46 @@
         <pubDate>Sat, 12 Apr 2025 14:02:29 +0800</pubDate>
         <lastBuildDate>Sat, 12 Apr 2025 14:02:29 +0800</lastBuildDate>
         <category>Linux</category>
-        <category>Ubuntu</category>
-        <category>GNOME</category>
-        <category>桌面环境</category>
-        <category>新手向</category>
-        <category>Python</category>
-        <category>学习笔记</category>
-        <category>更新日志</category>
         <category>Git</category>
+        <category>更新日志</category>
+        <category>Ubuntu</category>
+        <category>桌面环境</category>
+        <category>GNOME</category>
         <category>Github</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>软件安利</category>
-        <category>Android</category>
-        <category>Windows</category>
-        <category>系统体验</category>
-        <category>Pop_OS!</category>
-        <category>Cosmic</category>
         <category>Waline</category>
+        <category>Windows</category>
+        <category>新手向</category>
         <category>WSL</category>
         <category>关于博客</category>
         <category>脚本</category>
+        <category>Python</category>
+        <category>学习笔记</category>
+        <category>系统体验</category>
+        <category>Android</category>
+        <category>软件安利</category>
+        <category>💡解题</category>
+        <category>C_and_Cpp</category>
+        <category>解题历程</category>
+        <category>刷题</category>
+        <category>答疑解惑</category>
+        <category>Pop_OS!</category>
+        <category>Cosmic</category>
         <category>Switch</category>
         <category>Nintendo</category>
         <category>任天堂</category>
         <category>游戏机</category>
-        <category>💡解题</category>
-        <category>C_and_Cpp</category>
-        <category>解题历程</category>
+        <category>oh-my-zsh</category>
         <category>Youtube</category>
         <category>油管</category>
-        <category>刷题</category>
-        <category>答疑解惑</category>
-        <category>oh-my-zsh</category>
-        <category>Conan</category>
-        <category>📦包管理工具</category>
+        <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
-        <category>Codeforces</category>
         <category>Jetbrain</category>
         <category>CLion</category>
+        <category>Conan</category>
+        <category>📦包管理工具</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2025/04/Conan-Easy-2-use/</guid>
             <title>Conan 简要用法（包含 IDE）</title>
@@ -72,7 +72,7 @@
 
     &lt;/div&gt;
     &lt;div class=&#34;notel-content&#34;&gt;
-      &lt;p&gt;关于 Linux 系统，即使预装了 Python，但也可能还需要安装 &lt;code&gt;python3-pip&lt;/code&gt; 软件包才能使用 &lt;code&gt;pip3&lt;/code&gt; 命令。具体命令如下：&lt;/p&gt;
+      &lt;p&gt;对于不同的 Linux 发行版，对应的安装命令如下：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Debian&amp;#x2F;Ubuntu 系&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget https://github.com/conan-io/conan/releases/download/2.15.0/conan-2.15.0-amd64.deb &lt;span class=&#34;comment&#34;&gt;# 这里的 2.15.0 可以替换为其它最新的版本号&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;sudo&lt;/span&gt; dpkg -i conan*.deb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;注意：Debian&amp;#x2F;Ubuntu 系下需要通过&lt;a href=&#34;#%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;安装包下载&lt;/a&gt;的方式进行安装！&lt;/em&gt;&lt;/p&gt;
@@ -82,6 +82,8 @@
 &lt;p&gt;&lt;strong&gt;Arch&amp;#x2F;Majaro 系&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yay -S conan&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;注意：请确保你的 Arch&amp;#x2F;Majaro 系已经安装了 &lt;code&gt;yay&lt;/code&gt; 包管理工具！&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;openSUSE 系&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;code-container&#34; data-rel=&#34;Bash&#34;&gt;&lt;figure class=&#34;iseeu highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;zypper install python3-pip&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;python3-pip install conan&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -265,6 +267,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://marketplace.visualstudio.com/items?itemName=conan-io.conan-vs-extension&#34; &gt;Conan Extension for Visual Studio - Visual Studio Marketplace&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://www.jetbrains.com/help/clion/conan-plugin.html&#34; &gt;Conan plugin | CLion Documentation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://doc.qt.io/qtcreator/creator-project-conan.html&#34; &gt;Conan Package Manager | Qt Creator Documentation&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其它参考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34;   href=&#34;https://stackoverflow.com/questions/62997869/how-to-install-conan-package-manager-on-opensuse-tumbleweed-the-most-correct-way&#34; &gt;How to install Conan package manager on openSUSE Tumbleweed the most correct way? - StackOverflow&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
@@ -1337,9 +1343,9 @@
             <title>[折腾日记] Oh-my-zsh 哦~我那好用的终端</title>
             <link>https://catisnotfound.github.io/2024/11/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0-Oh-my-zsh-%E5%93%A6-%E6%88%91%E9%82%A3%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BB%88%E7%AB%AF/</link>
             <category>Linux</category>
-            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
+            <category>新手向</category>
             <category>WSL</category>
             <category>oh-my-zsh</category>
             <pubDate>Wed, 27 Nov 2024 11:58:30 +0800</pubDate>
@@ -2000,9 +2006,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
             <title>[答疑解惑] 关于 Github 的问题解决方法</title>
             <link>https://catisnotfound.github.io/2024/09/%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94-%E5%85%B3%E4%BA%8E-Github-%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
-            <category>新手向</category>
             <category>Git</category>
             <category>Github</category>
+            <category>新手向</category>
             <category>答疑解惑</category>
             <pubDate>Sun, 01 Sep 2024 12:48:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;img loading=&#34;lazy&#34;  
@@ -2301,9 +2307,9 @@
             <guid isPermalink="true">https://catisnotfound.github.io/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
             <title>[软件安利] Windows 软件推荐，使电脑更容易使用</title>
             <link>https://catisnotfound.github.io/2024/08/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%80%BC%E5%BE%97%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
+            <category>Windows</category>
             <category>新手向</category>
             <category>软件安利</category>
-            <category>Windows</category>
             <pubDate>Thu, 01 Aug 2024 15:41:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 提示:&lt;/strong&gt; &lt;/p&gt;
@@ -2513,8 +2519,8 @@
             <title>系统体验：虚拟机安装 Android x86 系统</title>
             <link>https://catisnotfound.github.io/2024/06/%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85-Android-x86-%E7%B3%BB%E7%BB%9F/</link>
             <category>新手向</category>
-            <category>Android</category>
             <category>系统体验</category>
+            <category>Android</category>
             <pubDate>Sat, 15 Jun 2024 16:32:59 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文主要介绍了 Android x86 系统的安装、使用、体验等。如果你对 Android x86 系统感兴趣，可以参考下面的内容。(*^_^*)&lt;/p&gt;
 
@@ -3407,8 +3413,8 @@
             <title>WSL：一个适用于 Windows 的 Linux 子系统</title>
             <link>https://catisnotfound.github.io/2024/06/WSL%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E7%94%A8%E4%BA%8E-Windows-%E7%9A%84-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
-            <category>新手向</category>
             <category>Windows</category>
+            <category>新手向</category>
             <category>WSL</category>
             <pubDate>Thu, 06 Jun 2024 17:03:20 +0800</pubDate>
             <description><![CDATA[ 
@@ -4839,8 +4845,8 @@ B -- False --&gt; 执行语句2
             <category>Github</category>
             <category>博客搭建</category>
             <category>Hexo</category>
-            <category>软件安利</category>
             <category>Android</category>
+            <category>软件安利</category>
             <pubDate>Mon, 27 May 2024 10:18:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo 博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。&lt;/p&gt;
 &lt;h1 id=&#34;备份博客存档&#34;&gt;&lt;a href=&#34;#备份博客存档&#34; class=&#34;headerlink&#34; title=&#34;备份博客存档&#34;&gt;&lt;/a&gt;备份博客存档&lt;/h1&gt;&lt;p&gt;首先，在利用手机之前，首先就是在自己的电脑上&lt;strong&gt;备份自己的博客&lt;/strong&gt;。&lt;/p&gt;
@@ -4972,9 +4978,9 @@ B -- False --&gt; 执行语句2
             <guid isPermalink="true">https://catisnotfound.github.io/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</guid>
             <title>软件安利：安利几款在 Microsoft Store 上的软件</title>
             <link>https://catisnotfound.github.io/2024/05/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9-%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%9C%A8-Microsoft-Store-%E4%B8%8A%E7%9A%84%E8%BD%AF%E4%BB%B6/</link>
+            <category>Windows</category>
             <category>新手向</category>
             <category>软件安利</category>
-            <category>Windows</category>
             <pubDate>Sun, 26 May 2024 00:30:20 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a href=&#34;#概述&#34; class=&#34;headerlink&#34; title=&#34;概述&#34;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;本篇将推荐从 Microsoft Store 上的软件，请根据自己的需要，按照如下分类进行选择。&lt;/p&gt;
 &lt;p&gt;如果你有更好的推荐，请在评论区补充。O(∩_∩)O&lt;/p&gt;
@@ -5180,8 +5186,8 @@ B -- False --&gt; 执行语句2
             <link>https://catisnotfound.github.io/2024/05/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E7%86%9F%E6%82%89-GNOME-%E6%A1%8C%E9%9D%A2/</link>
             <category>Linux</category>
             <category>Ubuntu</category>
-            <category>GNOME</category>
             <category>桌面环境</category>
+            <category>GNOME</category>
             <category>新手向</category>
             <pubDate>Fri, 03 May 2024 23:59:02 +0800</pubDate>
             <description><![CDATA[ 
@@ -5402,8 +5408,8 @@ B -- False --&gt; 执行语句2
             <link>https://catisnotfound.github.io/2024/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E5%AD%A6-Linux-%E5%AE%89%E8%A3%85-Ubuntu-24-04-LTS-%E7%B3%BB%E7%BB%9F/</link>
             <category>Linux</category>
             <category>Ubuntu</category>
-            <category>GNOME</category>
             <category>桌面环境</category>
+            <category>GNOME</category>
             <pubDate>Fri, 26 Apr 2024 23:59:00 +0800</pubDate>
             <description><![CDATA[ 
   &lt;div class=&#34;note-large regular&#34;&gt;

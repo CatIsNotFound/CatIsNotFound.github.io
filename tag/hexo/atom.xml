@@ -5,46 +5,46 @@
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-05-27T02:18:00.000Z</updated>
     <category term="Linux" />
-    <category term="Ubuntu" />
-    <category term="GNOME" />
-    <category term="桌面环境" />
-    <category term="新手向" />
-    <category term="Python" />
-    <category term="学习笔记" />
-    <category term="更新日志" />
     <category term="Git" />
+    <category term="更新日志" />
+    <category term="Ubuntu" />
+    <category term="桌面环境" />
+    <category term="GNOME" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="软件安利" />
-    <category term="Android" />
-    <category term="Windows" />
-    <category term="系统体验" />
-    <category term="Pop_OS!" />
-    <category term="Cosmic" />
     <category term="Waline" />
+    <category term="Windows" />
+    <category term="新手向" />
     <category term="WSL" />
     <category term="关于博客" />
     <category term="脚本" />
+    <category term="Python" />
+    <category term="学习笔记" />
+    <category term="系统体验" />
+    <category term="Android" />
+    <category term="软件安利" />
+    <category term="💡解题" />
+    <category term="C_and_Cpp" />
+    <category term="解题历程" />
+    <category term="刷题" />
+    <category term="答疑解惑" />
+    <category term="Pop_OS!" />
+    <category term="Cosmic" />
     <category term="Switch" />
     <category term="Nintendo" />
     <category term="任天堂" />
     <category term="游戏机" />
-    <category term="💡解题" />
-    <category term="C_and_Cpp" />
-    <category term="解题历程" />
+    <category term="oh-my-zsh" />
     <category term="Youtube" />
     <category term="油管" />
-    <category term="刷题" />
-    <category term="答疑解惑" />
-    <category term="oh-my-zsh" />
-    <category term="Conan" />
-    <category term="📦包管理工具" />
+    <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
-    <category term="Codeforces" />
     <category term="Jetbrain" />
     <category term="CLion" />
+    <category term="Conan" />
+    <category term="📦包管理工具" />
     <entry>
         <id>https://catisnotfound.github.io/2024/05/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E7%94%A8%E6%89%8B%E6%9C%BA%E6%9B%B4%E6%96%B0Hexo%E5%8D%9A%E5%AE%A2/</id>
         <title>搭建个人博客（三）：用 Android 手机更新 Hexo 博客</title>
@@ -178,8 +178,8 @@
         <category term="Github" />
         <category term="博客搭建" />
         <category term="Hexo" />
-        <category term="软件安利" />
         <category term="Android" />
+        <category term="软件安利" />
         <updated>2024-05-27T02:18:00.000Z</updated>
     </entry>
     <entry>
