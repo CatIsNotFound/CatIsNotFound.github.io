@@ -6524,6 +6524,18 @@ B -- False --> 执行语句2
                      data-src="/images/2025/04/conan_clion_4.jpg"
                      
                 ></p>
+
+  <div class="note-large regular">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-solid fa-circle-info"></i><p>补充内容</p>
+
+    </div>
+    <div class="notel-content">
+      <p>关于 <code>conan_provider.cmake</code> 文件，你可以通过从其它项目源目录下复制到自己的项目，也可以通过 <a class="link"   href="https://catisnotfound.lanzouq.com/iTVP92tr63ng" >🔗此链接<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 以尝试下载并复制到自己的项目，然后尝试编译运行。</p>
+
+    </div>
+  </div>
+
 <h3 id="3-使用-1"><a href="#3-使用-1" class="headerlink" title="3. 使用"></a>3. 使用</h3><p>安装完对应的第三方库， 你还需要在自己的项目里（即：<code>CMakeLists.txt</code> 文件）导入第三方库才能使用，具体见上文中的[示例：创建新的 C++ 项目](#创建新的 C++ 项目) 。</p>
 <h2 id="Qt-Creator"><a href="#Qt-Creator" class="headerlink" title="Qt Creator"></a>Qt Creator</h2><h3 id="1-激活插件"><a href="#1-激活插件" class="headerlink" title="1. 激活插件"></a>1. 激活插件</h3><p>在左边的插件，搜索 Conan 并激活，如下图所示：</p>
 <p><img loading="lazy"  

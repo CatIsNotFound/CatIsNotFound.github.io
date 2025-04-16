@@ -241,6 +241,18 @@
                      data-src=&#34;/images/2025/04/conan_clion_4.jpg&#34;
                      
                 &gt;&lt;/p&gt;
+
+  &lt;div class=&#34;note-large regular&#34;&gt;
+    &lt;div class=&#34;notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center&#34;&gt;
+      &lt;i class=&#34;notel-icon fa-solid fa-solid fa-circle-info&#34;&gt;&lt;/i&gt;&lt;p&gt;补充内容&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&#34;notel-content&#34;&gt;
+      &lt;p&gt;关于 &lt;code&gt;conan_provider.cmake&lt;/code&gt; 文件，你可以通过从其它项目源目录下复制到自己的项目，也可以通过 &lt;a class=&#34;link&#34;   href=&#34;https://catisnotfound.lanzouq.com/iTVP92tr63ng&#34; &gt;🔗此链接&lt;i class=&#34;fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon&#34;&gt;&lt;/i&gt;&lt;/a&gt; 以尝试下载并复制到自己的项目，然后尝试编译运行。&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 &lt;h3 id=&#34;3-使用-1&#34;&gt;&lt;a href=&#34;#3-使用-1&#34; class=&#34;headerlink&#34; title=&#34;3. 使用&#34;&gt;&lt;/a&gt;3. 使用&lt;/h3&gt;&lt;p&gt;安装完对应的第三方库， 你还需要在自己的项目里（即：&lt;code&gt;CMakeLists.txt&lt;/code&gt; 文件）导入第三方库才能使用，具体见上文中的[示例：创建新的 C++ 项目](#创建新的 C++ 项目) 。&lt;/p&gt;
 &lt;h2 id=&#34;Qt-Creator&#34;&gt;&lt;a href=&#34;#Qt-Creator&#34; class=&#34;headerlink&#34; title=&#34;Qt Creator&#34;&gt;&lt;/a&gt;Qt Creator&lt;/h2&gt;&lt;h3 id=&#34;1-激活插件&#34;&gt;&lt;a href=&#34;#1-激活插件&#34; class=&#34;headerlink&#34; title=&#34;1. 激活插件&#34;&gt;&lt;/a&gt;1. 激活插件&lt;/h3&gt;&lt;p&gt;在左边的插件，搜索 Conan 并激活，如下图所示：&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34;  
