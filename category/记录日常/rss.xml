@@ -7,54 +7,54 @@
         <language>zh-CN</language>
         <pubDate>Thu, 24 Oct 2024 19:42:29 +0800</pubDate>
         <lastBuildDate>Thu, 24 Oct 2024 19:42:29 +0800</lastBuildDate>
-        <category>Linux</category>
-        <category>Git</category>
         <category>更新日志</category>
+        <category>Linux</category>
         <category>Ubuntu</category>
         <category>桌面环境</category>
         <category>GNOME</category>
+        <category>Git</category>
         <category>Github</category>
         <category>博客搭建</category>
         <category>Hexo</category>
-        <category>Waline</category>
-        <category>Windows</category>
-        <category>新手向</category>
-        <category>WSL</category>
-        <category>关于博客</category>
-        <category>脚本</category>
         <category>Python</category>
         <category>学习笔记</category>
-        <category>系统体验</category>
-        <category>Android</category>
+        <category>新手向</category>
         <category>软件安利</category>
+        <category>Windows</category>
+        <category>Android</category>
+        <category>WSL</category>
+        <category>Waline</category>
+        <category>关于博客</category>
+        <category>脚本</category>
         <category>💡解题</category>
         <category>C_and_Cpp</category>
+        <category>系统体验</category>
         <category>解题历程</category>
         <category>刷题</category>
-        <category>答疑解惑</category>
         <category>Pop_OS!</category>
         <category>Cosmic</category>
+        <category>答疑解惑</category>
         <category>Switch</category>
-        <category>Nintendo</category>
+        <category>Youtube</category>
         <category>任天堂</category>
+        <category>油管</category>
+        <category>Nintendo</category>
         <category>游戏机</category>
         <category>oh-my-zsh</category>
-        <category>Youtube</category>
-        <category>油管</category>
+        <category>Conan</category>
+        <category>📦包管理工具</category>
         <category>Codeforces</category>
         <category>记录日常</category>
         <category>年终总结</category>
         <category>Jetbrain</category>
         <category>CLion</category>
-        <category>Conan</category>
-        <category>📦包管理工具</category>
         <item>
             <guid isPermalink="true">https://catisnotfound.github.io/2024/10/Switch-notes/</guid>
             <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
             <link>https://catisnotfound.github.io/2024/10/Switch-notes/</link>
             <category>Switch</category>
-            <category>Nintendo</category>
             <category>任天堂</category>
+            <category>Nintendo</category>
             <category>游戏机</category>
             <pubDate>Thu, 24 Oct 2024 19:42:29 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;写在最前&#34;&gt;&lt;a href=&#34;#写在最前&#34; class=&#34;headerlink&#34; title=&#34;写在最前&#34;&gt;&lt;/a&gt;写在最前&lt;/h1&gt;&lt;p&gt;2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂&lt;strong&gt;早已停产&lt;/strong&gt;的限定外观主机（宝可梦剑盾）。见下图：&lt;/p&gt;

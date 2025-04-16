@@ -4,47 +4,47 @@
     <title>CatIsNotFound • Posts by &#34;记录日常&#34; category</title>
     <link href="https://CatIsNotFound.github.io" />
     <updated>2024-10-24T11:42:29.000Z</updated>
-    <category term="Linux" />
-    <category term="Git" />
     <category term="更新日志" />
+    <category term="Linux" />
     <category term="Ubuntu" />
     <category term="桌面环境" />
     <category term="GNOME" />
+    <category term="Git" />
     <category term="Github" />
     <category term="博客搭建" />
     <category term="Hexo" />
-    <category term="Waline" />
-    <category term="Windows" />
-    <category term="新手向" />
-    <category term="WSL" />
-    <category term="关于博客" />
-    <category term="脚本" />
     <category term="Python" />
     <category term="学习笔记" />
-    <category term="系统体验" />
-    <category term="Android" />
+    <category term="新手向" />
     <category term="软件安利" />
+    <category term="Windows" />
+    <category term="Android" />
+    <category term="WSL" />
+    <category term="Waline" />
+    <category term="关于博客" />
+    <category term="脚本" />
     <category term="💡解题" />
     <category term="C_and_Cpp" />
+    <category term="系统体验" />
     <category term="解题历程" />
     <category term="刷题" />
-    <category term="答疑解惑" />
     <category term="Pop_OS!" />
     <category term="Cosmic" />
+    <category term="答疑解惑" />
     <category term="Switch" />
-    <category term="Nintendo" />
+    <category term="Youtube" />
     <category term="任天堂" />
+    <category term="油管" />
+    <category term="Nintendo" />
     <category term="游戏机" />
     <category term="oh-my-zsh" />
-    <category term="Youtube" />
-    <category term="油管" />
+    <category term="Conan" />
+    <category term="📦包管理工具" />
     <category term="Codeforces" />
     <category term="记录日常" />
     <category term="年终总结" />
     <category term="Jetbrain" />
     <category term="CLion" />
-    <category term="Conan" />
-    <category term="📦包管理工具" />
     <entry>
         <id>https://catisnotfound.github.io/2024/10/Switch-notes/</id>
         <title>[记事篇] 关于本人使用 Switch 之前与之后的那些事</title>
@@ -100,8 +100,8 @@
 &lt;p&gt;关于后事内容，未完待续….（可能会继续更，也可能不会再更）&lt;/p&gt;
 </content>
         <category term="Switch" />
-        <category term="Nintendo" />
         <category term="任天堂" />
+        <category term="Nintendo" />
         <category term="游戏机" />
         <updated>2024-10-24T11:42:29.000Z</updated>
     </entry>
